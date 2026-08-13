@@ -1,0 +1,804 @@
+{
+  "name": "Spanish Common Words Set 4",
+  "description": "This set is part of a larger collection of flashcards focused on common Spanish words, covering a mix of nouns, verbs, adjectives, and other essential parts of speech.",
+  "cards": [
+    {
+      "word": "semana",
+      "irregularForms": null,
+      "sentence": "Vamos a la playa la próxima semana.",
+      "wordTranslation": "week",
+      "sentenceTranslation": "We are going to the beach next week."
+    },
+    {
+      "word": "mes",
+      "irregularForms": null,
+      "sentence": "El mes de diciembre es frío.",
+      "wordTranslation": "month",
+      "sentenceTranslation": "The month of December is cold."
+    },
+    {
+      "word": "minuto",
+      "irregularForms": null,
+      "sentence": "Espera un minuto, por favor.",
+      "wordTranslation": "minute",
+      "sentenceTranslation": "Wait a minute, please."
+    },
+    {
+      "word": "momento",
+      "irregularForms": null,
+      "sentence": "Este es un momento importante para nosotros.",
+      "wordTranslation": "moment",
+      "sentenceTranslation": "This is an important moment for us."
+    },
+    {
+      "word": "escuela",
+      "irregularForms": null,
+      "sentence": "Mis hijos van a la misma escuela.",
+      "wordTranslation": "school",
+      "sentenceTranslation": "My children go to the same school."
+    },
+    {
+      "word": "gente",
+      "irregularForms": null,
+      "sentence": "Hay mucha gente en la calle hoy.",
+      "wordTranslation": "people",
+      "sentenceTranslation": "There are many people on the street today."
+    },
+    {
+      "word": "madre",
+      "irregularForms": null,
+      "sentence": "Mi madre cocina muy bien.",
+      "wordTranslation": "mother",
+      "sentenceTranslation": "My mother cooks very well."
+    },
+    {
+      "word": "padre",
+      "irregularForms": null,
+      "sentence": "Su padre es muy trabajador.",
+      "wordTranslation": "father",
+      "sentenceTranslation": "His father is very hardworking."
+    },
+    {
+      "word": "hermano",
+      "irregularForms": null,
+      "sentence": "Tengo un hermano mayor.",
+      "wordTranslation": "brother",
+      "sentenceTranslation": "I have an older brother."
+    },
+    {
+      "word": "hermana",
+      "irregularForms": null,
+      "sentence": "Mi hermana vive en otra ciudad.",
+      "wordTranslation": "sister",
+      "sentenceTranslation": "My sister lives in another city."
+    },
+    {
+      "word": "comida",
+      "irregularForms": null,
+      "sentence": "Me gusta la comida italiana.",
+      "wordTranslation": "food",
+      "sentenceTranslation": "I like Italian food."
+    },
+    {
+      "word": "bebida",
+      "irregularForms": null,
+      "sentence": "Necesito una bebida fría.",
+      "wordTranslation": "drink",
+      "sentenceTranslation": "I need a cold drink."
+    },
+    {
+      "word": "muerte",
+      "irregularForms": null,
+      "sentence": "La vida y la muerte son parte del ciclo natural.",
+      "wordTranslation": "death",
+      "sentenceTranslation": "Life and death are part of the natural cycle."
+    },
+    {
+      "word": "mentira",
+      "irregularForms": null,
+      "sentence": "No me digas una mentira, por favor.",
+      "wordTranslation": "lie",
+      "sentenceTranslation": "Don't tell me a lie, please."
+    },
+    {
+      "word": "amor",
+      "irregularForms": null,
+      "sentence": "El amor es el sentimiento más fuerte.",
+      "wordTranslation": "love",
+      "sentenceTranslation": "Love is the strongest feeling."
+    },
+    {
+      "word": "odio",
+      "irregularForms": null,
+      "sentence": "El odio no lleva a ninguna parte.",
+      "wordTranslation": "hate",
+      "sentenceTranslation": "Hate leads nowhere."
+    },
+    {
+      "word": "paz",
+      "irregularForms": null,
+      "sentence": "Queremos vivir en paz.",
+      "wordTranslation": "peace",
+      "sentenceTranslation": "We want to live in peace."
+    },
+    {
+      "word": "guerra",
+      "irregularForms": null,
+      "sentence": "La guerra es devastadora.",
+      "wordTranslation": "war",
+      "sentenceTranslation": "War is devastating."
+    },
+    {
+      "word": "salud",
+      "irregularForms": null,
+      "sentence": "Mi abuela tiene buena salud a sus ochenta años.",
+      "wordTranslation": "health",
+      "sentenceTranslation": "My grandmother has good health at eighty years old."
+    },
+    {
+      "word": "educación",
+      "irregularForms": null,
+      "sentence": "La educación es clave para el futuro.",
+      "wordTranslation": "education",
+      "sentenceTranslation": "Education is key for the future."
+    },
+    {
+      "word": "arte",
+      "irregularForms": null,
+      "sentence": "Le encanta el arte moderno.",
+      "wordTranslation": "art",
+      "sentenceTranslation": "He loves modern art."
+    },
+    {
+      "word": "música",
+      "irregularForms": null,
+      "sentence": "Escucho música todos los días.",
+      "wordTranslation": "music",
+      "sentenceTranslation": "I listen to music every day."
+    },
+    {
+      "word": "película",
+      "irregularForms": null,
+      "sentence": "Anoche vi una película interesante.",
+      "wordTranslation": "movie",
+      "sentenceTranslation": "Last night I watched an interesting movie."
+    },
+    {
+      "word": "deporte",
+      "irregularForms": null,
+      "sentence": "Mi deporte favorito es el fútbol.",
+      "wordTranslation": "sport",
+      "sentenceTranslation": "My favorite sport is soccer."
+    },
+    {
+      "word": "juego",
+      "irregularForms": null,
+      "sentence": "Los niños están jugando un juego de mesa.",
+      "wordTranslation": "game",
+      "sentenceTranslation": "The children are playing a board game."
+    },
+    {
+      "word": "cama",
+      "irregularForms": null,
+      "sentence": "Me gusta leer en la cama antes de dormir.",
+      "wordTranslation": "bed",
+      "sentenceTranslation": "I like to read in bed before sleeping."
+    },
+    {
+      "word": "cocina",
+      "irregularForms": null,
+      "sentence": "La cocina de mi abuela es muy acogedora.",
+      "wordTranslation": "kitchen",
+      "sentenceTranslation": "My grandmother's kitchen is very cozy."
+    },
+    {
+      "word": "baño",
+      "irregularForms": null,
+      "sentence": "El baño está al final del pasillo.",
+      "wordTranslation": "bathroom",
+      "sentenceTranslation": "The bathroom is at the end of the hallway."
+    },
+    {
+      "word": "habitación",
+      "irregularForms": null,
+      "sentence": "Mi habitación tiene vistas al jardín.",
+      "wordTranslation": "room",
+      "sentenceTranslation": "My room has garden views."
+    },
+    {
+      "word": "color",
+      "irregularForms": null,
+      "sentence": "Cuál es tu color favorito?",
+      "wordTranslation": "color",
+      "sentenceTranslation": "What is your favorite color?"
+    },
+    {
+      "word": "sentido",
+      "irregularForms": null,
+      "sentence": "Eso no tiene ningún sentido.",
+      "wordTranslation": "sense / meaning",
+      "sentenceTranslation": "That makes no sense."
+    },
+    {
+      "word": "cultura",
+      "irregularForms": null,
+      "sentence": "Me interesa aprender sobre diferentes culturas.",
+      "wordTranslation": "culture",
+      "sentenceTranslation": "I'm interested in learning about different cultures."
+    },
+    {
+      "word": "ciencia",
+      "irregularForms": null,
+      "sentence": "La ciencia nos ayuda a entender el mundo.",
+      "wordTranslation": "science",
+      "sentenceTranslation": "Science helps us understand the world."
+    },
+    {
+      "word": "tecnología",
+      "irregularForms": null,
+      "sentence": "La nueva tecnología está cambiando nuestras vidas.",
+      "wordTranslation": "technology",
+      "sentenceTranslation": "New technology is changing our lives."
+    },
+    {
+      "word": "política",
+      "irregularForms": null,
+      "sentence": "Ella estudia política en la universidad.",
+      "wordTranslation": "politics",
+      "sentenceTranslation": "She studies politics at university."
+    },
+    {
+      "word": "economía",
+      "irregularForms": null,
+      "sentence": "La economía del país está creciendo.",
+      "wordTranslation": "economy",
+      "sentenceTranslation": "The country's economy is growing."
+    },
+    {
+      "word": "mercado",
+      "irregularForms": null,
+      "sentence": "Vamos al mercado a comprar frutas frescas.",
+      "wordTranslation": "market",
+      "sentenceTranslation": "Let's go to the market to buy fresh fruit."
+    },
+    {
+      "word": "precio",
+      "irregularForms": null,
+      "sentence": "El precio de la gasolina ha subido.",
+      "wordTranslation": "price",
+      "sentenceTranslation": "The price of gasoline has gone up."
+    },
+    {
+      "word": "cliente",
+      "irregularForms": null,
+      "sentence": "El cliente siempre tiene la razón.",
+      "wordTranslation": "client",
+      "sentenceTranslation": "The customer is always right."
+    },
+    {
+      "word": "servicio",
+      "irregularForms": null,
+      "sentence": "El servicio en este restaurante es excelente.",
+      "wordTranslation": "service",
+      "sentenceTranslation": "The service in this restaurant is excellent."
+    },
+    {
+      "word": "resultado",
+      "irregularForms": null,
+      "sentence": "Esperamos el resultado de la votación.",
+      "wordTranslation": "result",
+      "sentenceTranslation": "We await the result of the vote."
+    },
+    {
+      "word": "cambio",
+      "irregularForms": null,
+      "sentence": "Necesitamos un cambio en esta situación.",
+      "wordTranslation": "change / exchange",
+      "sentenceTranslation": "We need a change in this situation."
+    },
+    {
+      "word": "futuro",
+      "irregularForms": null,
+      "sentence": "Pienso mucho en el futuro.",
+      "wordTranslation": "future",
+      "sentenceTranslation": "I think a lot about the future."
+    },
+    {
+      "word": "pasado",
+      "irregularForms": null,
+      "sentence": "No podemos cambiar el pasado.",
+      "wordTranslation": "past",
+      "sentenceTranslation": "We cannot change the past."
+    },
+    {
+      "word": "presente",
+      "irregularForms": null,
+      "sentence": "Vive el presente plenamente.",
+      "wordTranslation": "present",
+      "sentenceTranslation": "Live the present fully."
+    },
+    {
+      "word": "experiencia",
+      "irregularForms": null,
+      "sentence": "Tengo mucha experiencia en este campo.",
+      "wordTranslation": "experience",
+      "sentenceTranslation": "I have a lot of experience in this field."
+    },
+    {
+      "word": "comunicación",
+      "irregularForms": null,
+      "sentence": "La comunicación es esencial en una relación.",
+      "wordTranslation": "communication",
+      "sentenceTranslation": "Communication is essential in a relationship."
+    },
+    {
+      "word": "información",
+      "irregularForms": null,
+      "sentence": "Necesito más información sobre el proyecto.",
+      "wordTranslation": "information",
+      "sentenceTranslation": "I need more information about the project."
+    },
+    {
+      "word": "desarrollo",
+      "irregularForms": null,
+      "sentence": "El desarrollo de la ciudad es muy rápido.",
+      "wordTranslation": "development",
+      "sentenceTranslation": "The city's development is very fast."
+    },
+    {
+      "word": "producción",
+      "irregularForms": null,
+      "sentence": "La producción de vehículos aumentó este año.",
+      "wordTranslation": "production",
+      "sentenceTranslation": "Vehicle production increased this year."
+    },
+    {
+      "word": "dirección",
+      "irregularForms": null,
+      "sentence": "Necesito la dirección de tu casa.",
+      "wordTranslation": "direction / address",
+      "sentenceTranslation": "I need your home address."
+    },
+    {
+      "word": "solución",
+      "irregularForms": null,
+      "sentence": "Debemos encontrar una solución pronto.",
+      "wordTranslation": "solution",
+      "sentenceTranslation": "We must find a solution soon."
+    },
+    {
+      "word": "opción",
+      "irregularForms": null,
+      "sentence": "Tenemos varias opciones para elegir.",
+      "wordTranslation": "option",
+      "sentenceTranslation": "We have several options to choose from."
+    },
+    {
+      "word": "pedir",
+      "irregularForms": null,
+      "sentence": "Voy a pedir una pizza para cenar.",
+      "wordTranslation": "to ask for / to order",
+      "sentenceTranslation": "I'm going to order a pizza for dinner."
+    },
+    {
+      "word": "dejar",
+      "irregularForms": null,
+      "sentence": "Puedes dejar tu mochila aquí.",
+      "wordTranslation": "to leave / to let",
+      "sentenceTranslation": "You can leave your backpack here."
+    },
+    {
+      "word": "olvidar",
+      "irregularForms": null,
+      "sentence": "No olvides tus llaves.",
+      "wordTranslation": "to forget",
+      "sentenceTranslation": "Don't forget your keys."
+    },
+    {
+      "word": "rechazar",
+      "irregularForms": null,
+      "sentence": "Tuvo que rechazar la oferta.",
+      "wordTranslation": "to reject",
+      "sentenceTranslation": "He had to reject the offer."
+    },
+    {
+      "word": "preguntar",
+      "irregularForms": null,
+      "sentence": "No dudes en preguntar si tienes dudas.",
+      "wordTranslation": "to ask (a question)",
+      "sentenceTranslation": "Don't hesitate to ask if you have doubts."
+    },
+    {
+      "word": "responder",
+      "irregularForms": null,
+      "sentence": "Por favor, responde a mi pregunta.",
+      "wordTranslation": "to answer",
+      "sentenceTranslation": "Please, answer my question."
+    },
+    {
+      "word": "quitar",
+      "irregularForms": null,
+      "sentence": "Necesito quitarme los zapatos.",
+      "wordTranslation": "to remove",
+      "sentenceTranslation": "I need to take off my shoes."
+    },
+    {
+      "word": "gustar",
+      "irregularForms": null,
+      "sentence": "Me gusta mucho leer libros.",
+      "wordTranslation": "to like",
+      "sentenceTranslation": "I really like reading books."
+    },
+    {
+      "word": "presentar",
+      "irregularForms": null,
+      "sentence": "Voy a presentar mi proyecto mañana.",
+      "wordTranslation": "to present",
+      "sentenceTranslation": "I am going to present my project tomorrow."
+    },
+    {
+      "word": "controlar",
+      "irregularForms": null,
+      "sentence": "Es difícil controlar mis emociones a veces.",
+      "wordTranslation": "to control",
+      "sentenceTranslation": "It's difficult to control my emotions sometimes."
+    },
+    {
+      "word": "depender",
+      "irregularForms": null,
+      "sentence": "Todo depende de tu decisión.",
+      "wordTranslation": "to depend",
+      "sentenceTranslation": "Everything depends on your decision."
+    },
+    {
+      "word": "producir",
+      "irregularForms": "produzco, produces, produce, producimos, producís, producen",
+      "sentence": "Esta fábrica produce coches eléctricos.",
+      "wordTranslation": "to produce",
+      "sentenceTranslation": "This factory produces electric cars."
+    },
+    {
+      "word": "recuperar",
+      "irregularForms": null,
+      "sentence": "Espero recuperar mi energía pronto.",
+      "wordTranslation": "to recover",
+      "sentenceTranslation": "I hope to recover my energy soon."
+    },
+    {
+      "word": "representar",
+      "irregularForms": null,
+      "sentence": "El color rojo representa la pasión.",
+      "wordTranslation": "to represent",
+      "sentenceTranslation": "The color red represents passion."
+    },
+    {
+      "word": "desarrollar",
+      "irregularForms": null,
+      "sentence": "Quiero desarrollar nuevas habilidades.",
+      "wordTranslation": "to develop",
+      "sentenceTranslation": "I want to develop new skills."
+    },
+    {
+      "word": "mantener",
+      "irregularForms": "mantengo, mantienes, mantiene, mantenemos, mantenéis, mantienen",
+      "sentence": "Es importante mantener una dieta equilibrada.",
+      "wordTranslation": "to maintain",
+      "sentenceTranslation": "It's important to maintain a balanced diet."
+    },
+    {
+      "word": "proteger",
+      "irregularForms": "protejo, proteges, protege, protegemos, protegéis, protegen",
+      "sentence": "Debemos proteger el medio ambiente.",
+      "wordTranslation": "to protect",
+      "sentenceTranslation": "We must protect the environment."
+    },
+    {
+      "word": "indicar",
+      "irregularForms": null,
+      "sentence": "La señal indica que hay una curva peligrosa.",
+      "wordTranslation": "to indicate",
+      "sentenceTranslation": "The sign indicates there is a dangerous curve."
+    },
+    {
+      "word": "aprender",
+      "irregularForms": null,
+      "sentence": "Siempre estoy dispuesto a aprender algo nuevo.",
+      "wordTranslation": "to learn",
+      "sentenceTranslation": "I am always willing to learn something new."
+    },
+    {
+      "word": "enseñar",
+      "irregularForms": null,
+      "sentence": "Ella va a enseñar español en la escuela.",
+      "wordTranslation": "to teach",
+      "sentenceTranslation": "She is going to teach Spanish at school."
+    },
+    {
+      "word": "disfrutar",
+      "irregularForms": null,
+      "sentence": "Espero que disfrutes tus vacaciones.",
+      "wordTranslation": "to enjoy",
+      "sentenceTranslation": "I hope you enjoy your vacation."
+    },
+    {
+      "word": "evitar",
+      "irregularForms": null,
+      "sentence": "Trato de evitar los problemas.",
+      "wordTranslation": "to avoid",
+      "sentenceTranslation": "I try to avoid problems."
+    },
+    {
+      "word": "ofrecer",
+      "irregularForms": "ofrezco, ofreces, ofrece, ofrecemos, ofrecéis, ofrecen",
+      "sentence": "Te puedo ofrecer una taza de café.",
+      "wordTranslation": "to offer",
+      "sentenceTranslation": "I can offer you a cup of coffee."
+    },
+    {
+      "word": "prometer",
+      "irregularForms": null,
+      "sentence": "Te prometo que lo haré.",
+      "wordTranslation": "to promise",
+      "sentenceTranslation": "I promise you I will do it."
+    },
+    {
+      "word": "reunir",
+      "irregularForms": "reúno, reúnes, reúne, reunimos, reunís, reúnen",
+      "sentence": "Necesitamos reunir más información.",
+      "wordTranslation": "to gather / to meet",
+      "sentenceTranslation": "We need to gather more information."
+    },
+    {
+      "word": "enviar",
+      "irregularForms": "envío, envías, envía, enviamos, enviáis, envían",
+      "sentence": "Voy a enviar un correo electrónico.",
+      "wordTranslation": "to send",
+      "sentenceTranslation": "I am going to send an email."
+    },
+    {
+      "word": "subir",
+      "irregularForms": null,
+      "sentence": "Puedes subir las escaleras.",
+      "wordTranslation": "to go up / to upload",
+      "sentenceTranslation": "You can go up the stairs."
+    },
+    {
+      "word": "bajar",
+      "irregularForms": null,
+      "sentence": "Vamos a bajar por el ascensor.",
+      "wordTranslation": "to go down / to download",
+      "sentenceTranslation": "Let's go down by elevator."
+    },
+    {
+      "word": "conseguir",
+      "irregularForms": "consigo, consigues, consigue, conseguimos, conseguís, consiguen",
+      "sentence": "Espero conseguir un buen trabajo.",
+      "wordTranslation": "to get / to obtain",
+      "sentenceTranslation": "I hope to get a good job."
+    },
+    {
+      "word": "conducir",
+      "irregularForms": "conduzco, conduces, conduce, conducimos, conducís, conducen",
+      "sentence": "Me gusta conducir por la carretera.",
+      "wordTranslation": "to drive",
+      "sentenceTranslation": "I like to drive on the highway."
+    },
+    {
+      "word": "traducir",
+      "irregularForms": "traduzco, traduces, traduce, traducimos, traducís, traducen",
+      "sentence": "Puedes traducir este documento al inglés?",
+      "wordTranslation": "to translate",
+      "sentenceTranslation": "Can you translate this document to English?"
+    },
+    {
+      "word": "proponer",
+      "irregularForms": "propongo, propones, propone, proponemos, proponéis, proponen",
+      "sentence": "Voy a proponer una nueva idea.",
+      "wordTranslation": "to propose",
+      "sentenceTranslation": "I'm going to propose a new idea."
+    },
+    {
+      "word": "reconocer",
+      "irregularForms": "reconozco, reconoces, reconoce, reconocemos, reconocéis, reconocen",
+      "sentence": "Es difícil reconocerla con este disfraz.",
+      "wordTranslation": "to recognize",
+      "sentenceTranslation": "It's hard to recognize her in this costume."
+    },
+    {
+      "word": "dirigir",
+      "irregularForms": "dirijo, diriges, dirige, dirigimos, dirigís, dirigen",
+      "sentence": "Él va a dirigir la reunión.",
+      "wordTranslation": "to direct",
+      "sentenceTranslation": "He is going to direct the meeting."
+    },
+    {
+      "word": "aplicar",
+      "irregularForms": null,
+      "sentence": "Debes aplicar estas reglas estrictamente.",
+      "wordTranslation": "to apply",
+      "sentenceTranslation": "You must apply these rules strictly."
+    },
+    {
+      "word": "peor",
+      "irregularForms": null,
+      "sentence": "Esta situación es peor de lo que pensé.",
+      "wordTranslation": "worse",
+      "sentenceTranslation": "This situation is worse than I thought."
+    },
+    {
+      "word": "imposible",
+      "irregularForms": null,
+      "sentence": "Es imposible terminarlo hoy.",
+      "wordTranslation": "impossible",
+      "sentenceTranslation": "It's impossible to finish it today."
+    },
+    {
+      "word": "contra",
+      "irregularForms": null,
+      "sentence": "Estoy en contra de esa decisión.",
+      "wordTranslation": "against",
+      "sentenceTranslation": "I am against that decision."
+    },
+    {
+      "word": "hacia",
+      "irregularForms": null,
+      "sentence": "Vamos caminando hacia el parque.",
+      "wordTranslation": "towards",
+      "sentenceTranslation": "We are walking towards the park."
+    },
+    {
+      "word": "mediante",
+      "irregularForms": null,
+      "sentence": "Conseguimos el objetivo mediante trabajo duro.",
+      "wordTranslation": "through / by means of",
+      "sentenceTranslation": "We achieved the goal through hard work."
+    },
+    {
+      "word": "tras",
+      "irregularForms": null,
+      "sentence": "Tras la lluvia, salió el sol.",
+      "wordTranslation": "after / behind",
+      "sentenceTranslation": "After the rain, the sun came out."
+    },
+    {
+      "word": "cualquier",
+      "irregularForms": null,
+      "sentence": "Puedes elegir cualquier libro que quieras.",
+      "wordTranslation": "any",
+      "sentenceTranslation": "You can choose any book you want."
+    },
+    {
+      "word": "ahí",
+      "irregularForms": null,
+      "sentence": "Tu mochila está ahí, en la silla.",
+      "wordTranslation": "there (closer to listener)",
+      "sentenceTranslation": "Your backpack is there, on the chair."
+    },
+    {
+      "word": "delante",
+      "irregularForms": null,
+      "sentence": "El coche está aparcado delante de la casa.",
+      "wordTranslation": "in front",
+      "sentenceTranslation": "The car is parked in front of the house."
+    },
+    {
+      "word": "encima",
+      "irregularForms": null,
+      "sentence": "El libro está encima de la mesa.",
+      "wordTranslation": "on top (of)",
+      "sentenceTranslation": "The book is on top of the table."
+    },
+    {
+      "word": "normalmente",
+      "irregularForms": null,
+      "sentence": "Normalmente, ceno a las ocho.",
+      "wordTranslation": "normally",
+      "sentenceTranslation": "Normally, I have dinner at eight."
+    },
+    {
+      "word": "simplemente",
+      "irregularForms": null,
+      "sentence": "Simplemente no entiendo por qué lo hizo.",
+      "wordTranslation": "simply",
+      "sentenceTranslation": "I simply don't understand why he did it."
+    },
+    {
+      "word": "bastante",
+      "irregularForms": null,
+      "sentence": "Tengo bastante dinero para esto.",
+      "wordTranslation": "enough / quite",
+      "sentenceTranslation": "I have enough money for this."
+    },
+    {
+      "word": "totalmente",
+      "irregularForms": null,
+      "sentence": "Estoy totalmente de acuerdo contigo.",
+      "wordTranslation": "totally",
+      "sentenceTranslation": "I totally agree with you."
+    },
+    {
+      "word": "quizás",
+      "irregularForms": null,
+      "sentence": "Quizás vaya al cine esta noche.",
+      "wordTranslation": "perhaps / maybe",
+      "sentenceTranslation": "Perhaps I'll go to the cinema tonight."
+    },
+    {
+      "word": "aproximadamente",
+      "irregularForms": null,
+      "sentence": "Llegaremos aproximadamente a las cinco.",
+      "wordTranslation": "approximately",
+      "sentenceTranslation": "We will arrive at approximately five."
+    },
+    {
+      "word": "completamente",
+      "irregularForms": null,
+      "sentence": "Hemos terminado el trabajo completamente.",
+      "wordTranslation": "completely",
+      "sentenceTranslation": "We have completed the work completely."
+    },
+    {
+      "word": "precisamente",
+      "irregularForms": null,
+      "sentence": "Eso es precisamente lo que quería decir.",
+      "wordTranslation": "precisely",
+      "sentenceTranslation": "That's precisely what I wanted to say."
+    },
+    {
+      "word": "anterior",
+      "irregularForms": null,
+      "sentence": "El día anterior llovió mucho.",
+      "wordTranslation": "previous",
+      "sentenceTranslation": "The previous day it rained a lot."
+    },
+    {
+      "word": "posterior",
+      "irregularForms": null,
+      "sentence": "Analizaremos los resultados posterior a la prueba.",
+      "wordTranslation": "posterior / subsequent",
+      "sentenceTranslation": "We will analyze the results subsequent to the test."
+    },
+    {
+      "word": "especial",
+      "irregularForms": null,
+      "sentence": "Hoy es un día muy especial para mí.",
+      "wordTranslation": "special",
+      "sentenceTranslation": "Today is a very special day for me."
+    },
+    {
+      "word": "personal",
+      "irregularForms": null,
+      "sentence": "Es una decisión personal.",
+      "wordTranslation": "personal",
+      "sentenceTranslation": "It's a personal decision."
+    },
+    {
+      "word": "natural",
+      "irregularForms": null,
+      "sentence": "Es natural sentirse cansado después de un largo viaje.",
+      "wordTranslation": "natural",
+      "sentenceTranslation": "It's natural to feel tired after a long journey."
+    },
+    {
+      "word": "artificial",
+      "irregularForms": null,
+      "sentence": "Prefiero las flores naturales a las artificiales.",
+      "wordTranslation": "artificial",
+      "sentenceTranslation": "I prefer natural flowers over artificial ones."
+    },
+    {
+      "word": "básico",
+      "irregularForms": null,
+      "sentence": "Necesito aprender el español básico.",
+      "wordTranslation": "basic",
+      "sentenceTranslation": "I need to learn basic Spanish."
+    },
+    {
+      "word": "completo",
+      "irregularForms": null,
+      "sentence": "El círculo es completo.",
+      "wordTranslation": "complete",
+      "sentenceTranslation": "The circle is complete."
+    }
+  ]
+}

@@ -1,0 +1,1224 @@
+{
+  "name": "Spanish Common Words Set 21",
+  "description": "This is part of a larger set of common Spanish words for learning and practice.",
+  "cards": [
+    {
+      "word": "Anhelar",
+      "irregularForms": "anhelo, anhelas, anhela",
+      "sentence": "Anhelo viajar por el mundo y conocer nuevas culturas.",
+      "wordTranslation": "To long for, to yearn",
+      "sentenceTranslation": "I long to travel the world and get to know new cultures."
+    },
+    {
+      "word": "Costoso",
+      "irregularForms": "costosa, costosos, costosas",
+      "sentence": "Ese coche deportivo es demasiado costoso para mí.",
+      "wordTranslation": "Expensive",
+      "sentenceTranslation": "That sports car is too expensive for me."
+    },
+    {
+      "word": "Barato",
+      "irregularForms": "barata, baratos, baratas",
+      "sentence": "Encontré un billete de avión muy barato a Madrid.",
+      "wordTranslation": "Cheap",
+      "sentenceTranslation": "I found a very cheap plane ticket to Madrid."
+    },
+    {
+      "word": "Veloz",
+      "irregularForms": "veloces (plural)",
+      "sentence": "El guepardo es un animal muy veloz en la sabana.",
+      "wordTranslation": "Swift, rapid",
+      "sentenceTranslation": "The cheetah is a very swift animal in the savanna."
+    },
+    {
+      "word": "Tardío",
+      "irregularForms": "tardía, tardíos, tardías",
+      "sentence": "La cena fue un poco tardía, casi a medianoche.",
+      "wordTranslation": "Late, belated",
+      "sentenceTranslation": "Dinner was a bit late, almost at midnight."
+    },
+    {
+      "word": "Puntual",
+      "irregularForms": "puntuales (plural)",
+      "sentence": "Es importante ser puntual para las reuniones de trabajo.",
+      "wordTranslation": "Punctual",
+      "sentenceTranslation": "It's important to be punctual for work meetings."
+    },
+    {
+      "word": "Elemental",
+      "irregularForms": "elementales (plural)",
+      "sentence": "El agua y el aire son elementos elementales para la vida.",
+      "wordTranslation": "Elementary",
+      "sentenceTranslation": "Water and air are elementary elements for life."
+    },
+    {
+      "word": "Intricado",
+      "irregularForms": "intricada, intricados, intricadas",
+      "sentence": "El diseño de este rompecabezas es muy intrincado.",
+      "wordTranslation": "Intricate",
+      "sentenceTranslation": "The design of this puzzle is very intricate."
+    },
+    {
+      "word": "Abundante",
+      "irregularForms": "abundantes (plural)",
+      "sentence": "Había comida abundante en la fiesta de cumpleaños.",
+      "wordTranslation": "Abundant",
+      "sentenceTranslation": "There was abundant food at the birthday party."
+    },
+    {
+      "word": "Escaso",
+      "irregularForms": "escasa, escasos, escasas",
+      "sentence": "El agua potable es un recurso escaso en algunas regiones.",
+      "wordTranslation": "Scarce",
+      "sentenceTranslation": "Drinking water is a scarce resource in some regions."
+    },
+    {
+      "word": "Desocupado",
+      "irregularForms": "desocupada, desocupados, desocupadas",
+      "sentence": "Encontré un asiento desocupado en el tren.",
+      "wordTranslation": "Unoccupied",
+      "sentenceTranslation": "I found an unoccupied seat on the train."
+    },
+    {
+      "word": "Pleno",
+      "irregularForms": "plena, plenos, plenas",
+      "sentence": "Disfrutaron de la vida en pleno verano.",
+      "wordTranslation": "Full, complete",
+      "sentenceTranslation": "They enjoyed life in the full summer."
+    },
+    {
+      "word": "Contemporáneo",
+      "irregularForms": "contemporánea, contemporáneos, contemporáneas",
+      "sentence": "El arte contemporáneo a veces es difícil de entender.",
+      "wordTranslation": "Contemporary",
+      "sentenceTranslation": "Contemporary art is sometimes difficult to understand."
+    },
+    {
+      "word": "Reciente",
+      "irregularForms": "recientes (plural)",
+      "sentence": "Su libro más reciente ha sido un éxito de ventas.",
+      "wordTranslation": "Recent",
+      "sentenceTranslation": "Her most recent book has been a bestseller."
+    },
+    {
+      "word": "Venidero",
+      "irregularForms": "venidera, venideros, venideras",
+      "sentence": "Esperamos un futuro mejor y más próspero venidero.",
+      "wordTranslation": "Upcoming",
+      "sentenceTranslation": "We hope for a better and more prosperous upcoming future."
+    },
+    {
+      "word": "Inmediato",
+      "irregularForms": "inmediata, inmediatos, inmediatas",
+      "sentence": "Necesitamos una respuesta inmediata a esta pregunta.",
+      "wordTranslation": "Immediate",
+      "sentenceTranslation": "We need an immediate answer to this question."
+    },
+    {
+      "word": "Postergado",
+      "irregularForms": "postergada, postergados, postergadas",
+      "sentence": "El evento fue postergado debido a la lluvia.",
+      "wordTranslation": "Postponed",
+      "sentenceTranslation": "The event was postponed due to the rain."
+    },
+    {
+      "word": "Actualmente",
+      "irregularForms": null,
+      "sentence": "Actualmente, estoy trabajando en un nuevo proyecto.",
+      "wordTranslation": "Currently",
+      "sentenceTranslation": "Currently, I am working on a new project."
+    },
+    {
+      "word": "Eterno",
+      "irregularForms": "eterna, eternos, eternas",
+      "sentence": "El amor verdadero es un sentimiento eterno.",
+      "wordTranslation": "Eternal",
+      "sentenceTranslation": "True love is an eternal feeling."
+    },
+    {
+      "word": "Jamás",
+      "irregularForms": null,
+      "sentence": "Jamás pensé que volvería a verte.",
+      "wordTranslation": "Never, ever",
+      "sentenceTranslation": "I never thought I would see you again."
+    },
+    {
+      "word": "Ocasionalmente",
+      "irregularForms": null,
+      "sentence": "Ella visita a su familia ocasionalmente, una vez al año.",
+      "wordTranslation": "Occasionally",
+      "sentenceTranslation": "She visits her family occasionally, once a year."
+    },
+    {
+      "word": "Tal vez",
+      "irregularForms": null,
+      "sentence": "Tal vez deberíamos reconsiderar nuestra decisión.",
+      "wordTranslation": "Perhaps",
+      "sentenceTranslation": "Perhaps we should reconsider our decision."
+    },
+    {
+      "word": "Posiblemente",
+      "irregularForms": null,
+      "sentence": "Posiblemente lleguemos tarde debido al tráfico.",
+      "wordTranslation": "Possibly",
+      "sentenceTranslation": "We possibly might be late due to traffic."
+    },
+    {
+      "word": "Indudable",
+      "irregularForms": "indudables (plural)",
+      "sentence": "Es indudable que el esfuerzo valió la pena.",
+      "wordTranslation": "Undoubtable",
+      "sentenceTranslation": "It is undoubtable that the effort was worth it."
+    },
+    {
+      "word": "Erróneo",
+      "irregularForms": "errónea, erróneos, erróneas",
+      "sentence": "El cálculo era erróneo y tuvimos que repetirlo.",
+      "wordTranslation": "Erroneous",
+      "sentenceTranslation": "The calculation was erroneous and we had to repeat it."
+    },
+    {
+      "word": "Auténtico",
+      "irregularForms": "auténtica, auténticos, auténticas",
+      "sentence": "Este queso tiene un sabor auténtico y tradicional.",
+      "wordTranslation": "Authentic",
+      "sentenceTranslation": "This cheese has an authentic and traditional flavor."
+    },
+    {
+      "word": "Magnífico",
+      "irregularForms": "magnífica, magníficos, magníficas",
+      "sentence": "La vista desde la montaña es simplemente magnífica.",
+      "wordTranslation": "Magnificent",
+      "sentenceTranslation": "The view from the mountain is simply magnificent."
+    },
+    {
+      "word": "Terrible",
+      "irregularForms": "terribles (plural)",
+      "sentence": "Las noticias de la inundación fueron terribles.",
+      "wordTranslation": "Terrible",
+      "sentenceTranslation": "The news of the flood was terrible."
+    },
+    {
+      "word": "Enorme",
+      "irregularForms": "enormes (plural)",
+      "sentence": "Compraron una casa enorme con un gran jardín.",
+      "wordTranslation": "Enormous",
+      "sentenceTranslation": "They bought an enormous house with a large garden."
+    },
+    {
+      "word": "Diminuto",
+      "irregularForms": "diminuta, diminutos, diminutas",
+      "sentence": "Encontró un insecto diminuto en la hoja.",
+      "wordTranslation": "Tiny",
+      "sentenceTranslation": "She found a tiny insect on the leaf."
+    },
+    {
+      "word": "Elevado",
+      "irregularForms": "elevada, elevados, elevadas",
+      "sentence": "Las montañas tenían picos elevados cubiertos de nieve.",
+      "wordTranslation": "Elevated",
+      "sentenceTranslation": "The mountains had elevated peaks covered in snow."
+    },
+    {
+      "word": "Descendido",
+      "irregularForms": "descendida, descendidos, descendidas",
+      "sentence": "El nivel del agua había descendido después de la sequía.",
+      "wordTranslation": "Descended",
+      "sentenceTranslation": "The water level had descended after the drought."
+    },
+    {
+      "word": "Extenso",
+      "irregularForms": "extensa, extensos, extensas",
+      "sentence": "El desierto es un paisaje muy extenso y árido.",
+      "wordTranslation": "Extensive",
+      "sentenceTranslation": "The desert is a very extensive and arid landscape."
+    },
+    {
+      "word": "Breve",
+      "irregularForms": "breves (plural)",
+      "sentence": "Tuvimos una breve conversación antes de irnos.",
+      "wordTranslation": "Brief",
+      "sentenceTranslation": "We had a brief conversation before leaving."
+    },
+    {
+      "word": "Vasto",
+      "irregularForms": "vasta, vastos, vastas",
+      "sentence": "El océano es un lugar vasto y misterioso.",
+      "wordTranslation": "Vast",
+      "sentenceTranslation": "The ocean is a vast and mysterious place."
+    },
+    {
+      "word": "Ajustado",
+      "irregularForms": "ajustada, ajustados, ajustadas",
+      "sentence": "Llevaba un vestido muy ajustado para la fiesta.",
+      "wordTranslation": "Tight, fitted",
+      "sentenceTranslation": "She wore a very fitted dress to the party."
+    },
+    {
+      "word": "Helado",
+      "irregularForms": "helada, helados, heladas",
+      "sentence": "El viento helado soplaba con fuerza esa noche.",
+      "wordTranslation": "Icy, frozen",
+      "sentenceTranslation": "The icy wind blew strongly that night."
+    },
+    {
+      "word": "Hirviendo",
+      "irregularForms": null,
+      "sentence": "El agua está hirviendo; puedes añadir los fideos.",
+      "wordTranslation": "Boiling",
+      "sentenceTranslation": "The water is boiling; you can add the noodles."
+    },
+    {
+      "word": "Tenebroso",
+      "irregularForms": "tenebrosa, tenebrosos, tenebrosas",
+      "sentence": "La vieja casa abandonada tenía un aspecto tenebroso.",
+      "wordTranslation": "Gloomy, shadowy",
+      "sentenceTranslation": "The old abandoned house had a gloomy appearance."
+    },
+    {
+      "word": "Transparente",
+      "irregularForms": "transparentes (plural)",
+      "sentence": "El cristal de la ventana era perfectamente transparente.",
+      "wordTranslation": "Transparent",
+      "sentenceTranslation": "The window glass was perfectly transparent."
+    },
+    {
+      "word": "Impecable",
+      "irregularForms": "impecables (plural)",
+      "sentence": "Su camisa estaba impecable, sin una sola arruga.",
+      "wordTranslation": "Impeccable",
+      "sentenceTranslation": "His shirt was impeccable, without a single wrinkle."
+    },
+    {
+      "word": "Mugriento",
+      "irregularForms": "mugrienta, mugrientos, mugrientas",
+      "sentence": "El perro regresó a casa mugriento después de jugar en el barro.",
+      "wordTranslation": "Grimy, filthy",
+      "sentenceTranslation": "The dog came home grimy after playing in the mud."
+    },
+    {
+      "word": "Árido",
+      "irregularForms": "árida, áridos, áridas",
+      "sentence": "El clima en esta zona es muy árido durante todo el año.",
+      "wordTranslation": "Arid, dry",
+      "sentenceTranslation": "The climate in this area is very arid throughout the year."
+    },
+    {
+      "word": "Empapado",
+      "irregularForms": "empapada, empapados, empapadas",
+      "sentence": "Regresó empapado de la lluvia inesperada.",
+      "wordTranslation": "Soaked",
+      "sentenceTranslation": "He returned soaked from the unexpected rain."
+    },
+    {
+      "word": "Robusto",
+      "irregularForms": "robusta, robustos, robustas",
+      "sentence": "El roble es un árbol robusto y de larga vida.",
+      "wordTranslation": "Robust",
+      "sentenceTranslation": "The oak is a robust and long-lived tree."
+    },
+    {
+      "word": "Frágil",
+      "irregularForms": "frágiles (plural)",
+      "sentence": "La porcelana es un material muy frágil.",
+      "wordTranslation": "Fragile",
+      "sentenceTranslation": "Porcelain is a very fragile material."
+    },
+    {
+      "word": "Radiante",
+      "irregularForms": "radiantes (plural)",
+      "sentence": "La novia estaba radiante en su día especial.",
+      "wordTranslation": "Radiant",
+      "sentenceTranslation": "The bride was radiant on her special day."
+    },
+    {
+      "word": "Melancólico",
+      "irregularForms": "melancólica, melancólicos, melancólicas",
+      "sentence": "Escuchaba música melancólica en un día lluvioso.",
+      "wordTranslation": "Melancholic",
+      "sentenceTranslation": "He listened to melancholic music on a rainy day."
+    },
+    {
+      "word": "Furioso",
+      "irregularForms": "furiosa, furiosos, furiosas",
+      "sentence": "El cliente estaba furioso por el mal servicio.",
+      "wordTranslation": "Furious",
+      "sentenceTranslation": "The client was furious about the bad service."
+    },
+    {
+      "word": "Asombrado",
+      "irregularForms": "asombrada, asombrados, asombradas",
+      "sentence": "Me quedé asombrado por la belleza del paisaje.",
+      "wordTranslation": "Astonished",
+      "sentenceTranslation": "I was astonished by the beauty of the landscape."
+    },
+    {
+      "word": "Inquieto",
+      "irregularForms": "inquieta, inquietos, inquietas",
+      "sentence": "El niño estaba inquieto antes de su primer día de escuela.",
+      "wordTranslation": "Restless",
+      "sentenceTranslation": "The child was restless before his first day of school."
+    },
+    {
+      "word": "Exhausto",
+      "irregularForms": "exhausta, exhaustos, exhaustas",
+      "sentence": "Después de la maratón, se sentía completamente exhausto.",
+      "wordTranslation": "Exhausted",
+      "sentenceTranslation": "After the marathon, he felt completely exhausted."
+    },
+    {
+      "word": "Saludable",
+      "irregularForms": "saludables (plural)",
+      "sentence": "Comer frutas y verduras es muy saludable para el cuerpo.",
+      "wordTranslation": "Healthy",
+      "sentenceTranslation": "Eating fruits and vegetables is very healthy for the body."
+    },
+    {
+      "word": "Indispuesto",
+      "irregularForms": "indispuesta, indispuestos, indispuestas",
+      "sentence": "Me siento un poco indispuesto, creo que tengo fiebre.",
+      "wordTranslation": "Unwell, indisposed",
+      "sentenceTranslation": "I feel a bit unwell, I think I have a fever."
+    },
+    {
+      "word": "Entretenido",
+      "irregularForms": "entretenida, entretenidos, entretenidas",
+      "sentence": "La película fue muy entretenida y no me aburrí.",
+      "wordTranslation": "Entertaining",
+      "sentenceTranslation": "The movie was very entertaining and I wasn't bored."
+    },
+    {
+      "word": "Tedioso",
+      "irregularForms": "tediosa, tediosos, tediosas",
+      "sentence": "El trabajo repetitivo puede volverse tedioso con el tiempo.",
+      "wordTranslation": "Tedious",
+      "sentenceTranslation": "Repetitive work can become tedious over time."
+    },
+    {
+      "word": "Fascinante",
+      "irregularForms": "fascinantes (plural)",
+      "sentence": "La historia del antiguo Egipto es fascinante.",
+      "wordTranslation": "Fascinating",
+      "sentenceTranslation": "The history of ancient Egypt is fascinating."
+    },
+    {
+      "word": "Laborioso",
+      "irregularForms": "laboriosa, laboriosos, laboriosas",
+      "sentence": "Construir un puente es un proceso muy laborioso.",
+      "wordTranslation": "Laborious",
+      "sentenceTranslation": "Building a bridge is a very laborious process."
+    },
+    {
+      "word": "Crucial",
+      "irregularForms": "cruciales (plural)",
+      "sentence": "La reunión de hoy es crucial para el futuro de la empresa.",
+      "wordTranslation": "Crucial",
+      "sentenceTranslation": "Today's meeting is crucial for the company's future."
+    },
+    {
+      "word": "Imprescindible",
+      "irregularForms": "imprescindibles (plural)",
+      "sentence": "La comunicación es un elemento imprescindible en un equipo.",
+      "wordTranslation": "Indispensable",
+      "sentenceTranslation": "Communication is an indispensable element in a team."
+    },
+    {
+      "word": "Factible",
+      "irregularForms": "factibles (plural)",
+      "sentence": "El proyecto parece ambicioso, pero es totalmente factible.",
+      "wordTranslation": "Feasible",
+      "sentenceTranslation": "The project seems ambitious, but it is totally feasible."
+    },
+    {
+      "word": "Irrealizable",
+      "irregularForms": "irrealizables (plural)",
+      "sentence": "Soñaba con cosas que parecían irrealizables.",
+      "wordTranslation": "Unfeasible",
+      "sentenceTranslation": "He dreamed of things that seemed unfeasible."
+    },
+    {
+      "word": "Habitual",
+      "irregularForms": "habituales (plural)",
+      "sentence": "Su rutina habitual incluye una caminata por la mañana.",
+      "wordTranslation": "Habitual",
+      "sentenceTranslation": "His usual routine includes a morning walk."
+    },
+    {
+      "word": "Exclusivo",
+      "irregularForms": "exclusiva, exclusivos, exclusivas",
+      "sentence": "Este club es muy exclusivo; solo entran los miembros.",
+      "wordTranslation": "Exclusive",
+      "sentenceTranslation": "This club is very exclusive; only members enter."
+    },
+    {
+      "word": "Lineal",
+      "irregularForms": "lineales (plural)",
+      "sentence": "La relación entre las variables no siempre es lineal.",
+      "wordTranslation": "Linear",
+      "sentenceTranslation": "The relationship between variables is not always linear."
+    },
+    {
+      "word": "Circunloquio",
+      "irregularForms": "circunloquios (plural)",
+      "sentence": "Evita el circunloquio y ve directamente al grano.",
+      "wordTranslation": "Circumlocution",
+      "sentenceTranslation": "Avoid circumlocution and get straight to the point."
+    },
+    {
+      "word": "Comunal",
+      "irregularForms": "comunales (plural)",
+      "sentence": "Trabajaron juntos en el jardín comunal del vecindario.",
+      "wordTranslation": "Communal",
+      "sentenceTranslation": "They worked together in the neighborhood's communal garden."
+    },
+    {
+      "word": "Confidencial",
+      "irregularForms": "confidenciales (plural)",
+      "sentence": "Esta información es estrictamente confidencial y no debe ser compartida.",
+      "wordTranslation": "Confidential",
+      "sentenceTranslation": "This information is strictly confidential and must not be shared."
+    },
+    {
+      "word": "Legítimo",
+      "irregularForms": "legítima, legítimos, legítimas",
+      "sentence": "Su reclamo es completamente legítimo y debe ser atendido.",
+      "wordTranslation": "Legitimate",
+      "sentenceTranslation": "His claim is completely legitimate and should be addressed."
+    },
+    {
+      "word": "Ilegal",
+      "irregularForms": "ilegales (plural)",
+      "sentence": "Estacionar aquí es completamente ilegal.",
+      "wordTranslation": "Illegal",
+      "sentenceTranslation": "Parking here is completely illegal."
+    },
+    {
+      "word": "Equitativo",
+      "irregularForms": "equitativa, equitativos, equitativas",
+      "sentence": "Buscamos una distribución equitativa de los recursos.",
+      "wordTranslation": "Equitable",
+      "sentenceTranslation": "We seek an equitable distribution of resources."
+    },
+    {
+      "word": "Desigual",
+      "irregularForms": "desiguales (plural)",
+      "sentence": "La superficie del terreno era desigual y difícil de caminar.",
+      "wordTranslation": "Unequal",
+      "sentenceTranslation": "The ground surface was unequal and difficult to walk on."
+    },
+    {
+      "word": "Condenable",
+      "irregularForms": "condenables (plural)",
+      "sentence": "Su comportamiento fue totalmente condenable.",
+      "wordTranslation": "Condemnable",
+      "sentenceTranslation": "His behavior was totally condemnable."
+    },
+    {
+      "word": "Inocente",
+      "irregularForms": "inocenta, inocentes (plural)",
+      "sentence": "El jurado encontró al acusado inocente.",
+      "wordTranslation": "Innocent",
+      "sentenceTranslation": "The jury found the defendant innocent."
+    },
+    {
+      "word": "Genuino",
+      "irregularForms": "genuina, genuinos, genuinas",
+      "sentence": "La pintura era una obra de arte genuina.",
+      "wordTranslation": "Genuine",
+      "sentenceTranslation": "The painting was a genuine work of art."
+    },
+    {
+      "word": "Imitado",
+      "irregularForms": "imitada, imitados, imitadas",
+      "sentence": "No era el bolso original, sino una versión bien imitada.",
+      "wordTranslation": "Imitated",
+      "sentenceTranslation": "It wasn't the original bag, but a well-imitated version."
+    },
+    {
+      "word": "Corriente",
+      "irregularForms": "corrientes (plural)",
+      "sentence": "Es una persona muy corriente, sin nada especial.",
+      "wordTranslation": "Current, common",
+      "sentenceTranslation": "He is a very common person, nothing special."
+    },
+    {
+      "word": "Peculiar",
+      "irregularForms": "peculiares (plural)",
+      "sentence": "Tenía un sentido del humor muy peculiar.",
+      "wordTranslation": "Peculiar",
+      "sentenceTranslation": "He had a very peculiar sense of humor."
+    },
+    {
+      "word": "Estable",
+      "irregularForms": "estables (plural)",
+      "sentence": "Su condición de salud se mantuvo estable durante la noche.",
+      "wordTranslation": "Stable",
+      "sentenceTranslation": "Her health condition remained stable overnight."
+    },
+    {
+      "word": "Inestable",
+      "irregularForms": "inestables (plural)",
+      "sentence": "El clima ha estado muy inestable últimamente.",
+      "wordTranslation": "Unstable",
+      "sentenceTranslation": "The weather has been very unstable lately."
+    },
+    {
+      "word": "Agradable",
+      "irregularForms": "agradables (plural)",
+      "sentence": "Pasamos una tarde muy agradable en el parque.",
+      "wordTranslation": "Pleasant",
+      "sentenceTranslation": "We spent a very pleasant afternoon in the park."
+    },
+    {
+      "word": "Desagradable",
+      "irregularForms": "desagradables (plural)",
+      "sentence": "El olor en la habitación era bastante desagradable.",
+      "wordTranslation": "Unpleasant",
+      "sentenceTranslation": "The smell in the room was quite unpleasant."
+    },
+    {
+      "word": "Jovial",
+      "irregularForms": "joviales (plural)",
+      "sentence": "Su carácter jovial hacía que la gente se sintiera cómoda.",
+      "wordTranslation": "Jovial",
+      "sentenceTranslation": "His jovial character made people feel comfortable."
+    },
+    {
+      "word": "Deprimido",
+      "irregularForms": "deprimida, deprimidos, deprimidas",
+      "sentence": "Se sentía deprimido después de perder su trabajo.",
+      "wordTranslation": "Depressed",
+      "sentenceTranslation": "He felt depressed after losing his job."
+    },
+    {
+      "word": "Ahorrativo",
+      "irregularForms": "ahorrativa, ahorrativos, ahorrativas",
+      "sentence": "Es una persona muy ahorrativa con sus gastos.",
+      "wordTranslation": "Thrifty",
+      "sentenceTranslation": "He is a very thrifty person with his expenses."
+    },
+    {
+      "word": "Gubernamental",
+      "irregularForms": "gubernamentales (plural)",
+      "sentence": "Las políticas gubernamentales afectan a todos los ciudadanos.",
+      "wordTranslation": "Governmental",
+      "sentenceTranslation": "Governmental policies affect all citizens."
+    },
+    {
+      "word": "Poblacional",
+      "irregularForms": "poblacionales (plural)",
+      "sentence": "Estudiaron el crecimiento poblacional de la región.",
+      "wordTranslation": "Population-related",
+      "sentenceTranslation": "They studied the population growth of the region."
+    },
+    {
+      "word": "Tradicional",
+      "irregularForms": "tradicionales (plural)",
+      "sentence": "Mantienen muchas costumbres tradicionales en su pueblo.",
+      "wordTranslation": "Traditional",
+      "sentenceTranslation": "They keep many traditional customs in their town."
+    },
+    {
+      "word": "Creativo",
+      "irregularForms": "creativa, creativos, creativas",
+      "sentence": "Es un artista muy creativo, siempre con nuevas ideas.",
+      "wordTranslation": "Creative",
+      "sentenceTranslation": "He is a very creative artist, always with new ideas."
+    },
+    {
+      "word": "Experimental",
+      "irregularForms": "experimentales (plural)",
+      "sentence": "La ciencia se basa en la evidencia experimental.",
+      "wordTranslation": "Experimental",
+      "sentenceTranslation": "Science is based on experimental evidence."
+    },
+    {
+      "word": "Didáctico",
+      "irregularForms": "didáctica, didácticos, didácticas",
+      "sentence": "Este libro es muy didáctico para aprender idiomas.",
+      "wordTranslation": "Didactic",
+      "sentenceTranslation": "This book is very didactic for learning languages."
+    },
+    {
+      "word": "Espiritual",
+      "irregularForms": "espirituales (plural)",
+      "sentence": "Muchas personas buscan la paz espiritual a través de la meditación.",
+      "wordTranslation": "Spiritual",
+      "sentenceTranslation": "Many people seek spiritual peace through meditation."
+    },
+    {
+      "word": "Antaño",
+      "irregularForms": null,
+      "sentence": "Antaño, la vida era mucho más sencilla.",
+      "wordTranslation": "Of old, formerly",
+      "sentenceTranslation": "Formerly, life was much simpler."
+    },
+    {
+      "word": "Innovador",
+      "irregularForms": "innovadora, innovadores, innovadoras",
+      "sentence": "Presentaron un diseño innovador para el nuevo edificio.",
+      "wordTranslation": "Innovative",
+      "sentenceTranslation": "They presented an innovative design for the new building."
+    },
+    {
+      "word": "Vanguardista",
+      "irregularForms": "vanguardistas (plural)",
+      "sentence": "Su estilo artístico es muy vanguardista y moderno.",
+      "wordTranslation": "Avant-garde",
+      "sentenceTranslation": "His artistic style is very avant-garde and modern."
+    },
+    {
+      "word": "Vigente",
+      "irregularForms": "vigentes (plural)",
+      "sentence": "La ley aún está vigente en esta ciudad.",
+      "wordTranslation": "Current, in force",
+      "sentenceTranslation": "The law is still in force in this city."
+    },
+    {
+      "word": "Subsiguiente",
+      "irregularForms": "subsiguientes (plural)",
+      "sentence": "El evento subsiguiente se celebrará el próximo mes.",
+      "wordTranslation": "Subsequent",
+      "sentenceTranslation": "The subsequent event will be held next month."
+    },
+    {
+      "word": "Precedente",
+      "irregularForms": "precedentes (plural)",
+      "sentence": "No hay un precedente legal para este caso.",
+      "wordTranslation": "Preceding",
+      "sentenceTranslation": "There is no legal precedent for this case."
+    },
+    {
+      "word": "Conclusivo",
+      "irregularForms": "conclusiva, conclusivos, conclusivas",
+      "sentence": "La evidencia fue conclusiva y el jurado llegó a un veredicto.",
+      "wordTranslation": "Conclusive",
+      "sentenceTranslation": "The evidence was conclusive and the jury reached a verdict."
+    },
+    {
+      "word": "Abordar",
+      "irregularForms": "abordo, abordas, aborda",
+      "sentence": "Necesitamos abordar este problema de inmediato.",
+      "wordTranslation": "To approach, to tackle",
+      "sentenceTranslation": "We need to tackle this problem immediately."
+    },
+    {
+      "word": "Aclarar",
+      "irregularForms": "aclaro, aclaras, aclara",
+      "sentence": "Puedes aclarar la leche para que sea más ligera.",
+      "wordTranslation": "To clarify, to lighten",
+      "sentenceTranslation": "You can clarify the milk to make it lighter."
+    },
+    {
+      "word": "Acompañar",
+      "irregularForms": "acompaño, acompañas, acompaña",
+      "sentence": "Te puedo acompañar a la estación si quieres.",
+      "wordTranslation": "To accompany",
+      "sentenceTranslation": "I can accompany you to the station if you want."
+    },
+    {
+      "word": "Actualizar",
+      "irregularForms": "actualizo, actualizas, actualiza",
+      "sentence": "Debes actualizar el software de tu computadora regularmente.",
+      "wordTranslation": "To update",
+      "sentenceTranslation": "You should update your computer's software regularly."
+    },
+    {
+      "word": "Adelantar",
+      "irregularForms": "adelanto, adelantas, adelanta",
+      "sentence": "Podemos adelantar la reunión para esta tarde.",
+      "wordTranslation": "To move forward, to overtake",
+      "sentenceTranslation": "We can move the meeting forward to this afternoon."
+    },
+    {
+      "word": "Administrar",
+      "irregularForms": "administro, administras, administra",
+      "sentence": "Ella es muy buena en administrar proyectos complejos.",
+      "wordTranslation": "To administer, to manage",
+      "sentenceTranslation": "She is very good at managing complex projects."
+    },
+    {
+      "word": "Afirmar",
+      "irregularForms": "afirmo, afirmas, afirma",
+      "sentence": "Él afirmó que no tenía conocimiento del incidente.",
+      "wordTranslation": "To affirm, to assert",
+      "sentenceTranslation": "He affirmed that he had no knowledge of the incident."
+    },
+    {
+      "word": "Agrupar",
+      "irregularForms": "agrupo, agrupas, agrupa",
+      "sentence": "Podemos agrupar estos documentos por fecha.",
+      "wordTranslation": "To group",
+      "sentenceTranslation": "We can group these documents by date."
+    },
+    {
+      "word": "Ahuyentar",
+      "irregularForms": "ahuyento, ahuyentas, ahuyenta",
+      "sentence": "Usaron un silbato para ahuyentar a los perros.",
+      "wordTranslation": "To scare away, to drive away",
+      "sentenceTranslation": "They used a whistle to scare away the dogs."
+    },
+    {
+      "word": "Aligerar",
+      "irregularForms": "aligero, aligeras, aligera",
+      "sentence": "Necesitamos aligerar la carga antes de continuar.",
+      "wordTranslation": "To lighten",
+      "sentenceTranslation": "We need to lighten the load before continuing."
+    },
+    {
+      "word": "Alinear",
+      "irregularForms": "alineo, alineas, alinea",
+      "sentence": "Alinea los libros en la estantería.",
+      "wordTranslation": "To align",
+      "sentenceTranslation": "Align the books on the bookshelf."
+    },
+    {
+      "word": "Alternar",
+      "irregularForms": "alterno, alternas, alterna",
+      "sentence": "Es bueno alternar el trabajo con periodos de descanso.",
+      "wordTranslation": "To alternate",
+      "sentenceTranslation": "It's good to alternate work with periods of rest."
+    },
+    {
+      "word": "Amortiguar",
+      "irregularForms": "amortiguo, amortiguas, amortigua",
+      "sentence": "Las almohadas ayudan a amortiguar el impacto.",
+      "wordTranslation": "To cushion, to dampen",
+      "sentenceTranslation": "The pillows help to cushion the impact."
+    },
+    {
+      "word": "Anclar",
+      "irregularForms": "anclo, anclas, ancla",
+      "sentence": "El barco necesita anclar en un lugar seguro.",
+      "wordTranslation": "To anchor",
+      "sentenceTranslation": "The boat needs to anchor in a safe place."
+    },
+    {
+      "word": "Anular",
+      "irregularForms": "anulo, anulas, anula",
+      "sentence": "Decidimos anular la reserva a última hora.",
+      "wordTranslation": "To cancel",
+      "sentenceTranslation": "We decided to cancel the reservation at the last minute."
+    },
+    {
+      "word": "Aparcar",
+      "irregularForms": "aparco, aparcas, aparca",
+      "sentence": "No puedes aparcar el coche en esta calle.",
+      "wordTranslation": "To park (Spain)",
+      "sentenceTranslation": "You cannot park the car on this street."
+    },
+    {
+      "word": "Apoyar",
+      "irregularForms": "apoyo, apoyas, apoya",
+      "sentence": "Siempre te apoyaré en tus decisiones.",
+      "wordTranslation": "To support",
+      "sentenceTranslation": "I will always support you in your decisions."
+    },
+    {
+      "word": "Arriesgar",
+      "irregularForms": "arriesgo, arriesgas, arriesga",
+      "sentence": "No debemos arriesgar la seguridad de los empleados.",
+      "wordTranslation": "To risk",
+      "sentenceTranslation": "We should not risk the safety of the employees."
+    },
+    {
+      "word": "Asombrar",
+      "irregularForms": "asombro, asombras, asombra",
+      "sentence": "Su talento para la música siempre me asombra.",
+      "wordTranslation": "To amaze, to astonish",
+      "sentenceTranslation": "His talent for music always amazes me."
+    },
+    {
+      "word": "Atestiguar",
+      "irregularForms": "atestiguo, atestiguas, atestigua",
+      "sentence": "Varios testigos pudieron atestiguar lo sucedido.",
+      "wordTranslation": "To testify",
+      "sentenceTranslation": "Several witnesses could testify to what happened."
+    },
+    {
+      "word": "Autenticar",
+      "irregularForms": "autentico, autenticas, autentica",
+      "sentence": "Necesitas autenticar tu identidad para acceder.",
+      "wordTranslation": "To authenticate",
+      "sentenceTranslation": "You need to authenticate your identity to access."
+    },
+    {
+      "word": "Calibrar",
+      "irregularForms": "calibro, calibras, calibra",
+      "sentence": "Debemos calibrar la máquina antes de usarla.",
+      "wordTranslation": "To calibrate",
+      "sentenceTranslation": "We must calibrate the machine before using it."
+    },
+    {
+      "word": "Canonizar",
+      "irregularForms": "canonizo, canonizas, canoniza",
+      "sentence": "La Iglesia decidió canonizar al santo hombre.",
+      "wordTranslation": "To canonize",
+      "sentenceTranslation": "The Church decided to canonize the holy man."
+    },
+    {
+      "word": "Capacitar",
+      "irregularForms": "capacito, capacitas, capacita",
+      "sentence": "Capacitaron a todo el personal en el nuevo sistema.",
+      "wordTranslation": "To train, to enable",
+      "sentenceTranslation": "They trained all the staff in the new system."
+    },
+    {
+      "word": "Cerrar",
+      "irregularForms": "cierro, cierras, cierra",
+      "sentence": "Por favor, cierra la puerta al salir.",
+      "wordTranslation": "To close",
+      "sentenceTranslation": "Please close the door on your way out."
+    },
+    {
+      "word": "Certificar",
+      "irregularForms": "certifico, certificas, certifica",
+      "sentence": "El documento necesita ser certificado por un notario.",
+      "wordTranslation": "To certify",
+      "sentenceTranslation": "The document needs to be certified by a notary."
+    },
+    {
+      "word": "Clausurar",
+      "irregularForms": "clausuro, clausuras, clausura",
+      "sentence": "Decidieron clausurar el festival por falta de fondos.",
+      "wordTranslation": "To close (an event/place)",
+      "sentenceTranslation": "They decided to close the festival due to lack of funds."
+    },
+    {
+      "word": "Coincidir",
+      "irregularForms": "coincido, coincides, coincide",
+      "sentence": "Nuestras opiniones suelen coincidir en temas importantes.",
+      "wordTranslation": "To coincide, to agree",
+      "sentenceTranslation": "Our opinions often coincide on important matters."
+    },
+    {
+      "word": "Coleccionar",
+      "irregularForms": "colecciono, coleccionas, colecciona",
+      "sentence": "A mi hermana le gusta coleccionar sellos antiguos.",
+      "wordTranslation": "To collect",
+      "sentenceTranslation": "My sister likes to collect old stamps."
+    },
+    {
+      "word": "Colisionar",
+      "irregularForms": "colisiono, colisionas, colisiona",
+      "sentence": "Dos coches colisionaron en la autopista.",
+      "wordTranslation": "To collide",
+      "sentenceTranslation": "Two cars collided on the highway."
+    },
+    {
+      "word": "Comisionar",
+      "irregularForms": "comisiono, comisionas, comisiona",
+      "sentence": "La empresa va a comisionar una nueva obra de arte.",
+      "wordTranslation": "To commission",
+      "sentenceTranslation": "The company is going to commission a new work of art."
+    },
+    {
+      "word": "Comunicar",
+      "irregularForms": "comunico, comunicas, comunica",
+      "sentence": "Es importante comunicar tus ideas claramente.",
+      "wordTranslation": "To communicate",
+      "sentenceTranslation": "It's important to communicate your ideas clearly."
+    },
+    {
+      "word": "Conceder",
+      "irregularForms": "concedo, concedes, concede",
+      "sentence": "El juez decidió concederle la libertad condicional.",
+      "wordTranslation": "To grant, to concede",
+      "sentenceTranslation": "The judge decided to grant him parole."
+    },
+    {
+      "word": "Concluir",
+      "irregularForms": "concluyo, concluyes, concluye",
+      "sentence": "Esperamos concluir el proyecto para fin de mes.",
+      "wordTranslation": "To conclude",
+      "sentenceTranslation": "We hope to conclude the project by the end of the month."
+    },
+    {
+      "word": "Concordar",
+      "irregularForms": "concordo, concordas, concorda",
+      "sentence": "Sus acciones no concuerdan con sus palabras.",
+      "wordTranslation": "To agree, to concur",
+      "sentenceTranslation": "His actions do not agree with his words."
+    },
+    {
+      "word": "Conformar",
+      "irregularForms": "conformo, conformas, conforma",
+      "sentence": "El comité se conforma por cinco miembros.",
+      "wordTranslation": "To form, to conform",
+      "sentenceTranslation": "The committee is formed by five members."
+    },
+    {
+      "word": "Conjugar",
+      "irregularForms": "conjugo, conjugas, conjuga",
+      "sentence": "Es importante saber conjugar los verbos en español.",
+      "wordTranslation": "To conjugate",
+      "sentenceTranslation": "It's important to know how to conjugate verbs in Spanish."
+    },
+    {
+      "word": "Conquistar",
+      "irregularForms": "conquisto, conquistas, conquista",
+      "sentence": "El explorador buscaba conquistar nuevas tierras.",
+      "wordTranslation": "To conquer",
+      "sentenceTranslation": "The explorer sought to conquer new lands."
+    },
+    {
+      "word": "Consolidar",
+      "irregularForms": "consolido, consolidas, consolida",
+      "sentence": "Necesitamos consolidar nuestros esfuerzos para tener éxito.",
+      "wordTranslation": "To consolidate",
+      "sentenceTranslation": "We need to consolidate our efforts to succeed."
+    },
+    {
+      "word": "Consultar",
+      "irregularForms": "consulto, consultas, consulta",
+      "sentence": "Siempre consulta a un experto antes de tomar una decisión.",
+      "wordTranslation": "To consult",
+      "sentenceTranslation": "Always consult an expert before making a decision."
+    },
+    {
+      "word": "Contaminar",
+      "irregularForms": "contamino, contaminas, contamina",
+      "sentence": "La fábrica contamina el río con sus desechos.",
+      "wordTranslation": "To contaminate",
+      "sentenceTranslation": "The factory contaminates the river with its waste."
+    },
+    {
+      "word": "Contextualizar",
+      "irregularForms": "contextualizo, contextualizas, contextualiza",
+      "sentence": "Es importante contextualizar la información histórica.",
+      "wordTranslation": "To contextualize",
+      "sentenceTranslation": "It's important to contextualize historical information."
+    },
+    {
+      "word": "Contradictorio",
+      "irregularForms": "contradictoria, contradictorios, contradictorias",
+      "sentence": "Su testimonio resultó ser contradictorio.",
+      "wordTranslation": "Contradictory",
+      "sentenceTranslation": "His testimony turned out to be contradictory."
+    },
+    {
+      "word": "Contrastar",
+      "irregularForms": "contrasto, contrastas, contrasta",
+      "sentence": "Me gusta contrastar colores claros con oscuros.",
+      "wordTranslation": "To contrast",
+      "sentenceTranslation": "I like to contrast light colors with dark ones."
+    },
+    {
+      "word": "Convencer",
+      "irregularForms": "convenzo, convences, convence",
+      "sentence": "Intentó convencerme de su punto de vista.",
+      "wordTranslation": "To convince",
+      "sentenceTranslation": "He tried to convince me of his point of view."
+    },
+    {
+      "word": "Corregir",
+      "irregularForms": "corrijo, corriges, corrige",
+      "sentence": "Debes corregir los errores antes de entregar el informe.",
+      "wordTranslation": "To correct",
+      "sentenceTranslation": "You must correct the errors before submitting the report."
+    },
+    {
+      "word": "Criticar",
+      "irregularForms": "critico, criticas, critica",
+      "sentence": "No me gusta criticar el trabajo de los demás.",
+      "wordTranslation": "To criticize",
+      "sentenceTranslation": "I don't like to criticize other people's work."
+    },
+    {
+      "word": "Cruzar",
+      "irregularForms": "cruzo, cruzas, cruza",
+      "sentence": "Para llegar al otro lado, hay que cruzar la calle.",
+      "wordTranslation": "To cross",
+      "sentenceTranslation": "To get to the other side, you have to cross the street."
+    },
+    {
+      "word": "Debatir",
+      "irregularForms": "debato, debates, debate",
+      "sentence": "El grupo se reunió para debatir las nuevas propuestas.",
+      "wordTranslation": "To debate",
+      "sentenceTranslation": "The group met to debate the new proposals."
+    },
+    {
+      "word": "Degradar",
+      "irregularForms": "degrado, degradas, degrada",
+      "sentence": "La contaminación puede degradar el medio ambiente.",
+      "wordTranslation": "To degrade",
+      "sentenceTranslation": "Pollution can degrade the environment."
+    },
+    {
+      "word": "Delatar",
+      "irregularForms": "delato, delatas, delata",
+      "sentence": "El testigo decidió delatar a sus cómplices.",
+      "wordTranslation": "To betray, to denounce",
+      "sentenceTranslation": "The witness decided to denounce his accomplices."
+    },
+    {
+      "word": "Demandar",
+      "irregularForms": "demando, demandas, demanda",
+      "sentence": "La empresa decidió demandar por incumplimiento de contrato.",
+      "wordTranslation": "To demand, to sue",
+      "sentenceTranslation": "The company decided to sue for breach of contract."
+    },
+    {
+      "word": "Demoler",
+      "irregularForms": "demuelo, demueles, demuele",
+      "sentence": "Van a demoler el viejo edificio para construir uno nuevo.",
+      "wordTranslation": "To demolish",
+      "sentenceTranslation": "They are going to demolish the old building to build a new one."
+    },
+    {
+      "word": "Densificar",
+      "irregularForms": "densifico, densificas, densifica",
+      "sentence": "Las ciudades intentan densificar sus áreas urbanas.",
+      "wordTranslation": "To densify",
+      "sentenceTranslation": "Cities try to densify their urban areas."
+    },
+    {
+      "word": "Depurar",
+      "irregularForms": "depuro, depuras, depura",
+      "sentence": "Es importante depurar el agua antes de beberla.",
+      "wordTranslation": "To purify, to debug",
+      "sentenceTranslation": "It is important to purify the water before drinking it."
+    },
+    {
+      "word": "Desafiar",
+      "irregularForms": "desafío, desafías, desafía",
+      "sentence": "Me gusta desafiarme a mí mismo con nuevos retos.",
+      "wordTranslation": "To challenge",
+      "sentenceTranslation": "I like to challenge myself with new challenges."
+    },
+    {
+      "word": "Desaparecer",
+      "irregularForms": "desaparezco, desapareces, desaparece",
+      "sentence": "El mago hizo desaparecer la moneda.",
+      "wordTranslation": "To disappear",
+      "sentenceTranslation": "The magician made the coin disappear."
+    },
+    {
+      "word": "Describir",
+      "irregularForms": "describo, describes, describe",
+      "sentence": "Puedes describir la escena con más detalle.",
+      "wordTranslation": "To describe",
+      "sentenceTranslation": "Can you describe the scene in more detail?"
+    },
+    {
+      "word": "Descuidar",
+      "irregularForms": "descuido, descuidas, descuida",
+      "sentence": "No debes descuidar tus estudios por los videojuegos.",
+      "wordTranslation": "To neglect",
+      "sentenceTranslation": "You shouldn't neglect your studies for video games."
+    },
+    {
+      "word": "Desear",
+      "irregularForms": "deseo, deseas, desea",
+      "sentence": "Te deseo lo mejor en tu nuevo proyecto.",
+      "wordTranslation": "To wish, to desire",
+      "sentenceTranslation": "I wish you the best in your new project."
+    },
+    {
+      "word": "Desestimar",
+      "irregularForms": "desestimo, desestimas, desestima",
+      "sentence": "El juez decidió desestimar el caso por falta de pruebas.",
+      "wordTranslation": "To dismiss",
+      "sentenceTranslation": "The judge decided to dismiss the case due to lack of evidence."
+    },
+    {
+      "word": "Designar",
+      "irregularForms": "designo, designas, designa",
+      "sentence": "Me han designado como líder del equipo.",
+      "wordTranslation": "To designate",
+      "sentenceTranslation": "They have designated me as the team leader."
+    },
+    {
+      "word": "Desorganizar",
+      "irregularForms": "desorganizo, desorganizas, desorganiza",
+      "sentence": "Un pequeño error puede desorganizar todo el plan.",
+      "wordTranslation": "To disorganize",
+      "sentenceTranslation": "A small mistake can disorganize the entire plan."
+    },
+    {
+      "word": "Detallar",
+      "irregularForms": "detallo, detallas, detalla",
+      "sentence": "Por favor, detalla los pasos uno por uno.",
+      "wordTranslation": "To detail",
+      "sentenceTranslation": "Please detail the steps one by one."
+    },
+    {
+      "word": "Deteriorar",
+      "irregularForms": "deterioro, deterioras, deteriora",
+      "sentence": "La falta de mantenimiento puede deteriorar el equipo.",
+      "wordTranslation": "To deteriorate",
+      "sentenceTranslation": "Lack of maintenance can deteriorate the equipment."
+    },
+    {
+      "word": "Dispersar",
+      "irregularForms": "disperso, dispersas, dispersa",
+      "sentence": "El viento ayudó a dispersar las nubes.",
+      "wordTranslation": "To disperse",
+      "sentenceTranslation": "The wind helped to disperse the clouds."
+    },
+    {
+      "word": "Disputar",
+      "irregularForms": "disputo, disputas, disputa",
+      "sentence": "Los equipos van a disputar el campeonato este fin de semana.",
+      "wordTranslation": "To dispute, to contend",
+      "sentenceTranslation": "The teams are going to contend for the championship this weekend."
+    },
+    {
+      "word": "Distorsionar",
+      "irregularForms": "distorsiono, distorsionas, distorsiona",
+      "sentence": "La cámara puede distorsionar la imagen si no se usa bien.",
+      "wordTranslation": "To distort",
+      "sentenceTranslation": "The camera can distort the image if not used properly."
+    },
+    {
+      "word": "Divergir",
+      "irregularForms": "diverjo, diverges, diverge",
+      "sentence": "Sus opiniones suelen divergir en cuestiones políticas.",
+      "wordTranslation": "To diverge",
+      "sentenceTranslation": "Their opinions often diverge on political issues."
+    },
+    {
+      "word": "Divulgar",
+      "irregularForms": "divulgo, divulgas, divulga",
+      "sentence": "No puedes divulgar información confidencial.",
+      "wordTranslation": "To divulge, to disclose",
+      "sentenceTranslation": "You cannot disclose confidential information."
+    },
+    {
+      "word": "Ejecutar",
+      "irregularForms": "ejecuto, ejecutas, ejecuta",
+      "sentence": "Debemos ejecutar el plan con precisión.",
+      "wordTranslation": "To execute, to carry out",
+      "sentenceTranslation": "We must execute the plan with precision."
+    },
+    {
+      "word": "Eliminar",
+      "irregularForms": "elimino, eliminas, elimina",
+      "sentence": "Es necesario eliminar las malas hierbas del jardín.",
+      "wordTranslation": "To eliminate",
+      "sentenceTranslation": "It is necessary to eliminate the weeds from the garden."
+    },
+    {
+      "word": "Emigrar",
+      "irregularForms": "emigro, emigras, emigra",
+      "sentence": "Mucha gente decide emigrar en busca de mejores oportunidades.",
+      "wordTranslation": "To emigrate",
+      "sentenceTranslation": "Many people decide to emigrate in search of better opportunities."
+    },
+    {
+      "word": "Emitir",
+      "irregularForms": "emito, emites, emite",
+      "sentence": "La radio va a emitir el programa en vivo.",
+      "wordTranslation": "To emit, to broadcast",
+      "sentenceTranslation": "The radio is going to broadcast the program live."
+    },
+    {
+      "word": "Empaquetar",
+      "irregularForms": "empaqueto, empaquetas, empaqueta",
+      "sentence": "Necesitamos empaquetar los regalos antes de enviarlos.",
+      "wordTranslation": "To package",
+      "sentenceTranslation": "We need to package the gifts before sending them."
+    }
+  ]
+}

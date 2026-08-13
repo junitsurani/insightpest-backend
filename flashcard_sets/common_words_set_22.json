@@ -1,0 +1,902 @@
+{
+  "name": "Spanish Common Words Set 22",
+  "description": "This is part of a larger set of common Spanish words for learning and practice.",
+  "cards": [
+    {
+      "word": "este",
+      "irregularForms": "esta (fem. sing.), estos (masc. pl.), estas (fem. pl.)",
+      "sentence": "Me gusta este libro.",
+      "wordTranslation": "this (masculine singular)",
+      "sentenceTranslation": "I like this book."
+    },
+    {
+      "word": "esa",
+      "irregularForms": "ese (masc. sing.), esos (masc. pl.), esas (fem. pl.)",
+      "sentence": "Mira esa casa grande.",
+      "wordTranslation": "that (feminine singular)",
+      "sentenceTranslation": "Look at that big house."
+    },
+    {
+      "word": "estos",
+      "irregularForms": "este (masc. sing.), esta (fem. sing.), estas (fem. pl.)",
+      "sentence": "Estos días son muy fríos.",
+      "wordTranslation": "these (masculine plural)",
+      "sentenceTranslation": "These days are very cold."
+    },
+    {
+      "word": "esos",
+      "irregularForms": "ese (masc. sing.), esa (fem. sing.), esas (fem. pl.)",
+      "sentence": "No me gustan esos zapatos.",
+      "wordTranslation": "those (masculine plural)",
+      "sentenceTranslation": "I don't like those shoes."
+    },
+    {
+      "word": "unas",
+      "irregularForms": "una (fem. sing.), un (masc. sing.), unos (masc. pl.)",
+      "sentence": "Necesito unas manzanas.",
+      "wordTranslation": "some (feminine plural), a few",
+      "sentenceTranslation": "I need some apples."
+    },
+    {
+      "word": "unos",
+      "irregularForms": "un (masc. sing.), una (fem. sing.), unas (fem. pl.)",
+      "sentence": "Compré unos regalos.",
+      "wordTranslation": "some (masculine plural), a few",
+      "sentenceTranslation": "I bought some gifts."
+    },
+    {
+      "word": "pasta",
+      "irregularForms": "null",
+      "sentence": "Cenamos pasta con salsa de tomate.",
+      "wordTranslation": "pasta",
+      "sentenceTranslation": "We had pasta with tomato sauce for dinner."
+    },
+    {
+      "word": "médico",
+      "irregularForms": "médica (fem. sing.), médicos (masc. pl.), médicas (fem. pl.)",
+      "sentence": "El médico me dio medicina.",
+      "wordTranslation": "doctor",
+      "sentenceTranslation": "The doctor gave me medicine."
+    },
+    {
+      "word": "está",
+      "irregularForms": "estar (infinitive), estoy (I am), estamos (we are)",
+      "sentence": "Ella está muy feliz hoy.",
+      "wordTranslation": "is (he/she/it is)",
+      "sentenceTranslation": "She is very happy today."
+    },
+    {
+      "word": "soy",
+      "irregularForms": "ser (infinitive), eres (you are), es (he/she/it is)",
+      "sentence": "Yo soy de España.",
+      "wordTranslation": "am (I am)",
+      "sentenceTranslation": "I am from Spain."
+    },
+    {
+      "word": "tengo",
+      "irregularForms": "tener (infinitive), tienes (you have), tiene (he/she/it has)",
+      "sentence": "Tengo mucho trabajo.",
+      "wordTranslation": "have (I have)",
+      "sentenceTranslation": "I have a lot of work."
+    },
+    {
+      "word": "hago",
+      "irregularForms": "hacer (infinitive), haces (you do/make), hace (he/she/it does/makes)",
+      "sentence": "Siempre hago mi cama por la mañana.",
+      "wordTranslation": "do/make (I do/make)",
+      "sentenceTranslation": "I always make my bed in the morning."
+    },
+    {
+      "word": "voy",
+      "irregularForms": "ir (infinitive), vas (you go), va (he/she/it goes)",
+      "sentence": "Voy al supermercado.",
+      "wordTranslation": "go (I go)",
+      "sentenceTranslation": "I'm going to the supermarket."
+    },
+    {
+      "word": "veo",
+      "irregularForms": "ver (infinitive), ves (you see), ve (he/she/it sees)",
+      "sentence": "Veo una película en la televisión.",
+      "wordTranslation": "see (I see)",
+      "sentenceTranslation": "I'm watching a movie on television."
+    },
+    {
+      "word": "doy",
+      "irregularForms": "dar (infinitive), das (you give), da (he/she/it gives)",
+      "sentence": "Siempre doy lo mejor de mí.",
+      "wordTranslation": "give (I give)",
+      "sentenceTranslation": "I always give my best."
+    },
+    {
+      "word": "sé",
+      "irregularForms": "saber (infinitive), sabes (you know), sabe (he/she/it knows)",
+      "sentence": "No sé la respuesta.",
+      "wordTranslation": "know (I know)",
+      "sentenceTranslation": "I don't know the answer."
+    },
+    {
+      "word": "quiero",
+      "irregularForms": "querer (infinitive), quieres (you want), quiere (he/she/it wants)",
+      "sentence": "Quiero ir a la playa.",
+      "wordTranslation": "want (I want)",
+      "sentenceTranslation": "I want to go to the beach."
+    },
+    {
+      "word": "vengo",
+      "irregularForms": "venir (infinitive), vienes (you come), viene (he/she/it comes)",
+      "sentence": "Vengo de casa de mis padres.",
+      "wordTranslation": "come (I come)",
+      "sentenceTranslation": "I'm coming from my parents' house."
+    },
+    {
+      "word": "hay",
+      "irregularForms": "haber (infinitive), hubo (there was), habrá (there will be)",
+      "sentence": "Hay mucha gente en la calle.",
+      "wordTranslation": "there is/are",
+      "sentenceTranslation": "There are many people on the street."
+    },
+    {
+      "word": "puedo",
+      "irregularForms": "poder (infinitive), puedes (you can), puede (he/she/it can)",
+      "sentence": "Puedo ayudarte con eso.",
+      "wordTranslation": "can (I can)",
+      "sentenceTranslation": "I can help you with that."
+    },
+    {
+      "word": "dice",
+      "irregularForms": "decir (infinitive), digo (I say), dicen (they say)",
+      "sentence": "Ella dice la verdad.",
+      "wordTranslation": "says (he/she/it says)",
+      "sentenceTranslation": "She tells the truth."
+    },
+    {
+      "word": "pueden",
+      "irregularForms": "poder (infinitive), puedo (I can), puedes (you can)",
+      "sentence": "Ellos pueden hablar español.",
+      "wordTranslation": "can (they can)",
+      "sentenceTranslation": "They can speak Spanish."
+    },
+    {
+      "word": "van",
+      "irregularForms": "ir (infinitive), voy (I go), vas (you go)",
+      "sentence": "Ellos van a la fiesta.",
+      "wordTranslation": "go (they go)",
+      "sentenceTranslation": "They are going to the party."
+    },
+    {
+      "word": "somos",
+      "irregularForms": "ser (infinitive), soy (I am), eres (you are)",
+      "sentence": "Nosotros somos amigos.",
+      "wordTranslation": "are (we are)",
+      "sentenceTranslation": "We are friends."
+    },
+    {
+      "word": "estamos",
+      "irregularForms": "estar (infinitive), estoy (I am), estás (you are)",
+      "sentence": "Estamos listos para salir.",
+      "wordTranslation": "are (we are)",
+      "sentenceTranslation": "We are ready to leave."
+    },
+    {
+      "word": "tienen",
+      "irregularForms": "tener (infinitive), tengo (I have), tienes (you have)",
+      "sentence": "Mis padres tienen un coche nuevo.",
+      "wordTranslation": "have (they have)",
+      "sentenceTranslation": "My parents have a new car."
+    },
+    {
+      "word": "hacen",
+      "irregularForms": "hacer (infinitive), hago (I do), haces (you do)",
+      "sentence": "Los niños hacen mucho ruido.",
+      "wordTranslation": "do/make (they do/make)",
+      "sentenceTranslation": "The children make a lot of noise."
+    },
+    {
+      "word": "dicen",
+      "irregularForms": "decir (infinitive), digo (I say), dice (he/she/it says)",
+      "sentence": "Ellos dicen que viene la lluvia.",
+      "wordTranslation": "say (they say)",
+      "sentenceTranslation": "They say the rain is coming."
+    },
+    {
+      "word": "saben",
+      "irregularForms": "saber (infinitive), sé (I know), sabes (you know)",
+      "sentence": "Ellos saben la verdad.",
+      "wordTranslation": "know (they know)",
+      "sentenceTranslation": "They know the truth."
+    },
+    {
+      "word": "quieren",
+      "irregularForms": "querer (infinitive), quiero (I want), quieres (you want)",
+      "sentence": "Mis amigos quieren visitar París.",
+      "wordTranslation": "want (they want)",
+      "sentenceTranslation": "My friends want to visit Paris."
+    },
+    {
+      "word": "vienen",
+      "irregularForms": "venir (infinitive), vengo (I come), vienes (you come)",
+      "sentence": "Ellos vienen a cenar esta noche.",
+      "wordTranslation": "come (they come)",
+      "sentenceTranslation": "They are coming to dinner tonight."
+    },
+    {
+      "word": "piensa",
+      "irregularForms": "pensar (infinitive), pienso (I think), piensan (they think)",
+      "sentence": "Ella piensa que es una buena idea.",
+      "wordTranslation": "thinks (he/she/it thinks)",
+      "sentenceTranslation": "She thinks it's a good idea."
+    },
+    {
+      "word": "llega",
+      "irregularForms": "llegar (infinitive), llego (I arrive), llegan (they arrive)",
+      "sentence": "El tren llega en cinco minutos.",
+      "wordTranslation": "arrives (he/she/it arrives)",
+      "sentenceTranslation": "The train arrives in five minutes."
+    },
+    {
+      "word": "llama",
+      "irregularForms": "llamar (infinitive), llamo (I call), llaman (they call)",
+      "sentence": "Ella me llama cada día.",
+      "wordTranslation": "calls (he/she/it calls)",
+      "sentenceTranslation": "She calls me every day."
+    },
+    {
+      "word": "salió",
+      "irregularForms": "salir (infinitive), salgo (I leave), salimos (we leave)",
+      "sentence": "Ella salió de la casa temprano.",
+      "wordTranslation": "left (he/she/it left)",
+      "sentenceTranslation": "She left the house early."
+    },
+    {
+      "word": "fui",
+      "irregularForms": "ir/ser (infinitive), fuiste (you went/were), fue (he/she/it went/was)",
+      "sentence": "Ayer fui al cine.",
+      "wordTranslation": "went/was (I went/was)",
+      "sentenceTranslation": "Yesterday I went to the cinema."
+    },
+    {
+      "word": "dije",
+      "irregularForms": "decir (infinitive), dice (he/she/it says), dijeron (they said)",
+      "sentence": "No dije nada al respecto.",
+      "wordTranslation": "said (I said)",
+      "sentenceTranslation": "I didn't say anything about it."
+    },
+    {
+      "word": "hizo",
+      "irregularForms": "hacer (infinitive), hice (I did/made), hicieron (they did/made)",
+      "sentence": "Él hizo la cena para todos.",
+      "wordTranslation": "did/made (he/she/it did/made)",
+      "sentenceTranslation": "He made dinner for everyone."
+    },
+    {
+      "word": "tuvo",
+      "irregularForms": "tener (infinitive), tuve (I had), tuvieron (they had)",
+      "sentence": "Mi hermana tuvo un bebé.",
+      "wordTranslation": "had (he/she/it had)",
+      "sentenceTranslation": "My sister had a baby."
+    },
+    {
+      "word": "era",
+      "irregularForms": "ser (infinitive), era (I/he/she/it was), éramos (we were)",
+      "sentence": "Cuando era niño, vivía en Madrid.",
+      "wordTranslation": "was (I/he/she/it was - imperfect)",
+      "sentenceTranslation": "When I was a child, I lived in Madrid."
+    },
+    {
+      "word": "estaba",
+      "irregularForms": "estar (infinitive), estaba (I/he/she/it was), estábamos (we were)",
+      "sentence": "Ella estaba leyendo un libro.",
+      "wordTranslation": "was (I/he/she/it was - imperfect)",
+      "sentenceTranslation": "She was reading a book."
+    },
+    {
+      "word": "había",
+      "irregularForms": "haber (infinitive), hay (there is/are), hubo (there was/were)",
+      "sentence": "Había mucha gente en el evento.",
+      "wordTranslation": "there was/were (imperfect)",
+      "sentenceTranslation": "There were many people at the event."
+    },
+    {
+      "word": "fuera",
+      "irregularForms": "ser/ir (infinitive), fuera (I/he/she/it were/went - imperfect subjunctive)",
+      "sentence": "Dudaba que él fuera honesto.",
+      "wordTranslation": "were/went (imperfect subjunctive)",
+      "sentenceTranslation": "I doubted that he was honest."
+    },
+    {
+      "word": "vaya",
+      "irregularForms": "ir (infinitive), vayas (you go - subj.), vayan (they go - subj.)",
+      "sentence": "Espero que te vaya bien.",
+      "wordTranslation": "go (present subjunctive)",
+      "sentenceTranslation": "I hope it goes well for you."
+    },
+    {
+      "word": "haga",
+      "irregularForms": "hacer (infinitive), haga (I/he/she/it do/make - subj.), hagan (they do/make - subj.)",
+      "sentence": "Quiero que él haga el trabajo.",
+      "wordTranslation": "do/make (present subjunctive)",
+      "sentenceTranslation": "I want him to do the work."
+    },
+    {
+      "word": "tenga",
+      "irregularForms": "tener (infinitive), tenga (I/he/she/it have - subj.), tengan (they have - subj.)",
+      "sentence": "Ojalá tenga suerte.",
+      "wordTranslation": "have (present subjunctive)",
+      "sentenceTranslation": "Hopefully I have luck."
+    },
+    {
+      "word": "diga",
+      "irregularForms": "decir (infinitive), diga (I/he/she/it say - subj.), digan (they say - subj.)",
+      "sentence": "Es importante que diga la verdad.",
+      "wordTranslation": "say (present subjunctive)",
+      "sentenceTranslation": "It's important that he says the truth."
+    },
+    {
+      "word": "venga",
+      "irregularForms": "venir (infinitive), venga (I/he/she/it come - subj.), vengan (they come - subj.)",
+      "sentence": "Espero que venga pronto.",
+      "wordTranslation": "come (present subjunctive)",
+      "sentenceTranslation": "I hope he comes soon."
+    },
+    {
+      "word": "pueda",
+      "irregularForms": "poder (infinitive), pueda (I/he/she/it can - subj.), puedan (they can - subj.)",
+      "sentence": "No creo que pueda hacerlo.",
+      "wordTranslation": "can (present subjunctive)",
+      "sentenceTranslation": "I don't think I can do it."
+    },
+    {
+      "word": "hubiera",
+      "irregularForms": "haber (infinitive), hubiera (I/he/she/it had been - imperfect subjunctive)",
+      "sentence": "Si hubiera sabido, te habría ayudado.",
+      "wordTranslation": "had been/would have (imperfect subjunctive)",
+      "sentenceTranslation": "If I had known, I would have helped you."
+    },
+    {
+      "word": "días",
+      "irregularForms": "día (singular)",
+      "sentence": "Estos días han sido largos.",
+      "wordTranslation": "days",
+      "sentenceTranslation": "These days have been long."
+    },
+    {
+      "word": "años",
+      "irregularForms": "año (singular)",
+      "sentence": "Nos conocemos desde hace muchos años.",
+      "wordTranslation": "years",
+      "sentenceTranslation": "We've known each other for many years."
+    },
+    {
+      "word": "horas",
+      "irregularForms": "hora (singular)",
+      "sentence": "Trabajo ocho horas al día.",
+      "wordTranslation": "hours",
+      "sentenceTranslation": "I work eight hours a day."
+    },
+    {
+      "word": "manos",
+      "irregularForms": "mano (singular)",
+      "sentence": "Lávate las manos antes de comer.",
+      "wordTranslation": "hands",
+      "sentenceTranslation": "Wash your hands before eating."
+    },
+    {
+      "word": "partes",
+      "irregularForms": "parte (singular)",
+      "sentence": "El coche está en varias partes.",
+      "wordTranslation": "parts",
+      "sentenceTranslation": "The car is in several parts."
+    },
+    {
+      "word": "lugares",
+      "irregularForms": "lugar (singular)",
+      "sentence": "Hemos visitado muchos lugares hermosos.",
+      "wordTranslation": "places",
+      "sentenceTranslation": "We have visited many beautiful places."
+    },
+    {
+      "word": "cosas",
+      "irregularForms": "cosa (singular)",
+      "sentence": "Hay muchas cosas que hacer.",
+      "wordTranslation": "things",
+      "sentenceTranslation": "There are many things to do."
+    },
+    {
+      "word": "personas",
+      "irregularForms": "persona (singular)",
+      "sentence": "Había muchas personas en la fiesta.",
+      "wordTranslation": "people",
+      "sentenceTranslation": "There were many people at the party."
+    },
+    {
+      "word": "palabras",
+      "irregularForms": "palabra (singular)",
+      "sentence": "Aprendí cien palabras nuevas.",
+      "wordTranslation": "words",
+      "sentenceTranslation": "I learned a hundred new words."
+    },
+    {
+      "word": "amigos",
+      "irregularForms": "amigo (singular), amiga (fem. sing.)",
+      "sentence": "Mis amigos vienen a cenar.",
+      "wordTranslation": "friends",
+      "sentenceTranslation": "My friends are coming for dinner."
+    },
+    {
+      "word": "familias",
+      "irregularForms": "familia (singular)",
+      "sentence": "Hay muchas familias felices en este barrio.",
+      "wordTranslation": "families",
+      "sentenceTranslation": "There are many happy families in this neighborhood."
+    },
+    {
+      "word": "niños",
+      "irregularForms": "niño (singular), niña (fem. sing.)",
+      "sentence": "Los niños juegan en el parque.",
+      "wordTranslation": "children",
+      "sentenceTranslation": "The children are playing in the park."
+    },
+    {
+      "word": "mujeres",
+      "irregularForms": "mujer (singular)",
+      "sentence": "Las mujeres son muy fuertes.",
+      "wordTranslation": "women",
+      "sentenceTranslation": "Women are very strong."
+    },
+    {
+      "word": "hombres",
+      "irregularForms": "hombre (singular)",
+      "sentence": "Los hombres trabajan mucho.",
+      "wordTranslation": "men",
+      "sentenceTranslation": "Men work a lot."
+    },
+    {
+      "word": "libros",
+      "irregularForms": "libro (singular)",
+      "sentence": "Me gusta leer libros de historia.",
+      "wordTranslation": "books",
+      "sentenceTranslation": "I like to read history books."
+    },
+    {
+      "word": "números",
+      "irregularForms": "número (singular)",
+      "sentence": "Necesito los números de teléfono.",
+      "wordTranslation": "numbers",
+      "sentenceTranslation": "I need the phone numbers."
+    },
+    {
+      "word": "colores",
+      "irregularForms": "color (singular)",
+      "sentence": "Me encantan los colores brillantes.",
+      "wordTranslation": "colors",
+      "sentenceTranslation": "I love bright colors."
+    },
+    {
+      "word": "diferentes",
+      "irregularForms": "diferente (singular)",
+      "sentence": "Tenemos opiniones diferentes.",
+      "wordTranslation": "different (plural)",
+      "sentenceTranslation": "We have different opinions."
+    },
+    {
+      "word": "importantes",
+      "irregularForms": "importante (singular)",
+      "sentence": "Son decisiones importantes.",
+      "wordTranslation": "important (plural)",
+      "sentenceTranslation": "They are important decisions."
+    },
+    {
+      "word": "grandes",
+      "irregularForms": "grande (singular)",
+      "sentence": "Compré dos manzanas grandes.",
+      "wordTranslation": "big (plural)",
+      "sentenceTranslation": "I bought two big apples."
+    },
+    {
+      "word": "pequeños",
+      "irregularForms": "pequeño (singular), pequeña (fem. sing.)",
+      "sentence": "Tenemos tres perros pequeños.",
+      "wordTranslation": "small (masculine plural)",
+      "sentenceTranslation": "We have three small dogs."
+    },
+    {
+      "word": "nuevos",
+      "irregularForms": "nuevo (singular), nueva (fem. sing.)",
+      "sentence": "Compré unos zapatos nuevos.",
+      "wordTranslation": "new (masculine plural)",
+      "sentenceTranslation": "I bought some new shoes."
+    },
+    {
+      "word": "viejos",
+      "irregularForms": "viejo (singular), vieja (fem. sing.)",
+      "sentence": "Mis abuelos son muy viejos.",
+      "wordTranslation": "old (masculine plural)",
+      "sentenceTranslation": "My grandparents are very old."
+    },
+    {
+      "word": "jóvenes",
+      "irregularForms": "joven (singular)",
+      "sentence": "Los jóvenes están de moda.",
+      "wordTranslation": "young (plural)",
+      "sentenceTranslation": "Young people are in fashion."
+    },
+    {
+      "word": "buenos",
+      "irregularForms": "bueno (singular), buena (fem. sing.)",
+      "sentence": "Tenemos buenos amigos.",
+      "wordTranslation": "good (masculine plural)",
+      "sentenceTranslation": "We have good friends."
+    },
+    {
+      "word": "malos",
+      "irregularForms": "malo (singular), mala (fem. sing.)",
+      "sentence": "No me gustan los malos olores.",
+      "wordTranslation": "bad (masculine plural)",
+      "sentenceTranslation": "I don't like bad smells."
+    },
+    {
+      "word": "felices",
+      "irregularForms": "feliz (singular)",
+      "sentence": "Espero que sean muy felices.",
+      "wordTranslation": "happy (plural)",
+      "sentenceTranslation": "I hope they are very happy."
+    },
+    {
+      "word": "tristes",
+      "irregularForms": "triste (singular)",
+      "sentence": "Las noticias eran muy tristes.",
+      "wordTranslation": "sad (plural)",
+      "sentenceTranslation": "The news was very sad."
+    },
+    {
+      "word": "difíciles",
+      "irregularForms": "difícil (singular)",
+      "sentence": "Son tiempos difíciles para todos.",
+      "wordTranslation": "difficult (plural)",
+      "sentenceTranslation": "These are difficult times for everyone."
+    },
+    {
+      "word": "fáciles",
+      "irregularForms": "fácil (singular)",
+      "sentence": "Estas preguntas son muy fáciles.",
+      "wordTranslation": "easy (plural)",
+      "sentenceTranslation": "These questions are very easy."
+    },
+    {
+      "word": "posibles",
+      "irregularForms": "posible (singular)",
+      "sentence": "Todas las opciones son posibles.",
+      "wordTranslation": "possible (plural)",
+      "sentenceTranslation": "All options are possible."
+    },
+    {
+      "word": "reales",
+      "irregularForms": "real (singular)",
+      "sentence": "Los sueños a veces parecen reales.",
+      "wordTranslation": "real (plural)",
+      "sentenceTranslation": "Dreams sometimes seem real."
+    },
+    {
+      "word": "ciertos",
+      "irregularForms": "cierto (singular), cierta (fem. sing.)",
+      "sentence": "Hay ciertos problemas que resolver.",
+      "wordTranslation": "certain (masculine plural)",
+      "sentenceTranslation": "There are certain problems to solve."
+    },
+    {
+      "word": "claros",
+      "irregularForms": "claro (singular), clara (fem. sing.)",
+      "sentence": "Los colores claros me gustan más.",
+      "wordTranslation": "clear (masculine plural)",
+      "sentenceTranslation": "I like light colors more."
+    },
+    {
+      "word": "muchas",
+      "irregularForms": "mucho (masc. sing.), mucha (fem. sing.), muchos (masc. pl.)",
+      "sentence": "Hay muchas cosas que aprender.",
+      "wordTranslation": "many (feminine plural)",
+      "sentenceTranslation": "There are many things to learn."
+    },
+    {
+      "word": "pocos",
+      "irregularForms": "poco (masc. sing.), poca (fem. sing.), pocas (fem. pl.)",
+      "sentence": "Solo quedan pocos días.",
+      "wordTranslation": "few (masculine plural)",
+      "sentenceTranslation": "Only a few days remain."
+    },
+    {
+      "word": "pocas",
+      "irregularForms": "poco (masc. sing.), poca (fem. sing.), pocos (masc. pl.)",
+      "sentence": "Nos quedan pocas horas.",
+      "wordTranslation": "few (feminine plural)",
+      "sentenceTranslation": "We have few hours left."
+    },
+    {
+      "word": "políticos",
+      "irregularForms": "político (singular), política (fem. sing.)",
+      "sentence": "Los temas políticos son complejos.",
+      "wordTranslation": "political (masculine plural)",
+      "sentenceTranslation": "Political topics are complex."
+    },
+    {
+      "word": "sociales",
+      "irregularForms": "social (singular)",
+      "sentence": "Tenemos muchos eventos sociales.",
+      "wordTranslation": "social (plural)",
+      "sentenceTranslation": "We have many social events."
+    },
+    {
+      "word": "nacionales",
+      "irregularForms": "nacional (singular)",
+      "sentence": "Las noticias nacionales son importantes.",
+      "wordTranslation": "national (plural)",
+      "sentenceTranslation": "The national news is important."
+    },
+    {
+      "word": "generales",
+      "irregularForms": "general (singular)",
+      "sentence": "Estas son las reglas generales.",
+      "wordTranslation": "general (plural)",
+      "sentenceTranslation": "These are the general rules."
+    },
+    {
+      "word": "básicos",
+      "irregularForms": "básico (singular), básica (fem. sing.)",
+      "sentence": "Estos son los conceptos básicos.",
+      "wordTranslation": "basic (masculine plural)",
+      "sentenceTranslation": "These are the basic concepts."
+    },
+    {
+      "word": "especiales",
+      "irregularForms": "especial (singular)",
+      "sentence": "Ella tiene habilidades especiales.",
+      "wordTranslation": "special (plural)",
+      "sentenceTranslation": "She has special abilities."
+    },
+    {
+      "word": "públicos",
+      "irregularForms": "público (singular), pública (fem. sing.)",
+      "sentence": "Los espacios públicos están abiertos.",
+      "wordTranslation": "public (masculine plural)",
+      "sentenceTranslation": "Public spaces are open."
+    },
+    {
+      "word": "privados",
+      "irregularForms": "privado (singular), privada (fem. sing.)",
+      "sentence": "Tenemos planes privados para el fin de semana.",
+      "wordTranslation": "private (masculine plural)",
+      "sentenceTranslation": "We have private plans for the weekend."
+    },
+    {
+      "word": "comunes",
+      "irregularForms": "común (singular)",
+      "sentence": "Esos problemas son muy comunes.",
+      "wordTranslation": "common (plural)",
+      "sentenceTranslation": "Those problems are very common."
+    },
+    {
+      "word": "propios",
+      "irregularForms": "propio (singular), propia (fem. sing.)",
+      "sentence": "Ellos tienen sus propios coches.",
+      "wordTranslation": "own (masculine plural)",
+      "sentenceTranslation": "They have their own cars."
+    },
+    {
+      "word": "otros",
+      "irregularForms": "otro (masc. sing.), otra (fem. sing.), otras (fem. pl.)",
+      "sentence": "Hay otros libros en la estantería.",
+      "wordTranslation": "other (masculine plural)",
+      "sentenceTranslation": "There are other books on the shelf."
+    },
+    {
+      "word": "todas",
+      "irregularForms": "todo (masc. sing.), toda (fem. sing.), todos (masc. pl.)",
+      "sentence": "Todas las flores son hermosas.",
+      "wordTranslation": "all (feminine plural)",
+      "sentenceTranslation": "All the flowers are beautiful."
+    },
+    {
+      "word": "todos",
+      "irregularForms": "todo (masc. sing.), toda (fem. sing.), todas (fem. pl.)",
+      "sentence": "Todos mis amigos vienen.",
+      "wordTranslation": "all (masculine plural)",
+      "sentenceTranslation": "All my friends are coming."
+    },
+    {
+      "word": "siendo",
+      "irregularForms": "ser (infinitive), soy (I am), es (he/she/it is)",
+      "sentence": "Está siendo un día difícil.",
+      "wordTranslation": "being (gerund of ser)",
+      "sentenceTranslation": "It's being a difficult day."
+    },
+    {
+      "word": "estando",
+      "irregularForms": "estar (infinitive), estoy (I am), está (he/she/it is)",
+      "sentence": "Estando en casa, me siento relajado.",
+      "wordTranslation": "being (gerund of estar)",
+      "sentenceTranslation": "Being at home, I feel relaxed."
+    },
+    {
+      "word": "habiendo",
+      "irregularForms": "haber (infinitive), hay (there is/are), ha (he/she/it has)",
+      "sentence": "Habiendo comido, me fui a dormir.",
+      "wordTranslation": "having (gerund of haber)",
+      "sentenceTranslation": "Having eaten, I went to sleep."
+    },
+    {
+      "word": "venido",
+      "irregularForms": "venir (infinitive), venido (past participle)",
+      "sentence": "Ha venido mucha gente.",
+      "wordTranslation": "come (past participle)",
+      "sentenceTranslation": "Many people have come."
+    },
+    {
+      "word": "dicho",
+      "irregularForms": "decir (infinitive), dicho (past participle)",
+      "sentence": "Ya he dicho todo lo que sé.",
+      "wordTranslation": "said (past participle)",
+      "sentenceTranslation": "I have already said everything I know."
+    },
+    {
+      "word": "hecho",
+      "irregularForms": "hacer (infinitive), hecho (past participle)",
+      "sentence": "Lo siento, ya está hecho.",
+      "wordTranslation": "done/made (past participle)",
+      "sentenceTranslation": "I'm sorry, it's already done."
+    },
+    {
+      "word": "puesto",
+      "irregularForms": "poner (infinitive), puesto (past participle)",
+      "sentence": "He puesto el libro en la mesa.",
+      "wordTranslation": "put (past participle)",
+      "sentenceTranslation": "I have put the book on the table."
+    },
+    {
+      "word": "abierto",
+      "irregularForms": "abrir (infinitive), abierto (past participle)",
+      "sentence": "La tienda está abierta.",
+      "wordTranslation": "open (past participle)",
+      "sentenceTranslation": "The store is open."
+    },
+    {
+      "word": "cubierto",
+      "irregularForms": "cubrir (infinitive), cubierto (past participle)",
+      "sentence": "El suelo está cubierto de nieve.",
+      "wordTranslation": "covered (past participle)",
+      "sentenceTranslation": "The ground is covered with snow."
+    },
+    {
+      "word": "vuelto",
+      "irregularForms": "volver (infinitive), vuelto (past participle)",
+      "sentence": "Ha vuelto a casa.",
+      "wordTranslation": "returned (past participle)",
+      "sentenceTranslation": "He has returned home."
+    },
+    {
+      "word": "escrito",
+      "irregularForms": "escribir (infinitive), escrito (past participle)",
+      "sentence": "Ya he escrito la carta.",
+      "wordTranslation": "written (past participle)",
+      "sentenceTranslation": "I have already written the letter."
+    },
+    {
+      "word": "roto",
+      "irregularForms": "romper (infinitive), roto (past participle)",
+      "sentence": "El vaso está roto.",
+      "wordTranslation": "broken (past participle)",
+      "sentenceTranslation": "The glass is broken."
+    },
+    {
+      "word": "visto",
+      "irregularForms": "ver (infinitive), visto (past participle)",
+      "sentence": "Nunca he visto algo así.",
+      "wordTranslation": "seen (past participle)",
+      "sentenceTranslation": "I have never seen anything like that."
+    },
+    {
+      "word": "ido",
+      "irregularForms": "ir (infinitive), ido (past participle)",
+      "sentence": "Ya se ha ido.",
+      "wordTranslation": "gone (past participle)",
+      "sentenceTranslation": "He has already gone."
+    },
+    {
+      "word": "muerto",
+      "irregularForms": "morir (infinitive), muerto (past participle)",
+      "sentence": "El árbol está muerto.",
+      "wordTranslation": "dead (past participle)",
+      "sentenceTranslation": "The tree is dead."
+    },
+    {
+      "word": "comprado",
+      "irregularForms": "comprar (infinitive), comprado (past participle)",
+      "sentence": "He comprado un nuevo teléfono.",
+      "wordTranslation": "bought (past participle)",
+      "sentenceTranslation": "I have bought a new phone."
+    },
+    {
+      "word": "leído",
+      "irregularForms": "leer (infinitive), leído (past participle)",
+      "sentence": "Ya he leído ese libro.",
+      "wordTranslation": "read (past participle)",
+      "sentenceTranslation": "I have already read that book."
+    },
+    {
+      "word": "vivido",
+      "irregularForms": "vivir (infinitive), vivido (past participle)",
+      "sentence": "Hemos vivido muchas experiencias.",
+      "wordTranslation": "lived (past participle)",
+      "sentenceTranslation": "We have lived many experiences."
+    },
+    {
+      "word": "jugado",
+      "irregularForms": "jugar (infinitive), jugado (past participle)",
+      "sentence": "Hemos jugado fútbol.",
+      "wordTranslation": "played (past participle)",
+      "sentenceTranslation": "We have played soccer."
+    },
+    {
+      "word": "trabajado",
+      "irregularForms": "trabajar (infinitive), trabajado (past participle)",
+      "sentence": "Él ha trabajado duro.",
+      "wordTranslation": "worked (past participle)",
+      "sentenceTranslation": "He has worked hard."
+    },
+    {
+      "word": "dado",
+      "irregularForms": "dar (infinitive), dado (past participle)",
+      "sentence": "Le he dado un regalo.",
+      "wordTranslation": "given (past participle)",
+      "sentenceTranslation": "I have given him a gift."
+    },
+    {
+      "word": "tomado",
+      "irregularForms": "tomar (infinitive), tomado (past participle)",
+      "sentence": "Ella ha tomado el autobús.",
+      "wordTranslation": "taken/drunk (past participle)",
+      "sentenceTranslation": "She has taken the bus."
+    },
+    {
+      "word": "escuchado",
+      "irregularForms": "escuchar (infinitive), escuchado (past participle)",
+      "sentence": "He escuchado esa canción antes.",
+      "wordTranslation": "listened (past participle)",
+      "sentenceTranslation": "I have heard that song before."
+    },
+    {
+      "word": "hablado",
+      "irregularForms": "hablar (infinitive), hablado (past participle)",
+      "sentence": "Hemos hablado sobre el problema.",
+      "wordTranslation": "spoken (past participle)",
+      "sentenceTranslation": "We have spoken about the problem."
+    },
+    {
+      "word": "buscado",
+      "irregularForms": "buscar (infinitive), buscado (past participle)",
+      "sentence": "He buscado mis llaves.",
+      "wordTranslation": "looked for (past participle)",
+      "sentenceTranslation": "I have looked for my keys."
+    },
+    {
+      "word": "encontrado",
+      "irregularForms": "encontrar (infinitive), encontrado (past participle)",
+      "sentence": "Hemos encontrado la solución.",
+      "wordTranslation": "found (past participle)",
+      "sentenceTranslation": "We have found the solution."
+    },
+    {
+      "word": "llamado",
+      "irregularForms": "llamar (infinitive), llamado (past participle)",
+      "sentence": "Me ha llamado por teléfono.",
+      "wordTranslation": "called (past participle)",
+      "sentenceTranslation": "He has called me on the phone."
+    },
+    {
+      "word": "gustado",
+      "irregularForms": "gustar (infinitive), gustado (past participle)",
+      "sentence": "Siempre me ha gustado el chocolate.",
+      "wordTranslation": "liked (past participle)",
+      "sentenceTranslation": "I have always liked chocolate."
+    }
+  ]
+}

@@ -1,0 +1,832 @@
+{
+  "name": "Spanish Common Words Set 9",
+  "description": "This is part of a larger set of common Spanish words, focusing on frequently used vocabulary not covered in previous sets.",
+  "cards": [
+    {
+      "word": "arroz",
+      "irregularForms": null,
+      "sentence": "Me gusta comer arroz con pollo.",
+      "wordTranslation": "rice",
+      "sentenceTranslation": "I like to eat rice with chicken."
+    },
+    {
+      "word": "huevo",
+      "irregularForms": null,
+      "sentence": "Ella preparó un huevo frito para el desayuno.",
+      "wordTranslation": "egg",
+      "sentenceTranslation": "She prepared a fried egg for breakfast."
+    },
+    {
+      "word": "queso",
+      "irregularForms": null,
+      "sentence": "¿Quieres un poco de queso en tu sándwich?",
+      "wordTranslation": "cheese",
+      "sentenceTranslation": "Do you want some cheese on your sandwich?"
+    },
+    {
+      "word": "café",
+      "irregularForms": null,
+      "sentence": "Por la mañana siempre tomo una taza de café.",
+      "wordTranslation": "coffee",
+      "sentenceTranslation": "In the morning I always drink a cup of coffee."
+    },
+    {
+      "word": "té",
+      "irregularForms": null,
+      "sentence": "Prefiero el té verde al café negro.",
+      "wordTranslation": "tea",
+      "sentenceTranslation": "I prefer green tea to black coffee."
+    },
+    {
+      "word": "zumo",
+      "irregularForms": null,
+      "sentence": "A los niños les encanta el zumo de naranja.",
+      "wordTranslation": "juice",
+      "sentenceTranslation": "Children love orange juice."
+    },
+    {
+      "word": "ordenador",
+      "irregularForms": null,
+      "sentence": "Necesito un nuevo ordenador para mi trabajo.",
+      "wordTranslation": "computer",
+      "sentenceTranslation": "I need a new computer for my job."
+    },
+    {
+      "word": "carro",
+      "irregularForms": null,
+      "sentence": "Estacionó su carro frente a la casa.",
+      "wordTranslation": "car",
+      "sentenceTranslation": "He parked his car in front of the house."
+    },
+    {
+      "word": "barco",
+      "irregularForms": null,
+      "sentence": "El barco zarpó al amanecer.",
+      "wordTranslation": "boat",
+      "sentenceTranslation": "The boat sailed at dawn."
+    },
+    {
+      "word": "método",
+      "irregularForms": null,
+      "sentence": "Este método es muy eficiente para aprender.",
+      "wordTranslation": "method",
+      "sentenceTranslation": "This method is very efficient for learning."
+    },
+    {
+      "word": "pensamiento",
+      "irregularForms": null,
+      "sentence": "Tu pensamiento es muy profundo.",
+      "wordTranslation": "thought",
+      "sentenceTranslation": "Your thought is very profound."
+    },
+    {
+      "word": "final",
+      "irregularForms": null,
+      "sentence": "Llegamos al final del camino.",
+      "wordTranslation": "end",
+      "sentenceTranslation": "We reached the end of the road."
+    },
+    {
+      "word": "radio",
+      "irregularForms": null,
+      "sentence": "Escucho música en la radio mientras trabajo.",
+      "wordTranslation": "radio",
+      "sentenceTranslation": "I listen to music on the radio while I work."
+    },
+    {
+      "word": "televisión",
+      "irregularForms": null,
+      "sentence": "Por la noche, vemos la televisión.",
+      "wordTranslation": "television",
+      "sentenceTranslation": "In the evening, we watch television."
+    },
+    {
+      "word": "periódico",
+      "irregularForms": null,
+      "sentence": "Compró el periódico para leer las noticias.",
+      "wordTranslation": "newspaper",
+      "sentenceTranslation": "He bought the newspaper to read the news."
+    },
+    {
+      "word": "revista",
+      "irregularForms": null,
+      "sentence": "Hay una revista de moda en la mesa.",
+      "wordTranslation": "magazine",
+      "sentenceTranslation": "There is a fashion magazine on the table."
+    },
+    {
+      "word": "polvo",
+      "irregularForms": null,
+      "sentence": "Hay mucho polvo en los muebles antiguos.",
+      "wordTranslation": "dust",
+      "sentenceTranslation": "There is a lot of dust on the old furniture."
+    },
+    {
+      "word": "concepto",
+      "irregularForms": null,
+      "sentence": "Es un concepto difícil de entender.",
+      "wordTranslation": "concept",
+      "sentenceTranslation": "It's a difficult concept to understand."
+    },
+    {
+      "word": "artista",
+      "irregularForms": null,
+      "sentence": "Él es un artista muy talentoso.",
+      "wordTranslation": "artist",
+      "sentenceTranslation": "He is a very talented artist."
+    },
+    {
+      "word": "cocinero",
+      "irregularForms": null,
+      "sentence": "El cocinero preparó un plato delicioso.",
+      "wordTranslation": "cook",
+      "sentenceTranslation": "The cook prepared a delicious dish."
+    },
+    {
+      "word": "enfermero",
+      "irregularForms": null,
+      "sentence": "El enfermero cuidó bien de los pacientes.",
+      "wordTranslation": "nurse",
+      "sentenceTranslation": "The nurse took good care of the patients."
+    },
+    {
+      "word": "policía",
+      "irregularForms": null,
+      "sentence": "La policía llegó rápidamente al lugar.",
+      "wordTranslation": "police/policeman",
+      "sentenceTranslation": "The police arrived quickly at the scene."
+    },
+    {
+      "word": "volar",
+      "irregularForms": "vuelo, vuelas, vuela, volamos, voláis, vuelan",
+      "sentence": "Los pájaros pueden volar muy alto.",
+      "wordTranslation": "to fly",
+      "sentenceTranslation": "Birds can fly very high."
+    },
+    {
+      "word": "duchar",
+      "irregularForms": "ducho, duchas, ducha, duchamos, ducháis, duchan",
+      "sentence": "Me gusta ducharme por la mañana.",
+      "wordTranslation": "to shower",
+      "sentenceTranslation": "I like to shower in the morning."
+    },
+    {
+      "word": "afeitar",
+      "irregularForms": "afeito, afeitas, afeita, afeitamos, afeitáis, afeitan",
+      "sentence": "Mi padre se afeita cada día.",
+      "wordTranslation": "to shave",
+      "sentenceTranslation": "My father shaves every day."
+    },
+    {
+      "word": "maquillar",
+      "irregularForms": "maquillo, maquillas, maquilla, maquillamos, maquilláis, maquillan",
+      "sentence": "Ella tarda mucho en maquillarse.",
+      "wordTranslation": "to put on makeup",
+      "sentenceTranslation": "She takes a long time to put on makeup."
+    },
+    {
+      "word": "colocar",
+      "irregularForms": "coloco, colocas, coloca, colocamos, colocáis, colocan",
+      "sentence": "Por favor, coloca los libros en la estantería.",
+      "wordTranslation": "to place",
+      "sentenceTranslation": "Please, place the books on the shelf."
+    },
+    {
+      "word": "coger",
+      "irregularForms": "cojo, coges, coge, cogemos, cogéis, cogen",
+      "sentence": "Voy a coger el autobús para ir al centro.",
+      "wordTranslation": "to take/grab",
+      "sentenceTranslation": "I'm going to take the bus to go downtown."
+    },
+    {
+      "word": "recoger",
+      "irregularForms": "recojo, recoges, recoge, recogemos, recogéis, recogen",
+      "sentence": "Necesito recoger a los niños de la escuela.",
+      "wordTranslation": "to pick up",
+      "sentenceTranslation": "I need to pick up the children from school."
+    },
+    {
+      "word": "mover",
+      "irregularForms": "muevo, mueves, mueve, movemos, movéis, mueven",
+      "sentence": "No puedes mover la mesa solo.",
+      "wordTranslation": "to move",
+      "sentenceTranslation": "You can't move the table alone."
+    },
+    {
+      "word": "girar",
+      "irregularForms": "giro, giras, gira, giramos, giráis, giran",
+      "sentence": "Gira a la derecha en la próxima esquina.",
+      "wordTranslation": "to turn",
+      "sentenceTranslation": "Turn right at the next corner."
+    },
+    {
+      "word": "entregar",
+      "irregularForms": "entrego, entregas, entrega, entregamos, entregáis, entregan",
+      "sentence": "El cartero va a entregar el paquete hoy.",
+      "wordTranslation": "to deliver",
+      "sentenceTranslation": "The mailman is going to deliver the package today."
+    },
+    {
+      "word": "ahorrar",
+      "irregularForms": "ahorro, ahorras, ahorra, ahorramos, ahorráis, ahorran",
+      "sentence": "Quiero ahorrar dinero para un viaje.",
+      "wordTranslation": "to save (money)",
+      "sentenceTranslation": "I want to save money for a trip."
+    },
+    {
+      "word": "costar",
+      "irregularForms": "cuesta, cuestan",
+      "sentence": "¿Cuánto cuesta esta camiseta?",
+      "wordTranslation": "to cost",
+      "sentenceTranslation": "How much does this T-shirt cost?"
+    },
+    {
+      "word": "mejorar",
+      "irregularForms": "mejoro, mejoras, mejora, mejoramos, mejoráis, mejoran",
+      "sentence": "Necesitamos mejorar la calidad del servicio.",
+      "wordTranslation": "to improve",
+      "sentenceTranslation": "We need to improve the quality of the service."
+    },
+    {
+      "word": "empeorar",
+      "irregularForms": "empeoro, empeoras, empeora, empeoramos, empeoráis, empeoran",
+      "sentence": "La situación parece empeorar cada día.",
+      "wordTranslation": "to worsen",
+      "sentenceTranslation": "The situation seems to worsen every day."
+    },
+    {
+      "word": "reparar",
+      "irregularForms": "reparo, reparas, repara, reparamos, reparáis, reparan",
+      "sentence": "El técnico va a reparar mi lavadora.",
+      "wordTranslation": "to repair",
+      "sentenceTranslation": "The technician is going to repair my washing machine."
+    },
+    {
+      "word": "romper",
+      "irregularForms": "rompo, rompes, rompe, rompemos, rompéis, rompen",
+      "sentence": "Ten cuidado de no romper el jarrón.",
+      "wordTranslation": "to break",
+      "sentenceTranslation": "Be careful not to break the vase."
+    },
+    {
+      "word": "cortar",
+      "irregularForms": "corto, cortas, corta, cortamos, cortáis, cortan",
+      "sentence": "Voy a cortar el césped del jardín.",
+      "wordTranslation": "to cut",
+      "sentenceTranslation": "I'm going to cut the grass in the garden."
+    },
+    {
+      "word": "pegar",
+      "irregularForms": "pego, pegas, pega, pegamos, pegáis, pegan",
+      "sentence": "Puedes pegar la foto al álbum con pegamento.",
+      "wordTranslation": "to stick/hit",
+      "sentenceTranslation": "You can stick the photo into the album with glue."
+    },
+    {
+      "word": "encender",
+      "irregularForms": "enciendo, enciendes, enciende, encendemos, encendéis, encienden",
+      "sentence": "Por favor, ¿puedes encender la luz?",
+      "wordTranslation": "to turn on",
+      "sentenceTranslation": "Please, can you turn on the light?"
+    },
+    {
+      "word": "apagar",
+      "irregularForms": "apago, apagas, apaga, apagamos, apagáis, apagan",
+      "sentence": "No olvides apagar las luces antes de salir.",
+      "wordTranslation": "to turn off",
+      "sentenceTranslation": "Don't forget to turn off the lights before leaving."
+    },
+    {
+      "word": "funcionar",
+      "irregularForms": "funciono, funcionas, funciona, funcionamos, funcionáis, funcionan",
+      "sentence": "Mi coche no funciona bien.",
+      "wordTranslation": "to work/function",
+      "sentenceTranslation": "My car is not working well."
+    },
+    {
+      "word": "dividir",
+      "irregularForms": "divido, divides, divide, dividimos, dividís, dividen",
+      "sentence": "Vamos a dividir la pizza en ocho porciones.",
+      "wordTranslation": "to divide",
+      "sentenceTranslation": "We are going to divide the pizza into eight slices."
+    },
+    {
+      "word": "multiplicar",
+      "irregularForms": "multiplico, multiplicas, multiplica, multiplicamos, multiplicáis, multiplican",
+      "sentence": "Es importante saber multiplicar números grandes.",
+      "wordTranslation": "to multiply",
+      "sentenceTranslation": "It's important to know how to multiply large numbers."
+    },
+    {
+      "word": "sumar",
+      "irregularForms": "sumo, sumas, suma, sumamos, sumáis, suman",
+      "sentence": "Tienes que sumar todos los gastos.",
+      "wordTranslation": "to add",
+      "sentenceTranslation": "You have to add up all the expenses."
+    },
+    {
+      "word": "restar",
+      "irregularForms": "resto, restas, resta, restamos, restáis, restan",
+      "sentence": "Ahora, resta cinco de diez.",
+      "wordTranslation": "to subtract",
+      "sentenceTranslation": "Now, subtract five from ten."
+    },
+    {
+      "word": "medir",
+      "irregularForms": "mido, mides, mide, medimos, medís, miden",
+      "sentence": "Necesito medir la longitud de la habitación.",
+      "wordTranslation": "to measure",
+      "sentenceTranslation": "I need to measure the length of the room."
+    },
+    {
+      "word": "pesar",
+      "irregularForms": "peso, pesas, pesa, pesamos, pesáis, pesan",
+      "sentence": "Voy a pesar las frutas en el supermercado.",
+      "wordTranslation": "to weigh",
+      "sentenceTranslation": "I'm going to weigh the fruits at the supermarket."
+    },
+    {
+      "word": "atacar",
+      "irregularForms": "ataco, atacas, ataca, atacamos, atacáis, atacan",
+      "sentence": "El ejército decidió atacar al amanecer.",
+      "wordTranslation": "to attack",
+      "sentenceTranslation": "The army decided to attack at dawn."
+    },
+    {
+      "word": "defender",
+      "irregularForms": "defiendo, defiendes, defiende, defendemos, defendéis, defienden",
+      "sentence": "Debemos defender nuestros derechos.",
+      "wordTranslation": "to defend",
+      "sentenceTranslation": "We must defend our rights."
+    },
+    {
+      "word": "tocar",
+      "irregularForms": "toco, tocas, toca, tocamos, tocáis, tocan",
+      "sentence": "Él sabe tocar la guitarra muy bien.",
+      "wordTranslation": "to touch/play (an instrument)",
+      "sentenceTranslation": "He knows how to play the guitar very well."
+    },
+    {
+      "word": "oír",
+      "irregularForms": "oigo, oyes, oye, oímos, oís, oyen",
+      "sentence": "¿Puedes oír la música desde aquí?",
+      "wordTranslation": "to hear",
+      "sentenceTranslation": "Can you hear the music from here?"
+    },
+    {
+      "word": "parar",
+      "irregularForms": "paro, paras, para, paramos, paráis, paran",
+      "sentence": "El tren va a parar en la próxima estación.",
+      "wordTranslation": "to stop",
+      "sentenceTranslation": "The train is going to stop at the next station."
+    },
+    {
+      "word": "finalizar",
+      "irregularForms": "finalizo, finalizas, finaliza, finalizamos, finalizáis, finalizan",
+      "sentence": "La reunión finalizará en diez minutos.",
+      "wordTranslation": "to finalize",
+      "sentenceTranslation": "The meeting will end in ten minutes."
+    },
+    {
+      "word": "separar",
+      "irregularForms": "separo, separas, separa, separamos, separáis, separan",
+      "sentence": "Es difícil separar el aceite del agua.",
+      "wordTranslation": "to separate",
+      "sentenceTranslation": "It's difficult to separate oil from water."
+    },
+    {
+      "word": "desaparecer",
+      "irregularForms": "desaparezco, desapareces, desaparece, desaparecemos, desaparecéis, desaparecen",
+      "sentence": "El mago hizo desaparecer la moneda.",
+      "wordTranslation": "to disappear",
+      "sentenceTranslation": "The magician made the coin disappear."
+    },
+    {
+      "word": "organizar",
+      "irregularForms": "organizo, organizas, organiza, organizamos, organizáis, organizan",
+      "sentence": "Tenemos que organizar una fiesta para su cumpleaños.",
+      "wordTranslation": "to organize",
+      "sentenceTranslation": "We have to organize a party for his birthday."
+    },
+    {
+      "word": "planear",
+      "irregularForms": "planeo, planeas, planea, planeamos, planeáis, planean",
+      "sentence": "Estamos planeando un viaje a la playa.",
+      "wordTranslation": "to plan",
+      "sentenceTranslation": "We are planning a trip to the beach."
+    },
+    {
+      "word": "dudar",
+      "irregularForms": "dudo, dudas, duda, dudamos, dudáis, dudan",
+      "sentence": "No dudo de tu palabra.",
+      "wordTranslation": "to doubt",
+      "sentenceTranslation": "I don't doubt your word."
+    },
+    {
+      "word": "mentir",
+      "irregularForms": "miento, mientes, miente, mentimos, mentís, mienten",
+      "sentence": "No debes mentir a tus padres.",
+      "wordTranslation": "to lie",
+      "sentenceTranslation": "You shouldn't lie to your parents."
+    },
+    {
+      "word": "jurar",
+      "irregularForms": "juro, juras, jura, juramos, juráis, juran",
+      "sentence": "Juro decir la verdad, toda la verdad.",
+      "wordTranslation": "to swear",
+      "sentenceTranslation": "I swear to tell the truth, the whole truth."
+    },
+    {
+      "word": "confiar",
+      "irregularForms": "confío, confías, confía, confiamos, confiáis, confían",
+      "sentence": "Confío plenamente en ti.",
+      "wordTranslation": "to trust",
+      "sentenceTranslation": "I fully trust you."
+    },
+    {
+      "word": "robar",
+      "irregularForms": "robo, robas, roba, robamos, robáis, roban",
+      "sentence": "No intentes robar en la tienda.",
+      "wordTranslation": "to steal",
+      "sentenceTranslation": "Don't try to steal in the store."
+    },
+    {
+      "word": "explotar",
+      "irregularForms": "exploto, explotas, explota, explotamos, explotáis, explotan",
+      "sentence": "La bomba va a explotar en cinco segundos.",
+      "wordTranslation": "to explode/exploit",
+      "sentenceTranslation": "The bomb is going to explode in five seconds."
+    },
+    {
+      "word": "cargar",
+      "irregularForms": "cargo, cargas, carga, cargamos, cargáis, cargan",
+      "sentence": "Necesito cargar mi teléfono móvil.",
+      "wordTranslation": "to load/charge",
+      "sentenceTranslation": "I need to charge my cell phone."
+    },
+    {
+      "word": "descargar",
+      "irregularForms": "descargo, descargas, descarga, descargamos, descargáis, descargan",
+      "sentence": "Puedes descargar la aplicación gratis.",
+      "wordTranslation": "to unload/download",
+      "sentenceTranslation": "You can download the application for free."
+    },
+    {
+      "word": "llenar",
+      "irregularForms": "lleno, llenas, llena, llenamos, llenáis, llenan",
+      "sentence": "Por favor, llena el vaso de agua.",
+      "wordTranslation": "to fill",
+      "sentenceTranslation": "Please, fill the glass with water."
+    },
+    {
+      "word": "vaciar",
+      "irregularForms": "vacío, vacías, vacía, vaciamos, vaciáis, vacían",
+      "sentence": "Debes vaciar la papelera.",
+      "wordTranslation": "to empty",
+      "sentenceTranslation": "You must empty the wastebasket."
+    },
+    {
+      "word": "arreglar",
+      "irregularForms": "arreglo, arreglas, arregla, arreglamos, arregláis, arreglan",
+      "sentence": "Mi coche necesita ser arreglado.",
+      "wordTranslation": "to fix",
+      "sentenceTranslation": "My car needs to be fixed."
+    },
+    {
+      "word": "dañar",
+      "irregularForms": "daño, dañas, daña, dañamos, dañáis, dañan",
+      "sentence": "El agua puede dañar los aparatos electrónicos.",
+      "wordTranslation": "to damage",
+      "sentenceTranslation": "Water can damage electronic devices."
+    },
+    {
+      "word": "preocupar",
+      "irregularForms": "preocupo, preocupas, preocupa, preocupamos, preocupáis, preocupan",
+      "sentence": "No te preocupes, todo saldrá bien.",
+      "wordTranslation": "to worry",
+      "sentenceTranslation": "Don't worry, everything will be fine."
+    },
+    {
+      "word": "calmar",
+      "irregularForms": "calmo, calmas, calma, calmamos, calmáis, calman",
+      "sentence": "Intenta calmar al bebé, por favor.",
+      "wordTranslation": "to calm",
+      "sentenceTranslation": "Try to calm the baby, please."
+    },
+    {
+      "word": "sonreír",
+      "irregularForms": "sonrío, sonríes, sonríe, sonreímos, sonreís, sonríen",
+      "sentence": "Ella siempre sonríe cuando me ve.",
+      "wordTranslation": "to smile",
+      "sentenceTranslation": "She always smiles when she sees me."
+    },
+    {
+      "word": "abrazar",
+      "irregularForms": "abrazo, abrazas, abraza, abrazamos, abrazáis, abrazan",
+      "sentence": "Me gusta abrazar a mis amigos.",
+      "wordTranslation": "to hug",
+      "sentenceTranslation": "I like to hug my friends."
+    },
+    {
+      "word": "besar",
+      "irregularForms": "beso, besas, besa, besamos, besáis, besan",
+      "sentence": "Los novios se besaron apasionadamente.",
+      "wordTranslation": "to kiss",
+      "sentenceTranslation": "The couple kissed passionately."
+    },
+    {
+      "word": "silenciar",
+      "irregularForms": "silencio, silencias, silencia, silenciamos, silenciáis, silencian",
+      "sentence": "Por favor, silencia tu teléfono durante la película.",
+      "wordTranslation": "to silence",
+      "sentenceTranslation": "Please, silence your phone during the movie."
+    },
+    {
+      "word": "relajar",
+      "irregularForms": "relajo, relajas, relaja, relajamos, relajáis, relajan",
+      "sentence": "Necesito relajarme después de un largo día.",
+      "wordTranslation": "to relax",
+      "sentenceTranslation": "I need to relax after a long day."
+    },
+    {
+      "word": "cansar",
+      "irregularForms": "canso, cansas, cansa, cansamos, cansáis, cansan",
+      "sentence": "El trabajo duro puede cansar mucho.",
+      "wordTranslation": "to tire",
+      "sentenceTranslation": "Hard work can be very tiring."
+    },
+    {
+      "word": "hermoso",
+      "irregularForms": null,
+      "sentence": "El atardecer en la playa era hermoso.",
+      "wordTranslation": "beautiful",
+      "sentenceTranslation": "The sunset on the beach was beautiful."
+    },
+    {
+      "word": "feo",
+      "irregularForms": null,
+      "sentence": "No me gusta ese color, lo encuentro muy feo.",
+      "wordTranslation": "ugly",
+      "sentenceTranslation": "I don't like that color, I find it very ugly."
+    },
+    {
+      "word": "preparado",
+      "irregularForms": null,
+      "sentence": "Estoy preparado para el examen final.",
+      "wordTranslation": "prepared",
+      "sentenceTranslation": "I am prepared for the final exam."
+    },
+    {
+      "word": "verdadero",
+      "irregularForms": null,
+      "sentence": "Esta es la verdadera historia de mi vida.",
+      "wordTranslation": "true",
+      "sentenceTranslation": "This is the true story of my life."
+    },
+    {
+      "word": "correcto",
+      "irregularForms": null,
+      "sentence": "Tu respuesta es totalmente correcta.",
+      "wordTranslation": "correct",
+      "sentenceTranslation": "Your answer is totally correct."
+    },
+    {
+      "word": "incorrecto",
+      "irregularForms": null,
+      "sentence": "El cálculo era incorrecto.",
+      "wordTranslation": "incorrect",
+      "sentenceTranslation": "The calculation was incorrect."
+    },
+    {
+      "word": "similar",
+      "irregularForms": null,
+      "sentence": "Estas dos ideas son muy similares.",
+      "wordTranslation": "similar",
+      "sentenceTranslation": "These two ideas are very similar."
+    },
+    {
+      "word": "urbano",
+      "irregularForms": null,
+      "sentence": "Prefiero la vida urbana a la rural.",
+      "wordTranslation": "urban",
+      "sentenceTranslation": "I prefer urban life to rural life."
+    },
+    {
+      "word": "rural",
+      "irregularForms": null,
+      "sentence": "Su casa está en una zona rural tranquila.",
+      "wordTranslation": "rural",
+      "sentenceTranslation": "His house is in a quiet rural area."
+    },
+    {
+      "word": "económico",
+      "irregularForms": null,
+      "sentence": "La situación económica del país es compleja.",
+      "wordTranslation": "economic",
+      "sentenceTranslation": "The economic situation of the country is complex."
+    },
+    {
+      "word": "político",
+      "irregularForms": null,
+      "sentence": "Es un tema político muy sensible.",
+      "wordTranslation": "political",
+      "sentenceTranslation": "It's a very sensitive political issue."
+    },
+    {
+      "word": "histórico",
+      "irregularForms": null,
+      "sentence": "Este edificio tiene un gran valor histórico.",
+      "wordTranslation": "historic",
+      "sentenceTranslation": "This building has great historical value."
+    },
+    {
+      "word": "científico",
+      "irregularForms": null,
+      "sentence": "Los avances científicos son impresionantes.",
+      "wordTranslation": "scientific",
+      "sentenceTranslation": "Scientific advances are impressive."
+    },
+    {
+      "word": "artístico",
+      "irregularForms": null,
+      "sentence": "Tiene un talento artístico increíble.",
+      "wordTranslation": "artistic",
+      "sentenceTranslation": "He has incredible artistic talent."
+    },
+    {
+      "word": "cultural",
+      "irregularForms": null,
+      "sentence": "Participamos en un intercambio cultural.",
+      "wordTranslation": "cultural",
+      "sentenceTranslation": "We participated in a cultural exchange."
+    },
+    {
+      "word": "educativo",
+      "irregularForms": null,
+      "sentence": "Este programa es muy educativo para los niños.",
+      "wordTranslation": "educational",
+      "sentenceTranslation": "This program is very educational for children."
+    },
+    {
+      "word": "preocupado",
+      "irregularForms": null,
+      "sentence": "Estoy muy preocupado por tu salud.",
+      "wordTranslation": "worried",
+      "sentenceTranslation": "I'm very worried about your health."
+    },
+    {
+      "word": "calmado",
+      "irregularForms": null,
+      "sentence": "Después de la tormenta, el mar estaba calmado.",
+      "wordTranslation": "calm",
+      "sentenceTranslation": "After the storm, the sea was calm."
+    },
+    {
+      "word": "consciente",
+      "irregularForms": null,
+      "sentence": "Soy consciente de la importancia de estudiar.",
+      "wordTranslation": "conscious",
+      "sentenceTranslation": "I am conscious of the importance of studying."
+    },
+    {
+      "word": "inconsciente",
+      "irregularForms": null,
+      "sentence": "El paciente quedó inconsciente después del golpe.",
+      "wordTranslation": "unconscious",
+      "sentenceTranslation": "The patient became unconscious after the blow."
+    },
+    {
+      "word": "obvio",
+      "irregularForms": null,
+      "sentence": "Es obvio que tiene razón.",
+      "wordTranslation": "obvious",
+      "sentenceTranslation": "It's obvious that he is right."
+    },
+    {
+      "word": "complicado",
+      "irregularForms": null,
+      "sentence": "La situación es más complicada de lo que parece.",
+      "wordTranslation": "complicated",
+      "sentenceTranslation": "The situation is more complicated than it seems."
+    },
+    {
+      "word": "popular",
+      "irregularForms": null,
+      "sentence": "Esa canción se ha vuelto muy popular.",
+      "wordTranslation": "popular",
+      "sentenceTranslation": "That song has become very popular."
+    },
+    {
+      "word": "elegante",
+      "irregularForms": null,
+      "sentence": "Llevaba un vestido muy elegante para la fiesta.",
+      "wordTranslation": "elegant",
+      "sentenceTranslation": "She wore a very elegant dress for the party."
+    },
+    {
+      "word": "mojado",
+      "irregularForms": null,
+      "sentence": "Mi ropa está mojada por la lluvia.",
+      "wordTranslation": "wet",
+      "sentenceTranslation": "My clothes are wet from the rain."
+    },
+    {
+      "word": "seco",
+      "irregularForms": null,
+      "sentence": "El clima es muy seco en el desierto.",
+      "wordTranslation": "dry",
+      "sentenceTranslation": "The climate is very dry in the desert."
+    },
+    {
+      "word": "brillante",
+      "irregularForms": null,
+      "sentence": "El sol estaba muy brillante esta mañana.",
+      "wordTranslation": "bright",
+      "sentenceTranslation": "The sun was very bright this morning."
+    },
+    {
+      "word": "bello",
+      "irregularForms": null,
+      "sentence": "Es un lugar bello para pasar las vacaciones.",
+      "wordTranslation": "beautiful",
+      "sentenceTranslation": "It's a beautiful place to spend the holidays."
+    },
+    {
+      "word": "amable",
+      "irregularForms": null,
+      "sentence": "Siempre es muy amable con todo el mundo.",
+      "wordTranslation": "kind",
+      "sentenceTranslation": "He is always very kind to everyone."
+    },
+    {
+      "word": "cruel",
+      "irregularForms": null,
+      "sentence": "Fue una decisión cruel y sin corazón.",
+      "wordTranslation": "cruel",
+      "sentenceTranslation": "It was a cruel and heartless decision."
+    },
+    {
+      "word": "inteligente",
+      "irregularForms": null,
+      "sentence": "Es un estudiante muy inteligente y dedicado.",
+      "wordTranslation": "intelligent",
+      "sentenceTranslation": "He is a very intelligent and dedicated student."
+    },
+    {
+      "word": "estúpido",
+      "irregularForms": null,
+      "sentence": "No seas estúpido, piensa antes de actuar.",
+      "wordTranslation": "stupid",
+      "sentenceTranslation": "Don't be stupid, think before you act."
+    },
+    {
+      "word": "sano",
+      "irregularForms": null,
+      "sentence": "Come frutas y verduras para mantenerte sano.",
+      "wordTranslation": "healthy",
+      "sentenceTranslation": "Eat fruits and vegetables to stay healthy."
+    },
+    {
+      "word": "enfermo",
+      "irregularForms": null,
+      "sentence": "Estuvo enfermo con gripe la semana pasada.",
+      "wordTranslation": "sick",
+      "sentenceTranslation": "He was sick with the flu last week."
+    },
+    {
+      "word": "tonto",
+      "irregularForms": null,
+      "sentence": "No hagas cosas tontas.",
+      "wordTranslation": "silly/foolish",
+      "sentenceTranslation": "Don't do silly things."
+    },
+    {
+      "word": "valiente",
+      "irregularForms": null,
+      "sentence": "El bombero fue muy valiente al rescatar al niño.",
+      "wordTranslation": "brave",
+      "sentenceTranslation": "The firefighter was very brave in rescuing the child."
+    },
+    {
+      "word": "tímido",
+      "irregularForms": null,
+      "sentence": "Mi hermana es muy tímida y no habla mucho.",
+      "wordTranslation": "shy",
+      "sentenceTranslation": "My sister is very shy and doesn't talk much."
+    },
+    {
+      "word": "orgulloso",
+      "irregularForms": null,
+      "sentence": "Estoy muy orgulloso de tus logros.",
+      "wordTranslation": "proud",
+      "sentenceTranslation": "I am very proud of your achievements."
+    },
+    {
+      "word": "alegre",
+      "irregularForms": null,
+      "sentence": "Siempre tiene una actitud muy alegre.",
+      "wordTranslation": "cheerful",
+      "sentenceTranslation": "He always has a very cheerful attitude."
+    }
+  ]
+}

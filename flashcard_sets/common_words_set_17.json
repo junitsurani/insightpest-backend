@@ -1,0 +1,755 @@
+{
+  "name": "Spanish Common Words Set 17",
+  "description": "This set includes 100 common Spanish words, consisting of nouns, verbs, adjectives, and adverbs, designed as part of a larger series of essential vocabulary flashcards.",
+  "cards": [
+    {
+      "word": "acá",
+      "irregularForms": null,
+      "sentence": "Ven acá un momento, por favor.",
+      "wordTranslation": "here (informal)",
+      "sentenceTranslation": "Come here for a moment, please."
+    },
+    {
+      "word": "allá",
+      "irregularForms": null,
+      "sentence": "El supermercado está allá, al final de la calle.",
+      "wordTranslation": "there (informal)",
+      "sentenceTranslation": "The supermarket is over there, at the end of the street."
+    },
+    {
+      "word": "adentro",
+      "irregularForms": null,
+      "sentence": "Hace frío, es mejor ir adentro.",
+      "wordTranslation": "inside",
+      "sentenceTranslation": "It's cold, it's better to go inside."
+    },
+    {
+      "word": "afuera",
+      "irregularForms": null,
+      "sentence": "Los niños están jugando afuera en el jardín.",
+      "wordTranslation": "outside",
+      "sentenceTranslation": "The children are playing outside in the garden."
+    },
+    {
+      "word": "saludo",
+      "irregularForms": null,
+      "sentence": "Me dio un saludo amistoso al llegar.",
+      "wordTranslation": "greeting",
+      "sentenceTranslation": "He gave me a friendly greeting upon arrival."
+    },
+    {
+      "word": "despedida",
+      "irregularForms": null,
+      "sentence": "Tuvimos una triste despedida en el aeropuerto.",
+      "wordTranslation": "farewell",
+      "sentenceTranslation": "We had a sad farewell at the airport."
+    },
+    {
+      "word": "tercero",
+      "irregularForms": null,
+      "sentence": "Mi apartamento está en el tercer piso.",
+      "wordTranslation": "third",
+      "sentenceTranslation": "My apartment is on the third floor."
+    },
+    {
+      "word": "cuarto",
+      "irregularForms": null,
+      "sentence": "Es el cuarto libro de la serie.",
+      "wordTranslation": "fourth",
+      "sentenceTranslation": "It's the fourth book in the series."
+    },
+    {
+      "word": "quinto",
+      "irregularForms": null,
+      "sentence": "Ella llegó en quinto lugar en la carrera.",
+      "wordTranslation": "fifth",
+      "sentenceTranslation": "She came in fifth place in the race."
+    },
+    {
+      "word": "sexto",
+      "irregularForms": null,
+      "sentence": "El sexto capítulo es mi favorito.",
+      "wordTranslation": "sixth",
+      "sentenceTranslation": "The sixth chapter is my favorite."
+    },
+    {
+      "word": "séptimo",
+      "irregularForms": null,
+      "sentence": "Hoy es el séptimo día del mes.",
+      "wordTranslation": "seventh",
+      "sentenceTranslation": "Today is the seventh day of the month."
+    },
+    {
+      "word": "octavo",
+      "irregularForms": null,
+      "sentence": "Celebraron su octavo aniversario de bodas.",
+      "wordTranslation": "eighth",
+      "sentenceTranslation": "They celebrated their eighth wedding anniversary."
+    },
+    {
+      "word": "noveno",
+      "irregularForms": null,
+      "sentence": "Fue su novena victoria consecutiva.",
+      "wordTranslation": "ninth",
+      "sentenceTranslation": "It was their ninth consecutive victory."
+    },
+    {
+      "word": "décimo",
+      "irregularForms": null,
+      "sentence": "Terminamos el décimo problema de matemáticas.",
+      "wordTranslation": "tenth",
+      "sentenceTranslation": "We finished the tenth math problem."
+    },
+    {
+      "word": "once",
+      "irregularForms": null,
+      "sentence": "Son las once de la noche.",
+      "wordTranslation": "eleven",
+      "sentenceTranslation": "It's eleven o'clock at night."
+    },
+    {
+      "word": "doce",
+      "irregularForms": null,
+      "sentence": "Mi cumpleaños es el doce de diciembre.",
+      "wordTranslation": "twelve",
+      "sentenceTranslation": "My birthday is on December twelfth."
+    },
+    {
+      "word": "trece",
+      "irregularForms": null,
+      "sentence": "Tiene trece años y ya es muy alto.",
+      "wordTranslation": "thirteen",
+      "sentenceTranslation": "He is thirteen years old and already very tall."
+    },
+    {
+      "word": "catorce",
+      "irregularForms": null,
+      "sentence": "Hay catorce sillas alrededor de la mesa.",
+      "wordTranslation": "fourteen",
+      "sentenceTranslation": "There are fourteen chairs around the table."
+    },
+    {
+      "word": "quince",
+      "irregularForms": null,
+      "sentence": "La fiesta de quinceañera es en dos semanas.",
+      "wordTranslation": "fifteen",
+      "sentenceTranslation": "The quinceañera party is in two weeks."
+    },
+    {
+      "word": "dieciséis",
+      "irregularForms": null,
+      "sentence": "Necesito dieciséis tornillos para terminar.",
+      "wordTranslation": "sixteen",
+      "sentenceTranslation": "I need sixteen screws to finish."
+    },
+    {
+      "word": "diecisiete",
+      "irregularForms": null,
+      "sentence": "Compró diecisiete manzanas en el mercado.",
+      "wordTranslation": "seventeen",
+      "sentenceTranslation": "He bought seventeen apples at the market."
+    },
+    {
+      "word": "dieciocho",
+      "irregularForms": null,
+      "sentence": "Mi hermano cumplió dieciocho ayer.",
+      "wordTranslation": "eighteen",
+      "sentenceTranslation": "My brother turned eighteen yesterday."
+    },
+    {
+      "word": "diecinueve",
+      "irregularForms": null,
+      "sentence": "El número de la casa es el diecinueve.",
+      "wordTranslation": "nineteen",
+      "sentenceTranslation": "The house number is nineteen."
+    },
+    {
+      "word": "veinte",
+      "irregularForms": null,
+      "sentence": "La clase tiene veinte estudiantes.",
+      "wordTranslation": "twenty",
+      "sentenceTranslation": "The class has twenty students."
+    },
+    {
+      "word": "treinta",
+      "irregularForms": null,
+      "sentence": "Tiene treinta euros en su cartera.",
+      "wordTranslation": "thirty",
+      "sentenceTranslation": "He has thirty euros in his wallet."
+    },
+    {
+      "word": "cuarenta",
+      "irregularForms": null,
+      "sentence": "La temperatura es de cuarenta grados.",
+      "wordTranslation": "forty",
+      "sentenceTranslation": "The temperature is forty degrees."
+    },
+    {
+      "word": "cincuenta",
+      "irregularForms": null,
+      "sentence": "Tenemos cincuenta minutos para el examen.",
+      "wordTranslation": "fifty",
+      "sentenceTranslation": "We have fifty minutes for the exam."
+    },
+    {
+      "word": "sesenta",
+      "irregularForms": null,
+      "sentence": "Mi abuela tiene sesenta años.",
+      "wordTranslation": "sixty",
+      "sentenceTranslation": "My grandmother is sixty years old."
+    },
+    {
+      "word": "setenta",
+      "irregularForms": null,
+      "sentence": "Faltan setenta kilómetros para llegar.",
+      "wordTranslation": "seventy",
+      "sentenceTranslation": "There are seventy kilometers left to arrive."
+    },
+    {
+      "word": "ochenta",
+      "irregularForms": null,
+      "sentence": "Vendieron ochenta entradas en una hora.",
+      "wordTranslation": "eighty",
+      "sentenceTranslation": "They sold eighty tickets in an hour."
+    },
+    {
+      "word": "noventa",
+      "irregularForms": null,
+      "sentence": "El ángulo es de noventa grados.",
+      "wordTranslation": "ninety",
+      "sentenceTranslation": "The angle is ninety degrees."
+    },
+    {
+      "word": "ciento",
+      "irregularForms": null,
+      "sentence": "Ciento cincuenta personas asistieron al evento.",
+      "wordTranslation": "one hundred",
+      "sentenceTranslation": "One hundred fifty people attended the event."
+    },
+    {
+      "word": "doscientos",
+      "irregularForms": null,
+      "sentence": "El paquete pesa doscientos gramos.",
+      "wordTranslation": "two hundred",
+      "sentenceTranslation": "The package weighs two hundred grams."
+    },
+    {
+      "word": "millón",
+      "irregularForms": null,
+      "sentence": "Un millón de gracias por tu ayuda.",
+      "wordTranslation": "million",
+      "sentenceTranslation": "A million thanks for your help."
+    },
+    {
+      "word": "planeta",
+      "irregularForms": null,
+      "sentence": "La Tierra es un planeta azul.",
+      "wordTranslation": "planet",
+      "sentenceTranslation": "Earth is a blue planet."
+    },
+    {
+      "word": "galaxia",
+      "irregularForms": null,
+      "sentence": "Vivimos en la galaxia de la Vía Láctea.",
+      "wordTranslation": "galaxy",
+      "sentenceTranslation": "We live in the Milky Way galaxy."
+    },
+    {
+      "word": "universo",
+      "irregularForms": null,
+      "sentence": "El universo es vasto y misterioso.",
+      "wordTranslation": "universe",
+      "sentenceTranslation": "The universe is vast and mysterious."
+    },
+    {
+      "word": "valle",
+      "irregularForms": null,
+      "sentence": "El pueblo está situado en un hermoso valle.",
+      "wordTranslation": "valley",
+      "sentenceTranslation": "The village is located in a beautiful valley."
+    },
+    {
+      "word": "volcán",
+      "irregularForms": null,
+      "sentence": "Fuimos a ver el volcán inactivo.",
+      "wordTranslation": "volcano",
+      "sentenceTranslation": "We went to see the inactive volcano."
+    },
+    {
+      "word": "huracán",
+      "irregularForms": null,
+      "sentence": "El huracán causó muchos daños en la costa.",
+      "wordTranslation": "hurricane",
+      "sentenceTranslation": "The hurricane caused a lot of damage on the coast."
+    },
+    {
+      "word": "inundación",
+      "irregularForms": null,
+      "sentence": "Las fuertes lluvias provocaron una inundación.",
+      "wordTranslation": "flood",
+      "sentenceTranslation": "The heavy rains caused a flood."
+    },
+    {
+      "word": "sequía",
+      "irregularForms": null,
+      "sentence": "La región sufre una sequía severa.",
+      "wordTranslation": "drought",
+      "sentenceTranslation": "The region is suffering from a severe drought."
+    },
+    {
+      "word": "primavera",
+      "irregularForms": null,
+      "sentence": "Las flores florecen en primavera.",
+      "wordTranslation": "spring (season)",
+      "sentenceTranslation": "Flowers bloom in spring."
+    },
+    {
+      "word": "verano",
+      "irregularForms": null,
+      "sentence": "Pasamos el verano en la playa.",
+      "wordTranslation": "summer",
+      "sentenceTranslation": "We spent the summer at the beach."
+    },
+    {
+      "word": "otoño",
+      "irregularForms": null,
+      "sentence": "Las hojas de los árboles caen en otoño.",
+      "wordTranslation": "autumn",
+      "sentenceTranslation": "Tree leaves fall in autumn."
+    },
+    {
+      "word": "invierno",
+      "irregularForms": null,
+      "sentence": "El invierno es muy frío en esta zona.",
+      "wordTranslation": "winter",
+      "sentenceTranslation": "Winter is very cold in this area."
+    },
+    {
+      "word": "fecha",
+      "irregularForms": null,
+      "sentence": "No olvides la fecha de entrega del proyecto.",
+      "wordTranslation": "date",
+      "sentenceTranslation": "Don't forget the project's submission date."
+    },
+    {
+      "word": "siglo",
+      "irregularForms": null,
+      "sentence": "El siglo XXI comenzó en el año 2001.",
+      "wordTranslation": "century",
+      "sentenceTranslation": "The 21st century began in the year 2001."
+    },
+    {
+      "word": "vista",
+      "irregularForms": null,
+      "sentence": "Desde la montaña, la vista es increíble.",
+      "wordTranslation": "sight / view",
+      "sentenceTranslation": "From the mountain, the view is incredible."
+    },
+    {
+      "word": "valer",
+      "irregularForms": "valgo (yo), vales (tú)",
+      "sentence": "Este anillo debe valer mucho dinero.",
+      "wordTranslation": "to be worth",
+      "sentenceTranslation": "This ring must be worth a lot of money."
+    },
+    {
+      "word": "meter",
+      "irregularForms": "meto (yo), metes (tú)",
+      "sentence": "Puedes meter la ropa en la lavadora.",
+      "wordTranslation": "to put in / to get into",
+      "sentenceTranslation": "You can put the clothes in the washing machine."
+    },
+    {
+      "word": "ocupar",
+      "irregularForms": "ocupo (yo), ocupas (tú)",
+      "sentence": "Necesito ocupar este espacio en mi armario.",
+      "wordTranslation": "to occupy",
+      "sentenceTranslation": "I need to occupy this space in my closet."
+    },
+    {
+      "word": "dulce",
+      "irregularForms": null,
+      "sentence": "Me encanta el sabor dulce de la miel.",
+      "wordTranslation": "sweet",
+      "sentenceTranslation": "I love the sweet taste of honey."
+    },
+    {
+      "word": "amargo",
+      "irregularForms": null,
+      "sentence": "El café sin azúcar es muy amargo para mí.",
+      "wordTranslation": "bitter",
+      "sentenceTranslation": "Coffee without sugar is too bitter for me."
+    },
+    {
+      "word": "ácido",
+      "irregularForms": null,
+      "sentence": "Esta fruta tiene un sabor muy ácido.",
+      "wordTranslation": "sour / acidic",
+      "sentenceTranslation": "This fruit has a very sour taste."
+    },
+    {
+      "word": "salado",
+      "irregularForms": null,
+      "sentence": "La sopa está un poco salada hoy.",
+      "wordTranslation": "salty",
+      "sentenceTranslation": "The soup is a bit salty today."
+    },
+    {
+      "word": "picante",
+      "irregularForms": null,
+      "sentence": "No me gusta la comida muy picante.",
+      "wordTranslation": "spicy",
+      "sentenceTranslation": "I don't like very spicy food."
+    },
+    {
+      "word": "crujiente",
+      "irregularForms": null,
+      "sentence": "Las galletas están deliciosamente crujientes.",
+      "wordTranslation": "crunchy",
+      "sentenceTranslation": "The cookies are deliciously crunchy."
+    },
+    {
+      "word": "liso",
+      "irregularForms": null,
+      "sentence": "La superficie de la mesa es completamente lisa.",
+      "wordTranslation": "smooth",
+      "sentenceTranslation": "The table surface is completely smooth."
+    },
+    {
+      "word": "rugoso",
+      "irregularForms": null,
+      "sentence": "La piel del árbol es rugosa al tacto.",
+      "wordTranslation": "rough (texture)",
+      "sentenceTranslation": "The tree bark is rough to the touch."
+    },
+    {
+      "word": "digno",
+      "irregularForms": null,
+      "sentence": "Es un objetivo digno de todo nuestro esfuerzo.",
+      "wordTranslation": "worthy",
+      "sentenceTranslation": "It's a goal worthy of all our effort."
+    },
+    {
+      "word": "ajeno",
+      "irregularForms": null,
+      "sentence": "No debes tocar lo que es ajeno.",
+      "wordTranslation": "someone else's / foreign",
+      "sentenceTranslation": "You shouldn't touch what belongs to others."
+    },
+    {
+      "word": "bruto",
+      "irregularForms": null,
+      "sentence": "El petróleo bruto necesita ser refinado.",
+      "wordTranslation": "raw / gross / rough",
+      "sentenceTranslation": "Crude oil needs to be refined."
+    },
+    {
+      "word": "nulo",
+      "irregularForms": null,
+      "sentence": "El contrato es nulo si no está firmado.",
+      "wordTranslation": "null / void",
+      "sentenceTranslation": "The contract is null if it's not signed."
+    },
+    {
+      "word": "íntegro",
+      "irregularForms": null,
+      "sentence": "La casa está íntegra después del terremoto.",
+      "wordTranslation": "integral / whole",
+      "sentenceTranslation": "The house is intact after the earthquake."
+    },
+    {
+      "word": "vago",
+      "irregularForms": null,
+      "sentence": "Tiene una idea muy vaga de lo que quiere.",
+      "wordTranslation": "lazy / vague",
+      "sentenceTranslation": "He has a very vague idea of what he wants."
+    },
+    {
+      "word": "leal",
+      "irregularForms": null,
+      "sentence": "Es un amigo muy leal y confiable.",
+      "wordTranslation": "loyal",
+      "sentenceTranslation": "He is a very loyal and trustworthy friend."
+    },
+    {
+      "word": "fiel",
+      "irregularForms": null,
+      "sentence": "Mi perro es muy fiel a su dueño.",
+      "wordTranslation": "faithful",
+      "sentenceTranslation": "My dog is very faithful to its owner."
+    },
+    {
+      "word": "misterioso",
+      "irregularForms": null,
+      "sentence": "La desaparición es muy misteriosa.",
+      "wordTranslation": "mysterious",
+      "sentenceTranslation": "The disappearance is very mysterious."
+    },
+    {
+      "word": "valioso",
+      "irregularForms": null,
+      "sentence": "Este objeto es muy valioso para la familia.",
+      "wordTranslation": "valuable",
+      "sentenceTranslation": "This object is very valuable to the family."
+    },
+    {
+      "word": "daño",
+      "irregularForms": null,
+      "sentence": "La tormenta causó mucho daño a los cultivos.",
+      "wordTranslation": "damage",
+      "sentenceTranslation": "The storm caused a lot of damage to the crops."
+    },
+    {
+      "word": "sentar",
+      "irregularForms": "siento (yo), sientas (tú)",
+      "sentence": "Voy a sentar a los invitados en esta mesa.",
+      "wordTranslation": "to sit (someone)",
+      "sentenceTranslation": "I am going to seat the guests at this table."
+    },
+    {
+      "word": "mojar",
+      "irregularForms": "mojo (yo), mojas (tú)",
+      "sentence": "No olvides mojar las plantas.",
+      "wordTranslation": "to wet",
+      "sentenceTranslation": "Don't forget to water the plants (wet them)."
+    },
+    {
+      "word": "entrenar",
+      "irregularForms": "entreno (yo), entrenas (tú)",
+      "sentence": "Necesito entrenar más para el maratón.",
+      "wordTranslation": "to train",
+      "sentenceTranslation": "I need to train more for the marathon."
+    },
+    {
+      "word": "sazonar",
+      "irregularForms": "sazono (yo), sazonas (tú)",
+      "sentence": "Asegúrate de sazonar bien la carne.",
+      "wordTranslation": "to season",
+      "sentenceTranslation": "Make sure to season the meat well."
+    },
+    {
+      "word": "hornear",
+      "irregularForms": "horneo (yo), horneas (tú)",
+      "sentence": "Vamos a hornear un pastel para la fiesta.",
+      "wordTranslation": "to bake",
+      "sentenceTranslation": "We are going to bake a cake for the party."
+    },
+    {
+      "word": "freír",
+      "irregularForms": "frío (yo), fríes (tú)",
+      "sentence": "Prefiero freír las patatas en aceite de oliva.",
+      "wordTranslation": "to fry",
+      "sentenceTranslation": "I prefer to fry the potatoes in olive oil."
+    },
+    {
+      "word": "hervir",
+      "irregularForms": "hiervo (yo), hierves (tú)",
+      "sentence": "Deja hervir el agua antes de añadir la pasta.",
+      "wordTranslation": "to boil",
+      "sentenceTranslation": "Let the water boil before adding the pasta."
+    },
+    {
+      "word": "pelar",
+      "irregularForms": "pelo (yo), pelas (tú)",
+      "sentence": "Puedes pelar las manzanas para el postre.",
+      "wordTranslation": "to peel",
+      "sentenceTranslation": "You can peel the apples for dessert."
+    },
+    {
+      "word": "congelar",
+      "irregularForms": "congelo (yo), congelas (tú)",
+      "sentence": "Voy a congelar el resto de la sopa.",
+      "wordTranslation": "to freeze",
+      "sentenceTranslation": "I'm going to freeze the rest of the soup."
+    },
+    {
+      "word": "descongelar",
+      "irregularForms": "descongelo (yo), descongelas (tú)",
+      "sentence": "Deja descongelar el pollo en la nevera.",
+      "wordTranslation": "to thaw",
+      "sentenceTranslation": "Let the chicken thaw in the fridge."
+    },
+    {
+      "word": "derretir",
+      "irregularForms": "derrito (yo), derrites (tú)",
+      "sentence": "El chocolate se va a derretir con el calor.",
+      "wordTranslation": "to melt",
+      "sentenceTranslation": "The chocolate is going to melt with the heat."
+    },
+    {
+      "word": "calentar",
+      "irregularForms": "caliento (yo), calientas (tú)",
+      "sentence": "Puedes calentar la comida en el microondas.",
+      "wordTranslation": "to heat",
+      "sentenceTranslation": "You can heat the food in the microwave."
+    },
+    {
+      "word": "enfriar",
+      "irregularForms": "enfrío (yo), enfrías (tú)",
+      "sentence": "Necesitamos enfriar las bebidas antes de la fiesta.",
+      "wordTranslation": "to cool",
+      "sentenceTranslation": "We need to cool the drinks before the party."
+    },
+    {
+      "word": "numerar",
+      "irregularForms": "numero (yo), numeras (tú)",
+      "sentence": "Debes numerar las páginas del informe.",
+      "wordTranslation": "to number",
+      "sentenceTranslation": "You must number the pages of the report."
+    },
+    {
+      "word": "halar",
+      "irregularForms": "halo (yo), halas (tú)",
+      "sentence": "Hala la cuerda con fuerza.",
+      "wordTranslation": "to pull",
+      "sentenceTranslation": "Pull the rope hard."
+    },
+    {
+      "word": "apretar",
+      "irregularForms": "aprieto (yo), aprietas (tú)",
+      "sentence": "Apreta el botón para encender la máquina.",
+      "wordTranslation": "to squeeze / to press",
+      "sentenceTranslation": "Press the button to turn on the machine."
+    },
+    {
+      "word": "soltar",
+      "irregularForms": "suelto (yo), sueltas (tú)",
+      "sentence": "No sueltes mi mano en la multitud.",
+      "wordTranslation": "to release",
+      "sentenceTranslation": "Don't let go of my hand in the crowd."
+    },
+    {
+      "word": "agarrar",
+      "irregularForms": "agarro (yo), agarras (tú)",
+      "sentence": "Agarra la barandilla con fuerza.",
+      "wordTranslation": "to grab",
+      "sentenceTranslation": "Grab the handrail tightly."
+    },
+    {
+      "word": "sostener",
+      "irregularForms": "sostengo (yo), sostienes (tú)",
+      "sentence": "Puedes sostener mi bolso por un momento.",
+      "wordTranslation": "to hold",
+      "sentenceTranslation": "Can you hold my bag for a moment?"
+    },
+    {
+      "word": "atrapar",
+      "irregularForms": "atrapo (yo), atrapas (tú)",
+      "sentence": "Intentó atrapar la pelota en el aire.",
+      "wordTranslation": "to catch",
+      "sentenceTranslation": "He tried to catch the ball in the air."
+    },
+    {
+      "word": "golpear",
+      "irregularForms": "golpeo (yo), golpeas (tú)",
+      "sentence": "Sin querer, golpeó la puerta con el codo.",
+      "wordTranslation": "to hit",
+      "sentenceTranslation": "He accidentally hit the door with his elbow."
+    },
+    {
+      "word": "patear",
+      "irregularForms": "pateo (yo), pateas (tú)",
+      "sentence": "No debes patear el balón dentro de la casa.",
+      "wordTranslation": "to kick",
+      "sentenceTranslation": "You shouldn't kick the ball inside the house."
+    },
+    {
+      "word": "huir",
+      "irregularForms": "huyo (yo), huyes (tú)",
+      "sentence": "El ladrón intentó huir de la policía.",
+      "wordTranslation": "to flee",
+      "sentenceTranslation": "The thief tried to flee from the police."
+    },
+    {
+      "word": "consolorar",
+      "irregularForms": "consolo (yo), consolas (tú)",
+      "sentence": "Ella trató de consolar a su hermana.",
+      "wordTranslation": "to console",
+      "sentenceTranslation": "She tried to console her sister."
+    },
+    {
+      "word": "animar",
+      "irregularForms": "animo (yo), animas (tú)",
+      "sentence": "Siempre intento animar a mis amigos.",
+      "wordTranslation": "to encourage / to cheer up",
+      "sentenceTranslation": "I always try to cheer up my friends."
+    },
+    {
+      "word": "experimentar",
+      "irregularForms": "experimento (yo), experimentas (tú)",
+      "sentence": "Me gusta experimentar con nuevas recetas.",
+      "wordTranslation": "to experience",
+      "sentenceTranslation": "I like to experiment with new recipes."
+    },
+    {
+      "word": "retroceder",
+      "irregularForms": "retrocedo (yo), retrocedes (tú)",
+      "sentence": "No podemos retroceder, solo avanzar.",
+      "wordTranslation": "to go back / to recede",
+      "sentenceTranslation": "We cannot go back, only move forward."
+    },
+    {
+      "word": "ejecutar",
+      "irregularForms": "ejecuto (yo), ejecutas (tú)",
+      "sentence": "Debemos ejecutar el plan con precisión.",
+      "wordTranslation": "to execute",
+      "sentenceTranslation": "We must execute the plan with precision."
+    },
+    {
+      "word": "oler",
+      "irregularForms": "huelo (yo), hueles (tú)",
+      "sentence": "Huele a pan recién horneado.",
+      "wordTranslation": "to smell",
+      "sentenceTranslation": "It smells like freshly baked bread."
+    },
+    {
+      "word": "desmontar",
+      "irregularForms": "desmonto (yo), desmontas (tú)",
+      "sentence": "Ayúdame a desmontar los muebles.",
+      "wordTranslation": "to disassemble",
+      "sentenceTranslation": "Help me disassemble the furniture."
+    },
+    {
+      "word": "diseñar",
+      "irregularForms": "diseño (yo), diseñas (tú)",
+      "sentence": "Quiero diseñar mi propia ropa.",
+      "wordTranslation": "to design",
+      "sentenceTranslation": "I want to design my own clothes."
+    },
+    {
+      "word": "instalar",
+      "irregularForms": "instalo (yo), instalas (tú)",
+      "sentence": "Vamos a instalar el nuevo software.",
+      "wordTranslation": "to install",
+      "sentenceTranslation": "We are going to install the new software."
+    },
+    {
+      "word": "actualizar",
+      "irregularForms": "actualizo (yo), actualizas (tú)",
+      "sentence": "Necesito actualizar mi currículum.",
+      "wordTranslation": "to update",
+      "sentenceTranslation": "I need to update my resume."
+    },
+    {
+      "word": "activar",
+      "irregularForms": "activo (yo), activas (tú)",
+      "sentence": "Pulsa este botón para activar la alarma.",
+      "wordTranslation": "to activate",
+      "sentenceTranslation": "Press this button to activate the alarm."
+    },
+    {
+      "word": "desactivar",
+      "irregularForms": "desactivo (yo), desactivas (tú)",
+      "sentence": "No olvides desactivar la alarma antes de entrar.",
+      "wordTranslation": "to deactivate",
+      "sentenceTranslation": "Don't forget to deactivate the alarm before entering."
+    },
+    {
+      "word": "iniciar",
+      "irregularForms": "inicio (yo), inicias (tú)",
+      "sentence": "Es hora de iniciar el proyecto.",
+      "wordTranslation": "to initiate / to start",
+      "sentenceTranslation": "It's time to start the project."
+    }
+  ]
+}

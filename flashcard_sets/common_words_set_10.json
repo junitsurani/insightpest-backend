@@ -1,0 +1,867 @@
+{
+  "name": "Spanish Common Words Set 10",
+  "description": "This set is part of a larger collection focused on frequently used Spanish words, including a mix of nouns, verbs, adjectives, and other essential parts of speech.",
+  "cards": [
+    {
+      "word": "apoyar",
+      "irregularForms": null,
+      "sentence": "Debemos apoyar a nuestra comunidad en tiempos difíciles.",
+      "wordTranslation": "to support",
+      "sentenceTranslation": "We must support our community in difficult times."
+    },
+    {
+      "word": "eliminar",
+      "irregularForms": null,
+      "sentence": "Es importante eliminar los prejuicios de la sociedad.",
+      "wordTranslation": "to eliminate",
+      "sentenceTranslation": "It's important to eliminate prejudices from society."
+    },
+    {
+      "word": "firmar",
+      "irregularForms": null,
+      "sentence": "Necesito firmar este contrato antes de enviarlo.",
+      "wordTranslation": "to sign",
+      "sentenceTranslation": "I need to sign this contract before sending it."
+    },
+    {
+      "word": "incluir",
+      "irregularForms": null,
+      "sentence": "La lista debe incluir todos los nombres de los participantes.",
+      "wordTranslation": "to include",
+      "sentenceTranslation": "The list must include all participant names."
+    },
+    {
+      "word": "ocultar",
+      "irregularForms": null,
+      "sentence": "No puedes ocultar la verdad para siempre.",
+      "wordTranslation": "to hide",
+      "sentenceTranslation": "You cannot hide the truth forever."
+    },
+    {
+      "word": "percibir",
+      "irregularForms": null,
+      "sentence": "Ella fue capaz de percibir un cambio en su estado de ánimo.",
+      "wordTranslation": "to perceive",
+      "sentenceTranslation": "She was able to perceive a change in his mood."
+    },
+    {
+      "word": "prohibir",
+      "irregularForms": "Present (yo): prohíbo",
+      "sentence": "La ley va a prohibir fumar en lugares públicos.",
+      "wordTranslation": "to prohibit",
+      "sentenceTranslation": "The law is going to prohibit smoking in public places."
+    },
+    {
+      "word": "reducir",
+      "irregularForms": "Present (yo): reduzco",
+      "sentence": "Tenemos que reducir el consumo de plástico.",
+      "wordTranslation": "to reduce",
+      "sentenceTranslation": "We have to reduce plastic consumption."
+    },
+    {
+      "word": "soportar",
+      "irregularForms": null,
+      "sentence": "No puedo soportar el ruido de la construcción.",
+      "wordTranslation": "to bear, to tolerate",
+      "sentenceTranslation": "I can't stand the construction noise."
+    },
+    {
+      "word": "valorar",
+      "irregularForms": null,
+      "sentence": "Es importante valorar los pequeños momentos de felicidad.",
+      "wordTranslation": "to value",
+      "sentenceTranslation": "It's important to value the small moments of happiness."
+    },
+    {
+      "word": "votar",
+      "irregularForms": null,
+      "sentence": "Vamos a votar en las próximas elecciones.",
+      "wordTranslation": "to vote",
+      "sentenceTranslation": "We are going to vote in the next elections."
+    },
+    {
+      "word": "repetir",
+      "irregularForms": "Present (e->i): repito, repites, repite...",
+      "sentence": "Por favor, ¿puedes repetir lo que dijiste?",
+      "wordTranslation": "to repeat",
+      "sentenceTranslation": "Please, can you repeat what you said?"
+    },
+    {
+      "word": "adquirir",
+      "irregularForms": null,
+      "sentence": "Quiero adquirir más conocimientos sobre este tema.",
+      "wordTranslation": "to acquire",
+      "sentenceTranslation": "I want to acquire more knowledge about this topic."
+    },
+    {
+      "word": "atraer",
+      "irregularForms": "Present (yo): atraigo; Preterite (atraje)",
+      "sentence": "El imán puede atraer objetos de metal.",
+      "wordTranslation": "to attract",
+      "sentenceTranslation": "The magnet can attract metal objects."
+    },
+    {
+      "word": "combinar",
+      "irregularForms": null,
+      "sentence": "Puedes combinar estos colores para un mejor resultado.",
+      "wordTranslation": "to combine",
+      "sentenceTranslation": "You can combine these colors for a better result."
+    },
+    {
+      "word": "confirmar",
+      "irregularForms": null,
+      "sentence": "Llamaré para confirmar la reserva.",
+      "wordTranslation": "to confirm",
+      "sentenceTranslation": "I will call to confirm the reservation."
+    },
+    {
+      "word": "distinguir",
+      "irregularForms": "Present (yo): distingo",
+      "sentence": "A veces es difícil distinguir entre lo real y lo imaginario.",
+      "wordTranslation": "to distinguish",
+      "sentenceTranslation": "Sometimes it's difficult to distinguish between the real and the imaginary."
+    },
+    {
+      "word": "distribuir",
+      "irregularForms": null,
+      "sentence": "La empresa va a distribuir los productos por todo el país.",
+      "wordTranslation": "to distribute",
+      "sentenceTranslation": "The company is going to distribute the products throughout the country."
+    },
+    {
+      "word": "educar",
+      "irregularForms": null,
+      "sentence": "Los padres tienen la responsabilidad de educar a sus hijos.",
+      "wordTranslation": "to educate",
+      "sentenceTranslation": "Parents have the responsibility to educate their children."
+    },
+    {
+      "word": "enfatizar",
+      "irregularForms": null,
+      "sentence": "Quiero enfatizar la importancia de la seguridad.",
+      "wordTranslation": "to emphasize",
+      "sentenceTranslation": "I want to emphasize the importance of safety."
+    },
+    {
+      "word": "expresar",
+      "irregularForms": null,
+      "sentence": "Es bueno aprender a expresar tus sentimientos.",
+      "wordTranslation": "to express",
+      "sentenceTranslation": "It's good to learn to express your feelings."
+    },
+    {
+      "word": "extender",
+      "irregularForms": null,
+      "sentence": "Podemos extender el plazo de entrega si es necesario.",
+      "wordTranslation": "to extend",
+      "sentenceTranslation": "We can extend the delivery deadline if necessary."
+    },
+    {
+      "word": "fingir",
+      "irregularForms": "Present (yo): finjo",
+      "sentence": "No intentes fingir que todo está bien.",
+      "wordTranslation": "to pretend",
+      "sentenceTranslation": "Don't try to pretend everything is fine."
+    },
+    {
+      "word": "generar",
+      "irregularForms": null,
+      "sentence": "Esta máquina puede generar mucha electricidad.",
+      "wordTranslation": "to generate",
+      "sentenceTranslation": "This machine can generate a lot of electricity."
+    },
+    {
+      "word": "identificar",
+      "irregularForms": null,
+      "sentence": "Ayúdame a identificar el problema principal.",
+      "wordTranslation": "to identify",
+      "sentenceTranslation": "Help me identify the main problem."
+    },
+    {
+      "word": "imprimir",
+      "irregularForms": null,
+      "sentence": "Necesito imprimir este documento con urgencia.",
+      "wordTranslation": "to print",
+      "sentenceTranslation": "I need to print this document urgently."
+    },
+    {
+      "word": "interpretar",
+      "irregularForms": null,
+      "sentence": "Es difícil interpretar su silencio.",
+      "wordTranslation": "to interpret",
+      "sentenceTranslation": "It's difficult to interpret his silence."
+    },
+    {
+      "word": "justificar",
+      "irregularForms": null,
+      "sentence": "No hay nada que pueda justificar ese comportamiento.",
+      "wordTranslation": "to justify",
+      "sentenceTranslation": "There's nothing that can justify that behavior."
+    },
+    {
+      "word": "mencionar",
+      "irregularForms": null,
+      "sentence": "Olvidé mencionar la reunión de mañana.",
+      "wordTranslation": "to mention",
+      "sentenceTranslation": "I forgot to mention tomorrow's meeting."
+    },
+    {
+      "word": "modificar",
+      "irregularForms": null,
+      "sentence": "Tenemos que modificar el plan original.",
+      "wordTranslation": "to modify",
+      "sentenceTranslation": "We have to modify the original plan."
+    },
+    {
+      "word": "opinar",
+      "irregularForms": null,
+      "sentence": "¿Qué opinas de esta nueva propuesta?",
+      "wordTranslation": "to give an opinion",
+      "sentenceTranslation": "What do you think of this new proposal?"
+    },
+    {
+      "word": "participar",
+      "irregularForms": null,
+      "sentence": "Me gustaría participar en el proyecto.",
+      "wordTranslation": "to participate",
+      "sentenceTranslation": "I would like to participate in the project."
+    },
+    {
+      "word": "publicar",
+      "irregularForms": null,
+      "sentence": "Ella va a publicar un nuevo libro el próximo año.",
+      "wordTranslation": "to publish",
+      "sentenceTranslation": "She is going to publish a new book next year."
+    },
+    {
+      "word": "revisar",
+      "irregularForms": null,
+      "sentence": "Antes de enviar el informe, debemos revisarlo cuidadosamente.",
+      "wordTranslation": "to review",
+      "sentenceTranslation": "Before sending the report, we must review it carefully."
+    },
+    {
+      "word": "satisfacer",
+      "irregularForms": "Present (yo): satisfago; Preterite (satisfice)",
+      "sentence": "Es difícil satisfacer a todos al mismo tiempo.",
+      "wordTranslation": "to satisfy",
+      "sentenceTranslation": "It's difficult to satisfy everyone at the same time."
+    },
+    {
+      "word": "señalar",
+      "irregularForms": null,
+      "sentence": "El mapa puede señalar el camino más corto.",
+      "wordTranslation": "to point out, to signal",
+      "sentenceTranslation": "The map can point out the shortest way."
+    },
+    {
+      "word": "solicitar",
+      "irregularForms": null,
+      "sentence": "Voy a solicitar una beca para mis estudios.",
+      "wordTranslation": "to request",
+      "sentenceTranslation": "I'm going to apply for a scholarship for my studies."
+    },
+    {
+      "word": "verificar",
+      "irregularForms": null,
+      "sentence": "Debemos verificar la información antes de difundirla.",
+      "wordTranslation": "to verify",
+      "sentenceTranslation": "We must verify the information before spreading it."
+    },
+    {
+      "word": "visualizar",
+      "irregularForms": null,
+      "sentence": "Trata de visualizar tu éxito para alcanzar tus metas.",
+      "wordTranslation": "to visualize",
+      "sentenceTranslation": "Try to visualize your success to achieve your goals."
+    },
+    {
+      "word": "alimento",
+      "irregularForms": null,
+      "sentence": "Necesitamos comprar alimentos para la semana.",
+      "wordTranslation": "food",
+      "sentenceTranslation": "We need to buy food for the week."
+    },
+    {
+      "word": "aspecto",
+      "irregularForms": null,
+      "sentence": "El aspecto del edificio ha cambiado mucho.",
+      "wordTranslation": "aspect",
+      "sentenceTranslation": "The building's aspect has changed a lot."
+    },
+    {
+      "word": "beneficio",
+      "irregularForms": null,
+      "sentence": "Este nuevo programa tiene muchos beneficios para los estudiantes.",
+      "wordTranslation": "benefit",
+      "sentenceTranslation": "This new program has many benefits for students."
+    },
+    {
+      "word": "carácter",
+      "irregularForms": null,
+      "sentence": "Ella tiene un carácter muy fuerte y decidido.",
+      "wordTranslation": "character",
+      "sentenceTranslation": "She has a very strong and determined character."
+    },
+    {
+      "word": "conflicto",
+      "irregularForms": null,
+      "sentence": "Hay un conflicto de intereses en este caso.",
+      "wordTranslation": "conflict",
+      "sentenceTranslation": "There is a conflict of interest in this case."
+    },
+    {
+      "word": "consumidor",
+      "irregularForms": null,
+      "sentence": "El consumidor tiene derecho a saber qué está comprando.",
+      "wordTranslation": "consumer",
+      "sentenceTranslation": "The consumer has the right to know what they are buying."
+    },
+    {
+      "word": "contexto",
+      "irregularForms": null,
+      "sentence": "Debemos entender el contexto histórico de la situación.",
+      "wordTranslation": "context",
+      "sentenceTranslation": "We must understand the historical context of the situation."
+    },
+    {
+      "word": "demanda",
+      "irregularForms": null,
+      "sentence": "La demanda de este producto ha aumentado considerablemente.",
+      "wordTranslation": "demand",
+      "sentenceTranslation": "The demand for this product has increased considerably."
+    },
+    {
+      "word": "diseño",
+      "irregularForms": null,
+      "sentence": "Me encanta el diseño de esta nueva casa.",
+      "wordTranslation": "design",
+      "sentenceTranslation": "I love the design of this new house."
+    },
+    {
+      "word": "documento",
+      "irregularForms": null,
+      "sentence": "Por favor, guarda este documento en un lugar seguro.",
+      "wordTranslation": "document",
+      "sentenceTranslation": "Please save this document in a safe place."
+    },
+    {
+      "word": "evento",
+      "irregularForms": null,
+      "sentence": "El evento fue un éxito total, mucha gente asistió.",
+      "wordTranslation": "event",
+      "sentenceTranslation": "The event was a total success; many people attended."
+    },
+    {
+      "word": "expresión",
+      "irregularForms": null,
+      "sentence": "Su expresión facial mostró sorpresa.",
+      "wordTranslation": "expression",
+      "sentenceTranslation": "Her facial expression showed surprise."
+    },
+    {
+      "word": "factor",
+      "irregularForms": null,
+      "sentence": "El clima es un factor importante en la agricultura.",
+      "wordTranslation": "factor",
+      "sentenceTranslation": "Climate is an important factor in agriculture."
+    },
+    {
+      "word": "fuente",
+      "irregularForms": null,
+      "sentence": "Necesitamos una fuente de energía renovable.",
+      "wordTranslation": "source",
+      "sentenceTranslation": "We need a source of renewable energy."
+    },
+    {
+      "word": "generación",
+      "irregularForms": null,
+      "sentence": "Cada generación enfrenta sus propios desafíos.",
+      "wordTranslation": "generation",
+      "sentenceTranslation": "Every generation faces its own challenges."
+    },
+    {
+      "word": "gestión",
+      "irregularForms": null,
+      "sentence": "La buena gestión es clave para el éxito de la empresa.",
+      "wordTranslation": "management",
+      "sentenceTranslation": "Good management is key to the company's success."
+    },
+    {
+      "word": "ingreso",
+      "irregularForms": null,
+      "sentence": "Su ingreso mensual es suficiente para cubrir sus gastos.",
+      "wordTranslation": "income",
+      "sentenceTranslation": "His monthly income is enough to cover his expenses."
+    },
+    {
+      "word": "institución",
+      "irregularForms": null,
+      "sentence": "La universidad es una institución de educación superior.",
+      "wordTranslation": "institution",
+      "sentenceTranslation": "The university is an institution of higher education."
+    },
+    {
+      "word": "interpretación",
+      "irregularForms": null,
+      "sentence": "La interpretación de los datos puede variar.",
+      "wordTranslation": "interpretation",
+      "sentenceTranslation": "The interpretation of the data can vary."
+    },
+    {
+      "word": "inversión",
+      "irregularForms": null,
+      "sentence": "Hacer una buena inversión es importante para el futuro.",
+      "wordTranslation": "investment",
+      "sentenceTranslation": "Making a good investment is important for the future."
+    },
+    {
+      "word": "línea",
+      "irregularForms": null,
+      "sentence": "Hay una larga línea de personas esperando.",
+      "wordTranslation": "line",
+      "sentenceTranslation": "There is a long line of people waiting."
+    },
+    {
+      "word": "modelo",
+      "irregularForms": null,
+      "sentence": "Este es un nuevo modelo de coche eléctrico.",
+      "wordTranslation": "model",
+      "sentenceTranslation": "This is a new model of electric car."
+    },
+    {
+      "word": "oportunidad",
+      "irregularForms": null,
+      "sentence": "Siempre hay una oportunidad para mejorar.",
+      "wordTranslation": "opportunity",
+      "sentenceTranslation": "There is always an opportunity to improve."
+    },
+    {
+      "word": "organización",
+      "irregularForms": null,
+      "sentence": "La organización del evento fue impecable.",
+      "wordTranslation": "organization",
+      "sentenceTranslation": "The organization of the event was impeccable."
+    },
+    {
+      "word": "patrón",
+      "irregularForms": null,
+      "sentence": "Identificamos un patrón repetitivo en los datos.",
+      "wordTranslation": "pattern",
+      "sentenceTranslation": "We identified a repetitive pattern in the data."
+    },
+    {
+      "word": "proceso",
+      "irregularForms": null,
+      "sentence": "El proceso de aprendizaje es continuo.",
+      "wordTranslation": "process",
+      "sentenceTranslation": "The learning process is continuous."
+    },
+    {
+      "word": "programa",
+      "irregularForms": null,
+      "sentence": "Estoy viendo un programa de televisión interesante.",
+      "wordTranslation": "program",
+      "sentenceTranslation": "I am watching an interesting television program."
+    },
+    {
+      "word": "recurso",
+      "irregularForms": null,
+      "sentence": "Los recursos naturales son limitados.",
+      "wordTranslation": "resource",
+      "sentenceTranslation": "Natural resources are limited."
+    },
+    {
+      "word": "referencia",
+      "irregularForms": null,
+      "sentence": "Necesito una referencia para solicitar el trabajo.",
+      "wordTranslation": "reference",
+      "sentenceTranslation": "I need a reference to apply for the job."
+    },
+    {
+      "word": "región",
+      "irregularForms": null,
+      "sentence": "Esta es una región montañosa con hermosos paisajes.",
+      "wordTranslation": "region",
+      "sentenceTranslation": "This is a mountainous region with beautiful landscapes."
+    },
+    {
+      "word": "responsabilidad",
+      "irregularForms": null,
+      "sentence": "Asumir la responsabilidad de tus acciones es crucial.",
+      "wordTranslation": "responsibility",
+      "sentenceTranslation": "Taking responsibility for your actions is crucial."
+    },
+    {
+      "word": "significado",
+      "irregularForms": null,
+      "sentence": "Cuál es el significado de esa palabra?",
+      "wordTranslation": "meaning",
+      "sentenceTranslation": "What is the meaning of that word?"
+    },
+    {
+      "word": "teoría",
+      "irregularForms": null,
+      "sentence": "La teoría de la relatividad es muy compleja.",
+      "wordTranslation": "theory",
+      "sentenceTranslation": "The theory of relativity is very complex."
+    },
+    {
+      "word": "versión",
+      "irregularForms": null,
+      "sentence": "Esta es la última versión del software.",
+      "wordTranslation": "version",
+      "sentenceTranslation": "This is the latest version of the software."
+    },
+    {
+      "word": "viaje",
+      "irregularForms": null,
+      "sentence": "Nuestro viaje a España fue inolvidable.",
+      "wordTranslation": "travel, journey",
+      "sentenceTranslation": "Our trip to Spain was unforgettable."
+    },
+    {
+      "word": "ambiente",
+      "irregularForms": null,
+      "sentence": "Me gusta el ambiente tranquilo de este lugar.",
+      "wordTranslation": "environment, atmosphere",
+      "sentenceTranslation": "I like the peaceful atmosphere of this place."
+    },
+    {
+      "word": "calidad",
+      "irregularForms": null,
+      "sentence": "Siempre buscamos productos de alta calidad.",
+      "wordTranslation": "quality",
+      "sentenceTranslation": "We always look for high-quality products."
+    },
+    {
+      "word": "comunidad",
+      "irregularForms": null,
+      "sentence": "La comunidad local se unió para limpiar el parque.",
+      "wordTranslation": "community",
+      "sentenceTranslation": "The local community came together to clean the park."
+    },
+    {
+      "word": "impacto",
+      "irregularForms": null,
+      "sentence": "El cambio climático tiene un gran impacto en el planeta.",
+      "wordTranslation": "impact",
+      "sentenceTranslation": "Climate change has a big impact on the planet."
+    },
+    {
+      "word": "iniciativa",
+      "irregularForms": null,
+      "sentence": "Ella tomó la iniciativa y organizó la reunión.",
+      "wordTranslation": "initiative",
+      "sentenceTranslation": "She took the initiative and organized the meeting."
+    },
+    {
+      "word": "presión",
+      "irregularForms": null,
+      "sentence": "Siento mucha presión en el trabajo últimamente.",
+      "wordTranslation": "pressure",
+      "sentenceTranslation": "I'm feeling a lot of pressure at work lately."
+    },
+    {
+      "word": "propósito",
+      "irregularForms": null,
+      "sentence": "Cuál es el propósito de tu visita?",
+      "wordTranslation": "purpose",
+      "sentenceTranslation": "What is the purpose of your visit?"
+    },
+    {
+      "word": "amplio",
+      "irregularForms": null,
+      "sentence": "La casa tiene un jardín muy amplio.",
+      "wordTranslation": "ample, wide",
+      "sentenceTranslation": "The house has a very spacious garden."
+    },
+    {
+      "word": "constante",
+      "irregularForms": null,
+      "sentence": "Necesitamos un esfuerzo constante para lograr el objetivo.",
+      "wordTranslation": "constant",
+      "sentenceTranslation": "We need constant effort to achieve the goal."
+    },
+    {
+      "word": "eficiente",
+      "irregularForms": null,
+      "sentence": "Es un sistema muy eficiente para ahorrar energía.",
+      "wordTranslation": "efficient",
+      "sentenceTranslation": "It's a very efficient system for saving energy."
+    },
+    {
+      "word": "esencial",
+      "irregularForms": null,
+      "sentence": "La comunicación es esencial en cualquier relación.",
+      "wordTranslation": "essential",
+      "sentenceTranslation": "Communication is essential in any relationship."
+    },
+    {
+      "word": "frecuente",
+      "irregularForms": null,
+      "sentence": "Las lluvias son más frecuentes en esta época del año.",
+      "wordTranslation": "frequent",
+      "sentenceTranslation": "Rainfall is more frequent at this time of year."
+    },
+    {
+      "word": "grave",
+      "irregularForms": null,
+      "sentence": "La situación es más grave de lo que pensábamos.",
+      "wordTranslation": "serious, grave",
+      "sentenceTranslation": "The situation is more serious than we thought."
+    },
+    {
+      "word": "humano",
+      "irregularForms": null,
+      "sentence": "Es un error humano, cualquiera puede equivocarse.",
+      "wordTranslation": "human",
+      "sentenceTranslation": "It's a human error, anyone can make a mistake."
+    },
+    {
+      "word": "inevitable",
+      "irregularForms": null,
+      "sentence": "El paso del tiempo es inevitable.",
+      "wordTranslation": "inevitable",
+      "sentenceTranslation": "The passage of time is inevitable."
+    },
+    {
+      "word": "inicial",
+      "irregularForms": null,
+      "sentence": "La fase inicial del proyecto fue un éxito.",
+      "wordTranslation": "initial",
+      "sentenceTranslation": "The initial phase of the project was a success."
+    },
+    {
+      "word": "legal",
+      "irregularForms": null,
+      "sentence": "Necesitamos asesoramiento legal para este contrato.",
+      "wordTranslation": "legal",
+      "sentenceTranslation": "We need legal advice for this contract."
+    },
+    {
+      "word": "mínimo",
+      "irregularForms": null,
+      "sentence": "Necesitamos al menos un mínimo de cinco personas.",
+      "wordTranslation": "minimum",
+      "sentenceTranslation": "We need a minimum of five people."
+    },
+    {
+      "word": "positivo",
+      "irregularForms": null,
+      "sentence": "Siempre intento mantener una actitud positiva.",
+      "wordTranslation": "positive",
+      "sentenceTranslation": "I always try to maintain a positive attitude."
+    },
+    {
+      "word": "potencial",
+      "irregularForms": null,
+      "sentence": "Hay un gran potencial de crecimiento en este mercado.",
+      "wordTranslation": "potential",
+      "sentenceTranslation": "There is great growth potential in this market."
+    },
+    {
+      "word": "profesional",
+      "irregularForms": null,
+      "sentence": "Es un equipo muy profesional y dedicado.",
+      "wordTranslation": "professional",
+      "sentenceTranslation": "It's a very professional and dedicated team."
+    },
+    {
+      "word": "relacionado",
+      "irregularForms": null,
+      "sentence": "Su investigación está relacionada con la inteligencia artificial.",
+      "wordTranslation": "related",
+      "sentenceTranslation": "His research is related to artificial intelligence."
+    },
+    {
+      "word": "significativo",
+      "irregularForms": null,
+      "sentence": "Hemos observado un cambio significativo en las ventas.",
+      "wordTranslation": "significant",
+      "sentenceTranslation": "We have observed a significant change in sales."
+    },
+    {
+      "word": "variable",
+      "irregularForms": null,
+      "sentence": "El clima es muy variable en esta región.",
+      "wordTranslation": "variable",
+      "sentenceTranslation": "The climate is very variable in this region."
+    },
+    {
+      "word": "entorno",
+      "irregularForms": null,
+      "sentence": "El entorno natural de este parque es impresionante.",
+      "wordTranslation": "environment, surroundings",
+      "sentenceTranslation": "The natural environment of this park is impressive."
+    },
+    {
+      "word": "evidencia",
+      "irregularForms": null,
+      "sentence": "No hay suficiente evidencia para probar su culpabilidad.",
+      "wordTranslation": "evidence",
+      "sentenceTranslation": "There is not enough evidence to prove his guilt."
+    },
+    {
+      "word": "interés",
+      "irregularForms": null,
+      "sentence": "Ella mostró mucho interés en el curso.",
+      "wordTranslation": "interest",
+      "sentenceTranslation": "She showed a lot of interest in the course."
+    },
+    {
+      "word": "nivel",
+      "irregularForms": null,
+      "sentence": "El nivel del agua del río ha bajado.",
+      "wordTranslation": "level",
+      "sentenceTranslation": "The river's water level has dropped."
+    },
+    {
+      "word": "objetivo",
+      "irregularForms": null,
+      "sentence": "Nuestro objetivo principal es la satisfacción del cliente.",
+      "wordTranslation": "objective, goal",
+      "sentenceTranslation": "Our main objective is customer satisfaction."
+    },
+    {
+      "word": "resultado",
+      "irregularForms": null,
+      "sentence": "Los resultados del experimento fueron sorprendentes.",
+      "wordTranslation": "result",
+      "sentenceTranslation": "The experiment results were surprising."
+    },
+    {
+      "word": "situación",
+      "irregularForms": null,
+      "sentence": "La situación económica actual es complicada.",
+      "wordTranslation": "situation",
+      "sentenceTranslation": "The current economic situation is complicated."
+    },
+    {
+      "word": "solución",
+      "irregularForms": null,
+      "sentence": "Necesitamos encontrar una solución a este problema.",
+      "wordTranslation": "solution",
+      "sentenceTranslation": "We need to find a solution to this problem."
+    },
+    {
+      "word": "específico",
+      "irregularForms": null,
+      "sentence": "Quiero un ejemplo más específico de lo que pides.",
+      "wordTranslation": "specific",
+      "sentenceTranslation": "I want a more specific example of what you're asking for."
+    },
+    {
+      "word": "global",
+      "irregularForms": null,
+      "sentence": "El calentamiento global es una preocupación mundial.",
+      "wordTranslation": "global",
+      "sentenceTranslation": "Global warming is a worldwide concern."
+    },
+    {
+      "word": "local",
+      "irregularForms": null,
+      "sentence": "Compramos productos frescos del mercado local.",
+      "wordTranslation": "local",
+      "sentenceTranslation": "We buy fresh produce from the local market."
+    },
+    {
+      "word": "principal",
+      "irregularForms": null,
+      "sentence": "La razón principal de mi visita es esta.",
+      "wordTranslation": "main, principal",
+      "sentenceTranslation": "The main reason for my visit is this."
+    },
+    {
+      "word": "interno",
+      "irregularForms": null,
+      "sentence": "Hay un problema interno en la empresa.",
+      "wordTranslation": "internal",
+      "sentenceTranslation": "There's an internal problem within the company."
+    },
+    {
+      "word": "externo",
+      "irregularForms": null,
+      "sentence": "Buscamos un consultor externo para el proyecto.",
+      "wordTranslation": "external",
+      "sentenceTranslation": "We are looking for an external consultant for the project."
+    },
+    {
+      "word": "desarrollar",
+      "irregularForms": null,
+      "sentence": "Necesitamos desarrollar nuevas estrategias de marketing.",
+      "wordTranslation": "to develop",
+      "sentenceTranslation": "We need to develop new marketing strategies."
+    },
+    {
+      "word": "crear",
+      "irregularForms": null,
+      "sentence": "Vamos a crear un nuevo sitio web.",
+      "wordTranslation": "to create",
+      "sentenceTranslation": "We are going to create a new website."
+    },
+    {
+      "word": "obtener",
+      "irregularForms": null,
+      "sentence": "Espero obtener buenos resultados en el examen.",
+      "wordTranslation": "to obtain",
+      "sentenceTranslation": "I hope to obtain good results on the exam."
+    },
+    {
+      "word": "realizar",
+      "irregularForms": null,
+      "sentence": "Tenemos que realizar una investigación a fondo.",
+      "wordTranslation": "to carry out, to perform",
+      "sentenceTranslation": "We have to carry out a thorough investigation."
+    },
+    {
+      "word": "resolver",
+      "irregularForms": null,
+      "sentence": "Espero que podamos resolver este conflicto pronto.",
+      "wordTranslation": "to resolve",
+      "sentenceTranslation": "I hope we can resolve this conflict soon."
+    },
+    {
+      "word": "actual",
+      "irregularForms": null,
+      "sentence": "La situación actual es muy diferente a la de antes.",
+      "wordTranslation": "current",
+      "sentenceTranslation": "The current situation is very different from before."
+    },
+    {
+      "word": "positivo",
+      "irregularForms": null,
+      "sentence": "Recibimos un comentario muy positivo de los clientes.",
+      "wordTranslation": "positive",
+      "sentenceTranslation": "We received very positive feedback from the customers."
+    },
+    {
+      "word": "negativo",
+      "irregularForms": null,
+      "sentence": "El impacto fue negativo para la economía local.",
+      "wordTranslation": "negative",
+      "sentenceTranslation": "The impact was negative for the local economy."
+    },
+    {
+      "word": "común",
+      "irregularForms": null,
+      "sentence": "Este es un problema muy común en la ciudad.",
+      "wordTranslation": "common",
+      "sentenceTranslation": "This is a very common problem in the city."
+    },
+    {
+      "word": "privado",
+      "irregularForms": null,
+      "sentence": "Es un asunto privado, no puedo compartirlo.",
+      "wordTranslation": "private",
+      "sentenceTranslation": "It's a private matter, I cannot share it."
+    },
+    {
+      "word": "público",
+      "irregularForms": null,
+      "sentence": "El parque es un espacio público para todos.",
+      "wordTranslation": "public",
+      "sentenceTranslation": "The park is a public space for everyone."
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 25",
+  "description": "This set contains a collection of common and frequently used Spanish words, part of a larger series designed for language learners.",
+  "cards": [
+    {
+      "word": "roca",
+      "irregularForms": null,
+      "sentence": "La escaladora subió por la roca.",
+      "wordTranslation": "rock",
+      "sentenceTranslation": "The climber went up the rock."
+    },
+    {
+      "word": "creencia",
+      "irregularForms": null,
+      "sentence": "Su creencia en sí mismo es muy fuerte.",
+      "wordTranslation": "belief",
+      "sentenceTranslation": "His belief in himself is very strong."
+    },
+    {
+      "word": "enemigo",
+      "irregularForms": null,
+      "sentence": "El caballero se enfrentó a su viejo enemigo.",
+      "wordTranslation": "enemy",
+      "sentenceTranslation": "The knight faced his old enemy."
+    },
+    {
+      "word": "trabajador",
+      "irregularForms": null,
+      "sentence": "Es un trabajador muy dedicado y eficiente.",
+      "wordTranslation": "worker",
+      "sentenceTranslation": "He is a very dedicated and efficient worker."
+    },
+    {
+      "word": "invitado",
+      "irregularForms": null,
+      "sentence": "Cada invitado recibió un pequeño regalo.",
+      "wordTranslation": "guest",
+      "sentenceTranslation": "Each guest received a small gift."
+    },
+    {
+      "word": "gerente",
+      "irregularForms": null,
+      "sentence": "El gerente aprobó la nueva propuesta.",
+      "wordTranslation": "manager",
+      "sentenceTranslation": "The manager approved the new proposal."
+    },
+    {
+      "word": "gobernador",
+      "irregularForms": null,
+      "sentence": "El gobernador anunció nuevas políticas de seguridad.",
+      "wordTranslation": "governor",
+      "sentenceTranslation": "The governor announced new security policies."
+    },
+    {
+      "word": "diputado",
+      "irregularForms": null,
+      "sentence": "El diputado votó a favor de la ley.",
+      "wordTranslation": "deputy",
+      "sentenceTranslation": "The deputy voted in favor of the law."
+    },
+    {
+      "word": "alcalde",
+      "irregularForms": null,
+      "sentence": "El alcalde inauguró el nuevo parque de la ciudad.",
+      "wordTranslation": "mayor",
+      "sentenceTranslation": "The mayor inaugurated the city's new park."
+    },
+    {
+      "word": "testigo",
+      "irregularForms": null,
+      "sentence": "Fue el único testigo del accidente.",
+      "wordTranslation": "witness",
+      "sentenceTranslation": "He was the only witness to the accident."
+    },
+    {
+      "word": "criminal",
+      "irregularForms": null,
+      "sentence": "La policía capturó al criminal después de una larga persecución.",
+      "wordTranslation": "criminal",
+      "sentenceTranslation": "The police captured the criminal after a long chase."
+    },
+    {
+      "word": "pena",
+      "irregularForms": null,
+      "sentence": "Siento mucha pena por lo que pasó.",
+      "wordTranslation": "sorrow / penalty",
+      "sentenceTranslation": "I feel great sorrow for what happened."
+    },
+    {
+      "word": "prisión",
+      "irregularForms": null,
+      "sentence": "Pasó diez años en prisión.",
+      "wordTranslation": "prison",
+      "sentenceTranslation": "He spent ten years in prison."
+    },
+    {
+      "word": "celda",
+      "irregularForms": null,
+      "sentence": "La celda era pequeña y oscura.",
+      "wordTranslation": "cell (prison)",
+      "sentenceTranslation": "The cell was small and dark."
+    },
+    {
+      "word": "desastre",
+      "irregularForms": null,
+      "sentence": "La inundación fue un desastre natural.",
+      "wordTranslation": "disaster",
+      "sentenceTranslation": "The flood was a natural disaster."
+    },
+    {
+      "word": "emergencia",
+      "irregularForms": null,
+      "sentence": "En caso de emergencia, llame a este número.",
+      "wordTranslation": "emergency",
+      "sentenceTranslation": "In case of emergency, call this number."
+    },
+    {
+      "word": "ayuda",
+      "irregularForms": null,
+      "sentence": "Necesito tu ayuda para mover esta caja.",
+      "wordTranslation": "help",
+      "sentenceTranslation": "I need your help to move this box."
+    },
+    {
+      "word": "reto",
+      "irregularForms": null,
+      "sentence": "Aceptar el reto es el primer paso.",
+      "wordTranslation": "challenge",
+      "sentenceTranslation": "Accepting the challenge is the first step."
+    },
+    {
+      "word": "norma",
+      "irregularForms": null,
+      "sentence": "Es una norma de la escuela no correr en los pasillos.",
+      "wordTranslation": "rule / norm",
+      "sentenceTranslation": "It is a school rule not to run in the hallways."
+    },
+    {
+      "word": "ética",
+      "irregularForms": null,
+      "sentence": "Su comportamiento carece de ética profesional.",
+      "wordTranslation": "ethics",
+      "sentenceTranslation": "His behavior lacks professional ethics."
+    },
+    {
+      "word": "religión",
+      "irregularForms": null,
+      "sentence": "Cada persona tiene derecho a su propia religión.",
+      "wordTranslation": "religion",
+      "sentenceTranslation": "Everyone has the right to their own religion."
+    },
+    {
+      "word": "sinagoga",
+      "irregularForms": null,
+      "sentence": "Visitamos una antigua sinagoga en el centro de la ciudad.",
+      "wordTranslation": "synagogue",
+      "sentenceTranslation": "We visited an ancient synagogue in the city center."
+    },
+    {
+      "word": "dios",
+      "irregularForms": null,
+      "sentence": "Muchas culturas creen en un dios creador.",
+      "wordTranslation": "god",
+      "sentenceTranslation": "Many cultures believe in a creator god."
+    },
+    {
+      "word": "ángel",
+      "irregularForms": null,
+      "sentence": "Se dice que cada persona tiene un ángel guardián.",
+      "wordTranslation": "angel",
+      "sentenceTranslation": "It is said that everyone has a guardian angel."
+    },
+    {
+      "word": "demonio",
+      "irregularForms": null,
+      "sentence": "En la mitología, el demonio representa el mal.",
+      "wordTranslation": "demon",
+      "sentenceTranslation": "In mythology, the demon represents evil."
+    },
+    {
+      "word": "infierno",
+      "irregularForms": null,
+      "sentence": "Las llamas del infierno son un concepto religioso.",
+      "wordTranslation": "hell",
+      "sentenceTranslation": "The flames of hell are a religious concept."
+    },
+    {
+      "word": "gratitud",
+      "irregularForms": null,
+      "sentence": "Expresó su profunda gratitud por la ayuda recibida.",
+      "wordTranslation": "gratitude",
+      "sentenceTranslation": "He expressed his deep gratitude for the help received."
+    },
+    {
+      "word": "perdón",
+      "irregularForms": null,
+      "sentence": "Pedir perdón es un acto de humildad.",
+      "wordTranslation": "forgiveness / apology",
+      "sentenceTranslation": "Asking for forgiveness is an act of humility."
+    },
+    {
+      "word": "infancia",
+      "irregularForms": null,
+      "sentence": "Recordó su infancia con mucha nostalgia.",
+      "wordTranslation": "childhood",
+      "sentenceTranslation": "He remembered his childhood with great nostalgia."
+    },
+    {
+      "word": "vejez",
+      "irregularForms": null,
+      "sentence": "La vejez trae consigo sabiduría y experiencia.",
+      "wordTranslation": "old age",
+      "sentenceTranslation": "Old age brings wisdom and experience."
+    },
+    {
+      "word": "divorcio",
+      "irregularForms": null,
+      "sentence": "Después de años, decidieron tramitar el divorcio.",
+      "wordTranslation": "divorce",
+      "sentenceTranslation": "After years, they decided to process the divorce."
+    },
+    {
+      "word": "boda",
+      "irregularForms": null,
+      "sentence": "La boda se celebrará en la iglesia local.",
+      "wordTranslation": "wedding",
+      "sentenceTranslation": "The wedding will be celebrated in the local church."
+    },
+    {
+      "word": "felicitación",
+      "irregularForms": null,
+      "sentence": "Recibió una felicitación por su ascenso.",
+      "wordTranslation": "congratulation",
+      "sentenceTranslation": "He received a congratulation for his promotion."
+    },
+    {
+      "word": "florero",
+      "irregularForms": null,
+      "sentence": "Puso las flores frescas en el florero.",
+      "wordTranslation": "vase",
+      "sentenceTranslation": "She put the fresh flowers in the vase."
+    },
+    {
+      "word": "igualdad",
+      "irregularForms": null,
+      "sentence": "La igualdad de género es un objetivo importante.",
+      "wordTranslation": "equality",
+      "sentenceTranslation": "Gender equality is an important goal."
+    },
+    {
+      "word": "conciencia",
+      "irregularForms": null,
+      "sentence": "Tiene conciencia de la importancia de su trabajo.",
+      "wordTranslation": "awareness / conscience",
+      "sentenceTranslation": "He is aware of the importance of his work."
+    },
+    {
+      "word": "inteligencia",
+      "irregularForms": null,
+      "sentence": "Su inteligencia le permite resolver problemas complejos.",
+      "wordTranslation": "intelligence",
+      "sentenceTranslation": "His intelligence allows him to solve complex problems."
+    },
+    {
+      "word": "creatividad",
+      "irregularForms": null,
+      "sentence": "La creatividad es esencial en el diseño gráfico.",
+      "wordTranslation": "creativity",
+      "sentenceTranslation": "Creativity is essential in graphic design."
+    },
+    {
+      "word": "densidad",
+      "irregularForms": null,
+      "sentence": "La densidad del agua es de un gramo por centímetro cúbico.",
+      "wordTranslation": "density",
+      "sentenceTranslation": "The density of water is one gram per cubic centimeter."
+    },
+    {
+      "word": "posición",
+      "irregularForms": null,
+      "sentence": "Tomó una buena posición para ver el espectáculo.",
+      "wordTranslation": "position",
+      "sentenceTranslation": "He took a good position to see the show."
+    },
+    {
+      "word": "esquina",
+      "irregularForms": null,
+      "sentence": "La tienda está en la esquina de la calle.",
+      "wordTranslation": "corner",
+      "sentenceTranslation": "The store is on the corner of the street."
+    },
+    {
+      "word": "borde",
+      "irregularForms": null,
+      "sentence": "Sentémonos en el borde de la piscina.",
+      "wordTranslation": "edge",
+      "sentenceTranslation": "Let's sit on the edge of the pool."
+    },
+    {
+      "word": "exterior",
+      "irregularForms": null,
+      "sentence": "El exterior de la casa necesita una nueva capa de pintura.",
+      "wordTranslation": "exterior",
+      "sentenceTranslation": "The exterior of the house needs a new coat of paint."
+    },
+    {
+      "word": "joya",
+      "irregularForms": null,
+      "sentence": "Llevaba una hermosa joya alrededor de su cuello.",
+      "wordTranslation": "jewel",
+      "sentenceTranslation": "She wore a beautiful jewel around her neck."
+    },
+    {
+      "word": "motor",
+      "irregularForms": null,
+      "sentence": "El motor del coche hizo un ruido extraño.",
+      "wordTranslation": "engine / motor",
+      "sentenceTranslation": "The car's engine made a strange noise."
+    },
+    {
+      "word": "rueda",
+      "irregularForms": null,
+      "sentence": "Se pinchó una rueda de la bicicleta.",
+      "wordTranslation": "wheel",
+      "sentenceTranslation": "A bicycle wheel got a flat."
+    },
+    {
+      "word": "olvido",
+      "irregularForms": null,
+      "sentence": "Cayó en el olvido después de muchos años.",
+      "wordTranslation": "oblivion / forgetting",
+      "sentenceTranslation": "It fell into oblivion after many years."
+    },
+    {
+      "word": "atención",
+      "irregularForms": null,
+      "sentence": "Presta atención a lo que digo.",
+      "wordTranslation": "attention",
+      "sentenceTranslation": "Pay attention to what I'm saying."
+    },
+    {
+      "word": "concentración",
+      "irregularForms": null,
+      "sentence": "Necesita mucha concentración para este examen.",
+      "wordTranslation": "concentration",
+      "sentenceTranslation": "He needs a lot of concentration for this exam."
+    },
+    {
+      "word": "aburrimiento",
+      "irregularForms": null,
+      "sentence": "El aburrimiento puede llevar a la creatividad.",
+      "wordTranslation": "boredom",
+      "sentenceTranslation": "Boredom can lead to creativity."
+    },
+    {
+      "word": "diversión",
+      "irregularForms": null,
+      "sentence": "La fiesta fue pura diversión para todos.",
+      "wordTranslation": "fun",
+      "sentenceTranslation": "The party was pure fun for everyone."
+    },
+    {
+      "word": "humor",
+      "irregularForms": null,
+      "sentence": "Tiene un gran sentido del humor.",
+      "wordTranslation": "humor",
+      "sentenceTranslation": "He has a great sense of humor."
+    },
+    {
+      "word": "explicación",
+      "irregularForms": null,
+      "sentence": "Su explicación fue muy clara y concisa.",
+      "wordTranslation": "explanation",
+      "sentenceTranslation": "His explanation was very clear and concise."
+    },
+    {
+      "word": "descripción",
+      "irregularForms": null,
+      "sentence": "La descripción del paisaje era muy vívida.",
+      "wordTranslation": "description",
+      "sentenceTranslation": "The description of the landscape was very vivid."
+    },
+    {
+      "word": "informe",
+      "irregularForms": null,
+      "sentence": "El informe detalla los resultados de la investigación.",
+      "wordTranslation": "report",
+      "sentenceTranslation": "The report details the results of the investigation."
+    },
+    {
+      "word": "héroe",
+      "irregularForms": null,
+      "sentence": "El héroe salvó a la ciudad del peligro.",
+      "wordTranslation": "hero",
+      "sentenceTranslation": "The hero saved the city from danger."
+    },
+    {
+      "word": "villano",
+      "irregularForms": null,
+      "sentence": "El villano fue derrotado al final de la historia.",
+      "wordTranslation": "villain",
+      "sentenceTranslation": "The villain was defeated at the end of the story."
+    },
+    {
+      "word": "magia",
+      "irregularForms": null,
+      "sentence": "Los niños creen en la magia de la Navidad.",
+      "wordTranslation": "magic",
+      "sentenceTranslation": "Children believe in the magic of Christmas."
+    },
+    {
+      "word": "papelera",
+      "irregularForms": null,
+      "sentence": "Por favor, tira el papel en la papelera.",
+      "wordTranslation": "wastebasket / trash can",
+      "sentenceTranslation": "Please throw the paper in the trash can."
+    },
+    {
+      "word": "pasaporte",
+      "irregularForms": null,
+      "sentence": "Necesito mi pasaporte para viajar al extranjero.",
+      "wordTranslation": "passport",
+      "sentenceTranslation": "I need my passport to travel abroad."
+    },
+    {
+      "word": "efectivo",
+      "irregularForms": null,
+      "sentence": "Prefiero pagar en efectivo que con tarjeta.",
+      "wordTranslation": "cash",
+      "sentenceTranslation": "I prefer to pay in cash rather than with a card."
+    },
+    {
+      "word": "caja registradora",
+      "irregularForms": null,
+      "sentence": "La cajera abrió la caja registradora.",
+      "wordTranslation": "cash register",
+      "sentenceTranslation": "The cashier opened the cash register."
+    },
+    {
+      "word": "supermercado",
+      "irregularForms": null,
+      "sentence": "Vamos al supermercado a comprar víveres.",
+      "wordTranslation": "supermarket",
+      "sentenceTranslation": "We're going to the supermarket to buy groceries."
+    },
+    {
+      "word": "panadería",
+      "irregularForms": null,
+      "sentence": "Compré pan fresco en la panadería de la esquina.",
+      "wordTranslation": "bakery",
+      "sentenceTranslation": "I bought fresh bread at the corner bakery."
+    },
+    {
+      "word": "carnicería",
+      "irregularForms": null,
+      "sentence": "La mejor carne se encuentra en esa carnicería.",
+      "wordTranslation": "butcher shop",
+      "sentenceTranslation": "The best meat is found at that butcher shop."
+    },
+    {
+      "word": "pescadería",
+      "irregularForms": null,
+      "sentence": "Compramos pescado fresco en la pescadería.",
+      "wordTranslation": "fish market",
+      "sentenceTranslation": "We bought fresh fish at the fish market."
+    },
+    {
+      "word": "farmacia",
+      "irregularForms": null,
+      "sentence": "La farmacia está abierta las 24 horas.",
+      "wordTranslation": "pharmacy",
+      "sentenceTranslation": "The pharmacy is open 24 hours."
+    },
+    {
+      "word": "librería",
+      "irregularForms": null,
+      "sentence": "Pasamos horas en la librería buscando libros.",
+      "wordTranslation": "bookstore",
+      "sentenceTranslation": "We spent hours at the bookstore looking for books."
+    },
+    {
+      "word": "juguetería",
+      "irregularForms": null,
+      "sentence": "La juguetería tiene los juguetes más nuevos.",
+      "wordTranslation": "toy store",
+      "sentenceTranslation": "The toy store has the newest toys."
+    },
+    {
+      "word": "zapatería",
+      "irregularForms": null,
+      "sentence": "Necesito comprar un nuevo par de zapatos en la zapatería.",
+      "wordTranslation": "shoe store",
+      "sentenceTranslation": "I need to buy a new pair of shoes at the shoe store."
+    },
+    {
+      "word": "peluquería",
+      "irregularForms": null,
+      "sentence": "Fui a la peluquería para cortarme el pelo.",
+      "wordTranslation": "hair salon",
+      "sentenceTranslation": "I went to the hair salon to get my hair cut."
+    },
+    {
+      "word": "tintorería",
+      "irregularForms": null,
+      "sentence": "Llevé mi traje a la tintorería para que lo limpiaran.",
+      "wordTranslation": "dry cleaner's",
+      "sentenceTranslation": "I took my suit to the dry cleaner's to have it cleaned."
+    },
+    {
+      "word": "muelle",
+      "irregularForms": null,
+      "sentence": "El barco atracó en el muelle del puerto.",
+      "wordTranslation": "dock / pier",
+      "sentenceTranslation": "The ship docked at the pier of the port."
+    },
+    {
+      "word": "faro",
+      "irregularForms": null,
+      "sentence": "El faro guía a los barcos por la noche.",
+      "wordTranslation": "lighthouse",
+      "sentenceTranslation": "The lighthouse guides ships at night."
+    },
+    {
+      "word": "autopista",
+      "irregularForms": null,
+      "sentence": "Tomamos la autopista para llegar más rápido.",
+      "wordTranslation": "highway / freeway",
+      "sentenceTranslation": "We took the highway to get there faster."
+    },
+    {
+      "word": "semáforo",
+      "irregularForms": null,
+      "sentence": "El semáforo cambió a verde, podemos avanzar.",
+      "wordTranslation": "traffic light",
+      "sentenceTranslation": "The traffic light turned green, we can go."
+    },
+    {
+      "word": "acera",
+      "irregularForms": null,
+      "sentence": "Caminamos por la acera para evitar los coches.",
+      "wordTranslation": "sidewalk",
+      "sentenceTranslation": "We walked on the sidewalk to avoid the cars."
+    },
+    {
+      "word": "técnico",
+      "irregularForms": null,
+      "sentence": "Tiene un conocimiento técnico muy profundo.",
+      "wordTranslation": "technical / technician",
+      "sentenceTranslation": "He has a very deep technical knowledge."
+    },
+    {
+      "word": "musical",
+      "irregularForms": null,
+      "sentence": "El concierto fue una experiencia musical inolvidable.",
+      "wordTranslation": "musical",
+      "sentenceTranslation": "The concert was an unforgettable musical experience."
+    },
+    {
+      "word": "literario",
+      "irregularForms": null,
+      "sentence": "Es un escritor con un estilo literario único.",
+      "wordTranslation": "literary",
+      "sentenceTranslation": "He is a writer with a unique literary style."
+    },
+    {
+      "word": "deportivo",
+      "irregularForms": null,
+      "sentence": "Participó en varios eventos deportivos durante el verano.",
+      "wordTranslation": "sports / sporty",
+      "sentenceTranslation": "He participated in several sports events during the summer."
+    },
+    {
+      "word": "vegetal",
+      "irregularForms": null,
+      "sentence": "Este plato es completamente vegetal, sin carne.",
+      "wordTranslation": "vegetable (adj.) / plant",
+      "sentenceTranslation": "This dish is completely vegetable, with no meat."
+    },
+    {
+      "word": "mineral",
+      "irregularForms": null,
+      "sentence": "El agua mineral es buena para la salud.",
+      "wordTranslation": "mineral",
+      "sentenceTranslation": "Mineral water is good for your health."
+    },
+    {
+      "word": "sólido",
+      "irregularForms": null,
+      "sentence": "El hielo es agua en estado sólido.",
+      "wordTranslation": "solid",
+      "sentenceTranslation": "Ice is water in a solid state."
+    },
+    {
+      "word": "líquido",
+      "irregularForms": null,
+      "sentence": "Necesito un poco de líquido para beber.",
+      "wordTranslation": "liquid",
+      "sentenceTranslation": "I need some liquid to drink."
+    },
+    {
+      "word": "gaseoso",
+      "irregularForms": null,
+      "sentence": "El aire es una mezcla de gases, por lo tanto, es gaseoso.",
+      "wordTranslation": "gaseous",
+      "sentenceTranslation": "Air is a mixture of gases, therefore it is gaseous."
+    },
+    {
+      "word": "opaco",
+      "irregularForms": null,
+      "sentence": "El cristal es opaco y no permite ver a través.",
+      "wordTranslation": "opaque",
+      "sentenceTranslation": "The glass is opaque and doesn't allow one to see through."
+    },
+    {
+      "word": "avanzado",
+      "irregularForms": null,
+      "sentence": "Está en un nivel avanzado de español.",
+      "wordTranslation": "advanced",
+      "sentenceTranslation": "He is at an advanced level of Spanish."
+    },
+    {
+      "word": "detallado",
+      "irregularForms": null,
+      "sentence": "Necesito un informe más detallado de la situación.",
+      "wordTranslation": "detailed",
+      "sentenceTranslation": "I need a more detailed report of the situation."
+    },
+    {
+      "word": "ocasional",
+      "irregularForms": null,
+      "sentence": "Solo hago visitas ocasionales a la ciudad.",
+      "wordTranslation": "occasional",
+      "sentenceTranslation": "I only make occasional visits to the city."
+    },
+    {
+      "word": "temporal",
+      "irregularForms": null,
+      "sentence": "Es un trabajo temporal, solo por unos meses.",
+      "wordTranslation": "temporary",
+      "sentenceTranslation": "It's a temporary job, just for a few months."
+    },
+    {
+      "word": "permanente",
+      "irregularForms": null,
+      "sentence": "Ella busca un empleo permanente, no temporal.",
+      "wordTranslation": "permanent",
+      "sentenceTranslation": "She is looking for a permanent job, not a temporary one."
+    },
+    {
+      "word": "múltiple",
+      "irregularForms": null,
+      "sentence": "El problema tiene soluciones múltiples.",
+      "wordTranslation": "multiple",
+      "sentenceTranslation": "The problem has multiple solutions."
+    },
+    {
+      "word": "excitado",
+      "irregularForms": null,
+      "sentence": "Los niños estaban muy excitados con la noticia.",
+      "wordTranslation": "excited",
+      "sentenceTranslation": "The children were very excited about the news."
+    },
+    {
+      "word": "cargado",
+      "irregularForms": null,
+      "sentence": "El teléfono está completamente cargado.",
+      "wordTranslation": "charged / loaded",
+      "sentenceTranslation": "The phone is fully charged."
+    },
+    {
+      "word": "diagonal",
+      "irregularForms": null,
+      "sentence": "Dibujó una línea diagonal en el papel.",
+      "wordTranslation": "diagonal",
+      "sentenceTranslation": "He drew a diagonal line on the paper."
+    },
+    {
+      "word": "ardiente",
+      "irregularForms": null,
+      "sentence": "Sentía una sed ardiente después de correr.",
+      "wordTranslation": "burning / ardent",
+      "sentenceTranslation": "He felt a burning thirst after running."
+    },
+    {
+      "word": "planchar",
+      "irregularForms": null,
+      "sentence": "Necesito planchar mi camisa para la reunión.",
+      "wordTranslation": "to iron",
+      "sentenceTranslation": "I need to iron my shirt for the meeting."
+    },
+    {
+      "word": "consumir",
+      "irregularForms": null,
+      "sentence": "Es importante consumir alimentos saludables.",
+      "wordTranslation": "to consume",
+      "sentenceTranslation": "It's important to consume healthy foods."
+    },
+    {
+      "word": "cafetería",
+      "irregularForms": null,
+      "sentence": "Nos encontramos en la cafetería para tomar un café.",
+      "wordTranslation": "cafeteria / coffee shop",
+      "sentenceTranslation": "We met at the coffee shop for a coffee."
+    }
+  ]
+}

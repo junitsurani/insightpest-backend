@@ -1,0 +1,811 @@
+{
+  "name": "Spanish Common Words Set 28",
+  "description": "This is part of a larger set of common Spanish words.",
+  "cards": [
+    {
+      "word": "nosotras",
+      "irregularForms": null,
+      "sentence": "Nosotras somos el equipo campeón.",
+      "wordTranslation": "we (feminine)",
+      "sentenceTranslation": "We are the champion team."
+    },
+    {
+      "word": "vosotras",
+      "irregularForms": null,
+      "sentence": "Vosotras siempre tenéis las mejores ideas.",
+      "wordTranslation": "you all (feminine, Spain)",
+      "sentenceTranslation": "You all always have the best ideas."
+    },
+    {
+      "word": "estar",
+      "irregularForms": "estoy, estás, está, estamos, estáis, están",
+      "sentence": "Quiero estar contigo en la playa.",
+      "wordTranslation": "to be (location, state)",
+      "sentenceTranslation": "I want to be with you on the beach."
+    },
+    {
+      "word": "ningún",
+      "irregularForms": null,
+      "sentence": "No hay ningún problema con eso.",
+      "wordTranslation": "no, not any (masculine singular adjective)",
+      "sentenceTranslation": "There is no problem with that."
+    },
+    {
+      "word": "toda",
+      "irregularForms": null,
+      "sentence": "Leí toda la noche.",
+      "wordTranslation": "all, whole (feminine singular adjective)",
+      "sentenceTranslation": "I read all night."
+    },
+    {
+      "word": "algunas",
+      "irregularForms": null,
+      "sentence": "Tenemos algunas preguntas para usted.",
+      "wordTranslation": "some, any (feminine plural adjective)",
+      "sentenceTranslation": "We have some questions for you."
+    },
+    {
+      "word": "mío",
+      "irregularForms": null,
+      "sentence": "Este libro es mío.",
+      "wordTranslation": "mine (masculine singular)",
+      "sentenceTranslation": "This book is mine."
+    },
+    {
+      "word": "mía",
+      "irregularForms": null,
+      "sentence": "Esa idea es mía.",
+      "wordTranslation": "mine (feminine singular)",
+      "sentenceTranslation": "That idea is mine."
+    },
+    {
+      "word": "míos",
+      "irregularForms": null,
+      "sentence": "Estos zapatos son míos.",
+      "wordTranslation": "mine (masculine plural)",
+      "sentenceTranslation": "These shoes are mine."
+    },
+    {
+      "word": "mías",
+      "irregularForms": null,
+      "sentence": "Estas llaves son mías.",
+      "wordTranslation": "mine (feminine plural)",
+      "sentenceTranslation": "These keys are mine."
+    },
+    {
+      "word": "tuyo",
+      "irregularForms": null,
+      "sentence": "El problema es tuyo.",
+      "wordTranslation": "yours (masculine singular)",
+      "sentenceTranslation": "The problem is yours."
+    },
+    {
+      "word": "tuya",
+      "irregularForms": null,
+      "sentence": "La decisión es tuya.",
+      "wordTranslation": "yours (feminine singular)",
+      "sentenceTranslation": "The decision is yours."
+    },
+    {
+      "word": "tuyos",
+      "irregularForms": null,
+      "sentence": "Esos perros son tuyos.",
+      "wordTranslation": "yours (masculine plural)",
+      "sentenceTranslation": "Those dogs are yours."
+    },
+    {
+      "word": "tuyas",
+      "irregularForms": null,
+      "sentence": "Esas flores son tuyas.",
+      "wordTranslation": "yours (feminine plural)",
+      "sentenceTranslation": "Those flowers are yours."
+    },
+    {
+      "word": "nuestras",
+      "irregularForms": null,
+      "sentence": "Estas son nuestras casas.",
+      "wordTranslation": "ours (feminine plural)",
+      "sentenceTranslation": "These are our houses."
+    },
+    {
+      "word": "vuestras",
+      "irregularForms": null,
+      "sentence": "Vuestras intenciones son buenas.",
+      "wordTranslation": "yours (feminine plural, Spain)",
+      "sentenceTranslation": "Your intentions are good."
+    },
+    {
+      "word": "mis",
+      "irregularForms": null,
+      "sentence": "Mis padres están de vacaciones.",
+      "wordTranslation": "my (plural)",
+      "sentenceTranslation": "My parents are on vacation."
+    },
+    {
+      "word": "tus",
+      "irregularForms": null,
+      "sentence": "Quiero ver tus nuevos dibujos.",
+      "wordTranslation": "your (plural)",
+      "sentenceTranslation": "I want to see your new drawings."
+    },
+    {
+      "word": "demasiadas",
+      "irregularForms": null,
+      "sentence": "Hay demasiadas cosas que hacer.",
+      "wordTranslation": "too many (feminine plural)",
+      "sentenceTranslation": "There are too many things to do."
+    },
+    {
+      "word": "bastantes",
+      "irregularForms": null,
+      "sentence": "Tenemos bastantes manzanas para todos.",
+      "wordTranslation": "enough, quite a few (plural)",
+      "sentenceTranslation": "We have enough apples for everyone."
+    },
+    {
+      "word": "varias",
+      "irregularForms": null,
+      "sentence": "Compró varias camisetas nuevas.",
+      "wordTranslation": "several (feminine plural)",
+      "sentenceTranslation": "She bought several new T-shirts."
+    },
+    {
+      "word": "ciertas",
+      "irregularForms": null,
+      "sentence": "Hay ciertas reglas que debemos seguir.",
+      "wordTranslation": "certain (feminine plural)",
+      "sentenceTranslation": "There are certain rules we must follow."
+    },
+    {
+      "word": "ambas",
+      "irregularForms": null,
+      "sentence": "Ambas opciones son válidas.",
+      "wordTranslation": "both (feminine plural)",
+      "sentenceTranslation": "Both options are valid."
+    },
+    {
+      "word": "solos",
+      "irregularForms": null,
+      "sentence": "Estaban solos en la casa.",
+      "wordTranslation": "alone (masculine plural)",
+      "sentenceTranslation": "They were alone in the house."
+    },
+    {
+      "word": "solas",
+      "irregularForms": null,
+      "sentence": "Las chicas estaban solas en el parque.",
+      "wordTranslation": "alone (feminine plural)",
+      "sentenceTranslation": "The girls were alone in the park."
+    },
+    {
+      "word": "primeros",
+      "irregularForms": null,
+      "sentence": "Los primeros resultados fueron prometedores.",
+      "wordTranslation": "first (masculine plural)",
+      "sentenceTranslation": "The first results were promising."
+    },
+    {
+      "word": "primeras",
+      "irregularForms": null,
+      "sentence": "Las primeras flores del jardín ya abrieron.",
+      "wordTranslation": "first (feminine plural)",
+      "sentenceTranslation": "The first flowers in the garden have already opened."
+    },
+    {
+      "word": "últimas",
+      "irregularForms": null,
+      "sentence": "Las últimas noticias fueron muy tristes.",
+      "wordTranslation": "last (feminine plural)",
+      "sentenceTranslation": "The latest news was very sad."
+    },
+    {
+      "word": "siguientes",
+      "irregularForms": null,
+      "sentence": "Por favor, lean las siguientes instrucciones.",
+      "wordTranslation": "following, next (plural)",
+      "sentenceTranslation": "Please read the following instructions."
+    },
+    {
+      "word": "anteriores",
+      "irregularForms": null,
+      "sentence": "Sus trabajos anteriores eran muy buenos.",
+      "wordTranslation": "previous (plural)",
+      "sentenceTranslation": "His previous jobs were very good."
+    },
+    {
+      "word": "superiores",
+      "irregularForms": null,
+      "sentence": "Sus calificaciones son superiores a la media.",
+      "wordTranslation": "superior (plural)",
+      "sentenceTranslation": "His grades are above average."
+    },
+    {
+      "word": "inferiores",
+      "irregularForms": null,
+      "sentence": "Los precios de los productos inferiores bajaron.",
+      "wordTranslation": "inferior (plural)",
+      "sentenceTranslation": "The prices of inferior products went down."
+    },
+    {
+      "word": "mejores",
+      "irregularForms": null,
+      "sentence": "Quiero encontrar las mejores opciones.",
+      "wordTranslation": "better (plural)",
+      "sentenceTranslation": "I want to find the best options."
+    },
+    {
+      "word": "peores",
+      "irregularForms": null,
+      "sentence": "Esos fueron los peores días de mi vida.",
+      "wordTranslation": "worse (plural)",
+      "sentenceTranslation": "Those were the worst days of my life."
+    },
+    {
+      "word": "mayores",
+      "irregularForms": null,
+      "sentence": "Mis hermanos mayores me cuidan.",
+      "wordTranslation": "older, larger (plural)",
+      "sentenceTranslation": "My older brothers take care of me."
+    },
+    {
+      "word": "menores",
+      "irregularForms": null,
+      "sentence": "Los niños menores de cinco años entran gratis.",
+      "wordTranslation": "younger, smaller (plural)",
+      "sentenceTranslation": "Children under five years old enter for free."
+    },
+    {
+      "word": "blancos",
+      "irregularForms": null,
+      "sentence": "Los gatos blancos son muy elegantes.",
+      "wordTranslation": "white (masculine plural)",
+      "sentenceTranslation": "White cats are very elegant."
+    },
+    {
+      "word": "negras",
+      "irregularForms": null,
+      "sentence": "Mis botas negras combinan con todo.",
+      "wordTranslation": "black (feminine plural)",
+      "sentenceTranslation": "My black boots go with everything."
+    },
+    {
+      "word": "rojas",
+      "irregularForms": null,
+      "sentence": "Las manzanas rojas son mis favoritas.",
+      "wordTranslation": "red (feminine plural)",
+      "sentenceTranslation": "Red apples are my favorite."
+    },
+    {
+      "word": "azules",
+      "irregularForms": null,
+      "sentence": "El cielo y el mar son azules.",
+      "wordTranslation": "blue (plural)",
+      "sentenceTranslation": "The sky and the sea are blue."
+    },
+    {
+      "word": "verdes",
+      "irregularForms": null,
+      "sentence": "Las hojas de los árboles son verdes en verano.",
+      "wordTranslation": "green (plural)",
+      "sentenceTranslation": "Tree leaves are green in summer."
+    },
+    {
+      "word": "amarillos",
+      "irregularForms": null,
+      "sentence": "Los taxis en Nueva York suelen ser amarillos.",
+      "wordTranslation": "yellow (masculine plural)",
+      "sentenceTranslation": "Taxis in New York are usually yellow."
+    },
+    {
+      "word": "grises",
+      "irregularForms": null,
+      "sentence": "Las nubes grises anuncian lluvia.",
+      "wordTranslation": "grey (plural)",
+      "sentenceTranslation": "Grey clouds announce rain."
+    },
+    {
+      "word": "marrones",
+      "irregularForms": null,
+      "sentence": "Los ojos marrones son comunes en mi familia.",
+      "wordTranslation": "brown (plural)",
+      "sentenceTranslation": "Brown eyes are common in my family."
+    },
+    {
+      "word": "lindos",
+      "irregularForms": null,
+      "sentence": "Tienen unos cachorros muy lindos.",
+      "wordTranslation": "pretty, cute (masculine plural)",
+      "sentenceTranslation": "They have some very cute puppies."
+    },
+    {
+      "word": "lindas",
+      "irregularForms": null,
+      "sentence": "Qué flores tan lindas trajiste.",
+      "wordTranslation": "pretty, cute (feminine plural)",
+      "sentenceTranslation": "What pretty flowers you brought."
+    },
+    {
+      "word": "feos",
+      "irregularForms": null,
+      "sentence": "Algunos edificios antiguos son feos para mí.",
+      "wordTranslation": "ugly (masculine plural)",
+      "sentenceTranslation": "Some old buildings are ugly to me."
+    },
+    {
+      "word": "feas",
+      "irregularForms": null,
+      "sentence": "No me gustan las excusas feas.",
+      "wordTranslation": "ugly (feminine plural)",
+      "sentenceTranslation": "I don't like ugly excuses."
+    },
+    {
+      "word": "bonitos",
+      "irregularForms": null,
+      "sentence": "Estos paisajes son muy bonitos en otoño.",
+      "wordTranslation": "beautiful (masculine plural)",
+      "sentenceTranslation": "These landscapes are very beautiful in autumn."
+    },
+    {
+      "word": "bonitas",
+      "irregularForms": null,
+      "sentence": "Sus fotografías son muy bonitas.",
+      "wordTranslation": "beautiful (feminine plural)",
+      "sentenceTranslation": "Her photographs are very beautiful."
+    },
+    {
+      "word": "cansadas",
+      "irregularForms": null,
+      "sentence": "Después de correr, estábamos muy cansadas.",
+      "wordTranslation": "tired (feminine plural)",
+      "sentenceTranslation": "After running, we were very tired."
+    },
+    {
+      "word": "enferma",
+      "irregularForms": null,
+      "sentence": "Mi hermana está enferma hoy.",
+      "wordTranslation": "sick (feminine singular)",
+      "sentenceTranslation": "My sister is sick today."
+    },
+    {
+      "word": "enfermos",
+      "irregularForms": null,
+      "sentence": "Muchos pacientes estaban enfermos.",
+      "wordTranslation": "sick (masculine plural)",
+      "sentenceTranslation": "Many patients were sick."
+    },
+    {
+      "word": "enfermas",
+      "irregularForms": null,
+      "sentence": "Las mujeres enfermas necesitan descanso.",
+      "wordTranslation": "sick (feminine plural)",
+      "sentenceTranslation": "The sick women need rest."
+    },
+    {
+      "word": "abiertas",
+      "irregularForms": null,
+      "sentence": "Las puertas estaban abiertas de par en par.",
+      "wordTranslation": "open (feminine plural)",
+      "sentenceTranslation": "The doors were wide open."
+    },
+    {
+      "word": "cerradas",
+      "irregularForms": null,
+      "sentence": "Las tiendas estarán cerradas el domingo.",
+      "wordTranslation": "closed (feminine plural)",
+      "sentenceTranslation": "The stores will be closed on Sunday."
+    },
+    {
+      "word": "calientes",
+      "irregularForms": null,
+      "sentence": "Me encantan las bebidas calientes en invierno.",
+      "wordTranslation": "hot (plural)",
+      "sentenceTranslation": "I love hot drinks in winter."
+    },
+    {
+      "word": "fríos",
+      "irregularForms": null,
+      "sentence": "Los días fríos me hacen querer café.",
+      "wordTranslation": "cold (masculine plural)",
+      "sentenceTranslation": "Cold days make me want coffee."
+    },
+    {
+      "word": "frías",
+      "irregularForms": null,
+      "sentence": "Las noches frías de invierno son largas.",
+      "wordTranslation": "cold (feminine plural)",
+      "sentenceTranslation": "Cold winter nights are long."
+    },
+    {
+      "word": "llenas",
+      "irregularForms": null,
+      "sentence": "Las cajas estaban llenas de juguetes.",
+      "wordTranslation": "full (feminine plural)",
+      "sentenceTranslation": "The boxes were full of toys."
+    },
+    {
+      "word": "vacías",
+      "irregularForms": null,
+      "sentence": "Las botellas estaban vacías.",
+      "wordTranslation": "empty (feminine plural)",
+      "sentenceTranslation": "The bottles were empty."
+    },
+    {
+      "word": "importantes",
+      "irregularForms": null,
+      "sentence": "Hay decisiones importantes que tomar.",
+      "wordTranslation": "important (plural)",
+      "sentenceTranslation": "There are important decisions to make."
+    },
+    {
+      "word": "interesantes",
+      "irregularForms": null,
+      "sentence": "Sus historias siempre son muy interesantes.",
+      "wordTranslation": "interesting (plural)",
+      "sentenceTranslation": "His stories are always very interesting."
+    },
+    {
+      "word": "aburridas",
+      "irregularForms": null,
+      "sentence": "Las reuniones largas son aburridas.",
+      "wordTranslation": "boring, bored (feminine plural)",
+      "sentenceTranslation": "Long meetings are boring."
+    },
+    {
+      "word": "buenas",
+      "irregularForms": null,
+      "sentence": "Les deseo buenas noches a todos.",
+      "wordTranslation": "good (feminine plural)",
+      "sentenceTranslation": "I wish you all a good night."
+    },
+    {
+      "word": "malas",
+      "irregularForms": null,
+      "sentence": "Las noticias malas llegaron pronto.",
+      "wordTranslation": "bad (feminine plural)",
+      "sentenceTranslation": "The bad news arrived soon."
+    },
+    {
+      "word": "pequeñas",
+      "irregularForms": null,
+      "sentence": "Las casas pequeñas son acogedoras.",
+      "wordTranslation": "small (feminine plural)",
+      "sentenceTranslation": "Small houses are cozy."
+    },
+    {
+      "word": "altas",
+      "irregularForms": null,
+      "sentence": "Las montañas altas son impresionantes.",
+      "wordTranslation": "tall, high (feminine plural)",
+      "sentenceTranslation": "Tall mountains are impressive."
+    },
+    {
+      "word": "bajas",
+      "irregularForms": null,
+      "sentence": "Las temperaturas bajas afectan la cosecha.",
+      "wordTranslation": "short, low (feminine plural)",
+      "sentenceTranslation": "Low temperatures affect the harvest."
+    },
+    {
+      "word": "nuevas",
+      "irregularForms": null,
+      "sentence": "Tenemos ideas nuevas para el proyecto.",
+      "wordTranslation": "new (feminine plural)",
+      "sentenceTranslation": "We have new ideas for the project."
+    },
+    {
+      "word": "viejas",
+      "irregularForms": null,
+      "sentence": "Las viejas fotos me traen recuerdos.",
+      "wordTranslation": "old (feminine plural)",
+      "sentenceTranslation": "Old photos bring me memories."
+    },
+    {
+      "word": "ricas",
+      "irregularForms": null,
+      "sentence": "Estas galletas están muy ricas.",
+      "wordTranslation": "rich, tasty (feminine plural)",
+      "sentenceTranslation": "These cookies are very tasty."
+    },
+    {
+      "word": "pobres",
+      "irregularForms": null,
+      "sentence": "Las familias pobres necesitan ayuda.",
+      "wordTranslation": "poor (plural)",
+      "sentenceTranslation": "Poor families need help."
+    },
+    {
+      "word": "limpias",
+      "irregularForms": null,
+      "sentence": "Las habitaciones estaban limpias y ordenadas.",
+      "wordTranslation": "clean (feminine plural)",
+      "sentenceTranslation": "The rooms were clean and tidy."
+    },
+    {
+      "word": "sucias",
+      "irregularForms": null,
+      "sentence": "Las calles sucias necesitan ser barridas.",
+      "wordTranslation": "dirty (feminine plural)",
+      "sentenceTranslation": "The dirty streets need to be swept."
+    },
+    {
+      "word": "fuertes",
+      "irregularForms": null,
+      "sentence": "Necesitamos manos fuertes para mover esto.",
+      "wordTranslation": "strong (plural)",
+      "sentenceTranslation": "We need strong hands to move this."
+    },
+    {
+      "word": "débiles",
+      "irregularForms": null,
+      "sentence": "Las luces débiles no iluminaban mucho.",
+      "wordTranslation": "weak (plural)",
+      "sentenceTranslation": "The dim lights didn't illuminate much."
+    },
+    {
+      "word": "rápidas",
+      "irregularForms": null,
+      "sentence": "Las respuestas rápidas son importantes en el examen.",
+      "wordTranslation": "fast (feminine plural)",
+      "sentenceTranslation": "Fast answers are important on the exam."
+    },
+    {
+      "word": "lentas",
+      "irregularForms": null,
+      "sentence": "Las tortugas son criaturas muy lentas.",
+      "wordTranslation": "slow (feminine plural)",
+      "sentenceTranslation": "Turtles are very slow creatures."
+    },
+    {
+      "word": "claras",
+      "irregularForms": null,
+      "sentence": "Sus explicaciones fueron muy claras.",
+      "wordTranslation": "clear (feminine plural)",
+      "sentenceTranslation": "Her explanations were very clear."
+    },
+    {
+      "word": "oscuras",
+      "irregularForms": null,
+      "sentence": "Me gustan las películas de temas oscuras.",
+      "wordTranslation": "dark (feminine plural)",
+      "sentenceTranslation": "I like movies with dark themes."
+    },
+    {
+      "word": "cercanas",
+      "irregularForms": null,
+      "sentence": "Las tiendas más cercanas están a dos cuadras.",
+      "wordTranslation": "near, close (feminine plural)",
+      "sentenceTranslation": "The closest stores are two blocks away."
+    },
+    {
+      "word": "lejanas",
+      "irregularForms": null,
+      "sentence": "Las galaxias lejanas son difíciles de observar.",
+      "wordTranslation": "far (feminine plural)",
+      "sentenceTranslation": "Distant galaxies are difficult to observe."
+    },
+    {
+      "word": "anoche",
+      "irregularForms": null,
+      "sentence": "Estuve estudiando hasta tarde anoche.",
+      "wordTranslation": "last night",
+      "sentenceTranslation": "I was studying late last night."
+    },
+    {
+      "word": "a menudo",
+      "irregularForms": null,
+      "sentence": "Voy al cine a menudo con mis amigos.",
+      "wordTranslation": "often",
+      "sentenceTranslation": "I often go to the cinema with my friends."
+    },
+    {
+      "word": "quizás",
+      "irregularForms": null,
+      "sentence": "Quizás mañana haga sol.",
+      "wordTranslation": "perhaps",
+      "sentenceTranslation": "Perhaps it will be sunny tomorrow."
+    },
+    {
+      "word": "sólo",
+      "irregularForms": null,
+      "sentence": "Sólo quiero un café, por favor.",
+      "wordTranslation": "only",
+      "sentenceTranslation": "I only want a coffee, please."
+    },
+    {
+      "word": "ante",
+      "irregularForms": null,
+      "sentence": "Se presentó ante el juez.",
+      "wordTranslation": "before, in front of (position/authority)",
+      "sentenceTranslation": "He appeared before the judge."
+    },
+    {
+      "word": "despacio",
+      "irregularForms": null,
+      "sentence": "Habla más despacio, por favor.",
+      "wordTranslation": "slowly",
+      "sentenceTranslation": "Speak more slowly, please."
+    },
+    {
+      "word": "de repente",
+      "irregularForms": null,
+      "sentence": "De repente, empezó a llover muy fuerte.",
+      "wordTranslation": "suddenly",
+      "sentenceTranslation": "Suddenly, it started raining very heavily."
+    },
+    {
+      "word": "sin duda",
+      "irregularForms": null,
+      "sentence": "Es sin duda la mejor película del año.",
+      "wordTranslation": "without a doubt",
+      "sentenceTranslation": "It is undoubtedly the best movie of the year."
+    },
+    {
+      "word": "por fin",
+      "irregularForms": null,
+      "sentence": "Por fin llegaron las vacaciones.",
+      "wordTranslation": "finally, at last",
+      "sentenceTranslation": "Finally, the holidays arrived."
+    },
+    {
+      "word": "de verdad",
+      "irregularForms": null,
+      "sentence": "¿De verdad quieres irte tan temprano?",
+      "wordTranslation": "really, truly",
+      "sentenceTranslation": "Do you really want to leave so early?"
+    },
+    {
+      "word": "de nuevo",
+      "irregularForms": null,
+      "sentence": "Tenemos que empezar de nuevo.",
+      "wordTranslation": "again",
+      "sentenceTranslation": "We have to start again."
+    },
+    {
+      "word": "a propósito",
+      "irregularForms": null,
+      "sentence": "A propósito, ¿ya terminaste el informe?",
+      "wordTranslation": "by the way, on purpose",
+      "sentenceTranslation": "By the way, have you finished the report yet?"
+    },
+    {
+      "word": "en serio",
+      "irregularForms": null,
+      "sentence": "¿Estás hablando en serio o es una broma?",
+      "wordTranslation": "seriously, for real",
+      "sentenceTranslation": "Are you serious or is it a joke?"
+    },
+    {
+      "word": "por casualidad",
+      "irregularForms": null,
+      "sentence": "Lo encontré por casualidad en la calle.",
+      "wordTranslation": "by chance, by coincidence",
+      "sentenceTranslation": "I found him by chance in the street."
+    },
+    {
+      "word": "en general",
+      "irregularForms": null,
+      "sentence": "En general, me gusta la gente amable.",
+      "wordTranslation": "in general",
+      "sentenceTranslation": "In general, I like kind people."
+    },
+    {
+      "word": "canto",
+      "irregularForms": null,
+      "sentence": "Su canto alegraba la mañana.",
+      "wordTranslation": "song, singing (noun)",
+      "sentenceTranslation": "Its song brightened the morning."
+    },
+    {
+      "word": "dulces",
+      "irregularForms": null,
+      "sentence": "A los niños les encantan los dulces.",
+      "wordTranslation": "sweets, candies",
+      "sentenceTranslation": "Children love sweets."
+    },
+    {
+      "word": "cuáles",
+      "irregularForms": null,
+      "sentence": "¿Cuáles son tus planes para el fin de semana?",
+      "wordTranslation": "which ones (plural)",
+      "sentenceTranslation": "What are your plans for the weekend?"
+    },
+    {
+      "word": "dices",
+      "irregularForms": "decir (infinitive)",
+      "sentence": "¿Qué dices de ir al cine?",
+      "wordTranslation": "you say/tell",
+      "sentenceTranslation": "What do you say about going to the cinema?"
+    },
+    {
+      "word": "haces",
+      "irregularForms": "hacer (infinitive)",
+      "sentence": "¿Qué haces en tu tiempo libre?",
+      "wordTranslation": "you do/make",
+      "sentenceTranslation": "What do you do in your free time?"
+    },
+    {
+      "word": "vas",
+      "irregularForms": "ir (infinitive)",
+      "sentence": "¿Adónde vas tan rápido?",
+      "wordTranslation": "you go",
+      "sentenceTranslation": "Where are you going so fast?"
+    },
+    {
+      "word": "vives",
+      "irregularForms": "vivir (infinitive)",
+      "sentence": "¿Dónde vives ahora?",
+      "wordTranslation": "you live",
+      "sentenceTranslation": "Where do you live now?"
+    },
+    {
+      "word": "comes",
+      "irregularForms": "comer (infinitive)",
+      "sentence": "¿Qué comes cuando tienes hambre?",
+      "wordTranslation": "you eat",
+      "sentenceTranslation": "What do you eat when you are hungry?"
+    },
+    {
+      "word": "bebes",
+      "irregularForms": "beber (infinitive)",
+      "sentence": "¿Qué bebes para hidratarte?",
+      "wordTranslation": "you drink",
+      "sentenceTranslation": "What do you drink to hydrate yourself?"
+    },
+    {
+      "word": "sabes",
+      "irregularForms": "saber (infinitive)",
+      "sentence": "¿Sabes la respuesta a esta pregunta?",
+      "wordTranslation": "you know (facts)",
+      "sentenceTranslation": "Do you know the answer to this question?"
+    },
+    {
+      "word": "puedes",
+      "irregularForms": "poder (infinitive)",
+      "sentence": "Si quieres, puedes venir con nosotros.",
+      "wordTranslation": "you can, you are able to",
+      "sentenceTranslation": "If you want, you can come with us."
+    },
+    {
+      "word": "quieres",
+      "irregularForms": "querer (infinitive)",
+      "sentence": "¿Qué quieres de regalo de cumpleaños?",
+      "wordTranslation": "you want",
+      "sentenceTranslation": "What do you want for a birthday present?"
+    },
+    {
+      "word": "viene",
+      "irregularForms": "venir (infinitive)",
+      "sentence": "Mi amigo viene a visitarme hoy.",
+      "wordTranslation": "he/she/it comes",
+      "sentenceTranslation": "My friend is coming to visit me today."
+    },
+    {
+      "word": "veo",
+      "irregularForms": "ver (infinitive)",
+      "sentence": "Veo la televisión por las noches.",
+      "wordTranslation": "I see",
+      "sentenceTranslation": "I watch television at night."
+    },
+    {
+      "word": "doy",
+      "irregularForms": "dar (infinitive)",
+      "sentence": "Te doy las gracias por tu ayuda.",
+      "wordTranslation": "I give",
+      "sentenceTranslation": "I thank you for your help."
+    },
+    {
+      "word": "pongo",
+      "irregularForms": "poner (infinitive)",
+      "sentence": "Me pongo el abrigo porque hace frío.",
+      "wordTranslation": "I put/place/wear",
+      "sentenceTranslation": "I put on my coat because it's cold."
+    },
+    {
+      "word": "salgo",
+      "irregularForms": "salir (infinitive)",
+      "sentence": "Salgo de casa a las ocho en punto.",
+      "wordTranslation": "I leave/go out",
+      "sentenceTranslation": "I leave home at eight o'clock sharp."
+    }
+  ]
+}

@@ -1,0 +1,895 @@
+{
+  "name": "Spanish Common Words Set 18",
+  "description": "This is part of a larger set of common Spanish words, focusing on vocabulary not included in previous sets.",
+  "cards": [
+    {
+      "word": "aplaudir",
+      "irregularForms": "Regular -IR verb",
+      "sentence": "Todos van a aplaudir el final de la obra.",
+      "wordTranslation": "to applaud",
+      "sentenceTranslation": "Everyone is going to applaud the end of the play."
+    },
+    {
+      "word": "aroma",
+      "irregularForms": null,
+      "sentence": "El aroma del café recién hecho llena la cocina.",
+      "wordTranslation": "aroma",
+      "sentenceTranslation": "The aroma of freshly brewed coffee fills the kitchen."
+    },
+    {
+      "word": "brillo",
+      "irregularForms": null,
+      "sentence": "El brillo de las estrellas en el cielo era increíble.",
+      "wordTranslation": "brightness / shine",
+      "sentenceTranslation": "The brightness of the stars in the sky was incredible."
+    },
+    {
+      "word": "textura",
+      "irregularForms": null,
+      "sentence": "La textura de la seda es muy suave.",
+      "wordTranslation": "texture",
+      "sentenceTranslation": "The texture of silk is very soft."
+    },
+    {
+      "word": "eco",
+      "irregularForms": null,
+      "sentence": "Su voz hizo eco en la cueva oscura.",
+      "wordTranslation": "echo",
+      "sentenceTranslation": "His voice echoed in the dark cave."
+    },
+    {
+      "word": "silbido",
+      "irregularForms": null,
+      "sentence": "Escuchamos un silbido lejano en la noche.",
+      "wordTranslation": "whistle (noun)",
+      "sentenceTranslation": "We heard a distant whistle in the night."
+    },
+    {
+      "word": "crujido",
+      "irregularForms": null,
+      "sentence": "El crujido de las hojas secas era fuerte.",
+      "wordTranslation": "crunch / creak (noun)",
+      "sentenceTranslation": "The crunch of the dry leaves was loud."
+    },
+    {
+      "word": "tibio",
+      "irregularForms": null,
+      "sentence": "Prefiero beber mi leche tibia por la mañana.",
+      "wordTranslation": "lukewarm",
+      "sentenceTranslation": "I prefer to drink my milk lukewarm in the morning."
+    },
+    {
+      "word": "bostezar",
+      "irregularForms": "Regular -AR verb",
+      "sentence": "No puedo evitar bostezar cuando tengo sueño.",
+      "wordTranslation": "to yawn",
+      "sentenceTranslation": "I can't help but yawn when I'm sleepy."
+    },
+    {
+      "word": "estornudar",
+      "irregularForms": "Regular -AR verb",
+      "sentence": "Empiezo a estornudar cada vez que hay polen en el aire.",
+      "wordTranslation": "to sneeze",
+      "sentenceTranslation": "I start to sneeze every time there's pollen in the air."
+    },
+    {
+      "word": "toser",
+      "irregularForms": "Regular -ER verb",
+      "sentence": "Necesito toser para aclarar mi garganta.",
+      "wordTranslation": "to cough",
+      "sentenceTranslation": "I need to cough to clear my throat."
+    },
+    {
+      "word": "sudor",
+      "irregularForms": null,
+      "sentence": "Después de correr, tenía la frente cubierta de sudor.",
+      "wordTranslation": "sweat (noun)",
+      "sentenceTranslation": "After running, his forehead was covered in sweat."
+    },
+    {
+      "word": "caricia",
+      "irregularForms": null,
+      "sentence": "Le dio una suave caricia en la mejilla.",
+      "wordTranslation": "caress",
+      "sentenceTranslation": "He gave her a soft caress on the cheek."
+    },
+    {
+      "word": "guiñar",
+      "irregularForms": "Regular -AR verb",
+      "sentence": "Me gusta guiñar el ojo para saludar a mis amigos.",
+      "wordTranslation": "to wink",
+      "sentenceTranslation": "I like to wink to greet my friends."
+    },
+    {
+      "word": "fruncir",
+      "irregularForms": "Regular -IR verb",
+      "sentence": "Ella suele fruncir el ceño cuando está concentrada.",
+      "wordTranslation": "to frown / to pucker",
+      "sentenceTranslation": "She usually frowns when she's concentrated."
+    },
+    {
+      "word": "ceño",
+      "irregularForms": null,
+      "sentence": "Tenía el ceño fruncido mientras leía el complicado documento.",
+      "wordTranslation": "frown (noun)",
+      "sentenceTranslation": "He had his brow furrowed while reading the complicated document."
+    },
+    {
+      "word": "pestañear",
+      "irregularForms": "Regular -AR verb",
+      "sentence": "No puedes pestañear durante este juego.",
+      "wordTranslation": "to blink",
+      "sentenceTranslation": "You can't blink during this game."
+    },
+    {
+      "word": "morder",
+      "irregularForms": "Regular -ER verb",
+      "sentence": "No debes morder las uñas, es un mal hábito.",
+      "wordTranslation": "to bite",
+      "sentenceTranslation": "You shouldn't bite your nails, it's a bad habit."
+    },
+    {
+      "word": "masticar",
+      "irregularForms": "Regular -AR verb",
+      "sentence": "Masticar bien la comida ayuda a la digestión.",
+      "wordTranslation": "to chew",
+      "sentenceTranslation": "Chewing food well helps digestion."
+    },
+    {
+      "word": "tragar",
+      "irregularForms": "Regular -AR verb",
+      "sentence": "Era tan grande que le costó tragarlo.",
+      "wordTranslation": "to swallow",
+      "sentenceTranslation": "It was so big that it was hard for him to swallow."
+    },
+    {
+      "word": "digestion",
+      "irregularForms": null,
+      "sentence": "Comer lentamente mejora la digestión.",
+      "wordTranslation": "digestion",
+      "sentenceTranslation": "Eating slowly improves digestion."
+    },
+    {
+      "word": "nutrición",
+      "irregularForms": null,
+      "sentence": "Una buena nutrición es clave para la salud.",
+      "wordTranslation": "nutrition",
+      "sentenceTranslation": "Good nutrition is key to health."
+    },
+    {
+      "word": "apetito",
+      "irregularForms": null,
+      "sentence": "Después del ejercicio, mi apetito era enorme.",
+      "wordTranslation": "appetite",
+      "sentenceTranslation": "After exercising, my appetite was huge."
+    },
+    {
+      "word": "batir",
+      "irregularForms": "Regular -IR verb",
+      "sentence": "Voy a batir los huevos para hacer una tortilla.",
+      "wordTranslation": "to beat / to whisk",
+      "sentenceTranslation": "I'm going to beat the eggs to make an omelet."
+    },
+    {
+      "word": "condimentar",
+      "irregularForms": "Regular -AR verb",
+      "sentence": "Recuerda condimentar la carne antes de cocinarla.",
+      "wordTranslation": "to season",
+      "sentenceTranslation": "Remember to season the meat before cooking it."
+    },
+    {
+      "word": "descuento",
+      "irregularForms": null,
+      "sentence": "Obtuve un descuento del 20% en la tienda.",
+      "wordTranslation": "discount",
+      "sentenceTranslation": "I got a 20% discount at the store."
+    },
+    {
+      "word": "oferta",
+      "irregularForms": null,
+      "sentence": "Esta semana tienen una oferta especial en frutas.",
+      "wordTranslation": "offer / sale",
+      "sentenceTranslation": "This week they have a special offer on fruits."
+    },
+    {
+      "word": "recibo",
+      "irregularForms": null,
+      "sentence": "Guarda el recibo por si necesitas devolverlo.",
+      "wordTranslation": "receipt",
+      "sentenceTranslation": "Keep the receipt in case you need to return it."
+    },
+    {
+      "word": "cajero",
+      "irregularForms": null,
+      "sentence": "El cajero automático está fuera de servicio.",
+      "wordTranslation": "cashier / ATM",
+      "sentenceTranslation": "The ATM is out of service."
+    },
+    {
+      "word": "bolso",
+      "irregularForms": null,
+      "sentence": "Ella siempre lleva un bolso grande.",
+      "wordTranslation": "purse / handbag",
+      "sentenceTranslation": "She always carries a big purse."
+    },
+    {
+      "word": "cerradura",
+      "irregularForms": null,
+      "sentence": "La cerradura de la puerta es muy antigua.",
+      "wordTranslation": "lock",
+      "sentenceTranslation": "The door lock is very old."
+    },
+    {
+      "word": "candado",
+      "irregularForms": null,
+      "sentence": "Necesitas un candado para asegurar la bicicleta.",
+      "wordTranslation": "padlock",
+      "sentenceTranslation": "You need a padlock to secure the bicycle."
+    },
+    {
+      "word": "ascensor",
+      "irregularForms": null,
+      "sentence": "Tomemos el ascensor al quinto piso.",
+      "wordTranslation": "elevator",
+      "sentenceTranslation": "Let's take the elevator to the fifth floor."
+    },
+    {
+      "word": "almohada",
+      "irregularForms": null,
+      "sentence": "Necesito una almohada más suave para dormir bien.",
+      "wordTranslation": "pillow",
+      "sentenceTranslation": "I need a softer pillow to sleep well."
+    },
+    {
+      "word": "sábana",
+      "irregularForms": null,
+      "sentence": "Las sábanas de algodón son muy cómodas.",
+      "wordTranslation": "sheet",
+      "sentenceTranslation": "Cotton sheets are very comfortable."
+    },
+    {
+      "word": "manta",
+      "irregularForms": null,
+      "sentence": "Me gusta usar una manta cálida en invierno.",
+      "wordTranslation": "blanket",
+      "sentenceTranslation": "I like to use a warm blanket in winter."
+    },
+    {
+      "word": "peluquero",
+      "irregularForms": null,
+      "sentence": "Fui al peluquero para un nuevo corte de pelo.",
+      "wordTranslation": "hairdresser",
+      "sentenceTranslation": "I went to the hairdresser for a new haircut."
+    },
+    {
+      "word": "panadero",
+      "irregularForms": null,
+      "sentence": "El panadero hace el pan más rico de la ciudad.",
+      "wordTranslation": "baker",
+      "sentenceTranslation": "The baker makes the most delicious bread in the city."
+    },
+    {
+      "word": "florista",
+      "irregularForms": null,
+      "sentence": "La florista preparó un hermoso ramo de rosas.",
+      "wordTranslation": "florist",
+      "sentenceTranslation": "The florist prepared a beautiful bouquet of roses."
+    },
+    {
+      "word": "carnicero",
+      "irregularForms": null,
+      "sentence": "Necesito ir al carnicero por carne fresca.",
+      "wordTranslation": "butcher",
+      "sentenceTranslation": "I need to go to the butcher for fresh meat."
+    },
+    {
+      "word": "pescador",
+      "irregularForms": null,
+      "sentence": "El pescador regresó con una gran captura.",
+      "wordTranslation": "fisherman",
+      "sentenceTranslation": "The fisherman returned with a big catch."
+    },
+    {
+      "word": "bibliotecario",
+      "irregularForms": null,
+      "sentence": "El bibliotecario me ayudó a encontrar el libro.",
+      "wordTranslation": "librarian",
+      "sentenceTranslation": "The librarian helped me find the book."
+    },
+    {
+      "word": "periodista",
+      "irregularForms": null,
+      "sentence": "El periodista escribió un artículo interesante.",
+      "wordTranslation": "journalist",
+      "sentenceTranslation": "The journalist wrote an interesting article."
+    },
+    {
+      "word": "camarero",
+      "irregularForms": null,
+      "sentence": "El camarero fue muy atento y amable.",
+      "wordTranslation": "waiter",
+      "sentenceTranslation": "The waiter was very attentive and kind."
+    },
+    {
+      "word": "taxista",
+      "irregularForms": null,
+      "sentence": "El taxista nos llevó directamente al aeropuerto.",
+      "wordTranslation": "taxi driver",
+      "sentenceTranslation": "The taxi driver took us directly to the airport."
+    },
+    {
+      "word": "conductor",
+      "irregularForms": null,
+      "sentence": "El conductor del autobús era muy experimentado.",
+      "wordTranslation": "driver",
+      "sentenceTranslation": "The bus driver was very experienced."
+    },
+    {
+      "word": "piloto",
+      "irregularForms": null,
+      "sentence": "El piloto anunció el aterrizaje.",
+      "wordTranslation": "pilot",
+      "sentenceTranslation": "The pilot announced the landing."
+    },
+    {
+      "word": "capitán",
+      "irregularForms": null,
+      "sentence": "El capitán del barco saludó a la tripulación.",
+      "wordTranslation": "captain",
+      "sentenceTranslation": "The ship's captain saluted the crew."
+    },
+    {
+      "word": "anciano",
+      "irregularForms": null,
+      "sentence": "Un anciano se sentó en el banco del parque.",
+      "wordTranslation": "elderly person / old man",
+      "sentenceTranslation": "An old man sat on the park bench."
+    },
+    {
+      "word": "joven",
+      "irregularForms": null,
+      "sentence": "El joven tiene mucho potencial.",
+      "wordTranslation": "young person",
+      "sentenceTranslation": "The young person has a lot of potential."
+    },
+    {
+      "word": "adolescente",
+      "irregularForms": null,
+      "sentence": "Mi hermano es un adolescente ahora.",
+      "wordTranslation": "teenager",
+      "sentenceTranslation": "My brother is a teenager now."
+    },
+    {
+      "word": "adulto",
+      "irregularForms": null,
+      "sentence": "Como adulto, tienes más responsabilidades.",
+      "wordTranslation": "adult",
+      "sentenceTranslation": "As an adult, you have more responsibilities."
+    },
+    {
+      "word": "huesped",
+      "irregularForms": null,
+      "sentence": "El hotel tiene muchos huéspedes este fin de semana.",
+      "wordTranslation": "guest",
+      "sentenceTranslation": "The hotel has many guests this weekend."
+    },
+    {
+      "word": "vecino",
+      "irregularForms": null,
+      "sentence": "Mi vecino me ayudó con el jardín.",
+      "wordTranslation": "neighbor",
+      "sentenceTranslation": "My neighbor helped me with the garden."
+    },
+    {
+      "word": "colega",
+      "irregularForms": null,
+      "sentence": "Mi colega y yo trabajamos juntos en el proyecto.",
+      "wordTranslation": "colleague",
+      "sentenceTranslation": "My colleague and I worked together on the project."
+    },
+    {
+      "word": "jefe",
+      "irregularForms": null,
+      "sentence": "Mi jefe me dio una nueva tarea.",
+      "wordTranslation": "boss",
+      "sentenceTranslation": "My boss gave me a new task."
+    },
+    {
+      "word": "empleado",
+      "irregularForms": null,
+      "sentence": "Ella es una empleada muy eficiente.",
+      "wordTranslation": "employee",
+      "sentenceTranslation": "She is a very efficient employee."
+    },
+    {
+      "word": "dueño",
+      "irregularForms": null,
+      "sentence": "El dueño de la tienda es muy amable.",
+      "wordTranslation": "owner",
+      "sentenceTranslation": "The store owner is very kind."
+    },
+    {
+      "word": "inquilino",
+      "irregularForms": null,
+      "sentence": "El inquilino firmó el contrato de alquiler.",
+      "wordTranslation": "tenant",
+      "sentenceTranslation": "The tenant signed the rental agreement."
+    },
+    {
+      "word": "propietario",
+      "irregularForms": null,
+      "sentence": "El propietario del edificio vive en el primer piso.",
+      "wordTranslation": "landlord / owner",
+      "sentenceTranslation": "The building owner lives on the first floor."
+    },
+    {
+      "word": "camarada",
+      "irregularForms": null,
+      "sentence": "Mis camaradas me apoyaron en los momentos difíciles.",
+      "wordTranslation": "comrade",
+      "sentenceTranslation": "My comrades supported me in difficult times."
+    },
+    {
+      "word": "audiencia",
+      "irregularForms": null,
+      "sentence": "La audiencia aplaudió al final del concierto.",
+      "wordTranslation": "audience",
+      "sentenceTranslation": "The audience applauded at the end of the concert."
+    },
+    {
+      "word": "público",
+      "irregularForms": null,
+      "sentence": "El público disfrutó mucho el espectáculo.",
+      "wordTranslation": "public (noun)",
+      "sentenceTranslation": "The audience enjoyed the show very much."
+    },
+    {
+      "word": "espectador",
+      "irregularForms": null,
+      "sentence": "Cada espectador recibió un programa del evento.",
+      "wordTranslation": "spectator",
+      "sentenceTranslation": "Each spectator received a program of the event."
+    },
+    {
+      "word": "participante",
+      "irregularForms": null,
+      "sentence": "Todos los participantes recibieron un certificado.",
+      "wordTranslation": "participant",
+      "sentenceTranslation": "All participants received a certificate."
+    },
+    {
+      "word": "competidor",
+      "irregularForms": null,
+      "sentence": "Ella es una competidora muy fuerte.",
+      "wordTranslation": "competitor",
+      "sentenceTranslation": "She is a very strong competitor."
+    },
+    {
+      "word": "rival",
+      "irregularForms": null,
+      "sentence": "Mi rival en el juego era muy habilidoso.",
+      "wordTranslation": "rival",
+      "sentenceTranslation": "My rival in the game was very skilled."
+    },
+    {
+      "word": "adversario",
+      "irregularForms": null,
+      "sentence": "Derrotó a su adversario con facilidad.",
+      "wordTranslation": "adversary",
+      "sentenceTranslation": "He defeated his adversary with ease."
+    },
+    {
+      "word": "aliado",
+      "irregularForms": null,
+      "sentence": "En tiempos de guerra, busca un aliado fuerte.",
+      "wordTranslation": "ally",
+      "sentenceTranslation": "In times of war, look for a strong ally."
+    },
+    {
+      "word": "socio",
+      "irregularForms": null,
+      "sentence": "Es mi socio en el negocio de la tecnología.",
+      "wordTranslation": "partner",
+      "sentenceTranslation": "He is my partner in the technology business."
+    },
+    {
+      "word": "miembro",
+      "irregularForms": null,
+      "sentence": "Él es un miembro activo del club.",
+      "wordTranslation": "member",
+      "sentenceTranslation": "He is an active member of the club."
+    },
+    {
+      "word": "unidad",
+      "irregularForms": null,
+      "sentence": "La unidad del equipo es crucial para el éxito.",
+      "wordTranslation": "unity / unit",
+      "sentenceTranslation": "Team unity is crucial for success."
+    },
+    {
+      "word": "grupo",
+      "irregularForms": null,
+      "sentence": "Trabajamos en grupo para terminar el proyecto.",
+      "wordTranslation": "group",
+      "sentenceTranslation": "We worked in a group to finish the project."
+    },
+    {
+      "word": "equipo",
+      "irregularForms": null,
+      "sentence": "Nuestro equipo ganó el campeonato.",
+      "wordTranslation": "team / equipment",
+      "sentenceTranslation": "Our team won the championship."
+    },
+    {
+      "word": "organización",
+      "irregularForms": null,
+      "sentence": "La organización benéfica ayuda a los necesitados.",
+      "wordTranslation": "organization",
+      "sentenceTranslation": "The charity helps those in need."
+    },
+    {
+      "word": "institución",
+      "irregularForms": null,
+      "sentence": "Es una institución educativa muy prestigiosa.",
+      "wordTranslation": "institution",
+      "sentenceTranslation": "It is a very prestigious educational institution."
+    },
+    {
+      "word": "sociedad",
+      "irregularForms": null,
+      "sentence": "Vivimos en una sociedad globalizada.",
+      "wordTranslation": "society",
+      "sentenceTranslation": "We live in a globalized society."
+    },
+    {
+      "word": "comunidad",
+      "irregularForms": null,
+      "sentence": "La comunidad se unió para limpiar el parque.",
+      "wordTranslation": "community",
+      "sentenceTranslation": "The community united to clean the park."
+    },
+    {
+      "word": "nación",
+      "irregularForms": null,
+      "sentence": "Cada nación tiene su propia cultura.",
+      "wordTranslation": "nation",
+      "sentenceTranslation": "Each nation has its own culture."
+    },
+    {
+      "word": "pueblo",
+      "irregularForms": null,
+      "sentence": "El pueblo celebró la fiesta con música y baile.",
+      "wordTranslation": "town / people",
+      "sentenceTranslation": "The town celebrated the festival with music and dancing."
+    },
+    {
+      "word": "ciudadano",
+      "irregularForms": null,
+      "sentence": "Todo ciudadano tiene derechos y deberes.",
+      "wordTranslation": "citizen",
+      "sentenceTranslation": "Every citizen has rights and duties."
+    },
+    {
+      "word": "residente",
+      "irregularForms": null,
+      "sentence": "Ella es una residente permanente de este país.",
+      "wordTranslation": "resident",
+      "sentenceTranslation": "She is a permanent resident of this country."
+    },
+    {
+      "word": "extranjero",
+      "irregularForms": null,
+      "sentence": "Hay muchos extranjeros viviendo en esta ciudad.",
+      "wordTranslation": "foreigner",
+      "sentenceTranslation": "There are many foreigners living in this city."
+    },
+    {
+      "word": "turista",
+      "irregularForms": null,
+      "sentence": "Los turistas visitaron los lugares históricos.",
+      "wordTranslation": "tourist",
+      "sentenceTranslation": "The tourists visited the historical sites."
+    },
+    {
+      "word": "visitante",
+      "irregularForms": null,
+      "sentence": "Recibimos muchos visitantes durante el verano.",
+      "wordTranslation": "visitor",
+      "sentenceTranslation": "We received many visitors during the summer."
+    },
+    {
+      "word": "viajero",
+      "irregularForms": null,
+      "sentence": "El viajero exploró cada rincón del mundo.",
+      "wordTranslation": "traveler",
+      "sentenceTranslation": "The traveler explored every corner of the world."
+    },
+    {
+      "word": "excursionista",
+      "irregularForms": null,
+      "sentence": "Los excursionistas se prepararon para subir la montaña.",
+      "wordTranslation": "hiker",
+      "sentenceTranslation": "The hikers prepared to climb the mountain."
+    },
+    {
+      "word": "aventurero",
+      "irregularForms": null,
+      "sentence": "Él siempre fue un espíritu aventurero.",
+      "wordTranslation": "adventurer",
+      "sentenceTranslation": "He always had an adventurous spirit."
+    },
+    {
+      "word": "explorador",
+      "irregularForms": null,
+      "sentence": "El explorador descubrió una nueva especie de planta.",
+      "wordTranslation": "explorer",
+      "sentenceTranslation": "The explorer discovered a new plant species."
+    },
+    {
+      "word": "investigador",
+      "irregularForms": null,
+      "sentence": "El investigador publicó sus hallazgos científicos.",
+      "wordTranslation": "researcher",
+      "sentenceTranslation": "The researcher published his scientific findings."
+    },
+    {
+      "word": "científico",
+      "irregularForms": null,
+      "sentence": "Marie Curie fue una científica muy influyente.",
+      "wordTranslation": "scientist",
+      "sentenceTranslation": "Marie Curie was a very influential scientist."
+    },
+    {
+      "word": "ingeniero",
+      "irregularForms": null,
+      "sentence": "Mi tío es ingeniero y trabaja en construcciones.",
+      "wordTranslation": "engineer",
+      "sentenceTranslation": "My uncle is an engineer and works in construction."
+    },
+    {
+      "word": "arquitecto",
+      "irregularForms": null,
+      "sentence": "El arquitecto diseñó un edificio moderno.",
+      "wordTranslation": "architect",
+      "sentenceTranslation": "The architect designed a modern building."
+    },
+    {
+      "word": "diseñador",
+      "irregularForms": null,
+      "sentence": "Ella es una diseñadora de moda muy reconocida.",
+      "wordTranslation": "designer",
+      "sentenceTranslation": "She is a very renowned fashion designer."
+    },
+    {
+      "word": "artista",
+      "irregularForms": null,
+      "sentence": "El artista pintó un hermoso paisaje.",
+      "wordTranslation": "artist",
+      "sentenceTranslation": "The artist painted a beautiful landscape."
+    },
+    {
+      "word": "escritor",
+      "irregularForms": null,
+      "sentence": "El escritor publicó su nueva novela.",
+      "wordTranslation": "writer",
+      "sentenceTranslation": "The writer published his new novel."
+    },
+    {
+      "word": "cantante",
+      "irregularForms": null,
+      "sentence": "La cantante tiene una voz increíble.",
+      "wordTranslation": "singer",
+      "sentenceTranslation": "The singer has an amazing voice."
+    },
+    {
+      "word": "actor",
+      "irregularForms": null,
+      "sentence": "El actor ganó un premio por su actuación.",
+      "wordTranslation": "actor",
+      "sentenceTranslation": "The actor won an award for his performance."
+    },
+    {
+      "word": "actriz",
+      "irregularForms": null,
+      "sentence": "La actriz es famosa por sus películas de acción.",
+      "wordTranslation": "actress",
+      "sentenceTranslation": "The actress is famous for her action movies."
+    },
+    {
+      "word": "músico",
+      "irregularForms": null,
+      "sentence": "El músico toca la guitarra en una banda.",
+      "wordTranslation": "musician",
+      "sentenceTranslation": "The musician plays the guitar in a band."
+    },
+    {
+      "word": "bailarín",
+      "irregularForms": null,
+      "sentence": "El bailarín interpretó una pieza clásica.",
+      "wordTranslation": "dancer",
+      "sentenceTranslation": "The dancer performed a classical piece."
+    },
+    {
+      "word": "deportista",
+      "irregularForms": null,
+      "sentence": "Ella es una deportista de alto rendimiento.",
+      "wordTranslation": "athlete / sportsperson",
+      "sentenceTranslation": "She is a high-performance athlete."
+    },
+    {
+      "word": "atleta",
+      "irregularForms": null,
+      "sentence": "El atleta corrió muy rápido en la carrera.",
+      "wordTranslation": "athlete",
+      "sentenceTranslation": "The athlete ran very fast in the race."
+    },
+    {
+      "word": "entrenador",
+      "irregularForms": null,
+      "sentence": "El entrenador preparó un nuevo plan de ejercicios.",
+      "wordTranslation": "coach / trainer",
+      "sentenceTranslation": "The coach prepared a new exercise plan."
+    },
+    {
+      "word": "jugador",
+      "irregularForms": null,
+      "sentence": "El jugador marcó un gol increíble.",
+      "wordTranslation": "player",
+      "sentenceTranslation": "The player scored an amazing goal."
+    },
+    {
+      "word": "árbitro",
+      "irregularForms": null,
+      "sentence": "El árbitro pitó el final del partido.",
+      "wordTranslation": "referee",
+      "sentenceTranslation": "The referee blew the whistle for the end of the match."
+    },
+    {
+      "word": "rival",
+      "irregularForms": null,
+      "sentence": "Mi rival en el ajedrez es muy bueno.",
+      "wordTranslation": "rival",
+      "sentenceTranslation": "My chess rival is very good."
+    },
+    {
+      "word": "ganador",
+      "irregularForms": null,
+      "sentence": "El ganador de la lotería celebró con su familia.",
+      "wordTranslation": "winner",
+      "sentenceTranslation": "The lottery winner celebrated with his family."
+    },
+    {
+      "word": "perdedor",
+      "irregularForms": null,
+      "sentence": "El perdedor aceptó la derrota con dignidad.",
+      "wordTranslation": "loser",
+      "sentenceTranslation": "The loser accepted defeat with dignity."
+    },
+    {
+      "word": "campeón",
+      "irregularForms": null,
+      "sentence": "Él es el campeón de boxeo de este año.",
+      "wordTranslation": "champion",
+      "sentenceTranslation": "He is this year's boxing champion."
+    },
+    {
+      "word": "medalla",
+      "irregularForms": null,
+      "sentence": "Ganó una medalla de oro en los Juegos Olímpicos.",
+      "wordTranslation": "medal",
+      "sentenceTranslation": "He won a gold medal in the Olympic Games."
+    },
+    {
+      "word": "trofeo",
+      "irregularForms": null,
+      "sentence": "El equipo levantó el trofeo con alegría.",
+      "wordTranslation": "trophy",
+      "sentenceTranslation": "The team lifted the trophy with joy."
+    },
+    {
+      "word": "récord",
+      "irregularForms": null,
+      "sentence": "Rompió el récord mundial de velocidad.",
+      "wordTranslation": "record",
+      "sentenceTranslation": "He broke the world speed record."
+    },
+    {
+      "word": "carrera",
+      "irregularForms": null,
+      "sentence": "La carrera de caballos fue muy emocionante.",
+      "wordTranslation": "race / career",
+      "sentenceTranslation": "The horse race was very exciting."
+    },
+    {
+      "word": "competencia",
+      "irregularForms": null,
+      "sentence": "La competencia por el puesto era feroz.",
+      "wordTranslation": "competition",
+      "sentenceTranslation": "The competition for the position was fierce."
+    },
+    {
+      "word": "evento",
+      "irregularForms": null,
+      "sentence": "Asistimos a un evento cultural en el centro.",
+      "wordTranslation": "event",
+      "sentenceTranslation": "We attended a cultural event downtown."
+    },
+    {
+      "word": "celebración",
+      "irregularForms": null,
+      "sentence": "La celebración de su cumpleaños fue memorable.",
+      "wordTranslation": "celebration",
+      "sentenceTranslation": "His birthday celebration was memorable."
+    },
+    {
+      "word": "fiesta",
+      "irregularForms": null,
+      "sentence": "Organizamos una gran fiesta de disfraces.",
+      "wordTranslation": "party",
+      "sentenceTranslation": "We organized a big costume party."
+    },
+    {
+      "word": "reunión",
+      "irregularForms": null,
+      "sentence": "Tuvimos una reunión importante con los directores.",
+      "wordTranslation": "meeting / reunion",
+      "sentenceTranslation": "We had an important meeting with the directors."
+    },
+    {
+      "word": "entrevista",
+      "irregularForms": null,
+      "sentence": "La entrevista de trabajo fue muy bien.",
+      "wordTranslation": "interview",
+      "sentenceTranslation": "The job interview went very well."
+    },
+    {
+      "word": "presentación",
+      "irregularForms": null,
+      "sentence": "La presentación del nuevo producto fue un éxito.",
+      "wordTranslation": "presentation",
+      "sentenceTranslation": "The new product's presentation was a success."
+    },
+    {
+      "word": "conferencia",
+      "irregularForms": null,
+      "sentence": "Asistí a una conferencia sobre inteligencia artificial.",
+      "wordTranslation": "conference",
+      "sentenceTranslation": "I attended a conference on artificial intelligence."
+    },
+    {
+      "word": "discurso",
+      "irregularForms": null,
+      "sentence": "El presidente dio un discurso inspirador.",
+      "wordTranslation": "speech",
+      "sentenceTranslation": "The president gave an inspiring speech."
+    },
+    {
+      "word": "debate",
+      "irregularForms": null,
+      "sentence": "Hubo un debate acalorado sobre el tema.",
+      "wordTranslation": "debate",
+      "sentenceTranslation": "There was a heated debate about the topic."
+    },
+    {
+      "word": "argumento",
+      "irregularForms": null,
+      "sentence": "Su argumento era muy convincente.",
+      "wordTranslation": "argument",
+      "sentenceTranslation": "His argument was very convincing."
+    },
+    {
+      "word": "diálogo",
+      "irregularForms": null,
+      "sentence": "El diálogo entre los personajes fue muy natural.",
+      "wordTranslation": "dialogue",
+      "sentenceTranslation": "The dialogue between the characters was very natural."
+    },
+    {
+      "word": "conversación",
+      "irregularForms": null,
+      "sentence": "Disfruté de una conversación agradable con ella.",
+      "wordTranslation": "conversation",
+      "sentenceTranslation": "I enjoyed a pleasant conversation with her."
+    }
+  ]
+}

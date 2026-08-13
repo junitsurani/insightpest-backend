@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 7",
+  "description": "This is part of a larger set of common Spanish words.",
+  "cards": [
+    {
+      "word": "gozar",
+      "irregularForms": "gozo, gozas, goza, gozamos, gozáis, gozan (presente); gozado (participio); gozando (gerundio)",
+      "sentence": "Me gusta gozar de la vida cada día.",
+      "wordTranslation": "to enjoy",
+      "sentenceTranslation": "I like to enjoy life every day."
+    },
+    {
+      "word": "oficina",
+      "irregularForms": null,
+      "sentence": "La oficina está cerrada por vacaciones.",
+      "wordTranslation": "office",
+      "sentenceTranslation": "The office is closed for holidays."
+    },
+    {
+      "word": "pueblo",
+      "irregularForms": null,
+      "sentence": "Mi pueblo es pequeño y tranquilo.",
+      "wordTranslation": "town, village",
+      "sentenceTranslation": "My town is small and quiet."
+    },
+    {
+      "word": "carretera",
+      "irregularForms": null,
+      "sentence": "Condujimos por una carretera larga y recta.",
+      "wordTranslation": "road, highway",
+      "sentenceTranslation": "We drove down a long, straight road."
+    },
+    {
+      "word": "lluvia",
+      "irregularForms": null,
+      "sentence": "La lluvia no nos detuvo.",
+      "wordTranslation": "rain",
+      "sentenceTranslation": "The rain didn't stop us."
+    },
+    {
+      "word": "nube",
+      "irregularForms": null,
+      "sentence": "Una nube gris cubrió el sol.",
+      "wordTranslation": "cloud",
+      "sentenceTranslation": "A gray cloud covered the sun."
+    },
+    {
+      "word": "nieve",
+      "irregularForms": null,
+      "sentence": "En invierno, aquí cae mucha nieve.",
+      "wordTranslation": "snow",
+      "sentenceTranslation": "In winter, a lot of snow falls here."
+    },
+    {
+      "word": "playa",
+      "irregularForms": null,
+      "sentence": "Fuimos a la playa para nadar.",
+      "wordTranslation": "beach",
+      "sentenceTranslation": "We went to the beach to swim."
+    },
+    {
+      "word": "bosque",
+      "irregularForms": null,
+      "sentence": "Exploramos el bosque durante horas.",
+      "wordTranslation": "forest",
+      "sentenceTranslation": "We explored the forest for hours."
+    },
+    {
+      "word": "lago",
+      "irregularForms": null,
+      "sentence": "El lago es perfecto para la pesca.",
+      "wordTranslation": "lake",
+      "sentenceTranslation": "The lake is perfect for fishing."
+    },
+    {
+      "word": "océano",
+      "irregularForms": null,
+      "sentence": "El vasto océano se extendía ante nosotros.",
+      "wordTranslation": "ocean",
+      "sentenceTranslation": "The vast ocean stretched before us."
+    },
+    {
+      "word": "isla",
+      "irregularForms": null,
+      "sentence": "Soñamos con visitar una isla tropical.",
+      "wordTranslation": "island",
+      "sentenceTranslation": "We dream of visiting a tropical island."
+    },
+    {
+      "word": "desierto",
+      "irregularForms": null,
+      "sentence": "Atravesaron el desierto bajo el sol ardiente.",
+      "wordTranslation": "desert",
+      "sentenceTranslation": "They crossed the desert under the burning sun."
+    },
+    {
+      "word": "piedra",
+      "irregularForms": null,
+      "sentence": "Encontró una piedra brillante en el camino.",
+      "wordTranslation": "stone",
+      "sentenceTranslation": "He found a shiny stone on the path."
+    },
+    {
+      "word": "metal",
+      "irregularForms": null,
+      "sentence": "La estatua está hecha de metal antiguo.",
+      "wordTranslation": "metal",
+      "sentenceTranslation": "The statue is made of old metal."
+    },
+    {
+      "word": "madera",
+      "irregularForms": null,
+      "sentence": "La mesa es de madera maciza.",
+      "wordTranslation": "wood",
+      "sentenceTranslation": "The table is made of solid wood."
+    },
+    {
+      "word": "cristal",
+      "irregularForms": null,
+      "sentence": "Cuidado, el vaso es de cristal fino.",
+      "wordTranslation": "glass",
+      "sentenceTranslation": "Be careful, the glass is fine crystal."
+    },
+    {
+      "word": "plástico",
+      "irregularForms": null,
+      "sentence": "Evitemos usar tanto plástico.",
+      "wordTranslation": "plastic",
+      "sentenceTranslation": "Let's avoid using so much plastic."
+    },
+    {
+      "word": "tinta",
+      "irregularForms": null,
+      "sentence": "Se me acabó la tinta de la impresora.",
+      "wordTranslation": "ink",
+      "sentenceTranslation": "I ran out of ink in the printer."
+    },
+    {
+      "word": "lápiz",
+      "irregularForms": null,
+      "sentence": "Necesito un lápiz para escribir.",
+      "wordTranslation": "pencil",
+      "sentenceTranslation": "I need a pencil to write."
+    },
+    {
+      "word": "bolígrafo",
+      "irregularForms": null,
+      "sentence": "Prefiero usar un bolígrafo azul.",
+      "wordTranslation": "pen (ballpoint)",
+      "sentenceTranslation": "I prefer to use a blue pen."
+    },
+    {
+      "word": "cuaderno",
+      "irregularForms": null,
+      "sentence": "Anoto mis ideas en un cuaderno.",
+      "wordTranslation": "notebook",
+      "sentenceTranslation": "I write down my ideas in a notebook."
+    },
+    {
+      "word": "pizarra",
+      "irregularForms": null,
+      "sentence": "El profesor escribió en la pizarra.",
+      "wordTranslation": "whiteboard/chalkboard",
+      "sentenceTranslation": "The teacher wrote on the board."
+    },
+    {
+      "word": "mochila",
+      "irregularForms": null,
+      "sentence": "Llevaba todos sus libros en la mochila.",
+      "wordTranslation": "backpack",
+      "sentenceTranslation": "He carried all his books in his backpack."
+    },
+    {
+      "word": "reloj",
+      "irregularForms": null,
+      "sentence": "Mira la hora en mi reloj.",
+      "wordTranslation": "watch/clock",
+      "sentenceTranslation": "Look at the time on my watch."
+    },
+    {
+      "word": "espejo",
+      "irregularForms": null,
+      "sentence": "Se miró en el espejo antes de salir.",
+      "wordTranslation": "mirror",
+      "sentenceTranslation": "She looked at herself in the mirror before leaving."
+    },
+    {
+      "word": "pared",
+      "irregularForms": null,
+      "sentence": "Pintamos la pared de color blanco.",
+      "wordTranslation": "wall",
+      "sentenceTranslation": "We painted the wall white."
+    },
+    {
+      "word": "techo",
+      "irregularForms": null,
+      "sentence": "El techo de la casa es muy alto.",
+      "wordTranslation": "ceiling/roof",
+      "sentenceTranslation": "The house's ceiling is very high."
+    },
+    {
+      "word": "suelo",
+      "irregularForms": null,
+      "sentence": "El suelo estaba mojado por la lluvia.",
+      "wordTranslation": "floor/ground",
+      "sentenceTranslation": "The floor was wet from the rain."
+    },
+    {
+      "word": "jardín",
+      "irregularForms": null,
+      "sentence": "Pasamos la tarde en el jardín.",
+      "wordTranslation": "garden",
+      "sentenceTranslation": "We spent the afternoon in the garden."
+    },
+    {
+      "word": "dormitorio",
+      "irregularForms": null,
+      "sentence": "Mi dormitorio tiene una cama grande.",
+      "wordTranslation": "bedroom",
+      "sentenceTranslation": "My bedroom has a big bed."
+    },
+    {
+      "word": "sala",
+      "irregularForms": null,
+      "sentence": "Nos reunimos en la sala de estar.",
+      "wordTranslation": "living room",
+      "sentenceTranslation": "We met in the living room."
+    },
+    {
+      "word": "mueble",
+      "irregularForms": null,
+      "sentence": "Compramos un mueble nuevo para el salón.",
+      "wordTranslation": "piece of furniture",
+      "sentenceTranslation": "We bought a new piece of furniture for the living room."
+    },
+    {
+      "word": "vaso",
+      "irregularForms": null,
+      "sentence": "Por favor, dame un vaso de agua.",
+      "wordTranslation": "glass (for drinking)",
+      "sentenceTranslation": "Please, give me a glass of water."
+    },
+    {
+      "word": "plato",
+      "irregularForms": null,
+      "sentence": "Sirvió la comida en un plato hondo.",
+      "wordTranslation": "plate",
+      "sentenceTranslation": "He served the food on a deep plate."
+    },
+    {
+      "word": "cuchillo",
+      "irregularForms": null,
+      "sentence": "Cortó el pan con un cuchillo afilado.",
+      "wordTranslation": "knife",
+      "sentenceTranslation": "He cut the bread with a sharp knife."
+    },
+    {
+      "word": "tenedor",
+      "irregularForms": null,
+      "sentence": "Comió la ensalada con un tenedor.",
+      "wordTranslation": "fork",
+      "sentenceTranslation": "She ate the salad with a fork."
+    },
+    {
+      "word": "cuchara",
+      "irregularForms": null,
+      "sentence": "Necesito una cuchara para la sopa.",
+      "wordTranslation": "spoon",
+      "sentenceTranslation": "I need a spoon for the soup."
+    },
+    {
+      "word": "cena",
+      "irregularForms": null,
+      "sentence": "Prepararé la cena para las ocho.",
+      "wordTranslation": "dinner",
+      "sentenceTranslation": "I will prepare dinner for eight o'clock."
+    },
+    {
+      "word": "desayuno",
+      "irregularForms": null,
+      "sentence": "El desayuno es la comida más importante.",
+      "wordTranslation": "breakfast",
+      "sentenceTranslation": "Breakfast is the most important meal."
+    },
+    {
+      "word": "almuerzo",
+      "irregularForms": null,
+      "sentence": "Nos vemos para el almuerzo al mediodía.",
+      "wordTranslation": "lunch",
+      "sentenceTranslation": "See you for lunch at noon."
+    },
+    {
+      "word": "hambre",
+      "irregularForms": null,
+      "sentence": "Tengo mucha hambre, ¿qué hay para comer?",
+      "wordTranslation": "hunger",
+      "sentenceTranslation": "I'm very hungry, what's there to eat?"
+    },
+    {
+      "word": "sed",
+      "irregularForms": null,
+      "sentence": "Después de correr, tenía mucha sed.",
+      "wordTranslation": "thirst",
+      "sentenceTranslation": "After running, I was very thirsty."
+    },
+    {
+      "word": "cansado",
+      "irregularForms": null,
+      "sentence": "Estoy cansado después de un largo día.",
+      "wordTranslation": "tired",
+      "sentenceTranslation": "I am tired after a long day."
+    },
+    {
+      "word": "calor",
+      "irregularForms": null,
+      "sentence": "Hace mucho calor en verano.",
+      "wordTranslation": "heat",
+      "sentenceTranslation": "It's very hot in summer."
+    },
+    {
+      "word": "ropa",
+      "irregularForms": null,
+      "sentence": "Necesito comprar ropa nueva.",
+      "wordTranslation": "clothes",
+      "sentenceTranslation": "I need to buy new clothes."
+    },
+    {
+      "word": "zapato",
+      "irregularForms": null,
+      "sentence": "Este zapato me aprieta.",
+      "wordTranslation": "shoe",
+      "sentenceTranslation": "This shoe is tight on me."
+    },
+    {
+      "word": "sombrero",
+      "irregularForms": null,
+      "sentence": "Llevaba un sombrero de paja.",
+      "wordTranslation": "hat",
+      "sentenceTranslation": "He was wearing a straw hat."
+    },
+    {
+      "word": "bolsillo",
+      "irregularForms": null,
+      "sentence": "Busqué las llaves en mi bolsillo.",
+      "wordTranslation": "pocket",
+      "sentenceTranslation": "I looked for the keys in my pocket."
+    },
+    {
+      "word": "mascota",
+      "irregularForms": null,
+      "sentence": "Mi gato es mi mascota favorita.",
+      "wordTranslation": "pet",
+      "sentenceTranslation": "My cat is my favorite pet."
+    },
+    {
+      "word": "caballo",
+      "irregularForms": null,
+      "sentence": "Montó el caballo por la pradera.",
+      "wordTranslation": "horse",
+      "sentenceTranslation": "He rode the horse through the meadow."
+    },
+    {
+      "word": "vaca",
+      "irregularForms": null,
+      "sentence": "La vaca da leche fresca.",
+      "wordTranslation": "cow",
+      "sentenceTranslation": "The cow gives fresh milk."
+    },
+    {
+      "word": "cerdo",
+      "irregularForms": null,
+      "sentence": "El cerdo es un animal de granja.",
+      "wordTranslation": "pig",
+      "sentenceTranslation": "The pig is a farm animal."
+    },
+    {
+      "word": "pez",
+      "irregularForms": null,
+      "sentence": "Pescó un gran pez en el río.",
+      "wordTranslation": "fish",
+      "sentenceTranslation": "He caught a big fish in the river."
+    },
+    {
+      "word": "insecto",
+      "irregularForms": null,
+      "sentence": "Había un insecto raro en la ventana.",
+      "wordTranslation": "insect",
+      "sentenceTranslation": "There was a strange insect on the window."
+    },
+    {
+      "word": "planta",
+      "irregularForms": null,
+      "sentence": "Regué la planta todas las mañanas.",
+      "wordTranslation": "plant",
+      "sentenceTranslation": "I watered the plant every morning."
+    },
+    {
+      "word": "semilla",
+      "irregularForms": null,
+      "sentence": "Cada semilla puede convertirse en un árbol.",
+      "wordTranslation": "seed",
+      "sentenceTranslation": "Every seed can become a tree."
+    },
+    {
+      "word": "velocidad",
+      "irregularForms": null,
+      "sentence": "La velocidad del coche era impresionante.",
+      "wordTranslation": "speed",
+      "sentenceTranslation": "The car's speed was impressive."
+    },
+    {
+      "word": "peligro",
+      "irregularForms": null,
+      "sentence": "Están en peligro si no actúan rápido.",
+      "wordTranslation": "danger",
+      "sentenceTranslation": "They are in danger if they don't act fast."
+    },
+    {
+      "word": "justicia",
+      "irregularForms": null,
+      "sentence": "Todos buscan la justicia.",
+      "wordTranslation": "justice",
+      "sentenceTranslation": "Everyone seeks justice."
+    },
+    {
+      "word": "ley",
+      "irregularForms": null,
+      "sentence": "La nueva ley entrará en vigor pronto.",
+      "wordTranslation": "law",
+      "sentenceTranslation": "The new law will come into effect soon."
+    },
+    {
+      "word": "crimen",
+      "irregularForms": null,
+      "sentence": "La policía investiga el crimen.",
+      "wordTranslation": "crime",
+      "sentenceTranslation": "The police are investigating the crime."
+    },
+    {
+      "word": "castigo",
+      "irregularForms": null,
+      "sentence": "El castigo fue muy severo.",
+      "wordTranslation": "punishment",
+      "sentenceTranslation": "The punishment was very severe."
+    },
+    {
+      "word": "libertad",
+      "irregularForms": null,
+      "sentence": "Valoran la libertad por encima de todo.",
+      "wordTranslation": "freedom",
+      "sentenceTranslation": "They value freedom above all else."
+    },
+    {
+      "word": "esclavo",
+      "irregularForms": null,
+      "sentence": "En la historia, muchas personas fueron esclavas.",
+      "wordTranslation": "slave",
+      "sentenceTranslation": "In history, many people were slaves."
+    },
+    {
+      "word": "rey",
+      "irregularForms": null,
+      "sentence": "El rey gobernó con sabiduría.",
+      "wordTranslation": "king",
+      "sentenceTranslation": "The king ruled wisely."
+    },
+    {
+      "word": "reina",
+      "irregularForms": null,
+      "sentence": "La reina asistirá al evento.",
+      "wordTranslation": "queen",
+      "sentenceTranslation": "The queen will attend the event."
+    },
+    {
+      "word": "príncipe",
+      "irregularForms": null,
+      "sentence": "El príncipe visitó el pueblo.",
+      "wordTranslation": "prince",
+      "sentenceTranslation": "The prince visited the town."
+    },
+    {
+      "word": "princesa",
+      "irregularForms": null,
+      "sentence": "La princesa era conocida por su bondad.",
+      "wordTranslation": "princess",
+      "sentenceTranslation": "The princess was known for her kindness."
+    },
+    {
+      "word": "guerrero",
+      "irregularForms": null,
+      "sentence": "El guerrero luchó valientemente.",
+      "wordTranslation": "warrior",
+      "sentenceTranslation": "The warrior fought bravely."
+    },
+    {
+      "word": "soldado",
+      "irregularForms": null,
+      "sentence": "El soldado defendió su patria.",
+      "wordTranslation": "soldier",
+      "sentenceTranslation": "The soldier defended his homeland."
+    },
+    {
+      "word": "arma",
+      "irregularForms": null,
+      "sentence": "No le gustaba usar ningún tipo de arma.",
+      "wordTranslation": "weapon",
+      "sentenceTranslation": "He didn't like to use any kind of weapon."
+    },
+    {
+      "word": "batalla",
+      "irregularForms": null,
+      "sentence": "Ganaron la batalla decisiva.",
+      "wordTranslation": "battle",
+      "sentenceTranslation": "They won the decisive battle."
+    },
+    {
+      "word": "amistad",
+      "irregularForms": null,
+      "sentence": "Nuestra amistad es muy importante para mí.",
+      "wordTranslation": "friendship",
+      "sentenceTranslation": "Our friendship is very important to me."
+    },
+    {
+      "word": "felicidad",
+      "irregularForms": null,
+      "sentence": "Busca la felicidad en las pequeñas cosas.",
+      "wordTranslation": "happiness",
+      "sentenceTranslation": "She seeks happiness in the small things."
+    },
+    {
+      "word": "enojo",
+      "irregularForms": null,
+      "sentence": "Su enojo era evidente en su rostro.",
+      "wordTranslation": "anger",
+      "sentenceTranslation": "His anger was evident on his face."
+    },
+    {
+      "word": "sorpresa",
+      "irregularForms": null,
+      "sentence": "Me llevé una gran sorpresa al verlo.",
+      "wordTranslation": "surprise",
+      "sentenceTranslation": "I got a big surprise when I saw him."
+    },
+    {
+      "word": "vergüenza",
+      "irregularForms": null,
+      "sentence": "Sentí vergüenza por mi error.",
+      "wordTranslation": "shame",
+      "sentenceTranslation": "I felt shame for my mistake."
+    },
+    {
+      "word": "dolor",
+      "irregularForms": null,
+      "sentence": "Tuvo un fuerte dolor de cabeza.",
+      "wordTranslation": "pain",
+      "sentenceTranslation": "He had a severe headache."
+    },
+    {
+      "word": "enfermedad",
+      "irregularForms": null,
+      "sentence": "Se recuperó de una enfermedad grave.",
+      "wordTranslation": "illness",
+      "sentenceTranslation": "She recovered from a serious illness."
+    },
+    {
+      "word": "doctor",
+      "irregularForms": null,
+      "sentence": "El doctor le recetó un medicamento.",
+      "wordTranslation": "doctor",
+      "sentenceTranslation": "The doctor prescribed him a medication."
+    },
+    {
+      "word": "hospital",
+      "irregularForms": null,
+      "sentence": "Lo llevaron al hospital de urgencia.",
+      "wordTranslation": "hospital",
+      "sentenceTranslation": "They took him to the emergency hospital."
+    },
+    {
+      "word": "medicina",
+      "irregularForms": null,
+      "sentence": "Estudia medicina en la universidad.",
+      "wordTranslation": "medicine",
+      "sentenceTranslation": "She studies medicine at the university."
+    },
+    {
+      "word": "cirugía",
+      "irregularForms": null,
+      "sentence": "Necesitaba una cirugía en la rodilla.",
+      "wordTranslation": "surgery",
+      "sentenceTranslation": "He needed knee surgery."
+    },
+    {
+      "word": "pie",
+      "irregularForms": null,
+      "sentence": "Me duele el pie derecho.",
+      "wordTranslation": "foot",
+      "sentenceTranslation": "My right foot hurts."
+    },
+    {
+      "word": "brazo",
+      "irregularForms": null,
+      "sentence": "Levantó el brazo para saludar.",
+      "wordTranslation": "arm",
+      "sentenceTranslation": "He raised his arm to wave."
+    },
+    {
+      "word": "pierna",
+      "irregularForms": null,
+      "sentence": "Se rompió la pierna jugando al fútbol.",
+      "wordTranslation": "leg",
+      "sentenceTranslation": "He broke his leg playing soccer."
+    },
+    {
+      "word": "nariz",
+      "irregularForms": null,
+      "sentence": "Su nariz estaba roja por el frío.",
+      "wordTranslation": "nose",
+      "sentenceTranslation": "His nose was red from the cold."
+    },
+    {
+      "word": "oído",
+      "irregularForms": null,
+      "sentence": "Escuchó un ruido extraño en su oído.",
+      "wordTranslation": "ear (inner ear/sense of hearing)",
+      "sentenceTranslation": "He heard a strange noise in his ear."
+    },
+    {
+      "word": "diente",
+      "irregularForms": null,
+      "sentence": "Le dolía un diente.",
+      "wordTranslation": "tooth",
+      "sentenceTranslation": "He had a toothache."
+    },
+    {
+      "word": "cabello",
+      "irregularForms": null,
+      "sentence": "Tenía el cabello largo y rubio.",
+      "wordTranslation": "hair (on head)",
+      "sentenceTranslation": "She had long, blond hair."
+    },
+    {
+      "word": "cerebro",
+      "irregularForms": null,
+      "sentence": "El cerebro controla todas las funciones del cuerpo.",
+      "wordTranslation": "brain",
+      "sentenceTranslation": "The brain controls all body functions."
+    },
+    {
+      "word": "estómago",
+      "irregularForms": null,
+      "sentence": "Tenía el estómago vacío.",
+      "wordTranslation": "stomach",
+      "sentenceTranslation": "His stomach was empty."
+    },
+    {
+      "word": "sangre",
+      "irregularForms": null,
+      "sentence": "Donar sangre puede salvar vidas.",
+      "wordTranslation": "blood",
+      "sentenceTranslation": "Donating blood can save lives."
+    },
+    {
+      "word": "hueso",
+      "irregularForms": null,
+      "sentence": "El perro estaba mordiendo un hueso.",
+      "wordTranslation": "bone",
+      "sentenceTranslation": "The dog was chewing on a bone."
+    },
+    {
+      "word": "tamaño",
+      "irregularForms": null,
+      "sentence": "El tamaño de la caja es perfecto.",
+      "wordTranslation": "size",
+      "sentenceTranslation": "The size of the box is perfect."
+    },
+    {
+      "word": "peso",
+      "irregularForms": null,
+      "sentence": "El levantador de pesas levantó un gran peso.",
+      "wordTranslation": "weight",
+      "sentenceTranslation": "The weightlifter lifted a great weight."
+    },
+    {
+      "word": "altura",
+      "irregularForms": null,
+      "sentence": "La altura de la montaña era impresionante.",
+      "wordTranslation": "height",
+      "sentenceTranslation": "The mountain's height was impressive."
+    },
+    {
+      "word": "sabor",
+      "irregularForms": null,
+      "sentence": "El pastel tenía un sabor delicioso.",
+      "wordTranslation": "taste",
+      "sentenceTranslation": "The cake had a delicious taste."
+    },
+    {
+      "word": "olor",
+      "irregularForms": null,
+      "sentence": "El olor a pan recién horneado era maravilloso.",
+      "wordTranslation": "smell",
+      "sentenceTranslation": "The smell of freshly baked bread was wonderful."
+    }
+  ]
+}

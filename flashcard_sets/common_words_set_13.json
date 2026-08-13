@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 13",
+  "description": "This set contains a collection of common and frequently used Spanish words, serving as a part of a larger series aimed at expanding vocabulary.",
+  "cards": [
+    {
+      "word": "pluma",
+      "irregularForms": "null",
+      "sentence": "Escribo con una pluma muy fina.",
+      "wordTranslation": "pen / feather",
+      "sentenceTranslation": "I write with a very fine pen."
+    },
+    {
+      "word": "saborear",
+      "irregularForms": "Regular -ar verb: saboreo, saboreas, saborea, saboreamos, saboreáis, saborean",
+      "sentence": "Me gusta saborear cada bocado de chocolate.",
+      "wordTranslation": "to taste, to savor",
+      "sentenceTranslation": "I like to savor every bite of chocolate."
+    },
+    {
+      "word": "resultar",
+      "irregularForms": "Regular -ar verb: resulto, resultas, resulta, resultamos, resultáis, resultan",
+      "sentence": "El experimento resultó ser un éxito.",
+      "wordTranslation": "to result, to turn out",
+      "sentenceTranslation": "The experiment turned out to be a success."
+    },
+    {
+      "word": "comparar",
+      "irregularForms": "Regular -ar verb: comparo, comparas, compara, comparamos, comparáis, comparan",
+      "sentence": "Es difícil comparar estos dos productos.",
+      "wordTranslation": "to compare",
+      "sentenceTranslation": "It's difficult to compare these two products."
+    },
+    {
+      "word": "diferenciar",
+      "irregularForms": "Regular -ar verb: diferencio, diferencias, diferencia, diferenciamos, diferenciáis, diferencian",
+      "sentence": "Ella puede diferenciar los sonidos de muchos instrumentos.",
+      "wordTranslation": "to differentiate",
+      "sentenceTranslation": "She can differentiate the sounds of many instruments."
+    },
+    {
+      "word": "seleccionar",
+      "irregularForms": "Regular -ar verb: selecciono, seleccionas, selecciona, seleccionamos, seleccionáis, seleccionan",
+      "sentence": "Necesitas seleccionar la opción correcta.",
+      "wordTranslation": "to select",
+      "sentenceTranslation": "You need to select the correct option."
+    },
+    {
+      "word": "guiar",
+      "irregularForms": "Regular -ar verb: guío, guías, guía, guiamos, guiáis, guían",
+      "sentence": "El guía turístico nos guio por la ciudad.",
+      "wordTranslation": "to guide",
+      "sentenceTranslation": "The tour guide guided us through the city."
+    },
+    {
+      "word": "transformar",
+      "irregularForms": "Regular -ar verb: transformo, transformas, transforma, transformamos, transformáis, transforman",
+      "sentence": "La tecnología puede transformar la sociedad.",
+      "wordTranslation": "to transform",
+      "sentenceTranslation": "Technology can transform society."
+    },
+    {
+      "word": "lograr",
+      "irregularForms": "Regular -ar verb: logro, logras, logra, logramos, lográis, logran",
+      "sentence": "Ella logró su objetivo después de mucho esfuerzo.",
+      "wordTranslation": "to achieve, to accomplish",
+      "sentenceTranslation": "She achieved her goal after much effort."
+    },
+    {
+      "word": "sorprender",
+      "irregularForms": "Regular -er verb: sorprendo, sorprendes, sorprende, sorprendemos, sorprendéis, sorprenden",
+      "sentence": "La noticia me sorprendió mucho.",
+      "wordTranslation": "to surprise",
+      "sentenceTranslation": "The news surprised me a lot."
+    },
+    {
+      "word": "asustar",
+      "irregularForms": "Regular -ar verb: asusto, asustas, asusta, asustamos, asustáis, asustan",
+      "sentence": "No quiero asustar al perro.",
+      "wordTranslation": "to scare",
+      "sentenceTranslation": "I don't want to scare the dog."
+    },
+    {
+      "word": "irritar",
+      "irregularForms": "Regular -ar verb: irrito, irritas, irrita, irritamos, irritáis, irritan",
+      "sentence": "El ruido constante me irrita.",
+      "wordTranslation": "to irritate",
+      "sentenceTranslation": "The constant noise irritates me."
+    },
+    {
+      "word": "enfadar",
+      "irregularForms": "Regular -ar verb: enfado, enfadas, enfada, enfadamos, enfadáis, enfadan",
+      "sentence": "Su actitud suele enfadar a la gente.",
+      "wordTranslation": "to anger",
+      "sentenceTranslation": "His attitude usually angers people."
+    },
+    {
+      "word": "emocionar",
+      "irregularForms": "Regular -ar verb: emociono, emocionas, emociona, emocionamos, emocionáis, emocionan",
+      "sentence": "Me emocionó mucho verla después de tanto tiempo.",
+      "wordTranslation": "to excite, to move (emotionally)",
+      "sentenceTranslation": "It moved me a lot to see her after so long."
+    },
+    {
+      "word": "motivar",
+      "irregularForms": "Regular -ar verb: motivo, motivas, motiva, motivamos, motiváis, motivan",
+      "sentence": "Su discurso motivó a todos los estudiantes.",
+      "wordTranslation": "to motivate",
+      "sentenceTranslation": "His speech motivated all the students."
+    },
+    {
+      "word": "inspirar",
+      "irregularForms": "Regular -ar verb: inspiro, inspiras, inspira, inspiramos, inspiráis, inspiran",
+      "sentence": "Su historia de superación inspira a muchas personas.",
+      "wordTranslation": "to inspire",
+      "sentenceTranslation": "Her story of overcoming inspires many people."
+    },
+    {
+      "word": "regresar",
+      "irregularForms": "Regular -ar verb: regreso, regresas, regresa, regresamos, regresáis, regresan",
+      "sentence": "Necesito regresar a casa antes de la cena.",
+      "wordTranslation": "to return",
+      "sentenceTranslation": "I need to return home before dinner."
+    },
+    {
+      "word": "acercar",
+      "irregularForms": "Regular -ar verb: acerco, acercas, acerca, acercamos, acercáis, acercan",
+      "sentence": "Por favor, acércame la sal.",
+      "wordTranslation": "to bring closer, to approach",
+      "sentenceTranslation": "Please, bring me the salt closer."
+    },
+    {
+      "word": "alejar",
+      "irregularForms": "Regular -ar verb: alejo, alejas, aleja, alejamos, alejáis, alejan",
+      "sentence": "Es mejor alejarte de los problemas.",
+      "wordTranslation": "to move away",
+      "sentenceTranslation": "It's better to move away from problems."
+    },
+    {
+      "word": "levantar",
+      "irregularForms": "Regular -ar verb: levanto, levantas, levanta, levantamos, levantáis, levantan",
+      "sentence": "Por favor, levanta la mano si tienes una pregunta.",
+      "wordTranslation": "to lift, to raise",
+      "sentenceTranslation": "Please, raise your hand if you have a question."
+    },
+    {
+      "word": "ensuciar",
+      "irregularForms": "Regular -ar verb: ensucio, ensucias, ensucia, ensuciamos, ensuciáis, ensucian",
+      "sentence": "No quiero ensuciar mi ropa nueva.",
+      "wordTranslation": "to get dirty, to soil",
+      "sentenceTranslation": "I don't want to get my new clothes dirty."
+    },
+    {
+      "word": "vestir",
+      "irregularForms": "Regular -ir verb: visto, vistes, viste, vestimos, vestís, visten",
+      "sentence": "Ella viste a su hija con ropa colorida.",
+      "wordTranslation": "to dress (someone else)",
+      "sentenceTranslation": "She dresses her daughter in colorful clothes."
+    },
+    {
+      "word": "desvestir",
+      "irregularForms": "Regular -ir verb: desvisto, desvistes, desviste, desvestimos, desvestís, desvisten",
+      "sentence": "Ayúdame a desvestir al bebé.",
+      "wordTranslation": "to undress",
+      "sentenceTranslation": "Help me undress the baby."
+    },
+    {
+      "word": "secar",
+      "irregularForms": "Regular -ar verb: seco, secas, seca, secamos, secáis, secan",
+      "sentence": "Necesito secar mi cabello después de la ducha.",
+      "wordTranslation": "to dry",
+      "sentenceTranslation": "I need to dry my hair after the shower."
+    },
+    {
+      "word": "mezclar",
+      "irregularForms": "Regular -ar verb: mezclo, mezclas, mezcla, mezclamos, mezcláis, mezclan",
+      "sentence": "Hay que mezclar bien los ingredientes.",
+      "wordTranslation": "to mix",
+      "sentenceTranslation": "You have to mix the ingredients well."
+    },
+    {
+      "word": "investigar",
+      "irregularForms": "Regular -ar verb: investigo, investigas, investiga, investigamos, investigáis, investigan",
+      "sentence": "La policía está investigando el caso.",
+      "wordTranslation": "to investigate",
+      "sentenceTranslation": "The police are investigating the case."
+    },
+    {
+      "word": "inventar",
+      "irregularForms": "Regular -ar verb: invento, inventas, inventa, inventamos, inventáis, inventan",
+      "sentence": "Él siempre inventa historias divertidas.",
+      "wordTranslation": "to invent",
+      "sentenceTranslation": "He always invents funny stories."
+    },
+    {
+      "word": "informar",
+      "irregularForms": "Regular -ar verb: informo, informas, informa, informamos, informáis, informan",
+      "sentence": "Te informaré de cualquier cambio.",
+      "wordTranslation": "to inform",
+      "sentenceTranslation": "I will inform you of any changes."
+    },
+    {
+      "word": "anunciar",
+      "irregularForms": "Regular -ar verb: anuncio, anuncias, anuncia, anunciamos, anunciáis, anuncian",
+      "sentence": "La empresa va a anunciar un nuevo producto.",
+      "wordTranslation": "to announce",
+      "sentenceTranslation": "The company is going to announce a new product."
+    },
+    {
+      "word": "avisar",
+      "irregularForms": "Regular -ar verb: aviso, avisas, avisa, avisamos, avisáis, avisan",
+      "sentence": "Avísame cuando llegues a casa.",
+      "wordTranslation": "to warn, to notify",
+      "sentenceTranslation": "Let me know when you get home."
+    },
+    {
+      "word": "respetar",
+      "irregularForms": "Regular -ar verb: respeto, respetas, respeta, respetamos, respetáis, respetan",
+      "sentence": "Debemos respetar las opiniones de los demás.",
+      "wordTranslation": "to respect",
+      "sentenceTranslation": "We must respect the opinions of others."
+    },
+    {
+      "word": "admirar",
+      "irregularForms": "Regular -ar verb: admiro, admiras, admira, admiramos, admiráis, admiran",
+      "sentence": "Admiro su valentía y determinación.",
+      "wordTranslation": "to admire",
+      "sentenceTranslation": "I admire his bravery and determination."
+    },
+    {
+      "word": "felicitar",
+      "irregularForms": "Regular -ar verb: felicito, felicitas, felicita, felicitamos, felicitáis, felicitan",
+      "sentence": "Quiero felicitarte por tu nuevo trabajo.",
+      "wordTranslation": "to congratulate",
+      "sentenceTranslation": "I want to congratulate you on your new job."
+    },
+    {
+      "word": "agradecer",
+      "irregularForms": "Irregular -er verb: agradezco, agradeces, agradece, agradecemos, agradecéis, agradecen",
+      "sentence": "Quiero agradecerte por tu ayuda.",
+      "wordTranslation": "to thank",
+      "sentenceTranslation": "I want to thank you for your help."
+    },
+    {
+      "word": "perdonar",
+      "irregularForms": "Regular -ar verb: perdono, perdonas, perdona, perdonamos, perdonáis, perdonan",
+      "sentence": "Por favor, perdóname por mi error.",
+      "wordTranslation": "to forgive",
+      "sentenceTranslation": "Please, forgive me for my mistake."
+    },
+    {
+      "word": "disculpar",
+      "irregularForms": "Regular -ar verb: disculpo, disculpas, disculpa, disculpamos, disculpáis, disculpan",
+      "sentence": "Debes disculpar su comportamiento.",
+      "wordTranslation": "to apologize, to excuse",
+      "sentenceTranslation": "You should excuse his behavior."
+    },
+    {
+      "word": "repasar",
+      "irregularForms": "Regular -ar verb: repaso, repasas, repasa, repasamos, repasáis, repasan",
+      "sentence": "Necesito repasar mis notas antes del examen.",
+      "wordTranslation": "to review, to go over",
+      "sentenceTranslation": "I need to review my notes before the exam."
+    },
+    {
+      "word": "memorizar",
+      "irregularForms": "Regular -ar verb: memorizo, memorizas, memoriza, memorizamos, memorizáis, memorizan",
+      "sentence": "Es difícil memorizar tantos números.",
+      "wordTranslation": "to memorize",
+      "sentenceTranslation": "It's difficult to memorize so many numbers."
+    },
+    {
+      "word": "definir",
+      "irregularForms": "Regular -ir verb: defino, defines, define, definimos, definís, definen",
+      "sentence": "Por favor, define esta palabra.",
+      "wordTranslation": "to define",
+      "sentenceTranslation": "Please, define this word."
+    },
+    {
+      "word": "contrastar",
+      "irregularForms": "Regular -ar verb: contrasto, contrastas, contrasta, contrastamos, contrastáis, contrastan",
+      "sentence": "La luz del sol contrasta con la sombra.",
+      "wordTranslation": "to contrast",
+      "sentenceTranslation": "The sunlight contrasts with the shadow."
+    },
+    {
+      "word": "analizar",
+      "irregularForms": "Regular -ar verb: analizo, analizas, analiza, analizamos, analizáis, analizan",
+      "sentence": "Necesitamos analizar los datos cuidadosamente.",
+      "wordTranslation": "to analyze",
+      "sentenceTranslation": "We need to analyze the data carefully."
+    },
+    {
+      "word": "progresar",
+      "irregularForms": "Regular -ar verb: progreso, progresas, progresa, progresamos, progresáis, progresan",
+      "sentence": "Espero progresar rápidamente en mi carrera.",
+      "wordTranslation": "to progress",
+      "sentenceTranslation": "I hope to progress quickly in my career."
+    },
+    {
+      "word": "evolucionar",
+      "irregularForms": "Regular -ar verb: evoluciono, evolucionas, evoluciona, evolucionamos, evolucionáis, evolucionan",
+      "sentence": "Las especies evolucionan con el tiempo.",
+      "wordTranslation": "to evolve",
+      "sentenceTranslation": "Species evolve over time."
+    },
+    {
+      "word": "ajustar",
+      "irregularForms": "Regular -ar verb: ajusto, ajustas, ajusta, ajustamos, ajustáis, ajustan",
+      "sentence": "Necesito ajustar el tamaño de la imagen.",
+      "wordTranslation": "to adjust",
+      "sentenceTranslation": "I need to adjust the image size."
+    },
+    {
+      "word": "adaptar",
+      "irregularForms": "Regular -ar verb: adapto, adaptas, adapta, adaptamos, adaptáis, adaptan",
+      "sentence": "Es importante adaptarse a los cambios.",
+      "wordTranslation": "to adapt",
+      "sentenceTranslation": "It's important to adapt to changes."
+    },
+    {
+      "word": "innovar",
+      "irregularForms": "Regular -ar verb: innovo, innovas, innova, innovamos, innováis, innovan",
+      "sentence": "La empresa busca innovar en sus productos.",
+      "wordTranslation": "to innovate",
+      "sentenceTranslation": "The company seeks to innovate in its products."
+    },
+    {
+      "word": "fabricar",
+      "irregularForms": "Regular -ar verb: fabrico, fabricas, fabrica, fabricamos, fabricáis, fabrican",
+      "sentence": "Esta fábrica fabrica coches de lujo.",
+      "wordTranslation": "to manufacture, to make",
+      "sentenceTranslation": "This factory manufactures luxury cars."
+    },
+    {
+      "word": "montar",
+      "irregularForms": "Regular -ar verb: monto, montas, monta, montamos, montáis, montan",
+      "sentence": "Vamos a montar un caballo hoy.",
+      "wordTranslation": "to ride, to assemble",
+      "sentenceTranslation": "We are going to ride a horse today."
+    },
+    {
+      "word": "ensamblar",
+      "irregularForms": "Regular -ar verb: ensamblo, ensamblas, ensambla, ensamblamos, ensambláis, ensamblan",
+      "sentence": "Necesito ensamblar los muebles nuevos.",
+      "wordTranslation": "to assemble",
+      "sentenceTranslation": "I need to assemble the new furniture."
+    },
+    {
+      "word": "desconectar",
+      "irregularForms": "Regular -ar verb: desconecto, desconectas, desconecta, desconectamos, desconectáis, desconectan",
+      "sentence": "Por favor, desconecta el televisor antes de salir.",
+      "wordTranslation": "to disconnect",
+      "sentenceTranslation": "Please, disconnect the television before leaving."
+    },
+    {
+      "word": "guardar",
+      "irregularForms": "Regular -ar verb: guardo, guardas, guarda, guardamos, guardáis, guardan",
+      "sentence": "Voy a guardar este recuerdo para siempre.",
+      "wordTranslation": "to save, to keep",
+      "sentenceTranslation": "I'm going to keep this memory forever."
+    },
+    {
+      "word": "borrar",
+      "irregularForms": "Regular -ar verb: borro, borras, borra, borramos, borráis, borran",
+      "sentence": "Por favor, borra este archivo.",
+      "wordTranslation": "to erase, to delete",
+      "sentenceTranslation": "Please, delete this file."
+    },
+    {
+      "word": "copiar",
+      "irregularForms": "Regular -ar verb: copio, copias, copia, copiamos, copiáis, copian",
+      "sentence": "Necesito copiar este documento.",
+      "wordTranslation": "to copy",
+      "sentenceTranslation": "I need to copy this document."
+    },
+    {
+      "word": "cobrar",
+      "irregularForms": "Regular -ar verb: cobro, cobras, cobra, cobramos, cobráis, cobran",
+      "sentence": "El camarero viene a cobrar la cuenta.",
+      "wordTranslation": "to charge, to collect money",
+      "sentenceTranslation": "The waiter is coming to collect the bill."
+    },
+    {
+      "word": "depositar",
+      "irregularForms": "Regular -ar verb: deposito, depositas, deposita, depositamos, depositáis, depositan",
+      "sentence": "Voy a depositar dinero en mi cuenta bancaria.",
+      "wordTranslation": "to deposit",
+      "sentenceTranslation": "I'm going to deposit money into my bank account."
+    },
+    {
+      "word": "retirar",
+      "irregularForms": "Regular -ar verb: retiro, retiras, retira, retiramos, retiráis, retiran",
+      "sentence": "Necesito retirar efectivo del cajero automático.",
+      "wordTranslation": "to withdraw, to retire",
+      "sentenceTranslation": "I need to withdraw cash from the ATM."
+    },
+    {
+      "word": "calcular",
+      "irregularForms": "Regular -ar verb: calculo, calculas, calcula, calculamos, calculáis, calculan",
+      "sentence": "Podemos calcular el costo total ahora.",
+      "wordTranslation": "to calculate",
+      "sentenceTranslation": "We can calculate the total cost now."
+    },
+    {
+      "word": "clasificar",
+      "irregularForms": "Regular -ar verb: clasifico, clasificas, clasifica, clasificamos, clasificáis, clasifican",
+      "sentence": "Debemos clasificar los libros por género.",
+      "wordTranslation": "to classify",
+      "sentenceTranslation": "We must classify the books by genre."
+    },
+    {
+      "word": "ordenar",
+      "irregularForms": "Regular -ar verb: ordeno, ordenas, ordena, ordenamos, ordenáis, ordenan",
+      "sentence": "Voy a ordenar mi habitación este fin de semana.",
+      "wordTranslation": "to order, to tidy up",
+      "sentenceTranslation": "I'm going to tidy up my room this weekend."
+    },
+    {
+      "word": "agrupar",
+      "irregularForms": "Regular -ar verb: agrupo, agrupas, agrupa, agrupamos, agrupáis, agrupan",
+      "sentence": "Podemos agrupar a los estudiantes por nivel.",
+      "wordTranslation": "to group",
+      "sentenceTranslation": "We can group the students by level."
+    },
+    {
+      "word": "empujar",
+      "irregularForms": "Regular -ar verb: empujo, empujas, empuja, empujamos, empujáis, empujan",
+      "sentence": "Necesito empujar la puerta para abrirla.",
+      "wordTranslation": "to push",
+      "sentenceTranslation": "I need to push the door to open it."
+    },
+    {
+      "word": "tirar",
+      "irregularForms": "Regular -ar verb: tiro, tiras, tira, tiramos, tiráis, tiran",
+      "sentence": "No tires la basura al suelo.",
+      "wordTranslation": "to throw, to pull",
+      "sentenceTranslation": "Don't throw the trash on the floor."
+    },
+    {
+      "word": "saltar",
+      "irregularForms": "Regular -ar verb: salto, saltas, salta, saltamos, saltáis, saltan",
+      "sentence": "Los niños disfrutan saltando en el trampolín.",
+      "wordTranslation": "to jump",
+      "sentenceTranslation": "Children enjoy jumping on the trampoline."
+    },
+    {
+      "word": "explorar",
+      "irregularForms": "Regular -ar verb: exploro, exploras, explora, exploramos, exploráis, exploran",
+      "sentence": "Queremos explorar nuevas ciudades en nuestras vacaciones.",
+      "wordTranslation": "to explore",
+      "sentenceTranslation": "We want to explore new cities on our vacation."
+    },
+    {
+      "word": "perseguir",
+      "irregularForms": "Irregular -ir verb: persigo, persigues, persigue, perseguimos, perseguís, persiguen",
+      "sentence": "El perro persigue la pelota en el parque.",
+      "wordTranslation": "to pursue, to chase",
+      "sentenceTranslation": "The dog chases the ball in the park."
+    },
+    {
+      "word": "escapar",
+      "irregularForms": "Regular -ar verb: escapo, escapas, escapa, escapamos, escapáis, escapan",
+      "sentence": "El prisionero intentó escapar de la cárcel.",
+      "wordTranslation": "to escape",
+      "sentenceTranslation": "The prisoner tried to escape from jail."
+    },
+    {
+      "word": "vencer",
+      "irregularForms": "Regular -er verb: venzo, vences, vence, vencemos, vencéis, vencen",
+      "sentence": "Podemos vencer cualquier obstáculo juntos.",
+      "wordTranslation": "to defeat, to overcome",
+      "sentenceTranslation": "We can overcome any obstacle together."
+    },
+    {
+      "word": "derrotar",
+      "irregularForms": "Regular -ar verb: derroto, derrotas, derrota, derrotamos, derrotáis, derrotan",
+      "sentence": "Nuestro equipo logró derrotar al rival.",
+      "wordTranslation": "to defeat",
+      "sentenceTranslation": "Our team managed to defeat the rival."
+    },
+    {
+      "word": "colaborar",
+      "irregularForms": "Regular -ar verb: colaboro, colaboras, colabora, colaboramos, colaboráis, colaboran",
+      "sentence": "Es importante colaborar en el trabajo en equipo.",
+      "wordTranslation": "to collaborate",
+      "sentenceTranslation": "It is important to collaborate in teamwork."
+    },
+    {
+      "word": "cooperar",
+      "irregularForms": "Regular -ar verb: coopero, cooperas, coopera, cooperamos, cooperáis, cooperan",
+      "sentence": "Debemos cooperar para lograr un buen resultado.",
+      "wordTranslation": "to cooperate",
+      "sentenceTranslation": "We must cooperate to achieve a good result."
+    },
+    {
+      "word": "obedecer",
+      "irregularForms": "Regular -er verb: obedezco, obedeces, obedece, obedecemos, obedecéis, obedecen",
+      "sentence": "Los perros obedecen a sus dueños.",
+      "wordTranslation": "to obey",
+      "sentenceTranslation": "Dogs obey their owners."
+    },
+    {
+      "word": "desobedecer",
+      "irregularForms": "Regular -er verb: desobedezco, desobedeces, desobedece, desobedecemos, desobedecéis, desobedecen",
+      "sentence": "No debes desobedecer las reglas.",
+      "wordTranslation": "to disobey",
+      "sentenceTranslation": "You shouldn't disobey the rules."
+    },
+    {
+      "word": "prevenir",
+      "irregularForms": "Irregular -ir verb: prevengo, previenes, previene, prevenimos, prevenís, previenen",
+      "sentence": "Es mejor prevenir que lamentar.",
+      "wordTranslation": "to prevent",
+      "sentenceTranslation": "It's better to prevent than to regret."
+    },
+    {
+      "word": "provocar",
+      "irregularForms": "Regular -ar verb: provoco, provocas, provoca, provocamos, provocáis, provocan",
+      "sentence": "Su comentario provocó una discusión.",
+      "wordTranslation": "to provoke, to cause",
+      "sentenceTranslation": "His comment provoked a discussion."
+    },
+    {
+      "word": "madurar",
+      "irregularForms": "Regular -ar verb: maduro, maduras, madura, maduramos, maduráis, maduran",
+      "sentence": "Las frutas necesitan tiempo para madurar.",
+      "wordTranslation": "to ripen, to mature",
+      "sentenceTranslation": "Fruits need time to ripen."
+    },
+    {
+      "word": "envejecer",
+      "irregularForms": "Regular -er verb: envejezco, envejeces, envejece, envejecemos, envejecéis, envejecen",
+      "sentence": "La madera tiende a envejecer con el tiempo.",
+      "wordTranslation": "to age",
+      "sentenceTranslation": "Wood tends to age over time."
+    },
+    {
+      "word": "descansar",
+      "irregularForms": "Regular -ar verb: descanso, descansas, descansa, descansamos, descansáis, descansan",
+      "sentence": "Necesito descansar después de un largo día.",
+      "wordTranslation": "to rest",
+      "sentenceTranslation": "I need to rest after a long day."
+    },
+    {
+      "word": "enfermar",
+      "irregularForms": "Regular -ar verb: enfermo, enfermas, enferma, enfermamos, enfermáis, enferman",
+      "sentence": "Es fácil enfermar en invierno si no te abrigas.",
+      "wordTranslation": "to get sick",
+      "sentenceTranslation": "It's easy to get sick in winter if you don't dress warmly."
+    },
+    {
+      "word": "curar",
+      "irregularForms": "Regular -ar verb: curo, curas, cura, curamos, curáis, curan",
+      "sentence": "El médico pudo curar su enfermedad.",
+      "wordTranslation": "to cure",
+      "sentenceTranslation": "The doctor was able to cure his illness."
+    },
+    {
+      "word": "sanar",
+      "irregularForms": "Regular -ar verb: sano, sanas, sana, sanamos, sanáis, sanan",
+      "sentence": "La herida tardará unos días en sanar.",
+      "wordTranslation": "to heal",
+      "sentenceTranslation": "The wound will take a few days to heal."
+    },
+    {
+      "word": "examinar",
+      "irregularForms": "Regular -ar verb: examino, examinas, examina, examinamos, examináis, examinan",
+      "sentence": "El profesor va a examinar a los alumnos.",
+      "wordTranslation": "to examine",
+      "sentenceTranslation": "The teacher is going to examine the students."
+    },
+    {
+      "word": "diagnosticar",
+      "irregularForms": "Regular -ar verb: diagnostico, diagnosticas, diagnostica, diagnosticamos, diagnosticáis, diagnostican",
+      "sentence": "El médico logró diagnosticar la enfermedad a tiempo.",
+      "wordTranslation": "to diagnose",
+      "sentenceTranslation": "The doctor managed to diagnose the illness in time."
+    },
+    {
+      "word": "medicar",
+      "irregularForms": "Regular -ar verb: medico, medicas, medica, medicamos, medicáis, medican",
+      "sentence": "Es importante medicar al paciente con cuidado.",
+      "wordTranslation": "to medicate",
+      "sentenceTranslation": "It's important to medicate the patient carefully."
+    },
+    {
+      "word": "aliviar",
+      "irregularForms": "Regular -ar verb: alivio, alivias, alivia, aliviamos, aliviáis, alivian",
+      "sentence": "Este medicamento puede aliviar el dolor.",
+      "wordTranslation": "to relieve",
+      "sentenceTranslation": "This medicine can relieve the pain."
+    },
+    {
+      "word": "sugerir",
+      "irregularForms": "Irregular -ir verb: sugiero, sugieres, sugiere, sugerimos, sugerís, sugieren",
+      "sentence": "Quiero sugerir una idea nueva para el proyecto.",
+      "wordTranslation": "to suggest",
+      "sentenceTranslation": "I want to suggest a new idea for the project."
+    },
+    {
+      "word": "hotel",
+      "irregularForms": "null",
+      "sentence": "Nos alojaremos en un hotel cerca de la playa.",
+      "wordTranslation": "hotel",
+      "sentenceTranslation": "We will stay at a hotel near the beach."
+    },
+    {
+      "word": "carta",
+      "irregularForms": "null",
+      "sentence": "Recibí una carta de mi abuela.",
+      "wordTranslation": "letter / card",
+      "sentenceTranslation": "I received a letter from my grandmother."
+    },
+    {
+      "word": "empleo",
+      "irregularForms": "null",
+      "sentence": "Estoy buscando un nuevo empleo.",
+      "wordTranslation": "job, employment",
+      "sentenceTranslation": "I am looking for a new job."
+    },
+    {
+      "word": "adulto",
+      "irregularForms": "null",
+      "sentence": "Los niños deben ir acompañados de un adulto.",
+      "wordTranslation": "adult",
+      "sentenceTranslation": "Children must be accompanied by an adult."
+    },
+    {
+      "word": "pulmón",
+      "irregularForms": "null",
+      "sentence": "Fumar es malo para los pulmones.",
+      "wordTranslation": "lung",
+      "sentenceTranslation": "Smoking is bad for the lungs."
+    },
+    {
+      "word": "rosado",
+      "irregularForms": "null",
+      "sentence": "A ella le encanta el color rosado.",
+      "wordTranslation": "pink",
+      "sentenceTranslation": "She loves the color pink."
+    },
+    {
+      "word": "imperfecto",
+      "irregularForms": "null",
+      "sentence": "Nadie es perfecto, todos somos imperfectos.",
+      "wordTranslation": "imperfect",
+      "sentenceTranslation": "Nobody is perfect, we are all imperfect."
+    },
+    {
+      "word": "delgado",
+      "irregularForms": "null",
+      "sentence": "Después de la dieta, se volvió muy delgado.",
+      "wordTranslation": "thin, skinny",
+      "sentenceTranslation": "After the diet, he became very thin."
+    },
+    {
+      "word": "gordo",
+      "irregularForms": "null",
+      "sentence": "Mi gato se ha vuelto un poco gordo.",
+      "wordTranslation": "fat",
+      "sentenceTranslation": "My cat has gotten a bit fat."
+    },
+    {
+      "word": "silencioso",
+      "irregularForms": "null",
+      "sentence": "El bosque estaba completamente silencioso.",
+      "wordTranslation": "silent, quiet",
+      "sentenceTranslation": "The forest was completely silent."
+    },
+    {
+      "word": "ruidoso",
+      "irregularForms": "null",
+      "sentence": "Los niños son muy ruidosos cuando juegan.",
+      "wordTranslation": "noisy",
+      "sentenceTranslation": "Children are very noisy when they play."
+    },
+    {
+      "word": "egoísta",
+      "irregularForms": "null",
+      "sentence": "Su comportamiento fue muy egoísta.",
+      "wordTranslation": "selfish",
+      "sentenceTranslation": "His behavior was very selfish."
+    },
+    {
+      "word": "honesto",
+      "irregularForms": "null",
+      "sentence": "Siempre trato de ser honesto contigo.",
+      "wordTranslation": "honest",
+      "sentenceTranslation": "I always try to be honest with you."
+    },
+    {
+      "word": "deshonesto",
+      "irregularForms": "null",
+      "sentence": "Las acciones deshonestas tienen consecuencias.",
+      "wordTranslation": "dishonest",
+      "sentenceTranslation": "Dishonest actions have consequences."
+    },
+    {
+      "word": "indirecto",
+      "irregularForms": "null",
+      "sentence": "La ruta más corta no siempre es la más directa, a veces es indirecta.",
+      "wordTranslation": "indirect",
+      "sentenceTranslation": "The shortest route is not always the most direct, sometimes it's indirect."
+    }
+  ]
+}

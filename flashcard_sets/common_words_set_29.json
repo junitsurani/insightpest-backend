@@ -1,0 +1,853 @@
+{
+  "name": "Spanish Common Words Set 29",
+  "description": "This is part of a larger set of common Spanish words for vocabulary building, focusing on words not present in previous extensive sets.",
+  "cards": [
+    {
+      "word": "danza",
+      "irregularForms": null,
+      "sentence": "La danza flamenca es muy apasionada.",
+      "wordTranslation": "dance (noun)",
+      "sentenceTranslation": "Flamenco dance is very passionate."
+    },
+    {
+      "word": "dialogar",
+      "irregularForms": "dialoga, dialogamos, dialogaron",
+      "sentence": "Es importante dialogar antes de tomar una decisión.",
+      "wordTranslation": "to dialogue",
+      "sentenceTranslation": "It's important to dialogue before making a decision."
+    },
+    {
+      "word": "conversar",
+      "irregularForms": "conversa, conversamos, conversaron",
+      "sentence": "Nos gusta conversar sobre el futuro en el café.",
+      "wordTranslation": "to converse",
+      "sentenceTranslation": "We like to converse about the future at the cafe."
+    },
+    {
+      "word": "perezoso",
+      "irregularForms": "perezosa, perezosos, perezosas",
+      "sentence": "El gato perezoso duerme todo el día.",
+      "wordTranslation": "lazy",
+      "sentenceTranslation": "The lazy cat sleeps all day."
+    },
+    {
+      "word": "familiar",
+      "irregularForms": "familiares",
+      "sentence": "Tengo un ambiente familiar muy cálido.",
+      "wordTranslation": "familiar / family-related",
+      "sentenceTranslation": "I have a very warm family environment."
+    },
+    {
+      "word": "protección",
+      "irregularForms": null,
+      "sentence": "Necesitamos más protección contra el sol.",
+      "wordTranslation": "protection",
+      "sentenceTranslation": "We need more sun protection."
+    },
+    {
+      "word": "refugio",
+      "irregularForms": null,
+      "sentence": "Encontraron refugio en una pequeña cueva.",
+      "wordTranslation": "shelter",
+      "sentenceTranslation": "They found shelter in a small cave."
+    },
+    {
+      "word": "sótano",
+      "irregularForms": null,
+      "sentence": "Guardamos las cosas viejas en el sótano.",
+      "wordTranslation": "basement",
+      "sentenceTranslation": "We keep old things in the basement."
+    },
+    {
+      "word": "ático",
+      "irregularForms": null,
+      "sentence": "El ático se usa como sala de juegos.",
+      "wordTranslation": "attic",
+      "sentenceTranslation": "The attic is used as a playroom."
+    },
+    {
+      "word": "despensa",
+      "irregularForms": null,
+      "sentence": "La despensa está llena de alimentos.",
+      "wordTranslation": "pantry",
+      "sentenceTranslation": "The pantry is full of food."
+    },
+    {
+      "word": "balcón",
+      "irregularForms": null,
+      "sentence": "Cenamos en el balcón con vistas al mar.",
+      "wordTranslation": "balcony",
+      "sentenceTranslation": "We had dinner on the balcony with sea views."
+    },
+    {
+      "word": "secador",
+      "irregularForms": null,
+      "sentence": "Uso el secador para secarme el pelo rápidamente.",
+      "wordTranslation": "hairdryer",
+      "sentenceTranslation": "I use the hairdryer to dry my hair quickly."
+    },
+    {
+      "word": "bombilla",
+      "irregularForms": null,
+      "sentence": "Hay que cambiar la bombilla del salón.",
+      "wordTranslation": "light bulb",
+      "sentenceTranslation": "The living room light bulb needs to be changed."
+    },
+    {
+      "word": "escalón",
+      "irregularForms": null,
+      "sentence": "Ten cuidado al subir el último escalón.",
+      "wordTranslation": "step (stair)",
+      "sentenceTranslation": "Be careful climbing the last step."
+    },
+    {
+      "word": "cerilla",
+      "irregularForms": null,
+      "sentence": "No me queda ninguna cerilla para encender la vela.",
+      "wordTranslation": "matchstick",
+      "sentenceTranslation": "I don't have any matchsticks left to light the candle."
+    },
+    {
+      "word": "tanque",
+      "irregularForms": null,
+      "sentence": "El tanque de gasolina está casi vacío.",
+      "wordTranslation": "tank",
+      "sentenceTranslation": "The gas tank is almost empty."
+    },
+    {
+      "word": "cubierta",
+      "irregularForms": null,
+      "sentence": "La cubierta del libro es de cuero.",
+      "wordTranslation": "cover / deck",
+      "sentenceTranslation": "The book's cover is made of leather."
+    },
+    {
+      "word": "nave",
+      "irregularForms": null,
+      "sentence": "La nave espacial despegó hacia la luna.",
+      "wordTranslation": "ship / spacecraft",
+      "sentenceTranslation": "The spacecraft took off towards the moon."
+    },
+    {
+      "word": "tripulación",
+      "irregularForms": null,
+      "sentence": "La tripulación del avión fue muy amable.",
+      "wordTranslation": "crew",
+      "sentenceTranslation": "The plane's crew was very kind."
+    },
+    {
+      "word": "ancla",
+      "irregularForms": null,
+      "sentence": "El barco echó el ancla cerca de la costa.",
+      "wordTranslation": "anchor",
+      "sentenceTranslation": "The boat dropped anchor near the coast."
+    },
+    {
+      "word": "lodo",
+      "irregularForms": null,
+      "sentence": "Mis botas estaban cubiertas de lodo después de la lluvia.",
+      "wordTranslation": "mud / mire",
+      "sentenceTranslation": "My boots were covered in mud after the rain."
+    },
+    {
+      "word": "ráfaga",
+      "irregularForms": null,
+      "sentence": "Una ráfaga de viento cerró la ventana de golpe.",
+      "wordTranslation": "gust / burst",
+      "sentenceTranslation": "A gust of wind slammed the window shut."
+    },
+    {
+      "word": "yogur",
+      "irregularForms": null,
+      "sentence": "Me gusta comer yogur con frutas por la mañana.",
+      "wordTranslation": "yogurt",
+      "sentenceTranslation": "I like to eat yogurt with fruit in the morning."
+    },
+    {
+      "word": "pimiento",
+      "irregularForms": null,
+      "sentence": "Este pimiento rojo es muy dulce.",
+      "wordTranslation": "bell pepper",
+      "sentenceTranslation": "This red bell pepper is very sweet."
+    },
+    {
+      "word": "calabaza",
+      "irregularForms": null,
+      "sentence": "En otoño, la calabaza es muy popular.",
+      "wordTranslation": "pumpkin / squash",
+      "sentenceTranslation": "In autumn, pumpkin is very popular."
+    },
+    {
+      "word": "frambuesa",
+      "irregularForms": null,
+      "sentence": "Las frambuesas son deliciosas con chocolate.",
+      "wordTranslation": "raspberry",
+      "sentenceTranslation": "Raspberries are delicious with chocolate."
+    },
+    {
+      "word": "arándano",
+      "irregularForms": null,
+      "sentence": "El jugo de arándano es bueno para la salud.",
+      "wordTranslation": "blueberry / cranberry",
+      "sentenceTranslation": "Cranberry juice is good for health."
+    },
+    {
+      "word": "melocotón",
+      "irregularForms": null,
+      "sentence": "El melocotón es una fruta jugosa de verano.",
+      "wordTranslation": "peach",
+      "sentenceTranslation": "The peach is a juicy summer fruit."
+    },
+    {
+      "word": "ciruela",
+      "irregularForms": null,
+      "sentence": "Me gusta la mermelada de ciruela casera.",
+      "wordTranslation": "plum",
+      "sentenceTranslation": "I like homemade plum jam."
+    },
+    {
+      "word": "higo",
+      "irregularForms": null,
+      "sentence": "El higo fresco es una delicia de temporada.",
+      "wordTranslation": "fig",
+      "sentenceTranslation": "Fresh fig is a seasonal delicacy."
+    },
+    {
+      "word": "nueces",
+      "irregularForms": null,
+      "sentence": "Compramos nueces para hornear un pastel.",
+      "wordTranslation": "nuts",
+      "sentenceTranslation": "We bought nuts to bake a cake."
+    },
+    {
+      "word": "almendra",
+      "irregularForms": null,
+      "sentence": "La leche de almendra es una alternativa saludable.",
+      "wordTranslation": "almond",
+      "sentenceTranslation": "Almond milk is a healthy alternative."
+    },
+    {
+      "word": "avellana",
+      "irregularForms": null,
+      "sentence": "El chocolate con avellanas es mi favorito.",
+      "wordTranslation": "hazelnut",
+      "sentenceTranslation": "Chocolate with hazelnuts is my favorite."
+    },
+    {
+      "word": "cacahuete",
+      "irregularForms": null,
+      "sentence": "La crema de cacahuete es muy energética.",
+      "wordTranslation": "peanut",
+      "sentenceTranslation": "Peanut butter is very energetic."
+    },
+    {
+      "word": "garbanzo",
+      "irregularForms": null,
+      "sentence": "El hummus se hace con garbanzos.",
+      "wordTranslation": "chickpea",
+      "sentenceTranslation": "Hummus is made with chickpeas."
+    },
+    {
+      "word": "lenteja",
+      "irregularForms": null,
+      "sentence": "Las lentejas son ricas en proteínas.",
+      "wordTranslation": "lentil",
+      "sentenceTranslation": "Lentils are rich in protein."
+    },
+    {
+      "word": "judía",
+      "irregularForms": null,
+      "sentence": "Las judías verdes son un excelente acompañamiento.",
+      "wordTranslation": "bean",
+      "sentenceTranslation": "Green beans are an excellent side dish."
+    },
+    {
+      "word": "arveja",
+      "irregularForms": null,
+      "sentence": "Me gustan las arvejas frescas en la ensalada.",
+      "wordTranslation": "pea",
+      "sentenceTranslation": "I like fresh peas in salad."
+    },
+    {
+      "word": "maíz",
+      "irregularForms": null,
+      "sentence": "El maíz dulce es perfecto para la parrilla.",
+      "wordTranslation": "corn",
+      "sentenceTranslation": "Sweet corn is perfect for grilling."
+    },
+    {
+      "word": "trigo",
+      "irregularForms": null,
+      "sentence": "El pan de trigo integral es más saludable.",
+      "wordTranslation": "wheat",
+      "sentenceTranslation": "Whole wheat bread is healthier."
+    },
+    {
+      "word": "cebada",
+      "irregularForms": null,
+      "sentence": "La cebada se usa para hacer cerveza.",
+      "wordTranslation": "barley",
+      "sentenceTranslation": "Barley is used to make beer."
+    },
+    {
+      "word": "harina",
+      "irregularForms": null,
+      "sentence": "Necesitamos harina para hacer el pastel.",
+      "wordTranslation": "flour",
+      "sentenceTranslation": "We need flour to make the cake."
+    },
+    {
+      "word": "levadura",
+      "irregularForms": null,
+      "sentence": "La levadura ayuda a que el pan suba.",
+      "wordTranslation": "yeast",
+      "sentenceTranslation": "Yeast helps the bread rise."
+    },
+    {
+      "word": "nata",
+      "irregularForms": null,
+      "sentence": "Me gusta la nata montada con las fresas.",
+      "wordTranslation": "cream",
+      "sentenceTranslation": "I like whipped cream with strawberries."
+    },
+    {
+      "word": "mermelada",
+      "irregularForms": null,
+      "sentence": "Comemos pan con mermelada en el desayuno.",
+      "wordTranslation": "jam",
+      "sentenceTranslation": "We eat bread with jam for breakfast."
+    },
+    {
+      "word": "galleta",
+      "irregularForms": null,
+      "sentence": "Me tomo una galleta con mi café de la tarde.",
+      "wordTranslation": "cookie / biscuit",
+      "sentenceTranslation": "I have a cookie with my afternoon coffee."
+    },
+    {
+      "word": "caramelo",
+      "irregularForms": null,
+      "sentence": "El caramelo se derrite en la boca.",
+      "wordTranslation": "candy / caramel",
+      "sentenceTranslation": "The candy melts in your mouth."
+    },
+    {
+      "word": "chocolate",
+      "irregularForms": null,
+      "sentence": "Un trozo de chocolate es perfecto después de cenar.",
+      "wordTranslation": "chocolate",
+      "sentenceTranslation": "A piece of chocolate is perfect after dinner."
+    },
+    {
+      "word": "cafetera",
+      "irregularForms": null,
+      "sentence": "La cafetera hace un café delicioso.",
+      "wordTranslation": "coffee maker",
+      "sentenceTranslation": "The coffee maker makes delicious coffee."
+    },
+    {
+      "word": "tetera",
+      "irregularForms": null,
+      "sentence": "La tetera está caliente, cuidado.",
+      "wordTranslation": "teapot",
+      "sentenceTranslation": "The teapot is hot, be careful."
+    },
+    {
+      "word": "exprimidor",
+      "irregularForms": null,
+      "sentence": "Uso el exprimidor para hacer jugo de naranja.",
+      "wordTranslation": "juicer",
+      "sentenceTranslation": "I use the juicer to make orange juice."
+    },
+    {
+      "word": "batidora",
+      "irregularForms": null,
+      "sentence": "Necesitamos una batidora para el batido.",
+      "wordTranslation": "blender",
+      "sentenceTranslation": "We need a blender for the smoothie."
+    },
+    {
+      "word": "tostadora",
+      "irregularForms": null,
+      "sentence": "La tostadora está en la encimera.",
+      "wordTranslation": "toaster",
+      "sentenceTranslation": "The toaster is on the counter."
+    },
+    {
+      "word": "cacerola",
+      "irregularForms": null,
+      "sentence": "Pon la sopa en la cacerola grande.",
+      "wordTranslation": "saucepan",
+      "sentenceTranslation": "Put the soup in the big saucepan."
+    },
+    {
+      "word": "sartén",
+      "irregularForms": null,
+      "sentence": "Calienta el aceite en la sartén.",
+      "wordTranslation": "frying pan",
+      "sentenceTranslation": "Heat the oil in the frying pan."
+    },
+    {
+      "word": "olla",
+      "irregularForms": null,
+      "sentence": "La olla a presión cocina muy rápido.",
+      "wordTranslation": "pot",
+      "sentenceTranslation": "The pressure cooker cooks very fast."
+    },
+    {
+      "word": "bandeja",
+      "irregularForms": null,
+      "sentence": "Sirve las galletas en la bandeja.",
+      "wordTranslation": "tray",
+      "sentenceTranslation": "Serve the cookies on the tray."
+    },
+    {
+      "word": "tabla",
+      "irregularForms": null,
+      "sentence": "Usa una tabla de cortar para las verduras.",
+      "wordTranslation": "board / plank",
+      "sentenceTranslation": "Use a cutting board for the vegetables."
+    },
+    {
+      "word": "rallador",
+      "irregularForms": null,
+      "sentence": "Necesito un rallador para el queso.",
+      "wordTranslation": "grater",
+      "sentenceTranslation": "I need a grater for the cheese."
+    },
+    {
+      "word": "pelador",
+      "irregularForms": null,
+      "sentence": "El pelador de patatas es muy útil.",
+      "wordTranslation": "peeler",
+      "sentenceTranslation": "The potato peeler is very useful."
+    },
+    {
+      "word": "colador",
+      "irregularForms": null,
+      "sentence": "Usa el colador para escurrir la pasta.",
+      "wordTranslation": "strainer",
+      "sentenceTranslation": "Use the strainer to drain the pasta."
+    },
+    {
+      "word": "embudo",
+      "irregularForms": null,
+      "sentence": "Necesito un embudo para rellenar la botella pequeña.",
+      "wordTranslation": "funnel",
+      "sentenceTranslation": "I need a funnel to fill the small bottle."
+    },
+    {
+      "word": "tapadera",
+      "irregularForms": null,
+      "sentence": "Pon la tapadera en la olla para que hierva más rápido.",
+      "wordTranslation": "lid",
+      "sentenceTranslation": "Put the lid on the pot so it boils faster."
+    },
+    {
+      "word": "cuenco",
+      "irregularForms": null,
+      "sentence": "Sirve la sopa en un cuenco hondo.",
+      "wordTranslation": "bowl",
+      "sentenceTranslation": "Serve the soup in a deep bowl."
+    },
+    {
+      "word": "mantel",
+      "irregularForms": null,
+      "sentence": "Pon el mantel antes de la cena.",
+      "wordTranslation": "tablecloth",
+      "sentenceTranslation": "Put the tablecloth before dinner."
+    },
+    {
+      "word": "cubertería",
+      "irregularForms": null,
+      "sentence": "La cubertería de plata está muy brillante.",
+      "wordTranslation": "cutlery set",
+      "sentenceTranslation": "The silver cutlery set is very shiny."
+    },
+    {
+      "word": "bistec",
+      "irregularForms": null,
+      "sentence": "Pedí un bistec con patatas fritas.",
+      "wordTranslation": "steak",
+      "sentenceTranslation": "I ordered a steak with french fries."
+    },
+    {
+      "word": "chuleta",
+      "irregularForms": null,
+      "sentence": "Las chuletas de cerdo son fáciles de cocinar.",
+      "wordTranslation": "chop",
+      "sentenceTranslation": "Pork chops are easy to cook."
+    },
+    {
+      "word": "tocino",
+      "irregularForms": null,
+      "sentence": "Me encanta el tocino crujiente para el desayuno.",
+      "wordTranslation": "bacon",
+      "sentenceTranslation": "I love crispy bacon for breakfast."
+    },
+    {
+      "word": "ostra",
+      "irregularForms": null,
+      "sentence": "Las ostras frescas son un manjar en la costa.",
+      "wordTranslation": "oyster",
+      "sentenceTranslation": "Fresh oysters are a delicacy on the coast."
+    },
+    {
+      "word": "mejillón",
+      "irregularForms": null,
+      "sentence": "Comimos mejillones al vapor con limón.",
+      "wordTranslation": "mussel",
+      "sentenceTranslation": "We ate steamed mussels with lemon."
+    },
+    {
+      "word": "almeja",
+      "irregularForms": null,
+      "sentence": "Las almejas a la marinera son un plato típico.",
+      "wordTranslation": "clam",
+      "sentenceTranslation": "Clams marinière is a typical dish."
+    },
+    {
+      "word": "atún",
+      "irregularForms": null,
+      "sentence": "Haremos una ensalada de atún para el almuerzo.",
+      "wordTranslation": "tuna",
+      "sentenceTranslation": "We'll make a tuna salad for lunch."
+    },
+    {
+      "word": "sardina",
+      "irregularForms": null,
+      "sentence": "Las sardinas a la plancha son muy sabrosas.",
+      "wordTranslation": "sardine",
+      "sentenceTranslation": "Grilled sardines are very tasty."
+    },
+    {
+      "word": "trucha",
+      "irregularForms": null,
+      "sentence": "Pescamos una trucha grande en el río.",
+      "wordTranslation": "trout",
+      "sentenceTranslation": "We caught a big trout in the river."
+    },
+    {
+      "word": "jabalí",
+      "irregularForms": null,
+      "sentence": "Vimos un jabalí salvaje en el bosque.",
+      "wordTranslation": "wild boar",
+      "sentenceTranslation": "We saw a wild boar in the forest."
+    },
+    {
+      "word": "ciervo",
+      "irregularForms": null,
+      "sentence": "El ciervo es un animal majestuoso.",
+      "wordTranslation": "deer",
+      "sentenceTranslation": "The deer is a majestic animal."
+    },
+    {
+      "word": "cebra",
+      "irregularForms": null,
+      "sentence": "La cebra tiene rayas blancas y negras.",
+      "wordTranslation": "zebra",
+      "sentenceTranslation": "The zebra has black and white stripes."
+    },
+    {
+      "word": "gorila",
+      "irregularForms": null,
+      "sentence": "El gorila es un primate muy inteligente.",
+      "wordTranslation": "gorilla",
+      "sentenceTranslation": "The gorilla is a very intelligent primate."
+    },
+    {
+      "word": "chimpancé",
+      "irregularForms": null,
+      "sentence": "El chimpancé usaba una herramienta para abrir la fruta.",
+      "wordTranslation": "chimpanzee",
+      "sentenceTranslation": "The chimpanzee used a tool to open the fruit."
+    },
+    {
+      "word": "cuervo",
+      "irregularForms": null,
+      "sentence": "Un cuervo graznó desde el árbol.",
+      "wordTranslation": "crow",
+      "sentenceTranslation": "A crow cawed from the tree."
+    },
+    {
+      "word": "paloma",
+      "irregularForms": null,
+      "sentence": "Una paloma blanca voló hacia el cielo.",
+      "wordTranslation": "dove / pigeon",
+      "sentenceTranslation": "A white dove flew towards the sky."
+    },
+    {
+      "word": "gorrión",
+      "irregularForms": null,
+      "sentence": "Un gorrión pequeño picoteaba migas de pan.",
+      "wordTranslation": "sparrow",
+      "sentenceTranslation": "A small sparrow pecked at breadcrumbs."
+    },
+    {
+      "word": "mosquito",
+      "irregularForms": null,
+      "sentence": "Un mosquito me picó en el brazo.",
+      "wordTranslation": "mosquito",
+      "sentenceTranslation": "A mosquito bit me on the arm."
+    },
+    {
+      "word": "gusano",
+      "irregularForms": null,
+      "sentence": "El pájaro se comió un gusano.",
+      "wordTranslation": "worm",
+      "sentenceTranslation": "The bird ate a worm."
+    },
+    {
+      "word": "sapo",
+      "irregularForms": null,
+      "sentence": "El sapo se escondía bajo una hoja.",
+      "wordTranslation": "toad",
+      "sentenceTranslation": "The toad was hiding under a leaf."
+    },
+    {
+      "word": "lagarto",
+      "irregularForms": null,
+      "sentence": "Vi un lagarto tomando el sol en la roca.",
+      "wordTranslation": "lizard",
+      "sentenceTranslation": "I saw a lizard sunbathing on the rock."
+    },
+    {
+      "word": "foca",
+      "irregularForms": null,
+      "sentence": "La foca jugaba con una pelota en el agua.",
+      "wordTranslation": "seal",
+      "sentenceTranslation": "The seal was playing with a ball in the water."
+    },
+    {
+      "word": "pulgar",
+      "irregularForms": null,
+      "sentence": "Me golpeé el pulgar con el martillo.",
+      "wordTranslation": "thumb",
+      "sentenceTranslation": "I hit my thumb with the hammer."
+    },
+    {
+      "word": "mordida",
+      "irregularForms": null,
+      "sentence": "La mordida del perro no fue profunda.",
+      "wordTranslation": "bite (noun)",
+      "sentenceTranslation": "The dog's bite wasn't deep."
+    },
+    {
+      "word": "rasguño",
+      "irregularForms": null,
+      "sentence": "El gato me hizo un pequeño rasguño.",
+      "wordTranslation": "scratch (noun)",
+      "sentenceTranslation": "The cat gave me a small scratch."
+    },
+    {
+      "word": "herida",
+      "irregularForms": null,
+      "sentence": "Hay que limpiar bien la herida para evitar infecciones.",
+      "wordTranslation": "wound",
+      "sentenceTranslation": "You have to clean the wound well to avoid infections."
+    },
+    {
+      "word": "cicatriz",
+      "irregularForms": null,
+      "sentence": "Tiene una cicatriz en la rodilla por una caída.",
+      "wordTranslation": "scar",
+      "sentenceTranslation": "He has a scar on his knee from a fall."
+    },
+    {
+      "word": "ampolla",
+      "irregularForms": null,
+      "sentence": "Me salió una ampolla en el talón por los zapatos nuevos.",
+      "wordTranslation": "blister",
+      "sentenceTranslation": "I got a blister on my heel from the new shoes."
+    },
+    {
+      "word": "peca",
+      "irregularForms": null,
+      "sentence": "Tiene muchas pecas en la nariz.",
+      "wordTranslation": "freckle",
+      "sentenceTranslation": "She has many freckles on her nose."
+    },
+    {
+      "word": "lunar",
+      "irregularForms": null,
+      "sentence": "El lunar en su brazo es muy distintivo.",
+      "wordTranslation": "mole / beauty mark",
+      "sentenceTranslation": "The mole on his arm is very distinctive."
+    },
+    {
+      "word": "verruga",
+      "irregularForms": null,
+      "sentence": "La verruga desapareció después del tratamiento.",
+      "wordTranslation": "wart",
+      "sentenceTranslation": "The wart disappeared after the treatment."
+    },
+    {
+      "word": "mareo",
+      "irregularForms": null,
+      "sentence": "Tuvo un mareo al levantarse rápidamente.",
+      "wordTranslation": "dizziness / seasickness",
+      "sentenceTranslation": "He felt dizzy when he stood up quickly."
+    },
+    {
+      "word": "estreñimiento",
+      "irregularForms": null,
+      "sentence": "El estreñimiento puede ser un efecto secundario de algunos medicamentos.",
+      "wordTranslation": "constipation",
+      "sentenceTranslation": "Constipation can be a side effect of some medications."
+    },
+    {
+      "word": "somnolencia",
+      "irregularForms": null,
+      "sentence": "La somnolencia al conducir es peligrosa.",
+      "wordTranslation": "drowsiness",
+      "sentenceTranslation": "Drowsiness while driving is dangerous."
+    },
+    {
+      "word": "escalofrío",
+      "irregularForms": null,
+      "sentence": "Sentí un escalofrío al entrar en la habitación fría.",
+      "wordTranslation": "shiver / chill",
+      "sentenceTranslation": "I felt a shiver when I entered the cold room."
+    },
+    {
+      "word": "bulto",
+      "irregularForms": null,
+      "sentence": "Encontré un bulto en el bolsillo de mi chaqueta.",
+      "wordTranslation": "lump / bulge",
+      "sentenceTranslation": "I found a lump in my jacket pocket."
+    },
+    {
+      "word": "cojera",
+      "irregularForms": null,
+      "sentence": "Su cojera se notaba después de la lesión.",
+      "wordTranslation": "limp (noun)",
+      "sentenceTranslation": "His limp was noticeable after the injury."
+    },
+    {
+      "word": "ronquido",
+      "irregularForms": null,
+      "sentence": "El ronquido de mi compañero de habitación es muy fuerte.",
+      "wordTranslation": "snore (noun)",
+      "sentenceTranslation": "My roommate's snoring is very loud."
+    },
+    {
+      "word": "hipo",
+      "irregularForms": null,
+      "sentence": "No puedo parar de tener hipo.",
+      "wordTranslation": "hiccup (noun)",
+      "sentenceTranslation": "I can't stop hiccuping."
+    },
+    {
+      "word": "nudo",
+      "irregularForms": null,
+      "sentence": "Hizo un nudo fuerte en la cuerda.",
+      "wordTranslation": "knot",
+      "sentenceTranslation": "He made a strong knot in the rope."
+    },
+    {
+      "word": "despertador",
+      "irregularForms": null,
+      "sentence": "El despertador sonó a las seis de la mañana.",
+      "wordTranslation": "alarm clock",
+      "sentenceTranslation": "The alarm clock rang at six in the morning."
+    },
+    {
+      "word": "alquiler",
+      "irregularForms": null,
+      "sentence": "El alquiler de este apartamento es muy caro.",
+      "wordTranslation": "rent (noun)",
+      "sentenceTranslation": "The rent for this apartment is very expensive."
+    },
+    {
+      "word": "burbuja",
+      "irregularForms": null,
+      "sentence": "Los niños soplaban burbujas de jabón en el parque.",
+      "wordTranslation": "bubble",
+      "sentenceTranslation": "The children were blowing soap bubbles in the park."
+    },
+    {
+      "word": "campana",
+      "irregularForms": null,
+      "sentence": "La campana de la iglesia sonó a mediodía.",
+      "wordTranslation": "bell",
+      "sentenceTranslation": "The church bell rang at noon."
+    },
+    {
+      "word": "cenicero",
+      "irregularForms": null,
+      "sentence": "Por favor, usa el cenicero para las colillas.",
+      "wordTranslation": "ashtray",
+      "sentenceTranslation": "Please use the ashtray for cigarette butts."
+    },
+    {
+      "word": "cueva",
+      "irregularForms": null,
+      "sentence": "Los murciélagos viven en esa cueva profunda.",
+      "wordTranslation": "cave",
+      "sentenceTranslation": "Bats live in that deep cave."
+    },
+    {
+      "word": "duna",
+      "irregularForms": null,
+      "sentence": "Las dunas de arena se movían con el viento.",
+      "wordTranslation": "dune",
+      "sentenceTranslation": "The sand dunes moved with the wind."
+    },
+    {
+      "word": "ecosistema",
+      "irregularForms": null,
+      "sentence": "Es crucial proteger el ecosistema de la selva tropical.",
+      "wordTranslation": "ecosystem",
+      "sentenceTranslation": "It is crucial to protect the rainforest ecosystem."
+    },
+    {
+      "word": "fauna",
+      "irregularForms": null,
+      "sentence": "La fauna de esta región es muy diversa.",
+      "wordTranslation": "fauna",
+      "sentenceTranslation": "The fauna of this region is very diverse."
+    },
+    {
+      "word": "flujo",
+      "irregularForms": null,
+      "sentence": "El flujo de tráfico es constante en esta avenida.",
+      "wordTranslation": "flow",
+      "sentenceTranslation": "Traffic flow is constant on this avenue."
+    },
+    {
+      "word": "hongo",
+      "irregularForms": null,
+      "sentence": "Encontré un hongo grande bajo el árbol.",
+      "wordTranslation": "mushroom / fungus",
+      "sentenceTranslation": "I found a big mushroom under the tree."
+    },
+    {
+      "word": "laguna",
+      "irregularForms": null,
+      "sentence": "La laguna es un lugar tranquilo para pescar.",
+      "wordTranslation": "lagoon",
+      "sentenceTranslation": "The lagoon is a quiet place to fish."
+    },
+    {
+      "word": "moho",
+      "irregularForms": null,
+      "sentence": "Hay moho en la pared del baño.",
+      "wordTranslation": "mold",
+      "sentenceTranslation": "There is mold on the bathroom wall."
+    },
+    {
+      "word": "neblina",
+      "irregularForms": null,
+      "sentence": "La neblina hizo difícil ver el camino.",
+      "wordTranslation": "mist",
+      "sentenceTranslation": "The mist made it difficult to see the road."
+    },
+    {
+      "word": "piscina",
+      "irregularForms": null,
+      "sentence": "Vamos a la piscina para nadar.",
+      "wordTranslation": "swimming pool",
+      "sentenceTranslation": "We go to the swimming pool to swim."
+    }
+  ]
+}

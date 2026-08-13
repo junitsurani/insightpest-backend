@@ -1,0 +1,391 @@
+{
+  "name": "Spanish Common Words Set 1 (Next 5000)",
+  "description": "This is part of the next 5000 most common Spanish words (words 5001-10000).",
+  "cards": [
+    {
+      "word": "sensible",
+      "irregularForms": null,
+      "sentence": "Ella es muy sensible a las críticas.",
+      "wordTranslation": "sensitive",
+      "sentenceTranslation": "She is very sensitive to criticism."
+    },
+    {
+      "word": "auténtico",
+      "irregularForms": null,
+      "sentence": "Necesitamos un documento auténtico para proceder.",
+      "wordTranslation": "authentic",
+      "sentenceTranslation": "We need an authentic document to proceed."
+    },
+    {
+      "word": "funcional",
+      "irregularForms": null,
+      "sentence": "El diseño es moderno y funcional al mismo tiempo.",
+      "wordTranslation": "functional",
+      "sentenceTranslation": "The design is modern and functional at the same time."
+    },
+    {
+      "word": "teórico",
+      "irregularForms": null,
+      "sentence": "Su enfoque es más teórico que práctico.",
+      "wordTranslation": "theoretical",
+      "sentenceTranslation": "His approach is more theoretical than practical."
+    },
+    {
+      "word": "orientar",
+      "irregularForms": null,
+      "sentence": "Es importante orientar a los nuevos empleados.",
+      "wordTranslation": "to guide",
+      "sentenceTranslation": "It's important to guide new employees."
+    },
+    {
+      "word": "perceptible",
+      "irregularForms": null,
+      "sentence": "La diferencia es apenas perceptible.",
+      "wordTranslation": "perceptible",
+      "sentenceTranslation": "The difference is barely perceptible."
+    },
+    {
+      "word": "computar",
+      "irregularForms": null,
+      "sentence": "Vamos a computar todas las respuestas.",
+      "wordTranslation": "to compute",
+      "sentenceTranslation": "We will compute all the answers."
+    },
+    {
+      "word": "consideración",
+      "irregularForms": null,
+      "sentence": "Tomaremos en consideración su opinión.",
+      "wordTranslation": "consideration",
+      "sentenceTranslation": "We will take your opinion into consideration."
+    },
+    {
+      "word": "contraste",
+      "irregularForms": null,
+      "sentence": "El contraste entre los colores es muy atractivo.",
+      "wordTranslation": "contrast",
+      "sentenceTranslation": "The contrast between the colors is very attractive."
+    },
+    {
+      "word": "inmensidad",
+      "irregularForms": null,
+      "sentence": "La inmensidad del océano es impresionante.",
+      "wordTranslation": "immensity",
+      "sentenceTranslation": "The immensity of the ocean is amazing."
+    },
+    {
+      "word": "exploración",
+      "irregularForms": null,
+      "sentence": "La exploración espacial ha avanzado mucho en los últimos años.",
+      "wordTranslation": "exploration",
+      "sentenceTranslation": "Space exploration has advanced a lot in recent years."
+    },
+    {
+      "word": "finalidad",
+      "irregularForms": null,
+      "sentence": "La finalidad del proyecto es mejorar la educación.",
+      "wordTranslation": "purpose",
+      "sentenceTranslation": "The purpose of the project is to improve education."
+    },
+    {
+      "word": "disfraz",
+      "irregularForms": null,
+      "sentence": "Ella llevó un disfraz muy creativo a la fiesta.",
+      "wordTranslation": "costume",
+      "sentenceTranslation": "She wore a very creative costume to the party."
+    },
+    {
+      "word": "creación",
+      "irregularForms": null,
+      "sentence": "La creación de nuevas ideas es fundamental en este trabajo.",
+      "wordTranslation": "creation",
+      "sentenceTranslation": "The creation of new ideas is fundamental in this job."
+    },
+    {
+      "word": "estándar",
+      "irregularForms": null,
+      "sentence": "El estándar de calidad es muy alto.",
+      "wordTranslation": "standard",
+      "sentenceTranslation": "The quality standard is very high."
+    },
+    {
+      "word": "construcción",
+      "irregularForms": null,
+      "sentence": "La construcción del puente empezará el próximo mes.",
+      "wordTranslation": "construction",
+      "sentenceTranslation": "The construction of the bridge will start next month."
+    },
+    {
+      "word": "contratación",
+      "irregularForms": null,
+      "sentence": "La contratación de nuevos empleados es esencial.",
+      "wordTranslation": "hiring",
+      "sentenceTranslation": "The hiring of new employees is essential."
+    },
+    {
+      "word": "capacidad",
+      "irregularForms": null,
+      "sentence": "La capacidad del sistema debe ser evaluada.",
+      "wordTranslation": "capacity",
+      "sentenceTranslation": "The capacity of the system must be evaluated."
+    },
+    {
+      "word": "temática",
+      "irregularForms": null,
+      "sentence": "La temática del evento será sobre la conservación.",
+      "wordTranslation": "theme",
+      "sentenceTranslation": "The theme of the event will be about conservation."
+    },
+    {
+      "word": "prioridad",
+      "irregularForms": null,
+      "sentence": "La seguridad es nuestra prioridad absoluta.",
+      "wordTranslation": "priority",
+      "sentenceTranslation": "Safety is our absolute priority."
+    },
+    {
+      "word": "sustitución",
+      "irregularForms": null,
+      "sentence": "La sustitución de la pieza dañada es necesaria.",
+      "wordTranslation": "replacement",
+      "sentenceTranslation": "The replacement of the damaged part is necessary."
+    },
+    {
+      "word": "tolerancia",
+      "irregularForms": null,
+      "sentence": "La tolerancia es fundamental en una sociedad diversa.",
+      "wordTranslation": "tolerance",
+      "sentenceTranslation": "Tolerance is fundamental in a diverse society."
+    },
+    {
+      "word": "monitorear",
+      "irregularForms": null,
+      "sentence": "Es importante monitorear el progreso del proyecto.",
+      "wordTranslation": "to monitor",
+      "sentenceTranslation": "It's important to monitor the project's progress."
+    },
+    {
+      "word": "evidente",
+      "irregularForms": null,
+      "sentence": "Es evidente que necesitamos más recursos.",
+      "wordTranslation": "evident",
+      "sentenceTranslation": "It is evident that we need more resources."
+    },
+    {
+      "word": "provisión",
+      "irregularForms": null,
+      "sentence": "La provisión de materiales es esencial para la construcción.",
+      "wordTranslation": "provision",
+      "sentenceTranslation": "The provision of materials is essential for construction."
+    },
+    {
+      "word": "estabilidad",
+      "irregularForms": null,
+      "sentence": "La estabilidad económica es fundamental para el desarrollo.",
+      "wordTranslation": "stability",
+      "sentenceTranslation": "Economic stability is fundamental for development."
+    },
+    {
+      "word": "transformación",
+      "irregularForms": null,
+      "sentence": "La transformación digital es una necesidad urgente.",
+      "wordTranslation": "transformation",
+      "sentenceTranslation": "Digital transformation is an urgent necessity."
+    },
+    {
+      "word": "requerimiento",
+      "irregularForms": null,
+      "sentence": "El requerimiento para este trabajo es un título universitario.",
+      "wordTranslation": "requirement",
+      "sentenceTranslation": "The requirement for this job is a university degree."
+    },
+    {
+      "word": "revisión",
+      "irregularForms": null,
+      "sentence": "La revisión del informe fue detallada.",
+      "wordTranslation": "revision",
+      "sentenceTranslation": "The revision of the report was detailed."
+    },
+    {
+      "word": "compañía",
+      "irregularForms": null,
+      "sentence": "La compañía está buscando nuevos empleados.",
+      "wordTranslation": "company",
+      "sentenceTranslation": "The company is looking for new employees."
+    },
+    {
+      "word": "observación",
+      "irregularForms": null,
+      "sentence": "La observación cuidadosa puede conducir a mejores resultados.",
+      "wordTranslation": "observation",
+      "sentenceTranslation": "Careful observation can lead to better results."
+    },
+    {
+      "word": "adquisición",
+      "irregularForms": null,
+      "sentence": "La adquisición de nuevos recursos es esencial.",
+      "wordTranslation": "acquisition",
+      "sentenceTranslation": "The acquisition of new resources is essential."
+    },
+    {
+      "word": "impresión",
+      "irregularForms": null,
+      "sentence": "La impresión en 3D está revolucionando la fabricación.",
+      "wordTranslation": "printing",
+      "sentenceTranslation": "3D printing is revolutionizing manufacturing."
+    },
+    {
+      "word": "precisión",
+      "irregularForms": null,
+      "sentence": "La precisión en los datos es crucial para el análisis.",
+      "wordTranslation": "precision",
+      "sentenceTranslation": "Precision in data is crucial for analysis."
+    },
+    {
+      "word": "cubrir",
+      "irregularForms": "cubro, cubres, cubre, cubrimos, cubrís, cubren",
+      "sentence": "Necesitamos cubrir todos los aspectos del proyecto.",
+      "wordTranslation": "to cover",
+      "sentenceTranslation": "We need to cover all aspects of the project."
+    },
+    {
+      "word": "declaración",
+      "irregularForms": null,
+      "sentence": "La declaración oficial se publicará mañana.",
+      "wordTranslation": "statement",
+      "sentenceTranslation": "The official statement will be published tomorrow."
+    },
+    {
+      "word": "elaboración",
+      "irregularForms": null,
+      "sentence": "La elaboración del informe tomará varias semanas.",
+      "wordTranslation": "preparation",
+      "sentenceTranslation": "The preparation of the report will take several weeks."
+    },
+    {
+      "word": "identificación",
+      "irregularForms": null,
+      "sentence": "La identificación es necesaria para el registro.",
+      "wordTranslation": "identification",
+      "sentenceTranslation": "Identification is required for registration."
+    },
+    {
+      "word": "solicitud",
+      "irregularForms": null,
+      "sentence": "La solicitud para el subsidio fue enviada ayer.",
+      "wordTranslation": "application",
+      "sentenceTranslation": "The application for the grant was submitted yesterday."
+    },
+    {
+      "word": "sustentabilidad",
+      "irregularForms": null,
+      "sentence": "La sustentabilidad es clave para el futuro de nuestro planeta.",
+      "wordTranslation": "sustainability",
+      "sentenceTranslation": "Sustainability is key to the future of our planet."
+    },
+    {
+      "word": "aumento",
+      "irregularForms": null,
+      "sentence": "El aumento en las ventas es un buen signo.",
+      "wordTranslation": "increase",
+      "sentenceTranslation": "The increase in sales is a good sign."
+    },
+    {
+      "word": "financiamiento",
+      "irregularForms": null,
+      "sentence": "El financiamiento del proyecto es limitado.",
+      "wordTranslation": "funding",
+      "sentenceTranslation": "The project's funding is limited."
+    },
+    {
+      "word": "variación",
+      "irregularForms": null,
+      "sentence": "Hubo una variación en los resultados del experimento.",
+      "wordTranslation": "variation",
+      "sentenceTranslation": "There was a variation in the experiment's results."
+    },
+    {
+      "word": "prevención",
+      "irregularForms": null,
+      "sentence": "La prevención es mejor que la cura.",
+      "wordTranslation": "prevention",
+      "sentenceTranslation": "Prevention is better than cure."
+    },
+    {
+      "word": "exigencia",
+      "irregularForms": null,
+      "sentence": "Las exigencias del trabajo son altas.",
+      "wordTranslation": "demand",
+      "sentenceTranslation": "The demands of the job are high."
+    },
+    {
+      "word": "explotación",
+      "irregularForms": null,
+      "sentence": "La explotación de recursos naturales debe ser regulada.",
+      "wordTranslation": "exploitation",
+      "sentenceTranslation": "The exploitation of natural resources must be regulated."
+    },
+    {
+      "word": "exhibición",
+      "irregularForms": null,
+      "sentence": "La exhibición de arte contemporáneo es fascinante.",
+      "wordTranslation": "exhibition",
+      "sentenceTranslation": "The contemporary art exhibition is fascinating."
+    },
+    {
+      "word": "aplicación",
+      "irregularForms": null,
+      "sentence": "La aplicación de las leyes es fundamental.",
+      "wordTranslation": "application",
+      "sentenceTranslation": "The application of the laws is fundamental."
+    },
+    {
+      "word": "resolución",
+      "irregularForms": null,
+      "sentence": "La resolución del conflicto es urgente.",
+      "wordTranslation": "resolution",
+      "sentenceTranslation": "The resolution of the conflict is urgent."
+    },
+    {
+      "word": "programación",
+      "irregularForms": null,
+      "sentence": "La programación de la reunión fue difícil.",
+      "wordTranslation": "programming",
+      "sentenceTranslation": "The programming of the meeting was difficult."
+    },
+    {
+      "word": "persuadir",
+      "irregularForms": null,
+      "sentence": "Trata de persuadirlo con argumentos claros.",
+      "wordTranslation": "to persuade",
+      "sentenceTranslation": "Try to persuade him with clear arguments."
+    },
+    {
+      "word": "estense",
+      "irregularForms": null,
+      "sentence": "Estense preparados para cualquier eventualidad.",
+      "wordTranslation": "be prepared",
+      "sentenceTranslation": "Be prepared for any eventuality."
+    },
+    {
+      "word": "disponibilidad",
+      "irregularForms": null,
+      "sentence": "La disponibilidad de recursos es limitada.",
+      "wordTranslation": "availability",
+      "sentenceTranslation": "The availability of resources is limited."
+    },
+    {
+      "word": "resolutiva",
+      "irregularForms": null,
+      "sentence": "Una actitud resolutiva es crucial en tiempos difíciles.",
+      "wordTranslation": "resolutive",
+      "sentenceTranslation": "A resolutive attitude is crucial in difficult times."
+    },
+    {
+      "word": "afirmativo",
+      "irregularForms": null,
+      "sentence": "Su respuesta fue afirmativa y clara.",
+      "wordTranslation": "affirmative",
+      "sentenceTranslation": "His response was affirmative and clear."
+    }
+  ]
+}

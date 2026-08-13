@@ -1,0 +1,930 @@
+{
+  "name": "Spanish Common Words Set 12",
+  "description": "This is part of a larger set of common Spanish words, featuring additional frequently used vocabulary not included in previous sets.",
+  "cards": [
+    {
+      "word": "edad",
+      "irregularForms": null,
+      "sentence": "¿Qué edad tienes?",
+      "wordTranslation": "age",
+      "sentenceTranslation": "How old are you?"
+    },
+    {
+      "word": "bolsa",
+      "irregularForms": null,
+      "sentence": "Necesito una bolsa para la compra.",
+      "wordTranslation": "bag",
+      "sentenceTranslation": "I need a bag for shopping."
+    },
+    {
+      "word": "bufanda",
+      "irregularForms": null,
+      "sentence": "Ponte la bufanda, hace frío.",
+      "wordTranslation": "scarf",
+      "sentenceTranslation": "Put on your scarf, it's cold."
+    },
+    {
+      "word": "cinturón",
+      "irregularForms": null,
+      "sentence": "Apriétate el cinturón de seguridad.",
+      "wordTranslation": "belt",
+      "sentenceTranslation": "Fasten your seatbelt."
+    },
+    {
+      "word": "botón",
+      "irregularForms": null,
+      "sentence": "Se me ha caído un botón de la camisa.",
+      "wordTranslation": "button",
+      "sentenceTranslation": "A button has fallen off my shirt."
+    },
+    {
+      "word": "cremallera",
+      "irregularForms": null,
+      "sentence": "La cremallera de mi chaqueta está rota.",
+      "wordTranslation": "zipper",
+      "sentenceTranslation": "My jacket's zipper is broken."
+    },
+    {
+      "word": "sombrilla",
+      "irregularForms": null,
+      "sentence": "Vamos a la playa, no olvides la sombrilla.",
+      "wordTranslation": "parasol / beach umbrella",
+      "sentenceTranslation": "Let's go to the beach, don't forget the parasol."
+    },
+    {
+      "word": "paraguas",
+      "irregularForms": null,
+      "sentence": "Lleva un paraguas por si llueve.",
+      "wordTranslation": "umbrella",
+      "sentenceTranslation": "Take an umbrella in case it rains."
+    },
+    {
+      "word": "cubo",
+      "irregularForms": null,
+      "sentence": "Los niños juegan con un cubo y una pala en la arena.",
+      "wordTranslation": "bucket",
+      "sentenceTranslation": "The children play with a bucket and a shovel in the sand."
+    },
+    {
+      "word": "tiza",
+      "irregularForms": null,
+      "sentence": "El profesor escribió con tiza en la pizarra.",
+      "wordTranslation": "chalk",
+      "sentenceTranslation": "The teacher wrote with chalk on the blackboard."
+    },
+    {
+      "word": "goma",
+      "irregularForms": null,
+      "sentence": "Necesito una goma para borrar el error.",
+      "wordTranslation": "eraser",
+      "sentenceTranslation": "I need an eraser to correct the mistake."
+    },
+    {
+      "word": "pegamento",
+      "irregularForms": null,
+      "sentence": "Usa pegamento para pegar las dos piezas.",
+      "wordTranslation": "glue",
+      "sentenceTranslation": "Use glue to stick the two pieces together."
+    },
+    {
+      "word": "cuerda",
+      "irregularForms": null,
+      "sentence": "Ató la caja con una cuerda fuerte.",
+      "wordTranslation": "rope / string",
+      "sentenceTranslation": "He tied the box with a strong rope."
+    },
+    {
+      "word": "cadena",
+      "irregularForms": null,
+      "sentence": "El perro está atado con una cadena.",
+      "wordTranslation": "chain",
+      "sentenceTranslation": "The dog is tied with a chain."
+    },
+    {
+      "word": "martillo",
+      "irregularForms": null,
+      "sentence": "Necesito un martillo para clavar esto.",
+      "wordTranslation": "hammer",
+      "sentenceTranslation": "I need a hammer to nail this."
+    },
+    {
+      "word": "clavija",
+      "irregularForms": null,
+      "sentence": "Cuelga el abrigo en la clavija.",
+      "wordTranslation": "peg / hook",
+      "sentenceTranslation": "Hang the coat on the peg."
+    },
+    {
+      "word": "tornillo",
+      "irregularForms": null,
+      "sentence": "Este tornillo está suelto.",
+      "wordTranslation": "screw",
+      "sentenceTranslation": "This screw is loose."
+    },
+    {
+      "word": "destornillador",
+      "irregularForms": null,
+      "sentence": "Pásame el destornillador, por favor.",
+      "wordTranslation": "screwdriver",
+      "sentenceTranslation": "Pass me the screwdriver, please."
+    },
+    {
+      "word": "llave inglesa",
+      "irregularForms": null,
+      "sentence": "Usa la llave inglesa para ajustar la tuerca.",
+      "wordTranslation": "wrench",
+      "sentenceTranslation": "Use the wrench to tighten the nut."
+    },
+    {
+      "word": "sierra",
+      "irregularForms": null,
+      "sentence": "Cortó la madera con una sierra eléctrica.",
+      "wordTranslation": "saw",
+      "sentenceTranslation": "He cut the wood with an electric saw."
+    },
+    {
+      "word": "microondas",
+      "irregularForms": null,
+      "sentence": "Calienta la comida en el microondas.",
+      "wordTranslation": "microwave",
+      "sentenceTranslation": "Heat the food in the microwave."
+    },
+    {
+      "word": "nevera",
+      "irregularForms": null,
+      "sentence": "Guarda la leche en la nevera.",
+      "wordTranslation": "refrigerator",
+      "sentenceTranslation": "Store the milk in the refrigerator."
+    },
+    {
+      "word": "horno",
+      "irregularForms": null,
+      "sentence": "Precalienta el horno a 200 grados.",
+      "wordTranslation": "oven",
+      "sentenceTranslation": "Preheat the oven to 200 degrees."
+    },
+    {
+      "word": "lavadora",
+      "irregularForms": null,
+      "sentence": "La lavadora hace mucho ruido.",
+      "wordTranslation": "washing machine",
+      "sentenceTranslation": "The washing machine is very noisy."
+    },
+    {
+      "word": "secadora",
+      "irregularForms": null,
+      "sentence": "La ropa está en la secadora.",
+      "wordTranslation": "dryer",
+      "sentenceTranslation": "The clothes are in the dryer."
+    },
+    {
+      "word": "aspiradora",
+      "irregularForms": null,
+      "sentence": "Pasa la aspiradora por toda la casa.",
+      "wordTranslation": "vacuum cleaner",
+      "sentenceTranslation": "Vacuum the whole house."
+    },
+    {
+      "word": "cepillo",
+      "irregularForms": null,
+      "sentence": "Usa un cepillo para limpiar los zapatos.",
+      "wordTranslation": "brush",
+      "sentenceTranslation": "Use a brush to clean your shoes."
+    },
+    {
+      "word": "peine",
+      "irregularForms": null,
+      "sentence": "No encuentro mi peine.",
+      "wordTranslation": "comb",
+      "sentenceTranslation": "I can't find my comb."
+    },
+    {
+      "word": "jabón",
+      "irregularForms": null,
+      "sentence": "Lávate las manos con agua y jabón.",
+      "wordTranslation": "soap",
+      "sentenceTranslation": "Wash your hands with soap and water."
+    },
+    {
+      "word": "champú",
+      "irregularForms": null,
+      "sentence": "Me he quedado sin champú.",
+      "wordTranslation": "shampoo",
+      "sentenceTranslation": "I've run out of shampoo."
+    },
+    {
+      "word": "pasta de dientes",
+      "irregularForms": null,
+      "sentence": "No olvides usar pasta de dientes.",
+      "wordTranslation": "toothpaste",
+      "sentenceTranslation": "Don't forget to use toothpaste."
+    },
+    {
+      "word": "cepillo de dientes",
+      "irregularForms": null,
+      "sentence": "Necesito un cepillo de dientes nuevo.",
+      "wordTranslation": "toothbrush",
+      "sentenceTranslation": "I need a new toothbrush."
+    },
+    {
+      "word": "toalla",
+      "irregularForms": null,
+      "sentence": "Coge una toalla limpia del armario.",
+      "wordTranslation": "towel",
+      "sentenceTranslation": "Take a clean towel from the closet."
+    },
+    {
+      "word": "grifo",
+      "irregularForms": null,
+      "sentence": "El grifo está goteando.",
+      "wordTranslation": "faucet / tap",
+      "sentenceTranslation": "The faucet is leaking."
+    },
+    {
+      "word": "inodoro",
+      "irregularForms": null,
+      "sentence": "El inodoro está averiado.",
+      "wordTranslation": "toilet",
+      "sentenceTranslation": "The toilet is broken."
+    },
+    {
+      "word": "ducha",
+      "irregularForms": null,
+      "sentence": "Me voy a dar una ducha rápida.",
+      "wordTranslation": "shower",
+      "sentenceTranslation": "I'm going to take a quick shower."
+    },
+    {
+      "word": "bañera",
+      "irregularForms": null,
+      "sentence": "Prefiero la bañera a la ducha.",
+      "wordTranslation": "bathtub",
+      "sentenceTranslation": "I prefer the bathtub to the shower."
+    },
+    {
+      "word": "camión",
+      "irregularForms": null,
+      "sentence": "Un camión de reparto bloquea la calle.",
+      "wordTranslation": "truck",
+      "sentenceTranslation": "A delivery truck is blocking the street."
+    },
+    {
+      "word": "moto",
+      "irregularForms": null,
+      "sentence": "Compró una moto nueva para ir al trabajo.",
+      "wordTranslation": "motorcycle",
+      "sentenceTranslation": "He bought a new motorcycle to go to work."
+    },
+    {
+      "word": "metro",
+      "irregularForms": null,
+      "sentence": "Vamos en metro, es más rápido.",
+      "wordTranslation": "subway / metro",
+      "sentenceTranslation": "Let's go by subway, it's faster."
+    },
+    {
+      "word": "puente",
+      "irregularForms": null,
+      "sentence": "El puente cruza el río.",
+      "wordTranslation": "bridge",
+      "sentenceTranslation": "The bridge crosses the river."
+    },
+    {
+      "word": "túnel",
+      "irregularForms": null,
+      "sentence": "El tren entró en el túnel oscuro.",
+      "wordTranslation": "tunnel",
+      "sentenceTranslation": "The train entered the dark tunnel."
+    },
+    {
+      "word": "edificio",
+      "irregularForms": null,
+      "sentence": "Este es el edificio más alto de la ciudad.",
+      "wordTranslation": "building",
+      "sentenceTranslation": "This is the tallest building in the city."
+    },
+    {
+      "word": "iglesia",
+      "irregularForms": null,
+      "sentence": "La iglesia antigua es muy bonita.",
+      "wordTranslation": "church",
+      "sentenceTranslation": "The old church is very beautiful."
+    },
+    {
+      "word": "mezquita",
+      "irregularForms": null,
+      "sentence": "Visitamos una mezquita en Marruecos.",
+      "wordTranslation": "mosque",
+      "sentenceTranslation": "We visited a mosque in Morocco."
+    },
+    {
+      "word": "templo",
+      "irregularForms": null,
+      "sentence": "El templo budista está en la colina.",
+      "wordTranslation": "temple",
+      "sentenceTranslation": "The Buddhist temple is on the hill."
+    },
+    {
+      "word": "museo",
+      "irregularForms": null,
+      "sentence": "El museo de arte tiene obras impresionantes.",
+      "wordTranslation": "museum",
+      "sentenceTranslation": "The art museum has impressive works."
+    },
+    {
+      "word": "parque",
+      "irregularForms": null,
+      "sentence": "Los niños juegan en el parque.",
+      "wordTranslation": "park",
+      "sentenceTranslation": "The children play in the park."
+    },
+    {
+      "word": "terremoto",
+      "irregularForms": null,
+      "sentence": "Hubo un fuerte terremoto anoche.",
+      "wordTranslation": "earthquake",
+      "sentenceTranslation": "There was a strong earthquake last night."
+    },
+    {
+      "word": "ciudadano",
+      "irregularForms": null,
+      "sentence": "Todo ciudadano tiene derecho a votar.",
+      "wordTranslation": "citizen",
+      "sentenceTranslation": "Every citizen has the right to vote."
+    },
+    {
+      "word": "sastre",
+      "irregularForms": null,
+      "sentence": "El sastre le hizo un traje a medida.",
+      "wordTranslation": "tailor",
+      "sentenceTranslation": "The tailor made him a custom suit."
+    },
+    {
+      "word": "panadero",
+      "irregularForms": null,
+      "sentence": "El panadero abre su tienda temprano.",
+      "wordTranslation": "baker",
+      "sentenceTranslation": "The baker opens his shop early."
+    },
+    {
+      "word": "florista",
+      "irregularForms": null,
+      "sentence": "La florista preparó un hermoso ramo.",
+      "wordTranslation": "florist",
+      "sentenceTranslation": "The florist prepared a beautiful bouquet."
+    },
+    {
+      "word": "poeta",
+      "irregularForms": null,
+      "sentence": "Pablo Neruda fue un famoso poeta chileno.",
+      "wordTranslation": "poet",
+      "sentenceTranslation": "Pablo Neruda was a famous Chilean poet."
+    },
+    {
+      "word": "escritor",
+      "irregularForms": null,
+      "sentence": "El escritor firmó sus libros a los fans.",
+      "wordTranslation": "writer",
+      "sentenceTranslation": "The writer signed his books for the fans."
+    },
+    {
+      "word": "pintor",
+      "irregularForms": null,
+      "sentence": "El pintor está trabajando en un nuevo cuadro.",
+      "wordTranslation": "painter",
+      "sentenceTranslation": "The painter is working on a new painting."
+    },
+    {
+      "word": "músico",
+      "irregularForms": null,
+      "sentence": "Es un músico talentoso y toca varios instrumentos.",
+      "wordTranslation": "musician",
+      "sentenceTranslation": "He is a talented musician and plays several instruments."
+    },
+    {
+      "word": "bailarín",
+      "irregularForms": null,
+      "sentence": "El bailarín principal tuvo una actuación increíble.",
+      "wordTranslation": "dancer",
+      "sentenceTranslation": "The lead dancer had an incredible performance."
+    },
+    {
+      "word": "granjero",
+      "irregularForms": null,
+      "sentence": "El granjero cultiva trigo en sus tierras.",
+      "wordTranslation": "farmer",
+      "sentenceTranslation": "The farmer grows wheat on his land."
+    },
+    {
+      "word": "carpintero",
+      "irregularForms": null,
+      "sentence": "El carpintero hizo una mesa de madera maciza.",
+      "wordTranslation": "carpenter",
+      "sentenceTranslation": "The carpenter made a solid wood table."
+    },
+    {
+      "word": "plomero",
+      "irregularForms": null,
+      "sentence": "Necesitamos llamar al plomero, hay una fuga.",
+      "wordTranslation": "plumber",
+      "sentenceTranslation": "We need to call the plumber, there's a leak."
+    },
+    {
+      "word": "electricista",
+      "irregularForms": null,
+      "sentence": "El electricista arregló el cableado.",
+      "wordTranslation": "electrician",
+      "sentenceTranslation": "The electrician fixed the wiring."
+    },
+    {
+      "word": "bombero",
+      "irregularForms": null,
+      "sentence": "El bombero rescató al gato del árbol.",
+      "wordTranslation": "firefighter",
+      "sentenceTranslation": "The firefighter rescued the cat from the tree."
+    },
+    {
+      "word": "piloto",
+      "irregularForms": null,
+      "sentence": "Mi hermano es piloto de aviones.",
+      "wordTranslation": "pilot",
+      "sentenceTranslation": "My brother is an airplane pilot."
+    },
+    {
+      "word": "conductor",
+      "irregularForms": null,
+      "sentence": "El conductor del autobús fue muy amable.",
+      "wordTranslation": "driver",
+      "sentenceTranslation": "The bus driver was very kind."
+    },
+    {
+      "word": "marinero",
+      "irregularForms": null,
+      "sentence": "El viejo marinero contó historias del mar.",
+      "wordTranslation": "sailor",
+      "sentenceTranslation": "The old sailor told stories of the sea."
+    },
+    {
+      "word": "alumno",
+      "irregularForms": null,
+      "sentence": "Cada alumno recibió un certificado.",
+      "wordTranslation": "student",
+      "sentenceTranslation": "Each student received a certificate."
+    },
+    {
+      "word": "bibliotecario",
+      "irregularForms": null,
+      "sentence": "El bibliotecario me ayudó a encontrar el libro.",
+      "wordTranslation": "librarian",
+      "sentenceTranslation": "The librarian helped me find the book."
+    },
+    {
+      "word": "dentista",
+      "irregularForms": null,
+      "sentence": "Tengo cita con el dentista mañana.",
+      "wordTranslation": "dentist",
+      "sentenceTranslation": "I have an appointment with the dentist tomorrow."
+    },
+    {
+      "word": "abogado",
+      "irregularForms": null,
+      "sentence": "El abogado defendió a su cliente en el juicio.",
+      "wordTranslation": "lawyer",
+      "sentenceTranslation": "The lawyer defended his client in court."
+    },
+    {
+      "word": "juez",
+      "irregularForms": null,
+      "sentence": "El juez dictó sentencia.",
+      "wordTranslation": "judge",
+      "sentenceTranslation": "The judge passed sentence."
+    },
+    {
+      "word": "periodista",
+      "irregularForms": null,
+      "sentence": "La periodista cubrió la noticia en vivo.",
+      "wordTranslation": "journalist",
+      "sentenceTranslation": "The journalist covered the news live."
+    },
+    {
+      "word": "fotógrafo",
+      "irregularForms": null,
+      "sentence": "Contratamos a un fotógrafo para la boda.",
+      "wordTranslation": "photographer",
+      "sentenceTranslation": "We hired a photographer for the wedding."
+    },
+    {
+      "word": "actor",
+      "irregularForms": null,
+      "sentence": "El actor ganó un premio por su actuación.",
+      "wordTranslation": "actor",
+      "sentenceTranslation": "The actor won an award for his performance."
+    },
+    {
+      "word": "actriz",
+      "irregularForms": null,
+      "sentence": "Ella es una actriz muy versátil.",
+      "wordTranslation": "actress",
+      "sentenceTranslation": "She is a very versatile actress."
+    },
+    {
+      "word": "cantante",
+      "irregularForms": null,
+      "sentence": "La cantante tiene una voz hermosa.",
+      "wordTranslation": "singer",
+      "sentenceTranslation": "The singer has a beautiful voice."
+    },
+    {
+      "word": "deportista",
+      "irregularForms": null,
+      "sentence": "Es un deportista de alto rendimiento.",
+      "wordTranslation": "athlete",
+      "sentenceTranslation": "He is a high-performance athlete."
+    },
+    {
+      "word": "turista",
+      "irregularForms": null,
+      "sentence": "Muchos turistas visitan la ciudad en verano.",
+      "wordTranslation": "tourist",
+      "sentenceTranslation": "Many tourists visit the city in summer."
+    },
+    {
+      "word": "cocer",
+      "irregularForms": "cuezo, cueces, cuece, cocemos, cocéis, cuecen",
+      "sentence": "Debes cocer las verduras hasta que estén tiernas.",
+      "wordTranslation": "to boil / to cook (food)",
+      "sentenceTranslation": "You must boil the vegetables until they are tender."
+    },
+    {
+      "word": "coser",
+      "irregularForms": null,
+      "sentence": "Mi abuela me enseñó a coser a máquina.",
+      "wordTranslation": "to sew",
+      "sentenceTranslation": "My grandmother taught me how to sew by machine."
+    },
+    {
+      "word": "tejer",
+      "irregularForms": null,
+      "sentence": "Ella está tejiendo una manta de lana.",
+      "wordTranslation": "to knit",
+      "sentenceTranslation": "She is knitting a wool blanket."
+    },
+    {
+      "word": "bordar",
+      "irregularForms": null,
+      "sentence": "Le gusta bordar diseños complicados.",
+      "wordTranslation": "to embroider",
+      "sentenceTranslation": "She likes to embroider intricate designs."
+    },
+    {
+      "word": "remar",
+      "irregularForms": null,
+      "sentence": "Fuimos a remar en kayak por el río.",
+      "wordTranslation": "to row",
+      "sentenceTranslation": "We went kayaking down the river."
+    },
+    {
+      "word": "esquiar",
+      "irregularForms": null,
+      "sentence": "Vamos a esquiar en la montaña el próximo invierno.",
+      "wordTranslation": "to ski",
+      "sentenceTranslation": "We are going skiing in the mountains next winter."
+    },
+    {
+      "word": "patinar",
+      "irregularForms": null,
+      "sentence": "Los niños patinan en el parque con sus patines.",
+      "wordTranslation": "to skate",
+      "sentenceTranslation": "The children skate in the park with their skates."
+    },
+    {
+      "word": "escalar",
+      "irregularForms": null,
+      "sentence": "Ellos planean escalar el pico más alto.",
+      "wordTranslation": "to climb",
+      "sentenceTranslation": "They plan to climb the highest peak."
+    },
+    {
+      "word": "bucear",
+      "irregularForms": null,
+      "sentence": "Quiero aprender a bucear en el océano.",
+      "wordTranslation": "to dive / to scuba dive",
+      "sentenceTranslation": "I want to learn to scuba dive in the ocean."
+    },
+    {
+      "word": "malo",
+      "irregularForms": "mal (short form before masculine singular noun)",
+      "sentence": "Es un perro malo si no lo educas.",
+      "wordTranslation": "bad",
+      "sentenceTranslation": "He is a bad dog if you don't train him."
+    },
+    {
+      "word": "hambriento",
+      "irregularForms": null,
+      "sentence": "Después de correr, me sentía hambriento.",
+      "wordTranslation": "hungry",
+      "sentenceTranslation": "After running, I felt hungry."
+    },
+    {
+      "word": "sediento",
+      "irregularForms": null,
+      "sentence": "Estaba sediento después de caminar todo el día.",
+      "wordTranslation": "thirsty",
+      "sentenceTranslation": "I was thirsty after walking all day."
+    },
+    {
+      "word": "simpático",
+      "irregularForms": null,
+      "sentence": "Tu nuevo compañero de trabajo es muy simpático.",
+      "wordTranslation": "nice / friendly",
+      "sentenceTranslation": "Your new coworker is very nice."
+    },
+    {
+      "word": "antipático",
+      "irregularForms": null,
+      "sentence": "No me gusta la gente antipática.",
+      "wordTranslation": "unfriendly / unpleasant",
+      "sentenceTranslation": "I don't like unfriendly people."
+    },
+    {
+      "word": "cobarde",
+      "irregularForms": null,
+      "sentence": "No seas cobarde, di la verdad.",
+      "wordTranslation": "cowardly",
+      "sentenceTranslation": "Don't be a coward, tell the truth."
+    },
+    {
+      "word": "serio",
+      "irregularForms": null,
+      "sentence": "Es una persona muy seria y responsable.",
+      "wordTranslation": "serious",
+      "sentenceTranslation": "He is a very serious and responsible person."
+    },
+    {
+      "word": "gracioso",
+      "irregularForms": null,
+      "sentence": "Contó un chiste muy gracioso.",
+      "wordTranslation": "funny / witty",
+      "sentenceTranslation": "He told a very funny joke."
+    },
+    {
+      "word": "nervioso",
+      "irregularForms": null,
+      "sentence": "Estoy nervioso por mi examen de mañana.",
+      "wordTranslation": "nervous",
+      "sentenceTranslation": "I am nervous about my exam tomorrow."
+    },
+    {
+      "word": "enojado",
+      "irregularForms": null,
+      "sentence": "Mi padre estaba enojado con nosotros.",
+      "wordTranslation": "angry",
+      "sentenceTranslation": "My father was angry with us."
+    },
+    {
+      "word": "sorprendido",
+      "irregularForms": null,
+      "sentence": "Estaba muy sorprendido con la noticia.",
+      "wordTranslation": "surprised",
+      "sentenceTranslation": "I was very surprised by the news."
+    },
+    {
+      "word": "religioso",
+      "irregularForms": null,
+      "sentence": "Mi abuela es una persona muy religiosa.",
+      "wordTranslation": "religious",
+      "sentenceTranslation": "My grandmother is a very religious person."
+    },
+    {
+      "word": "comercial",
+      "irregularForms": null,
+      "sentence": "La zona comercial está llena de tiendas.",
+      "wordTranslation": "commercial",
+      "sentenceTranslation": "The commercial area is full of shops."
+    },
+    {
+      "word": "secundario",
+      "irregularForms": null,
+      "sentence": "Eso es un tema secundario, no lo principal.",
+      "wordTranslation": "secondary",
+      "sentenceTranslation": "That is a secondary issue, not the main one."
+    },
+    {
+      "word": "alrededor",
+      "irregularForms": null,
+      "sentence": "El perro corre alrededor del árbol.",
+      "wordTranslation": "around",
+      "sentenceTranslation": "The dog runs around the tree."
+    },
+    {
+      "word": "parcial",
+      "irregularForms": null,
+      "sentence": "Solo tengo una comprensión parcial del problema.",
+      "wordTranslation": "partial",
+      "sentenceTranslation": "I only have a partial understanding of the problem."
+    },
+    {
+      "word": "raro",
+      "irregularForms": null,
+      "sentence": "Es raro verlo por aquí a estas horas.",
+      "wordTranslation": "rare / strange",
+      "sentenceTranslation": "It's rare to see him around here at this hour."
+    },
+    {
+      "word": "continuo",
+      "irregularForms": null,
+      "sentence": "Hubo un sonido continuo toda la noche.",
+      "wordTranslation": "continuous",
+      "sentenceTranslation": "There was a continuous sound all night."
+    },
+    {
+      "word": "regular",
+      "irregularForms": null,
+      "sentence": "La asistencia a clase es regular.",
+      "wordTranslation": "regular",
+      "sentenceTranslation": "Class attendance is regular."
+    },
+    {
+      "word": "irregular",
+      "irregularForms": null,
+      "sentence": "El clima aquí es muy irregular.",
+      "wordTranslation": "irregular",
+      "sentenceTranslation": "The weather here is very irregular."
+    },
+    {
+      "word": "diverso",
+      "irregularForms": null,
+      "sentence": "Tenemos un grupo diverso de estudiantes.",
+      "wordTranslation": "diverse",
+      "sentenceTranslation": "We have a diverse group of students."
+    },
+    {
+      "word": "parecido",
+      "irregularForms": null,
+      "sentence": "Ella tiene un sombrero parecido al mío.",
+      "wordTranslation": "similar / alike",
+      "sentenceTranslation": "She has a hat similar to mine."
+    },
+    {
+      "word": "conectado",
+      "irregularForms": null,
+      "sentence": "Mi teléfono no está conectado a internet.",
+      "wordTranslation": "connected",
+      "sentenceTranslation": "My phone is not connected to the internet."
+    },
+    {
+      "word": "separado",
+      "irregularForms": null,
+      "sentence": "El pueblo está separado de la ciudad por un río.",
+      "wordTranslation": "separated",
+      "sentenceTranslation": "The town is separated from the city by a river."
+    },
+    {
+      "word": "cubierto",
+      "irregularForms": null,
+      "sentence": "El cielo estaba cubierto de nubes.",
+      "wordTranslation": "covered",
+      "sentenceTranslation": "The sky was covered with clouds."
+    },
+    {
+      "word": "protegido",
+      "irregularForms": null,
+      "sentence": "El área está protegida por la ley.",
+      "wordTranslation": "protected",
+      "sentenceTranslation": "The area is protected by law."
+    },
+    {
+      "word": "expuesto",
+      "irregularForms": null,
+      "sentence": "La mercancía estaba expuesta al sol.",
+      "wordTranslation": "exposed",
+      "sentenceTranslation": "The merchandise was exposed to the sun."
+    },
+    {
+      "word": "visible",
+      "irregularForms": null,
+      "sentence": "Las estrellas eran visibles en la noche clara.",
+      "wordTranslation": "visible",
+      "sentenceTranslation": "The stars were visible in the clear night."
+    },
+    {
+      "word": "invisible",
+      "irregularForms": null,
+      "sentence": "El viento es invisible, pero puedes sentirlo.",
+      "wordTranslation": "invisible",
+      "sentenceTranslation": "The wind is invisible, but you can feel it."
+    },
+    {
+      "word": "ausente",
+      "irregularForms": null,
+      "sentence": "Estuvo ausente de clase por enfermedad.",
+      "wordTranslation": "absent",
+      "sentenceTranslation": "He was absent from class due to illness."
+    },
+    {
+      "word": "incompleto",
+      "irregularForms": null,
+      "sentence": "El informe aún está incompleto.",
+      "wordTranslation": "incomplete",
+      "sentenceTranslation": "The report is still incomplete."
+    },
+    {
+      "word": "adecuado",
+      "irregularForms": null,
+      "sentence": "Esta herramienta es la más adecuada para el trabajo.",
+      "wordTranslation": "adequate / suitable",
+      "sentenceTranslation": "This tool is the most suitable for the job."
+    },
+    {
+      "word": "inadecuado",
+      "irregularForms": null,
+      "sentence": "Su comentario fue inadecuado para la situación.",
+      "wordTranslation": "inadequate / unsuitable",
+      "sentenceTranslation": "His comment was unsuitable for the situation."
+    },
+    {
+      "word": "probable",
+      "irregularForms": null,
+      "sentence": "Es probable que llueva mañana.",
+      "wordTranslation": "probable",
+      "sentenceTranslation": "It is probable that it will rain tomorrow."
+    },
+    {
+      "word": "improbable",
+      "irregularForms": null,
+      "sentence": "Es improbable que gane la lotería.",
+      "wordTranslation": "improbable",
+      "sentenceTranslation": "It's improbable that I will win the lottery."
+    },
+    {
+      "word": "innecesario",
+      "irregularForms": null,
+      "sentence": "Fue un gasto innecesario.",
+      "wordTranslation": "unnecessary",
+      "sentenceTranslation": "It was an unnecessary expense."
+    },
+    {
+      "word": "unimportante",
+      "irregularForms": null,
+      "sentence": "Para ella, el dinero era unimportante.",
+      "wordTranslation": "unimportant",
+      "sentenceTranslation": "For her, money was unimportant."
+    },
+    {
+      "word": "suave",
+      "irregularForms": null,
+      "sentence": "La piel del bebé es muy suave.",
+      "wordTranslation": "soft / smooth",
+      "sentenceTranslation": "The baby's skin is very soft."
+    },
+    {
+      "word": "áspero",
+      "irregularForms": null,
+      "sentence": "La superficie de la roca era áspera.",
+      "wordTranslation": "rough",
+      "sentenceTranslation": "The surface of the rock was rough."
+    },
+    {
+      "word": "fino",
+      "irregularForms": null,
+      "sentence": "Llevaba un vestido de tela fina.",
+      "wordTranslation": "thin / fine",
+      "sentenceTranslation": "She was wearing a dress made of fine fabric."
+    },
+    {
+      "word": "grueso",
+      "irregularForms": null,
+      "sentence": "El libro tiene un lomo muy grueso.",
+      "wordTranslation": "thick",
+      "sentenceTranslation": "The book has a very thick spine."
+    },
+    {
+      "word": "redondo",
+      "irregularForms": null,
+      "sentence": "La mesa del comedor es redonda.",
+      "wordTranslation": "round",
+      "sentenceTranslation": "The dining table is round."
+    },
+    {
+      "word": "triangular",
+      "irregularForms": null,
+      "sentence": "La señal de tráfico era triangular.",
+      "wordTranslation": "triangular",
+      "sentenceTranslation": "The traffic sign was triangular."
+    },
+    {
+      "word": "recto",
+      "irregularForms": null,
+      "sentence": "Sigue recto por esta calle.",
+      "wordTranslation": "straight",
+      "sentenceTranslation": "Go straight down this street."
+    },
+    {
+      "word": "curvo",
+      "irregularForms": null,
+      "sentence": "El camino era largo y curvo.",
+      "wordTranslation": "curved",
+      "sentenceTranslation": "The road was long and curved."
+    }
+  ]
+}

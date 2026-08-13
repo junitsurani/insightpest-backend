@@ -1,0 +1,699 @@
+{
+  "name": "Spanish Common Words Set 15",
+  "description": "This set contains 100 frequently used Spanish words, serving as a continuation of a larger series of common Spanish vocabulary flashcards.",
+  "cards": [
+    {
+      "word": "aquello",
+      "irregularForms": "null",
+      "sentence": "No me gusta aquello que pasó ayer.",
+      "wordTranslation": "that (neuter pronoun)",
+      "sentenceTranslation": "I don't like that which happened yesterday."
+    },
+    {
+      "word": "a veces",
+      "irregularForms": "null",
+      "sentence": "A veces voy al cine con mis amigos.",
+      "wordTranslation": "sometimes",
+      "sentenceTranslation": "Sometimes I go to the cinema with my friends."
+    },
+    {
+      "word": "completar",
+      "irregularForms": "null",
+      "sentence": "Necesito completar este informe para mañana.",
+      "wordTranslation": "to complete",
+      "sentenceTranslation": "I need to complete this report by tomorrow."
+    },
+    {
+      "word": "flotar",
+      "irregularForms": "null",
+      "sentence": "El barco grande puede flotar en el agua.",
+      "wordTranslation": "to float",
+      "sentenceTranslation": "The big boat can float on the water."
+    },
+    {
+      "word": "hundir",
+      "irregularForms": "null",
+      "sentence": "El Titanic se empezó a hundir después de chocar con el iceberg.",
+      "wordTranslation": "to sink",
+      "sentenceTranslation": "The Titanic began to sink after hitting the iceberg."
+    },
+    {
+      "word": "alquilar",
+      "irregularForms": "null",
+      "sentence": "Vamos a alquilar un coche para el viaje.",
+      "wordTranslation": "to rent",
+      "sentenceTranslation": "We are going to rent a car for the trip."
+    },
+    {
+      "word": "prestar",
+      "irregularForms": "null",
+      "sentence": "¿Me puedes prestar tu libro por un día?",
+      "wordTranslation": "to lend",
+      "sentenceTranslation": "Can you lend me your book for a day?"
+    },
+    {
+      "word": "devolver",
+      "irregularForms": "o:ue stem change (devuelvo, devuelves, devuelve...)",
+      "sentence": "Debes devolver los libros a la biblioteca.",
+      "wordTranslation": "to return (something)",
+      "sentenceTranslation": "You must return the books to the library."
+    },
+    {
+      "word": "obligar",
+      "irregularForms": "null",
+      "sentence": "Nadie te puede obligar a hacer algo que no quieres.",
+      "wordTranslation": "to oblige, to force",
+      "sentenceTranslation": "No one can force you to do something you don't want to."
+    },
+    {
+      "word": "lamentar",
+      "irregularForms": "null",
+      "sentence": "Lamento mucho lo que pasó ayer.",
+      "wordTranslation": "to regret, to lament",
+      "sentenceTranslation": "I deeply regret what happened yesterday."
+    },
+    {
+      "word": "aconsejar",
+      "irregularForms": "null",
+      "sentence": "Mi padre siempre me aconseja bien.",
+      "wordTranslation": "to advise",
+      "sentenceTranslation": "My father always advises me well."
+    },
+    {
+      "word": "horrible",
+      "irregularForms": "null",
+      "sentence": "Esa película fue horrible, no me gustó nada.",
+      "wordTranslation": "horrible",
+      "sentenceTranslation": "That movie was horrible, I didn't like it at all."
+    },
+    {
+      "word": "táctil",
+      "irregularForms": "null",
+      "sentence": "La pantalla táctil del teléfono es muy sensible.",
+      "wordTranslation": "tactile, touch (screen)",
+      "sentenceTranslation": "The phone's touch screen is very sensitive."
+    },
+    {
+      "word": "lágrima",
+      "irregularForms": "null",
+      "sentence": "Una lágrima corrió por su mejilla.",
+      "wordTranslation": "tear (drop)",
+      "sentenceTranslation": "A tear ran down her cheek."
+    },
+    {
+      "word": "deseo",
+      "irregularForms": "null",
+      "sentence": "Tengo el deseo de viajar por todo el mundo.",
+      "wordTranslation": "desire, wish",
+      "sentenceTranslation": "I have the desire to travel all over the world."
+    },
+    {
+      "word": "victoria",
+      "irregularForms": "null",
+      "sentence": "Celebraron la victoria de su equipo con mucha alegría.",
+      "wordTranslation": "victory",
+      "sentenceTranslation": "They celebrated their team's victory with great joy."
+    },
+    {
+      "word": "derrota",
+      "irregularForms": "null",
+      "sentence": "La derrota fue difícil de aceptar para el equipo.",
+      "wordTranslation": "defeat",
+      "sentenceTranslation": "The defeat was hard for the team to accept."
+    },
+    {
+      "word": "intención",
+      "irregularForms": "null",
+      "sentence": "Mi intención era ayudarte, no molestarte.",
+      "wordTranslation": "intention",
+      "sentenceTranslation": "My intention was to help you, not to bother you."
+    },
+    {
+      "word": "plan",
+      "irregularForms": "null",
+      "sentence": "Tenemos un plan para el fin de semana.",
+      "wordTranslation": "plan",
+      "sentenceTranslation": "We have a plan for the weekend."
+    },
+    {
+      "word": "realidad",
+      "irregularForms": "null",
+      "sentence": "A veces es difícil distinguir el sueño de la realidad.",
+      "wordTranslation": "reality",
+      "sentenceTranslation": "Sometimes it's difficult to distinguish dream from reality."
+    },
+    {
+      "word": "fe",
+      "irregularForms": "null",
+      "sentence": "Hay que tener fe en tiempos difíciles.",
+      "wordTranslation": "faith",
+      "sentenceTranslation": "One must have faith in difficult times."
+    },
+    {
+      "word": "ventaja",
+      "irregularForms": "null",
+      "sentence": "Ser bilingüe es una gran ventaja en el mercado laboral.",
+      "wordTranslation": "advantage",
+      "sentenceTranslation": "Being bilingual is a great advantage in the job market."
+    },
+    {
+      "word": "desventaja",
+      "irregularForms": "null",
+      "sentence": "Una desventaja de vivir en la ciudad es el ruido.",
+      "wordTranslation": "disadvantage",
+      "sentenceTranslation": "A disadvantage of living in the city is the noise."
+    },
+    {
+      "word": "industria",
+      "irregularForms": "null",
+      "sentence": "La industria automotriz es muy importante en este país.",
+      "wordTranslation": "industry",
+      "sentenceTranslation": "The automotive industry is very important in this country."
+    },
+    {
+      "word": "área",
+      "irregularForms": "null",
+      "sentence": "Esta es un área protegida para la fauna.",
+      "wordTranslation": "area",
+      "sentenceTranslation": "This is a protected area for wildlife."
+    },
+    {
+      "word": "espacio",
+      "irregularForms": "null",
+      "sentence": "Necesito más espacio en mi habitación.",
+      "wordTranslation": "space",
+      "sentenceTranslation": "I need more space in my room."
+    },
+    {
+      "word": "material",
+      "irregularForms": "null",
+      "sentence": "Este material es muy resistente al agua.",
+      "wordTranslation": "material",
+      "sentenceTranslation": "This material is very water resistant."
+    },
+    {
+      "word": "manzana",
+      "irregularForms": "null",
+      "sentence": "Me gusta comer una manzana roja cada día.",
+      "wordTranslation": "apple",
+      "sentenceTranslation": "I like to eat a red apple every day."
+    },
+    {
+      "word": "plátano",
+      "irregularForms": "null",
+      "sentence": "El plátano es una fruta muy nutritiva.",
+      "wordTranslation": "banana",
+      "sentenceTranslation": "The banana is a very nutritious fruit."
+    },
+    {
+      "word": "uva",
+      "irregularForms": "null",
+      "sentence": "Las uvas moradas son mis favoritas.",
+      "wordTranslation": "grape",
+      "sentenceTranslation": "Purple grapes are my favorite."
+    },
+    {
+      "word": "limón",
+      "irregularForms": "null",
+      "sentence": "Este té tiene sabor a limón.",
+      "wordTranslation": "lemon",
+      "sentenceTranslation": "This tea has a lemon flavor."
+    },
+    {
+      "word": "pera",
+      "irregularForms": "null",
+      "sentence": "La pera es una fruta dulce y jugosa.",
+      "wordTranslation": "pear",
+      "sentenceTranslation": "The pear is a sweet and juicy fruit."
+    },
+    {
+      "word": "fresa",
+      "irregularForms": "null",
+      "sentence": "Me encanta el helado de fresa.",
+      "wordTranslation": "strawberry",
+      "sentenceTranslation": "I love strawberry ice cream."
+    },
+    {
+      "word": "cereza",
+      "irregularForms": "null",
+      "sentence": "Las cerezas son una fruta deliciosa de verano.",
+      "wordTranslation": "cherry",
+      "sentenceTranslation": "Cherries are a delicious summer fruit."
+    },
+    {
+      "word": "sandía",
+      "irregularForms": "null",
+      "sentence": "La sandía es perfecta para refrescarse en verano.",
+      "wordTranslation": "watermelon",
+      "sentenceTranslation": "Watermelon is perfect for cooling down in summer."
+    },
+    {
+      "word": "melón",
+      "irregularForms": "null",
+      "sentence": "El melón dulce es mi postre preferido.",
+      "wordTranslation": "melon",
+      "sentenceTranslation": "Sweet melon is my favorite dessert."
+    },
+    {
+      "word": "piña",
+      "irregularForms": "null",
+      "sentence": "La piña es una fruta tropical.",
+      "wordTranslation": "pineapple",
+      "sentenceTranslation": "Pineapple is a tropical fruit."
+    },
+    {
+      "word": "mango",
+      "irregularForms": "null",
+      "sentence": "El zumo de mango es muy refrescante.",
+      "wordTranslation": "mango",
+      "sentenceTranslation": "Mango juice is very refreshing."
+    },
+    {
+      "word": "aguacate",
+      "irregularForms": "null",
+      "sentence": "Me gusta poner aguacate en mis tostadas.",
+      "wordTranslation": "avocado",
+      "sentenceTranslation": "I like to put avocado on my toast."
+    },
+    {
+      "word": "pepino",
+      "irregularForms": "null",
+      "sentence": "Añade pepino a tu ensalada para darle frescura.",
+      "wordTranslation": "cucumber",
+      "sentenceTranslation": "Add cucumber to your salad for freshness."
+    },
+    {
+      "word": "zanahoria",
+      "irregularForms": "null",
+      "sentence": "Las zanahorias son buenas para la vista.",
+      "wordTranslation": "carrot",
+      "sentenceTranslation": "Carrots are good for eyesight."
+    },
+    {
+      "word": "lechuga",
+      "irregularForms": "null",
+      "sentence": "La lechuga es la base de muchas ensaladas.",
+      "wordTranslation": "lettuce",
+      "sentenceTranslation": "Lettuce is the base of many salads."
+    },
+    {
+      "word": "ajo",
+      "irregularForms": "null",
+      "sentence": "El ajo da mucho sabor a la comida.",
+      "wordTranslation": "garlic",
+      "sentenceTranslation": "Garlic adds a lot of flavor to food."
+    },
+    {
+      "word": "caja",
+      "irregularForms": "null",
+      "sentence": "Guarda los juguetes en la caja.",
+      "wordTranslation": "box",
+      "sentenceTranslation": "Put the toys in the box."
+    },
+    {
+      "word": "cajón",
+      "irregularForms": "null",
+      "sentence": "Tengo la ropa doblada en el cajón.",
+      "wordTranslation": "drawer",
+      "sentenceTranslation": "I have the clothes folded in the drawer."
+    },
+    {
+      "word": "cuadro",
+      "irregularForms": "null",
+      "sentence": "Hay un cuadro muy bonito en la pared.",
+      "wordTranslation": "painting, picture, frame",
+      "sentenceTranslation": "There is a very beautiful painting on the wall."
+    },
+    {
+      "word": "teclado",
+      "irregularForms": "null",
+      "sentence": "Necesito un teclado nuevo para mi ordenador.",
+      "wordTranslation": "keyboard",
+      "sentenceTranslation": "I need a new keyboard for my computer."
+    },
+    {
+      "word": "pantalla",
+      "irregularForms": "null",
+      "sentence": "La pantalla del televisor es muy grande.",
+      "wordTranslation": "screen",
+      "sentenceTranslation": "The TV screen is very big."
+    },
+    {
+      "word": "impresora",
+      "irregularForms": "null",
+      "sentence": "La impresora no tiene tinta.",
+      "wordTranslation": "printer",
+      "sentenceTranslation": "The printer is out of ink."
+    },
+    {
+      "word": "cartera",
+      "irregularForms": "null",
+      "sentence": "Se me cayó la cartera al suelo.",
+      "wordTranslation": "wallet, purse",
+      "sentenceTranslation": "My wallet fell to the floor."
+    },
+    {
+      "word": "chaqueta",
+      "irregularForms": "null",
+      "sentence": "Ponte la chaqueta que hace frío.",
+      "wordTranslation": "jacket",
+      "sentenceTranslation": "Put on your jacket, it's cold."
+    },
+    {
+      "word": "traje",
+      "irregularForms": "null",
+      "sentence": "Él llevaba un traje elegante para la boda.",
+      "wordTranslation": "suit (clothing)",
+      "sentenceTranslation": "He was wearing an elegant suit for the wedding."
+    },
+    {
+      "word": "esponja",
+      "irregularForms": "null",
+      "sentence": "Usa una esponja para lavar los platos.",
+      "wordTranslation": "sponge",
+      "sentenceTranslation": "Use a sponge to wash the dishes."
+    },
+    {
+      "word": "hilo",
+      "irregularForms": "null",
+      "sentence": "Necesito hilo y aguja para coser el botón.",
+      "wordTranslation": "thread",
+      "sentenceTranslation": "I need thread and a needle to sew the button."
+    },
+    {
+      "word": "aguja",
+      "irregularForms": "null",
+      "sentence": "Ten cuidado con la aguja, pincha mucho.",
+      "wordTranslation": "needle",
+      "sentenceTranslation": "Be careful with the needle, it pricks a lot."
+    },
+    {
+      "word": "vidrio",
+      "irregularForms": "null",
+      "sentence": "La botella es de vidrio, ten cuidado de no romperla.",
+      "wordTranslation": "glass (material)",
+      "sentenceTranslation": "The bottle is made of glass, be careful not to break it."
+    },
+    {
+      "word": "arena",
+      "irregularForms": "null",
+      "sentence": "Los niños juegan con la arena en la playa.",
+      "wordTranslation": "sand",
+      "sentenceTranslation": "The children play with the sand on the beach."
+    },
+    {
+      "word": "humo",
+      "irregularForms": "null",
+      "sentence": "Había mucho humo saliendo de la chimenea.",
+      "wordTranslation": "smoke",
+      "sentenceTranslation": "There was a lot of smoke coming out of the chimney."
+    },
+    {
+      "word": "hierba",
+      "irregularForms": "null",
+      "sentence": "La hierba del jardín está muy verde.",
+      "wordTranslation": "grass, herb",
+      "sentenceTranslation": "The grass in the garden is very green."
+    },
+    {
+      "word": "ramo",
+      "irregularForms": "null",
+      "sentence": "Le regaló un hermoso ramo de flores.",
+      "wordTranslation": "bouquet",
+      "sentenceTranslation": "He gave her a beautiful bouquet of flowers."
+    },
+    {
+      "word": "barba",
+      "irregularForms": "null",
+      "sentence": "Mi abuelo tiene una barba blanca y larga.",
+      "wordTranslation": "beard",
+      "sentenceTranslation": "My grandfather has a long white beard."
+    },
+    {
+      "word": "bigote",
+      "irregularForms": "null",
+      "sentence": "Mi padre se afeita el bigote cada semana.",
+      "wordTranslation": "mustache",
+      "sentenceTranslation": "My father shaves his mustache every week."
+    },
+    {
+      "word": "pecho",
+      "irregularForms": "null",
+      "sentence": "Se golpeó el pecho al caer.",
+      "wordTranslation": "chest, breast",
+      "sentenceTranslation": "He hit his chest when he fell."
+    },
+    {
+      "word": "vientre",
+      "irregularForms": "null",
+      "sentence": "Le dolía el vientre después de comer tanto.",
+      "wordTranslation": "belly, abdomen",
+      "sentenceTranslation": "His belly ached after eating so much."
+    },
+    {
+      "word": "cadera",
+      "irregularForms": "null",
+      "sentence": "La bailarina movía las caderas al ritmo de la música.",
+      "wordTranslation": "hip",
+      "sentenceTranslation": "The dancer moved her hips to the rhythm of the music."
+    },
+    {
+      "word": "muslo",
+      "irregularForms": "null",
+      "sentence": "Se lesionó el muslo mientras corría.",
+      "wordTranslation": "thigh",
+      "sentenceTranslation": "He injured his thigh while running."
+    },
+    {
+      "word": "pantorrilla",
+      "irregularForms": "null",
+      "sentence": "Siente un calambre en la pantorrilla.",
+      "wordTranslation": "calf (of leg)",
+      "sentenceTranslation": "He feels a cramp in his calf."
+    },
+    {
+      "word": "uña",
+      "irregularForms": "null",
+      "sentence": "Me pinté las uñas de rojo.",
+      "wordTranslation": "nail (fingernail/toenail)",
+      "sentenceTranslation": "I painted my nails red."
+    },
+    {
+      "word": "yerno",
+      "irregularForms": "null",
+      "sentence": "Mi yerno es muy amable con toda la familia.",
+      "wordTranslation": "son-in-law",
+      "sentenceTranslation": "My son-in-law is very kind to the whole family."
+    },
+    {
+      "word": "nuera",
+      "irregularForms": "null",
+      "sentence": "Mi nuera cocina la mejor paella.",
+      "wordTranslation": "daughter-in-law",
+      "sentenceTranslation": "My daughter-in-law cooks the best paella."
+    },
+    {
+      "word": "padrastro",
+      "irregularForms": "null",
+      "sentence": "Mi padrastro es muy bueno conmigo.",
+      "wordTranslation": "stepfather",
+      "sentenceTranslation": "My stepfather is very good to me."
+    },
+    {
+      "word": "madrastra",
+      "irregularForms": "null",
+      "sentence": "La madrastra de Cenicienta era malvada.",
+      "wordTranslation": "stepmother",
+      "sentenceTranslation": "Cinderella's stepmother was wicked."
+    },
+    {
+      "word": "hijastro",
+      "irregularForms": "null",
+      "sentence": "Mi hijo tiene un hijastro de su matrimonio anterior.",
+      "wordTranslation": "stepson",
+      "sentenceTranslation": "My son has a stepson from his previous marriage."
+    },
+    {
+      "word": "hijastra",
+      "irregularForms": "null",
+      "sentence": "Su hijastra es una estudiante muy aplicada.",
+      "wordTranslation": "stepdaughter",
+      "sentenceTranslation": "His stepdaughter is a very diligent student."
+    },
+    {
+      "word": "hermanastro",
+      "irregularForms": "null",
+      "sentence": "Mi hermanastro y yo nos llevamos muy bien.",
+      "wordTranslation": "stepbrother",
+      "sentenceTranslation": "My stepbrother and I get along very well."
+    },
+    {
+      "word": "hermanastra",
+      "irregularForms": "null",
+      "sentence": "Su hermanastra es mayor que ella.",
+      "wordTranslation": "stepsister",
+      "sentenceTranslation": "His stepsister is older than her."
+    },
+    {
+      "word": "bisabuelo",
+      "irregularForms": "null",
+      "sentence": "Mi bisabuelo vivió hasta los cien años.",
+      "wordTranslation": "great-grandfather",
+      "sentenceTranslation": "My great-grandfather lived to be a hundred years old."
+    },
+    {
+      "word": "bisabuela",
+      "irregularForms": "null",
+      "sentence": "Mi bisabuela siempre me contaba historias antiguas.",
+      "wordTranslation": "great-grandmother",
+      "sentenceTranslation": "My great-grandmother always told me old stories."
+    },
+    {
+      "word": "tatarabuelo",
+      "irregularForms": "null",
+      "sentence": "Su tatarabuelo emigró de Europa.",
+      "wordTranslation": "great-great-grandfather",
+      "sentenceTranslation": "His great-great-grandfather emigrated from Europe."
+    },
+    {
+      "word": "pasillo",
+      "irregularForms": "null",
+      "sentence": "El baño está al final del pasillo.",
+      "wordTranslation": "hallway, corridor",
+      "sentenceTranslation": "The bathroom is at the end of the hallway."
+    },
+    {
+      "word": "estantería",
+      "irregularForms": "null",
+      "sentence": "Coloca los libros en la estantería.",
+      "wordTranslation": "bookshelf, shelving unit",
+      "sentenceTranslation": "Place the books on the bookshelf."
+    },
+    {
+      "word": "alfombra",
+      "irregularForms": "null",
+      "sentence": "Hay una alfombra persa en el salón.",
+      "wordTranslation": "rug, carpet",
+      "sentenceTranslation": "There is a Persian rug in the living room."
+    },
+    {
+      "word": "cortina",
+      "irregularForms": "null",
+      "sentence": "Cierra las cortinas para que no entre la luz.",
+      "wordTranslation": "curtain",
+      "sentenceTranslation": "Close the curtains so the light doesn't come in."
+    },
+    {
+      "word": "cojín",
+      "irregularForms": "null",
+      "sentence": "Hay muchos cojines cómodos en el sofá.",
+      "wordTranslation": "cushion, pillow",
+      "sentenceTranslation": "There are many comfortable cushions on the sofa."
+    },
+    {
+      "word": "clavo",
+      "irregularForms": "null",
+      "sentence": "Necesito un martillo y un clavo para colgar el cuadro.",
+      "wordTranslation": "nail (for hammering)",
+      "sentenceTranslation": "I need a hammer and a nail to hang the painting."
+    },
+    {
+      "word": "pincel",
+      "irregularForms": "null",
+      "sentence": "Usa este pincel para pintar los detalles pequeños.",
+      "wordTranslation": "paintbrush",
+      "sentenceTranslation": "Use this paintbrush to paint the small details."
+    },
+    {
+      "word": "borrador",
+      "irregularForms": "null",
+      "sentence": "Tengo que comprar un borrador nuevo para mi lápiz.",
+      "wordTranslation": "eraser",
+      "sentenceTranslation": "I have to buy a new eraser for my pencil."
+    },
+    {
+      "word": "sello",
+      "irregularForms": "null",
+      "sentence": "Necesito un sello para enviar esta carta.",
+      "wordTranslation": "stamp (postage), seal",
+      "sentenceTranslation": "I need a stamp to send this letter."
+    },
+    {
+      "word": "paquete",
+      "irregularForms": "null",
+      "sentence": "Recibí un paquete grande por correo.",
+      "wordTranslation": "package",
+      "sentenceTranslation": "I received a large package by mail."
+    },
+    {
+      "word": "similitud",
+      "irregularForms": "null",
+      "sentence": "Hay una gran similitud entre ambos casos.",
+      "wordTranslation": "similarity",
+      "sentenceTranslation": "There is a great similarity between both cases."
+    },
+    {
+      "word": "origen",
+      "irregularForms": "null",
+      "sentence": "El origen de la palabra es desconocido.",
+      "wordTranslation": "origin",
+      "sentenceTranslation": "The origin of the word is unknown."
+    },
+    {
+      "word": "destino",
+      "irregularForms": "null",
+      "sentence": "Nuestro destino de vacaciones es la playa.",
+      "wordTranslation": "destination, destiny",
+      "sentenceTranslation": "Our vacation destination is the beach."
+    },
+    {
+      "word": "circunstancia",
+      "irregularForms": "null",
+      "sentence": "Bajo ninguna circunstancia debes abrir la puerta.",
+      "wordTranslation": "circumstance",
+      "sentenceTranslation": "Under no circumstances should you open the door."
+    },
+    {
+      "word": "motivo",
+      "irregularForms": "null",
+      "sentence": "¿Cuál es el motivo de tu visita?",
+      "wordTranslation": "reason, motive",
+      "sentenceTranslation": "What is the reason for your visit?"
+    },
+    {
+      "word": "respeto",
+      "irregularForms": "null",
+      "sentence": "Debemos mostrar respeto por los mayores.",
+      "wordTranslation": "respect",
+      "sentenceTranslation": "We must show respect for elders."
+    },
+    {
+      "word": "enfado",
+      "irregularForms": "null",
+      "sentence": "Su enfado era evidente por su tono de voz.",
+      "wordTranslation": "anger",
+      "sentenceTranslation": "His anger was evident from his tone of voice."
+    },
+    {
+      "word": "culpa",
+      "irregularForms": "null",
+      "sentence": "Fue su culpa, no la mía.",
+      "wordTranslation": "fault, guilt",
+      "sentenceTranslation": "It was his fault, not mine."
+    },
+    {
+      "word": "secreto",
+      "irregularForms": "null",
+      "sentence": "Te voy a contar un secreto, pero no se lo digas a nadie.",
+      "wordTranslation": "secret",
+      "sentenceTranslation": "I'm going to tell you a secret, but don't tell anyone."
+    },
+    {
+      "word": "desafío",
+      "irregularForms": "null",
+      "sentence": "Este proyecto es un gran desafío para nosotros.",
+      "wordTranslation": "challenge",
+      "sentenceTranslation": "This project is a big challenge for us."
+    }
+  ]
+}

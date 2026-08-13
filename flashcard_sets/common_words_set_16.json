@@ -1,0 +1,741 @@
+{
+  "name": "Spanish Common Words Set 16",
+  "description": "This set is part of a larger collection of common Spanish words, focusing on frequently used vocabulary not included in previous sets.",
+  "cards": [
+    {
+      "word": "Día",
+      "irregularForms": null,
+      "sentence": "El día de hoy es muy soleado.",
+      "wordTranslation": "Day",
+      "sentenceTranslation": "Today's day is very sunny."
+    },
+    {
+      "word": "Señor",
+      "irregularForms": null,
+      "sentence": "Buenos días, señor López.",
+      "wordTranslation": "Mr. / Sir",
+      "sentenceTranslation": "Good morning, Mr. Lopez."
+    },
+    {
+      "word": "Escoger",
+      "irregularForms": "escojo",
+      "sentence": "Debo escoger qué vestido usar para la fiesta.",
+      "wordTranslation": "to choose",
+      "sentenceTranslation": "I must choose which dress to wear for the party."
+    },
+    {
+      "word": "Corregir",
+      "irregularForms": "corrijo",
+      "sentence": "La maestra va a corregir nuestros exámenes.",
+      "wordTranslation": "to correct",
+      "sentenceTranslation": "The teacher is going to correct our exams."
+    },
+    {
+      "word": "Combatir",
+      "irregularForms": null,
+      "sentence": "Es importante combatir la pobreza en el mundo.",
+      "wordTranslation": "to fight",
+      "sentenceTranslation": "It's important to fight poverty in the world."
+    },
+    {
+      "word": "Enfrentar",
+      "irregularForms": null,
+      "sentence": "Tenemos que enfrentar la situación con valentía.",
+      "wordTranslation": "to face",
+      "sentenceTranslation": "We have to face the situation with courage."
+    },
+    {
+      "word": "Evaluar",
+      "irregularForms": null,
+      "sentence": "El comité se reúne para evaluar el proyecto.",
+      "wordTranslation": "to evaluate",
+      "sentenceTranslation": "The committee meets to evaluate the project."
+    },
+    {
+      "word": "Argumentar",
+      "irregularForms": null,
+      "sentence": "Necesitamos aprender a argumentar nuestras ideas.",
+      "wordTranslation": "to argue / to reason",
+      "sentenceTranslation": "We need to learn how to argue our ideas."
+    },
+    {
+      "word": "Persuadir",
+      "irregularForms": null,
+      "sentence": "Intentó persuadirme para que fuera a la fiesta.",
+      "wordTranslation": "to persuade",
+      "sentenceTranslation": "He tried to persuade me to go to the party."
+    },
+    {
+      "word": "Excluir",
+      "irregularForms": "excluyo",
+      "sentence": "No debemos excluir a nadie del grupo.",
+      "wordTranslation": "to exclude",
+      "sentenceTranslation": "We should not exclude anyone from the group."
+    },
+    {
+      "word": "Aprobar",
+      "irregularForms": "apruebo",
+      "sentence": "Espero aprobar el examen de matemáticas.",
+      "wordTranslation": "to approve / to pass (an exam)",
+      "sentenceTranslation": "I hope to pass the math exam."
+    },
+    {
+      "word": "Sufrir",
+      "irregularForms": null,
+      "sentence": "Muchas personas sufren de alergias estacionales.",
+      "wordTranslation": "to suffer",
+      "sentenceTranslation": "Many people suffer from seasonal allergies."
+    },
+    {
+      "word": "Bañarse",
+      "irregularForms": null,
+      "sentence": "Me gusta bañarse en la piscina después del trabajo.",
+      "wordTranslation": "to bathe oneself",
+      "sentenceTranslation": "I like to bathe in the pool after work."
+    },
+    {
+      "word": "Cepillar",
+      "irregularForms": null,
+      "sentence": "Recuerda cepillar tu cabello antes de dormir.",
+      "wordTranslation": "to brush",
+      "sentenceTranslation": "Remember to brush your hair before sleeping."
+    },
+    {
+      "word": "Enfadar",
+      "irregularForms": null,
+      "sentence": "Su actitud suele enfadar a la gente.",
+      "wordTranslation": "to anger / to annoy",
+      "sentenceTranslation": "His attitude usually angers people."
+    },
+    {
+      "word": "Lanzar",
+      "irregularForms": null,
+      "sentence": "El atleta va a lanzar la jabalina lejos.",
+      "wordTranslation": "to throw / to launch",
+      "sentenceTranslation": "The athlete is going to throw the javelin far."
+    },
+    {
+      "word": "Adoptar",
+      "irregularForms": null,
+      "sentence": "Queremos adoptar un perro de la protectora.",
+      "wordTranslation": "to adopt",
+      "sentenceTranslation": "We want to adopt a dog from the shelter."
+    },
+    {
+      "word": "Divertirse",
+      "irregularForms": "me divierto",
+      "sentence": "Los niños se divierten mucho en el parque.",
+      "wordTranslation": "to have fun",
+      "sentenceTranslation": "The children have a lot of fun at the park."
+    },
+    {
+      "word": "Culpar",
+      "irregularForms": null,
+      "sentence": "No podemos culpar a nadie por lo que pasó.",
+      "wordTranslation": "to blame",
+      "sentenceTranslation": "We cannot blame anyone for what happened."
+    },
+    {
+      "word": "Programar",
+      "irregularForms": null,
+      "sentence": "Debo programar una reunión para la próxima semana.",
+      "wordTranslation": "to program / to schedule",
+      "sentenceTranslation": "I must schedule a meeting for next week."
+    },
+    {
+      "word": "Supervisar",
+      "irregularForms": null,
+      "sentence": "Mi trabajo es supervisar el equipo y los proyectos.",
+      "wordTranslation": "to supervise",
+      "sentenceTranslation": "My job is to supervise the team and the projects."
+    },
+    {
+      "word": "Administrar",
+      "irregularForms": null,
+      "sentence": "Aprender a administrar tu tiempo es clave.",
+      "wordTranslation": "to administer / to manage",
+      "sentenceTranslation": "Learning to manage your time is key."
+    },
+    {
+      "word": "Promover",
+      "irregularForms": "promuevo",
+      "sentence": "La campaña busca promover la lectura entre los jóvenes.",
+      "wordTranslation": "to promote",
+      "sentenceTranslation": "The campaign seeks to promote reading among young people."
+    },
+    {
+      "word": "Implementar",
+      "irregularForms": null,
+      "sentence": "Es hora de implementar los nuevos cambios.",
+      "wordTranslation": "to implement",
+      "sentenceTranslation": "It's time to implement the new changes."
+    },
+    {
+      "word": "Reproducir",
+      "irregularForms": "reproduzco",
+      "sentence": "Esta máquina puede reproducir documentos a color.",
+      "wordTranslation": "to reproduce / to play (audio/video)",
+      "sentenceTranslation": "This machine can reproduce documents in color."
+    },
+    {
+      "word": "Aumentar",
+      "irregularForms": null,
+      "sentence": "La demanda de este producto no deja de aumentar.",
+      "wordTranslation": "to increase",
+      "sentenceTranslation": "The demand for this product keeps increasing."
+    },
+    {
+      "word": "Disminuir",
+      "irregularForms": "disminuyo",
+      "sentence": "Espero que la lluvia disminuya pronto.",
+      "wordTranslation": "to decrease",
+      "sentenceTranslation": "I hope the rain decreases soon."
+    },
+    {
+      "word": "Alertar",
+      "irregularForms": null,
+      "sentence": "Debemos alertar a la policía sobre esta situación.",
+      "wordTranslation": "to alert",
+      "sentenceTranslation": "We must alert the police about this situation."
+    },
+    {
+      "word": "Advertir",
+      "irregularForms": "advierto",
+      "sentence": "Te advierto que el camino es peligroso.",
+      "wordTranslation": "to warn",
+      "sentenceTranslation": "I warn you that the road is dangerous."
+    },
+    {
+      "word": "Exponer",
+      "irregularForms": "expongo",
+      "sentence": "Vamos a exponer nuestras ideas al público.",
+      "wordTranslation": "to expose",
+      "sentenceTranslation": "We are going to expose our ideas to the public."
+    },
+    {
+      "word": "Revelar",
+      "irregularForms": null,
+      "sentence": "La investigación va a revelar la verdad.",
+      "wordTranslation": "to reveal",
+      "sentenceTranslation": "The investigation will reveal the truth."
+    },
+    {
+      "word": "Navegar",
+      "irregularForms": null,
+      "sentence": "Me gusta navegar por internet en mi tiempo libre.",
+      "wordTranslation": "to navigate / to browse",
+      "sentenceTranslation": "I like to browse the internet in my free time."
+    },
+    {
+      "word": "Localizar",
+      "irregularForms": null,
+      "sentence": "Necesitamos localizar el punto de encuentro.",
+      "wordTranslation": "to locate",
+      "sentenceTranslation": "We need to locate the meeting point."
+    },
+    {
+      "word": "Registrar",
+      "irregularForms": null,
+      "sentence": "Debe registrarse antes de entrar al evento.",
+      "wordTranslation": "to register / to record",
+      "sentenceTranslation": "You must register before entering the event."
+    },
+    {
+      "word": "Almacenar",
+      "irregularForms": null,
+      "sentence": "Puedes almacenar tus archivos en la nube.",
+      "wordTranslation": "to store",
+      "sentenceTranslation": "You can store your files in the cloud."
+    },
+    {
+      "word": "Degustar",
+      "irregularForms": null,
+      "sentence": "Vamos a degustar los vinos de la región.",
+      "wordTranslation": "to taste / to savor",
+      "sentenceTranslation": "We are going to taste the wines of the region."
+    },
+    {
+      "word": "Merendar",
+      "irregularForms": "meriendas",
+      "sentence": "Por la tarde, me gusta merendar con mis amigos.",
+      "wordTranslation": "to snack (in the afternoon)",
+      "sentenceTranslation": "In the afternoon, I like to snack with my friends."
+    },
+    {
+      "word": "Brindar",
+      "irregularForms": null,
+      "sentence": "Quiero brindar por tu éxito en el nuevo trabajo.",
+      "wordTranslation": "to toast / to offer",
+      "sentenceTranslation": "I want to toast to your success in the new job."
+    },
+    {
+      "word": "Promocionar",
+      "irregularForms": null,
+      "sentence": "La empresa va a promocionar su nuevo producto.",
+      "wordTranslation": "to promote",
+      "sentenceTranslation": "The company is going to promote its new product."
+    },
+    {
+      "word": "Injusto",
+      "irregularForms": null,
+      "sentence": "Me parece que es una situación muy injusta.",
+      "wordTranslation": "unfair",
+      "sentenceTranslation": "It seems to me that it is a very unfair situation."
+    },
+    {
+      "word": "Esfuerzo",
+      "irregularForms": null,
+      "sentence": "Con mucho esfuerzo, logramos terminar el proyecto.",
+      "wordTranslation": "effort",
+      "sentenceTranslation": "With a lot of effort, we managed to finish the project."
+    },
+    {
+      "word": "Logro",
+      "irregularForms": null,
+      "sentence": "Conseguir este diploma es un gran logro para mí.",
+      "wordTranslation": "achievement",
+      "sentenceTranslation": "Getting this diploma is a great achievement for me."
+    },
+    {
+      "word": "Propuesta",
+      "irregularForms": null,
+      "sentence": "Ella presentó una propuesta interesante para el negocio.",
+      "wordTranslation": "proposal",
+      "sentenceTranslation": "She presented an interesting proposal for the business."
+    },
+    {
+      "word": "Acuerdo",
+      "irregularForms": null,
+      "sentence": "Llegamos a un acuerdo después de una larga discusión.",
+      "wordTranslation": "agreement",
+      "sentenceTranslation": "We reached an agreement after a long discussion."
+    },
+    {
+      "word": "Desacuerdo",
+      "irregularForms": null,
+      "sentence": "Existe un desacuerdo entre las dos partes.",
+      "wordTranslation": "disagreement",
+      "sentenceTranslation": "There is a disagreement between the two parties."
+    },
+    {
+      "word": "Criterio",
+      "irregularForms": null,
+      "sentence": "Mi criterio para elegir es la calidad.",
+      "wordTranslation": "criterion / judgment",
+      "sentenceTranslation": "My criterion for choosing is quality."
+    },
+    {
+      "word": "Enfoque",
+      "irregularForms": null,
+      "sentence": "Necesitamos un nuevo enfoque para resolver este problema.",
+      "wordTranslation": "approach / focus",
+      "sentenceTranslation": "We need a new approach to solve this problem."
+    },
+    {
+      "word": "Perspectiva",
+      "irregularForms": null,
+      "sentence": "Intenta ver la situación desde otra perspectiva.",
+      "wordTranslation": "perspective",
+      "sentenceTranslation": "Try to see the situation from another perspective."
+    },
+    {
+      "word": "Progreso",
+      "irregularForms": null,
+      "sentence": "El equipo ha hecho un gran progreso este mes.",
+      "wordTranslation": "progress",
+      "sentenceTranslation": "The team has made great progress this month."
+    },
+    {
+      "word": "Mejora",
+      "irregularForms": null,
+      "sentence": "Siempre busco la mejora continua en mi trabajo.",
+      "wordTranslation": "improvement",
+      "sentenceTranslation": "I always look for continuous improvement in my work."
+    },
+    {
+      "word": "Necesidad",
+      "irregularForms": null,
+      "sentence": "La necesidad de agua potable es fundamental.",
+      "wordTranslation": "need",
+      "sentenceTranslation": "The need for drinking water is fundamental."
+    },
+    {
+      "word": "Texto",
+      "irregularForms": null,
+      "sentence": "Envía un texto si llegas tarde.",
+      "wordTranslation": "text",
+      "sentenceTranslation": "Send a text if you're late."
+    },
+    {
+      "word": "Cuento",
+      "irregularForms": null,
+      "sentence": "Me gusta leer un cuento antes de dormir.",
+      "wordTranslation": "story / tale",
+      "sentenceTranslation": "I like to read a story before sleeping."
+    },
+    {
+      "word": "Poema",
+      "irregularForms": null,
+      "sentence": "Este poema expresa un sentimiento profundo.",
+      "wordTranslation": "poem",
+      "sentenceTranslation": "This poem expresses a deep feeling."
+    },
+    {
+      "word": "Verso",
+      "irregularForms": null,
+      "sentence": "El primer verso del poema es muy emotivo.",
+      "wordTranslation": "verse",
+      "sentenceTranslation": "The first verse of the poem is very emotional."
+    },
+    {
+      "word": "Estrofa",
+      "irregularForms": null,
+      "sentence": "Cada estrofa de la canción tiene un ritmo diferente.",
+      "wordTranslation": "stanza",
+      "sentenceTranslation": "Each stanza of the song has a different rhythm."
+    },
+    {
+      "word": "Rima",
+      "irregularForms": null,
+      "sentence": "Las palabras 'casa' y 'masa' hacen buena rima.",
+      "wordTranslation": "rhyme",
+      "sentenceTranslation": "The words 'casa' and 'masa' make a good rhyme."
+    },
+    {
+      "word": "Lectura",
+      "irregularForms": null,
+      "sentence": "La lectura es una actividad relajante para muchos.",
+      "wordTranslation": "reading",
+      "sentenceTranslation": "Reading is a relaxing activity for many."
+    },
+    {
+      "word": "Escritura",
+      "irregularForms": null,
+      "sentence": "Su escritura es muy clara y fácil de entender.",
+      "wordTranslation": "writing",
+      "sentenceTranslation": "His writing is very clear and easy to understand."
+    },
+    {
+      "word": "Discurso",
+      "irregularForms": null,
+      "sentence": "El presidente dio un discurso inspirador.",
+      "wordTranslation": "speech / discourse",
+      "sentenceTranslation": "The president gave an inspiring speech."
+    },
+    {
+      "word": "Charla",
+      "irregularForms": null,
+      "sentence": "Tuvimos una charla agradable sobre el futuro.",
+      "wordTranslation": "chat / talk",
+      "sentenceTranslation": "We had a nice chat about the future."
+    },
+    {
+      "word": "Entrevista",
+      "irregularForms": null,
+      "sentence": "Conseguí una entrevista de trabajo para el lunes.",
+      "wordTranslation": "interview",
+      "sentenceTranslation": "I got a job interview for Monday."
+    },
+    {
+      "word": "Reportaje",
+      "irregularForms": null,
+      "sentence": "El reportaje investigó la corrupción en la ciudad.",
+      "wordTranslation": "report / feature (journalism)",
+      "sentenceTranslation": "The report investigated corruption in the city."
+    },
+    {
+      "word": "Crítica",
+      "irregularForms": null,
+      "sentence": "La película recibió una crítica excelente.",
+      "wordTranslation": "criticism / review",
+      "sentenceTranslation": "The movie received an excellent review."
+    },
+    {
+      "word": "Debate",
+      "irregularForms": null,
+      "sentence": "El debate político fue muy intenso.",
+      "wordTranslation": "debate",
+      "sentenceTranslation": "The political debate was very intense."
+    },
+    {
+      "word": "Conferencia",
+      "irregularForms": null,
+      "sentence": "Asistí a una conferencia sobre nuevas tecnologías.",
+      "wordTranslation": "conference",
+      "sentenceTranslation": "I attended a conference on new technologies."
+    },
+    {
+      "word": "Festival",
+      "irregularForms": null,
+      "sentence": "Cada año celebramos un festival de música en verano.",
+      "wordTranslation": "festival",
+      "sentenceTranslation": "Every year we celebrate a music festival in summer."
+    },
+    {
+      "word": "Concierto",
+      "irregularForms": null,
+      "sentence": "Fuimos al concierto de nuestra banda favorita.",
+      "wordTranslation": "concert",
+      "sentenceTranslation": "We went to our favorite band's concert."
+    },
+    {
+      "word": "Exposición",
+      "irregularForms": null,
+      "sentence": "Hay una nueva exposición de arte en el museo.",
+      "wordTranslation": "exhibition",
+      "sentenceTranslation": "There is a new art exhibition at the museum."
+    },
+    {
+      "word": "Galería",
+      "irregularForms": null,
+      "sentence": "La galería de arte está en el centro de la ciudad.",
+      "wordTranslation": "gallery",
+      "sentenceTranslation": "The art gallery is in the city center."
+    },
+    {
+      "word": "Estilo",
+      "irregularForms": null,
+      "sentence": "Me gusta tu estilo de vestir, es muy original.",
+      "wordTranslation": "style",
+      "sentenceTranslation": "I like your dressing style, it's very original."
+    },
+    {
+      "word": "Tendencia",
+      "irregularForms": null,
+      "sentence": "La tendencia actual es hacia lo natural.",
+      "wordTranslation": "trend",
+      "sentenceTranslation": "The current trend is towards natural things."
+    },
+    {
+      "word": "Estructura",
+      "irregularForms": null,
+      "sentence": "La estructura del edificio es muy sólida.",
+      "wordTranslation": "structure",
+      "sentenceTranslation": "The building's structure is very solid."
+    },
+    {
+      "word": "Avance",
+      "irregularForms": null,
+      "sentence": "Este descubrimiento representa un gran avance científico.",
+      "wordTranslation": "advance",
+      "sentenceTranslation": "This discovery represents a great scientific advance."
+    },
+    {
+      "word": "Retraso",
+      "irregularForms": null,
+      "sentence": "El vuelo sufrió un retraso de dos horas.",
+      "wordTranslation": "delay",
+      "sentenceTranslation": "The flight experienced a two-hour delay."
+    },
+    {
+      "word": "Dato",
+      "irregularForms": null,
+      "sentence": "Necesitamos más datos para tomar una decisión informada.",
+      "wordTranslation": "data / fact",
+      "sentenceTranslation": "We need more data to make an informed decision."
+    },
+    {
+      "word": "Atleta",
+      "irregularForms": null,
+      "sentence": "El atleta entrenó duro para la competición.",
+      "wordTranslation": "athlete",
+      "sentenceTranslation": "The athlete trained hard for the competition."
+    },
+    {
+      "word": "Pasajero",
+      "irregularForms": null,
+      "sentence": "El tren estaba lleno de pasajeros.",
+      "wordTranslation": "passenger",
+      "sentenceTranslation": "The train was full of passengers."
+    },
+    {
+      "word": "Equipaje",
+      "irregularForms": null,
+      "sentence": "No olvides tu equipaje al bajar del avión.",
+      "wordTranslation": "luggage",
+      "sentenceTranslation": "Don't forget your luggage when getting off the plane."
+    },
+    {
+      "word": "Terminal",
+      "irregularForms": null,
+      "sentence": "Nos vemos en la terminal 3 del aeropuerto.",
+      "wordTranslation": "terminal",
+      "sentenceTranslation": "See you at Terminal 3 of the airport."
+    },
+    {
+      "word": "Vuelo",
+      "irregularForms": null,
+      "sentence": "Mi vuelo sale a las siete de la mañana.",
+      "wordTranslation": "flight",
+      "sentenceTranslation": "My flight departs at seven in the morning."
+    },
+    {
+      "word": "Despegue",
+      "irregularForms": null,
+      "sentence": "El despegue fue suave y sin problemas.",
+      "wordTranslation": "takeoff",
+      "sentenceTranslation": "The takeoff was smooth and without problems."
+    },
+    {
+      "word": "Aterrizaje",
+      "irregularForms": null,
+      "sentence": "El aterrizaje del avión fue perfecto.",
+      "wordTranslation": "landing",
+      "sentenceTranslation": "The plane's landing was perfect."
+    },
+    {
+      "word": "Reserva",
+      "irregularForms": null,
+      "sentence": "Hice una reserva en el restaurante para esta noche.",
+      "wordTranslation": "reservation",
+      "sentenceTranslation": "I made a reservation at the restaurant for tonight."
+    },
+    {
+      "word": "Alojamiento",
+      "irregularForms": null,
+      "sentence": "Buscamos alojamiento económico para nuestras vacaciones.",
+      "wordTranslation": "accommodation",
+      "sentenceTranslation": "We are looking for affordable accommodation for our vacation."
+    },
+    {
+      "word": "Músculo",
+      "irregularForms": null,
+      "sentence": "Se me tensó un músculo en la pierna al correr.",
+      "wordTranslation": "muscle",
+      "sentenceTranslation": "A muscle in my leg tensed up while running."
+    },
+    {
+      "word": "Órgano",
+      "irregularForms": null,
+      "sentence": "El corazón es un órgano vital.",
+      "wordTranslation": "organ",
+      "sentenceTranslation": "The heart is a vital organ."
+    },
+    {
+      "word": "Nervio",
+      "irregularForms": null,
+      "sentence": "Sentí un pellizco en un nervio del cuello.",
+      "wordTranslation": "nerve",
+      "sentenceTranslation": "I felt a pinch in a nerve in my neck."
+    },
+    {
+      "word": "Hígado",
+      "irregularForms": null,
+      "sentence": "El hígado es importante para la digestión.",
+      "wordTranslation": "liver",
+      "sentenceTranslation": "The liver is important for digestion."
+    },
+    {
+      "word": "Riñón",
+      "irregularForms": null,
+      "sentence": "Los riñones filtran la sangre en el cuerpo.",
+      "wordTranslation": "kidney",
+      "sentenceTranslation": "Kidneys filter blood in the body."
+    },
+    {
+      "word": "Garganta",
+      "irregularForms": null,
+      "sentence": "Me duele la garganta, creo que tengo gripe.",
+      "wordTranslation": "throat",
+      "sentenceTranslation": "My throat hurts, I think I have the flu."
+    },
+    {
+      "word": "Mejilla",
+      "irregularForms": null,
+      "sentence": "Ella le dio un beso en la mejilla.",
+      "wordTranslation": "cheek",
+      "sentenceTranslation": "She gave him a kiss on the cheek."
+    },
+    {
+      "word": "Ceja",
+      "irregularForms": null,
+      "sentence": "Tiene una cicatriz pequeña en la ceja izquierda.",
+      "wordTranslation": "eyebrow",
+      "sentenceTranslation": "He has a small scar on his left eyebrow."
+    },
+    {
+      "word": "Pestaña",
+      "irregularForms": null,
+      "sentence": "Se le cayó una pestaña y pidió un deseo.",
+      "wordTranslation": "eyelash",
+      "sentenceTranslation": "An eyelash fell out and he made a wish."
+    },
+    {
+      "word": "Labio",
+      "irregularForms": null,
+      "sentence": "Se mordió el labio para no reírse.",
+      "wordTranslation": "lip",
+      "sentenceTranslation": "He bit his lip not to laugh."
+    },
+    {
+      "word": "Encía",
+      "irregularForms": null,
+      "sentence": "Me sangra una encía cuando me cepillo los dientes.",
+      "wordTranslation": "gum (mouth)",
+      "sentenceTranslation": "One of my gums bleeds when I brush my teeth."
+    },
+    {
+      "word": "Mandíbula",
+      "irregularForms": null,
+      "sentence": "Sentí un dolor en la mandíbula después de masticar.",
+      "wordTranslation": "jaw",
+      "sentenceTranslation": "I felt a pain in my jaw after chewing."
+    },
+    {
+      "word": "Horario",
+      "irregularForms": null,
+      "sentence": "Consulta el horario de trenes para tu viaje.",
+      "wordTranslation": "schedule",
+      "sentenceTranslation": "Check the train schedule for your trip."
+    },
+    {
+      "word": "Agenda",
+      "irregularForms": null,
+      "sentence": "Tengo la agenda llena para esta semana.",
+      "wordTranslation": "agenda / planner",
+      "sentenceTranslation": "I have a full schedule for this week."
+    },
+    {
+      "word": "Estrategia",
+      "irregularForms": null,
+      "sentence": "Necesitamos una estrategia clara para ganar el partido.",
+      "wordTranslation": "strategy",
+      "sentenceTranslation": "We need a clear strategy to win the game."
+    },
+    {
+      "word": "Compañero",
+      "irregularForms": null,
+      "sentence": "Mi compañero de trabajo me ayudó mucho.",
+      "wordTranslation": "companion / colleague",
+      "sentenceTranslation": "My coworker helped me a lot."
+    },
+    {
+      "word": "Miembro",
+      "irregularForms": null,
+      "sentence": "Cada miembro del equipo es fundamental.",
+      "wordTranslation": "member",
+      "sentenceTranslation": "Each team member is essential."
+    },
+    {
+      "word": "Proveedor",
+      "irregularForms": null,
+      "sentence": "Nuestro principal proveedor de materiales está en China.",
+      "wordTranslation": "supplier",
+      "sentenceTranslation": "Our main material supplier is in China."
+    },
+    {
+      "word": "Tormenta",
+      "irregularForms": null,
+      "sentence": "Se avecina una tormenta, es mejor quedarse en casa.",
+      "wordTranslation": "storm",
+      "sentenceTranslation": "A storm is approaching, it's better to stay home."
+    },
+    {
+      "word": "Servilleta",
+      "irregularForms": null,
+      "sentence": "Por favor, ¿me pasas la servilleta?",
+      "wordTranslation": "napkin",
+      "sentenceTranslation": "Please, can you pass me the napkin?"
+    }
+  ]
+}

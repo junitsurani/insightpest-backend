@@ -1,0 +1,713 @@
+{
+  "name": "Spanish Common Words Set 3",
+  "description": "This set is part of a larger collection focusing on frequently used Spanish words.",
+  "cards": [
+    {
+      "word": "el",
+      "irregularForms": null,
+      "sentence": "El perro está en el jardín.",
+      "wordTranslation": "the (masculine singular)",
+      "sentenceTranslation": "The dog is in the garden."
+    },
+    {
+      "word": "la",
+      "irregularForms": null,
+      "sentence": "La casa es muy grande.",
+      "wordTranslation": "the (feminine singular)",
+      "sentenceTranslation": "The house is very big."
+    },
+    {
+      "word": "de",
+      "irregularForms": null,
+      "sentence": "Es el libro de mi hermano.",
+      "wordTranslation": "of, from",
+      "sentenceTranslation": "It's my brother's book."
+    },
+    {
+      "word": "que",
+      "irregularForms": null,
+      "sentence": "Quiero que vengas.",
+      "wordTranslation": "that, which",
+      "sentenceTranslation": "I want you to come."
+    },
+    {
+      "word": "en",
+      "irregularForms": null,
+      "sentence": "Ella está en la cocina.",
+      "wordTranslation": "in, on, at",
+      "sentenceTranslation": "She is in the kitchen."
+    },
+    {
+      "word": "un",
+      "irregularForms": null,
+      "sentence": "Necesito un bolígrafo.",
+      "wordTranslation": "a, an (masculine singular)",
+      "sentenceTranslation": "I need a pen."
+    },
+    {
+      "word": "una",
+      "irregularForms": null,
+      "sentence": "Hay una manzana en la mesa.",
+      "wordTranslation": "a, an (feminine singular)",
+      "sentenceTranslation": "There is an apple on the table."
+    },
+    {
+      "word": "los",
+      "irregularForms": null,
+      "sentence": "Los niños juegan en el parque.",
+      "wordTranslation": "the (masculine plural)",
+      "sentenceTranslation": "The children play in the park."
+    },
+    {
+      "word": "las",
+      "irregularForms": null,
+      "sentence": "Las flores son bonitas.",
+      "wordTranslation": "the (feminine plural)",
+      "sentenceTranslation": "The flowers are pretty."
+    },
+    {
+      "word": "del",
+      "irregularForms": null,
+      "sentence": "Vengo del supermercado.",
+      "wordTranslation": "of the, from the (de + el)",
+      "sentenceTranslation": "I'm coming from the supermarket."
+    },
+    {
+      "word": "al",
+      "irregularForms": null,
+      "sentence": "Vamos al cine esta noche.",
+      "wordTranslation": "to the (a + el)",
+      "sentenceTranslation": "We're going to the cinema tonight."
+    },
+    {
+      "word": "su",
+      "irregularForms": null,
+      "sentence": "Su coche es rojo.",
+      "wordTranslation": "his, her, its, your (formal), their",
+      "sentenceTranslation": "His car is red."
+    },
+    {
+      "word": "sus",
+      "irregularForms": null,
+      "sentence": "Sus amigos vinieron a la fiesta.",
+      "wordTranslation": "his, her, its, your (formal), their (plural)",
+      "sentenceTranslation": "His friends came to the party."
+    },
+    {
+      "word": "me",
+      "irregularForms": null,
+      "sentence": "Me gusta el chocolate.",
+      "wordTranslation": "me (direct/indirect object pronoun)",
+      "sentenceTranslation": "I like chocolate."
+    },
+    {
+      "word": "te",
+      "irregularForms": null,
+      "sentence": "Te veo mañana.",
+      "wordTranslation": "you (direct/indirect object pronoun)",
+      "sentenceTranslation": "I'll see you tomorrow."
+    },
+    {
+      "word": "nos",
+      "irregularForms": null,
+      "sentence": "Nosotros nos vamos.",
+      "wordTranslation": "us (direct/indirect object pronoun)",
+      "sentenceTranslation": "We are leaving."
+    },
+    {
+      "word": "se",
+      "irregularForms": null,
+      "sentence": "Ella se lava las manos.",
+      "wordTranslation": "himself, herself, itself, themselves, oneself (reflexive/impersonal pronoun)",
+      "sentenceTranslation": "She washes her hands."
+    },
+    {
+      "word": "le",
+      "irregularForms": null,
+      "sentence": "Le di el libro.",
+      "wordTranslation": "him, her, it, you (formal) (indirect object pronoun)",
+      "sentenceTranslation": "I gave him the book."
+    },
+    {
+      "word": "les",
+      "irregularForms": null,
+      "sentence": "Les escribí una carta.",
+      "wordTranslation": "them, you (formal plural) (indirect object pronoun)",
+      "sentenceTranslation": "I wrote them a letter."
+    },
+    {
+      "word": "lo",
+      "irregularForms": null,
+      "sentence": "Lo quiero mucho.",
+      "wordTranslation": "it, him (direct object pronoun); the (neuter article)",
+      "sentenceTranslation": "I love him very much."
+    },
+    {
+      "word": "mi",
+      "irregularForms": null,
+      "sentence": "Mi coche es nuevo.",
+      "wordTranslation": "my (singular)",
+      "sentenceTranslation": "My car is new."
+    },
+    {
+      "word": "tu",
+      "irregularForms": null,
+      "sentence": "Tu hermana es inteligente.",
+      "wordTranslation": "your (informal singular)",
+      "sentenceTranslation": "Your sister is intelligent."
+    },
+    {
+      "word": "a",
+      "irregularForms": null,
+      "sentence": "Voy a la tienda.",
+      "wordTranslation": "to, at",
+      "sentenceTranslation": "I'm going to the store."
+    },
+    {
+      "word": "quién",
+      "irregularForms": null,
+      "sentence": "¿Quién es esa persona?",
+      "wordTranslation": "who, whom",
+      "sentenceTranslation": "Who is that person?"
+    },
+    {
+      "word": "cuando",
+      "irregularForms": null,
+      "sentence": "Llámame cuando llegues.",
+      "wordTranslation": "when (conjunction)",
+      "sentenceTranslation": "Call me when you arrive."
+    },
+    {
+      "word": "donde",
+      "irregularForms": null,
+      "sentence": "Esa es la casa donde crecí.",
+      "wordTranslation": "where (conjunction)",
+      "sentenceTranslation": "That is the house where I grew up."
+    },
+    {
+      "word": "como",
+      "irregularForms": null,
+      "sentence": "Ella canta como un ángel.",
+      "wordTranslation": "as, like",
+      "sentenceTranslation": "She sings like an angel."
+    },
+    {
+      "word": "este",
+      "irregularForms": null,
+      "sentence": "Este libro es muy interesante.",
+      "wordTranslation": "this (masculine singular)",
+      "sentenceTranslation": "This book is very interesting."
+    },
+    {
+      "word": "esta",
+      "irregularForms": null,
+      "sentence": "Esta es mi silla.",
+      "wordTranslation": "this (feminine singular)",
+      "sentenceTranslation": "This is my chair."
+    },
+    {
+      "word": "eso",
+      "irregularForms": null,
+      "sentence": "No me gusta eso.",
+      "wordTranslation": "that (neuter pronoun)",
+      "sentenceTranslation": "I don't like that."
+    },
+    {
+      "word": "esto",
+      "irregularForms": null,
+      "sentence": "Esto es lo que necesito.",
+      "wordTranslation": "this (neuter pronoun)",
+      "sentenceTranslation": "This is what I need."
+    },
+    {
+      "word": "todo",
+      "irregularForms": null,
+      "sentence": "Todo está listo para la fiesta.",
+      "wordTranslation": "all, every, whole",
+      "sentenceTranslation": "Everything is ready for the party."
+    },
+    {
+      "word": "nadie",
+      "irregularForms": null,
+      "sentence": "Nadie vino a la reunión.",
+      "wordTranslation": "nobody, no one",
+      "sentenceTranslation": "Nobody came to the meeting."
+    },
+    {
+      "word": "nada",
+      "irregularForms": null,
+      "sentence": "No hay nada en la nevera.",
+      "wordTranslation": "nothing",
+      "sentenceTranslation": "There is nothing in the fridge."
+    },
+    {
+      "word": "allí",
+      "irregularForms": null,
+      "sentence": "El coche está aparcado allí.",
+      "wordTranslation": "there",
+      "sentenceTranslation": "The car is parked there."
+    },
+    {
+      "word": "menos",
+      "irregularForms": null,
+      "sentence": "Tengo menos dinero que tú.",
+      "wordTranslation": "less, fewer, minus",
+      "sentenceTranslation": "I have less money than you."
+    },
+    {
+      "word": "vez",
+      "irregularForms": null,
+      "sentence": "Cada vez es más difícil.",
+      "wordTranslation": "time (instance, occurrence)",
+      "sentenceTranslation": "Each time it's harder."
+    },
+    {
+      "word": "razón",
+      "irregularForms": null,
+      "sentence": "Tienes razón en eso.",
+      "wordTranslation": "reason, right (to be right)",
+      "sentenceTranslation": "You are right about that."
+    },
+    {
+      "word": "lado",
+      "irregularForms": null,
+      "sentence": "El restaurante está al otro lado de la calle.",
+      "wordTranslation": "side",
+      "sentenceTranslation": "The restaurant is on the other side of the street."
+    },
+    {
+      "word": "hora",
+      "irregularForms": null,
+      "sentence": "¿Qué hora es?",
+      "wordTranslation": "hour, time",
+      "sentenceTranslation": "What time is it?"
+    },
+    {
+      "word": "nombre",
+      "irregularForms": null,
+      "sentence": "¿Cuál es tu nombre?",
+      "wordTranslation": "name",
+      "sentenceTranslation": "What is your name?"
+    },
+    {
+      "word": "sistema",
+      "irregularForms": null,
+      "sentence": "El sistema funciona bien.",
+      "wordTranslation": "system",
+      "sentenceTranslation": "The system works well."
+    },
+    {
+      "word": "ejemplo",
+      "irregularForms": null,
+      "sentence": "Por ejemplo, podemos ir al parque.",
+      "wordTranslation": "example",
+      "sentenceTranslation": "For example, we can go to the park."
+    },
+    {
+      "word": "puerta",
+      "irregularForms": null,
+      "sentence": "Cierra la puerta, por favor.",
+      "wordTranslation": "door",
+      "sentenceTranslation": "Close the door, please."
+    },
+    {
+      "word": "ventana",
+      "irregularForms": null,
+      "sentence": "Abrí la ventana para ventilar.",
+      "wordTranslation": "window",
+      "sentenceTranslation": "I opened the window to air it out."
+    },
+    {
+      "word": "luz",
+      "irregularForms": null,
+      "sentence": "Enciende la luz.",
+      "wordTranslation": "light",
+      "sentenceTranslation": "Turn on the light."
+    },
+    {
+      "word": "público",
+      "irregularForms": null,
+      "sentence": "Es un lugar público.",
+      "wordTranslation": "public (adjective); audience (noun)",
+      "sentenceTranslation": "It's a public place."
+    },
+    {
+      "word": "social",
+      "irregularForms": null,
+      "sentence": "Tengo muchas redes sociales.",
+      "wordTranslation": "social",
+      "sentenceTranslation": "I have many social networks."
+    },
+    {
+      "word": "nuestro",
+      "irregularForms": null,
+      "sentence": "Este es nuestro coche.",
+      "wordTranslation": "our (masculine singular)",
+      "sentenceTranslation": "This is our car."
+    },
+    {
+      "word": "vuestro",
+      "irregularForms": null,
+      "sentence": "Vuestro perro es muy lindo.",
+      "wordTranslation": "your (informal plural, Spain)",
+      "sentenceTranslation": "Your dog is very cute."
+    },
+    {
+      "word": "usted",
+      "irregularForms": null,
+      "sentence": "¿Cómo está usted?",
+      "wordTranslation": "you (formal singular)",
+      "sentenceTranslation": "How are you?"
+    },
+    {
+      "word": "ellos",
+      "irregularForms": null,
+      "sentence": "Ellos son mis vecinos.",
+      "wordTranslation": "they (masculine)",
+      "sentenceTranslation": "They are my neighbors."
+    },
+    {
+      "word": "ellas",
+      "irregularForms": null,
+      "sentence": "Ellas están en la escuela.",
+      "wordTranslation": "they (feminine)",
+      "sentenceTranslation": "They are at school."
+    },
+    {
+      "word": "nosotros",
+      "irregularForms": null,
+      "sentence": "Nosotros vamos a la playa.",
+      "wordTranslation": "we (masculine/mixed)",
+      "sentenceTranslation": "We are going to the beach."
+    },
+    {
+      "word": "yo",
+      "irregularForms": null,
+      "sentence": "Yo quiero un café.",
+      "wordTranslation": "I",
+      "sentenceTranslation": "I want a coffee."
+    },
+    {
+      "word": "tú",
+      "irregularForms": null,
+      "sentence": "Tú eres muy amable.",
+      "wordTranslation": "you (informal singular)",
+      "sentenceTranslation": "You are very kind."
+    },
+    {
+      "word": "él",
+      "irregularForms": null,
+      "sentence": "Él trabaja en una oficina.",
+      "wordTranslation": "he",
+      "sentenceTranslation": "He works in an office."
+    },
+    {
+      "word": "ella",
+      "irregularForms": null,
+      "sentence": "Ella es mi hermana.",
+      "wordTranslation": "she",
+      "sentenceTranslation": "She is my sister."
+    },
+    {
+      "word": "ustedes",
+      "irregularForms": null,
+      "sentence": "¿Ustedes hablan español?",
+      "wordTranslation": "you (formal plural)",
+      "sentenceTranslation": "Do you speak Spanish?"
+    },
+    {
+      "word": "vosotros",
+      "irregularForms": null,
+      "sentence": "Vosotros sois de España.",
+      "wordTranslation": "you (informal plural, Spain)",
+      "sentenceTranslation": "You are from Spain."
+    },
+    {
+      "word": "seguir",
+      "irregularForms": "sigo (yo), sigues (tú), sigue (él/ella/usted), seguimos (nosotros), seguís (vosotros), siguen (ellos/ellas/ustedes)",
+      "sentence": "Quiero seguir mis sueños.",
+      "wordTranslation": "to follow, to continue",
+      "sentenceTranslation": "I want to follow my dreams."
+    },
+    {
+      "word": "crear",
+      "irregularForms": null,
+      "sentence": "Vamos a crear algo nuevo.",
+      "wordTranslation": "to create",
+      "sentenceTranslation": "We are going to create something new."
+    },
+    {
+      "word": "entrar",
+      "irregularForms": null,
+      "sentence": "Puedes entrar por la puerta principal.",
+      "wordTranslation": "to enter",
+      "sentenceTranslation": "You can enter through the main door."
+    },
+    {
+      "word": "existir",
+      "irregularForms": null,
+      "sentence": "Este problema no debería existir.",
+      "wordTranslation": "to exist",
+      "sentenceTranslation": "This problem shouldn't exist."
+    },
+    {
+      "word": "recibir",
+      "irregularForms": null,
+      "sentence": "Espero recibir buenas noticias.",
+      "wordTranslation": "to receive",
+      "sentenceTranslation": "I hope to receive good news."
+    },
+    {
+      "word": "utilizar",
+      "irregularForms": null,
+      "sentence": "Debemos utilizar los recursos de forma eficiente.",
+      "wordTranslation": "to use, to utilize",
+      "sentenceTranslation": "We must use resources efficiently."
+    },
+    {
+      "word": "cambiar",
+      "irregularForms": null,
+      "sentence": "Quiero cambiar mi estilo de vida.",
+      "wordTranslation": "to change",
+      "sentenceTranslation": "I want to change my lifestyle."
+    },
+    {
+      "word": "ayudar",
+      "irregularForms": null,
+      "sentence": "Siempre estoy dispuesto a ayudar.",
+      "wordTranslation": "to help",
+      "sentenceTranslation": "I am always willing to help."
+    },
+    {
+      "word": "necesitar",
+      "irregularForms": null,
+      "sentence": "Necesito un descanso.",
+      "wordTranslation": "to need",
+      "sentenceTranslation": "I need a break."
+    },
+    {
+      "word": "esperar",
+      "irregularForms": null,
+      "sentence": "Espera un momento, por favor.",
+      "wordTranslation": "to wait, to hope",
+      "sentenceTranslation": "Wait a moment, please."
+    },
+    {
+      "word": "parecer",
+      "irregularForms": "parezco (yo)",
+      "sentence": "Parece que va a llover.",
+      "wordTranslation": "to seem, to appear",
+      "sentenceTranslation": "It seems like it's going to rain."
+    },
+    {
+      "word": "volver",
+      "irregularForms": "vuelvo (yo), vuelves (tú), vuelve (él/ella/usted), volvemos (nosotros), volvéis (vosotros), vuelven (ellos/ellas/ustedes)",
+      "sentence": "Quiero volver a casa.",
+      "wordTranslation": "to return, to come back",
+      "sentenceTranslation": "I want to go back home."
+    },
+    {
+      "word": "ganar",
+      "irregularForms": null,
+      "sentence": "Ellos quieren ganar el partido.",
+      "wordTranslation": "to win, to earn",
+      "sentenceTranslation": "They want to win the game."
+    },
+    {
+      "word": "perder",
+      "irregularForms": "pierdo (yo), pierdes (tú), pierde (él/ella/usted), perdemos (nosotros), perdéis (vosotros), pierden (ellos/ellas/ustedes)",
+      "sentence": "No quiero perder mi tiempo.",
+      "wordTranslation": "to lose",
+      "sentenceTranslation": "I don't want to lose my time."
+    },
+    {
+      "word": "mostrar",
+      "irregularForms": "muestro (yo), muestras (tú), muestra (él/ella/usted), mostramos (nosotros), mostráis (vosotros), muestran (ellos/ellas/ustedes)",
+      "sentence": "Me gusta mostrar mis fotos de viaje.",
+      "wordTranslation": "to show",
+      "sentenceTranslation": "I like to show my travel photos."
+    },
+    {
+      "word": "explicar",
+      "irregularForms": null,
+      "sentence": "¿Puedes explicarme esto?",
+      "wordTranslation": "to explain",
+      "sentenceTranslation": "Can you explain this to me?"
+    },
+    {
+      "word": "llamar",
+      "irregularForms": null,
+      "sentence": "Te voy a llamar más tarde.",
+      "wordTranslation": "to call, to name",
+      "sentenceTranslation": "I'm going to call you later."
+    },
+    {
+      "word": "terminar",
+      "irregularForms": null,
+      "sentence": "Espero terminar pronto mi proyecto.",
+      "wordTranslation": "to finish, to end",
+      "sentenceTranslation": "I hope to finish my project soon."
+    },
+    {
+      "word": "continuar",
+      "irregularForms": null,
+      "sentence": "Vamos a continuar con la lección.",
+      "wordTranslation": "to continue",
+      "sentenceTranslation": "We are going to continue with the lesson."
+    },
+    {
+      "word": "comprar",
+      "irregularForms": null,
+      "sentence": "Necesito comprar pan.",
+      "wordTranslation": "to buy",
+      "sentenceTranslation": "I need to buy bread."
+    },
+    {
+      "word": "vender",
+      "irregularForms": null,
+      "sentence": "Quiero vender mi bicicleta.",
+      "wordTranslation": "to sell",
+      "sentenceTranslation": "I want to sell my bicycle."
+    },
+    {
+      "word": "abrir",
+      "irregularForms": null,
+      "sentence": "Por favor, abre la ventana.",
+      "wordTranslation": "to open",
+      "sentenceTranslation": "Please, open the window."
+    },
+    {
+      "word": "cerrar",
+      "irregularForms": "cierro (yo), cierras (tú), cierra (él/ella/usted), cerramos (nosotros), cerráis (vosotros), cierran (ellos/ellas/ustedes)",
+      "sentence": "Cierra la puerta al salir.",
+      "wordTranslation": "to close",
+      "sentenceTranslation": "Close the door when leaving."
+    },
+    {
+      "word": "estudiar",
+      "irregularForms": null,
+      "sentence": "Me gusta estudiar idiomas.",
+      "wordTranslation": "to study",
+      "sentenceTranslation": "I like to study languages."
+    },
+    {
+      "word": "caminar",
+      "irregularForms": null,
+      "sentence": "Nos gusta caminar por el parque.",
+      "wordTranslation": "to walk",
+      "sentenceTranslation": "We like to walk in the park."
+    },
+    {
+      "word": "aceptar",
+      "irregularForms": null,
+      "sentence": "Ella decidió aceptar la oferta.",
+      "wordTranslation": "to accept",
+      "sentenceTranslation": "She decided to accept the offer."
+    },
+    {
+      "word": "traer",
+      "irregularForms": "traigo (yo)",
+      "sentence": "Voy a traer un pastel a la fiesta.",
+      "wordTranslation": "to bring",
+      "sentenceTranslation": "I'm going to bring a cake to the party."
+    },
+    {
+      "word": "desear",
+      "irregularForms": null,
+      "sentence": "Te deseo lo mejor.",
+      "wordTranslation": "to wish, to desire",
+      "sentenceTranslation": "I wish you the best."
+    },
+    {
+      "word": "comer",
+      "irregularForms": null,
+      "sentence": "Vamos a comer en un restaurante italiano.",
+      "wordTranslation": "to eat",
+      "sentenceTranslation": "We are going to eat at an Italian restaurant."
+    },
+    {
+      "word": "beber",
+      "irregularForms": null,
+      "sentence": "Necesitas beber más agua.",
+      "wordTranslation": "to drink",
+      "sentenceTranslation": "You need to drink more water."
+    },
+    {
+      "word": "leer",
+      "irregularForms": null,
+      "sentence": "Me encanta leer novelas.",
+      "wordTranslation": "to read",
+      "sentenceTranslation": "I love to read novels."
+    },
+    {
+      "word": "dormir",
+      "irregularForms": "duermo (yo), duermes (tú), duerme (él/ella/usted), dormimos (nosotros), dormís (vosotros), duermen (ellos/ellas/ustedes)",
+      "sentence": "Necesito dormir ocho horas.",
+      "wordTranslation": "to sleep",
+      "sentenceTranslation": "I need to sleep eight hours."
+    },
+    {
+      "word": "soler",
+      "irregularForms": "suelo (yo), sueles (tú), suele (él/ella/usted), solemos (nosotros), soléis (vosotros), suelen (ellos/ellas/ustedes)",
+      "sentence": "Suelo ir al gimnasio por las mañanas.",
+      "wordTranslation": "to usually do, to be accustomed to",
+      "sentenceTranslation": "I usually go to the gym in the mornings."
+    },
+    {
+      "word": "recomendar",
+      "irregularForms": "recomiendo (yo), recomiendas (tú), recomienda (él/ella/usted), recomendamos (nosotros), recomendáis (vosotros), recomiendan (ellos/ellas/ustedes)",
+      "sentence": "Te recomiendo este libro.",
+      "wordTranslation": "to recommend",
+      "sentenceTranslation": "I recommend this book to you."
+    },
+    {
+      "word": "preferir",
+      "irregularForms": "prefiero (yo), prefieres (tú), prefiere (él/ella/usted), preferimos (nosotros), preferís (vosotros), prefieren (ellos/ellas/ustedes)",
+      "sentence": "Prefiero café a té.",
+      "wordTranslation": "to prefer",
+      "sentenceTranslation": "I prefer coffee to tea."
+    },
+    {
+      "word": "sentarse",
+      "irregularForms": "me siento (yo), te sientas (tú), se sienta (él/ella/usted), nos sentamos (nosotros), os sentáis (vosotros), se sientan (ellos/ellas/ustedes)",
+      "sentence": "Por favor, siéntate aquí.",
+      "wordTranslation": "to sit down",
+      "sentenceTranslation": "Please, sit down here."
+    },
+    {
+      "word": "levantarse",
+      "irregularForms": null,
+      "sentence": "Ella se levanta temprano cada día.",
+      "wordTranslation": "to get up, to stand up",
+      "sentenceTranslation": "She gets up early every day."
+    },
+    {
+      "word": "vestirse",
+      "irregularForms": "me visto (yo), te vistes (tú), se viste (él/ella/usted), nos vestimos (nosotros), os vestís (vosotros), se visten (ellos/ellas/ustedes)",
+      "sentence": "Necesito vestirme rápidamente.",
+      "wordTranslation": "to get dressed",
+      "sentenceTranslation": "I need to get dressed quickly."
+    },
+    {
+      "word": "decidir",
+      "irregularForms": null,
+      "sentence": "Debes decidir qué quieres hacer.",
+      "wordTranslation": "to decide",
+      "sentenceTranslation": "You must decide what you want to do."
+    },
+    {
+      "word": "recordar",
+      "irregularForms": "recuerdo (yo), recuerdas (tú), recuerda (él/ella/usted), recordamos (nosotros), recordáis (vosotros), recuerdan (ellos/ellas/ustedes)",
+      "sentence": "¿Recuerdas nuestro primer encuentro?",
+      "wordTranslation": "to remember",
+      "sentenceTranslation": "Do you remember our first meeting?"
+    },
+    {
+      "word": "mirar",
+      "irregularForms": null,
+      "sentence": "Me gusta mirar las estrellas por la noche.",
+      "wordTranslation": "to look, to watch",
+      "sentenceTranslation": "I like to look at the stars at night."
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "name": "Spanish Common Words Set 40",
+  "description": "This is part of a larger set of common Spanish words.",
+  "cards": [
+    {
+      "word": "agua",
+      "irregularForms": null,
+      "sentence": "El agua es esencial para la vida.",
+      "wordTranslation": "water",
+      "sentenceTranslation": "Water is essential for life."
+    },
+    {
+      "word": "libro",
+      "irregularForms": null,
+      "sentence": "Me gusta leer un libro antes de dormir.",
+      "wordTranslation": "book",
+      "sentenceTranslation": "I like to read a book before sleeping."
+    },
+    {
+      "word": "comer",
+      "irregularForms": null,
+      "sentence": "Voy a comer pizza esta noche.",
+      "wordTranslation": "to eat",
+      "sentenceTranslation": "I am going to eat pizza tonight."
+    },
+    {
+      "word": "bueno",
+      "irregularForms": null,
+      "sentence": "Esa película fue muy buena.",
+      "wordTranslation": "good",
+      "sentenceTranslation": "That movie was very good."
+    },
+    {
+      "word": "amar",
+      "irregularForms": null,
+      "sentence": "Ellos aman la música.",
+      "wordTranslation": "to love",
+      "sentenceTranslation": "They love music."
+    },
+    {
+      "word": "rápido",
+      "irregularForms": null,
+      "sentence": "Necesitamos un transporte rápido.",
+      "wordTranslation": "fast",
+      "sentenceTranslation": "We need a fast transportation."
+    },
+    {
+      "word": "tiempo",
+      "irregularForms": null,
+      "sentence": "No tengo tiempo para eso.",
+      "wordTranslation": "time",
+      "sentenceTranslation": "I don't have time for that."
+    },
+    {
+      "word": "casa",
+      "irregularForms": null,
+      "sentence": "La casa es muy grande.",
+      "wordTranslation": "house",
+      "sentenceTranslation": "The house is very big."
+    },
+    {
+      "word": "mujer",
+      "irregularForms": null,
+      "sentence": "La mujer está leyendo un libro.",
+      "wordTranslation": "woman",
+      "sentenceTranslation": "The woman is reading a book."
+    },
+    {
+      "word": "hombre",
+      "irregularForms": null,
+      "sentence": "El hombre trabaja en una oficina.",
+      "wordTranslation": "man",
+      "sentenceTranslation": "The man works in an office."
+    },
+    {
+      "word": "ver",
+      "irregularForms": null,
+      "sentence": "Quiero ver esa película.",
+      "wordTranslation": "to see",
+      "sentenceTranslation": "I want to see that movie."
+    },
+    {
+      "word": "nuevo",
+      "irregularForms": null,
+      "sentence": "Compré un coche nuevo.",
+      "wordTranslation": "new",
+      "sentenceTranslation": "I bought a new car."
+    },
+    {
+      "word": "fruta",
+      "irregularForms": null,
+      "sentence": "La fruta es muy saludable.",
+      "wordTranslation": "fruit",
+      "sentenceTranslation": "Fruit is very healthy."
+    },
+    {
+      "word": "niño",
+      "irregularForms": null,
+      "sentence": "El niño juega en el parque.",
+      "wordTranslation": "child",
+      "sentenceTranslation": "The child plays in the park."
+    },
+    {
+      "word": "carro",
+      "irregularForms": null,
+      "sentence": "El carro está estacionado afuera.",
+      "wordTranslation": "car",
+      "sentenceTranslation": "The car is parked outside."
+    },
+    {
+      "word": "cocinar",
+      "irregularForms": null,
+      "sentence": "Me gusta cocinar para mi familia.",
+      "wordTranslation": "to cook",
+      "sentenceTranslation": "I like to cook for my family."
+    },
+    {
+      "word": "trabajo",
+      "irregularForms": null,
+      "sentence": "Mi trabajo es muy interesante.",
+      "wordTranslation": "work",
+      "sentenceTranslation": "My work is very interesting."
+    },
+    {
+      "word": "luz",
+      "irregularForms": null,
+      "sentence": "La luz está apagada.",
+      "wordTranslation": "light",
+      "sentenceTranslation": "The light is off."
+    },
+    {
+      "word": "chico",
+      "irregularForms": null,
+      "sentence": "El chico juega con sus amigos.",
+      "wordTranslation": "boy",
+      "sentenceTranslation": "The boy plays with his friends."
+    },
+    {
+      "word": "fiesta",
+      "irregularForms": null,
+      "sentence": "La fiesta fue muy divertida.",
+      "wordTranslation": "party",
+      "sentenceTranslation": "The party was very fun."
+    },
+    {
+      "word": "mesa",
+      "irregularForms": null,
+      "sentence": "La mesa está en la cocina.",
+      "wordTranslation": "table",
+      "sentenceTranslation": "The table is in the kitchen."
+    },
+    {
+      "word": "hijo",
+      "irregularForms": null,
+      "sentence": "Mi hijo es muy inteligente.",
+      "wordTranslation": "son",
+      "sentenceTranslation": "My son is very smart."
+    },
+    {
+      "word": "salir",
+      "irregularForms": null,
+      "sentence": "Vamos a salir a caminar.",
+      "wordTranslation": "to go out",
+      "sentenceTranslation": "We are going out for a walk."
+    },
+    {
+      "word": "gente",
+      "irregularForms": null,
+      "sentence": "Hay mucha gente en la calle.",
+      "wordTranslation": "people",
+      "sentenceTranslation": "There are many people on the street."
+    },
+    {
+      "word": "silla",
+      "irregularForms": null,
+      "sentence": "Necesito una silla para sentarme.",
+      "wordTranslation": "chair",
+      "sentenceTranslation": "I need a chair to sit on."
+    },
+    {
+      "word": "pueblo",
+      "irregularForms": null,
+      "sentence": "El pueblo es muy tranquilo.",
+      "wordTranslation": "town",
+      "sentenceTranslation": "The town is very quiet."
+    },
+    {
+      "word": "sábado",
+      "irregularForms": null,
+      "sentence": "El sábado voy al cine.",
+      "wordTranslation": "Saturday",
+      "sentenceTranslation": "On Saturday I am going to the movies."
+    },
+    {
+      "word": "caballo",
+      "irregularForms": null,
+      "sentence": "El caballo es un animal muy fuerte.",
+      "wordTranslation": "horse",
+      "sentenceTranslation": "The horse is a very strong animal."
+    },
+    {
+      "word": "música",
+      "irregularForms": null,
+      "sentence": "Me gusta escuchar música.",
+      "wordTranslation": "music",
+      "sentenceTranslation": "I like to listen to music."
+    },
+    {
+      "word": "cerca",
+      "irregularForms": null,
+      "sentence": "La tienda está cerca de mi casa.",
+      "wordTranslation": "near",
+      "sentenceTranslation": "The store is near my house."
+    },
+    {
+      "word": "puerta",
+      "irregularForms": null,
+      "sentence": "La puerta está cerrada.",
+      "wordTranslation": "door",
+      "sentenceTranslation": "The door is closed."
+    },
+    {
+      "word": "cuerpo",
+      "irregularForms": null,
+      "sentence": "El cuerpo necesita ejercicio.",
+      "wordTranslation": "body",
+      "sentenceTranslation": "The body needs exercise."
+    },
+    {
+      "word": "calor",
+      "irregularForms": null,
+      "sentence": "Hoy hace mucho calor.",
+      "wordTranslation": "heat",
+      "sentenceTranslation": "Today is very hot."
+    },
+    {
+      "word": "abierto",
+      "irregularForms": null,
+      "sentence": "La tienda está abierta hasta las diez.",
+      "wordTranslation": "open",
+      "sentenceTranslation": "The store is open until ten."
+    },
+    {
+      "word": "nuevo",
+      "irregularForms": null,
+      "sentence": "Tengo un nuevo trabajo.",
+      "wordTranslation": "new",
+      "sentenceTranslation": "I have a new job."
+    },
+    {
+      "word": "viaje",
+      "irregularForms": null,
+      "sentence": "El viaje fue inolvidable.",
+      "wordTranslation": "trip",
+      "sentenceTranslation": "The trip was unforgettable."
+    },
+    {
+      "word": "pasta",
+      "irregularForms": null,
+      "sentence": "Me gusta comer pasta.",
+      "wordTranslation": "pasta",
+      "sentenceTranslation": "I like to eat pasta."
+    },
+    {
+      "word": "familia",
+      "irregularForms": null,
+      "sentence": "Mi familia es muy unida.",
+      "wordTranslation": "family",
+      "sentenceTranslation": "My family is very close."
+    },
+    {
+      "word": "sol",
+      "irregularForms": null,
+      "sentence": "El sol brilla en el cielo.",
+      "wordTranslation": "sun",
+      "sentenceTranslation": "The sun shines in the sky."
+    },
+    {
+      "word": "frío",
+      "irregularForms": null,
+      "sentence": "Hace frío en invierno.",
+      "wordTranslation": "cold",
+      "sentenceTranslation": "It is cold in winter."
+    },
+    {
+      "word": "esperar",
+      "irregularForms": null,
+      "sentence": "Voy a esperar por ti.",
+      "wordTranslation": "to wait",
+      "sentenceTranslation": "I am going to wait for you."
+    },
+    {
+      "word": "correr",
+      "irregularForms": null,
+      "sentence": "Me gusta correr por las mañanas.",
+      "wordTranslation": "to run",
+      "sentenceTranslation": "I like to run in the mornings."
+    },
+    {
+      "word": "semana",
+      "irregularForms": null,
+      "sentence": "La semana pasada fue increíble.",
+      "wordTranslation": "week",
+      "sentenceTranslation": "Last week was amazing."
+    },
+    {
+      "word": "reír",
+      "irregularForms": null,
+      "sentence": "Me gusta reír con mis amigos.",
+      "wordTranslation": "to laugh",
+      "sentenceTranslation": "I like to laugh with my friends."
+    },
+    {
+      "word": "pagar",
+      "irregularForms": null,
+      "sentence": "Tengo que pagar la cuenta.",
+      "wordTranslation": "to pay",
+      "sentenceTranslation": "I have to pay the bill."
+    },
+    {
+      "word": "jugar",
+      "irregularForms": null,
+      "sentence": "Los niños quieren jugar en el parque.",
+      "wordTranslation": "to play",
+      "sentenceTranslation": "The children want to play in the park."
+    },
+    {
+      "word": "visitar",
+      "irregularForms": null,
+      "sentence": "Voy a visitar a mis abuelos.",
+      "wordTranslation": "to visit",
+      "sentenceTranslation": "I am going to visit my grandparents."
+    },
+    {
+      "word": "salud",
+      "irregularForms": null,
+      "sentence": "La salud es lo más importante.",
+      "wordTranslation": "health",
+      "sentenceTranslation": "Health is the most important."
+    },
+    {
+      "word": "lento",
+      "irregularForms": null,
+      "sentence": "El tráfico está lento hoy.",
+      "wordTranslation": "slow",
+      "sentenceTranslation": "Traffic is slow today."
+    },
+    {
+      "word": "ciencia",
+      "irregularForms": null,
+      "sentence": "La ciencia es fascinante.",
+      "wordTranslation": "science",
+      "sentenceTranslation": "Science is fascinating."
+    },
+    {
+      "word": "sentir",
+      "irregularForms": null,
+      "sentence": "Voy a sentir la música.",
+      "wordTranslation": "to feel",
+      "sentenceTranslation": "I am going to feel the music."
+    },
+    {
+      "word": "dar",
+      "irregularForms": null,
+      "sentence": "Voy a dar un regalo.",
+      "wordTranslation": "to give",
+      "sentenceTranslation": "I am going to give a gift."
+    },
+    {
+      "word": "proyecto",
+      "irregularForms": null,
+      "sentence": "El proyecto está casi terminado.",
+      "wordTranslation": "project",
+      "sentenceTranslation": "The project is almost finished."
+    },
+    {
+      "word": "carácter",
+      "irregularForms": null,
+      "sentence": "El carácter de alguien es importante.",
+      "wordTranslation": "character",
+      "sentenceTranslation": "A person's character is important."
+    },
+    {
+      "word": "dar",
+      "irregularForms": null,
+      "sentence": "Voy a dar un paseo.",
+      "wordTranslation": "to give",
+      "sentenceTranslation": "I am going for a walk."
+    },
+    {
+      "word": "verdad",
+      "irregularForms": null,
+      "sentence": "La verdad es siempre importante.",
+      "wordTranslation": "truth",
+      "sentenceTranslation": "The truth is always important."
+    },
+    {
+      "word": "pintar",
+      "irregularForms": null,
+      "sentence": "Me gusta pintar en mi tiempo libre.",
+      "wordTranslation": "to paint",
+      "sentenceTranslation": "I like to paint in my free time."
+    },
+    {
+      "word": "plano",
+      "irregularForms": null,
+      "sentence": "El plano de la casa está en la mesa.",
+      "wordTranslation": "plan",
+      "sentenceTranslation": "The house plan is on the table."
+    },
+    {
+      "word": "educación",
+      "irregularForms": null,
+      "sentence": "La educación es clave para el futuro.",
+      "wordTranslation": "education",
+      "sentenceTranslation": "Education is key for the future."
+    },
+    {
+      "word": "honor",
+      "irregularForms": null,
+      "sentence": "Es un honor conocerte.",
+      "wordTranslation": "honor",
+      "sentenceTranslation": "It is an honor to meet you."
+    },
+    {
+      "word": "feliz",
+      "irregularForms": null,
+      "sentence": "Estoy muy feliz hoy.",
+      "wordTranslation": "happy",
+      "sentenceTranslation": "I am very happy today."
+    },
+    {
+      "word": "más",
+      "irregularForms": null,
+      "sentence": "Quiero más comida.",
+      "wordTranslation": "more",
+      "sentenceTranslation": "I want more food."
+    },
+    {
+      "word": "oros",
+      "irregularForms": null,
+      "sentence": "Los oros son muy valiosos.",
+      "wordTranslation": "gold",
+      "sentenceTranslation": "Gold is very valuable."
+    },
+    {
+      "word": "sinceridad",
+      "irregularForms": null,
+      "sentence": "La sinceridad es fundamental en una relación.",
+      "wordTranslation": "sincerity",
+      "sentenceTranslation": "Sincerity is fundamental in a relationship."
+    },
+    {
+      "word": "interés",
+      "irregularForms": null,
+      "sentence": "El interés en aprender es importante.",
+      "wordTranslation": "interest",
+      "sentenceTranslation": "Interest in learning is important."
+    },
+    {
+      "word": "realidad",
+      "irregularForms": null,
+      "sentence": "La realidad es diferente a nuestras expectativas.",
+      "wordTranslation": "reality",
+      "sentenceTranslation": "Reality is different from our expectations."
+    },
+    {
+      "word": "cuidado",
+      "irregularForms": null,
+      "sentence": "El cuidado es esencial para la salud.",
+      "wordTranslation": "care",
+      "sentenceTranslation": "Care is essential for health."
+    },
+    {
+      "word": "acusar",
+      "irregularForms": null,
+      "sentence": "Nunca debes acusar sin pruebas.",
+      "wordTranslation": "to accuse",
+      "sentenceTranslation": "You should never accuse without evidence."
+    },
+    {
+      "word": "contar",
+      "irregularForms": null,
+      "sentence": "Voy a contar hasta diez.",
+      "wordTranslation": "to count",
+      "sentenceTranslation": "I am going to count to ten."
+    },
+    {
+      "word": "sociedad",
+      "irregularForms": null,
+      "sentence": "La sociedad necesita unión.",
+      "wordTranslation": "society",
+      "sentenceTranslation": "Society needs unity."
+    },
+    {
+      "word": "acción",
+      "irregularForms": null,
+      "sentence": "La acción es mejor que las palabras.",
+      "wordTranslation": "action",
+      "sentenceTranslation": "Action is better than words."
+    },
+    {
+      "word": "red",
+      "irregularForms": null,
+      "sentence": "La red está inactiva.",
+      "wordTranslation": "net",
+      "sentenceTranslation": "The net is inactive."
+    },
+    {
+      "word": "decorar",
+      "irregularForms": null,
+      "sentence": "Voy a decorar mi habitación.",
+      "wordTranslation": "to decorate",
+      "sentenceTranslation": "I am going to decorate my room."
+    },
+    {
+      "word": "cocina",
+      "irregularForms": null,
+      "sentence": "La cocina tiene un nuevo diseño.",
+      "wordTranslation": "kitchen",
+      "sentenceTranslation": "The kitchen has a new design."
+    },
+    {
+      "word": "usar",
+      "irregularForms": null,
+      "sentence": "Voy a usar mi abrigo.",
+      "wordTranslation": "to use",
+      "sentenceTranslation": "I am going to wear my coat."
+    },
+    {
+      "word": "pensar",
+      "irregularForms": null,
+      "sentence": "Debo pensar en una solución.",
+      "wordTranslation": "to think",
+      "sentenceTranslation": "I need to think of a solution."
+    },
+    {
+      "word": "cambiar",
+      "irregularForms": null,
+      "sentence": "Es hora de cambiar de estrategia.",
+      "wordTranslation": "to change",
+      "sentenceTranslation": "It's time to change strategy."
+    }
+  ]
+}

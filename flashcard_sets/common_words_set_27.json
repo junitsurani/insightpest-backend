@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 27",
+  "description": "This set is part of a larger collection focusing on common Spanish words, building vocabulary with frequently used nouns, verbs, and adjectives not covered in previous sets.",
+  "cards": [
+    {
+      "word": "salón",
+      "irregularForms": null,
+      "sentence": "Pasamos la tarde en el salón, leyendo un buen libro.",
+      "wordTranslation": "living room",
+      "sentenceTranslation": "We spent the afternoon in the living room, reading a good book."
+    },
+    {
+      "word": "taxi",
+      "irregularForms": null,
+      "sentence": "Tomamos un taxi para ir al aeropuerto.",
+      "wordTranslation": "taxi",
+      "sentenceTranslation": "We took a taxi to go to the airport."
+    },
+    {
+      "word": "botas",
+      "irregularForms": null,
+      "sentence": "Llevaba unas botas de cuero marrones para el frío.",
+      "wordTranslation": "boots",
+      "sentenceTranslation": "He wore brown leather boots for the cold."
+    },
+    {
+      "word": "pulsera",
+      "irregularForms": null,
+      "sentence": "Me regaló una pulsera de plata en mi cumpleaños.",
+      "wordTranslation": "bracelet",
+      "sentenceTranslation": "He gave me a silver bracelet for my birthday."
+    },
+    {
+      "word": "collar",
+      "irregularForms": null,
+      "sentence": "Perdió su collar de perlas favorito en la fiesta.",
+      "wordTranslation": "necklace",
+      "sentenceTranslation": "She lost her favorite pearl necklace at the party."
+    },
+    {
+      "word": "pendientes",
+      "irregularForms": null,
+      "sentence": "Sus pendientes brillaban bajo la luz del sol.",
+      "wordTranslation": "earrings",
+      "sentenceTranslation": "Her earrings shone under the sunlight."
+    },
+    {
+      "word": "refrigerador",
+      "irregularForms": null,
+      "sentence": "Guarda la leche fresca en el refrigerador para que no se eche a perder.",
+      "wordTranslation": "refrigerator",
+      "sentenceTranslation": "Keep the fresh milk in the refrigerator so it doesn't spoil."
+    },
+    {
+      "word": "basura",
+      "irregularForms": null,
+      "sentence": "Por favor, saca la basura antes de que huela mal.",
+      "wordTranslation": "trash",
+      "sentenceTranslation": "Please, take out the trash before it smells bad."
+    },
+    {
+      "word": "saco",
+      "irregularForms": null,
+      "sentence": "Compró un saco de patatas en el mercado local.",
+      "wordTranslation": "sack/bag",
+      "sentenceTranslation": "He bought a sack of potatoes at the local market."
+    },
+    {
+      "word": "tubo",
+      "irregularForms": null,
+      "sentence": "El agua sale por el tubo roto de la tubería principal.",
+      "wordTranslation": "tube/pipe",
+      "sentenceTranslation": "The water comes out through the broken pipe of the main pipeline."
+    },
+    {
+      "word": "sillón",
+      "irregularForms": null,
+      "sentence": "Se sentó cómodamente en el sillón a leer el periódico.",
+      "wordTranslation": "armchair",
+      "sentenceTranslation": "He sat comfortably in the armchair to read the newspaper."
+    },
+    {
+      "word": "ventilador",
+      "irregularForms": null,
+      "sentence": "Enciende el ventilador, hace mucho calor en esta habitación.",
+      "wordTranslation": "fan",
+      "sentenceTranslation": "Turn on the fan, it's very hot in this room."
+    },
+    {
+      "word": "calefacción",
+      "irregularForms": null,
+      "sentence": "La calefacción funciona muy bien y mantiene la casa caliente.",
+      "wordTranslation": "heating",
+      "sentenceTranslation": "The heating works very well and keeps the house warm."
+    },
+    {
+      "word": "aire acondicionado",
+      "irregularForms": null,
+      "sentence": "Necesitamos aire acondicionado en verano para soportar el calor.",
+      "wordTranslation": "air conditioning",
+      "sentenceTranslation": "We need air conditioning in summer to endure the heat."
+    },
+    {
+      "word": "despertador",
+      "irregularForms": null,
+      "sentence": "El despertador sonó a las seis de la mañana en punto.",
+      "wordTranslation": "alarm clock",
+      "sentenceTranslation": "The alarm clock rang at six in the morning sharp."
+    },
+    {
+      "word": "lavavajillas",
+      "irregularForms": null,
+      "sentence": "Pon los platos sucios en el lavavajillas después de cenar.",
+      "wordTranslation": "dishwasher",
+      "sentenceTranslation": "Put the dirty dishes in the dishwasher after dinner."
+    },
+    {
+      "word": "microscopio",
+      "irregularForms": null,
+      "sentence": "Observaron células con el microscopio en la clase de biología.",
+      "wordTranslation": "microscope",
+      "sentenceTranslation": "They observed cells with the microscope in biology class."
+    },
+    {
+      "word": "telescopio",
+      "irregularForms": null,
+      "sentence": "Usaron un telescopio para ver las estrellas y planetas.",
+      "wordTranslation": "telescope",
+      "sentenceTranslation": "They used a telescope to see the stars and planets."
+    },
+    {
+      "word": "linterna",
+      "irregularForms": null,
+      "sentence": "La linterna no tiene pilas, así que no funciona.",
+      "wordTranslation": "flashlight",
+      "sentenceTranslation": "The flashlight has no batteries, so it doesn't work."
+    },
+    {
+      "word": "caracol",
+      "irregularForms": null,
+      "sentence": "Un caracol se movía lentamente por la hoja de la planta.",
+      "wordTranslation": "snail",
+      "sentenceTranslation": "A snail was moving slowly on the plant leaf."
+    },
+    {
+      "word": "mariposa",
+      "irregularForms": null,
+      "sentence": "Una mariposa de colores se posó en la flor del jardín.",
+      "wordTranslation": "butterfly",
+      "sentenceTranslation": "A colorful butterfly landed on the garden flower."
+    },
+    {
+      "word": "abeja",
+      "irregularForms": null,
+      "sentence": "Una abeja recogía néctar de las flores para hacer miel.",
+      "wordTranslation": "bee",
+      "sentenceTranslation": "A bee was collecting nectar from the flowers to make honey."
+    },
+    {
+      "word": "hormiga",
+      "irregularForms": null,
+      "sentence": "Una fila de hormigas caminaba por el suelo buscando comida.",
+      "wordTranslation": "ant",
+      "sentenceTranslation": "A line of ants was walking on the ground looking for food."
+    },
+    {
+      "word": "araña",
+      "irregularForms": null,
+      "sentence": "Una araña tejió su tela en la esquina de la ventana.",
+      "wordTranslation": "spider",
+      "sentenceTranslation": "A spider wove its web in the corner of the window."
+    },
+    {
+      "word": "cocodrilo",
+      "irregularForms": null,
+      "sentence": "Vimos un cocodrilo en el río durante el safari.",
+      "wordTranslation": "crocodile",
+      "sentenceTranslation": "We saw a crocodile in the river during the safari."
+    },
+    {
+      "word": "elefante",
+      "irregularForms": null,
+      "sentence": "El elefante es el animal terrestre más grande del mundo.",
+      "wordTranslation": "elephant",
+      "sentenceTranslation": "The elephant is the largest land animal in the world."
+    },
+    {
+      "word": "jirafa",
+      "irregularForms": null,
+      "sentence": "La jirafa tiene un cuello muy largo para alcanzar las hojas.",
+      "wordTranslation": "giraffe",
+      "sentenceTranslation": "The giraffe has a very long neck to reach the leaves."
+    },
+    {
+      "word": "mono",
+      "irregularForms": null,
+      "sentence": "El mono comía un plátano con sus manos en el árbol.",
+      "wordTranslation": "monkey",
+      "sentenceTranslation": "The monkey was eating a banana with its hands in the tree."
+    },
+    {
+      "word": "tigre",
+      "irregularForms": null,
+      "sentence": "El tigre ruge fuerte en la jungla al anochecer.",
+      "wordTranslation": "tiger",
+      "sentenceTranslation": "The tiger roars loudly in the jungle at dusk."
+    },
+    {
+      "word": "zorro",
+      "irregularForms": null,
+      "sentence": "El zorro es un animal astuto y difícil de atrapar.",
+      "wordTranslation": "fox",
+      "sentenceTranslation": "The fox is a cunning animal and difficult to catch."
+    },
+    {
+      "word": "lobo",
+      "irregularForms": null,
+      "sentence": "El lobo aulló a la luna llena en la noche fría.",
+      "wordTranslation": "wolf",
+      "sentenceTranslation": "The wolf howled at the full moon on the cold night."
+    },
+    {
+      "word": "oso",
+      "irregularForms": null,
+      "sentence": "El oso hiberna durante el invierno para ahorrar energía.",
+      "wordTranslation": "bear",
+      "sentenceTranslation": "The bear hibernates during winter to save energy."
+    },
+    {
+      "word": "rana",
+      "irregularForms": null,
+      "sentence": "La rana saltó al estanque cuando nos acercamos.",
+      "wordTranslation": "frog",
+      "sentenceTranslation": "The frog jumped into the pond when we approached."
+    },
+    {
+      "word": "serpiente",
+      "irregularForms": null,
+      "sentence": "Ten cuidado con esa serpiente venenosa en el camino.",
+      "wordTranslation": "snake",
+      "sentenceTranslation": "Be careful with that venomous snake on the path."
+    },
+    {
+      "word": "tortuga",
+      "irregularForms": null,
+      "sentence": "La tortuga camina muy despacio, pero llega lejos.",
+      "wordTranslation": "turtle",
+      "sentenceTranslation": "The turtle walks very slowly, but it goes far."
+    },
+    {
+      "word": "pato",
+      "irregularForms": null,
+      "sentence": "Los patos nadan en el lago y buscan comida.",
+      "wordTranslation": "duck",
+      "sentenceTranslation": "The ducks swim in the lake and look for food."
+    },
+    {
+      "word": "gallina",
+      "irregularForms": null,
+      "sentence": "La gallina puso un huevo esta mañana en el gallinero.",
+      "wordTranslation": "hen",
+      "sentenceTranslation": "The hen laid an egg this morning in the hen house."
+    },
+    {
+      "word": "gallo",
+      "irregularForms": null,
+      "sentence": "El gallo canta al amanecer para despertar a todos.",
+      "wordTranslation": "rooster",
+      "sentenceTranslation": "The rooster crows at dawn to wake everyone up."
+    },
+    {
+      "word": "oveja",
+      "irregularForms": null,
+      "sentence": "Las ovejas pastan tranquilamente en el campo verde.",
+      "wordTranslation": "sheep",
+      "sentenceTranslation": "The sheep graze peacefully in the green field."
+    },
+    {
+      "word": "conejo",
+      "irregularForms": null,
+      "sentence": "El conejo saltó entre los arbustos rápidamente.",
+      "wordTranslation": "rabbit",
+      "sentenceTranslation": "The rabbit hopped quickly among the bushes."
+    },
+    {
+      "word": "ardilla",
+      "irregularForms": null,
+      "sentence": "La ardilla escondió sus nueces en el hueco del árbol.",
+      "wordTranslation": "squirrel",
+      "sentenceTranslation": "The squirrel hid its nuts in the tree hollow."
+    },
+    {
+      "word": "búho",
+      "irregularForms": null,
+      "sentence": "El búho es un ave nocturna que caza de noche.",
+      "wordTranslation": "owl",
+      "sentenceTranslation": "The owl is a nocturnal bird that hunts at night."
+    },
+    {
+      "word": "águila",
+      "irregularForms": null,
+      "sentence": "El águila volaba alto en el cielo, buscando su presa.",
+      "wordTranslation": "eagle",
+      "sentenceTranslation": "The eagle flew high in the sky, looking for its prey."
+    },
+    {
+      "word": "delfín",
+      "irregularForms": null,
+      "sentence": "Los delfines son muy inteligentes y juegan en el mar.",
+      "wordTranslation": "dolphin",
+      "sentenceTranslation": "Dolphins are very intelligent and play in the sea."
+    },
+    {
+      "word": "ballena",
+      "irregularForms": null,
+      "sentence": "La ballena es el mamífero más grande del océano.",
+      "wordTranslation": "whale",
+      "sentenceTranslation": "The whale is the largest mammal in the ocean."
+    },
+    {
+      "word": "tiburón",
+      "irregularForms": null,
+      "sentence": "Un tiburón nadaba cerca de la costa, asustando a la gente.",
+      "wordTranslation": "shark",
+      "sentenceTranslation": "A shark swam near the coast, scaring people."
+    },
+    {
+      "word": "pulpo",
+      "irregularForms": null,
+      "sentence": "El pulpo tiene ocho brazos largos para moverse y cazar.",
+      "wordTranslation": "octopus",
+      "sentenceTranslation": "The octopus has eight long arms to move and hunt."
+    },
+    {
+      "word": "calamar",
+      "irregularForms": null,
+      "sentence": "Comimos calamares fritos en un restaurante de mariscos.",
+      "wordTranslation": "squid",
+      "sentenceTranslation": "We ate fried squid at a seafood restaurant."
+    },
+    {
+      "word": "cangrejo",
+      "irregularForms": null,
+      "sentence": "El cangrejo se escondió bajo la roca cuando me acerqué.",
+      "wordTranslation": "crab",
+      "sentenceTranslation": "The crab hid under the rock when I approached."
+    },
+    {
+      "word": "langosta",
+      "irregularForms": null,
+      "sentence": "La langosta es un marisco delicioso, pero muy caro.",
+      "wordTranslation": "lobster",
+      "sentenceTranslation": "Lobster is a delicious, but very expensive, seafood."
+    },
+    {
+      "word": "camarón",
+      "irregularForms": null,
+      "sentence": "Pedimos un plato de camarones a la plancha para compartir.",
+      "wordTranslation": "shrimp",
+      "sentenceTranslation": "We ordered a plate of grilled shrimp to share."
+    },
+    {
+      "word": "ensalada",
+      "irregularForms": null,
+      "sentence": "Me gusta la ensalada fresca con tomate y lechuga.",
+      "wordTranslation": "salad",
+      "sentenceTranslation": "I like fresh salad with tomato and lettuce."
+    },
+    {
+      "word": "postre",
+      "irregularForms": null,
+      "sentence": "De postre, tomamos fruta fresca y un poco de helado.",
+      "wordTranslation": "dessert",
+      "sentenceTranslation": "For dessert, we had fresh fruit and some ice cream."
+    },
+    {
+      "word": "ternera",
+      "irregularForms": null,
+      "sentence": "La ternera a la brasa es mi favorita en este restaurante.",
+      "wordTranslation": "beef",
+      "sentenceTranslation": "Grilled beef is my favorite at this restaurant."
+    },
+    {
+      "word": "cordero",
+      "irregularForms": null,
+      "sentence": "El cordero asado es un plato tradicional de la región.",
+      "wordTranslation": "lamb",
+      "sentenceTranslation": "Roast lamb is a traditional dish of the region."
+    },
+    {
+      "word": "pavo",
+      "irregularForms": null,
+      "sentence": "Comimos pavo en Acción de Gracias con toda la familia.",
+      "wordTranslation": "turkey",
+      "sentenceTranslation": "We ate turkey on Thanksgiving with the whole family."
+    },
+    {
+      "word": "jamón",
+      "irregularForms": null,
+      "sentence": "El jamón serrano es una delicia española muy apreciada.",
+      "wordTranslation": "ham",
+      "sentenceTranslation": "Serrano ham is a highly prized Spanish delicacy."
+    },
+    {
+      "word": "salchicha",
+      "irregularForms": null,
+      "sentence": "Desayunó huevos revueltos y salchichas en la cama.",
+      "wordTranslation": "sausage",
+      "sentenceTranslation": "He had scrambled eggs and sausages for breakfast in bed."
+    },
+    {
+      "word": "hamburguesa",
+      "irregularForms": null,
+      "sentence": "Pidió una hamburguesa con queso y patatas fritas.",
+      "wordTranslation": "hamburger",
+      "sentenceTranslation": "He ordered a cheeseburger with French fries."
+    },
+    {
+      "word": "pizza",
+      "irregularForms": null,
+      "sentence": "Cenamos una pizza grande con pepperoni y champiñones.",
+      "wordTranslation": "pizza",
+      "sentenceTranslation": "We had a large pizza with pepperoni and mushrooms for dinner."
+    },
+    {
+      "word": "sándwich",
+      "irregularForms": null,
+      "sentence": "Preparé un sándwich de jamón y queso para el almuerzo.",
+      "wordTranslation": "sandwich",
+      "sentenceTranslation": "I made a ham and cheese sandwich for lunch."
+    },
+    {
+      "word": "fósforo",
+      "irregularForms": null,
+      "sentence": "No encuentro un fósforo para encender la vela en la oscuridad.",
+      "wordTranslation": "match",
+      "sentenceTranslation": "I can't find a match to light the candle in the dark."
+    },
+    {
+      "word": "cuchilla",
+      "irregularForms": null,
+      "sentence": "La cuchilla de afeitar está muy afilada, ten cuidado.",
+      "wordTranslation": "blade",
+      "sentenceTranslation": "The razor blade is very sharp, be careful."
+    },
+    {
+      "word": "hacha",
+      "irregularForms": null,
+      "sentence": "Cortó la leña con un hacha vieja en el bosque.",
+      "wordTranslation": "axe",
+      "sentenceTranslation": "He cut the firewood with an old axe in the forest."
+    },
+    {
+      "word": "carrete",
+      "irregularForms": null,
+      "sentence": "El carrete de pescar se atascó durante la pesca.",
+      "wordTranslation": "reel",
+      "sentenceTranslation": "The fishing reel got stuck during fishing."
+    },
+    {
+      "word": "anzuelo",
+      "irregularForms": null,
+      "sentence": "Puso cebo fresco en el anzuelo para atrapar peces.",
+      "wordTranslation": "fishhook",
+      "sentenceTranslation": "He put fresh bait on the fishhook to catch fish."
+    },
+    {
+      "word": "caña",
+      "irregularForms": null,
+      "sentence": "Llevaba su caña de pescar al río cada domingo.",
+      "wordTranslation": "fishing rod",
+      "sentenceTranslation": "He took his fishing rod to the river every Sunday."
+    },
+    {
+      "word": "remos",
+      "irregularForms": null,
+      "sentence": "Remamos con los remos hasta la orilla del lago.",
+      "wordTranslation": "oars",
+      "sentenceTranslation": "We rowed with the oars to the lake shore."
+    },
+    {
+      "word": "vela",
+      "irregularForms": null,
+      "sentence": "Encendí una vela para crear un ambiente más acogedor.",
+      "wordTranslation": "sail/candle",
+      "sentenceTranslation": "I lit a candle to create a cozier atmosphere."
+    },
+    {
+      "word": "remo",
+      "irregularForms": null,
+      "sentence": "El remo se rompió por la mitad durante la tormenta.",
+      "wordTranslation": "oar/rowing",
+      "sentenceTranslation": "The oar broke in half during the storm."
+    },
+    {
+      "word": "bomba",
+      "irregularForms": null,
+      "sentence": "La bomba de agua no funciona, necesitamos repararla.",
+      "wordTranslation": "pump/bomb",
+      "sentenceTranslation": "The water pump is not working, we need to repair it."
+    },
+    {
+      "word": "grúa",
+      "irregularForms": null,
+      "sentence": "La grúa levantó el coche averiado de la carretera.",
+      "wordTranslation": "crane",
+      "sentenceTranslation": "The crane lifted the broken-down car from the road."
+    },
+    {
+      "word": "tuerca",
+      "irregularForms": null,
+      "sentence": "La tuerca estaba muy apretada y no podía girarla.",
+      "wordTranslation": "nut",
+      "sentenceTranslation": "The nut was very tight and he couldn't turn it."
+    },
+    {
+      "word": "perno",
+      "irregularForms": null,
+      "sentence": "Aseguró la estructura con un perno grande y resistente.",
+      "wordTranslation": "bolt",
+      "sentenceTranslation": "He secured the structure with a large, sturdy bolt."
+    },
+    {
+      "word": "cinta",
+      "irregularForms": null,
+      "sentence": "Pegó el cartel con cinta adhesiva en la pared.",
+      "wordTranslation": "tape/ribbon",
+      "sentenceTranslation": "He taped the poster to the wall with adhesive tape."
+    },
+    {
+      "word": "arcilla",
+      "irregularForms": null,
+      "sentence": "Modeló una figura de arcilla para su proyecto de arte.",
+      "wordTranslation": "clay",
+      "sentenceTranslation": "She molded a figure from clay for her art project."
+    },
+    {
+      "word": "mármol",
+      "irregularForms": null,
+      "sentence": "La estatua era de mármol blanco y brillante.",
+      "wordTranslation": "marble",
+      "sentenceTranslation": "The statue was made of shiny white marble."
+    },
+    {
+      "word": "hormigón",
+      "irregularForms": null,
+      "sentence": "El edificio está hecho de hormigón reforzado.",
+      "wordTranslation": "concrete",
+      "sentenceTranslation": "The building is made of reinforced concrete."
+    },
+    {
+      "word": "ladrillo",
+      "irregularForms": null,
+      "sentence": "La casa está construida con ladrillos rojos.",
+      "wordTranslation": "brick",
+      "sentenceTranslation": "The house is built with red bricks."
+    },
+    {
+      "word": "gotas",
+      "irregularForms": null,
+      "sentence": "Las gotas de lluvia caían en la ventana sin parar.",
+      "wordTranslation": "drops",
+      "sentenceTranslation": "The raindrops fell on the window non-stop."
+    },
+    {
+      "word": "charco",
+      "irregularForms": null,
+      "sentence": "Había un charco grande en la calle después de la tormenta.",
+      "wordTranslation": "puddle",
+      "sentenceTranslation": "There was a large puddle in the street after the storm."
+    },
+    {
+      "word": "ola",
+      "irregularForms": null,
+      "sentence": "La ola era enorme y rompió con fuerza en la playa.",
+      "wordTranslation": "wave",
+      "sentenceTranslation": "The wave was huge and broke strongly on the beach."
+    },
+    {
+      "word": "arroyo",
+      "irregularForms": null,
+      "sentence": "Caminamos junto a un pequeño arroyo en el bosque.",
+      "wordTranslation": "stream",
+      "sentenceTranslation": "We walked next to a small stream in the forest."
+    },
+    {
+      "word": "golfo",
+      "irregularForms": null,
+      "sentence": "Navegaron por el Golfo de México durante su viaje.",
+      "wordTranslation": "gulf",
+      "sentenceTranslation": "They sailed through the Gulf of Mexico during their trip."
+    },
+    {
+      "word": "laguna",
+      "irregularForms": null,
+      "sentence": "La laguna es poco profunda y está llena de aves acuáticas.",
+      "wordTranslation": "lagoon",
+      "sentenceTranslation": "The lagoon is shallow and full of waterfowl."
+    },
+    {
+      "word": "pantano",
+      "irregularForms": null,
+      "sentence": "Se perdieron en el pantano denso y oscuro.",
+      "wordTranslation": "swamp",
+      "sentenceTranslation": "They got lost in the dense, dark swamp."
+    },
+    {
+      "word": "cañón",
+      "irregularForms": null,
+      "sentence": "El Gran Cañón es una maravilla natural impresionante.",
+      "wordTranslation": "canyon",
+      "sentenceTranslation": "The Grand Canyon is an impressive natural wonder."
+    },
+    {
+      "word": "duna",
+      "irregularForms": null,
+      "sentence": "Las dunas de arena del desierto son hermosas al amanecer.",
+      "wordTranslation": "dune",
+      "sentenceTranslation": "The desert sand dunes are beautiful at sunrise."
+    },
+    {
+      "word": "cráter",
+      "irregularForms": null,
+      "sentence": "El cráter del volcán emite vapor constantemente.",
+      "wordTranslation": "crater",
+      "sentenceTranslation": "The volcano's crater constantly emits steam."
+    },
+    {
+      "word": "pradera",
+      "irregularForms": null,
+      "sentence": "Las flores silvestres cubrían la pradera en primavera.",
+      "wordTranslation": "meadow/prairie",
+      "sentenceTranslation": "Wildflowers covered the meadow in spring."
+    },
+    {
+      "word": "distrito",
+      "irregularForms": null,
+      "sentence": "Vive en el distrito financiero de la ciudad, cerca de su trabajo.",
+      "wordTranslation": "district",
+      "sentenceTranslation": "He lives in the city's financial district, close to his job."
+    },
+    {
+      "word": "villa",
+      "irregularForms": null,
+      "sentence": "Pasaron las vacaciones en una villa de lujo en la costa.",
+      "wordTranslation": "villa/town",
+      "sentenceTranslation": "They spent their vacation in a luxury villa on the coast."
+    },
+    {
+      "word": "frontera",
+      "irregularForms": null,
+      "sentence": "Cruzaron la frontera de noche para evitar problemas.",
+      "wordTranslation": "border",
+      "sentenceTranslation": "They crossed the border at night to avoid problems."
+    },
+    {
+      "word": "litoral",
+      "irregularForms": null,
+      "sentence": "El litoral español es extenso y tiene muchas playas hermosas.",
+      "wordTranslation": "coastline",
+      "sentenceTranslation": "The Spanish coastline is extensive and has many beautiful beaches."
+    },
+    {
+      "word": "constelación",
+      "irregularForms": null,
+      "sentence": "La Osa Mayor es una constelación conocida en el hemisferio norte.",
+      "wordTranslation": "constellation",
+      "sentenceTranslation": "Ursa Major is a well-known constellation in the northern hemisphere."
+    },
+    {
+      "word": "eclipse",
+      "irregularForms": null,
+      "sentence": "Hubo un eclipse de sol el mes pasado que se pudo ver en la ciudad.",
+      "wordTranslation": "eclipse",
+      "sentenceTranslation": "There was a solar eclipse last month that could be seen in the city."
+    },
+    {
+      "word": "atmósfera",
+      "irregularForms": null,
+      "sentence": "La atmósfera de la Tierra nos protege de la radiación solar.",
+      "wordTranslation": "atmosphere",
+      "sentenceTranslation": "The Earth's atmosphere protects us from solar radiation."
+    },
+    {
+      "word": "tornado",
+      "irregularForms": null,
+      "sentence": "Un tornado devastó la zona rural, dejando muchos daños.",
+      "wordTranslation": "tornado",
+      "sentenceTranslation": "A tornado devastated the rural area, causing much damage."
+    },
+    {
+      "word": "erupción",
+      "irregularForms": null,
+      "sentence": "La erupción del volcán fue espectacular, con mucha lava.",
+      "wordTranslation": "eruption",
+      "sentenceTranslation": "The volcano's eruption was spectacular, with a lot of lava."
+    },
+    {
+      "word": "deslizamiento",
+      "irregularForms": null,
+      "sentence": "Un deslizamiento de tierra bloqueó la carretera de la montaña.",
+      "wordTranslation": "landslide",
+      "sentenceTranslation": "A landslide blocked the mountain road."
+    }
+  ]
+}

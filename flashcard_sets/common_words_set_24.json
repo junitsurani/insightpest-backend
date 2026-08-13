@@ -1,0 +1,1112 @@
+{
+  "name": "Spanish Common Words Set 24",
+  "description": "This set is part of a larger collection of common Spanish words, focusing on high-frequency vocabulary for learners.",
+  "cards": [
+    {
+      "word": "ser",
+      "irregularForms": "soy, eres, es, somos, sois, son (presente)",
+      "sentence": "Es fundamental ser honesto en todas tus acciones.",
+      "wordTranslation": "to be",
+      "sentenceTranslation": "It is fundamental to be honest in all your actions."
+    },
+    {
+      "word": "estar",
+      "irregularForms": "estoy, estás, está, estamos, estáis, están (presente)",
+      "sentence": "¿Cómo puedes estar tan tranquilo en esta situación?",
+      "wordTranslation": "to be",
+      "sentenceTranslation": "How can you be so calm in this situation?"
+    },
+    {
+      "word": "ir",
+      "irregularForms": "voy, vas, va, vamos, vais, van (presente)",
+      "sentence": "Vamos a ir de vacaciones el próximo mes.",
+      "wordTranslation": "to go",
+      "sentenceTranslation": "We are going to go on vacation next month."
+    },
+    {
+      "word": "tener",
+      "irregularForms": "tengo, tienes, tiene, tenemos, tenéis, tienen (presente)",
+      "sentence": "Tienes que tener en cuenta todos los detalles.",
+      "wordTranslation": "to have",
+      "sentenceTranslation": "You have to take all the details into account."
+    },
+    {
+      "word": "querer",
+      "irregularForms": "quiero, quieres, quiere, queremos, queréis, quieren (presente)",
+      "sentence": "Quiero querer aprender un nuevo idioma.",
+      "wordTranslation": "to want",
+      "sentenceTranslation": "I want to want to learn a new language."
+    },
+    {
+      "word": "incendio",
+      "irregularForms": null,
+      "sentence": "Un incendio forestal devastó gran parte del bosque.",
+      "wordTranslation": "fire (large, destructive)",
+      "sentenceTranslation": "A forest fire devastated a large part of the forest."
+    },
+    {
+      "word": "cesta",
+      "irregularForms": null,
+      "sentence": "Llevaba una cesta llena de productos del mercado.",
+      "wordTranslation": "basket",
+      "sentenceTranslation": "She carried a basket full of market products."
+    },
+    {
+      "word": "gorra",
+      "irregularForms": null,
+      "sentence": "Me puse una gorra para protegerme del sol intenso.",
+      "wordTranslation": "cap",
+      "sentenceTranslation": "I put on a cap to protect myself from the intense sun."
+    },
+    {
+      "word": "gafas",
+      "irregularForms": null,
+      "sentence": "Necesito mis gafas para poder ver la pantalla claramente.",
+      "wordTranslation": "glasses",
+      "sentenceTranslation": "I need my glasses to be able to see the screen clearly."
+    },
+    {
+      "word": "billetera",
+      "irregularForms": null,
+      "sentence": "Guardé mi billetera en el bolsillo trasero.",
+      "wordTranslation": "wallet",
+      "sentenceTranslation": "I put my wallet in my back pocket."
+    },
+    {
+      "word": "vertical",
+      "irregularForms": null,
+      "sentence": "La línea era perfectamente vertical.",
+      "wordTranslation": "vertical",
+      "sentenceTranslation": "The line was perfectly vertical."
+    },
+    {
+      "word": "horizontal",
+      "irregularForms": null,
+      "sentence": "El paisaje se extendía horizontalmente frente a nosotros.",
+      "wordTranslation": "horizontal",
+      "sentenceTranslation": "The landscape stretched horizontally before us."
+    },
+    {
+      "word": "orden",
+      "irregularForms": null,
+      "sentence": "Mantener el orden en el caos es un arte.",
+      "wordTranslation": "order",
+      "sentenceTranslation": "Maintaining order in chaos is an art."
+    },
+    {
+      "word": "barro",
+      "irregularForms": null,
+      "sentence": "Después de la lluvia, el camino se convirtió en barro.",
+      "wordTranslation": "mud",
+      "sentenceTranslation": "After the rain, the path turned into mud."
+    },
+    {
+      "word": "rocío",
+      "irregularForms": null,
+      "sentence": "Las hojas del césped estaban cubiertas de rocío matutino.",
+      "wordTranslation": "dew",
+      "sentenceTranslation": "The grass blades were covered in morning dew."
+    },
+    {
+      "word": "niebla",
+      "irregularForms": null,
+      "sentence": "La niebla era tan densa que apenas se veía la carretera.",
+      "wordTranslation": "fog/mist",
+      "sentenceTranslation": "The fog was so dense that the road was barely visible."
+    },
+    {
+      "word": "brisa",
+      "irregularForms": null,
+      "sentence": "Una suave brisa marina refrescó la tarde calurosa.",
+      "wordTranslation": "breeze",
+      "sentenceTranslation": "A gentle sea breeze cooled the hot afternoon."
+    },
+    {
+      "word": "oleaje",
+      "irregularForms": null,
+      "sentence": "El oleaje fuerte hizo peligrosa la navegación.",
+      "wordTranslation": "swell/surf",
+      "sentenceTranslation": "The strong surf made navigation dangerous."
+    },
+    {
+      "word": "costa",
+      "irregularForms": null,
+      "sentence": "Exploraremos los pueblos a lo largo de la costa.",
+      "wordTranslation": "coast",
+      "sentenceTranslation": "We will explore the towns along the coast."
+    },
+    {
+      "word": "colina",
+      "irregularForms": null,
+      "sentence": "Subimos a la colina para disfrutar de las vistas panorámicas.",
+      "wordTranslation": "hill",
+      "sentenceTranslation": "We climbed the hill to enjoy the panoramic views."
+    },
+    {
+      "word": "cueva",
+      "irregularForms": null,
+      "sentence": "Descubrieron una antigua cueva con pinturas rupestres.",
+      "wordTranslation": "cave",
+      "sentenceTranslation": "They discovered an ancient cave with cave paintings."
+    },
+    {
+      "word": "selva",
+      "irregularForms": null,
+      "sentence": "La densa selva amazónica es hogar de innumerables especies.",
+      "wordTranslation": "jungle/rainforest",
+      "sentenceTranslation": "The dense Amazon rainforest is home to countless species."
+    },
+    {
+      "word": "cascada",
+      "irregularForms": null,
+      "sentence": "La imponente cascada caía con fuerza desde la montaña.",
+      "wordTranslation": "waterfall",
+      "sentenceTranslation": "The imposing waterfall fell powerfully from the mountain."
+    },
+    {
+      "word": "pico",
+      "irregularForms": null,
+      "sentence": "Alcanzaron el pico de la montaña al amanecer.",
+      "wordTranslation": "peak (mountain)",
+      "sentenceTranslation": "They reached the mountain peak at dawn."
+    },
+    {
+      "word": "raíz",
+      "irregularForms": null,
+      "sentence": "La raíz del problema es la falta de comunicación.",
+      "wordTranslation": "root",
+      "sentenceTranslation": "The root of the problem is a lack of communication."
+    },
+    {
+      "word": "rama",
+      "irregularForms": null,
+      "sentence": "Un pájaro construyó su nido en una rama alta.",
+      "wordTranslation": "branch",
+      "sentenceTranslation": "A bird built its nest on a high branch."
+    },
+    {
+      "word": "tronco",
+      "irregularForms": null,
+      "sentence": "El leñador cortó el tronco del árbol caído.",
+      "wordTranslation": "tree trunk/log",
+      "sentenceTranslation": "The lumberjack cut the trunk of the fallen tree."
+    },
+    {
+      "word": "corteza",
+      "irregularForms": null,
+      "sentence": "La corteza del pino tiene un patrón distintivo.",
+      "wordTranslation": "bark (tree)",
+      "sentenceTranslation": "Pine bark has a distinctive pattern."
+    },
+    {
+      "word": "fragancia",
+      "irregularForms": null,
+      "sentence": "La fragancia de las rosas llenaba el jardín.",
+      "wordTranslation": "fragrance/perfume",
+      "sentenceTranslation": "The fragrance of the roses filled the garden."
+    },
+    {
+      "word": "reflejo",
+      "irregularForms": null,
+      "sentence": "Su reflejo en el espejo mostraba una sonrisa triste.",
+      "wordTranslation": "reflection",
+      "sentenceTranslation": "Her reflection in the mirror showed a sad smile."
+    },
+    {
+      "word": "murmullo",
+      "irregularForms": null,
+      "sentence": "Escuché un murmullo de voces en la habitación contigua.",
+      "wordTranslation": "murmur",
+      "sentenceTranslation": "I heard a murmur of voices in the next room."
+    },
+    {
+      "word": "suspiro",
+      "irregularForms": null,
+      "sentence": "Dio un suspiro de alivio al ver a su familia.",
+      "wordTranslation": "sigh",
+      "sentenceTranslation": "He gave a sigh of relief upon seeing his family."
+    },
+    {
+      "word": "bostezo",
+      "irregularForms": null,
+      "sentence": "Un bostezo incontrolable escapó de sus labios.",
+      "wordTranslation": "yawn",
+      "sentenceTranslation": "An uncontrollable yawn escaped his lips."
+    },
+    {
+      "word": "latido",
+      "irregularForms": null,
+      "sentence": "Sentía el fuerte latido de su corazón en el pecho.",
+      "wordTranslation": "heartbeat/throb",
+      "sentenceTranslation": "He felt the strong beat of his heart in his chest."
+    },
+    {
+      "word": "mueca",
+      "irregularForms": null,
+      "sentence": "Hizo una mueca de desagrado al probar el medicamento.",
+      "wordTranslation": "grimace/face",
+      "sentenceTranslation": "He made a grimace of displeasure when tasting the medicine."
+    },
+    {
+      "word": "gesto",
+      "irregularForms": null,
+      "sentence": "Un simple gesto de amabilidad puede alegrar el día.",
+      "wordTranslation": "gesture",
+      "sentenceTranslation": "A simple gesture of kindness can brighten the day."
+    },
+    {
+      "word": "señal",
+      "irregularForms": null,
+      "sentence": "La señal de alto nos indicó que debíamos parar.",
+      "wordTranslation": "sign/signal",
+      "sentenceTranslation": "The stop sign indicated that we should stop."
+    },
+    {
+      "word": "boleto",
+      "irregularForms": null,
+      "sentence": "Compré un boleto para el concierto de mi banda favorita.",
+      "wordTranslation": "ticket",
+      "sentenceTranslation": "I bought a ticket for my favorite band's concert."
+    },
+    {
+      "word": "premio",
+      "irregularForms": null,
+      "sentence": "El primer premio era un viaje alrededor del mundo.",
+      "wordTranslation": "prize/award",
+      "sentenceTranslation": "The first prize was a trip around the world."
+    },
+    {
+      "word": "bandera",
+      "irregularForms": null,
+      "sentence": "La bandera nacional ondeaba en la plaza principal.",
+      "wordTranslation": "flag",
+      "sentenceTranslation": "The national flag waved in the main square."
+    },
+    {
+      "word": "escudo",
+      "irregularForms": null,
+      "sentence": "El escudo del equipo de fútbol era muy antiguo.",
+      "wordTranslation": "shield/coat of arms",
+      "sentenceTranslation": "The football team's crest was very old."
+    },
+    {
+      "word": "espada",
+      "irregularForms": null,
+      "sentence": "En la exhibición, había una espada medieval muy bien conservada.",
+      "wordTranslation": "sword",
+      "sentenceTranslation": "In the exhibition, there was a very well-preserved medieval sword."
+    },
+    {
+      "word": "bala",
+      "irregularForms": null,
+      "sentence": "Encontraron una bala incrustada en el árbol.",
+      "wordTranslation": "bullet",
+      "sentenceTranslation": "They found a bullet embedded in the tree."
+    },
+    {
+      "word": "pólvora",
+      "irregularForms": null,
+      "sentence": "Se podía oler la pólvora después del disparo.",
+      "wordTranslation": "gunpowder",
+      "sentenceTranslation": "You could smell the gunpowder after the shot."
+    },
+    {
+      "word": "explosión",
+      "irregularForms": null,
+      "sentence": "La explosión sacudió los edificios cercanos.",
+      "wordTranslation": "explosion",
+      "sentenceTranslation": "The explosion shook nearby buildings."
+    },
+    {
+      "word": "ceniza",
+      "irregularForms": null,
+      "sentence": "Las cenizas del volcán cubrieron el pueblo.",
+      "wordTranslation": "ash",
+      "sentenceTranslation": "The volcanic ashes covered the town."
+    },
+    {
+      "word": "carbón",
+      "irregularForms": null,
+      "sentence": "Encendimos el carbón para hacer la barbacoa.",
+      "wordTranslation": "coal/charcoal",
+      "sentenceTranslation": "We lit the charcoal for the barbecue."
+    },
+    {
+      "word": "nudo",
+      "irregularForms": null,
+      "sentence": "Hice un nudo fuerte para que no se soltara.",
+      "wordTranslation": "knot",
+      "sentenceTranslation": "I tied a strong knot so it wouldn't come loose."
+    },
+    {
+      "word": "lienzo",
+      "irregularForms": null,
+      "sentence": "El artista comenzó a pintar sobre un lienzo en blanco.",
+      "wordTranslation": "canvas",
+      "sentenceTranslation": "The artist began painting on a blank canvas."
+    },
+    {
+      "word": "orquesta",
+      "irregularForms": null,
+      "sentence": "La orquesta sinfónica ofreció un concierto memorable.",
+      "wordTranslation": "orchestra",
+      "sentenceTranslation": "The symphony orchestra gave a memorable concert."
+    },
+    {
+      "word": "composición",
+      "irregularForms": null,
+      "sentence": "Su última composición musical es una obra maestra.",
+      "wordTranslation": "composition",
+      "sentenceTranslation": "His latest musical composition is a masterpiece."
+    },
+    {
+      "word": "capítulo",
+      "irregularForms": null,
+      "sentence": "Leímos el último capítulo del libro antes de dormir.",
+      "wordTranslation": "chapter",
+      "sentenceTranslation": "We read the last chapter of the book before going to sleep."
+    },
+    {
+      "word": "párrafo",
+      "irregularForms": null,
+      "sentence": "El segundo párrafo explica el punto principal.",
+      "wordTranslation": "paragraph",
+      "sentenceTranslation": "The second paragraph explains the main point."
+    },
+    {
+      "word": "letra",
+      "irregularForms": null,
+      "sentence": "La letra de esta canción es muy emotiva.",
+      "wordTranslation": "letter (alphabet)/lyrics",
+      "sentenceTranslation": "The lyrics of this song are very emotional."
+    },
+    {
+      "word": "puntuación",
+      "irregularForms": null,
+      "sentence": "La puntuación es crucial para la claridad del texto.",
+      "wordTranslation": "punctuation/score",
+      "sentenceTranslation": "Punctuation is crucial for text clarity."
+    },
+    {
+      "word": "vocabulario",
+      "irregularForms": null,
+      "sentence": "Ampliar el vocabulario ayuda a comunicarse mejor.",
+      "wordTranslation": "vocabulary",
+      "sentenceTranslation": "Expanding vocabulary helps to communicate better."
+    },
+    {
+      "word": "gramática",
+      "irregularForms": null,
+      "sentence": "Estudiar la gramática es esencial para dominar un idioma.",
+      "wordTranslation": "grammar",
+      "sentenceTranslation": "Studying grammar is essential to master a language."
+    },
+    {
+      "word": "traducción",
+      "irregularForms": null,
+      "sentence": "Necesito una traducción jurada de este documento.",
+      "wordTranslation": "translation",
+      "sentenceTranslation": "I need a sworn translation of this document."
+    },
+    {
+      "word": "diccionario",
+      "irregularForms": null,
+      "sentence": "Siempre tengo un diccionario a mano cuando leo en otro idioma.",
+      "wordTranslation": "dictionary",
+      "sentenceTranslation": "I always keep a dictionary handy when reading in another language."
+    },
+    {
+      "word": "aula",
+      "irregularForms": null,
+      "sentence": "El aula estaba llena de estudiantes ansiosos por aprender.",
+      "wordTranslation": "classroom",
+      "sentenceTranslation": "The classroom was full of students eager to learn."
+    },
+    {
+      "word": "nota",
+      "irregularForms": null,
+      "sentence": "Saqué una nota excelente en mi examen final.",
+      "wordTranslation": "note/grade",
+      "sentenceTranslation": "I got an excellent grade on my final exam."
+    },
+    {
+      "word": "tarea",
+      "irregularForms": null,
+      "sentence": "Completé toda mi tarea antes de salir a jugar.",
+      "wordTranslation": "homework/task",
+      "sentenceTranslation": "I completed all my homework before going out to play."
+    },
+    {
+      "word": "relato",
+      "irregularForms": null,
+      "sentence": "Me fascinó el relato de sus aventuras por el mundo.",
+      "wordTranslation": "story/account",
+      "sentenceTranslation": "I was fascinated by the account of his adventures around the world."
+    },
+    {
+      "word": "anécdota",
+      "irregularForms": null,
+      "sentence": "Siempre tiene una anécdota divertida para cada ocasión.",
+      "wordTranslation": "anecdote",
+      "sentenceTranslation": "He always has a funny anecdote for every occasion."
+    },
+    {
+      "word": "leyenda",
+      "irregularForms": null,
+      "sentence": "La leyenda cuenta que un dragón custodia el tesoro.",
+      "wordTranslation": "legend",
+      "sentenceTranslation": "The legend says that a dragon guards the treasure."
+    },
+    {
+      "word": "mito",
+      "irregularForms": null,
+      "sentence": "Es un mito que los gatos negros traen mala suerte.",
+      "wordTranslation": "myth",
+      "sentenceTranslation": "It's a myth that black cats bring bad luck."
+    },
+    {
+      "word": "fábula",
+      "irregularForms": null,
+      "sentence": "Las fábulas de Esopo siempre dejan una enseñanza moral.",
+      "wordTranslation": "fable",
+      "sentenceTranslation": "Aesop's fables always leave a moral lesson."
+    },
+    {
+      "word": "novela",
+      "irregularForms": null,
+      "sentence": "Su primera novela fue un éxito de ventas inesperado.",
+      "wordTranslation": "novel",
+      "sentenceTranslation": "His first novel was an unexpected bestseller."
+    },
+    {
+      "word": "poesía",
+      "irregularForms": null,
+      "sentence": "La poesía es un género literario que explora la belleza del lenguaje.",
+      "wordTranslation": "poetry",
+      "sentenceTranslation": "Poetry is a literary genre that explores the beauty of language."
+    },
+    {
+      "word": "drama",
+      "irregularForms": null,
+      "sentence": "La obra de teatro era un drama intenso y conmovedor.",
+      "wordTranslation": "drama",
+      "sentenceTranslation": "The play was an intense and moving drama."
+    },
+    {
+      "word": "comedia",
+      "irregularForms": null,
+      "sentence": "Nos reímos mucho viendo esa comedia en el cine.",
+      "wordTranslation": "comedy",
+      "sentenceTranslation": "We laughed a lot watching that comedy at the cinema."
+    },
+    {
+      "word": "tragedia",
+      "irregularForms": null,
+      "sentence": "La historia de Romeo y Julieta es una tragedia clásica.",
+      "wordTranslation": "tragedy",
+      "sentenceTranslation": "The story of Romeo and Juliet is a classic tragedy."
+    },
+    {
+      "word": "ficción",
+      "irregularForms": null,
+      "sentence": "Prefiero la ciencia ficción a los géneros realistas.",
+      "wordTranslation": "fiction",
+      "sentenceTranslation": "I prefer science fiction to realistic genres."
+    },
+    {
+      "word": "pesadilla",
+      "irregularForms": null,
+      "sentence": "Tuve una pesadilla horrible y me desperté asustado.",
+      "wordTranslation": "nightmare",
+      "sentenceTranslation": "I had a horrible nightmare and woke up scared."
+    },
+    {
+      "word": "correa",
+      "irregularForms": null,
+      "sentence": "Asegura la correa de tu perro antes de salir a pasear.",
+      "wordTranslation": "leash/strap",
+      "sentenceTranslation": "Secure your dog's leash before going for a walk."
+    },
+    {
+      "word": "carroza",
+      "irregularForms": null,
+      "sentence": "La princesa llegó al baile en una hermosa carroza.",
+      "wordTranslation": "carriage/float",
+      "sentenceTranslation": "The princess arrived at the ball in a beautiful carriage."
+    },
+    {
+      "word": "parche",
+      "irregularForms": null,
+      "sentence": "Se puso un parche en el codo de su chaqueta.",
+      "wordTranslation": "patch",
+      "sentenceTranslation": "He put a patch on the elbow of his jacket."
+    },
+    {
+      "word": "gorjear",
+      "irregularForms": "gorjeo, gorjeas, gorjea, gorjeamos, gorjeáis, gorjean (presente)",
+      "sentence": "Los pájaros comenzaron a gorjear al amanecer.",
+      "wordTranslation": "to chirp/warble",
+      "sentenceTranslation": "The birds began to chirp at dawn."
+    },
+    {
+      "word": "ladrar",
+      "irregularForms": "ladro, ladras, ladra, ladramos, ladráis, ladran (presente)",
+      "sentence": "El perro no para de ladrar a los extraños.",
+      "wordTranslation": "to bark",
+      "sentenceTranslation": "The dog doesn't stop barking at strangers."
+    },
+    {
+      "word": "maullar",
+      "irregularForms": "maúllo, maúllas, maúlla, maullamos, maulláis, maúllan (presente)",
+      "sentence": "El gato empezó a maullar pidiendo comida.",
+      "wordTranslation": "to meow",
+      "sentenceTranslation": "The cat started to meow, asking for food."
+    },
+    {
+      "word": "gruñir",
+      "irregularForms": "gruño, gruñes, gruñe, gruñimos, gruñís, gruñen (presente)",
+      "sentence": "El oso comenzó a gruñir cuando se sintió amenazado.",
+      "wordTranslation": "to growl/grunt",
+      "sentenceTranslation": "The bear began to growl when it felt threatened."
+    },
+    {
+      "word": "aullido",
+      "irregularForms": null,
+      "sentence": "Escuchamos un aullido solitario en la noche.",
+      "wordTranslation": "howl",
+      "sentenceTranslation": "We heard a solitary howl in the night."
+    },
+    {
+      "word": "zumbido",
+      "irregularForms": null,
+      "sentence": "El zumbido de las abejas llenaba el aire del jardín.",
+      "wordTranslation": "hum/buzz",
+      "sentenceTranslation": "The buzzing of the bees filled the garden air."
+    },
+    {
+      "word": "sirena",
+      "irregularForms": null,
+      "sentence": "La sirena de la ambulancia sonaba a lo lejos.",
+      "wordTranslation": "siren/mermaid",
+      "sentenceTranslation": "The ambulance siren sounded in the distance."
+    },
+    {
+      "word": "gruta",
+      "irregularForms": null,
+      "sentence": "Exploramos una pequeña gruta escondida en la costa.",
+      "wordTranslation": "grotto",
+      "sentenceTranslation": "We explored a small grotto hidden on the coast."
+    },
+    {
+      "word": "estalactita",
+      "irregularForms": null,
+      "sentence": "Las estalactitas colgaban del techo de la cueva.",
+      "wordTranslation": "stalactite",
+      "sentenceTranslation": "Stalactites hung from the cave ceiling."
+    },
+    {
+      "word": "estatua",
+      "irregularForms": null,
+      "sentence": "Una antigua estatua de mármol decoraba el jardín.",
+      "wordTranslation": "statue",
+      "sentenceTranslation": "An ancient marble statue decorated the garden."
+    },
+    {
+      "word": "avenida",
+      "irregularForms": null,
+      "sentence": "Caminamos por la avenida principal de la ciudad.",
+      "wordTranslation": "avenue",
+      "sentenceTranslation": "We walked down the main avenue of the city."
+    },
+    {
+      "word": "roble",
+      "irregularForms": null,
+      "sentence": "El viejo roble del jardín ofrecía mucha sombra.",
+      "wordTranslation": "oak tree",
+      "sentenceTranslation": "The old oak tree in the garden offered a lot of shade."
+    },
+    {
+      "word": "abeto",
+      "irregularForms": null,
+      "sentence": "Decoramos el abeto con luces para Navidad.",
+      "wordTranslation": "fir tree",
+      "sentenceTranslation": "We decorated the fir tree with lights for Christmas."
+    },
+    {
+      "word": "pino",
+      "irregularForms": null,
+      "sentence": "El aroma a pino fresco llenaba el aire del bosque.",
+      "wordTranslation": "pine tree",
+      "sentenceTranslation": "The scent of fresh pine filled the forest air."
+    },
+    {
+      "word": "matorral",
+      "irregularForms": null,
+      "sentence": "El conejo se escondió rápidamente en el matorral.",
+      "wordTranslation": "bush/thicket",
+      "sentenceTranslation": "The rabbit quickly hid in the thicket."
+    },
+    {
+      "word": "sendero",
+      "irregularForms": null,
+      "sentence": "Seguimos un estrecho sendero a través del bosque.",
+      "wordTranslation": "path/trail",
+      "sentenceTranslation": "We followed a narrow path through the forest."
+    },
+    {
+      "word": "acantilado",
+      "irregularForms": null,
+      "sentence": "Las casas estaban construidas al borde del acantilado.",
+      "wordTranslation": "cliff",
+      "sentenceTranslation": "The houses were built on the edge of the cliff."
+    },
+    {
+      "word": "glaciar",
+      "irregularForms": null,
+      "sentence": "El glaciar se movía lentamente hacia el mar.",
+      "wordTranslation": "glacier",
+      "sentenceTranslation": "The glacier moved slowly towards the sea."
+    },
+    {
+      "word": "bahía",
+      "irregularForms": null,
+      "sentence": "El barco ancló en la tranquila bahía.",
+      "wordTranslation": "bay",
+      "sentenceTranslation": "The boat anchored in the quiet bay."
+    },
+    {
+      "word": "península",
+      "irregularForms": null,
+      "sentence": "Vivimos en una pequeña península rodeada de agua.",
+      "wordTranslation": "peninsula",
+      "sentenceTranslation": "We live on a small peninsula surrounded by water."
+    },
+    {
+      "word": "istmo",
+      "irregularForms": null,
+      "sentence": "El canal atraviesa el estrecho istmo.",
+      "wordTranslation": "isthmus",
+      "sentenceTranslation": "The canal crosses the narrow isthmus."
+    },
+    {
+      "word": "archipiélago",
+      "irregularForms": null,
+      "sentence": "El archipiélago estaba formado por muchas islas pequeñas.",
+      "wordTranslation": "archipelago",
+      "sentenceTranslation": "The archipelago consisted of many small islands."
+    },
+    {
+      "word": "fiordo",
+      "irregularForms": null,
+      "sentence": "Los fiordos noruegos son famosos por su belleza.",
+      "wordTranslation": "fjord",
+      "sentenceTranslation": "Norwegian fjords are famous for their beauty."
+    },
+    {
+      "word": "geografía",
+      "irregularForms": null,
+      "sentence": "Estudió la geografía de la región montañosa.",
+      "wordTranslation": "geography",
+      "sentenceTranslation": "He studied the geography of the mountainous region."
+    },
+    {
+      "word": "clima",
+      "irregularForms": null,
+      "sentence": "El clima de esta zona es muy agradable todo el año.",
+      "wordTranslation": "climate",
+      "sentenceTranslation": "The climate in this area is very pleasant all year round."
+    },
+    {
+      "word": "meteorología",
+      "irregularForms": null,
+      "sentence": "La meteorología predice lluvias para el fin de semana.",
+      "wordTranslation": "meteorology",
+      "sentenceTranslation": "Meteorology predicts rain for the weekend."
+    },
+    {
+      "word": "astronomía",
+      "irregularForms": null,
+      "sentence": "La astronomía es el estudio de los cuerpos celestes.",
+      "wordTranslation": "astronomy",
+      "sentenceTranslation": "Astronomy is the study of celestial bodies."
+    },
+    {
+      "word": "galaxia",
+      "irregularForms": null,
+      "sentence": "Nuestra galaxia se llama la Vía Láctea.",
+      "wordTranslation": "galaxy",
+      "sentenceTranslation": "Our galaxy is called the Milky Way."
+    },
+    {
+      "word": "universo",
+      "irregularForms": null,
+      "sentence": "El universo es vasto y lleno de misterios.",
+      "wordTranslation": "universe",
+      "sentenceTranslation": "The universe is vast and full of mysteries."
+    },
+    {
+      "word": "cometa",
+      "irregularForms": null,
+      "sentence": "El cometa Halley aparece cada 76 años.",
+      "wordTranslation": "comet",
+      "sentenceTranslation": "Halley's Comet appears every 76 years."
+    },
+    {
+      "word": "asteroide",
+      "irregularForms": null,
+      "sentence": "Un asteroide pasó cerca de la Tierra el mes pasado.",
+      "wordTranslation": "asteroid",
+      "sentenceTranslation": "An asteroid passed close to Earth last month."
+    },
+    {
+      "word": "órbita",
+      "irregularForms": null,
+      "sentence": "El satélite sigue una órbita precisa alrededor del planeta.",
+      "wordTranslation": "orbit",
+      "sentenceTranslation": "The satellite follows a precise orbit around the planet."
+    },
+    {
+      "word": "gravedad",
+      "irregularForms": null,
+      "sentence": "La gravedad mantiene los planetas en su órbita.",
+      "wordTranslation": "gravity",
+      "sentenceTranslation": "Gravity keeps the planets in their orbit."
+    },
+    {
+      "word": "átomo",
+      "irregularForms": null,
+      "sentence": "Un átomo es la unidad más pequeña de la materia.",
+      "wordTranslation": "atom",
+      "sentenceTranslation": "An atom is the smallest unit of matter."
+    },
+    {
+      "word": "molécula",
+      "irregularForms": null,
+      "sentence": "Una molécula de agua está compuesta por dos átomos de hidrógeno y uno de oxígeno.",
+      "wordTranslation": "molecule",
+      "sentenceTranslation": "A water molecule is composed of two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "word": "elemento",
+      "irregularForms": null,
+      "sentence": "El oro es un elemento químico precioso.",
+      "wordTranslation": "element",
+      "sentenceTranslation": "Gold is a precious chemical element."
+    },
+    {
+      "word": "compuesto",
+      "irregularForms": null,
+      "sentence": "El agua es un compuesto vital para la vida.",
+      "wordTranslation": "compound",
+      "sentenceTranslation": "Water is a vital compound for life."
+    },
+    {
+      "word": "reacción",
+      "irregularForms": null,
+      "sentence": "La reacción química produjo mucho calor.",
+      "wordTranslation": "reaction",
+      "sentenceTranslation": "The chemical reaction produced a lot of heat."
+    },
+    {
+      "word": "fusión",
+      "irregularForms": null,
+      "sentence": "La fusión de las dos empresas fue un éxito.",
+      "wordTranslation": "fusion/melting",
+      "sentenceTranslation": "The merger of the two companies was a success."
+    },
+    {
+      "word": "mezcla",
+      "irregularForms": null,
+      "sentence": "Preparamos una mezcla de frutas para el postre.",
+      "wordTranslation": "mix/mixture",
+      "sentenceTranslation": "We prepared a fruit mixture for dessert."
+    },
+    {
+      "word": "solución",
+      "irregularForms": null,
+      "sentence": "Encontramos una solución al problema de inmediato.",
+      "wordTranslation": "solution",
+      "sentenceTranslation": "We found a solution to the problem immediately."
+    },
+    {
+      "word": "investigación",
+      "irregularForms": null,
+      "sentence": "La investigación científica es fundamental para el progreso.",
+      "wordTranslation": "research/investigation",
+      "sentenceTranslation": "Scientific research is fundamental for progress."
+    },
+    {
+      "word": "experimento",
+      "irregularForms": null,
+      "sentence": "El experimento demostró la teoría correctamente.",
+      "wordTranslation": "experiment",
+      "sentenceTranslation": "The experiment demonstrated the theory correctly."
+    },
+    {
+      "word": "prueba",
+      "irregularForms": null,
+      "sentence": "La prueba de laboratorio confirmó los resultados.",
+      "wordTranslation": "test/proof",
+      "sentenceTranslation": "The lab test confirmed the results."
+    },
+    {
+      "word": "dato",
+      "irregularForms": null,
+      "sentence": "Necesitamos más datos para tomar una decisión informada.",
+      "wordTranslation": "data/fact",
+      "sentenceTranslation": "We need more data to make an informed decision."
+    },
+    {
+      "word": "estadística",
+      "irregularForms": null,
+      "sentence": "Las estadísticas muestran un aumento en las ventas.",
+      "wordTranslation": "statistic",
+      "sentenceTranslation": "The statistics show an increase in sales."
+    },
+    {
+      "word": "gráfico",
+      "irregularForms": null,
+      "sentence": "El gráfico muestra la evolución de la temperatura.",
+      "wordTranslation": "graph/chart",
+      "sentenceTranslation": "The graph shows the temperature evolution."
+    },
+    {
+      "word": "tecnología",
+      "irregularForms": null,
+      "sentence": "La tecnología avanza a pasos agigantados cada día.",
+      "wordTranslation": "technology",
+      "sentenceTranslation": "Technology advances by leaps and bounds every day."
+    },
+    {
+      "word": "innovación",
+      "irregularForms": null,
+      "sentence": "La innovación es clave para la competitividad en el mercado.",
+      "wordTranslation": "innovation",
+      "sentenceTranslation": "Innovation is key to market competitiveness."
+    },
+    {
+      "word": "desarrollo",
+      "irregularForms": null,
+      "sentence": "El desarrollo de nuevos productos es una prioridad para la empresa.",
+      "wordTranslation": "development",
+      "sentenceTranslation": "The development of new products is a priority for the company."
+    },
+    {
+      "word": "progreso",
+      "irregularForms": null,
+      "sentence": "El progreso de la medicina ha sido asombroso.",
+      "wordTranslation": "progress",
+      "sentenceTranslation": "The progress of medicine has been amazing."
+    },
+    {
+      "word": "avance",
+      "irregularForms": null,
+      "sentence": "Este descubrimiento representa un gran avance en la ciencia.",
+      "wordTranslation": "advance",
+      "sentenceTranslation": "This discovery represents a major advance in science."
+    },
+    {
+      "word": "tendencia",
+      "irregularForms": null,
+      "sentence": "La tendencia actual es hacia un estilo de vida más saludable.",
+      "wordTranslation": "trend/tendency",
+      "sentenceTranslation": "The current trend is towards a healthier lifestyle."
+    },
+    {
+      "word": "perspectiva",
+      "irregularForms": null,
+      "sentence": "Me gusta ver las cosas desde una nueva perspectiva.",
+      "wordTranslation": "perspective",
+      "sentenceTranslation": "I like to see things from a new perspective."
+    },
+    {
+      "word": "estrategia",
+      "irregularForms": null,
+      "sentence": "Desarrollaron una estrategia efectiva para el lanzamiento del producto.",
+      "wordTranslation": "strategy",
+      "sentenceTranslation": "They developed an effective strategy for the product launch."
+    },
+    {
+      "word": "planificación",
+      "irregularForms": null,
+      "sentence": "Una buena planificación es esencial para el éxito del proyecto.",
+      "wordTranslation": "planning",
+      "sentenceTranslation": "Good planning is essential for project success."
+    },
+    {
+      "word": "organización",
+      "irregularForms": null,
+      "sentence": "La organización del evento fue impecable.",
+      "wordTranslation": "organization",
+      "sentenceTranslation": "The event's organization was impeccable."
+    },
+    {
+      "word": "gestión",
+      "irregularForms": null,
+      "sentence": "La gestión de proyectos es su principal habilidad.",
+      "wordTranslation": "management",
+      "sentenceTranslation": "Project management is his main skill."
+    },
+    {
+      "word": "administración",
+      "irregularForms": null,
+      "sentence": "Estudió administración de empresas en la universidad.",
+      "wordTranslation": "administration",
+      "sentenceTranslation": "He studied business administration at university."
+    },
+    {
+      "word": "eficiencia",
+      "irregularForms": null,
+      "sentence": "La eficiencia en el trabajo es muy valorada.",
+      "wordTranslation": "efficiency",
+      "sentenceTranslation": "Efficiency at work is highly valued."
+    },
+    {
+      "word": "rendimiento",
+      "irregularForms": null,
+      "sentence": "El rendimiento del nuevo motor es excepcional.",
+      "wordTranslation": "performance",
+      "sentenceTranslation": "The performance of the new engine is exceptional."
+    },
+    {
+      "word": "calidad",
+      "irregularForms": null,
+      "sentence": "Priorizamos la calidad sobre la cantidad en nuestros productos.",
+      "wordTranslation": "quality",
+      "sentenceTranslation": "We prioritize quality over quantity in our products."
+    },
+    {
+      "word": "cantidad",
+      "irregularForms": null,
+      "sentence": "Necesitamos una gran cantidad de materiales para el proyecto.",
+      "wordTranslation": "quantity",
+      "sentenceTranslation": "We need a large quantity of materials for the project."
+    },
+    {
+      "word": "medida",
+      "irregularForms": null,
+      "sentence": "Toma la medida exacta antes de cortar la tela.",
+      "wordTranslation": "measure/measurement",
+      "sentenceTranslation": "Take the exact measurement before cutting the fabric."
+    },
+    {
+      "word": "dimension",
+      "irregularForms": null,
+      "sentence": "Considera cada dimensión del problema.",
+      "wordTranslation": "dimension",
+      "sentenceTranslation": "Consider every dimension of the problem."
+    },
+    {
+      "word": "longitud",
+      "irregularForms": null,
+      "sentence": "Calcula la longitud del cable necesario.",
+      "wordTranslation": "length",
+      "sentenceTranslation": "Calculate the necessary cable length."
+    },
+    {
+      "word": "anchura",
+      "irregularForms": null,
+      "sentence": "La anchura de la mesa es ideal para el espacio.",
+      "wordTranslation": "width",
+      "sentenceTranslation": "The width of the table is ideal for the space."
+    },
+    {
+      "word": "altura",
+      "irregularForms": null,
+      "sentence": "La altura de la montaña es impresionante.",
+      "wordTranslation": "height",
+      "sentenceTranslation": "The height of the mountain is impressive."
+    },
+    {
+      "word": "profundidad",
+      "irregularForms": null,
+      "sentence": "La profundidad del océano es asombrosa.",
+      "wordTranslation": "depth",
+      "sentenceTranslation": "The depth of the ocean is astonishing."
+    },
+    {
+      "word": "superficie",
+      "irregularForms": null,
+      "sentence": "La superficie del agua estaba en calma.",
+      "wordTranslation": "surface",
+      "sentenceTranslation": "The water's surface was calm."
+    },
+    {
+      "word": "volumen",
+      "irregularForms": null,
+      "sentence": "El volumen de la música era demasiado alto.",
+      "wordTranslation": "volume",
+      "sentenceTranslation": "The volume of the music was too loud."
+    },
+    {
+      "word": "peso",
+      "irregularForms": null,
+      "sentence": "El peso del paquete era considerable.",
+      "wordTranslation": "weight",
+      "sentenceTranslation": "The weight of the package was considerable."
+    },
+    {
+      "word": "temperatura",
+      "irregularForms": null,
+      "sentence": "La temperatura bajó drásticamente durante la noche.",
+      "wordTranslation": "temperature",
+      "sentenceTranslation": "The temperature dropped drastically during the night."
+    },
+    {
+      "word": "humedad",
+      "irregularForms": null,
+      "sentence": "La alta humedad hace que el calor sea insoportable.",
+      "wordTranslation": "humidity",
+      "sentenceTranslation": "High humidity makes the heat unbearable."
+    },
+    {
+      "word": "velocidad",
+      "irregularForms": null,
+      "sentence": "El coche alcanzó una gran velocidad en la autopista.",
+      "wordTranslation": "speed",
+      "sentenceTranslation": "The car reached a high speed on the highway."
+    },
+    {
+      "word": "aceleración",
+      "irregularForms": null,
+      "sentence": "La aceleración del vehículo fue impresionante.",
+      "wordTranslation": "acceleration",
+      "sentenceTranslation": "The vehicle's acceleration was impressive."
+    },
+    {
+      "word": "presión",
+      "irregularForms": null,
+      "sentence": "La presión atmosférica afecta el clima.",
+      "wordTranslation": "pressure",
+      "sentenceTranslation": "Atmospheric pressure affects the weather."
+    },
+    {
+      "word": "energía",
+      "irregularForms": null,
+      "sentence": "Necesitamos más energía para impulsar el proyecto.",
+      "wordTranslation": "energy",
+      "sentenceTranslation": "We need more energy to propel the project."
+    },
+    {
+      "word": "fuerza",
+      "irregularForms": null,
+      "sentence": "Aplicó toda su fuerza para mover la roca.",
+      "wordTranslation": "force/strength",
+      "sentenceTranslation": "He applied all his strength to move the rock."
+    },
+    {
+      "word": "poder",
+      "irregularForms": null,
+      "sentence": "El poder del conocimiento es innegable.",
+      "wordTranslation": "power",
+      "sentenceTranslation": "The power of knowledge is undeniable."
+    },
+    {
+      "word": "control",
+      "irregularForms": null,
+      "sentence": "Perdió el control del coche en la curva.",
+      "wordTranslation": "control",
+      "sentenceTranslation": "He lost control of the car on the curve."
+    }
+  ]
+}

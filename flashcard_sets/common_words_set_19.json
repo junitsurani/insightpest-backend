@@ -1,0 +1,741 @@
+{
+  "name": "Spanish Common Words Set 19",
+  "description": "This flashcard set features 100 common and frequently used Spanish words, serving as a continuation of a larger series designed for vocabulary acquisition.",
+  "cards": [
+    {
+      "word": "ser",
+      "irregularForms": "soy, eres, es, somos, sois, son (present indicative); fui, fuiste, fue, fuimos, fuisteis, fueron (preterite)",
+      "sentence": "Yo soy de España.",
+      "wordTranslation": "to be (permanent)",
+      "sentenceTranslation": "I am from Spain."
+    },
+    {
+      "word": "estar",
+      "irregularForms": "estoy, estás, está, estamos, estáis, están (present indicative); estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron (preterite)",
+      "sentence": "Ella está feliz hoy.",
+      "wordTranslation": "to be (temporary)",
+      "sentenceTranslation": "She is happy today."
+    },
+    {
+      "word": "hacer",
+      "irregularForms": "hago, haces, hace, hacemos, hacéis, hacen (present indicative); hice, hiciste, hizo, hicimos, hicisteis, hicieron (preterite)",
+      "sentence": "Vamos a hacer la cena.",
+      "wordTranslation": "to do / to make",
+      "sentenceTranslation": "Let's make dinner."
+    },
+    {
+      "word": "decir",
+      "irregularForms": "digo, dices, dice, decimos, decís, dicen (present indicative); dije, dijiste, dijo, dijimos, dijisteis, dijeron (preterite)",
+      "sentence": "Siempre dice la verdad.",
+      "wordTranslation": "to say / to tell",
+      "sentenceTranslation": "He always tells the truth."
+    },
+    {
+      "word": "saber",
+      "irregularForms": "sé, sabes, sabe, sabemos, sabéis, saben (present indicative); supe, supiste, supo, supimos, supisteis, supieron (preterite)",
+      "sentence": "No sé la respuesta.",
+      "wordTranslation": "to know (facts/skills)",
+      "sentenceTranslation": "I don't know the answer."
+    },
+    {
+      "word": "querer",
+      "irregularForms": "quiero, quieres, quiere, queremos, queréis, quieren (present indicative); quise, quisiste, quiso, quisimos, quisisteis, quisieron (preterite)",
+      "sentence": "Quiero un café, por favor.",
+      "wordTranslation": "to want / to love",
+      "sentenceTranslation": "I want a coffee, please."
+    },
+    {
+      "word": "tener",
+      "irregularForms": "tengo, tienes, tiene, tenemos, tenéis, tienen (present indicative); tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron (preterite)",
+      "sentence": "Ella tiene dos hermanos.",
+      "wordTranslation": "to have",
+      "sentenceTranslation": "She has two siblings."
+    },
+    {
+      "word": "poder",
+      "irregularForms": "puedo, puedes, puede, podemos, podéis, pueden (present indicative); pude, pudiste, pudo, pudimos, pudisteis, pudieron (preterite)",
+      "sentence": "Podemos ir mañana.",
+      "wordTranslation": "to be able to / can",
+      "sentenceTranslation": "We can go tomorrow."
+    },
+    {
+      "word": "hablar",
+      "irregularForms": null,
+      "sentence": "Necesito hablar contigo.",
+      "wordTranslation": "to speak",
+      "sentenceTranslation": "I need to speak with you."
+    },
+    {
+      "word": "dejar",
+      "irregularForms": null,
+      "sentence": "Puedes dejar tu mochila aquí.",
+      "wordTranslation": "to leave / to let",
+      "sentenceTranslation": "You can leave your backpack here."
+    },
+    {
+      "word": "encontrar",
+      "irregularForms": "encuentro (stem-changing o>ue)",
+      "sentence": "Espero encontrar mi cartera.",
+      "wordTranslation": "to find",
+      "sentenceTranslation": "I hope to find my wallet."
+    },
+    {
+      "word": "comprender",
+      "irregularForms": null,
+      "sentence": "No puedo comprender esa idea.",
+      "wordTranslation": "to understand",
+      "sentenceTranslation": "I cannot understand that idea."
+    },
+    {
+      "word": "usar",
+      "irregularForms": null,
+      "sentence": "Siempre usa su teléfono.",
+      "wordTranslation": "to use",
+      "sentenceTranslation": "He always uses his phone."
+    },
+    {
+      "word": "vender",
+      "irregularForms": null,
+      "sentence": "Quiero vender mi coche viejo.",
+      "wordTranslation": "to sell",
+      "sentenceTranslation": "I want to sell my old car."
+    },
+    {
+      "word": "comprar",
+      "irregularForms": null,
+      "sentence": "Voy a comprar pan.",
+      "wordTranslation": "to buy",
+      "sentenceTranslation": "I am going to buy bread."
+    },
+    {
+      "word": "ayudar",
+      "irregularForms": null,
+      "sentence": "Siempre me gusta ayudar a los demás.",
+      "wordTranslation": "to help",
+      "sentenceTranslation": "I always like to help others."
+    },
+    {
+      "word": "disfrutar",
+      "irregularForms": null,
+      "sentence": "Disfrutamos la película anoche.",
+      "wordTranslation": "to enjoy",
+      "sentenceTranslation": "We enjoyed the movie last night."
+    },
+    {
+      "word": "decidir",
+      "irregularForms": null,
+      "sentence": "Es hora de decidir.",
+      "wordTranslation": "to decide",
+      "sentenceTranslation": "It's time to decide."
+    },
+    {
+      "word": "servir",
+      "irregularForms": "sirvo (stem-changing e>i)",
+      "sentence": "Ella va a servir la comida.",
+      "wordTranslation": "to serve",
+      "sentenceTranslation": "She is going to serve the food."
+    },
+    {
+      "word": "calcular",
+      "irregularForms": null,
+      "sentence": "Necesito calcular el total.",
+      "wordTranslation": "to calculate",
+      "sentenceTranslation": "I need to calculate the total."
+    },
+    {
+      "word": "entrenar",
+      "irregularForms": null,
+      "sentence": "Él entrena todos los días.",
+      "wordTranslation": "to train",
+      "sentenceTranslation": "He trains every day."
+    },
+    {
+      "word": "advertir",
+      "irregularForms": "advierto (stem-changing e>ie)",
+      "sentence": "Les advierto que tengan cuidado.",
+      "wordTranslation": "to warn",
+      "sentenceTranslation": "I warn them to be careful."
+    },
+    {
+      "word": "batir",
+      "irregularForms": null,
+      "sentence": "Bate los huevos para el desayuno.",
+      "wordTranslation": "to beat / to whisk",
+      "sentenceTranslation": "Beat the eggs for breakfast."
+    },
+    {
+      "word": "reflejar",
+      "irregularForms": null,
+      "sentence": "El lago refleja las montañas.",
+      "wordTranslation": "to reflect",
+      "sentenceTranslation": "The lake reflects the mountains."
+    },
+    {
+      "word": "prevenir",
+      "irregularForms": "prevengo (irregular yo form)",
+      "sentence": "Debemos prevenir el problema.",
+      "wordTranslation": "to prevent",
+      "sentenceTranslation": "We must prevent the problem."
+    },
+    {
+      "word": "vaciar",
+      "irregularForms": "vacío, vacías, vacía, vaciamos, vaciáis, vacían (present indicative, i accent)",
+      "sentence": "Por favor, vacía la basura.",
+      "wordTranslation": "to empty",
+      "sentenceTranslation": "Please, empty the trash."
+    },
+    {
+      "word": "adquirir",
+      "irregularForms": "adquiero (stem-changing i>ie)",
+      "sentence": "Quiero adquirir nuevos conocimientos.",
+      "wordTranslation": "to acquire",
+      "sentenceTranslation": "I want to acquire new knowledge."
+    },
+    {
+      "word": "conducir",
+      "irregularForms": "conduzco (irregular yo form)",
+      "sentence": "Ella sabe conducir muy bien.",
+      "wordTranslation": "to drive",
+      "sentenceTranslation": "She knows how to drive very well."
+    },
+    {
+      "word": "educar",
+      "irregularForms": null,
+      "sentence": "Es importante educar a los niños.",
+      "wordTranslation": "to educate",
+      "sentenceTranslation": "It is important to educate children."
+    },
+    {
+      "word": "costar",
+      "irregularForms": "cuesta (stem-changing o>ue)",
+      "sentence": "Esto va a costar mucho.",
+      "wordTranslation": "to cost",
+      "sentenceTranslation": "This is going to cost a lot."
+    },
+    {
+      "word": "animar",
+      "irregularForms": null,
+      "sentence": "Hay que animar al equipo.",
+      "wordTranslation": "to encourage / to animate",
+      "sentenceTranslation": "We must encourage the team."
+    },
+    {
+      "word": "pelear",
+      "irregularForms": null,
+      "sentence": "A veces los hermanos pelean.",
+      "wordTranslation": "to fight",
+      "sentenceTranslation": "Sometimes siblings fight."
+    },
+    {
+      "word": "unir",
+      "irregularForms": null,
+      "sentence": "Ellos quieren unir fuerzas.",
+      "wordTranslation": "to unite",
+      "sentenceTranslation": "They want to unite forces."
+    },
+    {
+      "word": "agarrar",
+      "irregularForms": null,
+      "sentence": "Agarra mi mano fuerte.",
+      "wordTranslation": "to grab / to hold",
+      "sentenceTranslation": "Grab my hand tightly."
+    },
+    {
+      "word": "analizar",
+      "irregularForms": null,
+      "sentence": "Debemos analizar los datos.",
+      "wordTranslation": "to analyze",
+      "sentenceTranslation": "We must analyze the data."
+    },
+    {
+      "word": "escapar",
+      "irregularForms": null,
+      "sentence": "El gato logró escapar.",
+      "wordTranslation": "to escape",
+      "sentenceTranslation": "The cat managed to escape."
+    },
+    {
+      "word": "inventar",
+      "irregularForms": null,
+      "sentence": "Intentó inventar una nueva máquina.",
+      "wordTranslation": "to invent",
+      "sentenceTranslation": "He tried to invent a new machine."
+    },
+    {
+      "word": "diferenciar",
+      "irregularForms": null,
+      "sentence": "Es difícil diferenciar los gemelos.",
+      "wordTranslation": "to differentiate",
+      "sentenceTranslation": "It's difficult to differentiate the twins."
+    },
+    {
+      "word": "alimentar",
+      "irregularForms": null,
+      "sentence": "Hay que alimentar a los animales.",
+      "wordTranslation": "to feed",
+      "sentenceTranslation": "One must feed the animals."
+    },
+    {
+      "word": "informar",
+      "irregularForms": null,
+      "sentence": "Te voy a informar pronto.",
+      "wordTranslation": "to inform",
+      "sentenceTranslation": "I am going to inform you soon."
+    },
+    {
+      "word": "casa",
+      "irregularForms": null,
+      "sentence": "Esta es mi casa.",
+      "wordTranslation": "house",
+      "sentenceTranslation": "This is my house."
+    },
+    {
+      "word": "vida",
+      "irregularForms": null,
+      "sentence": "La vida es bella.",
+      "wordTranslation": "life",
+      "sentenceTranslation": "Life is beautiful."
+    },
+    {
+      "word": "tiempo",
+      "irregularForms": null,
+      "sentence": "No tengo mucho tiempo.",
+      "wordTranslation": "time",
+      "sentenceTranslation": "I don't have much time."
+    },
+    {
+      "word": "día",
+      "irregularForms": null,
+      "sentence": "Que tengas un buen día.",
+      "wordTranslation": "day",
+      "sentenceTranslation": "Have a good day."
+    },
+    {
+      "word": "año",
+      "irregularForms": null,
+      "sentence": "Feliz año nuevo.",
+      "wordTranslation": "year",
+      "sentenceTranslation": "Happy New Year."
+    },
+    {
+      "word": "hombre",
+      "irregularForms": null,
+      "sentence": "Es un hombre muy inteligente.",
+      "wordTranslation": "man",
+      "sentenceTranslation": "He is a very intelligent man."
+    },
+    {
+      "word": "mujer",
+      "irregularForms": null,
+      "sentence": "La mujer leyó un libro.",
+      "wordTranslation": "woman",
+      "sentenceTranslation": "The woman read a book."
+    },
+    {
+      "word": "agua",
+      "irregularForms": null,
+      "sentence": "Dame un vaso de agua.",
+      "wordTranslation": "water",
+      "sentenceTranslation": "Give me a glass of water."
+    },
+    {
+      "word": "luz",
+      "irregularForms": null,
+      "sentence": "Enciende la luz, por favor.",
+      "wordTranslation": "light",
+      "sentenceTranslation": "Turn on the light, please."
+    },
+    {
+      "word": "noche",
+      "irregularForms": null,
+      "sentence": "Buenas noches a todos.",
+      "wordTranslation": "night",
+      "sentenceTranslation": "Good night everyone."
+    },
+    {
+      "word": "comida",
+      "irregularForms": null,
+      "sentence": "La comida está deliciosa.",
+      "wordTranslation": "food",
+      "sentenceTranslation": "The food is delicious."
+    },
+    {
+      "word": "amor",
+      "irregularForms": null,
+      "sentence": "El amor es lo más importante.",
+      "wordTranslation": "love",
+      "sentenceTranslation": "Love is the most important thing."
+    },
+    {
+      "word": "mundo",
+      "irregularForms": null,
+      "sentence": "Quiero viajar por todo el mundo.",
+      "wordTranslation": "world",
+      "sentenceTranslation": "I want to travel all over the world."
+    },
+    {
+      "word": "trabajo",
+      "irregularForms": null,
+      "sentence": "Tengo mucho trabajo hoy.",
+      "wordTranslation": "work",
+      "sentenceTranslation": "I have a lot of work today."
+    },
+    {
+      "word": "familia",
+      "irregularForms": null,
+      "sentence": "Mi familia es grande.",
+      "wordTranslation": "family",
+      "sentenceTranslation": "My family is big."
+    },
+    {
+      "word": "país",
+      "irregularForms": null,
+      "sentence": "Este es un país hermoso.",
+      "wordTranslation": "country",
+      "sentenceTranslation": "This is a beautiful country."
+    },
+    {
+      "word": "estado",
+      "irregularForms": null,
+      "sentence": "El estado del tiempo es bueno.",
+      "wordTranslation": "state",
+      "sentenceTranslation": "The weather condition is good."
+    },
+    {
+      "word": "mano",
+      "irregularForms": null,
+      "sentence": "Tiene una flor en la mano.",
+      "wordTranslation": "hand",
+      "sentenceTranslation": "He has a flower in his hand."
+    },
+    {
+      "word": "ojo",
+      "irregularForms": null,
+      "sentence": "Cierra los ojos y descansa.",
+      "wordTranslation": "eye",
+      "sentenceTranslation": "Close your eyes and rest."
+    },
+    {
+      "word": "cielo",
+      "irregularForms": null,
+      "sentence": "El cielo está azul.",
+      "wordTranslation": "sky",
+      "sentenceTranslation": "The sky is blue."
+    },
+    {
+      "word": "tierra",
+      "irregularForms": null,
+      "sentence": "Plantamos semillas en la tierra.",
+      "wordTranslation": "earth / land",
+      "sentenceTranslation": "We planted seeds in the earth."
+    },
+    {
+      "word": "calle",
+      "irregularForms": null,
+      "sentence": "Vive en esta calle.",
+      "wordTranslation": "street",
+      "sentenceTranslation": "He lives on this street."
+    },
+    {
+      "word": "nombre",
+      "irregularForms": null,
+      "sentence": "¿Cuál es tu nombre?",
+      "wordTranslation": "name",
+      "sentenceTranslation": "What is your name?"
+    },
+    {
+      "word": "voz",
+      "irregularForms": null,
+      "sentence": "Tiene una voz muy bonita.",
+      "wordTranslation": "voice",
+      "sentenceTranslation": "She has a very beautiful voice."
+    },
+    {
+      "word": "clase",
+      "irregularForms": null,
+      "sentence": "Tengo clase de español.",
+      "wordTranslation": "class",
+      "sentenceTranslation": "I have Spanish class."
+    },
+    {
+      "word": "momento",
+      "irregularForms": null,
+      "sentence": "Esperemos un momento.",
+      "wordTranslation": "moment",
+      "sentenceTranslation": "Let's wait a moment."
+    },
+    {
+      "word": "problema",
+      "irregularForms": null,
+      "sentence": "Hay un pequeño problema.",
+      "wordTranslation": "problem",
+      "sentenceTranslation": "There is a small problem."
+    },
+    {
+      "word": "cosa",
+      "irregularForms": null,
+      "sentence": "Es una cosa interesante.",
+      "wordTranslation": "thing",
+      "sentenceTranslation": "It's an interesting thing."
+    },
+    {
+      "word": "fin",
+      "irregularForms": null,
+      "sentence": "Este es el fin de la historia.",
+      "wordTranslation": "end",
+      "sentenceTranslation": "This is the end of the story."
+    },
+    {
+      "word": "medio",
+      "irregularForms": null,
+      "sentence": "Está en el medio de la sala.",
+      "wordTranslation": "middle / means",
+      "sentenceTranslation": "It's in the middle of the room."
+    },
+    {
+      "word": "razón",
+      "irregularForms": null,
+      "sentence": "Dame una razón para hacerlo.",
+      "wordTranslation": "reason",
+      "sentenceTranslation": "Give me a reason to do it."
+    },
+    {
+      "word": "vez",
+      "irregularForms": null,
+      "sentence": "Fue la primera vez.",
+      "wordTranslation": "time (occurrence)",
+      "sentenceTranslation": "It was the first time."
+    },
+    {
+      "word": "semana",
+      "irregularForms": null,
+      "sentence": "La semana tiene siete días.",
+      "wordTranslation": "week",
+      "sentenceTranslation": "The week has seven days."
+    },
+    {
+      "word": "cambio",
+      "irregularForms": null,
+      "sentence": "Necesito un cambio de aire.",
+      "wordTranslation": "change",
+      "sentenceTranslation": "I need a change of scenery."
+    },
+    {
+      "word": "tema",
+      "irregularForms": null,
+      "sentence": "Es un tema muy importante.",
+      "wordTranslation": "topic / subject",
+      "sentenceTranslation": "It's a very important topic."
+    },
+    {
+      "word": "calidad",
+      "irregularForms": null,
+      "sentence": "La calidad del producto es alta.",
+      "wordTranslation": "quality",
+      "sentenceTranslation": "The product quality is high."
+    },
+    {
+      "word": "interés",
+      "irregularForms": null,
+      "sentence": "Tengo mucho interés en la ciencia.",
+      "wordTranslation": "interest",
+      "sentenceTranslation": "I have a lot of interest in science."
+    },
+    {
+      "word": "conocimiento",
+      "irregularForms": null,
+      "sentence": "Adquirió mucho conocimiento.",
+      "wordTranslation": "knowledge",
+      "sentenceTranslation": "He acquired a lot of knowledge."
+    },
+    {
+      "word": "cultura",
+      "irregularForms": null,
+      "sentence": "La cultura española es rica.",
+      "wordTranslation": "culture",
+      "sentenceTranslation": "Spanish culture is rich."
+    },
+    {
+      "word": "arte",
+      "irregularForms": null,
+      "sentence": "Me gusta el arte moderno.",
+      "wordTranslation": "art",
+      "sentenceTranslation": "I like modern art."
+    },
+    {
+      "word": "literatura",
+      "irregularForms": null,
+      "sentence": "Estudia literatura en la universidad.",
+      "wordTranslation": "literature",
+      "sentenceTranslation": "She studies literature at the university."
+    },
+    {
+      "word": "música",
+      "irregularForms": null,
+      "sentence": "La música es mi pasión.",
+      "wordTranslation": "music",
+      "sentenceTranslation": "Music is my passion."
+    },
+    {
+      "word": "política",
+      "irregularForms": null,
+      "sentence": "No me interesa la política.",
+      "wordTranslation": "politics",
+      "sentenceTranslation": "Politics doesn't interest me."
+    },
+    {
+      "word": "economía",
+      "irregularForms": null,
+      "sentence": "La economía del país está creciendo.",
+      "wordTranslation": "economy",
+      "sentenceTranslation": "The country's economy is growing."
+    },
+    {
+      "word": "ciencia",
+      "irregularForms": null,
+      "sentence": "La ciencia nos ayuda a entender el mundo.",
+      "wordTranslation": "science",
+      "sentenceTranslation": "Science helps us understand the world."
+    },
+    {
+      "word": "tranquilo",
+      "irregularForms": null,
+      "sentence": "El mar estaba tranquilo hoy.",
+      "wordTranslation": "calm / quiet",
+      "sentenceTranslation": "The sea was calm today."
+    },
+    {
+      "word": "áspero",
+      "irregularForms": null,
+      "sentence": "Tiene una piel áspera por el sol.",
+      "wordTranslation": "rough",
+      "sentenceTranslation": "She has rough skin from the sun."
+    },
+    {
+      "word": "húmedo",
+      "irregularForms": null,
+      "sentence": "El clima aquí es muy húmedo.",
+      "wordTranslation": "humid / damp",
+      "sentenceTranslation": "The climate here is very humid."
+    },
+    {
+      "word": "humilde",
+      "irregularForms": null,
+      "sentence": "A pesar de su éxito, es muy humilde.",
+      "wordTranslation": "humble",
+      "sentenceTranslation": "Despite his success, he is very humble."
+    },
+    {
+      "word": "sincero",
+      "irregularForms": null,
+      "sentence": "Siempre es sincero con sus amigos.",
+      "wordTranslation": "sincere",
+      "sentenceTranslation": "He is always sincere with his friends."
+    },
+    {
+      "word": "responsable",
+      "irregularForms": null,
+      "sentence": "Ella es muy responsable en su trabajo.",
+      "wordTranslation": "responsible",
+      "sentenceTranslation": "She is very responsible in her job."
+    },
+    {
+      "word": "activo",
+      "irregularForms": null,
+      "sentence": "Se mantiene activo con el deporte.",
+      "wordTranslation": "active",
+      "sentenceTranslation": "He stays active with sports."
+    },
+    {
+      "word": "rugoso",
+      "irregularForms": null,
+      "sentence": "La superficie de la roca era rugosa.",
+      "wordTranslation": "rough / wrinkled",
+      "sentenceTranslation": "The surface of the rock was rough."
+    },
+    {
+      "word": "cálido",
+      "irregularForms": null,
+      "sentence": "Prefiero un clima cálido.",
+      "wordTranslation": "warm",
+      "sentenceTranslation": "I prefer a warm climate."
+    },
+    {
+      "word": "apagado",
+      "irregularForms": null,
+      "sentence": "El teléfono está apagado.",
+      "wordTranslation": "off / turned off",
+      "sentenceTranslation": "The phone is turned off."
+    },
+    {
+      "word": "quién",
+      "irregularForms": null,
+      "sentence": "¿Quién es ese hombre?",
+      "wordTranslation": "who",
+      "sentenceTranslation": "Who is that man?"
+    },
+    {
+      "word": "dónde",
+      "irregularForms": null,
+      "sentence": "¿Dónde está la estación?",
+      "wordTranslation": "where",
+      "sentenceTranslation": "Where is the station?"
+    },
+    {
+      "word": "cuándo",
+      "irregularForms": null,
+      "sentence": "¿Cuándo llega el tren?",
+      "wordTranslation": "when",
+      "sentenceTranslation": "When does the train arrive?"
+    },
+    {
+      "word": "cómo",
+      "irregularForms": null,
+      "sentence": "¿Cómo estás hoy?",
+      "wordTranslation": "how",
+      "sentenceTranslation": "How are you today?"
+    },
+    {
+      "word": "cuánto",
+      "irregularForms": null,
+      "sentence": "¿Cuánto cuesta esto?",
+      "wordTranslation": "how much",
+      "sentenceTranslation": "How much does this cost?"
+    },
+    {
+      "word": "cuál",
+      "irregularForms": null,
+      "sentence": "¿Cuál es tu color favorito?",
+      "wordTranslation": "which",
+      "sentenceTranslation": "Which is your favorite color?"
+    },
+    {
+      "word": "cuyo",
+      "irregularForms": null,
+      "sentence": "El hombre, cuyo perro ladra, es mi vecino.",
+      "wordTranslation": "whose",
+      "sentenceTranslation": "The man, whose dog barks, is my neighbor."
+    },
+    {
+      "word": "esto",
+      "irregularForms": null,
+      "sentence": "Esto es muy interesante.",
+      "wordTranslation": "this (neuter pronoun)",
+      "sentenceTranslation": "This is very interesting."
+    },
+    {
+      "word": "eso",
+      "irregularForms": null,
+      "sentence": "No me gusta eso.",
+      "wordTranslation": "that (neuter pronoun)",
+      "sentenceTranslation": "I don't like that."
+    },
+    {
+      "word": "nadie",
+      "irregularForms": null,
+      "sentence": "Nadie vino a la fiesta.",
+      "wordTranslation": "nobody / no one",
+      "sentenceTranslation": "Nobody came to the party."
+    }
+  ]
+}

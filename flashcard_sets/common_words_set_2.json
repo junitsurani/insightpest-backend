@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 2",
+  "description": "This is part of a larger set of common Spanish words.",
+  "cards": [
+    {
+      "word": "haber",
+      "irregularForms": "he, has, ha, hemos, habéis, han (present indicative)",
+      "sentence": "Hay mucha gente en la plaza.",
+      "wordTranslation": "to have (auxiliary) / there is/are",
+      "sentenceTranslation": "There are a lot of people in the square."
+    },
+    {
+      "word": "desde",
+      "irregularForms": null,
+      "sentence": "Vivo aquí desde 2010.",
+      "wordTranslation": "from, since",
+      "sentenceTranslation": "I have lived here since 2010."
+    },
+    {
+      "word": "hasta",
+      "irregularForms": null,
+      "sentence": "Estaré ocupado hasta las cinco.",
+      "wordTranslation": "until, up to",
+      "sentenceTranslation": "I will be busy until five o'clock."
+    },
+    {
+      "word": "entre",
+      "irregularForms": null,
+      "sentence": "El parque está entre dos edificios altos.",
+      "wordTranslation": "between, among",
+      "sentenceTranslation": "The park is between two tall buildings."
+    },
+    {
+      "word": "sobre",
+      "irregularForms": null,
+      "sentence": "Pon el libro sobre la mesa.",
+      "wordTranslation": "on, about, over",
+      "sentenceTranslation": "Put the book on the table."
+    },
+    {
+      "word": "aquí",
+      "irregularForms": null,
+      "sentence": "¿Estás aquí?",
+      "wordTranslation": "here",
+      "sentenceTranslation": "Are you here?"
+    },
+    {
+      "word": "ahora",
+      "irregularForms": null,
+      "sentence": "Necesito irme ahora.",
+      "wordTranslation": "now",
+      "sentenceTranslation": "I need to leave now."
+    },
+    {
+      "word": "siempre",
+      "irregularForms": null,
+      "sentence": "Ella siempre llega temprano.",
+      "wordTranslation": "always",
+      "sentenceTranslation": "She always arrives early."
+    },
+    {
+      "word": "nunca",
+      "irregularForms": null,
+      "sentence": "Él nunca come carne.",
+      "wordTranslation": "never",
+      "sentenceTranslation": "He never eats meat."
+    },
+    {
+      "word": "después",
+      "irregularForms": null,
+      "sentence": "Nos vemos después del trabajo.",
+      "wordTranslation": "after",
+      "sentenceTranslation": "See you after work."
+    },
+    {
+      "word": "antes",
+      "irregularForms": null,
+      "sentence": "Llama antes de venir.",
+      "wordTranslation": "before",
+      "sentenceTranslation": "Call before coming."
+    },
+    {
+      "word": "hoy",
+      "irregularForms": null,
+      "sentence": "Hoy hace buen tiempo.",
+      "wordTranslation": "today",
+      "sentenceTranslation": "The weather is good today."
+    },
+    {
+      "word": "mañana",
+      "irregularForms": null,
+      "sentence": "Tengo una reunión mañana.",
+      "wordTranslation": "tomorrow, morning",
+      "sentenceTranslation": "I have a meeting tomorrow."
+    },
+    {
+      "word": "ayer",
+      "irregularForms": null,
+      "sentence": "Ayer fuimos al cine.",
+      "wordTranslation": "yesterday",
+      "sentenceTranslation": "Yesterday we went to the cinema."
+    },
+    {
+      "word": "bien",
+      "irregularForms": null,
+      "sentence": "Estoy muy bien, gracias.",
+      "wordTranslation": "well, good",
+      "sentenceTranslation": "I'm very well, thank you."
+    },
+    {
+      "word": "mal",
+      "irregularForms": null,
+      "sentence": "Me siento mal hoy.",
+      "wordTranslation": "bad, badly",
+      "sentenceTranslation": "I feel bad today."
+    },
+    {
+      "word": "mucho",
+      "irregularForms": null,
+      "sentence": "Tengo mucho que hacer.",
+      "wordTranslation": "much, a lot",
+      "sentenceTranslation": "I have a lot to do."
+    },
+    {
+      "word": "poco",
+      "irregularForms": null,
+      "sentence": "Come muy poco.",
+      "wordTranslation": "little, few",
+      "sentenceTranslation": "He eats very little."
+    },
+    {
+      "word": "así",
+      "irregularForms": null,
+      "sentence": "Es así de simple.",
+      "wordTranslation": "like this, so",
+      "sentenceTranslation": "It's that simple."
+    },
+    {
+      "word": "también",
+      "irregularForms": null,
+      "sentence": "Yo también quiero ir.",
+      "wordTranslation": "also, too",
+      "sentenceTranslation": "I want to go too."
+    },
+    {
+      "word": "tampoco",
+      "irregularForms": null,
+      "sentence": "Yo tampoco lo sé.",
+      "wordTranslation": "neither, not either",
+      "sentenceTranslation": "I don't know it either."
+    },
+    {
+      "word": "solo",
+      "irregularForms": null,
+      "sentence": "Solo quiero un café.",
+      "wordTranslation": "only, alone",
+      "sentenceTranslation": "I only want a coffee."
+    },
+    {
+      "word": "incluso",
+      "irregularForms": null,
+      "sentence": "Incluso los niños lo entendieron.",
+      "wordTranslation": "even, including",
+      "sentenceTranslation": "Even the children understood it."
+    },
+    {
+      "word": "mientras",
+      "irregularForms": null,
+      "sentence": "Cocinaré mientras tú limpias.",
+      "wordTranslation": "while",
+      "sentenceTranslation": "I will cook while you clean."
+    },
+    {
+      "word": "según",
+      "irregularForms": null,
+      "sentence": "Según la ley, es ilegal.",
+      "wordTranslation": "according to",
+      "sentenceTranslation": "According to the law, it is illegal."
+    },
+    {
+      "word": "durante",
+      "irregularForms": null,
+      "sentence": "No habló durante la cena.",
+      "wordTranslation": "during",
+      "sentenceTranslation": "He didn't speak during dinner."
+    },
+    {
+      "word": "sin embargo",
+      "irregularForms": null,
+      "sentence": "Estaba lloviendo, sin embargo salimos.",
+      "wordTranslation": "however, nevertheless",
+      "sentenceTranslation": "It was raining, however we went out."
+    },
+    {
+      "word": "porque",
+      "irregularForms": null,
+      "sentence": "No fui porque estaba enfermo.",
+      "wordTranslation": "because",
+      "sentenceTranslation": "I didn't go because I was sick."
+    },
+    {
+      "word": "aunque",
+      "irregularForms": null,
+      "sentence": "Aunque llueva, iremos.",
+      "wordTranslation": "although, even if",
+      "sentenceTranslation": "Even if it rains, we will go."
+    },
+    {
+      "word": "si",
+      "irregularForms": null,
+      "sentence": "Si tienes tiempo, llámame.",
+      "wordTranslation": "if",
+      "sentenceTranslation": "If you have time, call me."
+    },
+    {
+      "word": "tan",
+      "irregularForms": null,
+      "sentence": "Es tan alto como su padre.",
+      "wordTranslation": "so, as",
+      "sentenceTranslation": "He is as tall as his father."
+    },
+    {
+      "word": "ya",
+      "irregularForms": null,
+      "sentence": "Ya llegamos.",
+      "wordTranslation": "already, now",
+      "sentenceTranslation": "We have already arrived."
+    },
+    {
+      "word": "todavía",
+      "irregularForms": null,
+      "sentence": "¿Todavía estás aquí?",
+      "wordTranslation": "still, yet",
+      "sentenceTranslation": "Are you still here?"
+    },
+    {
+      "word": "realmente",
+      "irregularForms": null,
+      "sentence": "Realmente no sé qué hacer.",
+      "wordTranslation": "really, actually",
+      "sentenceTranslation": "I really don't know what to do."
+    },
+    {
+      "word": "luego",
+      "irregularForms": null,
+      "sentence": "Primero comemos, luego hablamos.",
+      "wordTranslation": "then, later",
+      "sentenceTranslation": "First we eat, then we talk."
+    },
+    {
+      "word": "casi",
+      "irregularForms": null,
+      "sentence": "Casi termino mi tarea.",
+      "wordTranslation": "almost",
+      "sentenceTranslation": "I almost finished my homework."
+    },
+    {
+      "word": "apenas",
+      "irregularForms": null,
+      "sentence": "Apenas puedo oírte.",
+      "wordTranslation": "hardly, barely",
+      "sentenceTranslation": "I can barely hear you."
+    },
+    {
+      "word": "demasiado",
+      "irregularForms": null,
+      "sentence": "Hay demasiada gente.",
+      "wordTranslation": "too much, too many",
+      "sentenceTranslation": "There are too many people."
+    },
+    {
+      "word": "bastante",
+      "irregularForms": null,
+      "sentence": "Tengo bastante dinero.",
+      "wordTranslation": "enough, quite",
+      "sentenceTranslation": "I have enough money."
+    },
+    {
+      "word": "pronto",
+      "irregularForms": null,
+      "sentence": "Nos vemos pronto.",
+      "wordTranslation": "soon",
+      "sentenceTranslation": "See you soon."
+    },
+    {
+      "word": "tarde",
+      "irregularForms": null,
+      "sentence": "Llegó tarde a la reunión.",
+      "wordTranslation": "late, afternoon",
+      "sentenceTranslation": "He arrived late for the meeting."
+    },
+    {
+      "word": "temprano",
+      "irregularForms": null,
+      "sentence": "Me levanté temprano.",
+      "wordTranslation": "early",
+      "sentenceTranslation": "I woke up early."
+    },
+    {
+      "word": "adelante",
+      "irregularForms": null,
+      "sentence": "Sigue adelante con tus planes.",
+      "wordTranslation": "forward, ahead, come in",
+      "sentenceTranslation": "Go ahead with your plans."
+    },
+    {
+      "word": "atrás",
+      "irregularForms": null,
+      "sentence": "Mira hacia atrás.",
+      "wordTranslation": "back, behind",
+      "sentenceTranslation": "Look back."
+    },
+    {
+      "word": "cerca",
+      "irregularForms": null,
+      "sentence": "La tienda está cerca.",
+      "wordTranslation": "near",
+      "sentenceTranslation": "The store is near."
+    },
+    {
+      "word": "lejos",
+      "irregularForms": null,
+      "sentence": "Vivimos lejos de la ciudad.",
+      "wordTranslation": "far",
+      "sentenceTranslation": "We live far from the city."
+    },
+    {
+      "word": "dentro",
+      "irregularForms": null,
+      "sentence": "La llave está dentro.",
+      "wordTranslation": "inside",
+      "sentenceTranslation": "The key is inside."
+    },
+    {
+      "word": "fuera",
+      "irregularForms": null,
+      "sentence": "Está lloviendo fuera.",
+      "wordTranslation": "outside",
+      "sentenceTranslation": "It's raining outside."
+    },
+    {
+      "word": "arriba",
+      "irregularForms": null,
+      "sentence": "La oficina está arriba.",
+      "wordTranslation": "up, above, upstairs",
+      "sentenceTranslation": "The office is upstairs."
+    },
+    {
+      "word": "abajo",
+      "irregularForms": null,
+      "sentence": "Baja las escaleras.",
+      "wordTranslation": "down, below, downstairs",
+      "sentenceTranslation": "Go down the stairs."
+    },
+    {
+      "word": "frente",
+      "irregularForms": null,
+      "sentence": "La casa está frente al parque.",
+      "wordTranslation": "front, in front of",
+      "sentenceTranslation": "The house is in front of the park."
+    },
+    {
+      "word": "detrás",
+      "irregularForms": null,
+      "sentence": "El perro está detrás del árbol.",
+      "wordTranslation": "behind",
+      "sentenceTranslation": "The dog is behind the tree."
+    },
+    {
+      "word": "junto",
+      "irregularForms": null,
+      "sentence": "Siéntate junto a mí.",
+      "wordTranslation": "together, next to",
+      "sentenceTranslation": "Sit next to me."
+    },
+    {
+      "word": "además",
+      "irregularForms": null,
+      "sentence": "Además de eso, no hay nada más.",
+      "wordTranslation": "besides, furthermore",
+      "sentenceTranslation": "Besides that, there's nothing else."
+    },
+    {
+      "word": "generalmente",
+      "irregularForms": null,
+      "sentence": "Generalmente cenamos a las ocho.",
+      "wordTranslation": "generally, usually",
+      "sentenceTranslation": "We generally have dinner at eight."
+    },
+    {
+      "word": "finalmente",
+      "irregularForms": null,
+      "sentence": "Finalmente, llegamos a casa.",
+      "wordTranslation": "finally",
+      "sentenceTranslation": "Finally, we arrived home."
+    },
+    {
+      "word": "claramente",
+      "irregularForms": null,
+      "sentence": "Habló claramente.",
+      "wordTranslation": "clearly",
+      "sentenceTranslation": "He spoke clearly."
+    },
+    {
+      "word": "simplemente",
+      "irregularForms": null,
+      "sentence": "Simplemente no lo entiendo.",
+      "wordTranslation": "simply",
+      "sentenceTranslation": "I simply don't understand it."
+    },
+    {
+      "word": "completamente",
+      "irregularForms": null,
+      "sentence": "Estoy completamente de acuerdo.",
+      "wordTranslation": "completely",
+      "sentenceTranslation": "I completely agree."
+    },
+    {
+      "word": "directamente",
+      "irregularForms": null,
+      "sentence": "Ve directamente a casa.",
+      "wordTranslation": "directly",
+      "sentenceTranslation": "Go directly home."
+    },
+    {
+      "word": "evidentemente",
+      "irregularForms": null,
+      "sentence": "Evidentemente, se equivocó.",
+      "wordTranslation": "evidently",
+      "sentenceTranslation": "Evidently, he made a mistake."
+    },
+    {
+      "word": "totalmente",
+      "irregularForms": null,
+      "sentence": "Estoy totalmente convencido.",
+      "wordTranslation": "totally",
+      "sentenceTranslation": "I am totally convinced."
+    },
+    {
+      "word": "quizás",
+      "irregularForms": null,
+      "sentence": "Quizás vaya mañana.",
+      "wordTranslation": "perhaps, maybe",
+      "sentenceTranslation": "Perhaps I'll go tomorrow."
+    },
+    {
+      "word": "seguro",
+      "irregularForms": null,
+      "sentence": "Estoy seguro de eso.",
+      "wordTranslation": "sure, safe",
+      "sentenceTranslation": "I'm sure of that."
+    },
+    {
+      "word": "listo",
+      "irregularForms": null,
+      "sentence": "¿Estás listo para salir?",
+      "wordTranslation": "ready, smart",
+      "sentenceTranslation": "Are you ready to leave?"
+    },
+    {
+      "word": "tranquilo",
+      "irregularForms": null,
+      "sentence": "Necesito un lugar tranquilo para leer.",
+      "wordTranslation": "calm, quiet",
+      "sentenceTranslation": "I need a quiet place to read."
+    },
+    {
+      "word": "ocupado",
+      "irregularForms": null,
+      "sentence": "Estoy muy ocupado hoy.",
+      "wordTranslation": "busy",
+      "sentenceTranslation": "I am very busy today."
+    },
+    {
+      "word": "libre",
+      "irregularForms": null,
+      "sentence": "Hoy estoy libre.",
+      "wordTranslation": "free",
+      "sentenceTranslation": "I am free today."
+    },
+    {
+      "word": "joven",
+      "irregularForms": null,
+      "sentence": "Es una persona joven.",
+      "wordTranslation": "young",
+      "sentenceTranslation": "He is a young person."
+    },
+    {
+      "word": "viejo",
+      "irregularForms": null,
+      "sentence": "El coche es muy viejo.",
+      "wordTranslation": "old",
+      "sentenceTranslation": "The car is very old."
+    },
+    {
+      "word": "rico",
+      "irregularForms": null,
+      "sentence": "La comida está muy rica.",
+      "wordTranslation": "rich, tasty",
+      "sentenceTranslation": "The food is very tasty."
+    },
+    {
+      "word": "pobre",
+      "irregularForms": null,
+      "sentence": "Vive en un barrio pobre.",
+      "wordTranslation": "poor",
+      "sentenceTranslation": "He lives in a poor neighborhood."
+    },
+    {
+      "word": "fuerte",
+      "irregularForms": null,
+      "sentence": "Es un hombre muy fuerte.",
+      "wordTranslation": "strong",
+      "sentenceTranslation": "He is a very strong man."
+    },
+    {
+      "word": "débil",
+      "irregularForms": null,
+      "sentence": "Me siento muy débil.",
+      "wordTranslation": "weak",
+      "sentenceTranslation": "I feel very weak."
+    },
+    {
+      "word": "abierto",
+      "irregularForms": null,
+      "sentence": "La tienda está abierta.",
+      "wordTranslation": "open",
+      "sentenceTranslation": "The store is open."
+    },
+    {
+      "word": "cerrado",
+      "irregularForms": null,
+      "sentence": "El museo está cerrado los lunes.",
+      "wordTranslation": "closed",
+      "sentenceTranslation": "The museum is closed on Mondays."
+    },
+    {
+      "word": "limpio",
+      "irregularForms": null,
+      "sentence": "La casa está limpia.",
+      "wordTranslation": "clean",
+      "sentenceTranslation": "The house is clean."
+    },
+    {
+      "word": "sucio",
+      "irregularForms": null,
+      "sentence": "Llevas ropa sucia.",
+      "wordTranslation": "dirty",
+      "sentenceTranslation": "You are wearing dirty clothes."
+    },
+    {
+      "word": "blanco",
+      "irregularForms": null,
+      "sentence": "Me gusta el color blanco.",
+      "wordTranslation": "white",
+      "sentenceTranslation": "I like the color white."
+    },
+    {
+      "word": "negro",
+      "irregularForms": null,
+      "sentence": "Compró un coche negro.",
+      "wordTranslation": "black",
+      "sentenceTranslation": "He bought a black car."
+    },
+    {
+      "word": "rojo",
+      "irregularForms": null,
+      "sentence": "Tiene un vestido rojo.",
+      "wordTranslation": "red",
+      "sentenceTranslation": "She has a red dress."
+    },
+    {
+      "word": "azul",
+      "irregularForms": null,
+      "sentence": "El cielo es azul.",
+      "wordTranslation": "blue",
+      "sentenceTranslation": "The sky is blue."
+    },
+    {
+      "word": "verde",
+      "irregularForms": null,
+      "sentence": "El césped es verde.",
+      "wordTranslation": "green",
+      "sentenceTranslation": "The grass is green."
+    },
+    {
+      "word": "amarillo",
+      "irregularForms": null,
+      "sentence": "Las flores son amarillas.",
+      "wordTranslation": "yellow",
+      "sentenceTranslation": "The flowers are yellow."
+    },
+    {
+      "word": "claro",
+      "irregularForms": null,
+      "sentence": "El agua está clara.",
+      "wordTranslation": "clear, light",
+      "sentenceTranslation": "The water is clear."
+    },
+    {
+      "word": "oscuro",
+      "irregularForms": null,
+      "sentence": "La habitación estaba oscura.",
+      "wordTranslation": "dark",
+      "sentenceTranslation": "The room was dark."
+    },
+    {
+      "word": "diferente",
+      "irregularForms": null,
+      "sentence": "Tenemos opiniones diferentes.",
+      "wordTranslation": "different",
+      "sentenceTranslation": "We have different opinions."
+    },
+    {
+      "word": "propio",
+      "irregularForms": null,
+      "sentence": "Tiene su propia empresa.",
+      "wordTranslation": "own",
+      "sentenceTranslation": "He has his own company."
+    },
+    {
+      "word": "cierto",
+      "irregularForms": null,
+      "sentence": "No estoy seguro, pero es casi cierto.",
+      "wordTranslation": "certain, true",
+      "sentenceTranslation": "I'm not sure, but it's almost certain."
+    },
+    {
+      "word": "ambos",
+      "irregularForms": null,
+      "sentence": "Ambos son correctos.",
+      "wordTranslation": "both",
+      "sentenceTranslation": "Both are correct."
+    },
+    {
+      "word": "cada",
+      "irregularForms": null,
+      "sentence": "Cada día aprendo algo nuevo.",
+      "wordTranslation": "each, every",
+      "sentenceTranslation": "Every day I learn something new."
+    },
+    {
+      "word": "alguno",
+      "irregularForms": null,
+      "sentence": "¿Tienes alguna pregunta?",
+      "wordTranslation": "some, any",
+      "sentenceTranslation": "Do you have any questions?"
+    },
+    {
+      "word": "ninguno",
+      "irregularForms": null,
+      "sentence": "No tengo ninguna duda.",
+      "wordTranslation": "none, not any",
+      "sentenceTranslation": "I have no doubt."
+    },
+    {
+      "word": "varios",
+      "irregularForms": null,
+      "sentence": "Visité varios países.",
+      "wordTranslation": "several",
+      "sentenceTranslation": "I visited several countries."
+    },
+    {
+      "word": "último",
+      "irregularForms": null,
+      "sentence": "Es la última oportunidad.",
+      "wordTranslation": "last, latest",
+      "sentenceTranslation": "It's the last chance."
+    },
+    {
+      "word": "primero",
+      "irregularForms": null,
+      "sentence": "Es el primer día de clase.",
+      "wordTranslation": "first",
+      "sentenceTranslation": "It's the first day of class."
+    },
+    {
+      "word": "siguiente",
+      "irregularForms": null,
+      "sentence": "La siguiente parada es la tuya.",
+      "wordTranslation": "next, following",
+      "sentenceTranslation": "The next stop is yours."
+    },
+    {
+      "word": "real",
+      "irregularForms": null,
+      "sentence": "Es un problema real.",
+      "wordTranslation": "real, royal",
+      "sentenceTranslation": "It's a real problem."
+    },
+    {
+      "word": "general",
+      "irregularForms": null,
+      "sentence": "Es una regla general.",
+      "wordTranslation": "general",
+      "sentenceTranslation": "It's a general rule."
+    },
+    {
+      "word": "nacional",
+      "irregularForms": null,
+      "sentence": "El equipo nacional ganó.",
+      "wordTranslation": "national",
+      "sentenceTranslation": "The national team won."
+    }
+  ]
+}

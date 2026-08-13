@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 1",
+  "description": "This is the first part of a larger set of common Spanish words designed for beginners and intermediate learners. It includes a mix of nouns, verbs, adjectives, and other frequently used parts of speech.",
+  "cards": [
+    {
+      "word": "ser",
+      "irregularForms": "soy, eres, es, somos, sois, son (present); fui, fuiste, fue (preterite)",
+      "sentence": "Yo soy de España.",
+      "wordTranslation": "to be",
+      "sentenceTranslation": "I am from Spain."
+    },
+    {
+      "word": "estar",
+      "irregularForms": "estoy, estás, está, estamos, estáis, están (present); estuve, estuviste, estuvo (preterite)",
+      "sentence": "¿Cómo estás?",
+      "wordTranslation": "to be (location/condition)",
+      "sentenceTranslation": "How are you?"
+    },
+    {
+      "word": "tener",
+      "irregularForms": "tengo, tienes, tiene, tenemos, tenéis, tienen (present); tuve, tuviste, tuvo (preterite)",
+      "sentence": "Tengo dos hermanos.",
+      "wordTranslation": "to have",
+      "sentenceTranslation": "I have two siblings."
+    },
+    {
+      "word": "hacer",
+      "irregularForms": "hago, haces, hace, hacemos, hacéis, hacen (present); hice, hiciste, hizo (preterite)",
+      "sentence": "¿Qué vas a hacer mañana?",
+      "wordTranslation": "to do, to make",
+      "sentenceTranslation": "What are you going to do tomorrow?"
+    },
+    {
+      "word": "ir",
+      "irregularForms": "voy, vas, va, vamos, vais, van (present); fui, fuiste, fue (preterite)",
+      "sentence": "Vamos a la playa.",
+      "wordTranslation": "to go",
+      "sentenceTranslation": "We are going to the beach."
+    },
+    {
+      "word": "decir",
+      "irregularForms": "digo, dices, dice, decimos, decís, dicen (present); dije, dijiste, dijo (preterite)",
+      "sentence": "Él siempre dice la verdad.",
+      "wordTranslation": "to say, to tell",
+      "sentenceTranslation": "He always tells the truth."
+    },
+    {
+      "word": "poder",
+      "irregularForms": "puedo, puedes, puede, podemos, podéis, pueden (present, o-ue stem-change)",
+      "sentence": "¿Puedes ayudarme?",
+      "wordTranslation": "to be able to, can",
+      "sentenceTranslation": "Can you help me?"
+    },
+    {
+      "word": "ver",
+      "irregularForms": "veo, ves, ve, vemos, veis, ven (present)",
+      "sentence": "Quiero ver esa película.",
+      "wordTranslation": "to see",
+      "sentenceTranslation": "I want to see that movie."
+    },
+    {
+      "word": "dar",
+      "irregularForms": "doy, das, da, damos, dais, dan (present)",
+      "sentence": "Ella le dio un regalo.",
+      "wordTranslation": "to give",
+      "sentenceTranslation": "She gave him a gift."
+    },
+    {
+      "word": "saber",
+      "irregularForms": "sé, sabes, sabe, sabemos, sabéis, saben (present)",
+      "sentence": "No sé la respuesta.",
+      "wordTranslation": "to know (facts/information)",
+      "sentenceTranslation": "I don't know the answer."
+    },
+    {
+      "word": "querer",
+      "irregularForms": "quiero, quieres, quiere, queremos, queréis, quieren (present, e-ie stem-change)",
+      "sentence": "Quiero comer pizza.",
+      "wordTranslation": "to want",
+      "sentenceTranslation": "I want to eat pizza."
+    },
+    {
+      "word": "llegar",
+      "irregularForms": null,
+      "sentence": "Llegamos tarde a la reunión.",
+      "wordTranslation": "to arrive",
+      "sentenceTranslation": "We arrived late to the meeting."
+    },
+    {
+      "word": "pasar",
+      "irregularForms": null,
+      "sentence": "¿Qué pasó?",
+      "wordTranslation": "to pass, to happen",
+      "sentenceTranslation": "What happened?"
+    },
+    {
+      "word": "deber",
+      "irregularForms": null,
+      "sentence": "Debes estudiar más.",
+      "wordTranslation": "should, must",
+      "sentenceTranslation": "You should study more."
+    },
+    {
+      "word": "poner",
+      "irregularForms": "pongo, pones, pone, ponemos, ponéis, ponen (present); puse, pusiste, puso (preterite)",
+      "sentence": "Pon la mesa, por favor.",
+      "wordTranslation": "to put, to place",
+      "sentenceTranslation": "Set the table, please."
+    },
+    {
+      "word": "quedar",
+      "irregularForms": null,
+      "sentence": "Quedémonos en casa esta noche.",
+      "wordTranslation": "to stay, to remain",
+      "sentenceTranslation": "Let's stay home tonight."
+    },
+    {
+      "word": "creer",
+      "irregularForms": null,
+      "sentence": "No puedo creerlo.",
+      "wordTranslation": "to believe",
+      "sentenceTranslation": "I can't believe it."
+    },
+    {
+      "word": "hablar",
+      "irregularForms": null,
+      "sentence": "¿Puedes hablar más despacio?",
+      "wordTranslation": "to speak, to talk",
+      "sentenceTranslation": "Can you speak more slowly?"
+    },
+    {
+      "word": "llevar",
+      "irregularForms": null,
+      "sentence": "Siempre llevo mi mochila.",
+      "wordTranslation": "to carry, to wear",
+      "sentenceTranslation": "I always carry my backpack."
+    },
+    {
+      "word": "encontrar",
+      "irregularForms": "encuentro, encuentras, encuentra (o-ue stem-change)",
+      "sentence": "Necesito encontrar mis llaves.",
+      "wordTranslation": "to find",
+      "sentenceTranslation": "I need to find my keys."
+    },
+    {
+      "word": "tomar",
+      "irregularForms": null,
+      "sentence": "Voy a tomar un café.",
+      "wordTranslation": "to take, to drink",
+      "sentenceTranslation": "I'm going to drink a coffee."
+    },
+    {
+      "word": "venir",
+      "irregularForms": "vengo, vienes, viene, venimos, venís, vienen (present); vine, viniste, vino (preterite)",
+      "sentence": "¿Puedes venir a mi fiesta?",
+      "wordTranslation": "to come",
+      "sentenceTranslation": "Can you come to my party?"
+    },
+    {
+      "word": "pensar",
+      "irregularForms": "pienso, piensas, piensa (e-ie stem-change)",
+      "sentence": "Pienso que es una buena idea.",
+      "wordTranslation": "to think",
+      "sentenceTranslation": "I think it's a good idea."
+    },
+    {
+      "word": "salir",
+      "irregularForms": "salgo, sales, sale, salimos, salís, salen (present)",
+      "sentence": "Salgo de casa a las ocho.",
+      "wordTranslation": "to leave, to go out",
+      "sentenceTranslation": "I leave home at eight."
+    },
+    {
+      "word": "conocer",
+      "irregularForms": "conozco, conoces, conoce, conocemos, conocéis, conocen (present)",
+      "sentence": "¿Conoces a mi hermano?",
+      "wordTranslation": "to know (people/places)",
+      "sentenceTranslation": "Do you know my brother?"
+    },
+    {
+      "word": "vivir",
+      "irregularForms": null,
+      "sentence": "Ella vive en Madrid.",
+      "wordTranslation": "to live",
+      "sentenceTranslation": "She lives in Madrid."
+    },
+    {
+      "word": "sentir",
+      "irregularForms": "siento, sientes, siente (e-ie stem-change)",
+      "sentence": "Siento mucho lo que pasó.",
+      "wordTranslation": "to feel, to regret",
+      "sentenceTranslation": "I'm very sorry for what happened."
+    },
+    {
+      "word": "contar",
+      "irregularForms": "cuento, cuentas, cuenta (o-ue stem-change)",
+      "sentence": "Quiero contarte algo.",
+      "wordTranslation": "to count, to tell (a story)",
+      "sentenceTranslation": "I want to tell you something."
+    },
+    {
+      "word": "buscar",
+      "irregularForms": null,
+      "sentence": "Estoy buscando mi cartera.",
+      "wordTranslation": "to look for, to search",
+      "sentenceTranslation": "I am looking for my wallet."
+    },
+    {
+      "word": "trabajar",
+      "irregularForms": null,
+      "sentence": "Él trabaja en una oficina.",
+      "wordTranslation": "to work",
+      "sentenceTranslation": "He works in an office."
+    },
+    {
+      "word": "empezar",
+      "irregularForms": "empiezo, empiezas, empieza (e-ie stem-change)",
+      "sentence": "La clase empieza a las nueve.",
+      "wordTranslation": "to start, to begin",
+      "sentenceTranslation": "The class starts at nine."
+    },
+    {
+      "word": "escribir",
+      "irregularForms": null,
+      "sentence": "Me gusta escribir cartas.",
+      "wordTranslation": "to write",
+      "sentenceTranslation": "I like to write letters."
+    },
+    {
+      "word": "entender",
+      "irregularForms": "entiendo, entiendes, entiende (e-ie stem-change)",
+      "sentence": "No entiendo la pregunta.",
+      "wordTranslation": "to understand",
+      "sentenceTranslation": "I don't understand the question."
+    },
+    {
+      "word": "jugar",
+      "irregularForms": "juego, juegas, juega (u-ue stem-change)",
+      "sentence": "Vamos a jugar fútbol.",
+      "wordTranslation": "to play",
+      "sentenceTranslation": "Let's play soccer."
+    },
+    {
+      "word": "escuchar",
+      "irregularForms": null,
+      "sentence": "Me gusta escuchar música.",
+      "wordTranslation": "to listen (to)",
+      "sentenceTranslation": "I like to listen to music."
+    },
+    {
+      "word": "persona",
+      "irregularForms": null,
+      "sentence": "Ella es una persona amable.",
+      "wordTranslation": "person",
+      "sentenceTranslation": "She is a kind person."
+    },
+    {
+      "word": "año",
+      "irregularForms": null,
+      "sentence": "Feliz Año Nuevo.",
+      "wordTranslation": "year",
+      "sentenceTranslation": "Happy New Year."
+    },
+    {
+      "word": "tiempo",
+      "irregularForms": null,
+      "sentence": "No tengo tiempo.",
+      "wordTranslation": "time, weather",
+      "sentenceTranslation": "I don't have time."
+    },
+    {
+      "word": "día",
+      "irregularForms": null,
+      "sentence": "Que tengas un buen día.",
+      "wordTranslation": "day",
+      "sentenceTranslation": "Have a good day."
+    },
+    {
+      "word": "hombre",
+      "irregularForms": null,
+      "sentence": "Este hombre es mi padre.",
+      "wordTranslation": "man",
+      "sentenceTranslation": "This man is my father."
+    },
+    {
+      "word": "mujer",
+      "irregularForms": null,
+      "sentence": "Ella es una mujer fuerte.",
+      "wordTranslation": "woman",
+      "sentenceTranslation": "She is a strong woman."
+    },
+    {
+      "word": "casa",
+      "irregularForms": null,
+      "sentence": "Mi casa es grande.",
+      "wordTranslation": "house, home",
+      "sentenceTranslation": "My house is big."
+    },
+    {
+      "word": "vida",
+      "irregularForms": null,
+      "sentence": "La vida es bella.",
+      "wordTranslation": "life",
+      "sentenceTranslation": "Life is beautiful."
+    },
+    {
+      "word": "mundo",
+      "irregularForms": null,
+      "sentence": "Viajé por todo el mundo.",
+      "wordTranslation": "world",
+      "sentenceTranslation": "I traveled all over the world."
+    },
+    {
+      "word": "mano",
+      "irregularForms": null,
+      "sentence": "Dame la mano.",
+      "wordTranslation": "hand",
+      "sentenceTranslation": "Give me your hand."
+    },
+    {
+      "word": "parte",
+      "irregularForms": null,
+      "sentence": "Es parte del problema.",
+      "wordTranslation": "part",
+      "sentenceTranslation": "It's part of the problem."
+    },
+    {
+      "word": "ojo",
+      "irregularForms": null,
+      "sentence": "Tiene los ojos azules.",
+      "wordTranslation": "eye",
+      "sentenceTranslation": "He has blue eyes."
+    },
+    {
+      "word": "país",
+      "irregularForms": null,
+      "sentence": "México es un país hermoso.",
+      "wordTranslation": "country",
+      "sentenceTranslation": "Mexico is a beautiful country."
+    },
+    {
+      "word": "ciudad",
+      "irregularForms": null,
+      "sentence": "Vivo en una gran ciudad.",
+      "wordTranslation": "city",
+      "sentenceTranslation": "I live in a big city."
+    },
+    {
+      "word": "trabajo",
+      "irregularForms": null,
+      "sentence": "Mi trabajo es interesante.",
+      "wordTranslation": "work, job",
+      "sentenceTranslation": "My job is interesting."
+    },
+    {
+      "word": "dinero",
+      "irregularForms": null,
+      "sentence": "Necesito dinero para el viaje.",
+      "wordTranslation": "money",
+      "sentenceTranslation": "I need money for the trip."
+    },
+    {
+      "word": "agua",
+      "irregularForms": null,
+      "sentence": "Quiero un vaso de agua.",
+      "wordTranslation": "water",
+      "sentenceTranslation": "I want a glass of water."
+    },
+    {
+      "word": "noche",
+      "irregularForms": null,
+      "sentence": "Buenas noches.",
+      "wordTranslation": "night",
+      "sentenceTranslation": "Good night."
+    },
+    {
+      "word": "amigo",
+      "irregularForms": null,
+      "sentence": "Él es mi mejor amigo.",
+      "wordTranslation": "friend (male)",
+      "sentenceTranslation": "He is my best friend."
+    },
+    {
+      "word": "familia",
+      "irregularForms": null,
+      "sentence": "Mi familia es lo más importante.",
+      "wordTranslation": "family",
+      "sentenceTranslation": "My family is the most important thing."
+    },
+    {
+      "word": "cosa",
+      "irregularForms": null,
+      "sentence": "Hay muchas cosas que hacer.",
+      "wordTranslation": "thing",
+      "sentenceTranslation": "There are many things to do."
+    },
+    {
+      "word": "gobierno",
+      "irregularForms": null,
+      "sentence": "El gobierno anunció nuevas leyes.",
+      "wordTranslation": "government",
+      "sentenceTranslation": "The government announced new laws."
+    },
+    {
+      "word": "problema",
+      "irregularForms": null,
+      "sentence": "No hay problema.",
+      "wordTranslation": "problem",
+      "sentenceTranslation": "No problem."
+    },
+    {
+      "word": "punto",
+      "irregularForms": null,
+      "sentence": "Este es el punto clave.",
+      "wordTranslation": "point",
+      "sentenceTranslation": "This is the key point."
+    },
+    {
+      "word": "número",
+      "irregularForms": null,
+      "sentence": "¿Cuál es tu número de teléfono?",
+      "wordTranslation": "number",
+      "sentenceTranslation": "What is your phone number?"
+    },
+    {
+      "word": "grupo",
+      "irregularForms": null,
+      "sentence": "Somos un grupo de amigos.",
+      "wordTranslation": "group",
+      "sentenceTranslation": "We are a group of friends."
+    },
+    {
+      "word": "verdad",
+      "irregularForms": null,
+      "sentence": "Dime la verdad.",
+      "wordTranslation": "truth",
+      "sentenceTranslation": "Tell me the truth."
+    },
+    {
+      "word": "derecho",
+      "irregularForms": null,
+      "sentence": "Tienes derecho a una opinión.",
+      "wordTranslation": "right (as in entitlement), law",
+      "sentenceTranslation": "You have a right to an opinion."
+    },
+    {
+      "word": "historia",
+      "irregularForms": null,
+      "sentence": "Me gusta leer libros de historia.",
+      "wordTranslation": "history, story",
+      "sentenceTranslation": "I like to read history books."
+    },
+    {
+      "word": "niño",
+      "irregularForms": null,
+      "sentence": "El niño está jugando.",
+      "wordTranslation": "child (male)",
+      "sentenceTranslation": "The child is playing."
+    },
+    {
+      "word": "calle",
+      "irregularForms": null,
+      "sentence": "Vivimos en la misma calle.",
+      "wordTranslation": "street",
+      "sentenceTranslation": "We live on the same street."
+    },
+    {
+      "word": "coche",
+      "irregularForms": null,
+      "sentence": "Mi coche es rojo.",
+      "wordTranslation": "car",
+      "sentenceTranslation": "My car is red."
+    },
+    {
+      "word": "libro",
+      "irregularForms": null,
+      "sentence": "Leí un libro interesante.",
+      "wordTranslation": "book",
+      "sentenceTranslation": "I read an interesting book."
+    },
+    {
+      "word": "mesa",
+      "irregularForms": null,
+      "sentence": "Pon los platos en la mesa.",
+      "wordTranslation": "table",
+      "sentenceTranslation": "Put the plates on the table."
+    },
+    {
+      "word": "silla",
+      "irregularForms": null,
+      "sentence": "Siéntate en la silla.",
+      "wordTranslation": "chair",
+      "sentenceTranslation": "Sit on the chair."
+    },
+    {
+      "word": "bueno",
+      "irregularForms": null,
+      "sentence": "Es un buen día.",
+      "wordTranslation": "good",
+      "sentenceTranslation": "It's a good day."
+    },
+    {
+      "word": "nuevo",
+      "irregularForms": null,
+      "sentence": "Compré un coche nuevo.",
+      "wordTranslation": "new",
+      "sentenceTranslation": "I bought a new car."
+    },
+    {
+      "word": "grande",
+      "irregularForms": null,
+      "sentence": "Mi perro es muy grande.",
+      "wordTranslation": "big, large",
+      "sentenceTranslation": "My dog is very big."
+    },
+    {
+      "word": "pequeño",
+      "irregularForms": null,
+      "sentence": "Mi casa es pequeña.",
+      "wordTranslation": "small",
+      "sentenceTranslation": "My house is small."
+    },
+    {
+      "word": "mismo",
+      "irregularForms": null,
+      "sentence": "Siempre hacemos lo mismo.",
+      "wordTranslation": "same",
+      "sentenceTranslation": "We always do the same thing."
+    },
+    {
+      "word": "otro",
+      "irregularForms": null,
+      "sentence": "¿Tienes otro libro?",
+      "wordTranslation": "other, another",
+      "sentenceTranslation": "Do you have another book?"
+    },
+    {
+      "word": "importante",
+      "irregularForms": null,
+      "sentence": "Es importante aprender.",
+      "wordTranslation": "important",
+      "sentenceTranslation": "It's important to learn."
+    },
+    {
+      "word": "posible",
+      "irregularForms": null,
+      "sentence": "Todo es posible.",
+      "wordTranslation": "possible",
+      "sentenceTranslation": "Everything is possible."
+    },
+    {
+      "word": "mejor",
+      "irregularForms": null,
+      "sentence": "Eres el mejor.",
+      "wordTranslation": "better, best",
+      "sentenceTranslation": "You are the best."
+    },
+    {
+      "word": "alto",
+      "irregularForms": null,
+      "sentence": "Ese edificio es muy alto.",
+      "wordTranslation": "tall, high",
+      "sentenceTranslation": "That building is very tall."
+    },
+    {
+      "word": "bajo",
+      "irregularForms": null,
+      "sentence": "El techo es muy bajo.",
+      "wordTranslation": "short (height), low",
+      "sentenceTranslation": "The ceiling is very low."
+    },
+    {
+      "word": "feliz",
+      "irregularForms": null,
+      "sentence": "Estoy muy feliz hoy.",
+      "wordTranslation": "happy",
+      "sentenceTranslation": "I am very happy today."
+    },
+    {
+      "word": "triste",
+      "irregularForms": null,
+      "sentence": "Ella está triste.",
+      "wordTranslation": "sad",
+      "sentenceTranslation": "She is sad."
+    },
+    {
+      "word": "fácil",
+      "irregularForms": null,
+      "sentence": "Es un ejercicio fácil.",
+      "wordTranslation": "easy",
+      "sentenceTranslation": "It's an easy exercise."
+    },
+    {
+      "word": "difícil",
+      "irregularForms": null,
+      "sentence": "Es un problema difícil.",
+      "wordTranslation": "difficult",
+      "sentenceTranslation": "It's a difficult problem."
+    },
+    {
+      "word": "muy",
+      "irregularForms": null,
+      "sentence": "Estoy muy cansado.",
+      "wordTranslation": "very",
+      "sentenceTranslation": "I am very tired."
+    },
+    {
+      "word": "más",
+      "irregularForms": null,
+      "sentence": "Quiero más agua.",
+      "wordTranslation": "more",
+      "sentenceTranslation": "I want more water."
+    },
+    {
+      "word": "no",
+      "irregularForms": null,
+      "sentence": "No quiero ir.",
+      "wordTranslation": "no, not",
+      "sentenceTranslation": "I don't want to go."
+    },
+    {
+      "word": "sí",
+      "irregularForms": null,
+      "sentence": "Sí, por supuesto.",
+      "wordTranslation": "yes",
+      "sentenceTranslation": "Yes, of course."
+    },
+    {
+      "word": "cómo",
+      "irregularForms": null,
+      "sentence": "¿Cómo te llamas?",
+      "wordTranslation": "how",
+      "sentenceTranslation": "What's your name? (Lit: How do you call yourself?)"
+    },
+    {
+      "word": "dónde",
+      "irregularForms": null,
+      "sentence": "¿Dónde está el baño?",
+      "wordTranslation": "where",
+      "sentenceTranslation": "Where is the bathroom?"
+    },
+    {
+      "word": "cuándo",
+      "irregularForms": null,
+      "sentence": "¿Cuándo es tu cumpleaños?",
+      "wordTranslation": "when",
+      "sentenceTranslation": "When is your birthday?"
+    },
+    {
+      "word": "por",
+      "irregularForms": null,
+      "sentence": "Gracias por tu ayuda.",
+      "wordTranslation": "for, by, through, because of",
+      "sentenceTranslation": "Thanks for your help."
+    },
+    {
+      "word": "para",
+      "irregularForms": null,
+      "sentence": "Esto es para ti.",
+      "wordTranslation": "for, in order to",
+      "sentenceTranslation": "This is for you."
+    },
+    {
+      "word": "con",
+      "irregularForms": null,
+      "sentence": "Voy con mis amigos.",
+      "wordTranslation": "with",
+      "sentenceTranslation": "I'm going with my friends."
+    },
+    {
+      "word": "sin",
+      "irregularForms": null,
+      "sentence": "No puedo vivir sin café.",
+      "wordTranslation": "without",
+      "sentenceTranslation": "I can't live without coffee."
+    },
+    {
+      "word": "y",
+      "irregularForms": null,
+      "sentence": "Pan y agua.",
+      "wordTranslation": "and",
+      "sentenceTranslation": "Bread and water."
+    },
+    {
+      "word": "o",
+      "irregularForms": null,
+      "sentence": "¿Café o té?",
+      "wordTranslation": "or",
+      "sentenceTranslation": "Coffee or tea?"
+    },
+    {
+      "word": "pero",
+      "irregularForms": null,
+      "sentence": "Quiero ir, pero no puedo.",
+      "wordTranslation": "but",
+      "sentenceTranslation": "I want to go, but I can't."
+    },
+    {
+      "word": "qué",
+      "irregularForms": null,
+      "sentence": "¿Qué hora es?",
+      "wordTranslation": "what",
+      "sentenceTranslation": "What time is it?"
+    }
+  ]
+}

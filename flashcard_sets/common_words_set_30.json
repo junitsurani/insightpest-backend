@@ -1,0 +1,769 @@
+{
+  "name": "Spanish Common Words Set 30",
+  "description": "This is part of a larger set of common Spanish words, focusing on vocabulary not covered in previous sets, including verbs, nouns, and other parts of speech essential for intermediate learners.",
+  "cards": [
+    {
+      "word": "acostumbrarse",
+      "irregularForms": "me acostumbro, te acostumbras, se acostumbra, nos acostumbramos, os acostumbráis, se acostumbran",
+      "sentence": "Necesito acostumbrarme al nuevo horario.",
+      "wordTranslation": "to get used to",
+      "sentenceTranslation": "I need to get used to the new schedule."
+    },
+    {
+      "word": "aprovechar",
+      "irregularForms": "aprovecho, aprovechas, aprovecha, aprovechamos, aprovecháis, aprovechan",
+      "sentence": "Debemos aprovechar la oportunidad para viajar.",
+      "wordTranslation": "to take advantage of",
+      "sentenceTranslation": "We must take advantage of the opportunity to travel."
+    },
+    {
+      "word": "asegurar",
+      "irregularForms": "aseguro, aseguras, asegura, aseguramos, aseguráis, aseguran",
+      "sentence": "Por favor, asegura que la puerta esté cerrada.",
+      "wordTranslation": "to assure/secure",
+      "sentenceTranslation": "Please make sure the door is closed."
+    },
+    {
+      "word": "atravesar",
+      "irregularForms": "atravieso, atraviesas, atraviesa, atravesamos, atravesáis, atraviesan",
+      "sentence": "Es difícil atravesar el desierto a pie.",
+      "wordTranslation": "to cross/traverse",
+      "sentenceTranslation": "It's difficult to cross the desert on foot."
+    },
+    {
+      "word": "confesar",
+      "irregularForms": "confieso, confiesas, confiesa, confesamos, confesáis, confiesan",
+      "sentence": "Tuvo que confesar la verdad a sus padres.",
+      "wordTranslation": "to confess",
+      "sentenceTranslation": "He had to confess the truth to his parents."
+    },
+    {
+      "word": "contestar",
+      "irregularForms": "contesto, contestas, contesta, contestamos, contestáis, contestan",
+      "sentence": "Por favor, contesta a mi pregunta.",
+      "wordTranslation": "to answer",
+      "sentenceTranslation": "Please answer my question."
+    },
+    {
+      "word": "impedir",
+      "irregularForms": "impidiendo (gerundio), impido, impides, impide, impedimos, impedís, impiden",
+      "sentence": "La lluvia nos va a impedir salir.",
+      "wordTranslation": "to prevent",
+      "sentenceTranslation": "The rain is going to prevent us from going out."
+    },
+    {
+      "word": "implicar",
+      "irregularForms": "implico, implicas, implica, implicamos, implicáis, implican",
+      "sentence": "Tu decisión podría implicar grandes cambios.",
+      "wordTranslation": "to imply/involve",
+      "sentenceTranslation": "Your decision could imply big changes."
+    },
+    {
+      "word": "impulsar",
+      "irregularForms": "impulso, impulsas, impulsa, impulsamos, impulsáis, impulsan",
+      "sentence": "Necesitamos nuevas ideas para impulsar el proyecto.",
+      "wordTranslation": "to propel/boost",
+      "sentenceTranslation": "We need new ideas to boost the project."
+    },
+    {
+      "word": "influir",
+      "irregularForms": "influyendo (gerundio), influyo, influyes, influye, influimos, influís, influyen",
+      "sentence": "Sus palabras pueden influir en la decisión.",
+      "wordTranslation": "to influence",
+      "sentenceTranslation": "His words can influence the decision."
+    },
+    {
+      "word": "invertir",
+      "irregularForms": "invirtiendo (gerundio), invierto, inviertes, invierte, invertimos, invertís, invierten",
+      "sentence": "Decidió invertir en bienes raíces.",
+      "wordTranslation": "to invest",
+      "sentenceTranslation": "He decided to invest in real estate."
+    },
+    {
+      "word": "quejarse",
+      "irregularForms": "me quejo, te quejas, se queja, nos quejamos, os quejáis, se quejan",
+      "sentence": "No me gusta quejarse sin proponer soluciones.",
+      "wordTranslation": "to complain",
+      "sentenceTranslation": "I don't like to complain without offering solutions."
+    },
+    {
+      "word": "relacionar",
+      "irregularForms": "relaciono, relacionas, relaciona, relacionamos, relacionáis, relacionan",
+      "sentence": "Es importante relacionar la teoría con la práctica.",
+      "wordTranslation": "to relate",
+      "sentenceTranslation": "It is important to relate theory to practice."
+    },
+    {
+      "word": "saludar",
+      "irregularForms": "saludo, saludas, saluda, saludamos, saludáis, saludan",
+      "sentence": "Siempre me gusta saludar a mis vecinos.",
+      "wordTranslation": "to greet",
+      "sentenceTranslation": "I always like to greet my neighbors."
+    },
+    {
+      "word": "sustituir",
+      "irregularForms": "sustituyo, sustituyes, sustituye, sustituimos, sustituís, sustituyen",
+      "sentence": "Podemos sustituir el azúcar por miel en esta receta.",
+      "wordTranslation": "to substitute",
+      "sentenceTranslation": "We can substitute sugar for honey in this recipe."
+    },
+    {
+      "word": "encargar",
+      "irregularForms": "encargo, encargas, encarga, encargamos, encargáis, encargan",
+      "sentence": "Me voy a encargar del proyecto.",
+      "wordTranslation": "to order/entrust",
+      "sentenceTranslation": "I'm going to take charge of the project."
+    },
+    {
+      "word": "conservar",
+      "irregularForms": "conservo, conservas, conserva, conservamos, conserváis, conservan",
+      "sentence": "Es importante conservar la energía.",
+      "wordTranslation": "to conserve",
+      "sentenceTranslation": "It's important to conserve energy."
+    },
+    {
+      "word": "expandir",
+      "irregularForms": "expando, expandes, expande, expandimos, expandís, expanden",
+      "sentence": "La empresa planea expandir sus operaciones.",
+      "wordTranslation": "to expand",
+      "sentenceTranslation": "The company plans to expand its operations."
+    },
+    {
+      "word": "involucrar",
+      "irregularForms": "involucro, involucras, involucra, involucramos, involucráis, involucran",
+      "sentence": "Queremos involucrar a más personas en el proyecto.",
+      "wordTranslation": "to involve",
+      "sentenceTranslation": "We want to involve more people in the project."
+    },
+    {
+      "word": "restaurar",
+      "irregularForms": "restauro, restauras, restaura, restauramos, restauráis, restauran",
+      "sentence": "Necesitamos restaurar este viejo edificio.",
+      "wordTranslation": "to restore",
+      "sentenceTranslation": "We need to restore this old building."
+    },
+    {
+      "word": "transmitir",
+      "irregularForms": "transmito, transmites, transmite, transmitimos, transmitís, transmiten",
+      "sentence": "La radio va a transmitir el partido en vivo.",
+      "wordTranslation": "to transmit",
+      "sentenceTranslation": "The radio is going to broadcast the game live."
+    },
+    {
+      "word": "ampliar",
+      "irregularForms": "amplío, amplías, amplía, ampliamos, ampliáis, amplían",
+      "sentence": "Debemos ampliar nuestra base de clientes.",
+      "wordTranslation": "to expand/enlarge",
+      "sentenceTranslation": "We must expand our customer base."
+    },
+    {
+      "word": "coordinar",
+      "irregularForms": "coordino, coordinas, coordina, coordinamos, coordináis, coordinan",
+      "sentence": "Es fundamental coordinar los esfuerzos del equipo.",
+      "wordTranslation": "to coordinate",
+      "sentenceTranslation": "It is essential to coordinate the team's efforts."
+    },
+    {
+      "word": "enfocar",
+      "irregularForms": "enfoco, enfocas, enfoca, enfocamos, enfocáis, enfocan",
+      "sentence": "Debemos enfocar nuestra atención en los detalles.",
+      "wordTranslation": "to focus",
+      "sentenceTranslation": "We must focus our attention on the details."
+    },
+    {
+      "word": "fijar",
+      "irregularForms": "fijo, fijas, fija, fijamos, fijáis, fijan",
+      "sentence": "Vamos a fijar una fecha para la reunión.",
+      "wordTranslation": "to fix/set",
+      "sentenceTranslation": "We are going to set a date for the meeting."
+    },
+    {
+      "word": "integrar",
+      "irregularForms": "integro, integras, integra, integramos, integráis, integran",
+      "sentence": "Es importante integrar a todos los miembros del equipo.",
+      "wordTranslation": "to integrate",
+      "sentenceTranslation": "It is important to integrate all team members."
+    },
+    {
+      "word": "proveer",
+      "irregularForms": "proveo, provees, provee, proveemos, proveéis, proveen",
+      "sentence": "La empresa debe proveer los recursos necesarios.",
+      "wordTranslation": "to provide",
+      "sentenceTranslation": "The company must provide the necessary resources."
+    },
+    {
+      "word": "requerir",
+      "irregularForms": "requiero, requieres, requiere, requerimos, requerís, requieren",
+      "sentence": "El proyecto va a requerir mucho esfuerzo.",
+      "wordTranslation": "to require",
+      "sentenceTranslation": "The project will require a lot of effort."
+    },
+    {
+      "word": "simplificar",
+      "irregularForms": "simplifico, simplificas, simplifica, simplificamos, simplificáis, simplifican",
+      "sentence": "Intentaremos simplificar el proceso.",
+      "wordTranslation": "to simplify",
+      "sentenceTranslation": "We will try to simplify the process."
+    },
+    {
+      "word": "gestionar",
+      "irregularForms": "gestiono, gestionas, gestiona, gestionamos, gestionáis, gestionan",
+      "sentence": "Debemos gestionar bien nuestros recursos.",
+      "wordTranslation": "to manage",
+      "sentenceTranslation": "We must manage our resources well."
+    },
+    {
+      "word": "promedio",
+      "irregularForms": "null",
+      "sentence": "El promedio de edad del grupo es 25 años.",
+      "wordTranslation": "average",
+      "sentenceTranslation": "The group's age average is 25 years."
+    },
+    {
+      "word": "error",
+      "irregularForms": "null",
+      "sentence": "Cometió un error al calcular el resultado.",
+      "wordTranslation": "error",
+      "sentenceTranslation": "He made an error when calculating the result."
+    },
+    {
+      "word": "aproximar",
+      "irregularForms": "aproximo, aproximas, aproxima, aproximamos, aproximáis, aproximan",
+      "sentence": "La tormenta se empieza a aproximar.",
+      "wordTranslation": "to approach",
+      "sentenceTranslation": "The storm is starting to approach."
+    },
+    {
+      "word": "asumir",
+      "irregularForms": "asumo, asumes, asume, asumimos, asumís, asumen",
+      "sentence": "Voy a asumir la responsabilidad del error.",
+      "wordTranslation": "to assume",
+      "sentenceTranslation": "I am going to assume responsibility for the error."
+    },
+    {
+      "word": "comprometer",
+      "irregularForms": "comprometo, comprometes, compromete, comprometemos, comprometéis, comprometen",
+      "sentence": "No quiero comprometer mi reputación.",
+      "wordTranslation": "to compromise/commit",
+      "sentenceTranslation": "I don't want to compromise my reputation."
+    },
+    {
+      "word": "constituir",
+      "irregularForms": "constituyo, constituyes, constituye, constituimos, constituís, constituyen",
+      "sentence": "Estas ideas van a constituir la base de nuestro trabajo.",
+      "wordTranslation": "to constitute",
+      "sentenceTranslation": "These ideas will constitute the basis of our work."
+    },
+    {
+      "word": "descartar",
+      "irregularForms": "descarto, descartas, descarta, descartamos, descartáis, descartan",
+      "sentence": "No podemos descartar ninguna opción aún.",
+      "wordTranslation": "to discard",
+      "sentenceTranslation": "We cannot discard any option yet."
+    },
+    {
+      "word": "ejercer",
+      "irregularForms": "ejerzo, ejerces, ejerce, ejercemos, ejercéis, ejercen",
+      "sentence": "Debe ejercer su derecho al voto.",
+      "wordTranslation": "to exercise/exert",
+      "sentenceTranslation": "He must exercise his right to vote."
+    },
+    {
+      "word": "estimar",
+      "irregularForms": "estimo, estimas, estima, estimamos, estimáis, estiman",
+      "sentence": "Se puede estimar el costo total en unos días.",
+      "wordTranslation": "to estimate/esteem",
+      "sentenceTranslation": "The total cost can be estimated in a few days."
+    },
+    {
+      "word": "favorecer",
+      "irregularForms": "favorezco, favoreces, favorece, favorecemos, favorecéis, favorecen",
+      "sentence": "Este clima va a favorecer el crecimiento de las plantas.",
+      "wordTranslation": "to favor",
+      "sentenceTranslation": "This climate will favor the growth of plants."
+    },
+    {
+      "word": "garantizar",
+      "irregularForms": "garantizo, garantizas, garantiza, garantizamos, garantizáis, garantizan",
+      "sentence": "La empresa debe garantizar la seguridad.",
+      "wordTranslation": "to guarantee",
+      "sentenceTranslation": "The company must guarantee safety."
+    },
+    {
+      "word": "intervenir",
+      "irregularForms": "intervengo, intervienes, interviene, intervenimos, intervenís, intervienen",
+      "sentence": "La policía tuvo que intervenir en la disputa.",
+      "wordTranslation": "to intervene",
+      "sentenceTranslation": "The police had to intervene in the dispute."
+    },
+    {
+      "word": "merecer",
+      "irregularForms": "merezco, mereces, merece, merecemos, merecéis, merecen",
+      "sentence": "Él merece una segunda oportunidad.",
+      "wordTranslation": "to deserve",
+      "sentenceTranslation": "He deserves a second chance."
+    },
+    {
+      "word": "proporcionar",
+      "irregularForms": "proporciono, proporcionas, proporciona, proporcionamos, proporcionáis, proporcionan",
+      "sentence": "La escuela va a proporcionar los materiales.",
+      "wordTranslation": "to provide",
+      "sentenceTranslation": "The school will provide the materials."
+    },
+    {
+      "word": "renunciar",
+      "irregularForms": "renuncio, renuncias, renuncia, renunciamos, renunciáis, renuncian",
+      "sentence": "Decidió renunciar a su cargo.",
+      "wordTranslation": "to resign/give up",
+      "sentenceTranslation": "He decided to resign from his position."
+    },
+    {
+      "word": "resaltar",
+      "irregularForms": "resalto, resaltas, resalta, resaltamos, resaltáis, resaltan",
+      "sentence": "Quiero resaltar la importancia de este punto.",
+      "wordTranslation": "to highlight",
+      "sentenceTranslation": "I want to highlight the importance of this point."
+    },
+    {
+      "word": "trasladar",
+      "irregularForms": "traslado, trasladas, traslada, trasladamos, trasladáis, trasladan",
+      "sentence": "Vamos a trasladar la reunión a otro lugar.",
+      "wordTranslation": "to transfer/move",
+      "sentenceTranslation": "We are going to move the meeting to another location."
+    },
+    {
+      "word": "vigilar",
+      "irregularForms": "vigilo, vigilas, vigila, vigilamos, vigiláis, vigilan",
+      "sentence": "El perro siempre vigila la casa.",
+      "wordTranslation": "to guard/watch over",
+      "sentenceTranslation": "The dog always watches over the house."
+    },
+    {
+      "word": "abandonar",
+      "irregularForms": "abandono, abandonas, abandona, abandonamos, abandonáis, abandonan",
+      "sentence": "No debes abandonar tus sueños.",
+      "wordTranslation": "to abandon",
+      "sentenceTranslation": "You should not abandon your dreams."
+    },
+    {
+      "word": "determinar",
+      "irregularForms": "determino, determinas, determina, determinamos, determináis, determinan",
+      "sentence": "Necesitamos determinar la causa del problema.",
+      "wordTranslation": "to determine",
+      "sentenceTranslation": "We need to determine the cause of the problem."
+    },
+    {
+      "word": "especificar",
+      "irregularForms": "especifico, especificas, especifica, especificamos, especificáis, especifican",
+      "sentence": "Por favor, especifica los requisitos exactos.",
+      "wordTranslation": "to specify",
+      "sentenceTranslation": "Please specify the exact requirements."
+    },
+    {
+      "word": "ilustrar",
+      "irregularForms": "ilustro, ilustras, ilustra, ilustramos, ilustráis, ilustran",
+      "sentence": "Voy a ilustrar mi presentación con ejemplos.",
+      "wordTranslation": "to illustrate",
+      "sentenceTranslation": "I'm going to illustrate my presentation with examples."
+    },
+    {
+      "word": "apostar",
+      "irregularForms": "apuesto, apuestas, apuesta, apostamos, apostáis, apuestan",
+      "sentence": "No me gusta apostar dinero.",
+      "wordTranslation": "to bet",
+      "sentenceTranslation": "I don't like to bet money."
+    },
+    {
+      "word": "ceder",
+      "irregularForms": "cedo, cedes, cede, cedemos, cedéis, ceden",
+      "sentence": "No voy a ceder ante la presión.",
+      "wordTranslation": "to yield/give in",
+      "sentenceTranslation": "I won't yield to pressure."
+    },
+    {
+      "word": "citar",
+      "irregularForms": "cito, citas, cita, citamos, citáis, citan",
+      "sentence": "Es importante citar tus fuentes.",
+      "wordTranslation": "to cite/quote",
+      "sentenceTranslation": "It's important to cite your sources."
+    },
+    {
+      "word": "cometer",
+      "irregularForms": "cometo, cometes, comete, cometemos, cometéis, cometen",
+      "sentence": "No queremos cometer el mismo error.",
+      "wordTranslation": "to commit",
+      "sentenceTranslation": "We don't want to commit the same mistake."
+    },
+    {
+      "word": "convenir",
+      "irregularForms": "convengo, convienes, conviene, convenimos, convenís, convienen",
+      "sentence": "Nos conviene reunirnos mañana.",
+      "wordTranslation": "to be convenient/agree",
+      "sentenceTranslation": "It suits us to meet tomorrow."
+    },
+    {
+      "word": "corresponder",
+      "irregularForms": "correspondo, correspondes, corresponde, correspondemos, correspondéis, corresponden",
+      "sentence": "Me toca a mí corresponder al favor.",
+      "wordTranslation": "to correspond/be proper",
+      "sentenceTranslation": "It's my turn to return the favor."
+    },
+    {
+      "word": "destacar",
+      "irregularForms": "destaco, destacas, destaca, destacamos, destacáis, destacan",
+      "sentence": "Quiero destacar la calidad de su trabajo.",
+      "wordTranslation": "to highlight/stand out",
+      "sentenceTranslation": "I want to highlight the quality of his work."
+    },
+    {
+      "word": "fallar",
+      "irregularForms": "fallo, fallas, falla, fallamos, falláis, fallan",
+      "sentence": "No podemos fallar en esta misión.",
+      "wordTranslation": "to fail/miss",
+      "sentenceTranslation": "We cannot fail in this mission."
+    },
+    {
+      "word": "invitar",
+      "irregularForms": "invito, invitas, invita, invitamos, invitáis, invitan",
+      "sentence": "Te quiero invitar a mi fiesta.",
+      "wordTranslation": "to invite",
+      "sentenceTranslation": "I want to invite you to my party."
+    },
+    {
+      "word": "oponer",
+      "irregularForms": "opongo, opones, opone, oponemos, oponéis, oponen",
+      "sentence": "Voy a oponer a esa propuesta.",
+      "wordTranslation": "to oppose",
+      "sentenceTranslation": "I am going to oppose that proposal."
+    },
+    {
+      "word": "referir",
+      "irregularForms": "refiero, refieres, refiere, referimos, referís, refieren",
+      "sentence": "Me voy a referir al último capítulo del libro.",
+      "wordTranslation": "to refer",
+      "sentenceTranslation": "I am going to refer to the last chapter of the book."
+    },
+    {
+      "word": "someter",
+      "irregularForms": "someto, sometes, somete, sometemos, sometéis, someten",
+      "sentence": "Debemos someter la propuesta para su aprobación.",
+      "wordTranslation": "to submit/subdue",
+      "sentenceTranslation": "We must submit the proposal for approval."
+    },
+    {
+      "word": "sustentar",
+      "irregularForms": "sustento, sustentas, sustenta, sustentamos, sustentáis, sustentan",
+      "sentence": "Los pilares deben sustentar el peso del techo.",
+      "wordTranslation": "to sustain/support",
+      "sentenceTranslation": "The pillars must sustain the weight of the roof."
+    },
+    {
+      "word": "misión",
+      "irregularForms": "null",
+      "sentence": "Su misión es ayudar a la comunidad.",
+      "wordTranslation": "mission",
+      "sentenceTranslation": "Their mission is to help the community."
+    },
+    {
+      "word": "visión",
+      "irregularForms": "null",
+      "sentence": "La empresa tiene una visión clara para el futuro.",
+      "wordTranslation": "vision",
+      "sentenceTranslation": "The company has a clear vision for the future."
+    },
+    {
+      "word": "filosofía",
+      "irregularForms": "null",
+      "sentence": "Su filosofía de vida es muy simple.",
+      "wordTranslation": "philosophy",
+      "sentenceTranslation": "His life philosophy is very simple."
+    },
+    {
+      "word": "agradar",
+      "irregularForms": "agrado, agradas, agrada, agradamos, agradáis, agradan",
+      "sentence": "Me agrada tu compañía.",
+      "wordTranslation": "to please",
+      "sentenceTranslation": "Your company pleases me."
+    },
+    {
+      "word": "asociar",
+      "irregularForms": "asocio, asocias, asocia, asociamos, asociáis, asocian",
+      "sentence": "No quiero que me asocien con ese grupo.",
+      "wordTranslation": "to associate",
+      "sentenceTranslation": "I don't want to be associated with that group."
+    },
+    {
+      "word": "concentrar",
+      "irregularForms": "concentro, concentras, concentra, concentramos, concentráis, concentran",
+      "sentence": "Es difícil concentrarme con tanto ruido.",
+      "wordTranslation": "to concentrate",
+      "sentenceTranslation": "It's hard for me to concentrate with so much noise."
+    },
+    {
+      "word": "consistir",
+      "irregularForms": "consisto, consistes, consiste, consistimos, consistís, consisten",
+      "sentence": "La tarea consiste en escribir un ensayo.",
+      "wordTranslation": "to consist",
+      "sentenceTranslation": "The task consists of writing an essay."
+    },
+    {
+      "word": "reclamar",
+      "irregularForms": "reclamo, reclamas, reclama, reclamamos, reclamáis, reclaman",
+      "sentence": "Tienes derecho a reclamar tu dinero.",
+      "wordTranslation": "to claim/demand",
+      "sentenceTranslation": "You have the right to claim your money."
+    },
+    {
+      "word": "impartir",
+      "irregularForms": "imparto, impartes, imparte, impartimos, impartís, imparten",
+      "sentence": "El profesor va a impartir una conferencia.",
+      "wordTranslation": "to impart/give",
+      "sentenceTranslation": "The professor is going to give a lecture."
+    },
+    {
+      "word": "calificar",
+      "irregularForms": "califico, calificas, califica, calificamos, calificáis, califican",
+      "sentence": "Los estudiantes deben calificar bien en el examen.",
+      "wordTranslation": "to qualify/grade",
+      "sentenceTranslation": "Students must score well on the exam."
+    },
+    {
+      "word": "declarar",
+      "irregularForms": "declaro, declaras, declara, declaramos, declaráis, declaran",
+      "sentence": "El testigo debe declarar la verdad.",
+      "wordTranslation": "to declare",
+      "sentenceTranslation": "The witness must declare the truth."
+    },
+    {
+      "word": "manifestar",
+      "irregularForms": "manifiesto, manifiestas, manifiesta, manifestamos, manifestáis, manifiestan",
+      "sentence": "La gente salió a manifestar su descontento.",
+      "wordTranslation": "to manifest/protest",
+      "sentenceTranslation": "People came out to protest their discontent."
+    },
+    {
+      "word": "notificar",
+      "irregularForms": "notifico, notificas, notifica, notificamos, notificáis, notifican",
+      "sentence": "Por favor, notifica cualquier cambio de dirección.",
+      "wordTranslation": "to notify",
+      "sentenceTranslation": "Please notify of any change of address."
+    },
+    {
+      "word": "proclamar",
+      "irregularForms": "proclamo, proclamas, proclama, proclamamos, proclamáis, proclaman",
+      "sentence": "El rey va a proclamar una nueva ley.",
+      "wordTranslation": "to proclaim",
+      "sentenceTranslation": "The king is going to proclaim a new law."
+    },
+    {
+      "word": "reafirmar",
+      "irregularForms": "reafirmo, reafirmas, reafirma, reafirmamos, reafirmáis, reafirman",
+      "sentence": "Quiero reafirmar mi compromiso con el proyecto.",
+      "wordTranslation": "to reaffirm",
+      "sentenceTranslation": "I want to reaffirm my commitment to the project."
+    },
+    {
+      "word": "reportar",
+      "irregularForms": "reporto, reportas, reporta, reportamos, reportáis, reportan",
+      "sentence": "Debemos reportar cualquier incidente.",
+      "wordTranslation": "to report",
+      "sentenceTranslation": "We must report any incident."
+    },
+    {
+      "word": "testificar",
+      "irregularForms": "testifico, testificas, testifica, testificamos, testificáis, testifican",
+      "sentence": "El testigo se negó a testificar.",
+      "wordTranslation": "to testify",
+      "sentenceTranslation": "The witness refused to testify."
+    },
+    {
+      "word": "abonar",
+      "irregularForms": "abono, abonas, abona, abonamos, abonáis, abonan",
+      "sentence": "Debes abonar la factura antes del viernes.",
+      "wordTranslation": "to pay (a bill/subscription)",
+      "sentenceTranslation": "You must pay the bill before Friday."
+    },
+    {
+      "word": "atender",
+      "irregularForms": "atiendo, atiendes, atiende, atendemos, atendéis, atienden",
+      "sentence": "La enfermera va a atender al paciente.",
+      "wordTranslation": "to attend to/assist",
+      "sentenceTranslation": "The nurse is going to attend to the patient."
+    },
+    {
+      "word": "contratar",
+      "irregularForms": "contrato, contratas, contrata, contratamos, contratáis, contratan",
+      "sentence": "La empresa planea contratar nuevo personal.",
+      "wordTranslation": "to hire",
+      "sentenceTranslation": "The company plans to hire new staff."
+    },
+    {
+      "word": "grabar",
+      "irregularForms": "grabo, grabas, graba, grabamos, grabáis, graban",
+      "sentence": "Vamos a grabar un video de la fiesta.",
+      "wordTranslation": "to record",
+      "sentenceTranslation": "We are going to record a video of the party."
+    },
+    {
+      "word": "tramitar",
+      "irregularForms": "tramito, tramitas, tramita, tramitamos, tramitáis, tramitan",
+      "sentence": "Debemos tramitar los papeles antes de viajar.",
+      "wordTranslation": "to process (documents)",
+      "sentenceTranslation": "We must process the papers before traveling."
+    },
+    {
+      "word": "afrontar",
+      "irregularForms": "afronto, afrontas, afronta, afrontamos, afrontáis, afrontan",
+      "sentence": "Es hora de afrontar la realidad.",
+      "wordTranslation": "to confront",
+      "sentenceTranslation": "It's time to confront reality."
+    },
+    {
+      "word": "prohibir",
+      "irregularForms": "prohíbo, prohíbes, prohíbe, prohibimos, prohibís, prohíben",
+      "sentence": "Se debe prohibir el uso de teléfonos en el aula.",
+      "wordTranslation": "to prohibit",
+      "sentenceTranslation": "The use of phones in the classroom should be prohibited."
+    },
+    {
+      "word": "alegar",
+      "irregularForms": "alego, alegas, alega, alegamos, alegáis, alegan",
+      "sentence": "La defensa va a alegar inocencia.",
+      "wordTranslation": "to allege",
+      "sentenceTranslation": "The defense is going to allege innocence."
+    },
+    {
+      "word": "arbitrar",
+      "irregularForms": "arbitro, arbitras, arbitra, arbitramos, arbitráis, arbitran",
+      "sentence": "El juez debe arbitrar la disputa.",
+      "wordTranslation": "to arbitrate",
+      "sentenceTranslation": "The judge must arbitrate the dispute."
+    },
+    {
+      "word": "confeccionar",
+      "irregularForms": "confecciono, confeccionas, confecciona, confeccionamos, confeccionáis, confeccionan",
+      "sentence": "Ella sabe confeccionar vestidos muy bonitos.",
+      "wordTranslation": "to make/prepare (garments)",
+      "sentenceTranslation": "She knows how to make very beautiful dresses."
+    },
+    {
+      "word": "delegar",
+      "irregularForms": "delego, delegas, delega, delegamos, delegáis, delegan",
+      "sentence": "Es importante saber delegar tareas.",
+      "wordTranslation": "to delegate",
+      "sentenceTranslation": "It's important to know how to delegate tasks."
+    },
+    {
+      "word": "desempeñar",
+      "irregularForms": "desempeño, desempeñas, desempeña, desempeñamos, desempeñáis, desempeñan",
+      "sentence": "Él sabe desempeñar su papel muy bien.",
+      "wordTranslation": "to perform (a role)",
+      "sentenceTranslation": "He knows how to perform his role very well."
+    },
+    {
+      "word": "dispensar",
+      "irregularForms": "dispenso, dispensas, dispensa, dispensamos, dispensáis, dispensan",
+      "sentence": "La farmacia puede dispensar los medicamentos.",
+      "wordTranslation": "to dispense",
+      "sentenceTranslation": "The pharmacy can dispense the medications."
+    },
+    {
+      "word": "elaborar",
+      "irregularForms": "elaboro, elaboras, elabora, elaboramos, elaboráis, elaboran",
+      "sentence": "Vamos a elaborar un plan detallado.",
+      "wordTranslation": "to elaborate/prepare",
+      "sentenceTranslation": "We are going to prepare a detailed plan."
+    },
+    {
+      "word": "embellecer",
+      "irregularForms": "embellezco, embelleces, embellece, embellecemos, embellecéis, embellecen",
+      "sentence": "Quieren embellecer el jardín con más flores.",
+      "wordTranslation": "to embellish",
+      "sentenceTranslation": "They want to embellish the garden with more flowers."
+    },
+    {
+      "word": "encomendar",
+      "irregularForms": "encomiendo, encomiendas, encomienda, encomendamos, encomendáis, encomiendan",
+      "sentence": "Te voy a encomendar una tarea importante.",
+      "wordTranslation": "to entrust",
+      "sentenceTranslation": "I am going to entrust you with an important task."
+    },
+    {
+      "word": "enriquecer",
+      "irregularForms": "enriquezco, enriqueces, enriquece, enriquecemos, enriquecéis, enriquecen",
+      "sentence": "La lectura puede enriquecer tu mente.",
+      "wordTranslation": "to enrich",
+      "sentenceTranslation": "Reading can enrich your mind."
+    },
+    {
+      "word": "enaltecer",
+      "irregularForms": "enaltezo, enalteces, enaltece, enaltecemos, enaltecéis, enaltecen",
+      "sentence": "Quieren enaltecer la labor de los voluntarios.",
+      "wordTranslation": "to exalt",
+      "sentenceTranslation": "They want to exalt the work of the volunteers."
+    },
+    {
+      "word": "entrelazar",
+      "irregularForms": "entrelazo, entrelazas, entrelaza, entrelazamos, entrelazáis, entrelazan",
+      "sentence": "Las ramas de los árboles se van a entrelazar.",
+      "wordTranslation": "to interlace",
+      "sentenceTranslation": "The branches of the trees are going to interlace."
+    },
+    {
+      "word": "expedir",
+      "irregularForms": "expido, expides, expide, expedimos, expedís, expiden",
+      "sentence": "La oficina puede expedir el documento hoy.",
+      "wordTranslation": "to dispatch/issue",
+      "sentenceTranslation": "The office can issue the document today."
+    },
+    {
+      "word": "fomentar",
+      "irregularForms": "fomento, fomentas, fomenta, fomentamos, fomentáis, fomentan",
+      "sentence": "Debemos fomentar la lectura en los niños.",
+      "wordTranslation": "to promote/foster",
+      "sentenceTranslation": "We must foster reading in children."
+    },
+    {
+      "word": "fortalecer",
+      "irregularForms": "fortalezco, fortaleces, fortalece, fortalecemos, fortalecéis, fortalecen",
+      "sentence": "Hay que fortalecer las defensas del cuerpo.",
+      "wordTranslation": "to strengthen",
+      "sentenceTranslation": "We must strengthen the body's defenses."
+    },
+    {
+      "word": "habitar",
+      "irregularForms": "habito, habitas, habita, habitamos, habitáis, habitan",
+      "sentence": "Los animales van a habitar este bosque.",
+      "wordTranslation": "to inhabit",
+      "sentenceTranslation": "The animals will inhabit this forest."
+    },
+    {
+      "word": "implantar",
+      "irregularForms": "implanto, implantas, implanta, implantamos, implantáis, implantan",
+      "sentence": "Quieren implantar un nuevo sistema.",
+      "wordTranslation": "to implant/establish",
+      "sentenceTranslation": "They want to establish a new system."
+    },
+    {
+      "word": "incorporar",
+      "irregularForms": "incorporo, incorporas, incorpora, incorporamos, incorporáis, incorporan",
+      "sentence": "Debemos incorporar nuevas ideas.",
+      "wordTranslation": "to incorporate",
+      "sentenceTranslation": "We must incorporate new ideas."
+    },
+    {
+      "word": "inducir",
+      "irregularForms": "induzco, induces, induce, inducimos, inducís, inducen",
+      "sentence": "No debes inducir a error a la gente.",
+      "wordTranslation": "to induce",
+      "sentenceTranslation": "You should not induce people to make mistakes."
+    },
+    {
+      "word": "inscribir",
+      "irregularForms": "inscribo, inscribes, inscribe, inscribimos, inscribís, inscriben",
+      "sentence": "Me voy a inscribir en el curso de verano.",
+      "wordTranslation": "to enroll/register",
+      "sentenceTranslation": "I am going to enroll in the summer course."
+    }
+  ]
+}

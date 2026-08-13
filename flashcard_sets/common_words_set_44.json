@@ -1,0 +1,664 @@
+{
+  "name": "Spanish Common Words Set 44",
+  "description": "This is part of a larger set of common Spanish words.",
+  "cards": [
+    {
+      "word": "amanecer",
+      "irregularForms": null,
+      "sentence": "Me gusta ver el amanecer en la playa.",
+      "wordTranslation": "to dawn",
+      "sentenceTranslation": "I like to watch the dawn at the beach."
+    },
+    {
+      "word": "agricultura",
+      "irregularForms": null,
+      "sentence": "La agricultura es fundamental para la economía.",
+      "wordTranslation": "agriculture",
+      "sentenceTranslation": "Agriculture is fundamental for the economy."
+    },
+    {
+      "word": "alcance",
+      "irregularForms": null,
+      "sentence": "El libro está fuera de mi alcance.",
+      "wordTranslation": "reach",
+      "sentenceTranslation": "The book is out of my reach."
+    },
+    {
+      "word": "algodón",
+      "irregularForms": null,
+      "sentence": "El algodón es cómodo para la piel.",
+      "wordTranslation": "cotton",
+      "sentenceTranslation": "Cotton is comfortable for the skin."
+    },
+    {
+      "word": "análisis",
+      "irregularForms": null,
+      "sentence": "El análisis de datos es esencial.",
+      "wordTranslation": "analysis",
+      "sentenceTranslation": "Data analysis is essential."
+    },
+    {
+      "word": "aprender",
+      "irregularForms": null,
+      "sentence": "Quiero aprender a tocar la guitarra.",
+      "wordTranslation": "to learn",
+      "sentenceTranslation": "I want to learn how to play the guitar."
+    },
+    {
+      "word": "banquero",
+      "irregularForms": null,
+      "sentence": "El banquero me ofreció un nuevo préstamo.",
+      "wordTranslation": "banker",
+      "sentenceTranslation": "The banker offered me a new loan."
+    },
+    {
+      "word": "ciencia",
+      "irregularForms": null,
+      "sentence": "La ciencia avanza rápidamente.",
+      "wordTranslation": "science",
+      "sentenceTranslation": "Science advances rapidly."
+    },
+    {
+      "word": "decorar",
+      "irregularForms": null,
+      "sentence": "Nosotros vamos a decorar la casa para la fiesta.",
+      "wordTranslation": "to decorate",
+      "sentenceTranslation": "We are going to decorate the house for the party."
+    },
+    {
+      "word": "desempeñar",
+      "irregularForms": null,
+      "sentence": "Ella desempeña un papel clave en el proyecto.",
+      "wordTranslation": "to perform",
+      "sentenceTranslation": "She plays a key role in the project."
+    },
+    {
+      "word": "educación",
+      "irregularForms": null,
+      "sentence": "La educación es fundamental para el desarrollo.",
+      "wordTranslation": "education",
+      "sentenceTranslation": "Education is fundamental for development."
+    },
+    {
+      "word": "emocionar",
+      "irregularForms": null,
+      "sentence": "La película me emocionó mucho.",
+      "wordTranslation": "to excite",
+      "sentenceTranslation": "The movie excited me a lot."
+    },
+    {
+      "word": "freír",
+      "irregularForms": null,
+      "sentence": "Voy a freír unos huevos para el desayuno.",
+      "wordTranslation": "to fry",
+      "sentenceTranslation": "I am going to fry some eggs for breakfast."
+    },
+    {
+      "word": "gobernar",
+      "irregularForms": null,
+      "sentence": "El presidente gobierna el país desde hace un año.",
+      "wordTranslation": "to govern",
+      "sentenceTranslation": "The president has been governing the country for a year."
+    },
+    {
+      "word": "imaginación",
+      "irregularForms": null,
+      "sentence": "La imaginación es poderosa.",
+      "wordTranslation": "imagination",
+      "sentenceTranslation": "Imagination is powerful."
+    },
+    {
+      "word": "instalar",
+      "irregularForms": null,
+      "sentence": "Voy a instalar el nuevo software.",
+      "wordTranslation": "to install",
+      "sentenceTranslation": "I am going to install the new software."
+    },
+    {
+      "word": "justificar",
+      "irregularForms": null,
+      "sentence": "Debes justificar tus acciones.",
+      "wordTranslation": "to justify",
+      "sentenceTranslation": "You must justify your actions."
+    },
+    {
+      "word": "luchar",
+      "irregularForms": null,
+      "sentence": "Es importante luchar por tus sueños.",
+      "wordTranslation": "to fight",
+      "sentenceTranslation": "It is important to fight for your dreams."
+    },
+    {
+      "word": "mercado",
+      "irregularForms": null,
+      "sentence": "El mercado está lleno de productos frescos.",
+      "wordTranslation": "market",
+      "sentenceTranslation": "The market is full of fresh products."
+    },
+    {
+      "word": "naturaleza",
+      "irregularForms": null,
+      "sentence": "La naturaleza es hermosa en primavera.",
+      "wordTranslation": "nature",
+      "sentenceTranslation": "Nature is beautiful in spring."
+    },
+    {
+      "word": "opinar",
+      "irregularForms": null,
+      "sentence": "Es importante opinar en las reuniones.",
+      "wordTranslation": "to express an opinion",
+      "sentenceTranslation": "It is important to express an opinion in meetings."
+    },
+    {
+      "word": "perder",
+      "irregularForms": null,
+      "sentence": "No quiero perder esta oportunidad.",
+      "wordTranslation": "to lose",
+      "sentenceTranslation": "I don’t want to lose this opportunity."
+    },
+    {
+      "word": "reconocer",
+      "irregularForms": null,
+      "sentence": "Debo reconocer mis errores.",
+      "wordTranslation": "to recognize",
+      "sentenceTranslation": "I must recognize my mistakes."
+    },
+    {
+      "word": "resolver",
+      "irregularForms": null,
+      "sentence": "Tengo que resolver este problema.",
+      "wordTranslation": "to solve",
+      "sentenceTranslation": "I need to solve this problem."
+    },
+    {
+      "word": "satisfacer",
+      "irregularForms": null,
+      "sentence": "Quiero satisfacer las necesidades de mis clientes.",
+      "wordTranslation": "to satisfy",
+      "sentenceTranslation": "I want to satisfy the needs of my clients."
+    },
+    {
+      "word": "tarea",
+      "irregularForms": null,
+      "sentence": "Tengo una tarea importante que hacer.",
+      "wordTranslation": "task",
+      "sentenceTranslation": "I have an important task to do."
+    },
+    {
+      "word": "usar",
+      "irregularForms": null,
+      "sentence": "Voy a usar mi coche para ir.",
+      "wordTranslation": "to use",
+      "sentenceTranslation": "I am going to use my car to go."
+    },
+    {
+      "word": "ventaja",
+      "irregularForms": null,
+      "sentence": "Tener experiencia es una gran ventaja.",
+      "wordTranslation": "advantage",
+      "sentenceTranslation": "Having experience is a great advantage."
+    },
+    {
+      "word": "extrañar",
+      "irregularForms": null,
+      "sentence": "Extraño mucho a mis amigos.",
+      "wordTranslation": "to miss",
+      "sentenceTranslation": "I miss my friends a lot."
+    },
+    {
+      "word": "felicidad",
+      "irregularForms": null,
+      "sentence": "La felicidad es contagiosa.",
+      "wordTranslation": "happiness",
+      "sentenceTranslation": "Happiness is contagious."
+    },
+    {
+      "word": "jugar",
+      "irregularForms": null,
+      "sentence": "Quiero jugar al fútbol esta tarde.",
+      "wordTranslation": "to play",
+      "sentenceTranslation": "I want to play soccer this afternoon."
+    },
+    {
+      "word": "maestro",
+      "irregularForms": null,
+      "sentence": "El maestro nos enseñó muchas cosas.",
+      "wordTranslation": "teacher",
+      "sentenceTranslation": "The teacher taught us many things."
+    },
+    {
+      "word": "novela",
+      "irregularForms": null,
+      "sentence": "Estoy leyendo una novela interesante.",
+      "wordTranslation": "novel",
+      "sentenceTranslation": "I am reading an interesting novel."
+    },
+    {
+      "word": "opción",
+      "irregularForms": null,
+      "sentence": "Tengo varias opciones para elegir.",
+      "wordTranslation": "option",
+      "sentenceTranslation": "I have several options to choose from."
+    },
+    {
+      "word": "proyectar",
+      "irregularForms": null,
+      "sentence": "Voy a proyectar la presentación mañana.",
+      "wordTranslation": "to project",
+      "sentenceTranslation": "I will project the presentation tomorrow."
+    },
+    {
+      "word": "profesional",
+      "irregularForms": null,
+      "sentence": "Ella es una artista profesional.",
+      "wordTranslation": "professional",
+      "sentenceTranslation": "She is a professional artist."
+    },
+    {
+      "word": "quebrar",
+      "irregularForms": null,
+      "sentence": "No quiero quebrar nuestra amistad.",
+      "wordTranslation": "to break",
+      "sentenceTranslation": "I don't want to break our friendship."
+    },
+    {
+      "word": "respuesta",
+      "irregularForms": null,
+      "sentence": "Tu respuesta fue muy clara.",
+      "wordTranslation": "response",
+      "sentenceTranslation": "Your response was very clear."
+    },
+    {
+      "word": "separar",
+      "irregularForms": null,
+      "sentence": "Voy a separar la ropa por colores.",
+      "wordTranslation": "to separate",
+      "sentenceTranslation": "I am going to separate the clothes by colors."
+    },
+    {
+      "word": "traducir",
+      "irregularForms": null,
+      "sentence": "Debo traducir este documento al inglés.",
+      "wordTranslation": "to translate",
+      "sentenceTranslation": "I need to translate this document into English."
+    },
+    {
+      "word": "utilizar",
+      "irregularForms": null,
+      "sentence": "Es mejor utilizar herramientas adecuadas.",
+      "wordTranslation": "to use",
+      "sentenceTranslation": "It is better to use appropriate tools."
+    },
+    {
+      "word": "valorar",
+      "irregularForms": null,
+      "sentence": "Es importante valorar el trabajo de los demás.",
+      "wordTranslation": "to value",
+      "sentenceTranslation": "It is important to value the work of others."
+    },
+    {
+      "word": "vivir",
+      "irregularForms": null,
+      "sentence": "Quiero vivir en el extranjero algún día.",
+      "wordTranslation": "to live",
+      "sentenceTranslation": "I want to live abroad someday."
+    },
+    {
+      "word": "zoológico",
+      "irregularForms": null,
+      "sentence": "El zoológico es un lugar divertido para los niños.",
+      "wordTranslation": "zoo",
+      "sentenceTranslation": "The zoo is a fun place for children."
+    },
+    {
+      "word": "afectar",
+      "irregularForms": null,
+      "sentence": "Las lluvias pueden afectar la cosecha.",
+      "wordTranslation": "to affect",
+      "sentenceTranslation": "The rains can affect the harvest."
+    },
+    {
+      "word": "bailar",
+      "irregularForms": null,
+      "sentence": "Me gusta bailar salsa los fines de semana.",
+      "wordTranslation": "to dance",
+      "sentenceTranslation": "I like to dance salsa on weekends."
+    },
+    {
+      "word": "cantar",
+      "irregularForms": null,
+      "sentence": "Ella quiere cantar en el concurso.",
+      "wordTranslation": "to sing",
+      "sentenceTranslation": "She wants to sing in the contest."
+    },
+    {
+      "word": "decoración",
+      "irregularForms": null,
+      "sentence": "La decoración de la fiesta es hermosa.",
+      "wordTranslation": "decoration",
+      "sentenceTranslation": "The decoration of the party is beautiful."
+    },
+    {
+      "word": "encontrar",
+      "irregularForms": null,
+      "sentence": "Necesito encontrar mis llaves.",
+      "wordTranslation": "to find",
+      "sentenceTranslation": "I need to find my keys."
+    },
+    {
+      "word": "facilitar",
+      "irregularForms": null,
+      "sentence": "Vamos a facilitar el acceso a los documentos.",
+      "wordTranslation": "to facilitate",
+      "sentenceTranslation": "We will facilitate access to the documents."
+    },
+    {
+      "word": "girar",
+      "irregularForms": null,
+      "sentence": "Debes girar a la derecha en el semáforo.",
+      "wordTranslation": "to turn",
+      "sentenceTranslation": "You should turn right at the traffic light."
+    },
+    {
+      "word": "hablar",
+      "irregularForms": null,
+      "sentence": "Quiero hablar contigo sobre algo importante.",
+      "wordTranslation": "to talk",
+      "sentenceTranslation": "I want to talk to you about something important."
+    },
+    {
+      "word": "iluminar",
+      "irregularForms": null,
+      "sentence": "Las luces iluminan el jardín de noche.",
+      "wordTranslation": "to illuminate",
+      "sentenceTranslation": "The lights illuminate the garden at night."
+    },
+    {
+      "word": "jardín",
+      "irregularForms": null,
+      "sentence": "El jardín está lleno de flores coloridas.",
+      "wordTranslation": "garden",
+      "sentenceTranslation": "The garden is full of colorful flowers."
+    },
+    {
+      "word": "kilómetro",
+      "irregularForms": null,
+      "sentence": "La tienda está a cinco kilómetros de aquí.",
+      "wordTranslation": "kilometer",
+      "sentenceTranslation": "The store is five kilometers from here."
+    },
+    {
+      "word": "lago",
+      "irregularForms": null,
+      "sentence": "El lago es perfecto para nadar.",
+      "wordTranslation": "lake",
+      "sentenceTranslation": "The lake is perfect for swimming."
+    },
+    {
+      "word": "medir",
+      "irregularForms": null,
+      "sentence": "Debemos medir la distancia antes de correr.",
+      "wordTranslation": "to measure",
+      "sentenceTranslation": "We must measure the distance before running."
+    },
+    {
+      "word": "necesitar",
+      "irregularForms": null,
+      "sentence": "Necesito ayuda con mi tarea.",
+      "wordTranslation": "to need",
+      "sentenceTranslation": "I need help with my homework."
+    },
+    {
+      "word": "ordenar",
+      "irregularForms": null,
+      "sentence": "Voy a ordenar mi habitación hoy.",
+      "wordTranslation": "to tidy up",
+      "sentenceTranslation": "I am going to tidy up my room today."
+    },
+    {
+      "word": "pasar",
+      "irregularForms": null,
+      "sentence": "Voy a pasar el fin de semana con mi familia.",
+      "wordTranslation": "to spend",
+      "sentenceTranslation": "I will spend the weekend with my family."
+    },
+    {
+      "word": "quedar",
+      "irregularForms": null,
+      "sentence": "Nos podemos quedar en mi casa esta noche.",
+      "wordTranslation": "to stay",
+      "sentenceTranslation": "We can stay at my house tonight."
+    },
+    {
+      "word": "recoger",
+      "irregularForms": null,
+      "sentence": "Debemos recoger la basura del parque.",
+      "wordTranslation": "to pick up",
+      "sentenceTranslation": "We need to pick up the trash from the park."
+    },
+    {
+      "word": "saber",
+      "irregularForms": null,
+      "sentence": "No sé cómo resolver este problema.",
+      "wordTranslation": "to know",
+      "sentenceTranslation": "I don’t know how to solve this problem."
+    },
+    {
+      "word": "tomar",
+      "irregularForms": null,
+      "sentence": "Voy a tomar una foto del paisaje.",
+      "wordTranslation": "to take",
+      "sentenceTranslation": "I am going to take a picture of the landscape."
+    },
+    {
+      "word": "usar",
+      "irregularForms": null,
+      "sentence": "¿Puedo usar tu bolígrafo?",
+      "wordTranslation": "to use",
+      "sentenceTranslation": "Can I use your pen?"
+    },
+    {
+      "word": "vender",
+      "irregularForms": null,
+      "sentence": "Voy a vender mi bicicleta.",
+      "wordTranslation": "to sell",
+      "sentenceTranslation": "I am going to sell my bike."
+    },
+    {
+      "word": "viajar",
+      "irregularForms": null,
+      "sentence": "Me encanta viajar por el mundo.",
+      "wordTranslation": "to travel",
+      "sentenceTranslation": "I love to travel around the world."
+    },
+    {
+      "word": "volver",
+      "irregularForms": null,
+      "sentence": "Voy a volver más tarde.",
+      "wordTranslation": "to return",
+      "sentenceTranslation": "I will return later."
+    },
+    {
+      "word": "aceptar",
+      "irregularForms": null,
+      "sentence": "Debes aceptar las condiciones del acuerdo.",
+      "wordTranslation": "to accept",
+      "sentenceTranslation": "You must accept the terms of the agreement."
+    },
+    {
+      "word": "buscar",
+      "irregularForms": null,
+      "sentence": "Voy a buscar un libro interesante.",
+      "wordTranslation": "to search",
+      "sentenceTranslation": "I am going to search for an interesting book."
+    },
+    {
+      "word": "comprender",
+      "irregularForms": null,
+      "sentence": "Es difícil comprender este concepto.",
+      "wordTranslation": "to understand",
+      "sentenceTranslation": "It is difficult to understand this concept."
+    },
+    {
+      "word": "dibujar",
+      "irregularForms": null,
+      "sentence": "Me gusta dibujar paisajes.",
+      "wordTranslation": "to draw",
+      "sentenceTranslation": "I like to draw landscapes."
+    },
+    {
+      "word": "escribir",
+      "irregularForms": null,
+      "sentence": "Voy a escribir una carta.",
+      "wordTranslation": "to write",
+      "sentenceTranslation": "I am going to write a letter."
+    },
+    {
+      "word": "fascinar",
+      "irregularForms": null,
+      "sentence": "Esa película me fascina.",
+      "wordTranslation": "to fascinate",
+      "sentenceTranslation": "That movie fascinates me."
+    },
+    {
+      "word": "gastar",
+      "irregularForms": null,
+      "sentence": "No quiero gastar todo mi dinero.",
+      "wordTranslation": "to spend",
+      "sentenceTranslation": "I don't want to spend all my money."
+    },
+    {
+      "word": "hablar",
+      "irregularForms": null,
+      "sentence": "Hablo tres idiomas.",
+      "wordTranslation": "to speak",
+      "sentenceTranslation": "I speak three languages."
+    },
+    {
+      "word": "ir",
+      "irregularForms": null,
+      "sentence": "Voy a ir al gimnasio.",
+      "wordTranslation": "to go",
+      "sentenceTranslation": "I am going to the gym."
+    },
+    {
+      "word": "jugar",
+      "irregularForms": null,
+      "sentence": "Los niños quieren jugar en el parque.",
+      "wordTranslation": "to play",
+      "sentenceTranslation": "The children want to play in the park."
+    },
+    {
+      "word": "lavar",
+      "irregularForms": null,
+      "sentence": "Voy a lavar mi coche este fin de semana.",
+      "wordTranslation": "to wash",
+      "sentenceTranslation": "I will wash my car this weekend."
+    },
+    {
+      "word": "mirar",
+      "irregularForms": null,
+      "sentence": "Voy a mirar una serie nueva.",
+      "wordTranslation": "to watch",
+      "sentenceTranslation": "I am going to watch a new series."
+    },
+    {
+      "word": "nadar",
+      "irregularForms": null,
+      "sentence": "Me gusta nadar en verano.",
+      "wordTranslation": "to swim",
+      "sentenceTranslation": "I like to swim in summer."
+    },
+    {
+      "word": "pintar",
+      "irregularForms": null,
+      "sentence": "Voy a pintar el cuarto de mi hijo.",
+      "wordTranslation": "to paint",
+      "sentenceTranslation": "I am going to paint my son's room."
+    },
+    {
+      "word": "quedarse",
+      "irregularForms": null,
+      "sentence": "Puedo quedarme en casa hoy.",
+      "wordTranslation": "to stay",
+      "sentenceTranslation": "I can stay home today."
+    },
+    {
+      "word": "saltar",
+      "irregularForms": null,
+      "sentence": "Quiero saltar la cuerda.",
+      "wordTranslation": "to jump",
+      "sentenceTranslation": "I want to jump rope."
+    },
+    {
+      "word": "tomar",
+      "irregularForms": null,
+      "sentence": "Quiero tomar un café esta mañana.",
+      "wordTranslation": "to drink",
+      "sentenceTranslation": "I want to drink a coffee this morning."
+    },
+    {
+      "word": "usar",
+      "irregularForms": null,
+      "sentence": "Usa ropa cómoda para la clase de yoga.",
+      "wordTranslation": "to use",
+      "sentenceTranslation": "Wear comfortable clothes for yoga class."
+    },
+    {
+      "word": "ver",
+      "irregularForms": null,
+      "sentence": "Voy a ver una película esta noche.",
+      "wordTranslation": "to see",
+      "sentenceTranslation": "I am going to see a movie tonight."
+    },
+    {
+      "word": "xenofobia",
+      "irregularForms": null,
+      "sentence": "La xenofobia es un problema social.",
+      "wordTranslation": "xenophobia",
+      "sentenceTranslation": "Xenophobia is a social problem."
+    },
+    {
+      "word": "yoga",
+      "irregularForms": null,
+      "sentence": "Hacer yoga me ayuda a relajarme.",
+      "wordTranslation": "yoga",
+      "sentenceTranslation": "Doing yoga helps me relax."
+    },
+    {
+      "word": "zapato",
+      "irregularForms": null,
+      "sentence": "Compré un nuevo par de zapatos.",
+      "wordTranslation": "shoe",
+      "sentenceTranslation": "I bought a new pair of shoes."
+    },
+    {
+      "word": "abrazar",
+      "irregularForms": null,
+      "sentence": "Voy a abrazarte cuando te vea.",
+      "wordTranslation": "to hug",
+      "sentenceTranslation": "I will hug you when I see you."
+    },
+    {
+      "word": "bailar",
+      "irregularForms": null,
+      "sentence": "Nos encanta bailar en fiestas.",
+      "wordTranslation": "to dance",
+      "sentenceTranslation": "We love to dance at parties."
+    },
+    {
+      "word": "correr",
+      "irregularForms": null,
+      "sentence": "Me gusta correr por la mañana.",
+      "wordTranslation": "to run",
+      "sentenceTranslation": "I like to run in the morning."
+    },
+    {
+      "word": "dibujar",
+      "irregularForms": null,
+      "sentence": "Ella disfruta dibujar en su tiempo libre.",
+      "wordTranslation": "to draw",
+      "sentenceTranslation": "She enjoys drawing in her free time."
+    }
+  ]
+}

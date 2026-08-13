@@ -1,0 +1,881 @@
+{
+  "name": "Spanish Common Words Set 14",
+  "description": "This set is part of a larger collection of common Spanish words, focusing on high-frequency vocabulary not previously covered.",
+  "cards": [
+    {
+      "word": "suponer",
+      "irregularForms": "yo supongo, él supuso",
+      "sentence": "Supongo que lloverá mañana.",
+      "wordTranslation": "to suppose",
+      "sentenceTranslation": "I suppose it will rain tomorrow."
+    },
+    {
+      "word": "central",
+      "irregularForms": null,
+      "sentence": "La estación de tren está en una ubicación muy central.",
+      "wordTranslation": "central",
+      "sentenceTranslation": "The train station is in a very central location."
+    },
+    {
+      "word": "algo",
+      "irregularForms": null,
+      "sentence": "¿Quieres algo de comer?",
+      "wordTranslation": "something",
+      "sentenceTranslation": "Do you want something to eat?"
+    },
+    {
+      "word": "os",
+      "irregularForms": null,
+      "sentence": "Os veo mañana en la reunión.",
+      "wordTranslation": "you (plural, informal, object pronoun)",
+      "sentenceTranslation": "I'll see you all tomorrow at the meeting."
+    },
+    {
+      "word": "violeta",
+      "irregularForms": null,
+      "sentence": "Compró una flor violeta para su madre.",
+      "wordTranslation": "violet",
+      "sentenceTranslation": "He bought a violet flower for his mother."
+    },
+    {
+      "word": "lunes",
+      "irregularForms": null,
+      "sentence": "El lunes es el primer día de la semana.",
+      "wordTranslation": "Monday",
+      "sentenceTranslation": "Monday is the first day of the week."
+    },
+    {
+      "word": "martes",
+      "irregularForms": null,
+      "sentence": "Tenemos una cita el martes por la tarde.",
+      "wordTranslation": "Tuesday",
+      "sentenceTranslation": "We have an appointment on Tuesday afternoon."
+    },
+    {
+      "word": "miércoles",
+      "irregularForms": null,
+      "sentence": "Normalmente voy al gimnasio los miércoles.",
+      "wordTranslation": "Wednesday",
+      "sentenceTranslation": "I usually go to the gym on Wednesdays."
+    },
+    {
+      "word": "jueves",
+      "irregularForms": null,
+      "sentence": "La presentación será este jueves.",
+      "wordTranslation": "Thursday",
+      "sentenceTranslation": "The presentation will be this Thursday."
+    },
+    {
+      "word": "viernes",
+      "irregularForms": null,
+      "sentence": "¡Qué bien que ya es viernes!",
+      "wordTranslation": "Friday",
+      "sentenceTranslation": "It's great that it's already Friday!"
+    },
+    {
+      "word": "sábado",
+      "irregularForms": null,
+      "sentence": "Me gusta relajarme los sábados.",
+      "wordTranslation": "Saturday",
+      "sentenceTranslation": "I like to relax on Saturdays."
+    },
+    {
+      "word": "domingo",
+      "irregularForms": null,
+      "sentence": "El domingo iremos de excursión.",
+      "wordTranslation": "Sunday",
+      "sentenceTranslation": "On Sunday we will go on a trip."
+    },
+    {
+      "word": "enero",
+      "irregularForms": null,
+      "sentence": "Mi cumpleaños es en enero.",
+      "wordTranslation": "January",
+      "sentenceTranslation": "My birthday is in January."
+    },
+    {
+      "word": "febrero",
+      "irregularForms": null,
+      "sentence": "Febrero es el mes más corto del año.",
+      "wordTranslation": "February",
+      "sentenceTranslation": "February is the shortest month of the year."
+    },
+    {
+      "word": "marzo",
+      "irregularForms": null,
+      "sentence": "Plantaremos flores en marzo.",
+      "wordTranslation": "March",
+      "sentenceTranslation": "We will plant flowers in March."
+    },
+    {
+      "word": "abril",
+      "irregularForms": null,
+      "sentence": "Abril es un mes de lluvias y flores.",
+      "wordTranslation": "April",
+      "sentenceTranslation": "April is a month of rain and flowers."
+    },
+    {
+      "word": "mayo",
+      "irregularForms": null,
+      "sentence": "Celebramos el día de la madre en mayo.",
+      "wordTranslation": "May",
+      "sentenceTranslation": "We celebrate Mother's Day in May."
+    },
+    {
+      "word": "junio",
+      "irregularForms": null,
+      "sentence": "Las vacaciones de verano empiezan en junio.",
+      "wordTranslation": "June",
+      "sentenceTranslation": "Summer vacation starts in June."
+    },
+    {
+      "word": "julio",
+      "irregularForms": null,
+      "sentence": "Viajaremos a la playa en julio.",
+      "wordTranslation": "July",
+      "sentenceTranslation": "We will travel to the beach in July."
+    },
+    {
+      "word": "agosto",
+      "irregularForms": null,
+      "sentence": "Hace mucho calor en agosto.",
+      "wordTranslation": "August",
+      "sentenceTranslation": "It's very hot in August."
+    },
+    {
+      "word": "septiembre",
+      "irregularForms": null,
+      "sentence": "Los niños regresan a la escuela en septiembre.",
+      "wordTranslation": "September",
+      "sentenceTranslation": "Children go back to school in September."
+    },
+    {
+      "word": "octubre",
+      "irregularForms": null,
+      "sentence": "Halloween se celebra en octubre.",
+      "wordTranslation": "October",
+      "sentenceTranslation": "Halloween is celebrated in October."
+    },
+    {
+      "word": "noviembre",
+      "irregularForms": null,
+      "sentence": "La temporada de frío comienza en noviembre.",
+      "wordTranslation": "November",
+      "sentenceTranslation": "The cold season begins in November."
+    },
+    {
+      "word": "diciembre",
+      "irregularForms": null,
+      "sentence": "Navidad es en diciembre.",
+      "wordTranslation": "December",
+      "sentenceTranslation": "Christmas is in December."
+    },
+    {
+      "word": "norte",
+      "irregularForms": null,
+      "sentence": "El viento viene del norte.",
+      "wordTranslation": "north",
+      "sentenceTranslation": "The wind comes from the north."
+    },
+    {
+      "word": "sur",
+      "irregularForms": null,
+      "sentence": "La ciudad está al sur del río.",
+      "wordTranslation": "south",
+      "sentenceTranslation": "The city is south of the river."
+    },
+    {
+      "word": "oeste",
+      "irregularForms": null,
+      "sentence": "El sol se pone por el oeste.",
+      "wordTranslation": "west",
+      "sentenceTranslation": "The sun sets in the west."
+    },
+    {
+      "word": "belleza",
+      "irregularForms": null,
+      "sentence": "Admiro la belleza de la naturaleza.",
+      "wordTranslation": "beauty",
+      "sentenceTranslation": "I admire the beauty of nature."
+    },
+    {
+      "word": "naturaleza",
+      "irregularForms": null,
+      "sentence": "Pasa mucho tiempo en la naturaleza.",
+      "wordTranslation": "nature",
+      "sentenceTranslation": "He spends a lot of time in nature."
+    },
+    {
+      "word": "sopa",
+      "irregularForms": null,
+      "sentence": "Para la cena, comeremos sopa de verduras.",
+      "wordTranslation": "soup",
+      "sentenceTranslation": "For dinner, we will eat vegetable soup."
+    },
+    {
+      "word": "jugo",
+      "irregularForms": null,
+      "sentence": "Me gusta beber jugo de naranja por la mañana.",
+      "wordTranslation": "juice",
+      "sentenceTranslation": "I like to drink orange juice in the morning."
+    },
+    {
+      "word": "miel",
+      "irregularForms": null,
+      "sentence": "El té con miel es bueno para la garganta.",
+      "wordTranslation": "honey",
+      "sentenceTranslation": "Tea with honey is good for the throat."
+    },
+    {
+      "word": "pimienta",
+      "irregularForms": null,
+      "sentence": "Necesitamos añadir sal y pimienta.",
+      "wordTranslation": "pepper",
+      "sentenceTranslation": "We need to add salt and pepper."
+    },
+    {
+      "word": "pollo",
+      "irregularForms": null,
+      "sentence": "Vamos a asar un pollo entero.",
+      "wordTranslation": "chicken",
+      "sentenceTranslation": "We are going to roast a whole chicken."
+    },
+    {
+      "word": "pescado",
+      "irregularForms": null,
+      "sentence": "El pescado fresco es delicioso.",
+      "wordTranslation": "fish (as food)",
+      "sentenceTranslation": "Fresh fish is delicious."
+    },
+    {
+      "word": "acordarse",
+      "irregularForms": "yo me acuerdo, tú te acuerdas",
+      "sentence": "No me acuerdo de su nombre.",
+      "wordTranslation": "to remember (reflexive)",
+      "sentenceTranslation": "I don't remember his name."
+    },
+    {
+      "word": "recuerdo",
+      "irregularForms": null,
+      "sentence": "Tengo un buen recuerdo de ese viaje.",
+      "wordTranslation": "memory / souvenir",
+      "sentenceTranslation": "I have a good memory of that trip."
+    },
+    {
+      "word": "cuidar",
+      "irregularForms": "yo cuido, él cuidó",
+      "sentence": "Debes cuidar tu salud.",
+      "wordTranslation": "to take care of",
+      "sentenceTranslation": "You should take care of your health."
+    },
+    {
+      "word": "pelear",
+      "irregularForms": "yo peleo, él peleó",
+      "sentence": "Los niños empezaron a pelear por el juguete.",
+      "wordTranslation": "to fight",
+      "sentenceTranslation": "The children started to fight over the toy."
+    },
+    {
+      "word": "fracaso",
+      "irregularForms": null,
+      "sentence": "El proyecto fue un fracaso total.",
+      "wordTranslation": "failure",
+      "sentenceTranslation": "The project was a total failure."
+    },
+    {
+      "word": "amenaza",
+      "irregularForms": null,
+      "sentence": "La sequía es una amenaza para los cultivos.",
+      "wordTranslation": "threat",
+      "sentenceTranslation": "The drought is a threat to the crops."
+    },
+    {
+      "word": "contenido",
+      "irregularForms": null,
+      "sentence": "El contenido del libro es muy interesante.",
+      "wordTranslation": "content (noun)",
+      "sentenceTranslation": "The content of the book is very interesting."
+    },
+    {
+      "word": "complejo",
+      "irregularForms": null,
+      "sentence": "Es un problema muy complejo.",
+      "wordTranslation": "complex",
+      "sentenceTranslation": "It's a very complex problem."
+    },
+    {
+      "word": "dimensión",
+      "irregularForms": null,
+      "sentence": "Necesitamos las tres dimensiones para el diseño.",
+      "wordTranslation": "dimension",
+      "sentenceTranslation": "We need all three dimensions for the design."
+    },
+    {
+      "word": "sabio",
+      "irregularForms": null,
+      "sentence": "Mi abuelo es un hombre muy sabio.",
+      "wordTranslation": "wise",
+      "sentenceTranslation": "My grandfather is a very wise man."
+    },
+    {
+      "word": "conocido",
+      "irregularForms": null,
+      "sentence": "Es un actor muy conocido en España.",
+      "wordTranslation": "known / famous",
+      "sentenceTranslation": "He is a very well-known actor in Spain."
+    },
+    {
+      "word": "relevante",
+      "irregularForms": null,
+      "sentence": "Esa información no es relevante para el caso.",
+      "wordTranslation": "relevant",
+      "sentenceTranslation": "That information is not relevant to the case."
+    },
+    {
+      "word": "ordinario",
+      "irregularForms": null,
+      "sentence": "Es un día ordinario, nada especial.",
+      "wordTranslation": "ordinary",
+      "sentenceTranslation": "It's an ordinary day, nothing special."
+    },
+    {
+      "word": "comunitario",
+      "irregularForms": null,
+      "sentence": "Participamos en un proyecto comunitario.",
+      "wordTranslation": "community-related",
+      "sentenceTranslation": "We participated in a community project."
+    },
+    {
+      "word": "regional",
+      "irregularForms": null,
+      "sentence": "Hay diferencias en la comida regional.",
+      "wordTranslation": "regional",
+      "sentenceTranslation": "There are differences in regional food."
+    },
+    {
+      "word": "cercanía",
+      "irregularForms": null,
+      "sentence": "Aprovechamos la cercanía de la playa.",
+      "wordTranslation": "proximity",
+      "sentenceTranslation": "We took advantage of the proximity to the beach."
+    },
+    {
+      "word": "interior",
+      "irregularForms": null,
+      "sentence": "Prefiero la decoración interior minimalista.",
+      "wordTranslation": "interior",
+      "sentenceTranslation": "I prefer minimalist interior design."
+    },
+    {
+      "word": "superior",
+      "irregularForms": null,
+      "sentence": "La calidad de este producto es superior.",
+      "wordTranslation": "superior",
+      "sentenceTranslation": "The quality of this product is superior."
+    },
+    {
+      "word": "comienzo",
+      "irregularForms": null,
+      "sentence": "El comienzo de la película fue muy emocionante.",
+      "wordTranslation": "beginning",
+      "sentenceTranslation": "The beginning of the movie was very exciting."
+    },
+    {
+      "word": "recientemente",
+      "irregularForms": null,
+      "sentence": "Recientemente he estado leyendo mucho.",
+      "wordTranslation": "recently",
+      "sentenceTranslation": "I have been reading a lot recently."
+    },
+    {
+      "word": "únicamente",
+      "irregularForms": null,
+      "sentence": "Puedo ofrecerte únicamente este precio.",
+      "wordTranslation": "only / solely",
+      "sentenceTranslation": "I can only offer you this price."
+    },
+    {
+      "word": "excelente",
+      "irregularForms": null,
+      "sentence": "La cena estuvo excelente.",
+      "wordTranslation": "excellent",
+      "sentenceTranslation": "Dinner was excellent."
+    },
+    {
+      "word": "solucionar",
+      "irregularForms": "yo soluciono, él solucionó",
+      "sentence": "Necesitamos solucionar este problema pronto.",
+      "wordTranslation": "to solve",
+      "sentenceTranslation": "We need to solve this problem soon."
+    },
+    {
+      "word": "raramente",
+      "irregularForms": null,
+      "sentence": "Raramente salgo por la noche.",
+      "wordTranslation": "rarely",
+      "sentenceTranslation": "I rarely go out at night."
+    },
+    {
+      "word": "enfrente",
+      "irregularForms": null,
+      "sentence": "El banco está enfrente de la panadería.",
+      "wordTranslation": "in front of",
+      "sentenceTranslation": "The bank is in front of the bakery."
+    },
+    {
+      "word": "fundar",
+      "irregularForms": "yo fundo, él fundó",
+      "sentence": "Mi abuelo ayudó a fundar esta empresa.",
+      "wordTranslation": "to found",
+      "sentenceTranslation": "My grandfather helped to found this company."
+    },
+    {
+      "word": "autorizar",
+      "irregularForms": "yo autorizo, él autorizó",
+      "sentence": "La administración debe autorizar el permiso.",
+      "wordTranslation": "to authorize",
+      "sentenceTranslation": "The administration must authorize the permit."
+    },
+    {
+      "word": "notar",
+      "irregularForms": "yo noto, él notó",
+      "sentence": "No noté que habías cambiado de peinado.",
+      "wordTranslation": "to notice",
+      "sentenceTranslation": "I didn't notice you had changed your hairstyle."
+    },
+    {
+      "word": "practicar",
+      "irregularForms": "yo practico, él practicó",
+      "sentence": "Es importante practicar todos los días.",
+      "wordTranslation": "to practice",
+      "sentenceTranslation": "It's important to practice every day."
+    },
+    {
+      "word": "apreciar",
+      "irregularForms": "yo aprecio, él apreció",
+      "sentence": "Aprecio mucho tu ayuda.",
+      "wordTranslation": "to appreciate",
+      "sentenceTranslation": "I really appreciate your help."
+    },
+    {
+      "word": "armonía",
+      "irregularForms": null,
+      "sentence": "La música crea una sensación de armonía.",
+      "wordTranslation": "harmony",
+      "sentenceTranslation": "Music creates a sense of harmony."
+    },
+    {
+      "word": "continente",
+      "irregularForms": null,
+      "sentence": "África es un continente muy grande.",
+      "wordTranslation": "continent",
+      "sentenceTranslation": "Africa is a very large continent."
+    },
+    {
+      "word": "colega",
+      "irregularForms": null,
+      "sentence": "Ella es mi colega de trabajo.",
+      "wordTranslation": "colleague",
+      "sentenceTranslation": "She is my work colleague."
+    },
+    {
+      "word": "profesión",
+      "irregularForms": null,
+      "sentence": "Mi profesión es ser médico.",
+      "wordTranslation": "profession",
+      "sentenceTranslation": "My profession is being a doctor."
+    },
+    {
+      "word": "salario",
+      "irregularForms": null,
+      "sentence": "Mi salario ha aumentado este año.",
+      "wordTranslation": "salary",
+      "sentenceTranslation": "My salary has increased this year."
+    },
+    {
+      "word": "alimentar",
+      "irregularForms": "yo alimento, él alimentó",
+      "sentence": "Necesitamos alimentar a los animales cada día.",
+      "wordTranslation": "to feed",
+      "sentenceTranslation": "We need to feed the animals every day."
+    },
+    {
+      "word": "sofá",
+      "irregularForms": null,
+      "sentence": "Me gusta leer en el sofá.",
+      "wordTranslation": "sofa",
+      "sentenceTranslation": "I like to read on the sofa."
+    },
+    {
+      "word": "corbata",
+      "irregularForms": null,
+      "sentence": "Llevaba una corbata de seda.",
+      "wordTranslation": "tie (necktie)",
+      "sentenceTranslation": "He was wearing a silk tie."
+    },
+    {
+      "word": "espalda",
+      "irregularForms": null,
+      "sentence": "Me duele la espalda después de cargar las cajas.",
+      "wordTranslation": "back (body part)",
+      "sentenceTranslation": "My back hurts after carrying the boxes."
+    },
+    {
+      "word": "síntoma",
+      "irregularForms": null,
+      "sentence": "La fiebre es un síntoma de gripe.",
+      "wordTranslation": "symptom",
+      "sentenceTranslation": "Fever is a symptom of the flu."
+    },
+    {
+      "word": "calendario",
+      "irregularForms": null,
+      "sentence": "Revisa el calendario para ver las fechas.",
+      "wordTranslation": "calendar",
+      "sentenceTranslation": "Check the calendar to see the dates."
+    },
+    {
+      "word": "plaza",
+      "irregularForms": null,
+      "sentence": "Nos vemos en la plaza principal del pueblo.",
+      "wordTranslation": "square / plaza",
+      "sentenceTranslation": "We'll meet in the town's main square."
+    },
+    {
+      "word": "frase",
+      "irregularForms": null,
+      "sentence": "Ella repitió la misma frase varias veces.",
+      "wordTranslation": "phrase / sentence",
+      "sentenceTranslation": "She repeated the same phrase several times."
+    },
+    {
+      "word": "ánimo",
+      "irregularForms": null,
+      "sentence": "¡Ánimo! Lo vas a lograr.",
+      "wordTranslation": "spirit / mood",
+      "sentenceTranslation": "Cheer up! You're going to make it."
+    },
+    {
+      "word": "literatura",
+      "irregularForms": null,
+      "sentence": "Estoy estudiando literatura española.",
+      "wordTranslation": "literature",
+      "sentenceTranslation": "I am studying Spanish literature."
+    },
+    {
+      "word": "meta",
+      "irregularForms": null,
+      "sentence": "Mi meta es correr un maratón.",
+      "wordTranslation": "goal / finish line",
+      "sentenceTranslation": "My goal is to run a marathon."
+    },
+    {
+      "word": "ratón",
+      "irregularForms": null,
+      "sentence": "El gato persiguió al ratón.",
+      "wordTranslation": "mouse",
+      "sentenceTranslation": "The cat chased the mouse."
+    },
+    {
+      "word": "volumen",
+      "irregularForms": null,
+      "sentence": "Por favor, baja el volumen de la música.",
+      "wordTranslation": "volume",
+      "sentenceTranslation": "Please, turn down the volume of the music."
+    },
+    {
+      "word": "ministro",
+      "irregularForms": null,
+      "sentence": "El ministro de educación anunció nuevas reformas.",
+      "wordTranslation": "minister",
+      "sentenceTranslation": "The minister of education announced new reforms."
+    },
+    {
+      "word": "página",
+      "irregularForms": null,
+      "sentence": "Por favor, abre el libro en la página veinte.",
+      "wordTranslation": "page",
+      "sentenceTranslation": "Please open the book to page twenty."
+    },
+    {
+      "word": "hielo",
+      "irregularForms": null,
+      "sentence": "Me gusta el agua con hielo.",
+      "wordTranslation": "ice",
+      "sentenceTranslation": "I like water with ice."
+    },
+    {
+      "word": "clima",
+      "irregularForms": null,
+      "sentence": "El clima en esta región es muy seco.",
+      "wordTranslation": "climate",
+      "sentenceTranslation": "The climate in this region is very dry."
+    },
+    {
+      "word": "vehículo",
+      "irregularForms": null,
+      "sentence": "Este es un vehículo muy eficiente en combustible.",
+      "wordTranslation": "vehicle",
+      "sentenceTranslation": "This is a very fuel-efficient vehicle."
+    },
+    {
+      "word": "base",
+      "irregularForms": null,
+      "sentence": "La base del éxito es el trabajo duro.",
+      "wordTranslation": "base",
+      "sentenceTranslation": "The base of success is hard work."
+    },
+    {
+      "word": "curso",
+      "irregularForms": null,
+      "sentence": "Estoy tomando un curso de español avanzado.",
+      "wordTranslation": "course",
+      "sentenceTranslation": "I am taking an advanced Spanish course."
+    },
+    {
+      "word": "tono",
+      "irregularForms": null,
+      "sentence": "Su tono de voz era muy serio.",
+      "wordTranslation": "tone",
+      "sentenceTranslation": "His tone of voice was very serious."
+    },
+    {
+      "word": "instrumento",
+      "irregularForms": null,
+      "sentence": "El piano es un instrumento musical.",
+      "wordTranslation": "instrument",
+      "sentenceTranslation": "The piano is a musical instrument."
+    },
+    {
+      "word": "partido",
+      "irregularForms": null,
+      "sentence": "El partido de fútbol fue emocionante.",
+      "wordTranslation": "match / game (sports)",
+      "sentenceTranslation": "The soccer match was exciting."
+    },
+    {
+      "word": "correo",
+      "irregularForms": null,
+      "sentence": "Recibí un correo electrónico importante.",
+      "wordTranslation": "mail / email",
+      "sentenceTranslation": "I received an important email."
+    },
+    {
+      "word": "modo",
+      "irregularForms": null,
+      "sentence": "Hizo la tarea de un modo diferente.",
+      "wordTranslation": "mode / way",
+      "sentenceTranslation": "He did the homework in a different way."
+    },
+    {
+      "word": "cero",
+      "irregularForms": null,
+      "sentence": "Empezaremos desde cero.",
+      "wordTranslation": "zero",
+      "sentenceTranslation": "We will start from scratch."
+    },
+    {
+      "word": "individuo",
+      "irregularForms": null,
+      "sentence": "Cada individuo tiene sus propias características.",
+      "wordTranslation": "individual",
+      "sentenceTranslation": "Each individual has their own characteristics."
+    },
+    {
+      "word": "oscuridad",
+      "irregularForms": null,
+      "sentence": "La oscuridad de la noche era total.",
+      "wordTranslation": "darkness",
+      "sentenceTranslation": "The darkness of the night was complete."
+    },
+    {
+      "word": "vivo",
+      "irregularForms": null,
+      "sentence": "El pájaro todavía estaba vivo.",
+      "wordTranslation": "alive",
+      "sentenceTranslation": "The bird was still alive."
+    },
+    {
+      "word": "extraño",
+      "irregularForms": null,
+      "sentence": "Encontré un objeto muy extraño en el bosque.",
+      "wordTranslation": "strange",
+      "sentenceTranslation": "I found a very strange object in the forest."
+    },
+    {
+      "word": "salvar",
+      "irregularForms": "yo salvo, él salvó",
+      "sentence": "Necesitamos salvar el planeta.",
+      "wordTranslation": "to save",
+      "sentenceTranslation": "We need to save the planet."
+    },
+    {
+      "word": "crecimiento",
+      "irregularForms": null,
+      "sentence": "El crecimiento económico es importante para el país.",
+      "wordTranslation": "growth",
+      "sentenceTranslation": "Economic growth is important for the country."
+    },
+    {
+      "word": "decena",
+      "irregularForms": null,
+      "sentence": "Compró una docena de huevos.",
+      "wordTranslation": "dozen",
+      "sentenceTranslation": "She bought a dozen eggs."
+    },
+    {
+      "word": "silbar",
+      "irregularForms": "yo silbo, él silbó",
+      "sentence": "No puede silbar muy bien.",
+      "wordTranslation": "to whistle",
+      "sentenceTranslation": "He cannot whistle very well."
+    },
+    {
+      "word": "pista",
+      "irregularForms": null,
+      "sentence": "Me dio una pista para el acertijo.",
+      "wordTranslation": "clue / track",
+      "sentenceTranslation": "He gave me a clue for the riddle."
+    },
+    {
+      "word": "desorden",
+      "irregularForms": null,
+      "sentence": "Su habitación es un desorden total.",
+      "wordTranslation": "mess / disorder",
+      "sentenceTranslation": "His room is a total mess."
+    },
+    {
+      "word": "cultivar",
+      "irregularForms": "yo cultivo, él cultivó",
+      "sentence": "Me gusta cultivar mis propias verduras.",
+      "wordTranslation": "to cultivate / to grow",
+      "sentenceTranslation": "I like to grow my own vegetables."
+    },
+    {
+      "word": "mezcla",
+      "irregularForms": null,
+      "sentence": "La mezcla de colores es muy bonita.",
+      "wordTranslation": "mixture / blend",
+      "sentenceTranslation": "The color mixture is very beautiful."
+    },
+    {
+      "word": "reírse",
+      "irregularForms": "yo me río, él se rió",
+      "sentence": "Siempre se ríe de mis chistes.",
+      "wordTranslation": "to laugh (reflexive)",
+      "sentenceTranslation": "He always laughs at my jokes."
+    },
+    {
+      "word": "llorar",
+      "irregularForms": "yo lloro, él lloró",
+      "sentence": "El bebé empezó a llorar.",
+      "wordTranslation": "to cry",
+      "sentenceTranslation": "The baby started to cry."
+    },
+    {
+      "word": "voz",
+      "irregularForms": null,
+      "sentence": "Tiene una voz muy bonita.",
+      "wordTranslation": "voice",
+      "sentenceTranslation": "She has a very beautiful voice."
+    },
+    {
+      "word": "pelo",
+      "irregularForms": null,
+      "sentence": "Se cortó el pelo ayer.",
+      "wordTranslation": "hair",
+      "sentenceTranslation": "He cut his hair yesterday."
+    },
+    {
+      "word": "cuello",
+      "irregularForms": null,
+      "sentence": "Me duele el cuello de tanto trabajar en el ordenador.",
+      "wordTranslation": "neck",
+      "sentenceTranslation": "My neck hurts from working so much on the computer."
+    },
+    {
+      "word": "dedo",
+      "irregularForms": null,
+      "sentence": "Se lastimó el dedo con el martillo.",
+      "wordTranslation": "finger / toe",
+      "sentenceTranslation": "He hurt his finger with the hammer."
+    },
+    {
+      "word": "muñeca",
+      "irregularForms": null,
+      "sentence": "Se rompió la muñeca jugando al fútbol.",
+      "wordTranslation": "wrist / doll",
+      "sentenceTranslation": "He broke his wrist playing soccer."
+    },
+    {
+      "word": "codo",
+      "irregularForms": null,
+      "sentence": "Se golpeó el codo con la mesa.",
+      "wordTranslation": "elbow",
+      "sentenceTranslation": "He hit his elbow on the table."
+    },
+    {
+      "word": "hombro",
+      "irregularForms": null,
+      "sentence": "Llevaba una mochila al hombro.",
+      "wordTranslation": "shoulder",
+      "sentenceTranslation": "He was carrying a backpack on his shoulder."
+    },
+    {
+      "word": "estómago",
+      "irregularForms": null,
+      "sentence": "Me duele el estómago después de comer tanto.",
+      "wordTranslation": "stomach",
+      "sentenceTranslation": "My stomach hurts after eating so much."
+    },
+    {
+      "word": "rodilla",
+      "irregularForms": null,
+      "sentence": "Cayó y se raspó la rodilla.",
+      "wordTranslation": "knee",
+      "sentenceTranslation": "He fell and scraped his knee."
+    },
+    {
+      "word": "tobillo",
+      "irregularForms": null,
+      "sentence": "Se torció el tobillo corriendo.",
+      "wordTranslation": "ankle",
+      "sentenceTranslation": "He sprained his ankle running."
+    },
+    {
+      "word": "talón",
+      "irregularForms": null,
+      "sentence": "El talón de Aquiles es su punto débil.",
+      "wordTranslation": "heel",
+      "sentenceTranslation": "Achilles' heel is his weak point."
+    },
+    {
+      "word": "oreja",
+      "irregularForms": null,
+      "sentence": "Me susurró algo al oído.",
+      "wordTranslation": "ear",
+      "sentenceTranslation": "He whispered something in my ear."
+    },
+    {
+      "word": "boca",
+      "irregularForms": null,
+      "sentence": "No abras la boca tan grande.",
+      "wordTranslation": "mouth",
+      "sentenceTranslation": "Don't open your mouth so wide."
+    },
+    {
+      "word": "nariz",
+      "irregularForms": null,
+      "sentence": "Tiene una nariz pequeña y bonita.",
+      "wordTranslation": "nose",
+      "sentenceTranslation": "She has a small and pretty nose."
+    },
+    {
+      "word": "diente",
+      "irregularForms": null,
+      "sentence": "Se le cayó un diente de leche.",
+      "wordTranslation": "tooth",
+      "sentenceTranslation": "A baby tooth fell out."
+    }
+  ]
+}

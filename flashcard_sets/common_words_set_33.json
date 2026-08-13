@@ -1,0 +1,713 @@
+{
+  "name": "Spanish Common Words Set 33",
+  "description": "This is part of a larger set of common Spanish words.",
+  "cards": [
+    {
+      "word": "buscar",
+      "irregularForms": null,
+      "sentence": "Voy a buscar mi libro.",
+      "wordTranslation": "to search",
+      "sentenceTranslation": "I am going to search for my book."
+    },
+    {
+      "word": "jugar",
+      "irregularForms": null,
+      "sentence": "Quiero jugar al fútbol.",
+      "wordTranslation": "to play",
+      "sentenceTranslation": "I want to play soccer."
+    },
+    {
+      "word": "correr",
+      "irregularForms": null,
+      "sentence": "Ella corre todos los días.",
+      "wordTranslation": "to run",
+      "sentenceTranslation": "She runs every day."
+    },
+    {
+      "word": "comer",
+      "irregularForms": null,
+      "sentence": "Nosotros comemos a las seis.",
+      "wordTranslation": "to eat",
+      "sentenceTranslation": "We eat at six."
+    },
+    {
+      "word": "escribir",
+      "irregularForms": null,
+      "sentence": "Él escribe en su diario.",
+      "wordTranslation": "to write",
+      "sentenceTranslation": "He writes in his diary."
+    },
+    {
+      "word": "viajar",
+      "irregularForms": null,
+      "sentence": "Vamos a viajar a España.",
+      "wordTranslation": "to travel",
+      "sentenceTranslation": "We are going to travel to Spain."
+    },
+    {
+      "word": "leer",
+      "irregularForms": null,
+      "sentence": "Me gusta leer libros.",
+      "wordTranslation": "to read",
+      "sentenceTranslation": "I like to read books."
+    },
+    {
+      "word": "hablar",
+      "irregularForms": null,
+      "sentence": "Ella habla español.",
+      "wordTranslation": "to speak",
+      "sentenceTranslation": "She speaks Spanish."
+    },
+    {
+      "word": "ver",
+      "irregularForms": null,
+      "sentence": "Quiero ver una película.",
+      "wordTranslation": "to see",
+      "sentenceTranslation": "I want to see a movie."
+    },
+    {
+      "word": "pensar",
+      "irregularForms": null,
+      "sentence": "Estoy pensando en ti.",
+      "wordTranslation": "to think",
+      "sentenceTranslation": "I am thinking of you."
+    },
+    {
+      "word": "sentir",
+      "irregularForms": null,
+      "sentence": "Yo siento frío.",
+      "wordTranslation": "to feel",
+      "sentenceTranslation": "I feel cold."
+    },
+    {
+      "word": "pagar",
+      "irregularForms": null,
+      "sentence": "Voy a pagar la cuenta.",
+      "wordTranslation": "to pay",
+      "sentenceTranslation": "I am going to pay the bill."
+    },
+    {
+      "word": "comprar",
+      "irregularForms": null,
+      "sentence": "Ellos compran comida.",
+      "wordTranslation": "to buy",
+      "sentenceTranslation": "They buy food."
+    },
+    {
+      "word": "trabajar",
+      "irregularForms": null,
+      "sentence": "Él trabaja en una oficina.",
+      "wordTranslation": "to work",
+      "sentenceTranslation": "He works in an office."
+    },
+    {
+      "word": "estudiar",
+      "irregularForms": null,
+      "sentence": "Vamos a estudiar para el examen.",
+      "wordTranslation": "to study",
+      "sentenceTranslation": "We are going to study for the exam."
+    },
+    {
+      "word": "preguntar",
+      "irregularForms": null,
+      "sentence": "Siempre pregunto si hay tarea.",
+      "wordTranslation": "to ask",
+      "sentenceTranslation": "I always ask if there is homework."
+    },
+    {
+      "word": "bailar",
+      "irregularForms": null,
+      "sentence": "Nos gusta bailar salsa.",
+      "wordTranslation": "to dance",
+      "sentenceTranslation": "We like to dance salsa."
+    },
+    {
+      "word": "aprender",
+      "irregularForms": null,
+      "sentence": "Quiero aprender a tocar la guitarra.",
+      "wordTranslation": "to learn",
+      "sentenceTranslation": "I want to learn to play guitar."
+    },
+    {
+      "word": "necesitar",
+      "irregularForms": null,
+      "sentence": "Necesito ayuda con mis tareas.",
+      "wordTranslation": "to need",
+      "sentenceTranslation": "I need help with my homework."
+    },
+    {
+      "word": "entender",
+      "irregularForms": null,
+      "sentence": "No entiendo esta lección.",
+      "wordTranslation": "to understand",
+      "sentenceTranslation": "I do not understand this lesson."
+    },
+    {
+      "word": "salir",
+      "irregularForms": null,
+      "sentence": "Salimos a caminar por la tarde.",
+      "wordTranslation": "to go out",
+      "sentenceTranslation": "We go out to walk in the afternoon."
+    },
+    {
+      "word": "dar",
+      "irregularForms": null,
+      "sentence": "Voy a dar un paseo.",
+      "wordTranslation": "to give",
+      "sentenceTranslation": "I am going to take a walk."
+    },
+    {
+      "word": "verbo",
+      "irregularForms": null,
+      "sentence": "El verbo es una parte de la oración.",
+      "wordTranslation": "verb",
+      "sentenceTranslation": "The verb is a part of the sentence."
+    },
+    {
+      "word": "adjetivo",
+      "irregularForms": null,
+      "sentence": "Un adjetivo describe a un sustantivo.",
+      "wordTranslation": "adjective",
+      "sentenceTranslation": "An adjective describes a noun."
+    },
+    {
+      "word": "sustantivo",
+      "irregularForms": null,
+      "sentence": "El sustantivo es la base de la frase.",
+      "wordTranslation": "noun",
+      "sentenceTranslation": "The noun is the basis of the phrase."
+    },
+    {
+      "word": "pronombre",
+      "irregularForms": null,
+      "sentence": "El pronombre reemplaza al sustantivo.",
+      "wordTranslation": "pronoun",
+      "sentenceTranslation": "The pronoun replaces the noun."
+    },
+    {
+      "word": "frase",
+      "irregularForms": null,
+      "sentence": "Escribe una frase completa.",
+      "wordTranslation": "sentence",
+      "sentenceTranslation": "Write a complete sentence."
+    },
+    {
+      "word": "composición",
+      "irregularForms": null,
+      "sentence": "La composición es muy importante en la escritura.",
+      "wordTranslation": "composition",
+      "sentenceTranslation": "Composition is very important in writing."
+    },
+    {
+      "word": "idioma",
+      "irregularForms": null,
+      "sentence": "El español es un idioma bonito.",
+      "wordTranslation": "language",
+      "sentenceTranslation": "Spanish is a beautiful language."
+    },
+    {
+      "word": "significado",
+      "irregularForms": null,
+      "sentence": "¿Cuál es el significado de esta palabra?",
+      "wordTranslation": "meaning",
+      "sentenceTranslation": "What is the meaning of this word?"
+    },
+    {
+      "word": "ejemplo",
+      "irregularForms": null,
+      "sentence": "Aquí tienes un ejemplo de la lección.",
+      "wordTranslation": "example",
+      "sentenceTranslation": "Here is an example of the lesson."
+    },
+    {
+      "word": "escuela",
+      "irregularForms": null,
+      "sentence": "Los niños van a la escuela cada día.",
+      "wordTranslation": "school",
+      "sentenceTranslation": "The children go to school every day."
+    },
+    {
+      "word": "profesor",
+      "irregularForms": null,
+      "sentence": "Mi profesor es muy amable.",
+      "wordTranslation": "teacher",
+      "sentenceTranslation": "My teacher is very kind."
+    },
+    {
+      "word": "clase",
+      "irregularForms": null,
+      "sentence": "La clase empieza a las nueve.",
+      "wordTranslation": "class",
+      "sentenceTranslation": "The class starts at nine."
+    },
+    {
+      "word": "aula",
+      "irregularForms": null,
+      "sentence": "El aula está llena de estudiantes.",
+      "wordTranslation": "classroom",
+      "sentenceTranslation": "The classroom is full of students."
+    },
+    {
+      "word": "mesa",
+      "irregularForms": null,
+      "sentence": "La mesa es de madera.",
+      "wordTranslation": "table",
+      "sentenceTranslation": "The table is made of wood."
+    },
+    {
+      "word": "silla",
+      "irregularForms": null,
+      "sentence": "Necesito una silla nueva.",
+      "wordTranslation": "chair",
+      "sentenceTranslation": "I need a new chair."
+    },
+    {
+      "word": "puerta",
+      "irregularForms": null,
+      "sentence": "Cierra la puerta, por favor.",
+      "wordTranslation": "door",
+      "sentenceTranslation": "Close the door, please."
+    },
+    {
+      "word": "ventana",
+      "irregularForms": null,
+      "sentence": "Abre la ventana para ventilar la habitación.",
+      "wordTranslation": "window",
+      "sentenceTranslation": "Open the window to ventilate the room."
+    },
+    {
+      "word": "pizarra",
+      "irregularForms": null,
+      "sentence": "El profesor escribe en la pizarra.",
+      "wordTranslation": "blackboard",
+      "sentenceTranslation": "The teacher writes on the blackboard."
+    },
+    {
+      "word": "libro",
+      "irregularForms": null,
+      "sentence": "Me gusta leer un buen libro.",
+      "wordTranslation": "book",
+      "sentenceTranslation": "I like to read a good book."
+    },
+    {
+      "word": "hoja",
+      "irregularForms": null,
+      "sentence": "Por favor, entrega la hoja firmada.",
+      "wordTranslation": "leaf/paper",
+      "sentenceTranslation": "Please submit the signed sheet."
+    },
+    {
+      "word": "lápiz",
+      "irregularForms": null,
+      "sentence": "El lápiz está en la mesa.",
+      "wordTranslation": "pencil",
+      "sentenceTranslation": "The pencil is on the table."
+    },
+    {
+      "word": "bolígrafo",
+      "irregularForms": null,
+      "sentence": "Necesito un bolígrafo para escribir.",
+      "wordTranslation": "pen",
+      "sentenceTranslation": "I need a pen to write."
+    },
+    {
+      "word": "tijeras",
+      "irregularForms": null,
+      "sentence": "Las tijeras están sobre la mesa.",
+      "wordTranslation": "scissors",
+      "sentenceTranslation": "The scissors are on the table."
+    },
+    {
+      "word": "pegamento",
+      "irregularForms": null,
+      "sentence": "Usa el pegamento para pegar el papel.",
+      "wordTranslation": "glue",
+      "sentenceTranslation": "Use the glue to stick the paper."
+    },
+    {
+      "word": "carpeta",
+      "irregularForms": null,
+      "sentence": "Mi carpeta es roja.",
+      "wordTranslation": "folder",
+      "sentenceTranslation": "My folder is red."
+    },
+    {
+      "word": "material",
+      "irregularForms": null,
+      "sentence": "Necesito el material para la clase.",
+      "wordTranslation": "material",
+      "sentenceTranslation": "I need the material for class."
+    },
+    {
+      "word": "conocido",
+      "irregularForms": null,
+      "sentence": "Él es un conocido autor.",
+      "wordTranslation": "known",
+      "sentenceTranslation": "He is a known author."
+    },
+    {
+      "word": "cámara",
+      "irregularForms": null,
+      "sentence": "Tengo una cámara nueva.",
+      "wordTranslation": "camera",
+      "sentenceTranslation": "I have a new camera."
+    },
+    {
+      "word": "fotografía",
+      "irregularForms": null,
+      "sentence": "Tomamos una fotografía juntos.",
+      "wordTranslation": "photograph",
+      "sentenceTranslation": "We took a photograph together."
+    },
+    {
+      "word": "video",
+      "irregularForms": null,
+      "sentence": "Voy a grabar un video.",
+      "wordTranslation": "video",
+      "sentenceTranslation": "I am going to record a video."
+    },
+    {
+      "word": "reproductor",
+      "irregularForms": null,
+      "sentence": "El reproductor de música está roto.",
+      "wordTranslation": "player",
+      "sentenceTranslation": "The music player is broken."
+    },
+    {
+      "word": "disco",
+      "irregularForms": null,
+      "sentence": "Este disco es muy antiguo.",
+      "wordTranslation": "disc",
+      "sentenceTranslation": "This disc is very old."
+    },
+    {
+      "word": "canción",
+      "irregularForms": null,
+      "sentence": "Me encanta esta canción.",
+      "wordTranslation": "song",
+      "sentenceTranslation": "I love this song."
+    },
+    {
+      "word": "festival",
+      "irregularForms": null,
+      "sentence": "El festival comienza mañana.",
+      "wordTranslation": "festival",
+      "sentenceTranslation": "The festival starts tomorrow."
+    },
+    {
+      "word": "espectáculo",
+      "irregularForms": null,
+      "sentence": "El espectáculo fue impresionante.",
+      "wordTranslation": "show",
+      "sentenceTranslation": "The show was impressive."
+    },
+    {
+      "word": "ensayo",
+      "irregularForms": null,
+      "sentence": "Tenemos ensayo hoy.",
+      "wordTranslation": "rehearsal",
+      "sentenceTranslation": "We have rehearsal today."
+    },
+    {
+      "word": "actuación",
+      "irregularForms": null,
+      "sentence": "Su actuación fue increíble.",
+      "wordTranslation": "performance",
+      "sentenceTranslation": "Her performance was amazing."
+    },
+    {
+      "word": "escenario",
+      "irregularForms": null,
+      "sentence": "El escenario está preparado.",
+      "wordTranslation": "stage",
+      "sentenceTranslation": "The stage is set."
+    },
+    {
+      "word": "auditorio",
+      "irregularForms": null,
+      "sentence": "El auditorio estaba lleno.",
+      "wordTranslation": "auditorium",
+      "sentenceTranslation": "The auditorium was full."
+    },
+    {
+      "word": "arco",
+      "irregularForms": null,
+      "sentence": "El arco es un símbolo de amor.",
+      "wordTranslation": "arch",
+      "sentenceTranslation": "The arch is a symbol of love."
+    },
+    {
+      "word": "puente",
+      "irregularForms": null,
+      "sentence": "Cruza el puente para llegar al parque.",
+      "wordTranslation": "bridge",
+      "sentenceTranslation": "Cross the bridge to get to the park."
+    },
+    {
+      "word": "carretera",
+      "irregularForms": null,
+      "sentence": "La carretera está cerrada.",
+      "wordTranslation": "road",
+      "sentenceTranslation": "The road is closed."
+    },
+    {
+      "word": "sendero",
+      "irregularForms": null,
+      "sentence": "Caminamos por el sendero del bosque.",
+      "wordTranslation": "path",
+      "sentenceTranslation": "We walked along the path in the forest."
+    },
+    {
+      "word": "paisaje",
+      "irregularForms": null,
+      "sentence": "El paisaje es hermoso.",
+      "wordTranslation": "landscape",
+      "sentenceTranslation": "The landscape is beautiful."
+    },
+    {
+      "word": "naturaleza",
+      "irregularForms": null,
+      "sentence": "Me gusta estar en la naturaleza.",
+      "wordTranslation": "nature",
+      "sentenceTranslation": "I like to be in nature."
+    },
+    {
+      "word": "maestro",
+      "irregularForms": null,
+      "sentence": "El maestro explicó la lección.",
+      "wordTranslation": "teacher",
+      "sentenceTranslation": "The teacher explained the lesson."
+    },
+    {
+      "word": "alumno",
+      "irregularForms": null,
+      "sentence": "El alumno está trabajando en su tarea.",
+      "wordTranslation": "student",
+      "sentenceTranslation": "The student is working on his homework."
+    },
+    {
+      "word": "clase",
+      "irregularForms": null,
+      "sentence": "La clase está muy interesante.",
+      "wordTranslation": "class",
+      "sentenceTranslation": "The class is very interesting."
+    },
+    {
+      "word": "materia",
+      "irregularForms": null,
+      "sentence": "La materia de matemáticas es difícil.",
+      "wordTranslation": "subject",
+      "sentenceTranslation": "The math subject is difficult."
+    },
+    {
+      "word": "nota",
+      "irregularForms": null,
+      "sentence": "Recibí una buena nota en el examen.",
+      "wordTranslation": "grade",
+      "sentenceTranslation": "I received a good grade on the exam."
+    },
+    {
+      "word": "proyecto",
+      "irregularForms": null,
+      "sentence": "El proyecto es en grupo.",
+      "wordTranslation": "project",
+      "sentenceTranslation": "The project is in a group."
+    },
+    {
+      "word": "estudiante",
+      "irregularForms": null,
+      "sentence": "El estudiante estudia todos los días.",
+      "wordTranslation": "student",
+      "sentenceTranslation": "The student studies every day."
+    },
+    {
+      "word": "escolar",
+      "irregularForms": null,
+      "sentence": "Mi material escolar está listo.",
+      "wordTranslation": "school",
+      "sentenceTranslation": "My school material is ready."
+    },
+    {
+      "word": "recursos",
+      "irregularForms": null,
+      "sentence": "Necesitamos más recursos para aprender.",
+      "wordTranslation": "resources",
+      "sentenceTranslation": "We need more resources to learn."
+    },
+    {
+      "word": "investigación",
+      "irregularForms": null,
+      "sentence": "La investigación es muy importante.",
+      "wordTranslation": "research",
+      "sentenceTranslation": "The research is very important."
+    },
+    {
+      "word": "desarrollo",
+      "irregularForms": null,
+      "sentence": "El desarrollo social es vital.",
+      "wordTranslation": "development",
+      "sentenceTranslation": "Social development is vital."
+    },
+    {
+      "word": "temario",
+      "irregularForms": null,
+      "sentence": "Sigue el temario del curso.",
+      "wordTranslation": "syllabus",
+      "sentenceTranslation": "Follow the syllabus of the course."
+    },
+    {
+      "word": "gobierno",
+      "irregularForms": null,
+      "sentence": "El gobierno ha implementado nuevas políticas.",
+      "wordTranslation": "government",
+      "sentenceTranslation": "The government has implemented new policies."
+    },
+    {
+      "word": "ciudadano",
+      "irregularForms": null,
+      "sentence": "Cada ciudadano tiene derechos.",
+      "wordTranslation": "citizen",
+      "sentenceTranslation": "Every citizen has rights."
+    },
+    {
+      "word": "sociedad",
+      "irregularForms": null,
+      "sentence": "La sociedad se está cambiando.",
+      "wordTranslation": "society",
+      "sentenceTranslation": "Society is changing."
+    },
+    {
+      "word": "ciencia",
+      "irregularForms": null,
+      "sentence": "La ciencia nos ayuda a entender el mundo.",
+      "wordTranslation": "science",
+      "sentenceTranslation": "Science helps us understand the world."
+    },
+    {
+      "word": "salud",
+      "irregularForms": null,
+      "sentence": "La salud es lo más importante.",
+      "wordTranslation": "health",
+      "sentenceTranslation": "Health is the most important."
+    },
+    {
+      "word": "tecnología",
+      "irregularForms": null,
+      "sentence": "La tecnología avanza rápidamente.",
+      "wordTranslation": "technology",
+      "sentenceTranslation": "Technology advances rapidly."
+    },
+    {
+      "word": "educación",
+      "irregularForms": null,
+      "sentence": "La educación es clave para el futuro.",
+      "wordTranslation": "education",
+      "sentenceTranslation": "Education is key for the future."
+    },
+    {
+      "word": "crecimiento",
+      "irregularForms": null,
+      "sentence": "El crecimiento personal es esencial.",
+      "wordTranslation": "growth",
+      "sentenceTranslation": "Personal growth is essential."
+    },
+    {
+      "word": "moral",
+      "irregularForms": null,
+      "sentence": "La moral guía nuestras decisiones.",
+      "wordTranslation": "moral",
+      "sentenceTranslation": "Moral guides our decisions."
+    },
+    {
+      "word": "ética",
+      "irregularForms": null,
+      "sentence": "La ética es importante en la sociedad.",
+      "wordTranslation": "ethics",
+      "sentenceTranslation": "Ethics is important in society."
+    },
+    {
+      "word": "formación",
+      "irregularForms": null,
+      "sentence": "La formación es clave para el éxito.",
+      "wordTranslation": "training",
+      "sentenceTranslation": "Training is key to success."
+    },
+    {
+      "word": "apoyo",
+      "irregularForms": null,
+      "sentence": "El apoyo familiar es fundamental.",
+      "wordTranslation": "support",
+      "sentenceTranslation": "Family support is fundamental."
+    },
+    {
+      "word": "recuperación",
+      "irregularForms": null,
+      "sentence": "La recuperación es un proceso largo.",
+      "wordTranslation": "recovery",
+      "sentenceTranslation": "Recovery is a long process."
+    },
+    {
+      "word": "ventaja",
+      "irregularForms": null,
+      "sentence": "Tener una ventaja es crucial.",
+      "wordTranslation": "advantage",
+      "sentenceTranslation": "Having an advantage is crucial."
+    },
+    {
+      "word": "oportunidad",
+      "irregularForms": null,
+      "sentence": "Esta es una gran oportunidad.",
+      "wordTranslation": "opportunity",
+      "sentenceTranslation": "This is a great opportunity."
+    },
+    {
+      "word": "responsabilidad",
+      "irregularForms": null,
+      "sentence": "La responsabilidad es importante.",
+      "wordTranslation": "responsibility",
+      "sentenceTranslation": "Responsibility is important."
+    },
+    {
+      "word": "decisión",
+      "irregularForms": null,
+      "sentence": "Debes tomar una decisión pronto.",
+      "wordTranslation": "decision",
+      "sentenceTranslation": "You must make a decision soon."
+    },
+    {
+      "word": "objetivo",
+      "irregularForms": null,
+      "sentence": "Mi objetivo es aprender español.",
+      "wordTranslation": "goal",
+      "sentenceTranslation": "My goal is to learn Spanish."
+    },
+    {
+      "word": "estrategia",
+      "irregularForms": null,
+      "sentence": "Necesitamos una buena estrategia.",
+      "wordTranslation": "strategy",
+      "sentenceTranslation": "We need a good strategy."
+    },
+    {
+      "word": "plan",
+      "irregularForms": null,
+      "sentence": "El plan es simple.",
+      "wordTranslation": "plan",
+      "sentenceTranslation": "The plan is simple."
+    },
+    {
+      "word": "solución",
+      "irregularForms": null,
+      "sentence": "Buscamos una solución efectiva.",
+      "wordTranslation": "solution",
+      "sentenceTranslation": "We are looking for an effective solution."
+    },
+    {
+      "word": "implementación",
+      "irregularForms": null,
+      "sentence": "La implementación es clave en cualquier proyecto.",
+      "wordTranslation": "implementation",
+      "sentenceTranslation": "Implementation is key in any project."
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 26",
+  "description": "This is part of a larger set of common Spanish words.",
+  "cards": [
+    {
+      "word": "anillo",
+      "irregularForms": null,
+      "sentence": "Se puso un anillo de plata en el dedo anular.",
+      "wordTranslation": "ring",
+      "sentenceTranslation": "He put a silver ring on his ring finger."
+    },
+    {
+      "word": "volante",
+      "irregularForms": null,
+      "sentence": "El conductor giró el volante a la izquierda.",
+      "wordTranslation": "steering wheel",
+      "sentenceTranslation": "The driver turned the steering wheel to the left."
+    },
+    {
+      "word": "neumático",
+      "irregularForms": null,
+      "sentence": "Necesitamos cambiar el neumático pinchado.",
+      "wordTranslation": "tire",
+      "sentenceTranslation": "We need to change the flat tire."
+    },
+    {
+      "word": "freno",
+      "irregularForms": null,
+      "sentence": "Pisa el freno suavemente para parar el coche.",
+      "wordTranslation": "brake",
+      "sentenceTranslation": "Press the brake gently to stop the car."
+    },
+    {
+      "word": "gasolina",
+      "irregularForms": null,
+      "sentence": "Nos estamos quedando sin gasolina, hay que repostar.",
+      "wordTranslation": "gasoline",
+      "sentenceTranslation": "We're running out of gasoline, we need to refuel."
+    },
+    {
+      "word": "maletero",
+      "irregularForms": null,
+      "sentence": "Pon las maletas en el maletero del coche.",
+      "wordTranslation": "car trunk",
+      "sentenceTranslation": "Put the suitcases in the car trunk."
+    },
+    {
+      "word": "asiento",
+      "irregularForms": null,
+      "sentence": "Toma un asiento, por favor.",
+      "wordTranslation": "seat",
+      "sentenceTranslation": "Take a seat, please."
+    },
+    {
+      "word": "parabrisas",
+      "irregularForms": null,
+      "sentence": "Las gotas de lluvia golpeaban el parabrisas.",
+      "wordTranslation": "windshield",
+      "sentenceTranslation": "Raindrops hit the windshield."
+    },
+    {
+      "word": "faros",
+      "irregularForms": null,
+      "sentence": "Encendió los faros para ver en la oscuridad.",
+      "wordTranslation": "headlights",
+      "sentenceTranslation": "He turned on the headlights to see in the dark."
+    },
+    {
+      "word": "peatón",
+      "irregularForms": null,
+      "sentence": "El peatón cruzó la calle por el paso de cebra.",
+      "wordTranslation": "pedestrian",
+      "sentenceTranslation": "The pedestrian crossed the street at the crosswalk."
+    },
+    {
+      "word": "curva",
+      "irregularForms": null,
+      "sentence": "Ten cuidado al tomar esa curva cerrada.",
+      "wordTranslation": "curve",
+      "sentenceTranslation": "Be careful when taking that sharp curve."
+    },
+    {
+      "word": "frenar",
+      "irregularForms": "freno, frenas, frena, frenamos, frenáis, frenan",
+      "sentence": "Tuvo que frenar bruscamente para evitar un accidente.",
+      "wordTranslation": "to brake",
+      "sentenceTranslation": "He had to brake suddenly to avoid an accident."
+    },
+    {
+      "word": "desacelerar",
+      "irregularForms": "desacelero, desaceleras, desacelera, desaceleramos, desaceleráis, desaceleran",
+      "sentence": "Es importante desacelerar al entrar en la ciudad.",
+      "wordTranslation": "to decelerate",
+      "sentenceTranslation": "It is important to decelerate when entering the city."
+    },
+    {
+      "word": "giro",
+      "irregularForms": null,
+      "sentence": "Hicimos un giro a la derecha en la siguiente esquina.",
+      "wordTranslation": "turn (noun)",
+      "sentenceTranslation": "We made a right turn at the next corner."
+    },
+    {
+      "word": "parada",
+      "irregularForms": null,
+      "sentence": "La siguiente parada de autobús está a dos cuadras.",
+      "wordTranslation": "stop (noun)",
+      "sentenceTranslation": "The next bus stop is two blocks away."
+    },
+    {
+      "word": "maleta",
+      "irregularForms": null,
+      "sentence": "Cerró la maleta antes de salir al aeropuerto.",
+      "wordTranslation": "suitcase",
+      "sentenceTranslation": "She closed the suitcase before leaving for the airport."
+    },
+    {
+      "word": "aduanas",
+      "irregularForms": null,
+      "sentence": "Tuvimos que pasar por aduanas al llegar al país.",
+      "wordTranslation": "customs",
+      "sentenceTranslation": "We had to go through customs upon arriving in the country."
+    },
+    {
+      "word": "embarcar",
+      "irregularForms": "embarco, embarcas, embarca, embarcamos, embarcáis, embarcan",
+      "sentence": "Es hora de embarcar en el avión.",
+      "wordTranslation": "to board",
+      "sentenceTranslation": "It's time to board the plane."
+    },
+    {
+      "word": "aterrizar",
+      "irregularForms": "aterrizo, aterrizas, aterriza, aterrizamos, aterrizáis, aterrizan",
+      "sentence": "El avión va a aterrizar en diez minutos.",
+      "wordTranslation": "to land",
+      "sentenceTranslation": "The plane is going to land in ten minutes."
+    },
+    {
+      "word": "pronóstico",
+      "irregularForms": null,
+      "sentence": "El pronóstico del tiempo anuncia lluvia para mañana.",
+      "wordTranslation": "forecast",
+      "sentenceTranslation": "The weather forecast announces rain for tomorrow."
+    },
+    {
+      "word": "rebaño",
+      "irregularForms": null,
+      "sentence": "El pastor guio a su rebaño por la colina.",
+      "wordTranslation": "flock",
+      "sentenceTranslation": "The shepherd led his flock over the hill."
+    },
+    {
+      "word": "costura",
+      "irregularForms": null,
+      "sentence": "La costura de mi pantalón se ha deshecho.",
+      "wordTranslation": "seam, sewing",
+      "sentenceTranslation": "The seam of my pants has come undone."
+    },
+    {
+      "word": "estirar",
+      "irregularForms": "estiro, estiras, estira, estiramos, estiráis, estiran",
+      "sentence": "Es bueno estirar los músculos antes de hacer ejercicio.",
+      "wordTranslation": "to stretch",
+      "sentenceTranslation": "It's good to stretch your muscles before exercising."
+    },
+    {
+      "word": "doblar",
+      "irregularForms": "doblo, doblas, dobla, doblamos, dobláis, doblan",
+      "sentence": "Por favor, dobla la ropa limpia antes de guardarla.",
+      "wordTranslation": "to fold, to bend",
+      "sentenceTranslation": "Please fold the clean clothes before putting them away."
+    },
+    {
+      "word": "enrollar",
+      "irregularForms": "enrollo, enrollas, enrolla, enrollamos, enrolláis, enrollan",
+      "sentence": "Vamos a enrollar la alfombra para limpiarla.",
+      "wordTranslation": "to roll up",
+      "sentenceTranslation": "We are going to roll up the rug to clean it."
+    },
+    {
+      "word": "cavar",
+      "irregularForms": "cavo, cavas, cava, cavamos, caváis, cavan",
+      "sentence": "El perro empezó a cavar un agujero en el jardín.",
+      "wordTranslation": "to dig",
+      "sentenceTranslation": "The dog started to dig a hole in the garden."
+    },
+    {
+      "word": "sembrar",
+      "irregularForms": "siembro, siembras, siembra, sembramos, sembráis, siembran",
+      "sentence": "Es tiempo de sembrar las semillas de tomate.",
+      "wordTranslation": "to plant seeds, to sow",
+      "sentenceTranslation": "It's time to plant the tomato seeds."
+    },
+    {
+      "word": "regar",
+      "irregularForms": "riego, riegas, riega, regamos, regáis, riegan",
+      "sentence": "Recuerda regar las plantas todos los días.",
+      "wordTranslation": "to water (plants)",
+      "sentenceTranslation": "Remember to water the plants every day."
+    },
+    {
+      "word": "cosechar",
+      "irregularForms": "cosecho, cosechas, cosecha, cosechamos, cosecháis, cosechan",
+      "sentence": "La familia sale al campo a cosechar las manzanas.",
+      "wordTranslation": "to harvest",
+      "sentenceTranslation": "The family goes to the countryside to harvest the apples."
+    },
+    {
+      "word": "podar",
+      "irregularForms": "podo, podas, poda, podamos, podáis, podan",
+      "sentence": "Debes podar los rosales en primavera.",
+      "wordTranslation": "to prune",
+      "sentenceTranslation": "You should prune the rose bushes in spring."
+    },
+    {
+      "word": "enmarcar",
+      "irregularForms": "enmarco, enmarcas, enmarca, enmarcamos, enmarcáis, enmarcan",
+      "sentence": "Quiero enmarcar esta fotografía antigua.",
+      "wordTranslation": "to frame",
+      "sentenceTranslation": "I want to frame this old photograph."
+    },
+    {
+      "word": "colgar",
+      "irregularForms": "cuelgo, cuelgas, cuelga, colgamos, colgáis, cuelgan",
+      "sentence": "Vamos a colgar el cuadro nuevo en la sala.",
+      "wordTranslation": "to hang",
+      "sentenceTranslation": "We are going to hang the new painting in the living room."
+    },
+    {
+      "word": "descolgar",
+      "irregularForms": "descuelgo, descuelgas, descuelga, descolgamos, descolgáis, descuelgan",
+      "sentence": "Por favor, descuelga la ropa seca del tendedero.",
+      "wordTranslation": "to unhook, to take down, to hang up (phone)",
+      "sentenceTranslation": "Please take the dry clothes off the clothesline."
+    },
+    {
+      "word": "atornillar",
+      "irregularForms": "atornillo, atornillas, atornilla, atornillamos, atornilláis, atornillan",
+      "sentence": "Necesito atornillar esta pieza de madera.",
+      "wordTranslation": "to screw",
+      "sentenceTranslation": "I need to screw this piece of wood."
+    },
+    {
+      "word": "desatornillar",
+      "irregularForms": "desatornillo, desatornillas, desatornilla, desatornillamos, desatornilláis, desatornillan",
+      "sentence": "Usa el destornillador para desatornillar el tornillo.",
+      "wordTranslation": "to unscrew",
+      "sentenceTranslation": "Use the screwdriver to unscrew the screw."
+    },
+    {
+      "word": "martillar",
+      "irregularForms": "martillo, martillas, martilla, martillamos, martilláis, martillan",
+      "sentence": "Ella aprendió a martillar un clavo sin doblarlo.",
+      "wordTranslation": "to hammer",
+      "sentenceTranslation": "She learned to hammer a nail without bending it."
+    },
+    {
+      "word": "clavar",
+      "irregularForms": "clavo, clavas, clava, clavamos, claváis, clavan",
+      "sentence": "Vamos a clavar la tabla a la pared.",
+      "wordTranslation": "to nail",
+      "sentenceTranslation": "We are going to nail the board to the wall."
+    },
+    {
+      "word": "perforar",
+      "irregularForms": "perforo, perforas, perfora, perforamos, perforáis, perforan",
+      "sentence": "Necesitas una broca especial para perforar el metal.",
+      "wordTranslation": "to drill, to perforate",
+      "sentenceTranslation": "You need a special drill bit to drill metal."
+    },
+    {
+      "word": "lijar",
+      "irregularForms": "lijo, lijas, lija, lijamos, lijáis, lijan",
+      "sentence": "Hay que lijar la superficie antes de pintar.",
+      "wordTranslation": "to sand",
+      "sentenceTranslation": "You have to sand the surface before painting."
+    },
+    {
+      "word": "barnizar",
+      "irregularForms": "barnizo, barnizas, barniza, barnizamos, barnizáis, barnizan",
+      "sentence": "Después de lijar, vamos a barnizar los muebles.",
+      "wordTranslation": "to varnish",
+      "sentenceTranslation": "After sanding, we are going to varnish the furniture."
+    },
+    {
+      "word": "soldar",
+      "irregularForms": "soldo, soldas, solda, soldamos, soldáis, soldan",
+      "sentence": "Mi padre sabe soldar metal perfectamente.",
+      "wordTranslation": "to weld",
+      "sentenceTranslation": "My father knows how to weld metal perfectly."
+    },
+    {
+      "word": "remendar",
+      "irregularForms": "remiento, remiendas, remienda, remendamos, remendáis, remiendan",
+      "sentence": "Mi abuela siempre remienda nuestra ropa vieja.",
+      "wordTranslation": "to mend, to patch",
+      "sentenceTranslation": "My grandmother always mends our old clothes."
+    },
+    {
+      "word": "descoser",
+      "irregularForms": "descoso, descoses, descose, descosimos, descoséis, descosen",
+      "sentence": "Tuve que descoser el dobladillo para alargarlo.",
+      "wordTranslation": "to unsew",
+      "sentenceTranslation": "I had to unsew the hem to lengthen it."
+    },
+    {
+      "word": "exprimir",
+      "irregularForms": "exprimo, exprimes, exprime, exprimimos, exprimís, exprimen",
+      "sentence": "Voy a exprimir unas naranjas para hacer jugo.",
+      "wordTranslation": "to squeeze",
+      "sentenceTranslation": "I'm going to squeeze some oranges to make juice."
+    },
+    {
+      "word": "asar",
+      "irregularForms": "aso, asas, asa, asamos, asáis, asan",
+      "sentence": "Prefiero asar el pollo en el horno.",
+      "wordTranslation": "to roast, to grill",
+      "sentenceTranslation": "I prefer to roast the chicken in the oven."
+    },
+    {
+      "word": "dieta",
+      "irregularForms": null,
+      "sentence": "Está siguiendo una dieta saludable para perder peso.",
+      "wordTranslation": "diet",
+      "sentenceTranslation": "He is following a healthy diet to lose weight."
+    },
+    {
+      "word": "ejercicio",
+      "irregularForms": null,
+      "sentence": "Hacer ejercicio regularmente es bueno para la salud.",
+      "wordTranslation": "exercise",
+      "sentenceTranslation": "Exercising regularly is good for your health."
+    },
+    {
+      "word": "tiritar",
+      "irregularForms": "tirito, tiritas, tirita, tiritamos, tiritáis, tiritan",
+      "sentence": "Empecé a tiritar de frío después de salir al aire libre.",
+      "wordTranslation": "to shiver",
+      "sentenceTranslation": "I started to shiver from the cold after going outside."
+    },
+    {
+      "word": "parpadear",
+      "irregularForms": "parpadeo, parpadeas, parpadea, parpadeamos, parpadeáis, parpadean",
+      "sentence": "La luz de la vela empezó a parpadear.",
+      "wordTranslation": "to blink, to flicker",
+      "sentenceTranslation": "The candle light began to flicker."
+    },
+    {
+      "word": "trotar",
+      "irregularForms": "troto, trotas, trota, trotamos, trotáis, trotan",
+      "sentence": "Le gusta trotar por el parque cada mañana.",
+      "wordTranslation": "to jog",
+      "sentenceTranslation": "He likes to jog in the park every morning."
+    },
+    {
+      "word": "gatear",
+      "irregularForms": "gateo, gateas, gatea, gateamos, gateáis, gatean",
+      "sentence": "El bebé está aprendiendo a gatear por toda la casa.",
+      "wordTranslation": "to crawl",
+      "sentenceTranslation": "The baby is learning to crawl all over the house."
+    },
+    {
+      "word": "pescar",
+      "irregularForms": "pesco, pescas, pesca, pescamos, pescáis, pescan",
+      "sentence": "Vamos a pescar en el río este fin de semana.",
+      "wordTranslation": "to fish (verb)",
+      "sentenceTranslation": "We're going fishing in the river this weekend."
+    },
+    {
+      "word": "cazar",
+      "irregularForms": "cazo, cazas, caza, cazamos, cazáis, cazan",
+      "sentence": "Algunos animales cazan de noche para alimentarse.",
+      "wordTranslation": "to hunt",
+      "sentenceTranslation": "Some animals hunt at night to feed themselves."
+    },
+    {
+      "word": "plantar",
+      "irregularForms": "planto, plantas, planta, plantamos, plantáis, plantan",
+      "sentence": "Quiero plantar flores en mi jardín.",
+      "wordTranslation": "to plant",
+      "sentenceTranslation": "I want to plant flowers in my garden."
+    },
+    {
+      "word": "fertilizar",
+      "irregularForms": "fertilizo, fertilizas, fertiliza, fertilizamos, fertilizáis, fertilizan",
+      "sentence": "Es necesario fertilizar el suelo para una buena cosecha.",
+      "wordTranslation": "to fertilize",
+      "sentenceTranslation": "It is necessary to fertilize the soil for a good harvest."
+    },
+    {
+      "word": "jardinería",
+      "irregularForms": null,
+      "sentence": "La jardinería es su pasatiempo favorito.",
+      "wordTranslation": "gardening",
+      "sentenceTranslation": "Gardening is her favorite hobby."
+    },
+    {
+      "word": "agricultura",
+      "irregularForms": null,
+      "sentence": "La agricultura es la base de la economía en esta región.",
+      "wordTranslation": "agriculture",
+      "sentenceTranslation": "Agriculture is the basis of the economy in this region."
+    },
+    {
+      "word": "ganadería",
+      "irregularForms": null,
+      "sentence": "La ganadería es una actividad importante en el campo.",
+      "wordTranslation": "livestock farming",
+      "sentenceTranslation": "Livestock farming is an important activity in the countryside."
+    },
+    {
+      "word": "pastoreo",
+      "irregularForms": null,
+      "sentence": "El pastoreo es una práctica antigua de los nómadas.",
+      "wordTranslation": "grazing, shepherding",
+      "sentenceTranslation": "Grazing is an ancient practice of nomads."
+    },
+    {
+      "word": "cosecha",
+      "irregularForms": null,
+      "sentence": "Este año la cosecha de uvas fue muy buena.",
+      "wordTranslation": "harvest (noun)",
+      "sentenceTranslation": "This year the grape harvest was very good."
+    },
+    {
+      "word": "siembra",
+      "irregularForms": null,
+      "sentence": "La siembra del trigo se realiza en otoño.",
+      "wordTranslation": "sowing (noun)",
+      "sentenceTranslation": "The sowing of wheat takes place in autumn."
+    },
+    {
+      "word": "riego",
+      "irregularForms": null,
+      "sentence": "El sistema de riego automático ahorra mucha agua.",
+      "wordTranslation": "irrigation (noun)",
+      "sentenceTranslation": "The automatic irrigation system saves a lot of water."
+    },
+    {
+      "word": "tubería",
+      "irregularForms": null,
+      "sentence": "Hay una fuga en la tubería del baño.",
+      "wordTranslation": "pipe",
+      "sentenceTranslation": "There's a leak in the bathroom pipe."
+    },
+    {
+      "word": "lavabo",
+      "irregularForms": null,
+      "sentence": "Lávate las manos en el lavabo.",
+      "wordTranslation": "sink (bathroom)",
+      "sentenceTranslation": "Wash your hands in the bathroom sink."
+    },
+    {
+      "word": "fregadero",
+      "irregularForms": null,
+      "sentence": "Deja los platos sucios en el fregadero.",
+      "wordTranslation": "sink (kitchen)",
+      "sentenceTranslation": "Leave the dirty dishes in the kitchen sink."
+    },
+    {
+      "word": "escoba",
+      "irregularForms": null,
+      "sentence": "Usa la escoba para barrer el suelo.",
+      "wordTranslation": "broom",
+      "sentenceTranslation": "Use the broom to sweep the floor."
+    },
+    {
+      "word": "recogedor",
+      "irregularForms": null,
+      "sentence": "Siempre usa el recogedor con la escoba.",
+      "wordTranslation": "dustpan",
+      "sentenceTranslation": "Always use the dustpan with the broom."
+    },
+    {
+      "word": "cubo de basura",
+      "irregularForms": null,
+      "sentence": "Por favor, vacía el cubo de basura.",
+      "wordTranslation": "trash can",
+      "sentenceTranslation": "Please empty the trash can."
+    },
+    {
+      "word": "barrer",
+      "irregularForms": "barro, barres, barre, barremos, barréis, barren",
+      "sentence": "Necesito barrer el patio antes de que lleguen los invitados.",
+      "wordTranslation": "to sweep",
+      "sentenceTranslation": "I need to sweep the patio before the guests arrive."
+    },
+    {
+      "word": "fregar",
+      "irregularForms": "friego, friegas, friega, fregamos, fregáis, friegan",
+      "sentence": "Me toca fregar los platos esta noche.",
+      "wordTranslation": "to scrub, to mop (floor)",
+      "sentenceTranslation": "It's my turn to wash the dishes tonight."
+    },
+    {
+      "word": "plateado",
+      "irregularForms": null,
+      "sentence": "Compró un reloj plateado muy elegante.",
+      "wordTranslation": "silver (color)",
+      "sentenceTranslation": "He bought a very elegant silver watch."
+    },
+    {
+      "word": "beige",
+      "irregularForms": null,
+      "sentence": "Pintaron las paredes de la habitación de color beige.",
+      "wordTranslation": "beige",
+      "sentenceTranslation": "They painted the room's walls beige."
+    },
+    {
+      "word": "turquesa",
+      "irregularForms": null,
+      "sentence": "El mar en el Caribe es de un color turquesa intenso.",
+      "wordTranslation": "turquoise",
+      "sentenceTranslation": "The sea in the Caribbean is an intense turquoise color."
+    },
+    {
+      "word": "índigo",
+      "irregularForms": null,
+      "sentence": "El color índigo es una mezcla de azul y morado.",
+      "wordTranslation": "indigo",
+      "sentenceTranslation": "Indigo color is a mix of blue and purple."
+    },
+    {
+      "word": "magenta",
+      "irregularForms": null,
+      "sentence": "El vestido de la modelo era de un llamativo color magenta.",
+      "wordTranslation": "magenta",
+      "sentenceTranslation": "The model's dress was a striking magenta color."
+    },
+    {
+      "word": "pastel",
+      "irregularForms": null,
+      "sentence": "Prefiere los colores pastel para decorar la guardería.",
+      "wordTranslation": "pastel (color)",
+      "sentenceTranslation": "She prefers pastel colors to decorate the nursery."
+    },
+    {
+      "word": "relucir",
+      "irregularForms": "reluzco, reluces, reluce, relucimos, relucís, relucen",
+      "sentence": "Las estrellas comenzaron a relucir en el cielo nocturno.",
+      "wordTranslation": "to shine, to gleam",
+      "sentenceTranslation": "The stars began to shine in the night sky."
+    },
+    {
+      "word": "destello",
+      "irregularForms": null,
+      "sentence": "Vio un destello de luz a lo lejos.",
+      "wordTranslation": "flash, gleam",
+      "sentenceTranslation": "He saw a flash of light in the distance."
+    },
+    {
+      "word": "chispa",
+      "irregularForms": null,
+      "sentence": "Saltó una chispa del fuego y casi quema la alfombra.",
+      "wordTranslation": "spark",
+      "sentenceTranslation": "A spark jumped from the fire and almost burned the carpet."
+    },
+    {
+      "word": "claridad",
+      "irregularForms": null,
+      "sentence": "Necesito más claridad en tus instrucciones.",
+      "wordTranslation": "clarity, lightness",
+      "sentenceTranslation": "I need more clarity in your instructions."
+    },
+    {
+      "word": "luminoso",
+      "irregularForms": null,
+      "sentence": "Su sonrisa era muy luminosa y contagiosa.",
+      "wordTranslation": "luminous, bright",
+      "sentenceTranslation": "Her smile was very luminous and contagious."
+    },
+    {
+      "word": "encendido",
+      "irregularForms": null,
+      "sentence": "Dejó la luz encendida toda la noche.",
+      "wordTranslation": "turned on, lit",
+      "sentenceTranslation": "He left the light on all night."
+    },
+    {
+      "word": "enchufe",
+      "irregularForms": null,
+      "sentence": "El enchufe no encaja en esta toma de corriente.",
+      "wordTranslation": "plug (electrical)",
+      "sentenceTranslation": "The plug doesn't fit in this outlet."
+    },
+    {
+      "word": "cable",
+      "irregularForms": null,
+      "sentence": "Necesito un cable más largo para conectar el televisor.",
+      "wordTranslation": "cable",
+      "sentenceTranslation": "I need a longer cable to connect the television."
+    },
+    {
+      "word": "tomacorriente",
+      "irregularForms": null,
+      "sentence": "Busca un tomacorriente libre para cargar el teléfono.",
+      "wordTranslation": "outlet (electrical)",
+      "sentenceTranslation": "Look for a free outlet to charge the phone."
+    },
+    {
+      "word": "electricidad",
+      "irregularForms": null,
+      "sentence": "Se cortó la electricidad en todo el barrio.",
+      "wordTranslation": "electricity",
+      "sentenceTranslation": "The electricity went out in the entire neighborhood."
+    },
+    {
+      "word": "interruptor",
+      "irregularForms": null,
+      "sentence": "El interruptor de la luz está roto.",
+      "wordTranslation": "switch",
+      "sentenceTranslation": "The light switch is broken."
+    },
+    {
+      "word": "tecla",
+      "irregularForms": null,
+      "sentence": "La tecla 'A' de mi teclado no funciona bien.",
+      "wordTranslation": "key (keyboard)",
+      "sentenceTranslation": "The 'A' key on my keyboard is not working well."
+    },
+    {
+      "word": "perilla",
+      "irregularForms": null,
+      "sentence": "Gira la perilla para ajustar el volumen de la radio.",
+      "wordTranslation": "knob",
+      "sentenceTranslation": "Turn the knob to adjust the radio volume."
+    },
+    {
+      "word": "palanca",
+      "irregularForms": null,
+      "sentence": "Empuja la palanca hacia adelante para acelerar.",
+      "wordTranslation": "lever",
+      "sentenceTranslation": "Push the lever forward to accelerate."
+    },
+    {
+      "word": "batería",
+      "irregularForms": null,
+      "sentence": "La batería de mi teléfono se agotó rápidamente.",
+      "wordTranslation": "battery",
+      "sentenceTranslation": "My phone's battery ran out quickly."
+    },
+    {
+      "word": "editar",
+      "irregularForms": "edito, editas, edita, editamos, editáis, editan",
+      "sentence": "Necesito editar el informe antes de enviarlo.",
+      "wordTranslation": "to edit",
+      "sentenceTranslation": "I need to edit the report before sending it."
+    },
+    {
+      "word": "fotocopiar",
+      "irregularForms": "fotocopio, fotocopias, fotocopia, fotocopiamos, fotocopiáis, fotocopian",
+      "sentence": "Voy a fotocopiar estos documentos importantes.",
+      "wordTranslation": "to photocopy",
+      "sentenceTranslation": "I'm going to photocopy these important documents."
+    },
+    {
+      "word": "escanear",
+      "irregularForms": "escaneo, escaneas, escanea, escaneamos, escaneáis, escanean",
+      "sentence": "Por favor, escanea este archivo y envíamelo.",
+      "wordTranslation": "to scan",
+      "sentenceTranslation": "Please scan this file and send it to me."
+    },
+    {
+      "word": "anotar",
+      "irregularForms": "anoto, anotas, anota, anotamos, anotáis, anotan",
+      "sentence": "Es bueno anotar las ideas importantes en un cuaderno.",
+      "wordTranslation": "to write down, to note",
+      "sentenceTranslation": "It's good to write down important ideas in a notebook."
+    },
+    {
+      "word": "porcentaje",
+      "irregularForms": null,
+      "sentence": "Un alto porcentaje de la población usa internet.",
+      "wordTranslation": "percentage",
+      "sentenceTranslation": "A high percentage of the population uses the internet."
+    },
+    {
+      "word": "fracción",
+      "irregularForms": null,
+      "sentence": "Solo una pequeña fracción del trabajo está terminada.",
+      "wordTranslation": "fraction",
+      "sentenceTranslation": "Only a small fraction of the work is finished."
+    },
+    {
+      "word": "decimal",
+      "irregularForms": null,
+      "sentence": "Por favor, dame el número con dos cifras decimales.",
+      "wordTranslation": "decimal",
+      "sentenceTranslation": "Please give me the number with two decimal places."
+    },
+    {
+      "word": "cifra",
+      "irregularForms": null,
+      "sentence": "La cifra de ventas ha aumentado este trimestre.",
+      "wordTranslation": "figure, digit",
+      "sentenceTranslation": "The sales figure has increased this quarter."
+    },
+    {
+      "word": "símbolo",
+      "irregularForms": null,
+      "sentence": "El corazón es un símbolo universal del amor.",
+      "wordTranslation": "symbol",
+      "sentenceTranslation": "The heart is a universal symbol of love."
+    }
+  ]
+}

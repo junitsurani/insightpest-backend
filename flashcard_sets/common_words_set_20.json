@@ -1,0 +1,706 @@
+{
+  "name": "Spanish Common Words Set 20",
+  "description": "This set is part of a larger collection of common Spanish words, designed to expand vocabulary for everyday use. It includes a mix of frequently used nouns, verbs, adjectives, and other parts of speech.",
+  "cards": [
+    {
+      "word": "Desechar",
+      "irregularForms": "desecho, desechas, desecha, desechamos, desecháis, desechan",
+      "sentence": "Es importante desechar la basura correctamente.",
+      "wordTranslation": "To discard",
+      "sentenceTranslation": "It's important to discard trash correctly."
+    },
+    {
+      "word": "Asignar",
+      "irregularForms": "asigno, asignas, asigna, asignamos, asignáis, asignan",
+      "sentence": "El profesor va a asignar un nuevo proyecto.",
+      "wordTranslation": "To assign",
+      "sentenceTranslation": "The teacher is going to assign a new project."
+    },
+    {
+      "word": "Temer",
+      "irregularForms": "temo, temes, teme, tememos, teméis, temen",
+      "sentence": "No tienes que temer a lo desconocido.",
+      "wordTranslation": "To fear",
+      "sentenceTranslation": "You don't have to fear the unknown."
+    },
+    {
+      "word": "Estacionar",
+      "irregularForms": "estaciono, estacionas, estaciona, estacionamos, estacionáis, estacionan",
+      "sentence": "Puedes estacionar tu coche aquí.",
+      "wordTranslation": "To park",
+      "sentenceTranslation": "You can park your car here."
+    },
+    {
+      "word": "Interrumpir",
+      "irregularForms": "interrumpo, interrumpes, interrumpe, interrumpimos, interrumpís, interrumpen",
+      "sentence": "Por favor, no me interrumpas cuando hablo.",
+      "wordTranslation": "To interrupt",
+      "sentenceTranslation": "Please, don't interrupt me when I'm speaking."
+    },
+    {
+      "word": "Desordenar",
+      "irregularForms": "desordeno, desordenas, desordena, desordenamos, desordenáis, desordenan",
+      "sentence": "Los niños suelen desordenar sus habitaciones.",
+      "wordTranslation": "To mess up",
+      "sentenceTranslation": "Children usually mess up their rooms."
+    },
+    {
+      "word": "Caer",
+      "irregularForms": "caigo, caes, cae, caemos, caéis, caen",
+      "sentence": "No dejes que se caiga el vaso.",
+      "wordTranslation": "To fall",
+      "sentenceTranslation": "Don't let the glass fall."
+    },
+    {
+      "word": "Peinar",
+      "irregularForms": "peino, peinas, peina, peinamos, peináis, peinan",
+      "sentence": "Necesito peinarme antes de salir.",
+      "wordTranslation": "To comb",
+      "sentenceTranslation": "I need to comb my hair before going out."
+    },
+    {
+      "word": "Absoluto",
+      "irregularForms": "null",
+      "sentence": "Tienes mi confianza absoluta.",
+      "wordTranslation": "Absolute",
+      "sentenceTranslation": "You have my absolute trust."
+    },
+    {
+      "word": "Relativo",
+      "irregularForms": "null",
+      "sentence": "El éxito es algo relativo.",
+      "wordTranslation": "Relative",
+      "sentenceTranslation": "Success is a relative thing."
+    },
+    {
+      "word": "Anormal",
+      "irregularForms": "null",
+      "sentence": "Su comportamiento fue completamente anormal.",
+      "wordTranslation": "Abnormal",
+      "sentenceTranslation": "His behavior was completely abnormal."
+    },
+    {
+      "word": "Antiguo",
+      "irregularForms": "null",
+      "sentence": "Me encantan los edificios antiguos.",
+      "wordTranslation": "Ancient / Old",
+      "sentenceTranslation": "I love old buildings."
+    },
+    {
+      "word": "Moderno",
+      "irregularForms": "null",
+      "sentence": "Este es un diseño muy moderno.",
+      "wordTranslation": "Modern",
+      "sentenceTranslation": "This is a very modern design."
+    },
+    {
+      "word": "Inferior",
+      "irregularForms": "null",
+      "sentence": "La calidad de este producto es inferior.",
+      "wordTranslation": "Inferior",
+      "sentenceTranslation": "The quality of this product is inferior."
+    },
+    {
+      "word": "Pasivo",
+      "irregularForms": "null",
+      "sentence": "Se mantuvo pasivo durante la discusión.",
+      "wordTranslation": "Passive",
+      "sentenceTranslation": "He remained passive during the discussion."
+    },
+    {
+      "word": "Ineficiente",
+      "irregularForms": "null",
+      "sentence": "El sistema es ineficiente y necesita mejoras.",
+      "wordTranslation": "Inefficient",
+      "sentenceTranslation": "The system is inefficient and needs improvements."
+    },
+    {
+      "word": "Evidente",
+      "irregularForms": "null",
+      "sentence": "Su tristeza era evidente en sus ojos.",
+      "wordTranslation": "Evident",
+      "sentenceTranslation": "Her sadness was evident in her eyes."
+    },
+    {
+      "word": "Desconocido",
+      "irregularForms": "null",
+      "sentence": "Es un artista desconocido para mí.",
+      "wordTranslation": "Unknown",
+      "sentenceTranslation": "He is an unknown artist to me."
+    },
+    {
+      "word": "Individual",
+      "irregularForms": "null",
+      "sentence": "Cada persona tiene su propio estilo individual.",
+      "wordTranslation": "Individual",
+      "sentenceTranslation": "Each person has their own individual style."
+    },
+    {
+      "word": "Moral",
+      "irregularForms": "null",
+      "sentence": "Siempre actúo de acuerdo con mi moral.",
+      "wordTranslation": "Moral",
+      "sentenceTranslation": "I always act according to my morals."
+    },
+    {
+      "word": "Irresponsable",
+      "irregularForms": "null",
+      "sentence": "Fue muy irresponsable de su parte dejar la puerta abierta.",
+      "wordTranslation": "Irresponsible",
+      "sentenceTranslation": "It was very irresponsible of him to leave the door open."
+    },
+    {
+      "word": "Reconocimiento",
+      "irregularForms": "null",
+      "sentence": "Ella recibió el reconocimiento por su duro trabajo.",
+      "wordTranslation": "Recognition",
+      "sentenceTranslation": "She received recognition for her hard work."
+    },
+    {
+      "word": "Frecuencia",
+      "irregularForms": "null",
+      "sentence": "La frecuencia de sus visitas ha disminuido.",
+      "wordTranslation": "Frequency",
+      "sentenceTranslation": "The frequency of his visits has decreased."
+    },
+    {
+      "word": "Actitud",
+      "irregularForms": "null",
+      "sentence": "Me gusta su actitud positiva ante la vida.",
+      "wordTranslation": "Attitude",
+      "sentenceTranslation": "I like her positive attitude towards life."
+    },
+    {
+      "word": "Conexión",
+      "irregularForms": "null",
+      "sentence": "Hay una fuerte conexión entre ellos.",
+      "wordTranslation": "Connection",
+      "sentenceTranslation": "There is a strong connection between them."
+    },
+    {
+      "word": "Diario",
+      "irregularForms": "null",
+      "sentence": "Compro el diario todas las mañanas.",
+      "wordTranslation": "Newspaper / Daily",
+      "sentenceTranslation": "I buy the newspaper every morning."
+    },
+    {
+      "word": "Compromiso",
+      "irregularForms": "null",
+      "sentence": "Nuestro compromiso con el medio ambiente es firme.",
+      "wordTranslation": "Commitment",
+      "sentenceTranslation": "Our commitment to the environment is firm."
+    },
+    {
+      "word": "Rendimiento",
+      "irregularForms": "null",
+      "sentence": "El rendimiento del nuevo motor es impresionante.",
+      "wordTranslation": "Performance",
+      "sentenceTranslation": "The performance of the new engine is impressive."
+    },
+    {
+      "word": "Superficie",
+      "irregularForms": "null",
+      "sentence": "La superficie de la mesa está limpia.",
+      "wordTranslation": "Surface",
+      "sentenceTranslation": "The table surface is clean."
+    },
+    {
+      "word": "Profundidad",
+      "irregularForms": "null",
+      "sentence": "La profundidad del océano es asombrosa.",
+      "wordTranslation": "Depth",
+      "sentenceTranslation": "The depth of the ocean is astonishing."
+    },
+    {
+      "word": "Longitud",
+      "irregularForms": "null",
+      "sentence": "Calculamos la longitud del río.",
+      "wordTranslation": "Length",
+      "sentenceTranslation": "We calculated the length of the river."
+    },
+    {
+      "word": "Anchura",
+      "irregularForms": "null",
+      "sentence": "La anchura de la carretera es de diez metros.",
+      "wordTranslation": "Width",
+      "sentenceTranslation": "The width of the road is ten meters."
+    },
+    {
+      "word": "Masa",
+      "irregularForms": "null",
+      "sentence": "La masa de la Tierra es inmensa.",
+      "wordTranslation": "Mass",
+      "sentenceTranslation": "The mass of the Earth is immense."
+    },
+    {
+      "word": "Humedad",
+      "irregularForms": "null",
+      "sentence": "La humedad en el aire es alta hoy.",
+      "wordTranslation": "Humidity",
+      "sentenceTranslation": "The humidity in the air is high today."
+    },
+    {
+      "word": "Aceleración",
+      "irregularForms": "null",
+      "sentence": "La aceleración del coche fue muy rápida.",
+      "wordTranslation": "Acceleration",
+      "sentenceTranslation": "The car's acceleration was very fast."
+    },
+    {
+      "word": "Período",
+      "irregularForms": "null",
+      "sentence": "Este es un período de grandes cambios.",
+      "wordTranslation": "Period",
+      "sentenceTranslation": "This is a period of great changes."
+    },
+    {
+      "word": "Ocasión",
+      "irregularForms": "null",
+      "sentence": "Fue una ocasión especial para todos.",
+      "wordTranslation": "Occasion",
+      "sentenceTranslation": "It was a special occasion for everyone."
+    },
+    {
+      "word": "Apariencia",
+      "irregularForms": "null",
+      "sentence": "No te fíes solo de las apariencias.",
+      "wordTranslation": "Appearance",
+      "sentenceTranslation": "Don't rely solely on appearances."
+    },
+    {
+      "word": "Figura",
+      "irregularForms": "null",
+      "sentence": "Ella tiene una figura muy elegante.",
+      "wordTranslation": "Figure",
+      "sentenceTranslation": "She has a very elegant figure."
+    },
+    {
+      "word": "Personalidad",
+      "irregularForms": "null",
+      "sentence": "Su personalidad es muy amigable.",
+      "wordTranslation": "Personality",
+      "sentenceTranslation": "His personality is very friendly."
+    },
+    {
+      "word": "Característica",
+      "irregularForms": "null",
+      "sentence": "Una característica importante de este software es su facilidad de uso.",
+      "wordTranslation": "Characteristic",
+      "sentenceTranslation": "An important characteristic of this software is its ease of use."
+    },
+    {
+      "word": "Pérdida",
+      "irregularForms": "null",
+      "sentence": "La pérdida de su mascota fue muy dolorosa.",
+      "wordTranslation": "Loss",
+      "sentenceTranslation": "The loss of his pet was very painful."
+    },
+    {
+      "word": "Comportamiento",
+      "irregularForms": "null",
+      "sentence": "Su comportamiento ha mejorado mucho.",
+      "wordTranslation": "Behavior",
+      "sentenceTranslation": "His behavior has improved a lot."
+    },
+    {
+      "word": "Humildad",
+      "irregularForms": "null",
+      "sentence": "La humildad es una gran virtud.",
+      "wordTranslation": "Humility",
+      "sentenceTranslation": "Humility is a great virtue."
+    },
+    {
+      "word": "Admiración",
+      "irregularForms": "null",
+      "sentence": "Siente gran admiración por su mentor.",
+      "wordTranslation": "Admiration",
+      "sentenceTranslation": "He feels great admiration for his mentor."
+    },
+    {
+      "word": "Alabanza",
+      "irregularForms": "null",
+      "sentence": "Recibió muchas alabanzas por su actuación.",
+      "wordTranslation": "Praise",
+      "sentenceTranslation": "He received much praise for his performance."
+    },
+    {
+      "word": "Aprobación",
+      "irregularForms": "null",
+      "sentence": "Esperamos su aprobación para el proyecto.",
+      "wordTranslation": "Approval",
+      "sentenceTranslation": "We await your approval for the project."
+    },
+    {
+      "word": "Concordancia",
+      "irregularForms": "null",
+      "sentence": "Hay una concordancia entre sus declaraciones.",
+      "wordTranslation": "Agreement",
+      "sentenceTranslation": "There is an agreement between their statements."
+    },
+    {
+      "word": "Comercio",
+      "irregularForms": "null",
+      "sentence": "El comercio internacional es fundamental para la economía.",
+      "wordTranslation": "Commerce",
+      "sentenceTranslation": "International trade is fundamental for the economy."
+    },
+    {
+      "word": "Alquiler",
+      "irregularForms": "null",
+      "sentence": "El alquiler del apartamento es bastante caro.",
+      "wordTranslation": "Rental",
+      "sentenceTranslation": "The apartment rental is quite expensive."
+    },
+    {
+      "word": "Ciclo",
+      "irregularForms": "null",
+      "sentence": "El ciclo del agua es vital para la vida.",
+      "wordTranslation": "Cycle",
+      "sentenceTranslation": "The water cycle is vital for life."
+    },
+    {
+      "word": "Rayo",
+      "irregularForms": "null",
+      "sentence": "Un rayo cayó sobre el árbol.",
+      "wordTranslation": "Lightning bolt",
+      "sentenceTranslation": "A lightning bolt struck the tree."
+    },
+    {
+      "word": "Ruta",
+      "irregularForms": "null",
+      "sentence": "Seguimos la ruta más corta hasta el destino.",
+      "wordTranslation": "Route",
+      "sentenceTranslation": "We followed the shortest route to the destination."
+    },
+    {
+      "word": "Piso",
+      "irregularForms": "null",
+      "sentence": "Vivo en el tercer piso del edificio.",
+      "wordTranslation": "Floor / Story",
+      "sentenceTranslation": "I live on the third floor of the building."
+    },
+    {
+      "word": "Micrófono",
+      "irregularForms": "null",
+      "sentence": "Necesito un micrófono para grabar mi voz.",
+      "wordTranslation": "Microphone",
+      "sentenceTranslation": "I need a microphone to record my voice."
+    },
+    {
+      "word": "Combustión",
+      "irregularForms": "null",
+      "sentence": "La combustión del motor produce energía.",
+      "wordTranslation": "Combustion",
+      "sentenceTranslation": "Engine combustion produces energy."
+    },
+    {
+      "word": "Vapor",
+      "irregularForms": "null",
+      "sentence": "El agua hirviendo produce mucho vapor.",
+      "wordTranslation": "Steam",
+      "sentenceTranslation": "Boiling water produces a lot of steam."
+    },
+    {
+      "word": "Herramienta",
+      "irregularForms": "null",
+      "sentence": "Esta es la herramienta adecuada para el trabajo.",
+      "wordTranslation": "Tool",
+      "sentenceTranslation": "This is the right tool for the job."
+    },
+    {
+      "word": "Vinagre",
+      "irregularForms": "null",
+      "sentence": "Le puso vinagre a la ensalada.",
+      "wordTranslation": "Vinegar",
+      "sentenceTranslation": "He put vinegar on the salad."
+    },
+    {
+      "word": "Refresco",
+      "irregularForms": "null",
+      "sentence": "Quiero un refresco de limón, por favor.",
+      "wordTranslation": "Soft drink",
+      "sentenceTranslation": "I want a lemon soda, please."
+    },
+    {
+      "word": "Dorado",
+      "irregularForms": "null",
+      "sentence": "El anillo es de color dorado.",
+      "wordTranslation": "Golden",
+      "sentenceTranslation": "The ring is golden in color."
+    },
+    {
+      "word": "Tela",
+      "irregularForms": "null",
+      "sentence": "Esta tela es muy suave al tacto.",
+      "wordTranslation": "Fabric",
+      "sentenceTranslation": "This fabric is very soft to the touch."
+    },
+    {
+      "word": "León",
+      "irregularForms": "null",
+      "sentence": "El león es el rey de la selva.",
+      "wordTranslation": "Lion",
+      "sentenceTranslation": "The lion is the king of the jungle."
+    },
+    {
+      "word": "Víctima",
+      "irregularForms": "null",
+      "sentence": "La víctima del accidente fue trasladada al hospital.",
+      "wordTranslation": "Victim",
+      "sentenceTranslation": "The accident victim was taken to the hospital."
+    },
+    {
+      "word": "Uniforme",
+      "irregularForms": "null",
+      "sentence": "Los estudiantes llevan uniforme en esta escuela.",
+      "wordTranslation": "Uniform",
+      "sentenceTranslation": "Students wear uniforms in this school."
+    },
+    {
+      "word": "Gasto",
+      "irregularForms": "null",
+      "sentence": "Controla bien tus gastos mensuales.",
+      "wordTranslation": "Expense",
+      "sentenceTranslation": "Control your monthly expenses well."
+    },
+    {
+      "word": "Tan pronto como",
+      "irregularForms": "null",
+      "sentence": "Te llamaré tan pronto como llegue.",
+      "wordTranslation": "As soon as",
+      "sentenceTranslation": "I'll call you as soon as I arrive."
+    },
+    {
+      "word": "Con respecto a",
+      "irregularForms": "null",
+      "sentence": "No tengo nada que decir con respecto a ese tema.",
+      "wordTranslation": "With respect to",
+      "sentenceTranslation": "I have nothing to say with respect to that topic."
+    },
+    {
+      "word": "Onceavo",
+      "irregularForms": "null",
+      "sentence": "Él es el onceavo participante en la carrera.",
+      "wordTranslation": "Eleventh",
+      "sentenceTranslation": "He is the eleventh participant in the race."
+    },
+    {
+      "word": "Influencia",
+      "irregularForms": "null",
+      "sentence": "Su influencia en la decisión fue clave.",
+      "wordTranslation": "Influence",
+      "sentenceTranslation": "His influence on the decision was key."
+    },
+    {
+      "word": "Rectángulo",
+      "irregularForms": "null",
+      "sentence": "Dibujamos un rectángulo en la pizarra.",
+      "wordTranslation": "Rectangle",
+      "sentenceTranslation": "We drew a rectangle on the board."
+    },
+    {
+      "word": "Defecto",
+      "irregularForms": "null",
+      "sentence": "El coche tiene un defecto de fábrica.",
+      "wordTranslation": "Defect",
+      "sentenceTranslation": "The car has a factory defect."
+    },
+    {
+      "word": "Sabiduría",
+      "irregularForms": "null",
+      "sentence": "La edad trae consigo la sabiduría.",
+      "wordTranslation": "Wisdom",
+      "sentenceTranslation": "Age brings wisdom."
+    },
+    {
+      "word": "Resistencia",
+      "irregularForms": "null",
+      "sentence": "Demostró una gran resistencia física.",
+      "wordTranslation": "Resistance",
+      "sentenceTranslation": "He showed great physical resistance."
+    },
+    {
+      "word": "Grito",
+      "irregularForms": "null",
+      "sentence": "Oímos un grito de alegría desde la calle.",
+      "wordTranslation": "Shout / Scream",
+      "sentenceTranslation": "We heard a shout of joy from the street."
+    },
+    {
+      "word": "Ritmo",
+      "irregularForms": "null",
+      "sentence": "Me gusta el ritmo de esta canción.",
+      "wordTranslation": "Rhythm",
+      "sentenceTranslation": "I like the rhythm of this song."
+    },
+    {
+      "word": "Bienestar",
+      "irregularForms": "null",
+      "sentence": "Nos preocupamos por el bienestar de nuestros empleados.",
+      "wordTranslation": "Well-being",
+      "sentenceTranslation": "We care about the well-being of our employees."
+    },
+    {
+      "word": "Planificación",
+      "irregularForms": "null",
+      "sentence": "La planificación es crucial para el éxito del proyecto.",
+      "wordTranslation": "Planning",
+      "sentenceTranslation": "Planning is crucial for the success of the project."
+    },
+    {
+      "word": "Aprendizaje",
+      "irregularForms": "null",
+      "sentence": "El aprendizaje de idiomas es gratificante.",
+      "wordTranslation": "Learning",
+      "sentenceTranslation": "Language learning is rewarding."
+    },
+    {
+      "word": "Injusticia",
+      "irregularForms": "null",
+      "sentence": "Luchamos contra la injusticia social.",
+      "wordTranslation": "Injustice",
+      "sentenceTranslation": "We fight against social injustice."
+    },
+    {
+      "word": "Esclavitud",
+      "irregularForms": "null",
+      "sentence": "La esclavitud fue abolida hace mucho tiempo.",
+      "wordTranslation": "Slavery",
+      "sentenceTranslation": "Slavery was abolished a long time ago."
+    },
+    {
+      "word": "Culpabilidad",
+      "irregularForms": "null",
+      "sentence": "No sentía ninguna culpabilidad por sus acciones.",
+      "wordTranslation": "Guilt",
+      "sentenceTranslation": "He felt no guilt for his actions."
+    },
+    {
+      "word": "Juventud",
+      "irregularForms": "null",
+      "sentence": "Disfruta tu juventud al máximo.",
+      "wordTranslation": "Youth",
+      "sentenceTranslation": "Enjoy your youth to the fullest."
+    },
+    {
+      "word": "Prima",
+      "irregularForms": "null",
+      "sentence": "Mi prima viene de visita el mes que viene.",
+      "wordTranslation": "Female cousin",
+      "sentenceTranslation": "My cousin is visiting next month."
+    },
+    {
+      "word": "Matrimonio",
+      "irregularForms": "null",
+      "sentence": "Su matrimonio ha durado cincuenta años.",
+      "wordTranslation": "Marriage",
+      "sentenceTranslation": "Their marriage has lasted fifty years."
+    },
+    {
+      "word": "Liderazgo",
+      "irregularForms": "null",
+      "sentence": "El equipo necesita un fuerte liderazgo.",
+      "wordTranslation": "Leadership",
+      "sentenceTranslation": "The team needs strong leadership."
+    },
+    {
+      "word": "Riqueza",
+      "irregularForms": "null",
+      "sentence": "La riqueza de su cultura es inmensa.",
+      "wordTranslation": "Wealth",
+      "sentenceTranslation": "The richness of their culture is immense."
+    },
+    {
+      "word": "Pobreza",
+      "irregularForms": "null",
+      "sentence": "La pobreza sigue siendo un problema global.",
+      "wordTranslation": "Poverty",
+      "sentenceTranslation": "Poverty remains a global problem."
+    },
+    {
+      "word": "Ganancia",
+      "irregularForms": "null",
+      "sentence": "La empresa reportó una ganancia neta este trimestre.",
+      "wordTranslation": "Profit",
+      "sentenceTranslation": "The company reported a net profit this quarter."
+    },
+    {
+      "word": "Grabación",
+      "irregularForms": "null",
+      "sentence": "Escuchamos la grabación de la entrevista.",
+      "wordTranslation": "Recording",
+      "sentenceTranslation": "We listened to the interview recording."
+    },
+    {
+      "word": "Enseñanza",
+      "irregularForms": "null",
+      "sentence": "La enseñanza de idiomas es su pasión.",
+      "wordTranslation": "Teaching",
+      "sentenceTranslation": "Language teaching is her passion."
+    },
+    {
+      "word": "Tratamiento",
+      "irregularForms": "null",
+      "sentence": "El paciente está recibiendo un nuevo tratamiento.",
+      "wordTranslation": "Treatment",
+      "sentenceTranslation": "The patient is receiving a new treatment."
+    },
+    {
+      "word": "Cansancio",
+      "irregularForms": "null",
+      "sentence": "El cansancio le impidió continuar el viaje.",
+      "wordTranslation": "Tiredness",
+      "sentenceTranslation": "Tiredness prevented him from continuing the journey."
+    },
+    {
+      "word": "Falta",
+      "irregularForms": "null",
+      "sentence": "Hay una falta de agua en la región.",
+      "wordTranslation": "Lack / Absence",
+      "sentenceTranslation": "There is a lack of water in the region."
+    },
+    {
+      "word": "Olfato",
+      "irregularForms": "null",
+      "sentence": "Los perros tienen un excelente olfato.",
+      "wordTranslation": "Sense of smell",
+      "sentenceTranslation": "Dogs have an excellent sense of smell."
+    },
+    {
+      "word": "Lógica",
+      "irregularForms": "null",
+      "sentence": "Su argumento tiene una lógica impecable.",
+      "wordTranslation": "Logic",
+      "sentenceTranslation": "His argument has impeccable logic."
+    },
+    {
+      "word": "Dependencia",
+      "irregularForms": "null",
+      "sentence": "Existe una fuerte dependencia de los combustibles fósiles.",
+      "wordTranslation": "Dependence",
+      "sentenceTranslation": "There is a strong dependence on fossil fuels."
+    },
+    {
+      "word": "Habilidad",
+      "irregularForms": "null",
+      "sentence": "Ella tiene la habilidad de hablar varios idiomas.",
+      "wordTranslation": "Ability",
+      "sentenceTranslation": "She has the ability to speak several languages."
+    },
+    {
+      "word": "Alegrarse",
+      "irregularForms": "me alegro, te alegras, se alegra, nos alegramos, os alegráis, se alegran",
+      "sentence": "Me alegro de verte de nuevo.",
+      "wordTranslation": "To be glad",
+      "sentenceTranslation": "I'm glad to see you again."
+    },
+    {
+      "word": "Liderar",
+      "irregularForms": "lidero, lideras, lidera, lideramos, lideráis, lideran",
+      "sentence": "Él va a liderar el nuevo equipo.",
+      "wordTranslation": "To lead",
+      "sentenceTranslation": "He is going to lead the new team."
+    }
+  ]
+}
