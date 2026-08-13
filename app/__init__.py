@@ -10,6 +10,7 @@ from psycopg2 import sql
 from urllib.parse import urlparse
 from app.models.user import User
 import os
+import re
 
 # from app.routes.routes_googleauth.routes_googleauth import api_googlecalendar_Page
 from .routes.routes_auth import api_login
@@ -170,12 +171,34 @@ def initialize_admin_user(email="admin@admin.com", password="admin"):
     db.session.commit()
     print(f"Admin user with email {email} created successfully with default workflows.")
 
+def _cors_origins():
+    configured = [
+        origin.strip().rstrip('/')
+        for origin in os.getenv('FRONTEND_ORIGINS', '').split(',')
+        if origin.strip() and '*' not in origin
+    ]
+    defaults = ['http://localhost:3000', 'http://localhost:3001']
+    return list(dict.fromkeys(defaults + configured)) + [
+        re.compile(r'^https://[a-zA-Z0-9.-]+\.vercel\.app$'),
+        re.compile(r'^https://[a-zA-Z0-9.-]+\.vercel\.sh$'),
+    ]
+
+
 def create_app():
     load_dotenv()
     app = Flask(__name__)
     sock = Sock(app)
-    allowed_origins = [origin.strip() for origin in os.getenv('FRONTEND_ORIGINS', 'http://localhost:3000,http://localhost:3001').split(',') if origin.strip()]
-    CORS(app, resources={r"/api/*": {"origins": allowed_origins}, r"/login": {"origins": allowed_origins}, r"/signup": {"origins": allowed_origins}})
+    allowed_origins = _cors_origins()
+    CORS(
+        app,
+        resources={
+            r"/api/*": {"origins": allowed_origins},
+            r"/login": {"origins": allowed_origins},
+            r"/signup": {"origins": allowed_origins},
+        },
+        supports_credentials=False,
+        allow_headers=["Content-Type", "Authorization"],
+    )
 
     app.config.from_object(DevelopmentConfig)  # Load development config
 

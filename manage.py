@@ -1,7 +1,10 @@
+from datetime import date, datetime, timedelta
+
 from flask.cli import FlaskGroup
-from app import create_app, drop_all_tables, db
-from app.models.user import User
 from werkzeug.security import generate_password_hash
+
+from app import create_app, drop_all_tables, db
+from app.models.user import CRMCustomer, ServiceAppointment, ServiceWorkOrder, User, VoiceCall
 
 cli = FlaskGroup(create_app=create_app)
 
@@ -42,6 +45,114 @@ def reset_db_with_test_user():
     
     print("Database reset complete!")
     print("Test user created with username='1' and password='1'")
+
+@cli.command("seed-test-data")
+def seed_test_data():
+    """Create missing tables, a test login, and sample CRM records."""
+    db.create_all()
+
+    email = "a@gmail.com"
+    password = "1"
+    user = User.query.filter_by(username=email).first()
+    if not user:
+        user = User(
+            username=email,
+            email=email,
+            password=generate_password_hash(password, method="pbkdf2:sha256"),
+            is_admin=True,
+        )
+        db.session.add(user)
+        db.session.flush()
+        print(f"Created test user {email}")
+    else:
+        print(f"Test user {email} already exists")
+
+    if CRMCustomer.query.count() == 0:
+        lead = CRMCustomer(
+            name="Taylor Green",
+            phone="+14165550111",
+            email="taylor.green@example.com",
+            service_address="210 King St W",
+            city="Toronto",
+            province="ON",
+            postal_code="M5V 2T6",
+            pest_issue="Ants in kitchen",
+            property_type="apartment",
+            status="lead",
+            source="voice_agent",
+            notes="Wants a callback for a quote.",
+        )
+        customer = CRMCustomer(
+            name="Jordan Lee",
+            phone="+19055550122",
+            email="jordan.lee@example.com",
+            service_address="88 Maple Ave",
+            city="Burlington",
+            province="ON",
+            postal_code="L7M 2R4",
+            pest_issue="Rodents in attic",
+            property_type="house",
+            status="customer",
+            source="voice_agent",
+            notes="Confirmed booking from Avery.",
+        )
+        db.session.add_all([lead, customer])
+        db.session.flush()
+
+        appointment = ServiceAppointment(
+            customer_name=customer.name,
+            phone=customer.phone,
+            email=customer.email,
+            postal_code=customer.postal_code,
+            pest_issue=customer.pest_issue,
+            preferred_date=date.today() + timedelta(days=2),
+            preferred_time="9:00 AM–11:00 AM",
+            notes="Attic access through garage.",
+            source="voice_agent",
+            status="requested",
+            twilio_call_sid="CA_test_seed",
+        )
+        db.session.add(appointment)
+        db.session.flush()
+
+        work_order = ServiceWorkOrder(
+            customer_id=customer.id,
+            appointment_id=appointment.id,
+            service=customer.pest_issue,
+            scheduled_date=appointment.preferred_date,
+            scheduled_time=appointment.preferred_time,
+            technician="Alex Rivera",
+            priority="routine",
+            status="scheduled",
+            source="voice_agent",
+            notes=appointment.notes,
+        )
+        db.session.add(work_order)
+        db.session.flush()
+
+        db.session.add(VoiceCall(
+            twilio_call_sid="CA_test_seed",
+            direction="inbound",
+            from_number=customer.phone,
+            to_number="+12362057547",
+            status="completed",
+            intent="appointment",
+            resolution="appointment_requested",
+            summary="Caller booked an attic rodent treatment.",
+            duration_seconds=186,
+            customer_id=customer.id,
+            appointment_id=appointment.id,
+            work_order_id=work_order.id,
+            started_at=datetime.utcnow() - timedelta(hours=2),
+            ended_at=datetime.utcnow() - timedelta(hours=2, minutes=-3),
+        ))
+        print("Seeded sample CRM customers, appointment, work order, and call")
+    else:
+        print("CRM sample data already present")
+
+    db.session.commit()
+    print("Test database is ready. Login with a@gmail.com / 1")
+
 
 @cli.command("migrate-phase-prompt")
 def migrate_phase_prompt():
