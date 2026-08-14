@@ -31,6 +31,7 @@ from app.routes.routes_VoiceAgent import (
     _finalize_call,
     _get_or_create_call,
     _record_tool_failure,
+    _summary_time_phrase,
     _tool_error_response,
     _voice_agent_prompt,
     _voice_agent_settings,
@@ -129,13 +130,18 @@ class VoiceCRMFlowTest(unittest.TestCase):
         self.assertIn("Never use Markdown", prompt)
         self.assertIn("CRITICAL SPOKEN-OUTPUT CONTRACT", prompt)
         self.assertIn("rewrite any list into one flowing sentence", compact_prompt)
+        self.assertIn('For a range, say "on Tuesday, August 18 from one to three PM."', prompt)
+        self.assertIn('Never place "at" before "from" or "in."', prompt)
         self.assertIn("Preserve the caller's complete full name exactly", prompt)
         self.assertIn("always say the resolved weekday, month, and day", prompt)
+        self.assertIn("Use natural time prepositions", prompt)
+        self.assertIn('Never say "at morning"', prompt)
         self.assertIn("never spend a separate turn requesting an optional field", compact_prompt)
         self.assertIn("read them back once", prompt)
         self.assertEqual(listener["eot_threshold"], 0.8)
         self.assertEqual(listener["eot_timeout_ms"], 6000)
         self.assertEqual(settings["agent"]["think"]["provider"]["model"], "gpt-4.1-mini")
+        self.assertEqual(settings["agent"]["think"]["provider"]["temperature"], 0.0)
 
     def test_booking_validation_failure_is_visible_and_success_clears_it(self):
         payload = {
@@ -185,6 +191,12 @@ class VoiceCRMFlowTest(unittest.TestCase):
                 set(BOOK_APPOINTMENT_FUNCTION["parameters"]["required"]),
                 {"customer_name", "phone", "postal_code", "pest_issue", "preferred_date", "preferred_time"},
             )
+
+    def test_crm_summary_uses_natural_time_prepositions(self):
+        self.assertEqual(_summary_time_phrase("in the afternoon"), "in the afternoon")
+        self.assertEqual(_summary_time_phrase("afternoon"), "in the afternoon")
+        self.assertEqual(_summary_time_phrase("1 PM to 3 PM"), "from 1 PM to 3 PM")
+        self.assertEqual(_summary_time_phrase("3 PM"), "at 3 PM")
 
     def test_inbound_twiml_and_crm_endpoints(self):
         client = self.app.test_client()

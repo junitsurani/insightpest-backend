@@ -397,6 +397,20 @@ def _capture_service_request(arguments, call_sid):
     return {"lead": customer.to_dict(), "message": "Quote request saved for team follow-up."}
 
 
+def _summary_time_phrase(preferred_time):
+    value = str(preferred_time or "").strip()
+    lowered = value.lower()
+    if lowered in {"morning", "afternoon", "evening"}:
+        return f"in the {lowered}"
+    if lowered in {"the morning", "the afternoon", "the evening"}:
+        return f"in {value}"
+    if lowered.startswith(("at ", "in ", "from ", "between ", "before ", "after ", "around ", "by ")):
+        return value
+    if re.search(r"\b(?:to|through|until)\b|[-–—]", value, re.I):
+        return f"from {value}"
+    return f"at {value}"
+
+
 def _book_appointment(arguments, call_sid):
     existing = ServiceAppointment.query.filter_by(twilio_call_sid=call_sid).first()
     if existing:
@@ -454,7 +468,7 @@ def _book_appointment(arguments, call_sid):
     call.intent = "booking"
     call.resolution = "appointment_requested"
     call.error_message = None
-    call.summary = f"Appointment requested for {customer.pest_issue} on {requested_date.isoformat()} at {preferred_time}."
+    call.summary = f"Appointment requested for {customer.pest_issue} on {requested_date.isoformat()} {_summary_time_phrase(preferred_time)}."
     db.session.commit()
     return {"customer": customer.to_dict(), "appointment": appointment.to_dict(), "work_order": work_order.to_dict(), "message": "Appointment and work order saved."}
 
