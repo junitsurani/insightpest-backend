@@ -22,12 +22,18 @@ from app.models import db
 from app.models.user import CRMCustomer, ServiceAppointment, ServiceWorkOrder, VoiceCall
 from app.routes.routes_VoiceAgent import (
     BOOK_APPOINTMENT_FUNCTION,
+    BookingValidationError,
     INSIGHT_PROMPT,
     _append_transcript,
     _book_appointment,
+    _parse_booking_date,
     _capture_service_request,
     _finalize_call,
     _get_or_create_call,
+    _record_tool_failure,
+    _tool_error_response,
+    _voice_agent_prompt,
+    _voice_agent_settings,
     api_voice_agent,
 )
 
@@ -99,6 +105,61 @@ class VoiceCRMFlowTest(unittest.TestCase):
             self.assertEqual(first["appointment"]["id"], second["appointment"]["id"])
             self.assertEqual(ServiceAppointment.query.count(), 1)
             self.assertEqual(ServiceWorkOrder.query.count(), 1)
+
+    def test_relative_dates_are_grounded_and_invalid_dates_are_rejected(self):
+        today = date(2026, 8, 14)  # Friday
+
+        self.assertEqual(_parse_booking_date("tomorrow", today), date(2026, 8, 15))
+        self.assertEqual(_parse_booking_date("next Monday", today), date(2026, 8, 17))
+        self.assertEqual(_parse_booking_date("2026-08-20", today), date(2026, 8, 20))
+
+        for value, code in (("next week", "ambiguous_relative_date"), ("last week", "past_date"), ("2026-08-13", "past_date")):
+            with self.subTest(value=value), self.assertRaises(BookingValidationError) as raised:
+                _parse_booking_date(value, today)
+            self.assertEqual(raised.exception.code, code)
+
+    def test_prompt_is_spoken_only_and_contains_a_live_calendar(self):
+        prompt = _voice_agent_prompt(date(2026, 8, 14))
+        settings = _voice_agent_settings()
+        listener = settings["agent"]["listen"]["provider"]
+
+        self.assertIn("Today is Friday, August 14, 2026", prompt)
+        self.assertIn("Monday, August 17, 2026 = 2026-08-17", prompt)
+        self.assertIn("Never use Markdown", prompt)
+        self.assertIn("read them back once", prompt)
+        self.assertEqual(listener["eot_threshold"], 0.8)
+        self.assertEqual(listener["eot_timeout_ms"], 6000)
+
+    def test_booking_validation_failure_is_visible_and_success_clears_it(self):
+        payload = {
+            "customer_name": "Casey Morgan",
+            "phone": "+1 416 555 0188",
+            "postal_code": "M4B 1B3",
+            "pest_issue": "Mice in basement",
+            "preferred_date": (date.today() + timedelta(days=4)).isoformat(),
+            "preferred_time": "1 PM to 3 PM",
+        }
+        with self.app.app_context():
+            _get_or_create_call("CA_retry", "inbound", payload["phone"], "+14165550100")
+            error = BookingValidationError(
+                "A weekday is required for a request for next week",
+                "ambiguous_relative_date",
+                "Ask which weekday works best.",
+            )
+            _record_tool_failure("CA_retry", "book_appointment", error)
+            failure = VoiceCall.query.filter_by(twilio_call_sid="CA_retry").one()
+            response = _tool_error_response("book_appointment", error)
+
+            self.assertEqual(failure.intent, "booking")
+            self.assertEqual(failure.resolution, "booking_failed")
+            self.assertEqual(response["error_code"], "ambiguous_relative_date")
+            self.assertIn("upcoming_calendar", response)
+
+            booking = _book_appointment(payload, "CA_retry")
+            recovered = VoiceCall.query.filter_by(twilio_call_sid="CA_retry").one()
+            self.assertEqual(booking["appointment"]["status"], "requested")
+            self.assertEqual(recovered.resolution, "appointment_requested")
+            self.assertIsNone(recovered.error_message)
 
     def test_faq_conversation_is_recorded_as_answered(self):
         with self.app.app_context():
