@@ -20,7 +20,16 @@ os.environ.update({
 
 from app.models import db
 from app.models.user import CRMCustomer, ServiceAppointment, ServiceWorkOrder, VoiceCall
-from app.routes.routes_VoiceAgent import _book_appointment, _capture_service_request, _get_or_create_call, api_voice_agent
+from app.routes.routes_VoiceAgent import (
+    BOOK_APPOINTMENT_FUNCTION,
+    INSIGHT_PROMPT,
+    _append_transcript,
+    _book_appointment,
+    _capture_service_request,
+    _finalize_call,
+    _get_or_create_call,
+    api_voice_agent,
+)
 
 
 class VoiceCRMFlowTest(unittest.TestCase):
@@ -72,6 +81,42 @@ class VoiceCRMFlowTest(unittest.TestCase):
             self.assertEqual(ServiceAppointment.query.count(), 1)
             self.assertEqual(ServiceWorkOrder.query.count(), 1)
             self.assertIsNotNone(VoiceCall.query.filter_by(twilio_call_sid="CA_book").one().work_order_id)
+
+    def test_booking_is_idempotent_for_one_twilio_call(self):
+        payload = {
+            "customer_name": "Sam Carter",
+            "phone": "+1 647 555 0198",
+            "postal_code": "M4B 1B3",
+            "pest_issue": "Wasps near the front entry",
+            "preferred_date": (date.today() + timedelta(days=3)).isoformat(),
+            "preferred_time": "1:00 PM–3:00 PM",
+        }
+        with self.app.app_context():
+            _get_or_create_call("CA_once", "inbound", payload["phone"], "+14165550100")
+            first = _book_appointment(payload, "CA_once")
+            second = _book_appointment(payload, "CA_once")
+
+            self.assertEqual(first["appointment"]["id"], second["appointment"]["id"])
+            self.assertEqual(ServiceAppointment.query.count(), 1)
+            self.assertEqual(ServiceWorkOrder.query.count(), 1)
+
+    def test_faq_conversation_is_recorded_as_answered(self):
+        with self.app.app_context():
+            _get_or_create_call("CA_faq", "inbound", "+14165550177", "+14165550100")
+            _append_transcript("CA_faq", "user", "Do you treat ants and spiders?")
+            _append_transcript("CA_faq", "assistant", "Yes, Insight treats ants, spiders, and other common household pests.")
+            _finalize_call("CA_faq")
+
+            call = VoiceCall.query.filter_by(twilio_call_sid="CA_faq").one()
+            self.assertEqual(call.intent, "faq")
+            self.assertEqual(call.resolution, "answered")
+            self.assertIsNotNone(call.duration_seconds)
+            self.assertIn("ants", INSIGHT_PROMPT.lower())
+            self.assertNotIn("client_side", BOOK_APPOINTMENT_FUNCTION)
+            self.assertEqual(
+                set(BOOK_APPOINTMENT_FUNCTION["parameters"]["required"]),
+                {"customer_name", "phone", "postal_code", "pest_issue", "preferred_date", "preferred_time"},
+            )
 
     def test_inbound_twiml_and_crm_endpoints(self):
         client = self.app.test_client()

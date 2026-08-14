@@ -580,11 +580,17 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
             ping_interval=20,
             ping_timeout=20,
         ) as deepgram_ws:
+            deepgram_send_lock = asyncio.Lock()
+
+            async def send_deepgram(message):
+                async with deepgram_send_lock:
+                    await deepgram_ws.send(message)
+
             welcome = json.loads(await asyncio.wait_for(deepgram_ws.recv(), timeout=10))
             if welcome.get("type") != "Welcome":
                 raise RuntimeError("Deepgram did not acknowledge the voice session")
             settings = _voice_agent_settings()
-            await deepgram_ws.send(json.dumps(settings))
+            await send_deepgram(json.dumps(settings))
             settings_applied = json.loads(await asyncio.wait_for(deepgram_ws.recv(), timeout=10))
             if settings_applied.get("type") != "SettingsApplied":
                 raise RuntimeError(settings_applied.get("description") or "Deepgram did not apply the voice settings")
@@ -620,7 +626,12 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
 
             async def send_to_deepgram():
                 while True:
-                    await deepgram_ws.send(await audio_queue.get())
+                    await send_deepgram(await audio_queue.get())
+
+            async def keep_deepgram_alive():
+                while True:
+                    await asyncio.sleep(5)
+                    await send_deepgram(json.dumps({"type": "KeepAlive"}))
 
             async def receive_deepgram():
                 async for message in deepgram_ws:
@@ -659,11 +670,16 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
                             response = {"type": "FunctionCallResponse", "id": function_id, "name": name, "content": content}
                             if function_call.get("thought_signature"):
                                 response["thought_signature"] = function_call["thought_signature"]
-                            await deepgram_ws.send(json.dumps(response))
+                            await send_deepgram(json.dumps(response))
                     elif event_type == "Error":
                         raise RuntimeError(event.get("description") or "Deepgram voice agent error")
 
-            tasks = [asyncio.create_task(receive_twilio()), asyncio.create_task(send_to_deepgram()), asyncio.create_task(receive_deepgram())]
+            tasks = [
+                asyncio.create_task(receive_twilio()),
+                asyncio.create_task(send_to_deepgram()),
+                asyncio.create_task(receive_deepgram()),
+                asyncio.create_task(keep_deepgram_alive()),
+            ]
             done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
             for task in pending:
                 task.cancel()
