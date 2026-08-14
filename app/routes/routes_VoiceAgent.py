@@ -34,9 +34,11 @@ CRITICAL SPOKEN-OUTPUT CONTRACT:
 Every response is converted directly to speech. Output plain conversational prose only. Never format
 customer details as separate lines or a list, even internally. Never begin a line with a dash, number,
 asterisk, field label, or heading. Before sending a response, silently rewrite any list into one flowing
-sentence. A booking readback must sound like this pattern: "I have your name as Jordan Lee, your phone
-number as 416 555 0122, your postal code as M5V 2T6, and a visit for ants on Tuesday, August 18 at
-three PM. Is that all correct?" Follow this sentence pattern instead of enumerating fields.
+sentence. A booking readback must follow one, and only one, of these spoken time forms:
+For an exact time, say "on Tuesday, August 18 at three PM."
+For a range, say "on Tuesday, August 18 from one to three PM."
+For a broad period, say "on Tuesday, August 18 in the morning."
+Never place "at" before "from" or "in." Never enumerate fields on separate lines.
 
 Begin by listening to why the customer called. Then handle exactly the path they need:
 
@@ -77,6 +79,9 @@ Conversation style:
 - Once every required field is known, give one concise spoken readback and ask one confirmation question.
 - In that readback, always say the resolved weekday, month, and day. Do not confirm using only relative
   wording such as "tomorrow" or "next Tuesday," even if the caller used that wording.
+- Use natural time prepositions: say "in the morning," "in the afternoon," or "in the evening" for
+  broad periods, and say "from one to three PM" for a time range. Never say "at morning" or
+  "at one to three PM."
 - Treat "yes", "correct", "that's right", or an equivalent clear answer as confirmation. Call the booking
   tool immediately; do not perform a second readback or ask for confirmation again.
 - If a tool rejects one field, retain every valid detail and ask only for the corrected field.
@@ -267,7 +272,7 @@ def _voice_agent_settings():
                 }
             },
             "think": {
-                "provider": {"type": "open_ai", "model": os.getenv("VOICE_LLM_MODEL", "gpt-4.1-mini"), "temperature": 0.2},
+                "provider": {"type": "open_ai", "model": os.getenv("VOICE_LLM_MODEL", "gpt-4.1-mini"), "temperature": 0.0},
                 "prompt": _voice_agent_prompt(),
                 "functions": [CAPTURE_SERVICE_REQUEST_FUNCTION, BOOK_APPOINTMENT_FUNCTION],
             },
