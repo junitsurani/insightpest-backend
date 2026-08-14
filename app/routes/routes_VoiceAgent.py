@@ -70,7 +70,6 @@ COMMON_PROPERTIES = {
 CAPTURE_SERVICE_REQUEST_FUNCTION = {
     "name": "capture_service_request",
     "description": "Create or update a qualified CRM lead after the caller agrees to a quote follow-up.",
-    "client_side": True,
     "parameters": {
         "type": "object",
         "properties": COMMON_PROPERTIES,
@@ -81,7 +80,6 @@ CAPTURE_SERVICE_REQUEST_FUNCTION = {
 BOOK_APPOINTMENT_FUNCTION = {
     "name": "book_appointment",
     "description": "Create a customer, appointment request, and work order only after explicit caller confirmation.",
-    "client_side": True,
     "parameters": {
         "type": "object",
         "properties": {
@@ -92,6 +90,28 @@ BOOK_APPOINTMENT_FUNCTION = {
         "required": ["customer_name", "phone", "postal_code", "pest_issue", "preferred_date", "preferred_time"],
     },
 }
+
+
+def _voice_agent_settings():
+    """Build the exact Deepgram configuration used for every inbound call."""
+    return {
+        "type": "Settings",
+        "tags": ["insight-pest", "inbound"],
+        "audio": {
+            "input": {"encoding": "mulaw", "sample_rate": 8000},
+            "output": {"encoding": "mulaw", "sample_rate": 8000, "container": "none"},
+        },
+        "agent": {
+            "listen": {"provider": {"type": "deepgram", "model": "flux-general-en", "version": "v2"}},
+            "think": {
+                "provider": {"type": "open_ai", "model": os.getenv("VOICE_LLM_MODEL", "gpt-4o-mini"), "temperature": 0.2},
+                "prompt": INSIGHT_PROMPT,
+                "functions": [CAPTURE_SERVICE_REQUEST_FUNCTION, BOOK_APPOINTMENT_FUNCTION],
+            },
+            "speak": {"provider": {"type": "deepgram", "model": os.getenv("VOICE_MODEL", "aura-2-thalia-en")}},
+            "greeting": "Thank you for calling Insight Pest Solutions Canada. I'm Avery, the automated assistant. Please tell me what is happening and how I can help.",
+        },
+    }
 
 
 def _public_base_url():
@@ -285,6 +305,8 @@ def _finalize_call(call_sid, error=None):
     if not call:
         return
     call.ended_at = call.ended_at or datetime.utcnow()
+    if call.duration_seconds is None and call.started_at:
+        call.duration_seconds = max(0, int((call.ended_at - call.started_at).total_seconds()))
     call.status = "failed" if error else "completed"
     call.error_message = str(error)[:1000] if error else call.error_message
     if not call.intent:
@@ -304,7 +326,7 @@ def voice_status():
     return jsonify({
         "configured": configured,
         "missing": missing if not configured else [],
-        "phone_number": os.getenv("TWILIO_PHONE_NUMBER") if configured else None,
+        "phone_number": _normalize_phone(os.getenv("TWILIO_PHONE_NUMBER")) or None,
         "inbound_webhook": f"{_public_base_url()}/api/voice/incoming" if _public_base_url() else None,
     })
 
@@ -561,24 +583,7 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
             welcome = json.loads(await asyncio.wait_for(deepgram_ws.recv(), timeout=10))
             if welcome.get("type") != "Welcome":
                 raise RuntimeError("Deepgram did not acknowledge the voice session")
-            settings = {
-                "type": "Settings",
-                "tags": ["insight-pest", "inbound"],
-                "audio": {
-                    "input": {"encoding": "mulaw", "sample_rate": 8000},
-                    "output": {"encoding": "mulaw", "sample_rate": 8000, "container": "none"},
-                },
-                "agent": {
-                    "listen": {"provider": {"type": "deepgram", "model": "flux-general-en", "version": "v2"}},
-                    "think": {
-                        "provider": {"type": "open_ai", "model": os.getenv("VOICE_LLM_MODEL", "gpt-4o-mini"), "temperature": 0.2},
-                        "prompt": INSIGHT_PROMPT,
-                        "functions": [CAPTURE_SERVICE_REQUEST_FUNCTION, BOOK_APPOINTMENT_FUNCTION],
-                    },
-                    "speak": {"provider": {"type": "deepgram", "model": os.getenv("VOICE_MODEL", "aura-2-thalia-en")}},
-                    "greeting": "Thank you for calling Insight Pest Solutions Canada. I'm Avery, the automated assistant. Please tell me what is happening and how I can help.",
-                },
-            }
+            settings = _voice_agent_settings()
             await deepgram_ws.send(json.dumps(settings))
             settings_applied = json.loads(await asyncio.wait_for(deepgram_ws.recv(), timeout=10))
             if settings_applied.get("type") != "SettingsApplied":
