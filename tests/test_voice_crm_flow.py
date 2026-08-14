@@ -120,15 +120,22 @@ class VoiceCRMFlowTest(unittest.TestCase):
 
     def test_prompt_is_spoken_only_and_contains_a_live_calendar(self):
         prompt = _voice_agent_prompt(date(2026, 8, 14))
+        compact_prompt = " ".join(prompt.split())
         settings = _voice_agent_settings()
         listener = settings["agent"]["listen"]["provider"]
 
         self.assertIn("Today is Friday, August 14, 2026", prompt)
         self.assertIn("Monday, August 17, 2026 = 2026-08-17", prompt)
         self.assertIn("Never use Markdown", prompt)
+        self.assertIn("CRITICAL SPOKEN-OUTPUT CONTRACT", prompt)
+        self.assertIn("rewrite any list into one flowing sentence", compact_prompt)
+        self.assertIn("Preserve the caller's complete full name exactly", prompt)
+        self.assertIn("always say the resolved weekday, month, and day", prompt)
+        self.assertIn("never spend a separate turn requesting an optional field", compact_prompt)
         self.assertIn("read them back once", prompt)
         self.assertEqual(listener["eot_threshold"], 0.8)
         self.assertEqual(listener["eot_timeout_ms"], 6000)
+        self.assertEqual(settings["agent"]["think"]["provider"]["model"], "gpt-4.1-mini")
 
     def test_booking_validation_failure_is_visible_and_success_clears_it(self):
         payload = {
@@ -200,6 +207,10 @@ class VoiceCRMFlowTest(unittest.TestCase):
             "/api/voice/status",
         ):
             self.assertEqual(client.get(path).status_code, 200)
+
+        status = client.get("/api/voice/status").get_json()
+        self.assertEqual(status["llm_model"], "gpt-4.1-mini")
+        self.assertEqual(status["timezone"], "America/Toronto")
 
     def test_crm_requires_a_valid_signed_session(self):
         client = self.app.test_client()
