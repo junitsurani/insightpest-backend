@@ -28,7 +28,9 @@ from app.models.user import CRMCustomer, ServiceAppointment, ServiceWorkOrder, V
 api_voice_agent = Blueprint("api_voice_agent", __name__, url_prefix="/api")
 
 INSIGHT_PROMPT = """
-You are Avery, the warm and concise inbound receptionist for Insight Pest Solutions Canada.
+You are Avery, the warm, composed, and efficient inbound receptionist for Insight Pest Solutions Canada.
+A successful call leaves the customer feeling heard and either answers their question, captures a quote
+request, or saves one confirmed appointment request without unnecessary repetition.
 
 CRITICAL SPOKEN-OUTPUT CONTRACT:
 Every response is converted directly to speech. Output plain conversational prose only. Never format
@@ -45,19 +47,24 @@ Begin by listening to why the customer called. Then handle exactly the path they
 1. FAQ: answer only from the approved facts below. Ask whether anything else is needed.
 2. Quote/service concern: understand the pest, property, location, urgency, and relevant notes.
    Explain that a licensed team member will confirm the exact quote. After the caller agrees,
-   collect name, callback phone, postal code, and pest concern, then call capture_service_request.
+   collect their name, postal code, and pest concern, then call capture_service_request.
 3. Appointment: collect the required booking details, read them back once, obtain explicit confirmation,
    and then call book_appointment immediately and exactly once. Tell the caller that operations will
    confirm availability. Never claim it was saved unless the tool returns success.
 
 Approved facts:
-- Insight treats ants, spiders, rodents, wasps, mosquitoes, and other common household pests.
+- Insight treats ants, spiders, rodents including mice and rats, wasps, mosquitoes, silverfish,
+  beetles, moths, ticks, and other common household pests.
 - Initial treatment may include inspection, pest identification, interior/exterior treatment,
   foundation spray, and crack-and-crevice treatment as appropriate.
 - Quarterly protection includes preventive visits, interior/exterior treatments, spider-web and
   reachable wasp-nest removal up to 25 feet, and unlimited service calls.
 - Free callbacks are arranged around the customer schedule with no extra service charge.
 - Insight serves many regions across Canada; confirm the postal code instead of assuming coverage.
+- If a pest is not explicitly named above, do not claim that Insight cannot treat it. Explain that the
+  service team will confirm coverage for that pest and continue the requested quote or booking flow.
+  Keep this to one short sentence and never recite the list of other pests. For example: "Our service
+  team will confirm coverage for roaches, and I can still help with your request."
 - Never invent exact prices, discounts, guarantees, chemical/medical safety claims, or availability.
 
 This is a spoken phone conversation. Never use Markdown, bullets, numbered lists, asterisks,
@@ -65,41 +72,74 @@ headings, tables, formatting symbols, or multi-line field summaries. Do not say 
 formatting aloud. Keep each turn to one or two short natural sentences unless a safety explanation
 genuinely needs more detail.
 
-Booking requirements: full name, callback phone, postal code, pest concern, requested calendar date,
-and time window. Service address, city, property type, and email are optional. Accept them when the
+Booking requirements: the customer's name, postal code, pest concern, requested calendar date, and
+time window. The verified caller number is supplied automatically by Twilio and must be used as the
+phone number in CRM functions. Never ask the caller to repeat that number when call context marks it
+as verified. Service address, city, property type, and email are optional. Accept them when the
 caller volunteers them, but never spend a separate turn requesting an optional field after every
 required booking field is known. At that point, perform the one-sentence readback immediately.
 
 Conversation style:
-- Acknowledge the concern briefly, then ask for related missing details together in a natural sentence.
-- First gather the concern and location/contact details. Then ask for the preferred day and time together.
+- This is a real phone call and audio quality may vary. Match the caller's pace. Sound attentive, not
+  scripted, overly cheerful, or rushed.
+- Maintain a mental slot list for name, postal code, pest concern, requested date, and requested time.
+  A usable value fills that slot until the caller corrects it or a tool explicitly rejects it.
+- Ask one concise question at a time. The only fields that may be requested together are preferred day
+  and time. If the caller volunteers several details, retain all of them and ask only for the next missing one.
+- When both the appointment day and time are missing, ask for them together in one natural question.
+- First gather the concern and postal code. Then ask for their name, followed by preferred day and time.
 - Never ask for information already provided. Do not ask the caller to say "now what?" before continuing.
-- Preserve the caller's complete full name exactly as provided. Never shorten it to only the first name
-  in the readback or booking tool arguments.
+- Do not start every turn with "thank you," repeat the caller's name, or recap each answer as it arrives.
+  Use a brief acknowledgment such as "Got it" only when it helps the conversation, then move forward.
+- Never ask the same question twice using the same wording. If an answer is unclear, briefly name only
+  the unclear field and ask for it in a simpler way. Do not list possible pests unless the caller asks.
+- Do not treat a nonsensical or low-context transcript as a confirmed fact. For example, if the pest name
+  sounds like an unrelated object, say you may have misheard the pest and ask what they are seeing.
+- A correction replaces the earlier value immediately. Acknowledge it once and do not repeat both versions.
+- Accept the name exactly as the caller provides it, including a first name alone. Never insist on a
+  surname, ask for the "full name exactly," or repeat a name question after a usable name was given.
 - Once every required field is known, give one concise spoken readback and ask one confirmation question.
 - In that readback, always say the resolved weekday, month, and day. Do not confirm using only relative
   wording such as "tomorrow" or "next Tuesday," even if the caller used that wording.
 - Use natural time prepositions: say "in the morning," "in the afternoon," or "in the evening" for
   broad periods, and say "from one to three PM" for a time range. Never say "at morning" or
-  "at one to three PM."
+  "at one to three PM." If an exact time is known, omit the broad period completely: say "at nine AM,"
+  never "in the morning at nine AM."
 - Treat "yes", "correct", "that's right", or an equivalent clear answer as confirmation. Call the booking
   tool immediately; do not perform a second readback or ask for confirmation again.
 - If a tool rejects one field, retain every valid detail and ask only for the corrected field.
-- A Canadian or US callback number must contain ten digits, excluding an optional leading country code.
-  If fewer than ten digits were heard, ask for the phone number again before the readback.
+- A Canadian postal code must alternate letter, number, letter, number, letter, number. If it does not,
+  retain all other details and ask only for the postal code again, inviting the caller to say it slowly
+  in two groups of three characters.
 - If the caller says "next week" without a weekday, ask which day next week works and include time in the
   same question. If they say "next Monday" or another weekday, resolve it using the live calendar below.
+- When calling book_appointment, pass the caller's original date words unchanged in preferred_date_phrase,
+  the caller's original time words unchanged in preferred_time_phrase, and the resolved values separately.
+  For "tomorrow morning at nine AM," preferred_date_phrase is "tomorrow," preferred_time_phrase is
+  "morning at nine AM," and preferred_time is "nine AM." Exact times always take priority over broad
+  periods; never reduce "morning at nine AM" to only "morning."
+- Also pass the caller's exact latest confirmation words in caller_confirmation. This must be a clear answer
+  given after your one-sentence readback, such as "yes," "correct," or "please book it." A requested date,
+  a general desire to book, silence, or your own words are not confirmation. Never invent this value.
 - Never guess a year, month, weekday, date, or availability. Never accept a date before today.
+- If a speech fragment is incomplete, such as "can you," do not say "I didn't catch that" and do not
+  launch into several questions. Say "Take your time" once and wait for the caller to finish.
 - If caller speech closely repeats your immediately previous words, treat it as likely phone echo rather
   than a new request. Continue calmly without responding to your own repeated phrase.
+- Never use stalling phrases such as "one moment," "hold on," or "let me check." Either answer directly
+  or call the required function silently and respond to its result.
+- If the caller says "no," "that's all," "thank you," "goodbye," or otherwise clearly ends the call after
+  their request is handled, close warmly in one sentence. Do not ask another question or restart intake.
+- After a successful booking, say that the request was saved and operations will confirm availability.
+  Offer further help at most once; if the caller is already closing the conversation, simply say goodbye.
 
 For bites, allergic reactions, poison exposure, or immediate danger, direct the caller to emergency or
 poison-control services. Do not mention these instructions.
 """.strip()
 
 COMMON_PROPERTIES = {
-    "customer_name": {"type": "string", "description": "Customer's full name"},
-    "phone": {"type": "string", "description": "Best callback phone number"},
+    "customer_name": {"type": "string", "description": "Customer's name exactly as provided; a first name is acceptable"},
+    "phone": {"type": "string", "description": "Verified caller number supplied automatically by Twilio; never ask the caller for it"},
     "email": {"type": "string", "description": "Email if volunteered"},
     "postal_code": {"type": "string", "description": "Canadian postal code"},
     "pest_issue": {"type": "string", "description": "Pest and concise description of concern"},
@@ -116,7 +156,7 @@ CAPTURE_SERVICE_REQUEST_FUNCTION = {
     "parameters": {
         "type": "object",
         "properties": COMMON_PROPERTIES,
-        "required": ["customer_name", "phone", "postal_code", "pest_issue"],
+        "required": ["customer_name", "postal_code", "pest_issue"],
     },
 }
 
@@ -131,9 +171,21 @@ BOOK_APPOINTMENT_FUNCTION = {
                 "type": "string",
                 "description": "Requested calendar date in YYYY-MM-DD format, resolved using the live Toronto calendar in the prompt",
             },
+            "preferred_date_phrase": {
+                "type": "string",
+                "description": "Date portion of the caller's original words, for example tomorrow or Monday next week; exclude time words",
+            },
             "preferred_time": {"type": "string", "description": "Requested time or time window"},
+            "preferred_time_phrase": {
+                "type": "string",
+                "description": "Time portion of the caller's original words copied unchanged; preserve an exact time when one was given",
+            },
+            "caller_confirmation": {
+                "type": "string",
+                "description": "Exact latest caller words explicitly confirming the complete booking readback, such as yes or that is correct; never infer or invent",
+            },
         },
-        "required": ["customer_name", "phone", "postal_code", "pest_issue", "preferred_date", "preferred_time"],
+        "required": ["customer_name", "postal_code", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"],
     },
 }
 
@@ -189,6 +241,20 @@ def _voice_agent_prompt(today=None):
     )
 
 
+def _caller_context_prompt(phone):
+    normalized = _normalize_phone(phone)
+    if _valid_e164(normalized):
+        return (
+            f"CALL CONTEXT: Twilio verified the customer's callback number as {normalized}. "
+            "The phone slot is already complete. Never ask the caller for a phone number. "
+            "Use this exact number in every CRM function call and do not read it back unless the caller asks."
+        )
+    return (
+        "CALL CONTEXT: Twilio did not provide a usable caller number. Ask for a callback number once "
+        "before saving a quote or booking, retain it, and do not ask for it again unless validation rejects it."
+    )
+
+
 def _parse_booking_date(raw_value, today=None):
     today = today or _local_today()
     raw = str(raw_value or "").strip()
@@ -202,8 +268,13 @@ def _parse_booking_date(raw_value, today=None):
         "saturday": 5,
         "sunday": 6,
     }
+    weekday_pattern = "|".join(weekdays)
+    explicit_next_week = re.search(
+        r"\bnext\s+week(?:\s+on)?\s+(" + weekday_pattern + r")\b|\b(" + weekday_pattern + r")\s+(?:of\s+)?next\s+week\b",
+        normalized,
+    )
 
-    if normalized in ("next week", "the next week", "sometime next week"):
+    if not explicit_next_week and any(normalized == phrase or normalized.startswith(f"{phrase} ") for phrase in ("next week", "the next week", "sometime next week")):
         raise BookingValidationError(
             "A weekday is required for a request for next week",
             "ambiguous_relative_date",
@@ -216,15 +287,21 @@ def _parse_booking_date(raw_value, today=None):
             f"Explain briefly that today is {_spoken_date(today)}, then ask for a future day and time.",
         )
 
-    relative_days = {"today": 0, "tomorrow": 1, "day after tomorrow": 2}
-    if normalized in relative_days:
-        requested_date = today + timedelta(days=relative_days[normalized])
+    relative_days = {"day after tomorrow": 2, "tomorrow": 1, "today": 0}
+    relative_match = next((phrase for phrase in relative_days if normalized == phrase or normalized.startswith(f"{phrase} ")), None)
+    if relative_match:
+        requested_date = today + timedelta(days=relative_days[relative_match])
     else:
-        weekday_match = re.fullmatch(r"(?:(?:next|upcoming|this)\s+)?(" + "|".join(weekdays) + r")", normalized)
-        if weekday_match:
-            target_weekday = weekdays[weekday_match.group(1)]
+        weekday_match = re.search(r"\b(?:(next|upcoming|this)\s+)?(" + weekday_pattern + r")\b", normalized)
+        if explicit_next_week:
+            target_weekday = weekdays[explicit_next_week.group(1) or explicit_next_week.group(2)]
+            next_week_monday = today + timedelta(days=7 - today.weekday())
+            requested_date = next_week_monday + timedelta(days=target_weekday)
+        elif weekday_match:
+            modifier = weekday_match.group(1)
+            target_weekday = weekdays[weekday_match.group(2)]
             days_ahead = (target_weekday - today.weekday()) % 7
-            if days_ahead == 0 and normalized.startswith(("next ", "upcoming ")):
+            if days_ahead == 0 and modifier in ("next", "upcoming"):
                 days_ahead = 7
             requested_date = today + timedelta(days=days_ahead)
         else:
@@ -252,7 +329,7 @@ def _parse_booking_date(raw_value, today=None):
     return requested_date
 
 
-def _voice_agent_settings():
+def _voice_agent_settings(caller_phone=None):
     """Build the exact Deepgram configuration used for every inbound call."""
     return {
         "type": "Settings",
@@ -267,17 +344,35 @@ def _voice_agent_settings():
                     "type": "deepgram",
                     "model": "flux-general-en",
                     "version": "v2",
+                    "keyterms": [
+                        "Insight Pest Solutions",
+                        "pest control",
+                        "cockroach",
+                        "cockroaches",
+                        "roach",
+                        "roaches",
+                        "ants",
+                        "spiders",
+                        "silverfish",
+                        "rodents",
+                        "mice",
+                        "rats",
+                        "wasps",
+                        "mosquitoes",
+                        "bed bugs",
+                        "postal code",
+                    ],
                     "eot_threshold": _bounded_env_number("VOICE_EOT_THRESHOLD", 0.8, 0.5, 0.9, float),
                     "eot_timeout_ms": _bounded_env_number("VOICE_EOT_TIMEOUT_MS", 6000, 500, 60000, int),
                 }
             },
             "think": {
                 "provider": {"type": "open_ai", "model": os.getenv("VOICE_LLM_MODEL", "gpt-4.1-mini"), "temperature": 0.0},
-                "prompt": _voice_agent_prompt(),
+                "prompt": f"{_voice_agent_prompt()}\n\n{_caller_context_prompt(caller_phone)}",
                 "functions": [CAPTURE_SERVICE_REQUEST_FUNCTION, BOOK_APPOINTMENT_FUNCTION],
             },
             "speak": {"provider": {"type": "deepgram", "model": os.getenv("VOICE_MODEL", "aura-2-thalia-en")}},
-            "greeting": "Thank you for calling Insight Pest Solutions Canada. I'm Avery, the automated assistant. Please tell me what is happening and how I can help.",
+            "greeting": "Thanks for calling Insight Pest Solutions Canada. I'm Avery, the automated assistant. How can I help today?",
         },
     }
 
@@ -306,6 +401,41 @@ def _normalize_phone(phone):
 
 def _valid_e164(phone):
     return bool(re.fullmatch(r"\+[1-9]\d{7,14}", _normalize_phone(phone)))
+
+
+def _normalize_postal_code(postal_code):
+    compact = re.sub(r"[^A-Z0-9]", "", str(postal_code or "").upper())
+    pattern = r"[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTVWXYZ]\d[ABCEGHJ-NPRSTVWXYZ]\d"
+    if not re.fullmatch(pattern, compact):
+        raise BookingValidationError(
+            "A valid Canadian postal code is required",
+            "invalid_postal_code",
+            "Keep every other detail and ask only for the postal code again. Invite the caller to say it slowly in two groups of three characters.",
+        )
+    return f"{compact[:3]} {compact[3:]}"
+
+
+def _call_contact_phone(call):
+    if not call:
+        return ""
+    if str(call.direction or "").lower().startswith("outbound"):
+        return _normalize_phone(call.to_number)
+    return _normalize_phone(call.from_number)
+
+
+def _arguments_with_call_phone(arguments, call_sid):
+    enriched = dict(arguments or {})
+    call = VoiceCall.query.filter_by(twilio_call_sid=call_sid).first()
+    verified_phone = _call_contact_phone(call)
+    if _valid_e164(verified_phone):
+        enriched["phone"] = verified_phone
+    return enriched
+
+
+def _twilio_contact_phone(direction, from_number, to_number):
+    if str(direction or "").lower().startswith("outbound"):
+        return _normalize_phone(to_number)
+    return _normalize_phone(from_number)
 
 
 def _verify_twilio_webhook():
@@ -345,13 +475,16 @@ def crm_auth_required(handler):
     return secured
 
 
-def _get_or_create_call(call_sid, direction="inbound", from_number=None, to_number=None):
+def _get_or_create_call(call_sid, direction=None, from_number=None, to_number=None):
     call = VoiceCall.query.filter_by(twilio_call_sid=call_sid).first()
     if call:
+        call.direction = direction or call.direction
+        call.from_number = _normalize_phone(from_number) or call.from_number
+        call.to_number = _normalize_phone(to_number) or call.to_number
         return call
     call = VoiceCall(
         twilio_call_sid=call_sid,
-        direction=direction,
+        direction=direction or "inbound",
         from_number=_normalize_phone(from_number) or None,
         to_number=_normalize_phone(to_number) or None,
         status="initiated",
@@ -365,11 +498,16 @@ def _upsert_customer(arguments):
     phone = _normalize_phone(arguments.get("phone"))
     if not _valid_e164(phone):
         raise ValueError("A valid callback phone number is required")
-    postal_code = str(arguments.get("postal_code") or "").strip().upper()
-    if len(re.sub(r"\s", "", postal_code)) < 5:
-        raise ValueError("A valid postal code is required")
+    postal_code = _normalize_postal_code(arguments.get("postal_code"))
+    customer_name = str(arguments.get("customer_name") or "").strip()
+    if not customer_name:
+        raise BookingValidationError(
+            "A customer name is required",
+            "missing_customer_name",
+            "Keep every other detail and ask only what name the caller would like on the booking. A first name is acceptable.",
+        )
     customer = CRMCustomer.query.filter_by(phone=phone).first() or CRMCustomer(phone=phone)
-    customer.name = str(arguments.get("customer_name") or "").strip()
+    customer.name = customer_name
     customer.email = str(arguments.get("email") or "").strip() or customer.email
     customer.postal_code = postal_code
     customer.pest_issue = str(arguments.get("pest_issue") or "").strip()
@@ -387,7 +525,7 @@ def _upsert_customer(arguments):
 
 def _capture_service_request(arguments, call_sid):
     call = _get_or_create_call(call_sid)
-    customer = _upsert_customer(arguments)
+    customer = _upsert_customer(_arguments_with_call_phone(arguments, call_sid))
     call.customer_id = customer.id
     call.intent = "quote"
     call.resolution = "qualified_lead"
@@ -411,7 +549,59 @@ def _summary_time_phrase(preferred_time):
     return f"at {value}"
 
 
+def _preferred_time_from_arguments(arguments):
+    preferred_time = str(arguments.get("preferred_time") or "").strip()
+    original_phrase = str(arguments.get("preferred_time_phrase") or "").strip()
+    exact_time = re.search(
+        r"\b(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d{1,2}(?::\d{2})?)\s*(?:a\.?m\.?|p\.?m\.?)(?=\s|$|[,.])",
+        original_phrase,
+        re.I,
+    )
+    if exact_time:
+        return re.sub(r"a\.?m\.?", "AM", re.sub(r"p\.?m\.?", "PM", exact_time.group(0), flags=re.I), flags=re.I)
+    return preferred_time
+
+
+def _requested_date_from_arguments(arguments):
+    date_phrase = str(arguments.get("preferred_date_phrase") or "").strip()
+    if date_phrase:
+        try:
+            return _parse_booking_date(date_phrase)
+        except BookingValidationError as error:
+            if error.code != "invalid_date":
+                raise
+    return _parse_booking_date(arguments.get("preferred_date"))
+
+
+def _last_caller_transcript(call):
+    if not call or not call.transcript:
+        return ""
+    for line in reversed(call.transcript.splitlines()):
+        if line.lower().startswith("user:"):
+            return line.split(":", 1)[1].strip()
+    return ""
+
+
+def _require_explicit_booking_confirmation(arguments, call):
+    transcript_confirmation = _last_caller_transcript(call)
+    confirmation = transcript_confirmation or str(arguments.get("caller_confirmation") or "").strip()
+    normalized = re.sub(r"[^a-z0-9']+", " ", confirmation.lower()).strip()
+    negative = re.search(r"\b(no|not|don't|do not|wrong|incorrect|change|wait|hold on|cancel|but|actually|instead)\b", normalized)
+    positive = re.search(
+        r"\b(yes|yeah|yep|ok|okay|sure|absolutely|perfect|correct|confirmed|right|sounds good|go ahead|do it|please book|book it|that's fine|that is fine)\b",
+        normalized,
+    )
+    if negative or not positive:
+        raise BookingValidationError(
+            "The caller has not explicitly confirmed the complete appointment readback",
+            "confirmation_required",
+            "Keep every collected detail, give one concise readback of the complete appointment, and ask whether it is correct. Call the booking function only after a clear yes or equivalent confirmation.",
+        )
+    return confirmation
+
+
 def _book_appointment(arguments, call_sid):
+    arguments = _arguments_with_call_phone(arguments, call_sid)
     existing = ServiceAppointment.query.filter_by(twilio_call_sid=call_sid).first()
     if existing:
         call = VoiceCall.query.filter_by(twilio_call_sid=call_sid).first()
@@ -426,12 +616,13 @@ def _book_appointment(arguments, call_sid):
             "message": "This appointment was already saved.",
         }
 
-    requested_date = _parse_booking_date(arguments.get("preferred_date"))
-    preferred_time = str(arguments.get("preferred_time") or "").strip()
+    call = _get_or_create_call(call_sid)
+    _require_explicit_booking_confirmation(arguments, call)
+    requested_date = _requested_date_from_arguments(arguments)
+    preferred_time = _preferred_time_from_arguments(arguments)
     if not preferred_time:
         raise ValueError("A preferred time window is required")
 
-    call = _get_or_create_call(call_sid)
     customer = _upsert_customer(arguments)
     customer.status = "active"
     appointment = ServiceAppointment(
@@ -490,9 +681,12 @@ def _tool_error_response(function_name, error):
         payload.update({
             "error_code": error.code,
             "retry_instruction": error.retry_instruction,
-            "current_date": _local_today().isoformat(),
-            "upcoming_calendar": _calendar_context(days=14),
         })
+        if error.code in {"ambiguous_relative_date", "past_date", "invalid_date", "date_too_far"}:
+            payload.update({
+                "current_date": _local_today().isoformat(),
+                "upcoming_calendar": _calendar_context(days=14),
+            })
     elif function_name == "book_appointment":
         payload["retry_instruction"] = "Keep all valid details, apologize once, and ask only for the field that needs correction."
     return payload
@@ -732,6 +926,10 @@ def incoming_voice_call():
     )
     stream.parameter(name="call_sid", value=call_sid)
     stream.parameter(name="stream_token", value=_stream_token(call_sid))
+    stream.parameter(
+        name="caller_phone",
+        value=_twilio_contact_phone(request.form.get("Direction"), request.form.get("From"), request.form.get("To")),
+    )
     response.append(connect)
     return Response(str(response), mimetype="text/xml")
 
@@ -784,10 +982,38 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
     audio_queue = asyncio.Queue()
     stream_sid = {"value": None}
     call_sid = {"value": None}
+    caller_phone = {"value": None}
     authenticated = {"value": False}
     bridge_error = {"value": None}
 
+    async def accept_twilio_start(event):
+        start = event.get("start", {})
+        custom = start.get("customParameters", {})
+        current_call_sid = start.get("callSid") or custom.get("call_sid")
+        if not current_call_sid or not hmac.compare_digest(custom.get("stream_token", ""), _stream_token(current_call_sid)):
+            raise PermissionError("Invalid Twilio media stream token")
+        stream_sid["value"] = start.get("streamSid")
+        call_sid["value"] = current_call_sid
+        authenticated["value"] = True
+        with app.app_context():
+            call = _get_or_create_call(current_call_sid)
+            call.status = "in_progress"
+            caller_phone["value"] = _call_contact_phone(call) or _normalize_phone(custom.get("caller_phone"))
+            db.session.commit()
+
+    async def wait_for_twilio_start():
+        while not authenticated["value"]:
+            message = await asyncio.wait_for(asyncio.to_thread(twilio_ws.receive), timeout=10)
+            if message is None:
+                raise ConnectionError("Twilio disconnected before starting its media stream")
+            event = json.loads(message)
+            if event.get("event") == "start":
+                await accept_twilio_start(event)
+            elif event.get("event") == "stop":
+                raise ConnectionError("Twilio stopped before starting its media stream")
+
     try:
+        await wait_for_twilio_start()
         async with websockets.connect(
             "wss://agent.deepgram.com/v1/agent/converse",
             subprotocols=["token", api_key],
@@ -803,7 +1029,7 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
             welcome = json.loads(await asyncio.wait_for(deepgram_ws.recv(), timeout=10))
             if welcome.get("type") != "Welcome":
                 raise RuntimeError("Deepgram did not acknowledge the voice session")
-            settings = _voice_agent_settings()
+            settings = _voice_agent_settings(caller_phone["value"])
             await send_deepgram(json.dumps(settings))
             settings_applied = json.loads(await asyncio.wait_for(deepgram_ws.recv(), timeout=10))
             if settings_applied.get("type") != "SettingsApplied":
@@ -818,18 +1044,7 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
                     event = json.loads(message)
                     event_type = event.get("event")
                     if event_type == "start":
-                        start = event.get("start", {})
-                        custom = start.get("customParameters", {})
-                        current_call_sid = start.get("callSid") or custom.get("call_sid")
-                        if not current_call_sid or not hmac.compare_digest(custom.get("stream_token", ""), _stream_token(current_call_sid)):
-                            raise PermissionError("Invalid Twilio media stream token")
-                        stream_sid["value"] = start.get("streamSid")
-                        call_sid["value"] = current_call_sid
-                        authenticated["value"] = True
-                        with app.app_context():
-                            call = _get_or_create_call(current_call_sid)
-                            call.status = "in_progress"
-                            db.session.commit()
+                        await accept_twilio_start(event)
                     elif event_type == "media" and authenticated["value"] and event.get("media", {}).get("track", "inbound") == "inbound":
                         buffer.extend(base64.b64decode(event["media"]["payload"]))
                         while len(buffer) >= 3200:
@@ -849,27 +1064,37 @@ async def _bridge_twilio_to_deepgram(twilio_ws, app):
 
             async def receive_deepgram():
                 pending_clear = {"task": None}
+                playback_interrupted = {"value": False}
+                barge_in_delay_ms = _bounded_env_number("VOICE_BARGE_IN_DELAY_MS", 0, 0, 1500, int)
 
-                async def clear_twilio_after_barge_in_delay():
-                    delay_ms = _bounded_env_number("VOICE_BARGE_IN_DELAY_MS", 450, 0, 1500, int)
-                    await asyncio.sleep(delay_ms / 1000)
+                async def clear_twilio_for_barge_in():
+                    if barge_in_delay_ms:
+                        await asyncio.sleep(barge_in_delay_ms / 1000)
                     if stream_sid["value"]:
                         await asyncio.to_thread(twilio_ws.send, json.dumps({"event": "clear", "streamSid": stream_sid["value"]}))
 
                 try:
                     async for message in deepgram_ws:
                         if isinstance(message, bytes):
-                            if stream_sid["value"] and authenticated["value"]:
+                            if stream_sid["value"] and authenticated["value"] and not playback_interrupted["value"]:
                                 outbound = {"event": "media", "streamSid": stream_sid["value"], "media": {"payload": base64.b64encode(message).decode("ascii")}}
                                 await asyncio.to_thread(twilio_ws.send, json.dumps(outbound))
                             continue
                         event = json.loads(message)
                         event_type = event.get("type")
                         if event_type == "UserStartedSpeaking" and stream_sid["value"]:
+                            playback_interrupted["value"] = True
                             if pending_clear["task"] and not pending_clear["task"].done():
                                 pending_clear["task"].cancel()
-                            pending_clear["task"] = asyncio.create_task(clear_twilio_after_barge_in_delay())
+                            if barge_in_delay_ms:
+                                pending_clear["task"] = asyncio.create_task(clear_twilio_for_barge_in())
+                            else:
+                                await clear_twilio_for_barge_in()
                         elif event_type == "ConversationText":
+                            if event.get("role") == "assistant":
+                                if pending_clear["task"] and not pending_clear["task"].done():
+                                    pending_clear["task"].cancel()
+                                playback_interrupted["value"] = False
                             with app.app_context():
                                 _append_transcript(call_sid["value"], event.get("role", "unknown"), event.get("content"))
                         elif event_type == "FunctionCallRequest":

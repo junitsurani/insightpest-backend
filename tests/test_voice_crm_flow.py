@@ -1,4 +1,8 @@
 import os
+import asyncio
+import base64
+import json
+import threading
 import unittest
 from unittest.mock import patch
 from datetime import date, timedelta
@@ -22,16 +26,22 @@ from app.models import db
 from app.models.user import CRMCustomer, ServiceAppointment, ServiceWorkOrder, VoiceCall
 from app.routes.routes_VoiceAgent import (
     BOOK_APPOINTMENT_FUNCTION,
+    CAPTURE_SERVICE_REQUEST_FUNCTION,
     BookingValidationError,
     INSIGHT_PROMPT,
+    _arguments_with_call_phone,
     _append_transcript,
     _book_appointment,
+    _bridge_twilio_to_deepgram,
     _parse_booking_date,
+    _preferred_time_from_arguments,
     _capture_service_request,
     _finalize_call,
     _get_or_create_call,
+    _normalize_postal_code,
     _record_tool_failure,
     _summary_time_phrase,
+    _stream_token,
     _tool_error_response,
     _voice_agent_prompt,
     _voice_agent_settings,
@@ -80,6 +90,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
                 "province": "ON",
                 "preferred_date": (date.today() + timedelta(days=2)).isoformat(),
                 "preferred_time": "9:00 AM–11:00 AM",
+                "caller_confirmation": "Yes, that is correct",
             }, "CA_book")
 
             self.assertEqual(booking["appointment"]["status"], "requested")
@@ -97,6 +108,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
             "pest_issue": "Wasps near the front entry",
             "preferred_date": (date.today() + timedelta(days=3)).isoformat(),
             "preferred_time": "1:00 PM–3:00 PM",
+            "caller_confirmation": "Please book it",
         }
         with self.app.app_context():
             _get_or_create_call("CA_once", "inbound", payload["phone"], "+14165550100")
@@ -107,11 +119,53 @@ class VoiceCRMFlowTest(unittest.TestCase):
             self.assertEqual(ServiceAppointment.query.count(), 1)
             self.assertEqual(ServiceWorkOrder.query.count(), 1)
 
+    def test_booking_requires_the_actual_caller_confirmation_turn(self):
+        payload = {
+            "customer_name": "Morgan",
+            "postal_code": "M4B 1B3",
+            "pest_issue": "Mice in the basement",
+            "preferred_date": (date.today() + timedelta(days=3)).isoformat(),
+            "preferred_date_phrase": "this Thursday",
+            "preferred_time": "5 PM",
+            "preferred_time_phrase": "at five PM",
+            "caller_confirmation": "Yes, that is correct",
+        }
+        with self.app.app_context():
+            _get_or_create_call("CA_confirm", "inbound", "+16475550198", "+14165550100")
+            _append_transcript("CA_confirm", "user", "Tomorrow at five would be good")
+
+            with self.assertRaises(BookingValidationError) as raised:
+                _book_appointment(payload, "CA_confirm")
+            self.assertEqual(raised.exception.code, "confirmation_required")
+            self.assertEqual(ServiceAppointment.query.count(), 0)
+
+            _append_transcript("CA_confirm", "assistant", "To confirm, Thursday at five PM, is that correct?")
+            _append_transcript("CA_confirm", "user", "Yes, but actually make it Wednesday")
+            with self.assertRaises(BookingValidationError) as corrected:
+                _book_appointment(payload, "CA_confirm")
+            self.assertEqual(corrected.exception.code, "confirmation_required")
+            self.assertEqual(ServiceAppointment.query.count(), 0)
+
+            _append_transcript(
+                "CA_confirm",
+                "assistant",
+                "To confirm, mice service on Thursday at five PM, is that correct?",
+            )
+            _append_transcript("CA_confirm", "user", "Yes, that's correct")
+            booking = _book_appointment(payload, "CA_confirm")
+
+            self.assertEqual(booking["appointment"]["status"], "requested")
+            self.assertEqual(ServiceAppointment.query.count(), 1)
+
     def test_relative_dates_are_grounded_and_invalid_dates_are_rejected(self):
         today = date(2026, 8, 14)  # Friday
 
         self.assertEqual(_parse_booking_date("tomorrow", today), date(2026, 8, 15))
+        self.assertEqual(_parse_booking_date("tomorrow morning at nine AM", today), date(2026, 8, 15))
         self.assertEqual(_parse_booking_date("next Monday", today), date(2026, 8, 17))
+        self.assertEqual(_parse_booking_date("Monday next week", date(2026, 8, 17)), date(2026, 8, 24))
+        self.assertEqual(_parse_booking_date("next week Monday", date(2026, 8, 17)), date(2026, 8, 24))
+        self.assertEqual(_parse_booking_date("Monday next week at five", date(2026, 8, 17)), date(2026, 8, 24))
         self.assertEqual(_parse_booking_date("2026-08-20", today), date(2026, 8, 20))
 
         for value, code in (("next week", "ambiguous_relative_date"), ("last week", "past_date"), ("2026-08-13", "past_date")):
@@ -132,7 +186,17 @@ class VoiceCRMFlowTest(unittest.TestCase):
         self.assertIn("rewrite any list into one flowing sentence", compact_prompt)
         self.assertIn('For a range, say "on Tuesday, August 18 from one to three PM."', prompt)
         self.assertIn('Never place "at" before "from" or "in."', prompt)
-        self.assertIn("Preserve the caller's complete full name exactly", prompt)
+        self.assertIn("Accept the name exactly as the caller provides it", prompt)
+        self.assertIn("Ask one concise question at a time", prompt)
+        self.assertIn("Do not start every turn with \"thank you,\"", prompt)
+        self.assertIn("Never ask the same question twice using the same wording", prompt)
+        self.assertIn("Do not treat a nonsensical or low-context transcript as a confirmed fact", prompt)
+        self.assertIn("close warmly in one sentence", prompt)
+        self.assertIn("never recite the list of other pests", prompt)
+        self.assertIn("When both the appointment day and time are missing", prompt)
+        self.assertIn('never "in the morning at nine AM."', prompt)
+        self.assertIn("Never ask the caller to repeat that number", prompt)
+        self.assertIn("preferred_date_phrase", prompt)
         self.assertIn("always say the resolved weekday, month, and day", prompt)
         self.assertIn("Use natural time prepositions", prompt)
         self.assertIn('Never say "at morning"', prompt)
@@ -140,6 +204,8 @@ class VoiceCRMFlowTest(unittest.TestCase):
         self.assertIn("read them back once", prompt)
         self.assertEqual(listener["eot_threshold"], 0.8)
         self.assertEqual(listener["eot_timeout_ms"], 6000)
+        self.assertIn("cockroaches", listener["keyterms"])
+        self.assertIn("postal code", listener["keyterms"])
         self.assertEqual(settings["agent"]["think"]["provider"]["model"], "gpt-4.1-mini")
         self.assertEqual(settings["agent"]["think"]["provider"]["temperature"], 0.0)
 
@@ -151,6 +217,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
             "pest_issue": "Mice in basement",
             "preferred_date": (date.today() + timedelta(days=4)).isoformat(),
             "preferred_time": "1 PM to 3 PM",
+            "caller_confirmation": "Correct",
         }
         with self.app.app_context():
             _get_or_create_call("CA_retry", "inbound", payload["phone"], "+14165550100")
@@ -189,14 +256,59 @@ class VoiceCRMFlowTest(unittest.TestCase):
             self.assertNotIn("client_side", BOOK_APPOINTMENT_FUNCTION)
             self.assertEqual(
                 set(BOOK_APPOINTMENT_FUNCTION["parameters"]["required"]),
-                {"customer_name", "phone", "postal_code", "pest_issue", "preferred_date", "preferred_time"},
+                {"customer_name", "postal_code", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"},
             )
+
+    def test_twilio_caller_number_is_used_without_asking_for_it(self):
+        with self.app.app_context(), patch("app.routes.routes_VoiceAgent._local_today", return_value=date(2026, 8, 17)):
+            call = _get_or_create_call("CA_caller_id", "inbound", "+13474417085", "+12362057547")
+            enriched = _arguments_with_call_phone({"customer_name": "Eric"}, call.twilio_call_sid)
+            self.assertEqual(enriched["phone"], "+13474417085")
+
+            booking = _book_appointment({
+                "customer_name": "Eric",
+                "postal_code": "M5A 2J1",
+                "pest_issue": "Rat issue",
+                "preferred_date": "2026-08-17",
+                "preferred_date_phrase": "Monday next week",
+                "preferred_time": "5 PM",
+                "preferred_time_phrase": "at five PM",
+                "caller_confirmation": "Yes, that is correct",
+            }, call.twilio_call_sid)
+
+            self.assertEqual(booking["customer"]["phone"], "+13474417085")
+            self.assertEqual(booking["appointment"]["preferred_date"], "2026-08-24")
+
+        settings = _voice_agent_settings("+13474417085")
+        prompt = settings["agent"]["think"]["prompt"]
+        self.assertIn("Twilio verified the customer's callback number as +13474417085", prompt)
+        self.assertIn("Never ask the caller for a phone number", prompt)
+        self.assertNotIn("phone", CAPTURE_SERVICE_REQUEST_FUNCTION["parameters"]["required"])
+
+    def test_canadian_postal_codes_are_normalized_and_invalid_transcripts_are_rejected(self):
+        self.assertEqual(_normalize_postal_code("l4y2g9"), "L4Y 2G9")
+        self.assertEqual(_normalize_postal_code("M5A 2J1"), "M5A 2J1")
+
+        for invalid in ("M5B 231", "four y t g nine", "12345", ""):
+            with self.subTest(invalid=invalid), self.assertRaises(BookingValidationError) as raised:
+                _normalize_postal_code(invalid)
+            self.assertEqual(raised.exception.code, "invalid_postal_code")
+            response = _tool_error_response("book_appointment", raised.exception)
+            self.assertNotIn("upcoming_calendar", response)
 
     def test_crm_summary_uses_natural_time_prepositions(self):
         self.assertEqual(_summary_time_phrase("in the afternoon"), "in the afternoon")
         self.assertEqual(_summary_time_phrase("afternoon"), "in the afternoon")
         self.assertEqual(_summary_time_phrase("1 PM to 3 PM"), "from 1 PM to 3 PM")
         self.assertEqual(_summary_time_phrase("3 PM"), "at 3 PM")
+        self.assertEqual(
+            _preferred_time_from_arguments({"preferred_time": "morning", "preferred_time_phrase": "morning at nine AM"}),
+            "nine AM",
+        )
+        self.assertEqual(
+            _preferred_time_from_arguments({"preferred_time": "morning", "preferred_time_phrase": "morning at 9 a.m."}),
+            "9 AM",
+        )
 
     def test_inbound_twiml_and_crm_endpoints(self):
         client = self.app.test_client()
@@ -209,6 +321,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b"wss://crm.example.test/api/voice/twilio-stream", response.data)
         self.assertIn(b"stream_token", response.data)
+        self.assertIn(b"caller_phone", response.data)
 
         for path in (
             "/api/crm/overview",
@@ -223,6 +336,166 @@ class VoiceCRMFlowTest(unittest.TestCase):
         status = client.get("/api/voice/status").get_json()
         self.assertEqual(status["llm_model"], "gpt-4.1-mini")
         self.assertEqual(status["timezone"], "America/Toronto")
+
+    def test_twilio_start_context_is_applied_before_deepgram_greeting(self):
+        call_sid = "CA_bridge_context"
+        with self.app.app_context():
+            _get_or_create_call(call_sid, "inbound", "+13474417085", "+12362057547")
+
+        class FakeTwilioSocket:
+            def __init__(self):
+                self.messages = [
+                    json.dumps({"event": "connected", "protocol": "Call", "version": "1.0.0"}),
+                    json.dumps({
+                        "event": "start",
+                        "start": {
+                            "streamSid": "MZ_bridge",
+                            "callSid": call_sid,
+                            "customParameters": {
+                                "call_sid": call_sid,
+                                "stream_token": _stream_token(call_sid),
+                                "caller_phone": "+13474417085",
+                            },
+                        },
+                    }),
+                    json.dumps({"event": "stop", "stop": {"callSid": call_sid}}),
+                ]
+
+            def receive(self):
+                return self.messages.pop(0) if self.messages else None
+
+            def send(self, _message):
+                return None
+
+            def close(self):
+                return None
+
+        class FakeDeepgramSocket:
+            def __init__(self):
+                self.received = [json.dumps({"type": "Welcome"}), json.dumps({"type": "SettingsApplied"})]
+                self.sent = []
+
+            async def recv(self):
+                return self.received.pop(0)
+
+            async def send(self, message):
+                self.sent.append(message)
+
+            def __aiter__(self):
+                return self
+
+            async def __anext__(self):
+                await asyncio.Future()
+
+        class FakeConnection:
+            def __init__(self, socket):
+                self.socket = socket
+
+            async def __aenter__(self):
+                return self.socket
+
+            async def __aexit__(self, *_args):
+                return False
+
+        deepgram = FakeDeepgramSocket()
+        with patch("app.routes.routes_VoiceAgent.websockets.connect", return_value=FakeConnection(deepgram)):
+            asyncio.run(_bridge_twilio_to_deepgram(FakeTwilioSocket(), self.app))
+
+        settings = json.loads(deepgram.sent[0])
+        self.assertEqual(settings["type"], "Settings")
+        self.assertIn("Twilio verified the customer's callback number as +13474417085", settings["agent"]["think"]["prompt"])
+        self.assertIn("roaches", settings["agent"]["listen"]["provider"]["keyterms"])
+
+    def test_barge_in_immediately_clears_playback_and_drops_stale_audio(self):
+        call_sid = "CA_barge_in"
+        deepgram_finished = threading.Event()
+        with self.app.app_context():
+            _get_or_create_call(call_sid, "inbound", "+13474417085", "+12362057547")
+
+        class FakeTwilioSocket:
+            def __init__(self):
+                self.messages = [
+                    json.dumps({"event": "connected"}),
+                    json.dumps({
+                        "event": "start",
+                        "start": {
+                            "streamSid": "MZ_barge",
+                            "callSid": call_sid,
+                            "customParameters": {
+                                "call_sid": call_sid,
+                                "stream_token": _stream_token(call_sid),
+                                "caller_phone": "+13474417085",
+                            },
+                        },
+                    }),
+                ]
+                self.sent = []
+
+            def receive(self):
+                if self.messages:
+                    return self.messages.pop(0)
+                deepgram_finished.wait(timeout=2)
+                return json.dumps({"event": "stop"})
+
+            def send(self, message):
+                self.sent.append(json.loads(message))
+
+            def close(self):
+                return None
+
+        class FakeDeepgramSocket:
+            def __init__(self):
+                self.received = [json.dumps({"type": "Welcome"}), json.dumps({"type": "SettingsApplied"})]
+                self.events = [
+                    b"before interruption",
+                    json.dumps({"type": "UserStartedSpeaking"}),
+                    b"stale interrupted audio",
+                    json.dumps({"type": "ConversationText", "role": "assistant", "content": "What day works best?"}),
+                    b"new response audio",
+                ]
+                self.sent = []
+
+            async def recv(self):
+                return self.received.pop(0)
+
+            async def send(self, message):
+                self.sent.append(message)
+
+            def __aiter__(self):
+                return self
+
+            async def __anext__(self):
+                if self.events:
+                    return self.events.pop(0)
+                deepgram_finished.set()
+                raise StopAsyncIteration
+
+        class FakeConnection:
+            def __init__(self, socket):
+                self.socket = socket
+
+            async def __aenter__(self):
+                return self.socket
+
+            async def __aexit__(self, *_args):
+                return False
+
+        twilio = FakeTwilioSocket()
+        deepgram = FakeDeepgramSocket()
+        with patch.dict(os.environ, {"VOICE_BARGE_IN_DELAY_MS": "0"}), patch(
+            "app.routes.routes_VoiceAgent.websockets.connect",
+            return_value=FakeConnection(deepgram),
+        ):
+            asyncio.run(_bridge_twilio_to_deepgram(twilio, self.app))
+
+        events = [message["event"] for message in twilio.sent]
+        media_payloads = [
+            base64.b64decode(message["media"]["payload"])
+            for message in twilio.sent
+            if message["event"] == "media"
+        ]
+        self.assertEqual(events, ["media", "clear", "media"])
+        self.assertEqual(media_payloads, [b"before interruption", b"new response audio"])
 
     def test_crm_requires_a_valid_signed_session(self):
         client = self.app.test_client()
