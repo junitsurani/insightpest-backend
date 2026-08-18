@@ -381,8 +381,47 @@ def _parse_booking_date(raw_value, today=None):
     if relative_match:
         requested_date = today + timedelta(days=relative_days[relative_match])
     else:
+        week_numbers = {
+            "a": 1, "an": 1, "one": 1, "two": 2, "three": 3, "four": 4,
+            "five": 5, "six": 6, "seven": 7, "eight": 8,
+        }
+        week_offset_match = re.search(
+            r"\b(?:in\s+)?(a|an|one|two|three|four|five|six|seven|eight|\d{1,2})\s+weeks?"
+            r"(?:\s+from\s+(?:now|today))?\b",
+            normalized,
+        )
+        iso_match = re.search(r"\b(\d{4}-\d{2}-\d{2})\b", normalized)
+        month_numbers = {
+            "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+            "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+        }
+        month_match = re.search(
+            r"\b(" + "|".join(month_numbers) + r")\s+(\d{1,2})(?:st|nd|rd|th)?(?:,?\s+(\d{4}))?\b",
+            normalized,
+        )
         weekday_match = re.search(r"\b(?:(next|upcoming|this)\s+)?(" + weekday_pattern + r")\b", normalized)
-        if explicit_next_week:
+
+        if week_offset_match:
+            raw_weeks = week_offset_match.group(1)
+            weeks = int(raw_weeks) if raw_weeks.isdigit() else week_numbers[raw_weeks]
+            requested_date = today + timedelta(weeks=weeks)
+        elif iso_match:
+            requested_date = date.fromisoformat(iso_match.group(1))
+        elif month_match:
+            month = month_numbers[month_match.group(1)]
+            day = int(month_match.group(2))
+            year = int(month_match.group(3)) if month_match.group(3) else today.year
+            try:
+                requested_date = date(year, month, day)
+                if not month_match.group(3) and requested_date < today:
+                    requested_date = date(year + 1, month, day)
+            except ValueError as error:
+                raise BookingValidationError(
+                    "The appointment date was not a valid calendar date",
+                    "invalid_date",
+                    "Keep all other details and ask for one clear future weekday or calendar date.",
+                ) from error
+        elif explicit_next_week:
             target_weekday = weekdays[explicit_next_week.group(1) or explicit_next_week.group(2)]
             next_week_monday = today + timedelta(days=7 - today.weekday())
             requested_date = next_week_monday + timedelta(days=target_weekday)
@@ -679,14 +718,18 @@ def _preferred_time_from_arguments(arguments):
 
 
 def _requested_date_from_arguments(arguments):
+    resolved_date = _parse_booking_date(arguments.get("preferred_date"))
     date_phrase = str(arguments.get("preferred_date_phrase") or "").strip()
     if date_phrase:
         try:
-            return _parse_booking_date(date_phrase)
+            _parse_booking_date(date_phrase)
         except BookingValidationError as error:
             if error.code != "invalid_date":
                 raise
-    return _parse_booking_date(arguments.get("preferred_date"))
+    # preferred_date is the exact ISO calendar date Avery read back and the caller confirmed.
+    # The original phrase is retained for audit and ambiguity/past-date validation, but must not
+    # override the confirmed date by being reinterpreted as the nearest matching weekday.
+    return resolved_date
 
 
 def _last_caller_transcript(call):

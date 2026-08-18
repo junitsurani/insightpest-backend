@@ -35,6 +35,7 @@ from app.routes.routes_VoiceAgent import (
     _bridge_twilio_to_deepgram,
     _parse_booking_date,
     _preferred_time_from_arguments,
+    _requested_date_from_arguments,
     _capture_service_request,
     _finalize_call,
     _get_or_create_call,
@@ -174,11 +175,53 @@ class VoiceCRMFlowTest(unittest.TestCase):
         self.assertEqual(_parse_booking_date("next week Monday", date(2026, 8, 17)), date(2026, 8, 24))
         self.assertEqual(_parse_booking_date("Monday next week at five", date(2026, 8, 17)), date(2026, 8, 24))
         self.assertEqual(_parse_booking_date("2026-08-20", today), date(2026, 8, 20))
+        self.assertEqual(_parse_booking_date("two weeks from now", date(2026, 8, 21)), date(2026, 9, 4))
+        self.assertEqual(_parse_booking_date("in two weeks", date(2026, 8, 21)), date(2026, 9, 4))
+        self.assertEqual(_parse_booking_date("Friday, September 4", date(2026, 8, 21)), date(2026, 9, 4))
+
+        with patch("app.routes.routes_VoiceAgent._local_today", return_value=date(2026, 8, 21)):
+            self.assertEqual(
+                _requested_date_from_arguments({
+                    "preferred_date": "2026-09-04",
+                    "preferred_date_phrase": "Friday, September 4",
+                }),
+                date(2026, 9, 4),
+            )
+            self.assertEqual(
+                _requested_date_from_arguments({
+                    "preferred_date": "2026-09-04",
+                    "preferred_date_phrase": "Friday",
+                }),
+                date(2026, 9, 4),
+            )
+            for phrase, code in (("last week", "past_date"), ("next week", "ambiguous_relative_date")):
+                with self.subTest(phrase=phrase), self.assertRaises(BookingValidationError) as raised:
+                    _requested_date_from_arguments({
+                        "preferred_date": "2026-09-04",
+                        "preferred_date_phrase": phrase,
+                    })
+                self.assertEqual(raised.exception.code, code)
 
         for value, code in (("next week", "ambiguous_relative_date"), ("last week", "past_date"), ("2026-08-13", "past_date")):
             with self.subTest(value=value), self.assertRaises(BookingValidationError) as raised:
                 _parse_booking_date(value, today)
             self.assertEqual(raised.exception.code, code)
+
+        with self.app.app_context(), patch("app.routes.routes_VoiceAgent._local_today", return_value=date(2026, 8, 21)):
+            _get_or_create_call("CA_two_weeks", "inbound", "+14165550191", "+14165550100")
+            _append_transcript("CA_two_weeks", "user", "Yeah, that is correct. Please book it.")
+            booking = _book_appointment({
+                "caller_confirmation": "please book it",
+                "customer_name": "Eric",
+                "pest_issue": "rat problem",
+                "preferred_date": "2026-09-04",
+                "preferred_date_phrase": "two weeks from now",
+                "preferred_time": "five PM",
+                "preferred_time_phrase": "five PM",
+                "service_address": "262 Sherburne Street",
+            }, "CA_two_weeks")
+            self.assertEqual(booking["appointment"]["preferred_date"], "2026-09-04")
+            self.assertEqual(booking["work_order"]["scheduled_date"], "2026-09-04")
 
     def test_prompt_is_spoken_only_and_contains_a_live_calendar(self):
         prompt = _voice_agent_prompt(date(2026, 8, 14))
@@ -301,7 +344,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
                 "service_address": "77 Front Street East",
                 "postal_code": "M5A 2J1",
                 "pest_issue": "Rat issue",
-                "preferred_date": "2026-08-17",
+                "preferred_date": "2026-08-24",
                 "preferred_date_phrase": "Monday next week",
                 "preferred_time": "5 PM",
                 "preferred_time_phrase": "at five PM",
