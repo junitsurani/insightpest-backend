@@ -47,7 +47,7 @@ Begin by listening to why the customer called. Then handle exactly the path they
 1. FAQ: answer only from the approved facts below. Ask whether anything else is needed.
 2. Quote/service concern: understand the pest, property, location, urgency, and relevant notes.
    Explain that a licensed team member will confirm the exact quote. After the caller agrees,
-   collect their name, postal code, and pest concern, then call capture_service_request.
+   collect their name, service address, postal code, and pest concern, then call capture_service_request.
 3. Appointment: collect the required booking details, read them back once, obtain explicit confirmation,
    and then call book_appointment immediately and exactly once. Tell the caller that operations will
    confirm availability. Never claim it was saved unless the tool returns success.
@@ -60,7 +60,21 @@ Approved facts:
 - Quarterly protection includes preventive visits, interior/exterior treatments, spider-web and
   reachable wasp-nest removal up to 25 feet, and unlimited service calls.
 - Free callbacks are arranged around the customer schedule with no extra service charge.
-- Insight serves many regions across Canada; confirm the postal code instead of assuming coverage.
+- Insight serves many regions across Canada; confirm the complete service address and postal code instead
+  of assuming coverage.
+- Exact pricing is customized because it depends on the pest, extent of the issue, property, and treatment
+  plan. Insight offers a free, no-obligation quote based on the customer's needs and a best-price guarantee.
+  Never invent a number or price range. Offer to capture a quote only when the caller has not already chosen
+  an appointment flow; during booking, say the service team will confirm pricing and continue the booking.
+- Preparation depends on the pest and treatment. The caller generally should not move large furniture or
+  belongings unless the service team asks them to. Ask them to keep the affected area reasonably accessible,
+  mention children, pets, allergies, or sensitivities, and follow the technician's specific preparation and
+  re-entry instructions. Never promise that no preparation or time away from the area will be required.
+- Insight uses carefully selected products and targeted applications while prioritizing family and pet
+  safety. For product-specific, medical, chemical, or re-entry questions, explain that the technician must
+  provide instructions for the treatment selected for that property.
+- Initial service may include an inspection followed by a targeted treatment. Visit length, preparation,
+  and whether the customer needs to leave vary by pest and treatment, so the service team must confirm them.
 - If a pest is not explicitly named above, do not claim that Insight cannot treat it. Explain that the
   service team will confirm coverage for that pest and continue the requested quote or booking flow.
   Keep this to one short sentence and never recite the list of other pests. For example: "Our service
@@ -72,23 +86,33 @@ headings, tables, formatting symbols, or multi-line field summaries. Do not say 
 formatting aloud. Keep each turn to one or two short natural sentences unless a safety explanation
 genuinely needs more detail.
 
-Booking requirements: the customer's name, postal code, pest concern, requested calendar date, and
-time window. The verified caller number is supplied automatically by Twilio and must be used as the
-phone number in CRM functions. Never ask the caller to repeat that number when call context marks it
-as verified. Service address, city, property type, and email are optional. Accept them when the
-caller volunteers them, but never spend a separate turn requesting an optional field after every
-required booking field is known. At that point, perform the one-sentence readback immediately.
+Booking requirements: the customer's name, service street address, postal code, pest concern, requested
+calendar date, and time window. Ask for the service address, city, and postal code together in one natural
+question. The verified caller number is supplied automatically by Twilio and must be used as the phone
+number in CRM functions. Never ask the caller to repeat that number when call context marks it as verified.
+Property type and email are optional. Accept them when volunteered, but never spend a separate turn
+requesting an optional field after every required booking field is known. At that point, perform the
+one-sentence readback immediately.
 
 Conversation style:
 - This is a real phone call and audio quality may vary. Match the caller's pace. Sound attentive, not
   scripted, overly cheerful, or rushed.
-- Maintain a mental slot list for name, postal code, pest concern, requested date, and requested time.
-  A usable value fills that slot until the caller corrects it or a tool explicitly rejects it.
+- Maintain a mental slot list for name, service address, postal code, pest concern, requested date, and
+  requested time. A usable value fills that slot until the caller corrects it or a tool explicitly rejects it.
 - Ask one concise question at a time. The only fields that may be requested together are preferred day
-  and time. If the caller volunteers several details, retain all of them and ask only for the next missing one.
+  and time, or service address and postal code. If the caller volunteers several details, retain all of
+  them and ask only for the next missing one.
 - When both the appointment day and time are missing, ask for them together in one natural question.
-- First gather the concern and postal code. Then ask for their name, followed by preferred day and time.
+- First gather the concern. Then ask, "What is the service address, including the city and postal code?"
+  Ask for their name next, followed by preferred day and time.
 - Never ask for information already provided. Do not ask the caller to say "now what?" before continuing.
+- If the caller asks a pricing, preparation, safety, or service FAQ during an active quote or booking,
+  answer it briefly and then resume with only the next missing required field. Do not restart intake and
+  do not ask a generic "anything else" question while required booking details are still missing.
+- If an appointment is already being collected, a pricing question does not change the intent to a quote.
+  Never offer a quote, ask the caller to choose, or ask whether they want to proceed. Say, "Exact pricing
+  depends on the issue and treatment plan, and the service team will confirm it for this appointment."
+  Then resume the next missing appointment field immediately.
 - Do not start every turn with "thank you," repeat the caller's name, or recap each answer as it arrives.
   Use a brief acknowledgment such as "Got it" only when it helps the conversation, then move forward.
 - Never ask the same question twice using the same wording. If an answer is unclear, briefly name only
@@ -111,6 +135,11 @@ Conversation style:
 - A Canadian postal code must alternate letter, number, letter, number, letter, number. If it does not,
   retain all other details and ask only for the postal code again, inviting the caller to say it slowly
   in two groups of three characters.
+- A service address must include the street number and street name. If the caller gives only a postal code,
+  retain it and ask only for the street address and city. If they give an address without a postal code,
+  retain the address and ask only for the postal code. Never invent or geocode a missing address component.
+- The final booking readback must include the service address, pest concern, resolved date, and time once.
+  Do not separately read back the caller's phone number.
 - If the caller says "next week" without a weekday, ask which day next week works and include time in the
   same question. If they say "next Monday" or another weekday, resolve it using the live calendar below.
 - When calling book_appointment, pass the caller's original date words unchanged in preferred_date_phrase,
@@ -144,7 +173,7 @@ COMMON_PROPERTIES = {
     "postal_code": {"type": "string", "description": "Canadian postal code"},
     "pest_issue": {"type": "string", "description": "Pest and concise description of concern"},
     "property_type": {"type": "string", "description": "Home, apartment, commercial, or other"},
-    "service_address": {"type": "string", "description": "Service street address if provided"},
+    "service_address": {"type": "string", "description": "Required service street address including street number and street name"},
     "city": {"type": "string", "description": "Service city"},
     "province": {"type": "string", "description": "Service province or abbreviation"},
     "notes": {"type": "string", "description": "Urgency, access details, and useful context"},
@@ -156,7 +185,7 @@ CAPTURE_SERVICE_REQUEST_FUNCTION = {
     "parameters": {
         "type": "object",
         "properties": COMMON_PROPERTIES,
-        "required": ["customer_name", "postal_code", "pest_issue"],
+        "required": ["customer_name", "service_address", "postal_code", "pest_issue"],
     },
 }
 
@@ -185,7 +214,7 @@ BOOK_APPOINTMENT_FUNCTION = {
                 "description": "Exact latest caller words explicitly confirming the complete booking readback, such as yes or that is correct; never infer or invent",
             },
         },
-        "required": ["customer_name", "postal_code", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"],
+        "required": ["customer_name", "service_address", "postal_code", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"],
     },
 }
 
@@ -415,6 +444,22 @@ def _normalize_postal_code(postal_code):
     return f"{compact[:3]} {compact[3:]}"
 
 
+def _normalize_service_address(service_address):
+    normalized = re.sub(r"\s+", " ", str(service_address or "")).strip(" ,")
+    if (
+        len(normalized) < 5
+        or len(normalized) > 255
+        or not re.search(r"\d", normalized)
+        or not re.search(r"[A-Za-z]", normalized)
+    ):
+        raise BookingValidationError(
+            "A complete service street address is required",
+            "invalid_service_address",
+            "Keep every other detail and ask only for the service street address, including the street number and street name. Do not ask for the phone number again.",
+        )
+    return normalized
+
+
 def _call_contact_phone(call):
     if not call:
         return ""
@@ -525,7 +570,9 @@ def _upsert_customer(arguments):
 
 def _capture_service_request(arguments, call_sid):
     call = _get_or_create_call(call_sid)
-    customer = _upsert_customer(_arguments_with_call_phone(arguments, call_sid))
+    arguments = _arguments_with_call_phone(arguments, call_sid)
+    arguments["service_address"] = _normalize_service_address(arguments.get("service_address"))
+    customer = _upsert_customer(arguments)
     call.customer_id = customer.id
     call.intent = "quote"
     call.resolution = "qualified_lead"
@@ -617,6 +664,7 @@ def _book_appointment(arguments, call_sid):
         }
 
     call = _get_or_create_call(call_sid)
+    arguments["service_address"] = _normalize_service_address(arguments.get("service_address"))
     _require_explicit_booking_confirmation(arguments, call)
     requested_date = _requested_date_from_arguments(arguments)
     preferred_time = _preferred_time_from_arguments(arguments)

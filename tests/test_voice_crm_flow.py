@@ -39,6 +39,7 @@ from app.routes.routes_VoiceAgent import (
     _finalize_call,
     _get_or_create_call,
     _normalize_postal_code,
+    _normalize_service_address,
     _record_tool_failure,
     _summary_time_phrase,
     _stream_token,
@@ -73,6 +74,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
             lead = _capture_service_request({
                 "customer_name": "Taylor Green",
                 "phone": "416-555-0111",
+                "service_address": "18 King Street West",
                 "postal_code": "M5V 2T6",
                 "pest_issue": "Ants in kitchen",
                 "city": "Toronto",
@@ -84,6 +86,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
             booking = _book_appointment({
                 "customer_name": "Jordan Lee",
                 "phone": "+1 905 555 0122",
+                "service_address": "25 Brant Street",
                 "postal_code": "L7M 2R4",
                 "pest_issue": "Rodents in attic",
                 "city": "Burlington",
@@ -95,6 +98,8 @@ class VoiceCRMFlowTest(unittest.TestCase):
 
             self.assertEqual(booking["appointment"]["status"], "requested")
             self.assertEqual(booking["work_order"]["source"], "voice_agent")
+            self.assertEqual(lead["lead"]["service_address"], "18 King Street West")
+            self.assertIn("25 Brant Street", booking["work_order"]["location"])
             self.assertEqual(CRMCustomer.query.count(), 2)
             self.assertEqual(ServiceAppointment.query.count(), 1)
             self.assertEqual(ServiceWorkOrder.query.count(), 1)
@@ -104,6 +109,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
         payload = {
             "customer_name": "Sam Carter",
             "phone": "+1 647 555 0198",
+            "service_address": "90 Queen Street East",
             "postal_code": "M4B 1B3",
             "pest_issue": "Wasps near the front entry",
             "preferred_date": (date.today() + timedelta(days=3)).isoformat(),
@@ -122,6 +128,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
     def test_booking_requires_the_actual_caller_confirmation_turn(self):
         payload = {
             "customer_name": "Morgan",
+            "service_address": "44 Danforth Avenue",
             "postal_code": "M4B 1B3",
             "pest_issue": "Mice in the basement",
             "preferred_date": (date.today() + timedelta(days=3)).isoformat(),
@@ -194,6 +201,12 @@ class VoiceCRMFlowTest(unittest.TestCase):
         self.assertIn("close warmly in one sentence", prompt)
         self.assertIn("never recite the list of other pests", prompt)
         self.assertIn("When both the appointment day and time are missing", prompt)
+        self.assertIn("service address, including the city and postal code", prompt)
+        self.assertIn("free, no-obligation quote", prompt)
+        self.assertIn("should not move large furniture", prompt)
+        self.assertIn("technician's specific preparation and re-entry instructions", compact_prompt)
+        self.assertIn("during an active quote or booking", prompt)
+        self.assertIn("a pricing question does not change the intent to a quote", prompt)
         self.assertIn('never "in the morning at nine AM."', prompt)
         self.assertIn("Never ask the caller to repeat that number", prompt)
         self.assertIn("preferred_date_phrase", prompt)
@@ -213,6 +226,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
         payload = {
             "customer_name": "Casey Morgan",
             "phone": "+1 416 555 0188",
+            "service_address": "10 Victoria Park Avenue",
             "postal_code": "M4B 1B3",
             "pest_issue": "Mice in basement",
             "preferred_date": (date.today() + timedelta(days=4)).isoformat(),
@@ -256,7 +270,11 @@ class VoiceCRMFlowTest(unittest.TestCase):
             self.assertNotIn("client_side", BOOK_APPOINTMENT_FUNCTION)
             self.assertEqual(
                 set(BOOK_APPOINTMENT_FUNCTION["parameters"]["required"]),
-                {"customer_name", "postal_code", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"},
+                {"customer_name", "service_address", "postal_code", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"},
+            )
+            self.assertEqual(
+                set(CAPTURE_SERVICE_REQUEST_FUNCTION["parameters"]["required"]),
+                {"customer_name", "service_address", "postal_code", "pest_issue"},
             )
 
     def test_twilio_caller_number_is_used_without_asking_for_it(self):
@@ -267,6 +285,7 @@ class VoiceCRMFlowTest(unittest.TestCase):
 
             booking = _book_appointment({
                 "customer_name": "Eric",
+                "service_address": "77 Front Street East",
                 "postal_code": "M5A 2J1",
                 "pest_issue": "Rat issue",
                 "preferred_date": "2026-08-17",
@@ -295,6 +314,14 @@ class VoiceCRMFlowTest(unittest.TestCase):
             self.assertEqual(raised.exception.code, "invalid_postal_code")
             response = _tool_error_response("book_appointment", raised.exception)
             self.assertNotIn("upcoming_calendar", response)
+
+    def test_voice_service_address_is_required_and_normalized(self):
+        self.assertEqual(_normalize_service_address("  123   Main Street  "), "123 Main Street")
+
+        for invalid in ("", "Main Street", "12345", "12"):
+            with self.subTest(invalid=invalid), self.assertRaises(BookingValidationError) as raised:
+                _normalize_service_address(invalid)
+            self.assertEqual(raised.exception.code, "invalid_service_address")
 
     def test_crm_summary_uses_natural_time_prepositions(self):
         self.assertEqual(_summary_time_phrase("in the afternoon"), "in the afternoon")

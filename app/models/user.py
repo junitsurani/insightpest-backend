@@ -79,7 +79,12 @@ class CRMCustomer(db.Model):
     updated_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     def to_dict(self):
-        location = ', '.join(part for part in (self.city, self.province) if part)
+        location_parts = []
+        for part in (self.service_address, self.city, self.province):
+            value = str(part or '').strip()
+            if value and value.casefold() not in {item.casefold() for item in location_parts}:
+                location_parts.append(value)
+        location = ', '.join(location_parts)
         return {
             'id': self.id,
             'name': self.name,
@@ -88,7 +93,7 @@ class CRMCustomer(db.Model):
             'service_address': self.service_address,
             'city': self.city,
             'province': self.province,
-            'location': location or self.service_address or '',
+            'location': location,
             'postal_code': self.postal_code,
             'pest_issue': self.pest_issue,
             'property_type': self.property_type,
