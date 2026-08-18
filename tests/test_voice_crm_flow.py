@@ -38,6 +38,7 @@ from app.routes.routes_VoiceAgent import (
     _capture_service_request,
     _finalize_call,
     _get_or_create_call,
+    _normalize_optional_postal_code,
     _normalize_postal_code,
     _normalize_service_address,
     _record_tool_failure,
@@ -75,7 +76,6 @@ class VoiceCRMFlowTest(unittest.TestCase):
                 "customer_name": "Taylor Green",
                 "phone": "416-555-0111",
                 "service_address": "18 King Street West",
-                "postal_code": "M5V 2T6",
                 "pest_issue": "Ants in kitchen",
                 "city": "Toronto",
                 "province": "ON",
@@ -86,10 +86,8 @@ class VoiceCRMFlowTest(unittest.TestCase):
             booking = _book_appointment({
                 "customer_name": "Jordan Lee",
                 "phone": "+1 905 555 0122",
-                "service_address": "25 Brant Street",
-                "postal_code": "L7M 2R4",
+                "service_address": "Main Street in Toronto",
                 "pest_issue": "Rodents in attic",
-                "city": "Burlington",
                 "province": "ON",
                 "preferred_date": (date.today() + timedelta(days=2)).isoformat(),
                 "preferred_time": "9:00 AM–11:00 AM",
@@ -97,9 +95,11 @@ class VoiceCRMFlowTest(unittest.TestCase):
             }, "CA_book")
 
             self.assertEqual(booking["appointment"]["status"], "requested")
+            self.assertEqual(lead["lead"]["postal_code"], "")
+            self.assertEqual(booking["appointment"]["postal_code"], "")
             self.assertEqual(booking["work_order"]["source"], "voice_agent")
             self.assertEqual(lead["lead"]["service_address"], "18 King Street West")
-            self.assertIn("25 Brant Street", booking["work_order"]["location"])
+            self.assertIn("Main Street in Toronto", booking["work_order"]["location"])
             self.assertEqual(CRMCustomer.query.count(), 2)
             self.assertEqual(ServiceAppointment.query.count(), 1)
             self.assertEqual(ServiceWorkOrder.query.count(), 1)
@@ -195,16 +195,29 @@ class VoiceCRMFlowTest(unittest.TestCase):
         self.assertIn('Never place "at" before "from" or "in."', prompt)
         self.assertIn("Accept the name exactly as the caller provides it", prompt)
         self.assertIn("Ask one concise question at a time", prompt)
+        self.assertIn("HARD BOOKING GATE", prompt)
+        self.assertIn("never the confirmation turn", compact_prompt)
+        self.assertIn("then stop and wait for a new caller turn", compact_prompt)
         self.assertIn("Do not start every turn with \"thank you,\"", prompt)
         self.assertIn("Never ask the same question twice using the same wording", prompt)
         self.assertIn("Do not treat a nonsensical or low-context transcript as a confirmed fact", prompt)
         self.assertIn("close warmly in one sentence", prompt)
         self.assertIn("never recite the list of other pests", prompt)
         self.assertIn("When both the appointment day and time are missing", prompt)
-        self.assertIn("service address, including the city and postal code", prompt)
-        self.assertIn("free, no-obligation quote", prompt)
+        self.assertIn('Ask only, "What is the service address?"', prompt)
+        self.assertIn("Never ask for a postal code", prompt)
+        self.assertNotIn("service address, including the city and postal code", prompt)
+        self.assertIn("free, no-obligation customized quote", compact_prompt)
         self.assertIn("should not move large furniture", prompt)
         self.assertIn("technician's specific preparation and re-entry instructions", compact_prompt)
+        self.assertIn("PRELIMINARY DEMO PRICING GUIDE", prompt)
+        self.assertIn("Never volunteer a price range", prompt)
+        self.assertIn("large home about 500 to 800 dollars", compact_prompt)
+        self.assertIn("Sticky monitoring traps help locate harbourages", compact_prompt)
+        self.assertIn("return only after the technician and product label say it is safe", compact_prompt)
+        self.assertIn("may not need to vacate the entire home", compact_prompt)
+        self.assertIn("everyone must stay out of treated areas", compact_prompt)
+        self.assertIn("do not merely say that a technician will explain everything later", compact_prompt)
         self.assertIn("during an active quote or booking", prompt)
         self.assertIn("a pricing question does not change the intent to a quote", prompt)
         self.assertIn('never "in the morning at nine AM."', prompt)
@@ -270,11 +283,11 @@ class VoiceCRMFlowTest(unittest.TestCase):
             self.assertNotIn("client_side", BOOK_APPOINTMENT_FUNCTION)
             self.assertEqual(
                 set(BOOK_APPOINTMENT_FUNCTION["parameters"]["required"]),
-                {"customer_name", "service_address", "postal_code", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"},
+                {"customer_name", "service_address", "pest_issue", "preferred_date", "preferred_date_phrase", "preferred_time", "preferred_time_phrase", "caller_confirmation"},
             )
             self.assertEqual(
                 set(CAPTURE_SERVICE_REQUEST_FUNCTION["parameters"]["required"]),
-                {"customer_name", "service_address", "postal_code", "pest_issue"},
+                {"customer_name", "service_address", "pest_issue"},
             )
 
     def test_twilio_caller_number_is_used_without_asking_for_it(self):
@@ -307,6 +320,10 @@ class VoiceCRMFlowTest(unittest.TestCase):
     def test_canadian_postal_codes_are_normalized_and_invalid_transcripts_are_rejected(self):
         self.assertEqual(_normalize_postal_code("l4y2g9"), "L4Y 2G9")
         self.assertEqual(_normalize_postal_code("M5A 2J1"), "M5A 2J1")
+        self.assertEqual(_normalize_optional_postal_code(""), "")
+        self.assertEqual(_normalize_optional_postal_code(None), "")
+        self.assertEqual(_normalize_optional_postal_code("m5a2j1"), "M5A 2J1")
+        self.assertEqual(_normalize_optional_postal_code("four y t g nine"), "FOUR Y T G NINE")
 
         for invalid in ("M5B 231", "four y t g nine", "12345", ""):
             with self.subTest(invalid=invalid), self.assertRaises(BookingValidationError) as raised:
@@ -317,8 +334,10 @@ class VoiceCRMFlowTest(unittest.TestCase):
 
     def test_voice_service_address_is_required_and_normalized(self):
         self.assertEqual(_normalize_service_address("  123   Main Street  "), "123 Main Street")
+        self.assertEqual(_normalize_service_address("Main Street, Toronto"), "Main Street, Toronto")
+        self.assertEqual(_normalize_service_address("Rural Route Two"), "Rural Route Two")
 
-        for invalid in ("", "Main Street", "12345", "12"):
+        for invalid in ("", "12345", "12"):
             with self.subTest(invalid=invalid), self.assertRaises(BookingValidationError) as raised:
                 _normalize_service_address(invalid)
             self.assertEqual(raised.exception.code, "invalid_service_address")
