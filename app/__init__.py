@@ -25,6 +25,7 @@ from .routes.routes_Language_Subroute_Page.routes_Language_Subroute_Page import 
 from app.routes.routes_Language_Subroute_Page.routes_Language_Stories import api_Language_Stories
 from flask_sock import Sock
 from app.routes.routes_VoiceAgent import api_voice_agent, init_voice_socket
+from app.routes.routes_Paces import api_paces
 
 def drop_all_tables():
     load_dotenv()
@@ -177,7 +178,12 @@ def _cors_origins():
         for origin in os.getenv('FRONTEND_ORIGINS', '').split(',')
         if origin.strip() and '*' not in origin
     ]
-    defaults = ['http://localhost:3000', 'http://localhost:3001']
+    defaults = [
+        'http://localhost:3000',
+        'http://localhost:3001',
+        'http://127.0.0.1:3000',
+        'http://127.0.0.1:3001',
+    ]
     return list(dict.fromkeys(defaults + configured)) + [
         re.compile(r'^https://[a-zA-Z0-9.-]+\.vercel\.app$'),
         re.compile(r'^https://[a-zA-Z0-9.-]+\.vercel\.sh$'),
@@ -215,6 +221,7 @@ def create_app():
     app.register_blueprint(api_Language_Subroute_Page)
     app.register_blueprint(api_Language_Stories)
     app.register_blueprint(api_voice_agent)
+    app.register_blueprint(api_paces)
     init_voice_socket(sock)
     if os.getenv('AUTO_CREATE_TABLES', 'true').lower() == 'true':
         with app.app_context():
@@ -236,4 +243,3 @@ def create_app():
     return app
 
 # app = create_app()
-
