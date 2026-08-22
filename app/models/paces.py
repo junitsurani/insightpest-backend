@@ -151,3 +151,57 @@ class PacesWorkspaceSettings(db.Model):
             "expertReviewNotifications": self.expert_review_notifications,
             "weeklyPipelineSummary": self.weekly_pipeline_summary,
         }
+
+
+class PacesTeamMember(db.Model):
+    __tablename__ = "paces_team_member"
+
+    id = db.Column(db.String(36), primary_key=True)
+    workspace_key = db.Column(db.String(80), nullable=False, index=True)
+    name = db.Column(db.String(120), nullable=False)
+    email = db.Column(db.String(254), nullable=False)
+    role = db.Column(db.String(80), nullable=False)
+    status = db.Column(db.String(24), nullable=False, default="Invited")
+    access = db.Column(db.String(80), nullable=False, default="Projects & reports")
+    source_system = db.Column(db.String(32), nullable=False, default="paces_demo")
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
+    deleted_at = db.Column(db.DateTime, nullable=True)
+
+    __table_args__ = (db.UniqueConstraint("workspace_key", "email", name="uq_paces_team_workspace_email"),)
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "email": self.email,
+            "role": self.role,
+            "status": self.status,
+            "access": self.access,
+        }
+
+
+class PacesDataSource(db.Model):
+    __tablename__ = "paces_data_source"
+
+    id = db.Column(db.String(36), primary_key=True)
+    workspace_key = db.Column(db.String(80), nullable=False, index=True)
+    name = db.Column(db.String(120), nullable=False)
+    category = db.Column(db.String(60), nullable=False)
+    source_type = db.Column(db.String(40), nullable=False, default="Workspace upload")
+    status = db.Column(db.String(24), nullable=False, default="Connected")
+    freshness = db.Column(db.String(80), nullable=False, default="Added just now")
+    source_system = db.Column(db.String(32), nullable=False, default="paces_demo")
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
+    deleted_at = db.Column(db.DateTime, nullable=True)
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "category": self.category,
+            "sourceType": self.source_type,
+            "status": self.status,
+            "freshness": self.freshness,
+        }

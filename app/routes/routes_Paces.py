@@ -2,6 +2,7 @@
 
 from datetime import date, datetime, timedelta
 from functools import wraps
+import re
 import uuid
 
 import jwt
@@ -10,9 +11,11 @@ from flask import Blueprint, jsonify, request
 from app.models import db
 from app.models.paces import (
     PacesAgentRun,
+    PacesDataSource,
     PacesProject,
     PacesReportOrder,
     PacesSavedSearch,
+    PacesTeamMember,
     PacesWorkspaceSettings,
 )
 from app.routes.routes_auth import jwt_signing_key
@@ -24,6 +27,9 @@ STAGES = {"Siting", "Due diligence", "Submission", "Construction ready"}
 RISKS = {"Low", "Medium", "High"}
 REPORT_TYPES = {"Site diligence", "Permitting", "Interconnection", "Market intelligence"}
 PRIORITIES = {"Standard", "Priority"}
+TEAM_ROLES = {"Development lead", "GIS analyst", "Permitting", "Interconnection", "Viewer"}
+ACCESS_LEVELS = {"Full workspace", "Projects & reports", "View only"}
+DATA_CATEGORIES = {"Power & grid", "Permitting", "Environmental", "Land & ownership"}
 
 
 @api_paces.before_request
@@ -106,6 +112,17 @@ def _seed_workspace():
     settings = PacesWorkspaceSettings.query.filter_by(workspace_key=WORKSPACE, deleted_at=None).first()
     if not settings:
         db.session.add(PacesWorkspaceSettings(id=str(uuid.uuid4()), workspace_key=WORKSPACE))
+    if not PacesTeamMember.query.filter_by(workspace_key=WORKSPACE, deleted_at=None).first():
+        for name, email, role, status, access in [
+            ("Jordan Lee", "jordan.lee@paces.dev", "Development lead", "Online", "Full workspace"),
+            ("Maya Chen", "maya.chen@paces.dev", "GIS analyst", "Online", "Projects & reports"),
+            ("Priya Shah", "priya.shah@paces.dev", "Permitting", "Away", "Projects & reports"),
+            ("Alex Morgan", "alex.morgan@paces.dev", "Interconnection", "Online", "Projects & reports"),
+        ]:
+            db.session.add(PacesTeamMember(
+                id=str(uuid.uuid4()), workspace_key=WORKSPACE, name=name, email=email,
+                role=role, status=status, access=access,
+            ))
     db.session.commit()
 
 
@@ -138,12 +155,8 @@ def bootstrap():
         "reports": [item.to_dict() for item in PacesReportOrder.query.filter_by(workspace_key=WORKSPACE, deleted_at=None).order_by(PacesReportOrder.requested_at.desc()).all()],
         "agentRuns": [item.to_dict() for item in PacesAgentRun.query.filter_by(workspace_key=WORKSPACE, deleted_at=None).order_by(PacesAgentRun.created_at.desc()).limit(8).all()],
         "settings": settings.to_dict(),
-        "team": [
-            {"id": "tm-1", "name": "Jordan Lee", "role": "Development lead", "status": "Online"},
-            {"id": "tm-2", "name": "Maya Chen", "role": "GIS analyst", "status": "Online"},
-            {"id": "tm-3", "name": "Priya Shah", "role": "Permitting", "status": "Away"},
-            {"id": "tm-4", "name": "Alex Morgan", "role": "Interconnection", "status": "Online"},
-        ],
+        "team": [item.to_dict() for item in PacesTeamMember.query.filter_by(workspace_key=WORKSPACE, deleted_at=None).order_by(PacesTeamMember.created_at.asc()).all()],
+        "workspaceSources": [item.to_dict() for item in PacesDataSource.query.filter_by(workspace_key=WORKSPACE, deleted_at=None).order_by(PacesDataSource.created_at.desc()).all()],
         "dataCategories": [
             {"name": "Land & parcels", "layers": 18, "freshness": "Updated today"},
             {"name": "Grid & substations", "layers": 12, "freshness": "Updated 2 days ago"},
@@ -293,3 +306,59 @@ def update_settings():
     except ValueError as error:
         db.session.rollback()
         return jsonify({"error": str(error)}), 400
+
+
+@api_paces.route("/team", methods=["POST"])
+@paces_session_required
+def invite_team_member():
+    data = _json_body()
+    try:
+        email = _clean_text(data.get("email"), "email", 254).lower()
+        if not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", email):
+            raise ValueError("Enter a valid email address")
+        if PacesTeamMember.query.filter_by(workspace_key=WORKSPACE, email=email, deleted_at=None).first():
+            return jsonify({"error": "A workspace member already uses this email"}), 409
+        role = data.get("role", "Viewer")
+        access = data.get("access", "View only")
+        if role not in TEAM_ROLES or access not in ACCESS_LEVELS:
+            raise ValueError("Unsupported team role or access level")
+        member = PacesTeamMember(
+            id=str(uuid.uuid4()), workspace_key=WORKSPACE,
+            name=_clean_text(data.get("name"), "name", 120), email=email,
+            role=role, status="Invited", access=access,
+        )
+        db.session.add(member)
+        db.session.commit()
+        return jsonify(member.to_dict()), 201
+    except ValueError as error:
+        db.session.rollback()
+        return jsonify({"error": str(error)}), 400
+    except Exception:
+        db.session.rollback()
+        return jsonify({"error": "Unable to invite this workspace member"}), 500
+
+
+@api_paces.route("/data-sources", methods=["POST"])
+@paces_session_required
+def create_data_source():
+    data = _json_body()
+    try:
+        category = data.get("category")
+        if category not in DATA_CATEGORIES:
+            raise ValueError("Unsupported data category")
+        source_type = _clean_text(data.get("sourceType", "Workspace upload"), "sourceType", 40)
+        item = PacesDataSource(
+            id=str(uuid.uuid4()), workspace_key=WORKSPACE,
+            name=_clean_text(data.get("name"), "name", 120),
+            category=category, source_type=source_type,
+            status="Connected", freshness="Added just now",
+        )
+        db.session.add(item)
+        db.session.commit()
+        return jsonify(item.to_dict()), 201
+    except ValueError as error:
+        db.session.rollback()
+        return jsonify({"error": str(error)}), 400
+    except Exception:
+        db.session.rollback()
+        return jsonify({"error": "Unable to connect this data source"}), 500

@@ -60,7 +60,11 @@ class PacesDemoApiTest(unittest.TestCase):
         report = self.client.post("/api/paces/reports", json={"projectId": project["id"], "type": "Permitting", "priority": "Priority"}, headers=self.headers)
         agent = self.client.post("/api/paces/agent/runs", json={"prompt": "Rank projects by readiness"}, headers=self.headers)
         settings = self.client.patch("/api/paces/settings", json={"workspaceName": "Northstar Development", "weeklyPipelineSummary": False}, headers=self.headers)
-        self.assertEqual((saved.status_code, report.status_code, agent.status_code, settings.status_code), (201, 201, 201, 200))
+        invited = self.client.post("/api/paces/team", json={"name": "Taylor Reed", "email": "taylor@example.com", "role": "Viewer", "access": "View only"}, headers=self.headers)
+        source = self.client.post("/api/paces/data-sources", json={"name": "Virginia queue export", "category": "Power & grid", "sourceType": "CSV upload"}, headers=self.headers)
+        self.assertEqual((saved.status_code, report.status_code, agent.status_code, settings.status_code, invited.status_code, source.status_code), (201, 201, 201, 200, 201, 201))
+        self.assertEqual(invited.get_json()["status"], "Invited")
+        self.assertEqual(source.get_json()["category"], "Power & grid")
 
         with self.app.app_context():
             customer = db.session.get(CRMCustomer, self.customer_id)
