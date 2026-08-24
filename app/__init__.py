@@ -26,6 +26,7 @@ from app.routes.routes_Language_Subroute_Page.routes_Language_Stories import api
 from flask_sock import Sock
 from app.routes.routes_VoiceAgent import api_voice_agent, init_voice_socket
 from app.routes.routes_Paces import api_paces
+from app.greptile import initialize_greptile_schema, register_greptile
 
 def drop_all_tables():
     load_dotenv()
@@ -181,8 +182,10 @@ def _cors_origins():
     defaults = [
         'http://localhost:3000',
         'http://localhost:3001',
+        'http://localhost:3002',
         'http://127.0.0.1:3000',
         'http://127.0.0.1:3001',
+        'http://127.0.0.1:3002',
     ]
     return list(dict.fromkeys(defaults + configured)) + [
         re.compile(r'^https://[a-zA-Z0-9.-]+\.vercel\.app$'),
@@ -202,11 +205,12 @@ def create_app():
             r"/login": {"origins": allowed_origins},
             r"/signup": {"origins": allowed_origins},
         },
-        supports_credentials=False,
+        supports_credentials=True,
         allow_headers=["Content-Type", "Authorization"],
     )
 
     app.config.from_object(DevelopmentConfig)  # Load development config
+    app.config['GREPTILE_DUMMY_PASSWORD_HASH'] = generate_password_hash(os.urandom(32).hex())
 
     db.init_app(app)
 
@@ -222,10 +226,14 @@ def create_app():
     app.register_blueprint(api_Language_Stories)
     app.register_blueprint(api_voice_agent)
     app.register_blueprint(api_paces)
+    register_greptile(app)
     init_voice_socket(sock)
-    if os.getenv('AUTO_CREATE_TABLES', 'true').lower() == 'true':
-        with app.app_context():
+    with app.app_context():
+        if os.getenv('AUTO_CREATE_TABLES', 'true').lower() == 'true':
             db.create_all()
+        # This is deliberately independent of AUTO_CREATE_TABLES: Greptile
+        # creates only namespaced tables and does not alter existing data.
+        initialize_greptile_schema()
     # try:
     #     with app.app_context():
     #         db.create_all()
