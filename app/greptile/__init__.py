@@ -6,12 +6,16 @@ from app.models import db
 
 from .auth import greptile_auth
 from .models import (
+    GreptileAuditFinding,
+    GreptileAuditRun,
     GreptileCitation,
+    GreptileCodeFile,
     GreptileContactLead,
     GreptileConversation,
     GreptileMessage,
     GreptilePullRequest,
     GreptileRepository,
+    GreptileRepositorySnapshot,
     GreptileRule,
     GreptileSession,
     GreptileUser,
@@ -26,6 +30,10 @@ GREPTILE_MODELS = (
     GreptileUser,
     GreptileSession,
     GreptileRepository,
+    GreptileRepositorySnapshot,
+    GreptileCodeFile,
+    GreptileAuditRun,
+    GreptileAuditFinding,
     GreptileConversation,
     GreptileMessage,
     GreptileCitation,

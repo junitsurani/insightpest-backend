@@ -82,6 +82,103 @@ class GreptileRepository(AuditMixin, db.Model):
     progress = db.Column(db.Integer, nullable=False, default=0)
     last_indexed_at = db.Column(db.DateTime(timezone=True), nullable=True)
     workspace = db.relationship("GreptileWorkspace", back_populates="repositories")
+    snapshots = db.relationship("GreptileRepositorySnapshot", back_populates="repository", cascade="all, delete-orphan")
+    audits = db.relationship("GreptileAuditRun", back_populates="repository", cascade="all, delete-orphan")
+
+
+class GreptileRepositorySnapshot(AuditMixin, db.Model):
+    __tablename__ = "greptile_repository_snapshot"
+    __table_args__ = (
+        db.Index("ix_greptile_snapshot_repository_created", "repository_id", "created_at"),
+        CheckConstraint("status IN ('indexing', 'ready', 'failed')", name="ck_greptile_snapshot_status"),
+        CheckConstraint("file_count >= 0", name="ck_greptile_snapshot_file_count"),
+        CheckConstraint("indexed_file_count >= 0", name="ck_greptile_snapshot_indexed_file_count"),
+        CheckConstraint("total_bytes >= 0", name="ck_greptile_snapshot_total_bytes"),
+    )
+
+    id = db.Column(Uuid(as_uuid=True), primary_key=True, default=new_id)
+    workspace_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_workspace.id", ondelete="CASCADE"), nullable=False)
+    repository_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_repository.id", ondelete="CASCADE"), nullable=False)
+    remote_url = db.Column(db.String(500), nullable=False)
+    commit_sha = db.Column(db.String(64), nullable=True)
+    default_branch = db.Column(db.String(120), nullable=False)
+    status = db.Column(db.String(20), nullable=False, default="indexing")
+    file_count = db.Column(db.Integer, nullable=False, default=0)
+    indexed_file_count = db.Column(db.Integer, nullable=False, default=0)
+    total_bytes = db.Column(db.Integer, nullable=False, default=0)
+    error_message = db.Column(db.String(500), nullable=True)
+    repository = db.relationship("GreptileRepository", back_populates="snapshots")
+    files = db.relationship("GreptileCodeFile", back_populates="snapshot", cascade="all, delete-orphan")
+
+
+class GreptileCodeFile(AuditMixin, db.Model):
+    __tablename__ = "greptile_code_file"
+    __table_args__ = (
+        db.UniqueConstraint("snapshot_id", "path", name="uq_greptile_code_file_snapshot_path"),
+        db.Index("ix_greptile_code_file_repository_path", "repository_id", "path"),
+        CheckConstraint("size_bytes >= 0", name="ck_greptile_code_file_size"),
+        CheckConstraint("line_count >= 0", name="ck_greptile_code_file_lines"),
+    )
+
+    id = db.Column(Uuid(as_uuid=True), primary_key=True, default=new_id)
+    workspace_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_workspace.id", ondelete="CASCADE"), nullable=False)
+    repository_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_repository.id", ondelete="CASCADE"), nullable=False)
+    snapshot_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_repository_snapshot.id", ondelete="CASCADE"), nullable=False)
+    path = db.Column(db.String(500), nullable=False)
+    language = db.Column(db.String(60), nullable=False, default="text")
+    source_sha = db.Column(db.String(64), nullable=True)
+    size_bytes = db.Column(db.Integer, nullable=False)
+    line_count = db.Column(db.Integer, nullable=False)
+    content = db.Column(db.Text, nullable=False)
+    snapshot = db.relationship("GreptileRepositorySnapshot", back_populates="files")
+
+
+class GreptileAuditRun(AuditMixin, db.Model):
+    __tablename__ = "greptile_audit_run"
+    __table_args__ = (
+        db.Index("ix_greptile_audit_repository_created", "repository_id", "created_at"),
+        CheckConstraint("status IN ('running', 'complete', 'failed')", name="ck_greptile_audit_status"),
+        CheckConstraint("score IS NULL OR (score BETWEEN 0 AND 100)", name="ck_greptile_audit_score"),
+        CheckConstraint("file_count >= 0", name="ck_greptile_audit_file_count"),
+    )
+
+    id = db.Column(Uuid(as_uuid=True), primary_key=True, default=new_id)
+    workspace_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_workspace.id", ondelete="CASCADE"), nullable=False)
+    repository_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_repository.id", ondelete="CASCADE"), nullable=False)
+    snapshot_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_repository_snapshot.id", ondelete="SET NULL"), nullable=True)
+    status = db.Column(db.String(20), nullable=False, default="running")
+    score = db.Column(db.Integer, nullable=True)
+    summary = db.Column(db.Text, nullable=True)
+    model = db.Column(db.String(120), nullable=False, default="static")
+    llm_status = db.Column(db.String(40), nullable=False, default="not_started")
+    file_count = db.Column(db.Integer, nullable=False, default=0)
+    completed_at = db.Column(db.DateTime(timezone=True), nullable=True)
+    error_message = db.Column(db.String(500), nullable=True)
+    repository = db.relationship("GreptileRepository", back_populates="audits")
+    findings = db.relationship("GreptileAuditFinding", back_populates="audit", cascade="all, delete-orphan")
+
+
+class GreptileAuditFinding(AuditMixin, db.Model):
+    __tablename__ = "greptile_audit_finding"
+    __table_args__ = (
+        db.Index("ix_greptile_audit_finding_audit_severity", "audit_id", "severity"),
+        CheckConstraint("severity IN ('critical', 'high', 'medium', 'low', 'info')", name="ck_greptile_audit_finding_severity"),
+        CheckConstraint("start_line > 0", name="ck_greptile_audit_finding_start"),
+        CheckConstraint("end_line >= start_line", name="ck_greptile_audit_finding_range"),
+    )
+
+    id = db.Column(Uuid(as_uuid=True), primary_key=True, default=new_id)
+    audit_id = db.Column(Uuid(as_uuid=True), db.ForeignKey("greptile_audit_run.id", ondelete="CASCADE"), nullable=False)
+    path = db.Column(db.String(500), nullable=False)
+    start_line = db.Column(db.Integer, nullable=False)
+    end_line = db.Column(db.Integer, nullable=False)
+    severity = db.Column(db.String(20), nullable=False)
+    category = db.Column(db.String(80), nullable=False)
+    title = db.Column(db.String(240), nullable=False)
+    description = db.Column(db.Text, nullable=False)
+    recommendation = db.Column(db.Text, nullable=False)
+    evidence = db.Column(db.Text, nullable=False)
+    audit = db.relationship("GreptileAuditRun", back_populates="findings")
 
 
 class GreptileConversation(AuditMixin, db.Model):

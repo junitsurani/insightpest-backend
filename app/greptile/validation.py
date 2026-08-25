@@ -47,14 +47,15 @@ def parse_repository_url(value: object) -> RepositoryIdentity:
     if parsed.scheme != "https" or host not in {"github.com", "gitlab.com"}:
         raise ValidationError("url must be an HTTPS GitHub or GitLab repository URL")
     parts = [part for part in parsed.path.strip("/").split("/") if part]
-    if len(parts) != 2:
+    provider = "github" if host == "github.com" else "gitlab"
+    if (provider == "github" and len(parts) != 2) or (provider == "gitlab" and len(parts) < 2):
         raise ValidationError("url must identify one repository")
-    owner, name = parts
+    owner, name = "/".join(parts[:-1]), parts[-1]
     name = name.removesuffix(".git")
     valid = re.compile(r"^[A-Za-z0-9_.-]{1,100}$")
-    if not valid.fullmatch(owner) or not valid.fullmatch(name):
+    if len(owner) > 100 or not all(valid.fullmatch(part) for part in owner.split("/")) or not valid.fullmatch(name):
         raise ValidationError("repository owner or name contains unsupported characters")
-    return RepositoryIdentity("github" if host == "github.com" else "gitlab", owner, name)
+    return RepositoryIdentity(provider, owner, name)
 
 
 def require_email(value: object) -> str:

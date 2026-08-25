@@ -2,15 +2,17 @@ from __future__ import annotations
 
 import time
 from collections import defaultdict, deque
-from datetime import datetime, timezone
 from functools import wraps
 
 from flask import Blueprint, g, jsonify, request
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 
-from .auth import require_session
 from app.models import db
-from .models import GreptileContactLead, GreptileMessage, GreptilePullRequest, GreptileRepository, GreptileRule
+from .audit_service import run_codebase_audit
+from .auth import require_session
+from .llm_engine import LLMConfigurationError, LLMResponseError
+from .models import GreptileAuditRun, GreptileContactLead, GreptileMessage, GreptilePullRequest, GreptileRepository, GreptileRepositorySnapshot, GreptileRule
+from .repository_indexer import RepositoryConnectionError, index_repository
 from .services import answer_question, ensure_default_rules, repository_for_workspace
 from .validation import ValidationError, optional_uuid, parse_repository_url, require_email, require_text, require_uuid
 
@@ -46,7 +48,20 @@ def rate_limit(limit: int, seconds: int):
 
 
 def serialize_repository(repo: GreptileRepository) -> dict:
-    return {"id": str(repo.id), "owner": repo.owner, "name": repo.name, "provider": repo.provider, "defaultBranch": repo.default_branch, "status": repo.status, "progress": repo.progress, "lastIndexedAt": repo.last_indexed_at.isoformat().replace("+00:00", "Z") if repo.last_indexed_at else None}
+    snapshot = GreptileRepositorySnapshot.query.filter_by(repository_id=repo.id, deleted_at=None).order_by(GreptileRepositorySnapshot.created_at.desc()).first()
+    return {
+        "id": str(repo.id), "owner": repo.owner, "name": repo.name, "provider": repo.provider,
+        "defaultBranch": repo.default_branch,
+        "status": snapshot.status if snapshot else "queued",
+        "progress": repo.progress if snapshot else 0,
+        "lastIndexedAt": repo.last_indexed_at.isoformat().replace("+00:00", "Z") if snapshot and repo.last_indexed_at else None,
+        "remoteUrl": snapshot.remote_url if snapshot else f"https://{repo.provider}.com/{repo.owner}/{repo.name}",
+        "commitSha": snapshot.commit_sha if snapshot else None,
+        "fileCount": snapshot.file_count if snapshot else 0,
+        "indexedFileCount": snapshot.indexed_file_count if snapshot else 0,
+        "totalBytes": snapshot.total_bytes if snapshot else 0,
+        "indexError": snapshot.error_message if snapshot and snapshot.status == "failed" else None,
+    }
 
 
 def serialize_pull_request(pr: GreptilePullRequest) -> dict:
@@ -55,6 +70,25 @@ def serialize_pull_request(pr: GreptilePullRequest) -> dict:
 
 def serialize_rule(rule: GreptileRule) -> dict:
     return {"id": str(rule.id), "text": rule.text, "enabled": rule.enabled}
+
+
+def serialize_audit(run: GreptileAuditRun, include_findings: bool = True) -> dict:
+    result = {
+        "id": str(run.id), "repositoryId": str(run.repository_id), "status": run.status,
+        "score": run.score, "summary": run.summary, "model": run.model,
+        "llmStatus": run.llm_status, "fileCount": run.file_count,
+        "createdAt": run.created_at.isoformat().replace("+00:00", "Z"),
+        "completedAt": run.completed_at.isoformat().replace("+00:00", "Z") if run.completed_at else None,
+        "findingCount": len(run.findings),
+    }
+    if include_findings:
+        result["findings"] = [{
+            "id": str(item.id), "path": item.path, "startLine": item.start_line,
+            "endLine": item.end_line, "severity": item.severity, "category": item.category,
+            "title": item.title, "description": item.description,
+            "recommendation": item.recommendation, "evidence": item.evidence,
+        } for item in run.findings]
+    return result
 
 
 @greptile_api.errorhandler(ValidationError)
@@ -66,6 +100,24 @@ def handle_validation(error: ValidationError):
 def handle_database_error(_error: SQLAlchemyError):
     db.session.rollback()
     return jsonify({"error": "The request could not be completed"}), 500
+
+
+@greptile_api.errorhandler(RepositoryConnectionError)
+def handle_repository_connection(error: RepositoryConnectionError):
+    db.session.rollback()
+    return jsonify({"error": str(error)}), 422
+
+
+@greptile_api.errorhandler(LLMConfigurationError)
+def handle_llm_configuration(error: LLMConfigurationError):
+    db.session.rollback()
+    return jsonify({"error": str(error)}), 503
+
+
+@greptile_api.errorhandler(LLMResponseError)
+def handle_llm_response(error: LLMResponseError):
+    db.session.rollback()
+    return jsonify({"error": str(error)}), 422
 
 
 @greptile_api.get("/health")
@@ -87,14 +139,28 @@ def create_repository():
     data = json_body("url", "defaultBranch")
     identity = parse_repository_url(data.get("url"))
     branch = require_text(data.get("defaultBranch", "main"), "defaultBranch", maximum=120)
-    repo = GreptileRepository(workspace_id=g.workspace_id, provider=identity.provider, owner=identity.owner, name=identity.name, default_branch=branch, status="ready", progress=100, last_indexed_at=datetime.now(timezone.utc))
+    existing = GreptileRepository.query.filter_by(
+        workspace_id=g.workspace_id, provider=identity.provider, owner=identity.owner,
+        name=identity.name, deleted_at=None,
+    ).first()
+    if existing:
+        index_repository(existing)
+        return jsonify({"repository": serialize_repository(existing)}), 200
+    repo = GreptileRepository(
+        workspace_id=g.workspace_id, provider=identity.provider, owner=identity.owner,
+        name=identity.name, default_branch=branch, status="queued", progress=0,
+    )
     db.session.add(repo)
     try:
         db.session.commit()
     except IntegrityError:
         db.session.rollback()
         existing = GreptileRepository.query.filter_by(workspace_id=g.workspace_id, provider=identity.provider, owner=identity.owner, name=identity.name, deleted_at=None).first()
+        if existing is None:
+            raise
+        index_repository(existing)
         return jsonify({"repository": serialize_repository(existing)}), 200
+    index_repository(repo)
     return jsonify({"repository": serialize_repository(repo)}), 201
 
 
@@ -106,9 +172,50 @@ def sync_repository(repository_id: str):
     repo = repository_for_workspace(g.workspace_id, repo_id)
     if repo is None:
         return jsonify({"error": "Repository not found"}), 404
-    repo.status, repo.progress, repo.last_indexed_at = "ready", 100, datetime.now(timezone.utc)
-    db.session.commit()
+    index_repository(repo)
     return jsonify({"repository": serialize_repository(repo)})
+
+
+@greptile_api.get("/repositories/<repository_id>/index")
+@require_session
+def repository_index(repository_id: str):
+    repo = repository_for_workspace(g.workspace_id, require_uuid(repository_id, "repositoryId"))
+    if repo is None:
+        return jsonify({"error": "Repository not found"}), 404
+    return jsonify({"repository": serialize_repository(repo)})
+
+
+@greptile_api.get("/audits")
+@require_session
+def list_audits():
+    query = GreptileAuditRun.query.filter_by(workspace_id=g.workspace_id, deleted_at=None)
+    repository_id = request.args.get("repositoryId")
+    if repository_id:
+        query = query.filter_by(repository_id=require_uuid(repository_id, "repositoryId"))
+    runs = query.order_by(GreptileAuditRun.created_at.desc()).limit(30).all()
+    return jsonify({"audits": [serialize_audit(run) for run in runs]})
+
+
+@greptile_api.post("/repositories/<repository_id>/audits")
+@require_session
+@rate_limit(10, 60)
+def create_audit(repository_id: str):
+    repo = repository_for_workspace(g.workspace_id, require_uuid(repository_id, "repositoryId"))
+    if repo is None:
+        return jsonify({"error": "Repository not found"}), 404
+    run = run_codebase_audit(repo)
+    return jsonify({"audit": serialize_audit(run)}), 201
+
+
+@greptile_api.get("/audits/<audit_id>")
+@require_session
+def get_audit(audit_id: str):
+    run = GreptileAuditRun.query.filter_by(
+        id=require_uuid(audit_id, "auditId"), workspace_id=g.workspace_id, deleted_at=None
+    ).first()
+    if run is None:
+        return jsonify({"error": "Audit not found"}), 404
+    return jsonify({"audit": serialize_audit(run)})
 
 
 @greptile_api.get("/pull-requests")

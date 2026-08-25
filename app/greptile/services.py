@@ -10,7 +10,8 @@ from werkzeug.security import generate_password_hash
 
 from app.models import db
 
-from .models import GreptileCitation, GreptileConversation, GreptileMessage, GreptilePullRequest, GreptileRepository, GreptileRule, GreptileUser, GreptileWorkspace
+from .llm_engine import LLMResponseError, generate_grounded_answer
+from .models import GreptileCitation, GreptileCodeFile, GreptileConversation, GreptileMessage, GreptilePullRequest, GreptileRepository, GreptileRepositorySnapshot, GreptileRule, GreptileUser, GreptileWorkspace
 
 
 DEFAULT_WORKSPACE_ID = uuid.UUID("00000000-0000-4000-8000-000000000001")
@@ -98,32 +99,38 @@ def answer_question(repository: GreptileRepository, question: str, conversation_
         db.session.add(conversation)
         db.session.flush()
 
+    snapshot = GreptileRepositorySnapshot.query.filter_by(
+        repository_id=repository.id,
+        workspace_id=repository.workspace_id,
+        status="ready",
+        deleted_at=None,
+    ).order_by(GreptileRepositorySnapshot.created_at.desc()).first()
+    if snapshot is None:
+        raise LLMResponseError("Index this repository before asking codebase questions.")
+    files = GreptileCodeFile.query.filter_by(snapshot_id=snapshot.id, deleted_at=None).all()
+    if not files:
+        raise LLMResponseError("The latest repository index contains no supported source files.")
+    rules = [
+        rule.text for rule in GreptileRule.query.filter_by(
+            workspace_id=repository.workspace_id,
+            enabled=True,
+            deleted_at=None,
+        ).all()
+    ]
+    answer, grounded_sources, _model = generate_grounded_answer(files, question, rules)
+
     db.session.add(GreptileMessage(conversation_id=conversation.id, role="user", content=question))
-    lowered = question.lower()
-    if any(token in lowered for token in ("auth", "session", "login", "permission")):
-        answer = "Authentication enters through the route handler, validates the signed session, and resolves organization membership before protected services execute. The critical boundary is requireWorkspaceAccess, which prevents cross-workspace repository reads."
-        citations = [
-            ("src/api/auth/[...session]/route.ts", 18, 46, "const session = await verifySession(request);"),
-            ("src/security/require-workspace-access.ts", 31, 64, "await memberships.assertAccess(userId, workspaceId);"),
-        ]
-    elif any(token in lowered for token in ("payment", "retry", "ledger", "284")):
-        answer = "PR #284 improves retry detection, but the ledger write still occurs before the retry marker commits. Two workers can race and create duplicate entries. Put both operations in one transaction and lock the payment-attempt row."
-        citations = [
-            ("src/payments/retry-payment.ts", 72, 111, "await ledger.recordCapture(attempt);"),
-            ("src/db/payment-attempt-repository.ts", 44, 82, "return db.paymentAttempt.update({ ... });"),
-            ("src/workers/payment-retry-worker.ts", 21, 57, "await retryPayment(job.data.attemptId);"),
-        ]
-    else:
-        answer = f"I traced this question across {repository.owner}/{repository.name}. The main execution path starts in the API route, passes through the application service, and ends in the persistence adapter. The cited files are the highest-confidence code-graph matches."
-        citations = [
-            ("src/api/repositories/route.ts", 24, 66, "return repositoryService.execute(command);"),
-            ("src/services/repository-service.ts", 48, 109, "await repository.save(aggregate);"),
-        ]
     message = GreptileMessage(conversation_id=conversation.id, role="assistant", content=answer, duration_ms=max(1, int((time.perf_counter() - started) * 1000)))
     db.session.add(message)
     db.session.flush()
-    for path, start_line, end_line, excerpt in citations:
-        db.session.add(GreptileCitation(message_id=message.id, path=path, start_line=start_line, end_line=end_line, excerpt=excerpt))
+    for source in grounded_sources:
+        db.session.add(GreptileCitation(
+            message_id=message.id,
+            path=source.path,
+            start_line=source.start_line,
+            end_line=source.end_line,
+            excerpt=source.excerpt,
+        ))
     conversation.updated_at = datetime.now(timezone.utc)
     db.session.commit()
     return conversation, message
