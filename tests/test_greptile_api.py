@@ -10,7 +10,7 @@ from werkzeug.security import generate_password_hash
 from app.greptile import initialize_greptile_schema, register_greptile
 from app.greptile.auth import _login_windows
 from app.greptile.llm_engine import SourceChunk
-from app.greptile.models import GreptileCodeFile, GreptileRepository, GreptileRepositorySnapshot, GreptileSession
+from app.greptile.models import GreptileCodeFile, GreptileContactLead, GreptileRepository, GreptileRepositorySnapshot, GreptileSession, GreptileWorkspace
 from app.greptile.routes import _rate_windows
 from app.greptile.repository_indexer import RepositoryClient, RepositoryTarget
 from app.models import db
@@ -81,6 +81,22 @@ class GreptileApiTestCase(unittest.TestCase):
         db.session.commit()
         return snapshot
 
+    def _create_test_repository(self):
+        with self.app.app_context():
+            workspace = GreptileWorkspace.query.first()
+            repository = GreptileRepository(
+                workspace_id=workspace.id,
+                owner="acme",
+                name="platform",
+                provider="github",
+                default_branch="main",
+                status="queued",
+                progress=0,
+            )
+            db.session.add(repository)
+            db.session.commit()
+        return self.client.get("/api/greptile/repositories", headers=self.headers).json["repositories"][0]
+
     def test_health_is_public_and_hardened(self):
         response = self.client.get("/api/greptile/health")
         self.assertEqual(response.status_code, 200)
@@ -123,15 +139,15 @@ class GreptileApiTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn("Secure", response.headers.get("Set-Cookie", ""))
 
-    def test_first_access_seeds_repository_and_pull_requests_idempotently(self):
+    def test_first_access_seeds_only_the_workspace_idempotently(self):
         self.login()
         first = self.client.get("/api/greptile/repositories", headers=self.headers)
         second = self.client.get("/api/greptile/repositories", headers=self.headers)
         pulls = self.client.get("/api/greptile/pull-requests", headers=self.headers)
         self.assertEqual(first.status_code, 200)
-        self.assertEqual(len(first.json["repositories"]), 1)
+        self.assertEqual(len(first.json["repositories"]), 0)
         self.assertEqual(first.json, second.json)
-        self.assertEqual(len(pulls.json["pullRequests"]), 3)
+        self.assertEqual(len(pulls.json["pullRequests"]), 0)
 
     def test_repository_url_validation_blocks_untrusted_hosts(self):
         self.login()
@@ -141,7 +157,7 @@ class GreptileApiTestCase(unittest.TestCase):
 
     def test_client_cannot_override_the_session_workspace(self):
         self.login()
-        repo = self.client.get("/api/greptile/repositories", headers=self.headers).json["repositories"][0]
+        repo = self._create_test_repository()
         spoofed = {**self.headers, "X-Greptile-Workspace": "22222222-2222-4222-8222-222222222222"}
         with patch("app.greptile.routes.index_repository", side_effect=self._index_repository):
             response = self.client.post(f"/api/greptile/repositories/{repo['id']}/sync", headers=spoofed)
@@ -149,7 +165,7 @@ class GreptileApiTestCase(unittest.TestCase):
 
     def test_query_returns_persisted_citations(self):
         self.login()
-        repo = self.client.get("/api/greptile/repositories", headers=self.headers).json["repositories"][0]
+        repo = self._create_test_repository()
         with self.app.app_context():
             self._index_repository(db.session.get(GreptileRepository, uuid.UUID(repo["id"])))
         grounded = [
@@ -160,9 +176,86 @@ class GreptileApiTestCase(unittest.TestCase):
             response = self.client.post("/api/greptile/query", headers=self.headers, json={"repositoryId": repo["id"], "question": "How does authentication work?"})
         self.assertEqual(response.status_code, 200)
         self.assertGreaterEqual(len(response.json["citations"]), 2)
+        self.assertIsNotNone(response.json["conversationId"])
         self.assertIn("require_workspace_access", response.json["answer"])
         feedback = self.client.post(f"/api/greptile/messages/{response.json['messageId']}/feedback", headers=self.headers, json={"rating": 1})
         self.assertEqual(feedback.status_code, 200)
+
+    def test_query_supports_multiple_repository_contexts(self):
+        self.login()
+        first = self._create_test_repository()
+        with self.app.app_context():
+            self._index_repository(db.session.get(GreptileRepository, uuid.UUID(first["id"])))
+        with patch("app.greptile.routes.index_repository", side_effect=self._index_repository):
+            created = self.client.post(
+                "/api/greptile/repositories",
+                headers=self.headers,
+                json={"url": "https://github.com/octocat/Hello-World", "defaultBranch": "main"},
+            ).json["repository"]
+        grounded = [SourceChunk(
+            "src/auth.py", 1, 4, "def require_workspace_access(...)",
+            "0001 def require_workspace_access(...):", repository_id=first["id"], repository="acme/platform",
+        )]
+        with patch("app.greptile.services.generate_grounded_answer", return_value=("The repositories share an auth boundary.", grounded, "test-model")):
+            response = self.client.post(
+                "/api/greptile/query",
+                headers=self.headers,
+                json={"repositoryIds": [first["id"], created["id"]], "question": "How is authentication shared?"},
+            )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json["citations"][0]["repository"], "acme/platform")
+
+    def test_conversation_history_feedback_and_soft_delete_are_workspace_scoped(self):
+        self.login()
+        repo = self._create_test_repository()
+        with self.app.app_context():
+            self._index_repository(db.session.get(GreptileRepository, uuid.UUID(repo["id"])))
+        grounded = [SourceChunk("src/auth.py", 1, 2, "def require_workspace_access(...)", "0001 def require_workspace_access(...):")]
+        with patch("app.greptile.services.generate_grounded_answer", return_value=("The access helper enforces workspace scope.", grounded, "test-model")):
+            queried = self.client.post("/api/greptile/query", headers=self.headers, json={"repositoryId": repo["id"], "question": "How is access scoped?"})
+        conversation_id = queried.json["conversationId"]
+        history = self.client.get("/api/greptile/conversations", headers=self.headers)
+        self.assertEqual(history.status_code, 200)
+        self.assertEqual(history.json["conversations"][0]["messageCount"], 2)
+        detail = self.client.get(f"/api/greptile/conversations/{conversation_id}", headers=self.headers)
+        self.assertEqual([item["role"] for item in detail.json["messages"]], ["user", "assistant"])
+        feedback = self.client.post("/api/greptile/product-feedback", headers=self.headers, json={"message": "The grounded source panel is useful and clear."})
+        self.assertEqual(feedback.status_code, 201)
+        with self.app.app_context():
+            self.assertEqual(GreptileContactLead.query.filter_by(company="Greptile product feedback").count(), 1)
+        deleted = self.client.delete(f"/api/greptile/conversations/{conversation_id}", headers=self.headers)
+        self.assertEqual(deleted.status_code, 200)
+        self.assertEqual(self.client.get(f"/api/greptile/conversations/{conversation_id}", headers=self.headers).status_code, 404)
+
+    def test_pull_request_queue_syncs_and_reviews_the_live_provider_patch(self):
+        self.login()
+        repo = self._create_test_repository()
+
+        class Response:
+            def __init__(self, payload):
+                self._payload = payload
+                self.content = b"{}"
+                self.status_code = 200
+
+            def json(self):
+                return self._payload
+
+        def provider_response(_client, url, _provider, **_kwargs):
+            if url.endswith("/pulls"):
+                return Response([{"number": 42, "title": "Harden command runner", "user": {"login": "octocat"}, "head": {"ref": "secure-runner"}}])
+            if url.endswith("/pulls/42/files"):
+                return Response([{"filename": "src/worker.py", "patch": "@@ -1 +1 @@\n+subprocess.run(command, shell=True)"}])
+            raise AssertionError(url)
+
+        with patch("app.greptile.pull_request_service.RepositoryClient._request", new=provider_response):
+            synced = self.client.post(f"/api/greptile/repositories/{repo['id']}/pull-requests/sync", headers=self.headers)
+            self.assertEqual(synced.status_code, 200)
+            pull_request = synced.json["pullRequests"][0]
+            with patch("app.greptile.pull_request_service.generate_audit_findings", return_value=("Reviewed", [], "test-model")):
+                reviewed = self.client.post(f"/api/greptile/pull-requests/{pull_request['id']}/review", headers=self.headers)
+        self.assertEqual(reviewed.status_code, 200)
+        self.assertEqual(reviewed.json["pullRequest"]["status"], "issues_found")
+        self.assertGreaterEqual(reviewed.json["pullRequest"]["issueCount"], 1)
 
     def test_add_repository_invokes_real_indexing_contract(self):
         self.login()
@@ -216,7 +309,7 @@ class GreptileApiTestCase(unittest.TestCase):
 
     def test_codebase_audit_persists_llm_and_static_findings(self):
         self.login()
-        repo = self.client.get("/api/greptile/repositories", headers=self.headers).json["repositories"][0]
+        repo = self._create_test_repository()
         with self.app.app_context():
             self._index_repository(db.session.get(GreptileRepository, uuid.UUID(repo["id"])))
         ai_finding = {
@@ -248,7 +341,7 @@ class GreptileApiTestCase(unittest.TestCase):
 
     def test_oversized_and_unknown_fields_do_not_bypass_validation(self):
         self.login()
-        repo = self.client.get("/api/greptile/repositories", headers=self.headers).json["repositories"][0]
+        repo = self._create_test_repository()
         response = self.client.post("/api/greptile/query", headers=self.headers, json={"repositoryId": repo["id"], "question": "x" * 2001, "workspaceId": "22222222-2222-4222-8222-222222222222"})
         self.assertEqual(response.status_code, 400)
         unknown = self.client.post("/api/greptile/query", headers=self.headers, json={"repositoryId": repo["id"], "question": "Explain the service", "workspaceId": "22222222-2222-4222-8222-222222222222"})

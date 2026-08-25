@@ -23,6 +23,8 @@ class SourceChunk:
     end_line: int
     excerpt: str
     content: str
+    repository_id: str = ""
+    repository: str = ""
 
 
 def _tokens(value: str) -> set[str]:
@@ -55,7 +57,14 @@ def retrieve_sources(files: list[GreptileCodeFile], query: str, *, limit: int = 
         end = min(len(lines), start + 90)
         numbered = "\n".join(f"{index + 1:04d} {lines[index]}" for index in range(start, end))
         excerpt = "\n".join(lines[start:min(end, start + 8)]).strip()[:900]
-        sources.append(SourceChunk(item.path, start + 1, max(start + 1, end), excerpt, numbered))
+        sources.append(SourceChunk(
+            item.path,
+            start + 1,
+            max(start + 1, end),
+            excerpt,
+            numbered,
+            repository_id=str(item.repository_id),
+        ))
     return sources
 
 
@@ -87,18 +96,36 @@ def _json_completion(system: str, user: str) -> tuple[dict, str]:
         raise LLMResponseError("The AI analysis request failed. Please retry.") from exc
 
 
-def generate_grounded_answer(files: list[GreptileCodeFile], question: str, rules: list[str]) -> tuple[str, list[SourceChunk], str]:
-    sources = retrieve_sources(files, question)
+def generate_grounded_answer(
+    files: list[GreptileCodeFile],
+    question: str,
+    rules: list[str],
+    repository_labels: dict[str, str] | None = None,
+) -> tuple[str, list[SourceChunk], str]:
+    labels = repository_labels or {}
+    sources = [
+        SourceChunk(
+            source.path,
+            source.start_line,
+            source.end_line,
+            source.excerpt,
+            source.content,
+            repository_id=source.repository_id,
+            repository=labels.get(source.repository_id, "repository"),
+        )
+        for source in retrieve_sources(files, question)
+    ]
     if not sources:
         raise LLMResponseError("This repository has no indexed source files.")
     source_text = "\n\n".join(
-        f"SOURCE {index}\nPATH: {source.path}\nLINES: {source.start_line}-{source.end_line}\n{source.content}"
+        f"SOURCE {index}\nREPOSITORY: {source.repository}\nPATH: {source.path}\nLINES: {source.start_line}-{source.end_line}\n{source.content}"
         for index, source in enumerate(sources, 1)
     )
     payload, model = _json_completion(
         "You are a senior codebase analyst. Answer only from supplied repository sources. "
         "If evidence is incomplete, say so. Return JSON with keys answer (string) and source_indexes (array of integers). "
-        "Never invent paths, APIs, behavior, or citations.",
+        "Never invent paths, APIs, behavior, or citations. When multiple repositories are supplied, "
+        "state which repository contains each relevant behavior.",
         f"QUESTION:\n{question}\n\nACTIVE REVIEW RULES:\n" +
         ("\n".join(f"- {rule}" for rule in rules) or "- none") +
         f"\n\nREPOSITORY SOURCES:\n{source_text}",

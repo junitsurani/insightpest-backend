@@ -2,16 +2,19 @@ from __future__ import annotations
 
 import time
 from collections import defaultdict, deque
+from datetime import datetime, timezone
 from functools import wraps
 
 from flask import Blueprint, g, jsonify, request
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
+from sqlalchemy.orm import selectinload
 
 from app.models import db
 from .audit_service import run_codebase_audit
 from .auth import require_session
 from .llm_engine import LLMConfigurationError, LLMResponseError
-from .models import GreptileAuditRun, GreptileContactLead, GreptileMessage, GreptilePullRequest, GreptileRepository, GreptileRepositorySnapshot, GreptileRule
+from .models import GreptileAuditRun, GreptileContactLead, GreptileConversation, GreptileMessage, GreptilePullRequest, GreptileRepository, GreptileRepositorySnapshot, GreptileRule
+from .pull_request_service import review_pull_request as review_live_pull_request, sync_pull_requests
 from .repository_indexer import RepositoryConnectionError, index_repository
 from .services import answer_question, ensure_default_rules, repository_for_workspace
 from .validation import ValidationError, optional_uuid, parse_repository_url, require_email, require_text, require_uuid
@@ -89,6 +92,39 @@ def serialize_audit(run: GreptileAuditRun, include_findings: bool = True) -> dic
             "recommendation": item.recommendation, "evidence": item.evidence,
         } for item in run.findings]
     return result
+
+
+def serialize_citation(item) -> dict:
+    repository, separator, path = item.path.partition("::")
+    return {
+        "id": str(item.id),
+        "path": path if separator else item.path,
+        "repository": repository if separator else None,
+        "startLine": item.start_line,
+        "endLine": item.end_line,
+        "excerpt": item.excerpt,
+    }
+
+
+def serialize_conversation(item: GreptileConversation) -> dict:
+    return {
+        "id": str(item.id),
+        "repositoryId": str(item.repository_id),
+        "title": item.title,
+        "messageCount": sum(1 for message in item.messages if message.deleted_at is None),
+        "updatedAt": item.updated_at.isoformat().replace("+00:00", "Z"),
+    }
+
+
+def serialize_message(item: GreptileMessage) -> dict:
+    return {
+        "id": str(item.id),
+        "role": item.role,
+        "content": item.content,
+        "durationMs": item.duration_ms,
+        "feedbackRating": item.feedback_rating,
+        "citations": [serialize_citation(citation) for citation in item.citations if citation.deleted_at is None],
+    }
 
 
 @greptile_api.errorhandler(ValidationError)
@@ -225,7 +261,18 @@ def list_pull_requests():
     query = GreptilePullRequest.query.filter_by(workspace_id=g.workspace_id, deleted_at=None)
     if repository_id:
         query = query.filter_by(repository_id=require_uuid(repository_id, "repositoryId"))
-    return jsonify({"pullRequests": [serialize_pull_request(pr) for pr in query.order_by(GreptilePullRequest.updated_at.desc()).all()]})
+    return jsonify({"pullRequests": [serialize_pull_request(pr) for pr in query.order_by(GreptilePullRequest.updated_at.desc(), GreptilePullRequest.number.desc()).all()]})
+
+
+@greptile_api.post("/repositories/<repository_id>/pull-requests/sync")
+@require_session
+@rate_limit(20, 60)
+def sync_repository_pull_requests(repository_id: str):
+    repository = repository_for_workspace(g.workspace_id, require_uuid(repository_id, "repositoryId"))
+    if repository is None:
+        return jsonify({"error": "Repository not found"}), 404
+    pull_requests = sync_pull_requests(repository)
+    return jsonify({"pullRequests": [serialize_pull_request(item) for item in pull_requests]})
 
 
 @greptile_api.post("/pull-requests/<pull_request_id>/review")
@@ -236,25 +283,89 @@ def review_pull_request(pull_request_id: str):
     pr = GreptilePullRequest.query.filter_by(id=pr_id, workspace_id=g.workspace_id, deleted_at=None).first()
     if pr is None:
         return jsonify({"error": "Pull request not found"}), 404
-    pr.status = "issues_found" if pr.number in {271, 284} else "passed"
-    pr.issue_count = 1 if pr.number == 271 else 2 if pr.number == 284 else 0
-    db.session.commit()
+    repository = repository_for_workspace(g.workspace_id, pr.repository_id)
+    if repository is None:
+        return jsonify({"error": "Repository not found"}), 404
+    review_live_pull_request(pr, repository)
     return jsonify({"pullRequest": serialize_pull_request(pr)})
+
+
+@greptile_api.get("/conversations")
+@require_session
+def list_conversations():
+    rows = GreptileConversation.query.filter_by(
+        workspace_id=g.workspace_id,
+        deleted_at=None,
+    ).options(selectinload(GreptileConversation.messages)).order_by(GreptileConversation.updated_at.desc()).limit(30).all()
+    return jsonify({"conversations": [serialize_conversation(item) for item in rows]})
+
+
+@greptile_api.get("/conversations/<conversation_id>")
+@require_session
+def get_conversation(conversation_id: str):
+    conversation = GreptileConversation.query.filter_by(
+        id=require_uuid(conversation_id, "conversationId"),
+        workspace_id=g.workspace_id,
+        deleted_at=None,
+    ).options(
+        selectinload(GreptileConversation.messages).selectinload(GreptileMessage.citations)
+    ).first()
+    if conversation is None:
+        return jsonify({"error": "Conversation not found"}), 404
+    return jsonify({
+        "conversation": serialize_conversation(conversation),
+        "messages": [serialize_message(item) for item in conversation.messages if item.deleted_at is None],
+    })
+
+
+@greptile_api.delete("/conversations/<conversation_id>")
+@require_session
+def delete_conversation(conversation_id: str):
+    conversation = GreptileConversation.query.filter_by(
+        id=require_uuid(conversation_id, "conversationId"),
+        workspace_id=g.workspace_id,
+        deleted_at=None,
+    ).first()
+    if conversation is None:
+        return jsonify({"error": "Conversation not found"}), 404
+    now = datetime.now(timezone.utc)
+    conversation.deleted_at = now
+    for message in conversation.messages:
+        message.deleted_at = now
+        for citation in message.citations:
+            citation.deleted_at = now
+    db.session.commit()
+    return jsonify({"ok": True})
 
 
 @greptile_api.post("/query")
 @require_session
 @rate_limit(40, 60)
 def query_repository():
-    data = json_body("repositoryId", "question", "conversationId")
-    repository_id = require_uuid(data.get("repositoryId"), "repositoryId")
+    data = json_body("repositoryId", "repositoryIds", "question", "conversationId")
+    raw_repository_ids = data.get("repositoryIds")
+    if raw_repository_ids is None:
+        raw_repository_ids = [data.get("repositoryId")]
+    if not isinstance(raw_repository_ids, list) or not 1 <= len(raw_repository_ids) <= 4:
+        raise ValidationError("repositoryIds must contain between 1 and 4 repository IDs")
+    repository_ids = []
+    for raw_id in raw_repository_ids:
+        parsed = require_uuid(raw_id, "repositoryId")
+        if parsed not in repository_ids:
+            repository_ids.append(parsed)
     question = require_text(data.get("question"), "question", minimum=3, maximum=2000)
     conversation_id = optional_uuid(data.get("conversationId"), "conversationId")
-    repo = repository_for_workspace(g.workspace_id, repository_id)
-    if repo is None:
+    repositories = [repository_for_workspace(g.workspace_id, repository_id) for repository_id in repository_ids]
+    if any(repository is None for repository in repositories):
         return jsonify({"error": "Repository not found"}), 404
-    _conversation, message = answer_question(repo, question, conversation_id)
-    return jsonify({"messageId": str(message.id), "answer": message.content, "durationMs": message.duration_ms, "citations": [{"id": str(item.id), "path": item.path, "startLine": item.start_line, "endLine": item.end_line, "excerpt": item.excerpt} for item in message.citations]})
+    conversation, message = answer_question(repositories, question, conversation_id)
+    return jsonify({
+        "conversationId": str(conversation.id),
+        "messageId": str(message.id),
+        "answer": message.content,
+        "durationMs": message.duration_ms,
+        "citations": [serialize_citation(item) for item in message.citations],
+    })
 
 
 @greptile_api.post("/messages/<message_id>/feedback")
@@ -270,6 +381,23 @@ def message_feedback(message_id: str):
     message.feedback_rating = rating
     db.session.commit()
     return jsonify({"ok": True})
+
+
+@greptile_api.post("/product-feedback")
+@require_session
+@rate_limit(10, 60)
+def product_feedback():
+    data = json_body("message")
+    user = g.greptile_user
+    lead = GreptileContactLead(
+        name=user.display_name,
+        email=user.email,
+        company="Greptile product feedback",
+        message=require_text(data.get("message"), "message", minimum=10, maximum=4000),
+    )
+    db.session.add(lead)
+    db.session.commit()
+    return jsonify({"id": str(lead.id), "message": "Feedback recorded."}), 201
 
 
 @greptile_api.get("/rules")

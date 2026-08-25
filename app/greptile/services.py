@@ -11,7 +11,7 @@ from werkzeug.security import generate_password_hash
 from app.models import db
 
 from .llm_engine import LLMResponseError, generate_grounded_answer
-from .models import GreptileCitation, GreptileCodeFile, GreptileConversation, GreptileMessage, GreptilePullRequest, GreptileRepository, GreptileRepositorySnapshot, GreptileRule, GreptileUser, GreptileWorkspace
+from .models import GreptileCitation, GreptileCodeFile, GreptileConversation, GreptileMessage, GreptileRepository, GreptileRepositorySnapshot, GreptileRule, GreptileUser, GreptileWorkspace
 
 
 DEFAULT_WORKSPACE_ID = uuid.UUID("00000000-0000-4000-8000-000000000001")
@@ -22,15 +22,7 @@ def ensure_workspace(workspace_id: uuid.UUID) -> GreptileWorkspace:
     if workspace:
         return workspace
     workspace = GreptileWorkspace(id=workspace_id, name="Demo workspace")
-    repository = GreptileRepository(owner="acme", name="platform", provider="github", default_branch="main", status="ready", progress=100, last_indexed_at=datetime.now(timezone.utc))
-    workspace.repositories.append(repository)
     db.session.add(workspace)
-    db.session.flush()
-    db.session.add_all([
-        GreptilePullRequest(workspace_id=workspace.id, repository_id=repository.id, number=284, title="Prevent duplicate ledger writes on payment retry", author="sarah-chen", branch="fix/idempotent-retry", status="issues_found", issue_count=2),
-        GreptilePullRequest(workspace_id=workspace.id, repository_id=repository.id, number=279, title="Cache organization permissions", author="marco", branch="perf/org-permissions", status="passed", issue_count=0),
-        GreptilePullRequest(workspace_id=workspace.id, repository_id=repository.id, number=271, title="Add webhook delivery retries", author="alex-r", branch="feat/webhook-retries", status="open", issue_count=0),
-    ])
     try:
         db.session.commit()
     except IntegrityError:
@@ -89,8 +81,11 @@ def repository_for_workspace(workspace_id: uuid.UUID, repository_id: uuid.UUID) 
     return GreptileRepository.query.filter_by(id=repository_id, workspace_id=workspace_id, deleted_at=None).first()
 
 
-def answer_question(repository: GreptileRepository, question: str, conversation_id: uuid.UUID | None) -> tuple[GreptileConversation, GreptileMessage]:
+def answer_question(repositories: list[GreptileRepository], question: str, conversation_id: uuid.UUID | None) -> tuple[GreptileConversation, GreptileMessage]:
     started = time.perf_counter()
+    if not repositories:
+        raise LLMResponseError("Select at least one indexed repository.")
+    repository = repositories[0]
     conversation = None
     if conversation_id:
         conversation = GreptileConversation.query.filter_by(id=conversation_id, workspace_id=repository.workspace_id, repository_id=repository.id, deleted_at=None).first()
@@ -99,15 +94,19 @@ def answer_question(repository: GreptileRepository, question: str, conversation_
         db.session.add(conversation)
         db.session.flush()
 
-    snapshot = GreptileRepositorySnapshot.query.filter_by(
-        repository_id=repository.id,
-        workspace_id=repository.workspace_id,
-        status="ready",
-        deleted_at=None,
-    ).order_by(GreptileRepositorySnapshot.created_at.desc()).first()
-    if snapshot is None:
-        raise LLMResponseError("Index this repository before asking codebase questions.")
-    files = GreptileCodeFile.query.filter_by(snapshot_id=snapshot.id, deleted_at=None).all()
+    files: list[GreptileCodeFile] = []
+    repository_labels: dict[str, str] = {}
+    for selected in repositories:
+        snapshot = GreptileRepositorySnapshot.query.filter_by(
+            repository_id=selected.id,
+            workspace_id=repository.workspace_id,
+            status="ready",
+            deleted_at=None,
+        ).order_by(GreptileRepositorySnapshot.created_at.desc()).first()
+        if snapshot is None:
+            raise LLMResponseError(f"Index {selected.owner}/{selected.name} before asking codebase questions.")
+        files.extend(GreptileCodeFile.query.filter_by(snapshot_id=snapshot.id, deleted_at=None).all())
+        repository_labels[str(selected.id)] = f"{selected.owner}/{selected.name}"
     if not files:
         raise LLMResponseError("The latest repository index contains no supported source files.")
     rules = [
@@ -117,7 +116,7 @@ def answer_question(repository: GreptileRepository, question: str, conversation_
             deleted_at=None,
         ).all()
     ]
-    answer, grounded_sources, _model = generate_grounded_answer(files, question, rules)
+    answer, grounded_sources, _model = generate_grounded_answer(files, question, rules, repository_labels)
 
     db.session.add(GreptileMessage(conversation_id=conversation.id, role="user", content=question))
     message = GreptileMessage(conversation_id=conversation.id, role="assistant", content=answer, duration_ms=max(1, int((time.perf_counter() - started) * 1000)))
@@ -126,7 +125,7 @@ def answer_question(repository: GreptileRepository, question: str, conversation_
     for source in grounded_sources:
         db.session.add(GreptileCitation(
             message_id=message.id,
-            path=source.path,
+            path=f"{source.repository}::{source.path}" if source.repository else source.path,
             start_line=source.start_line,
             end_line=source.end_line,
             excerpt=source.excerpt,
