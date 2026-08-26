@@ -27,6 +27,7 @@ from flask_sock import Sock
 from app.routes.routes_VoiceAgent import api_voice_agent, init_voice_socket
 from app.routes.routes_Paces import api_paces
 from app.greptile import initialize_greptile_schema, register_greptile
+from app.anglera import initialize_anglera_schema, register_anglera
 
 def drop_all_tables():
     load_dotenv()
@@ -227,6 +228,7 @@ def create_app():
     app.register_blueprint(api_voice_agent)
     app.register_blueprint(api_paces)
     register_greptile(app)
+    register_anglera(app)
     init_voice_socket(sock)
     with app.app_context():
         if os.getenv('AUTO_CREATE_TABLES', 'true').lower() == 'true':
@@ -234,6 +236,9 @@ def create_app():
         # This is deliberately independent of AUTO_CREATE_TABLES: Greptile
         # creates only namespaced tables and does not alter existing data.
         initialize_greptile_schema()
+        # Anglera is a separate additive bounded context. It reuses only the
+        # authenticated workspace identity and never alters Paces/Greptile rows.
+        initialize_anglera_schema()
     # try:
     #     with app.app_context():
     #         db.create_all()
