@@ -28,6 +28,7 @@ from app.routes.routes_VoiceAgent import api_voice_agent, init_voice_socket
 from app.routes.routes_Paces import api_paces
 from app.greptile import initialize_greptile_schema, register_greptile
 from app.anglera import initialize_anglera_schema, register_anglera
+from app.taxgpt import initialize_taxgpt_schema, register_taxgpt
 
 def drop_all_tables():
     load_dotenv()
@@ -194,6 +195,23 @@ def _cors_origins():
     ]
 
 
+def _taxgpt_trusted_origins():
+    configured = [
+        origin.strip().rstrip('/')
+        for origin in os.getenv('FRONTEND_ORIGINS', '').split(',')
+        if origin.strip() and '*' not in origin
+    ]
+    local = [
+        'http://localhost:3000',
+        'http://localhost:3001',
+        'http://localhost:3002',
+        'http://127.0.0.1:3000',
+        'http://127.0.0.1:3001',
+        'http://127.0.0.1:3002',
+    ]
+    return tuple(dict.fromkeys(local + configured))
+
+
 def create_app():
     load_dotenv()
     app = Flask(__name__)
@@ -207,11 +225,29 @@ def create_app():
             r"/signup": {"origins": allowed_origins},
         },
         supports_credentials=True,
-        allow_headers=["Content-Type", "Authorization"],
+        allow_headers=["Content-Type", "Authorization", "Idempotency-Key"],
     )
 
     app.config.from_object(DevelopmentConfig)  # Load development config
+    if not app.config.get('SECRET_KEY'):
+        if os.getenv('APP_ENV', 'development').lower() == 'production':
+            raise RuntimeError('SECRET_KEY is required when APP_ENV=production')
+        app.config['SECRET_KEY'] = os.urandom(32).hex()
     app.config['GREPTILE_DUMMY_PASSWORD_HASH'] = generate_password_hash(os.urandom(32).hex())
+    app.config.update(
+        TAXGPT_DUMMY_PASSWORD_HASH=generate_password_hash(os.urandom(32).hex()),
+        TAXGPT_COOKIE_SECURE=(os.getenv('TAXGPT_COOKIE_SECURE', '').lower() == 'true') if os.getenv('TAXGPT_COOKIE_SECURE') is not None else None,
+        TAXGPT_MAX_FILE_BYTES=min(int(os.getenv('TAXGPT_MAX_FILE_BYTES', str(10 * 1024 * 1024))), 10 * 1024 * 1024),
+        TAXGPT_SESSION_HOURS=max(1, min(int(os.getenv('TAXGPT_SESSION_HOURS', '12')), 24)),
+        TAXGPT_REMEMBER_DAYS=max(1, min(int(os.getenv('TAXGPT_REMEMBER_DAYS', '7')), 30)),
+        TAXGPT_AUTH_RATE_LIMIT=max(3, min(int(os.getenv('TAXGPT_AUTH_RATE_LIMIT', '10')), 60)),
+        TAXGPT_DEMO_RATE_LIMIT=max(1, min(int(os.getenv('TAXGPT_DEMO_RATE_LIMIT', '5')), 60)),
+        TAXGPT_TRUST_PROXY_HEADERS=os.getenv('TAXGPT_TRUST_PROXY_HEADERS', 'false').lower() == 'true',
+        TAXGPT_OPENAI_TIMEOUT_SECONDS=max(5, min(int(os.getenv('TAXGPT_OPENAI_TIMEOUT_SECONDS', '30')), 120)),
+        TAXGPT_OPENAI_MAX_RETRIES=max(0, min(int(os.getenv('TAXGPT_OPENAI_MAX_RETRIES', '2')), 5)),
+        TAXGPT_TRUSTED_ORIGINS=_taxgpt_trusted_origins(),
+        TAXGPT_AUTO_CREATE_TABLES=os.getenv('TAXGPT_AUTO_CREATE_TABLES', os.getenv('AUTO_CREATE_TABLES', 'true')).lower() == 'true',
+    )
 
     db.init_app(app)
 
@@ -229,6 +265,7 @@ def create_app():
     app.register_blueprint(api_paces)
     register_greptile(app)
     register_anglera(app)
+    register_taxgpt(app)
     init_voice_socket(sock)
     with app.app_context():
         if os.getenv('AUTO_CREATE_TABLES', 'true').lower() == 'true':
@@ -239,6 +276,9 @@ def create_app():
         # Anglera is a separate additive bounded context. It reuses only the
         # authenticated workspace identity and never alters Paces/Greptile rows.
         initialize_anglera_schema()
+        # TaxGPT is another additive bounded context and owns only taxgpt_*
+        # tables, cookies, and routes inside the shared deployment.
+        initialize_taxgpt_schema()
     # try:
     #     with app.app_context():
     #         db.create_all()
