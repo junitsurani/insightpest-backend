@@ -29,6 +29,7 @@ from app.routes.routes_Paces import api_paces
 from app.greptile import initialize_greptile_schema, register_greptile
 from app.anglera import initialize_anglera_schema, register_anglera
 from app.taxgpt import initialize_taxgpt_schema, register_taxgpt
+from app.openmart import initialize_openmart_schema, register_openmart
 
 def drop_all_tables():
     load_dotenv()
@@ -212,6 +213,12 @@ def _taxgpt_trusted_origins():
     return tuple(dict.fromkeys(local + configured))
 
 
+def _openmart_trusted_origins():
+    # Reuse the shared FRONTEND_ORIGINS contract so existing deployments do
+    # not need a second origin variable just for this bounded context.
+    return _taxgpt_trusted_origins()
+
+
 def create_app():
     load_dotenv()
     app = Flask(__name__)
@@ -247,6 +254,20 @@ def create_app():
         TAXGPT_OPENAI_MAX_RETRIES=max(0, min(int(os.getenv('TAXGPT_OPENAI_MAX_RETRIES', '2')), 5)),
         TAXGPT_TRUSTED_ORIGINS=_taxgpt_trusted_origins(),
         TAXGPT_AUTO_CREATE_TABLES=os.getenv('TAXGPT_AUTO_CREATE_TABLES', os.getenv('AUTO_CREATE_TABLES', 'true')).lower() == 'true',
+        OPENMART_DUMMY_PASSWORD_HASH=generate_password_hash(os.urandom(32).hex()),
+        OPENMART_COOKIE_SECURE=(os.getenv('OPENMART_COOKIE_SECURE', '').lower() == 'true') if os.getenv('OPENMART_COOKIE_SECURE') is not None else None,
+        OPENMART_SESSION_HOURS=max(1, min(int(os.getenv('OPENMART_SESSION_HOURS', '12')), 24)),
+        OPENMART_REMEMBER_DAYS=max(1, min(int(os.getenv('OPENMART_REMEMBER_DAYS', '7')), 30)),
+        OPENMART_AUTH_RATE_LIMIT=max(3, min(int(os.getenv('OPENMART_AUTH_RATE_LIMIT', '10')), 60)),
+        OPENMART_TRUST_PROXY_HEADERS=os.getenv('OPENMART_TRUST_PROXY_HEADERS', 'false').lower() == 'true',
+        OPENMART_TRUSTED_ORIGINS=_openmart_trusted_origins(),
+        OPENMART_MAX_BODY_BYTES=min(int(os.getenv('OPENMART_MAX_BODY_BYTES', str(1024 * 1024))), 2 * 1024 * 1024),
+        OPENMART_AUTO_CREATE_TABLES=os.getenv('OPENMART_AUTO_CREATE_TABLES', os.getenv('AUTO_CREATE_TABLES', 'true')).lower() == 'true',
+        OPENMART_SEED_ENABLED=os.getenv('OPENMART_SEED_ENABLED', 'false').lower() == 'true',
+        OPENMART_SEED_EMAIL=os.getenv('OPENMART_SEED_EMAIL', ''),
+        OPENMART_SEED_PASSWORD=os.getenv('OPENMART_SEED_PASSWORD', ''),
+        OPENMART_SEED_DISPLAY_NAME=os.getenv('OPENMART_SEED_DISPLAY_NAME', 'Openmart Demo'),
+        OPENMART_SEED_WORKSPACE=os.getenv('OPENMART_SEED_WORKSPACE', 'Openmart Demo'),
     )
 
     db.init_app(app)
@@ -266,6 +287,7 @@ def create_app():
     register_greptile(app)
     register_anglera(app)
     register_taxgpt(app)
+    register_openmart(app)
     init_voice_socket(sock)
     with app.app_context():
         if os.getenv('AUTO_CREATE_TABLES', 'true').lower() == 'true':
@@ -279,6 +301,9 @@ def create_app():
         # TaxGPT is another additive bounded context and owns only taxgpt_*
         # tables, cookies, and routes inside the shared deployment.
         initialize_taxgpt_schema()
+        # Openmart owns only openmart_* tables, cookies, and routes. This keeps
+        # TaxGPT, Anglera, Paces, Greptile, and the legacy application isolated.
+        initialize_openmart_schema()
     # try:
     #     with app.app_context():
     #         db.create_all()
