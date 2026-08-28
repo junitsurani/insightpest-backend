@@ -24,8 +24,8 @@ class OpenmartApiTests(unittest.TestCase):
             OPENMART_MAX_BODY_BYTES=1024 * 1024,
             OPENMART_AUTO_CREATE_TABLES=True,
             OPENMART_SEED_ENABLED=True,
-            OPENMART_SEED_EMAIL="demo@openmart.local",
-            OPENMART_SEED_PASSWORD="OpenmartDemo2026!",
+            OPENMART_SEED_EMAIL="demo@gmail.com",
+            OPENMART_SEED_PASSWORD="openmartdemo",
             OPENMART_SEED_DISPLAY_NAME="Openmart Demo",
             OPENMART_SEED_WORKSPACE="Openmart Demo",
         )
@@ -47,10 +47,20 @@ class OpenmartApiTests(unittest.TestCase):
         })
 
     def test_seed_credentials_can_login(self):
-        response = self.client.post("/api/openmart/auth/login", json={"email": "demo@openmart.local", "password": "OpenmartDemo2026!", "remember": True})
+        response = self.client.post("/api/openmart/auth/login", json={"email": "demo@gmail.com", "password": "openmartdemo", "remember": True})
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json["user"]["displayName"], "Openmart Demo")
         self.assertIn("openmart_session=", response.headers["Set-Cookie"])
+        bootstrap = self.client.get("/api/openmart/bootstrap")
+        self.assertEqual(bootstrap.status_code, 200)
+        self.assertEqual(bootstrap.json["stats"]["leadLists"], 3)
+        self.assertEqual(bootstrap.json["stats"]["savedLeads"], 11)
+        self.assertEqual(bootstrap.json["stats"]["enrichedLeads"], 6)
+        self.assertEqual(bootstrap.json["stats"]["activeSequences"], 1)
+        with self.app.app_context():
+            initialize_openmart_schema()
+        repeated = self.client.get("/api/openmart/bootstrap")
+        self.assertEqual(repeated.json["stats"], bootstrap.json["stats"])
 
     def test_auth_health_and_namespaced_schema(self):
         health = self.client.get("/api/openmart/health")
@@ -111,8 +121,26 @@ class OpenmartApiTests(unittest.TestCase):
         key = self.client.post("/api/openmart/api-keys", json={"name": "Production API"})
         self.assertEqual(key.status_code, 201)
         self.assertTrue(key.json["apiKey"]["token"].startswith("om_live_"))
+        api_client = self.app.test_client()
+        api_search = api_client.post(
+            "/api/openmart/search",
+            headers={"x-api-key": key.json["apiKey"]["token"]},
+            json={"query": "Dentist", "location": "California", "filters": {}, "limit": 10},
+        )
+        self.assertEqual(api_search.status_code, 200)
+        self.assertGreaterEqual(api_search.json["total"], 2)
         listed = self.client.get("/api/openmart/api-keys")
         self.assertNotIn("token", listed.get_data(as_text=True))
+        key_id = key.json["apiKey"]["id"]
+        self.assertEqual(self.client.delete(f"/api/openmart/api-keys/{key_id}").status_code, 200)
+        self.assertEqual(
+            api_client.post(
+                "/api/openmart/search",
+                headers={"x-api-key": key.json["apiKey"]["token"]},
+                json={"query": "Dentist", "location": "California", "filters": {}, "limit": 10},
+            ).status_code,
+            401,
+        )
         settings = self.client.patch("/api/openmart/settings", json={"displayName": "Alexandra Morgan", "workspaceName": "Northstar Data", "country": "CA"})
         self.assertEqual(settings.status_code, 200)
         self.assertEqual(settings.json["workspace"]["country"], "CA")

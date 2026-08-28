@@ -13,7 +13,7 @@ from sqlalchemy.exc import IntegrityError
 from werkzeug.security import generate_password_hash
 
 from app.models import db
-from .auth import require_session
+from .auth import require_session, require_session_or_api_key
 from .models import (
     OpenmartApiKey, OpenmartBusiness, OpenmartExport, OpenmartInvitation,
     OpenmartLeadList, OpenmartLeadListItem, OpenmartSavedSearch, OpenmartSequence,
@@ -127,7 +127,7 @@ def materialize_business(source):
 
 
 @openmart_api.post("/search")
-@require_session
+@require_session_or_api_key
 def search():
     data = json_object(request.get_json(silent=True))
     only_fields(data, {"query", "location", "filters", "limit"})

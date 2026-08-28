@@ -7,10 +7,21 @@ import uuid
 
 from flask import current_app
 from sqlalchemy.exc import IntegrityError
-from werkzeug.security import generate_password_hash
+from werkzeug.security import check_password_hash, generate_password_hash
 
 from app.models import db
-from .models import OpenmartUser, OpenmartWorkspace
+from .models import (
+    OpenmartBusiness,
+    OpenmartExport,
+    OpenmartLeadList,
+    OpenmartLeadListItem,
+    OpenmartSavedSearch,
+    OpenmartSequence,
+    OpenmartSequenceStep,
+    OpenmartUsageEvent,
+    OpenmartUser,
+    OpenmartWorkspace,
+)
 
 
 DEFAULT_WORKSPACE_ID = uuid.UUID("00000000-0000-4000-8000-000000000004")
@@ -29,6 +40,18 @@ def seed_demo_user():
     workspace_name = str(current_app.config.get("OPENMART_SEED_WORKSPACE") or "Openmart Demo").strip()
     existing = OpenmartUser.query.filter_by(email=email, deleted_at=None).first()
     if existing:
+        changed = False
+        if not check_password_hash(existing.password_hash, password):
+            existing.password_hash = generate_password_hash(password)
+            changed = True
+        if existing.display_name != display_name:
+            existing.display_name = display_name
+            changed = True
+        if existing.workspace and existing.workspace.name != workspace_name:
+            existing.workspace.name = workspace_name
+            changed = True
+        if changed:
+            db.session.commit()
         return existing
     workspace = OpenmartWorkspace.query.filter_by(id=DEFAULT_WORKSPACE_ID, deleted_at=None).first()
     if workspace is None:
@@ -128,3 +151,167 @@ def enrichment_for(business):
 
 def key_hash(value: str):
     return hashlib.sha256(value.encode()).hexdigest()
+
+
+DEMO_LISTS = (
+    (
+        "Austin local business prospects",
+        "Owner-led Austin businesses ready for enrichment and outreach.",
+        ("om_001", "om_002", "om_014"),
+    ),
+    (
+        "California growth accounts",
+        "High-rated service businesses across California.",
+        ("om_004", "om_017", "om_018", "om_021", "om_022"),
+    ),
+    (
+        "Miami restaurant outreach",
+        "Independent Miami restaurants for the summer partnership campaign.",
+        ("om_006", "om_023", "om_024"),
+    ),
+)
+
+
+def seed_demo_workspace(user: OpenmartUser | None):
+    """Populate the configured demo workspace without duplicating existing rows."""
+    if user is None:
+        return
+
+    workspace_id = user.workspace_id
+    existing = {
+        row.external_id: row
+        for row in OpenmartBusiness.query.filter_by(workspace_id=workspace_id, deleted_at=None).all()
+    }
+    for source in CATALOG:
+        business = existing.get(source["external_id"])
+        if business is None:
+            business = OpenmartBusiness(
+                workspace_id=workspace_id,
+                external_id=source["external_id"],
+                name=source["name"],
+                category=source["category"],
+                street=source["street"],
+                city=source["city"],
+                region=source["region"],
+                country=source["country"],
+                postal_code=source["postal_code"],
+                website=source["website"],
+                phone=source["phone"],
+                owner_name=source["owner_name"],
+                owner_title=source["owner_title"],
+                rating=source["rating"],
+                review_count=source["review_count"],
+                employee_count=source["employee_count"],
+                revenue_estimate=source["revenue_estimate"],
+            )
+            db.session.add(business)
+            existing[source["external_id"]] = business
+    db.session.flush()
+
+    for external_id in ("om_001", "om_003", "om_004", "om_006", "om_017", "om_023"):
+        business = existing[external_id]
+        if not business.is_enriched:
+            enriched = enrichment_for(business)
+            business.company_email = enriched["company_email"]
+            business.owner_email = enriched["owner_email"]
+            business.owner_phone = enriched["owner_phone"]
+            business.is_enriched = True
+
+    lists = {}
+    for name, description, external_ids in DEMO_LISTS:
+        lead_list = OpenmartLeadList.query.filter_by(
+            workspace_id=workspace_id, name=name, deleted_at=None
+        ).first()
+        if lead_list is None:
+            lead_list = OpenmartLeadList(
+                workspace_id=workspace_id,
+                user_id=user.id,
+                name=name,
+                description=description,
+            )
+            db.session.add(lead_list)
+            db.session.flush()
+        lists[name] = lead_list
+        present = {
+            item.business_id
+            for item in OpenmartLeadListItem.query.filter_by(
+                lead_list_id=lead_list.id, deleted_at=None
+            ).all()
+        }
+        for external_id in external_ids:
+            business = existing[external_id]
+            if business.id not in present:
+                db.session.add(OpenmartLeadListItem(
+                    lead_list_id=lead_list.id,
+                    business_id=business.id,
+                    contact_status="qualified" if business.is_enriched else "lead",
+                    notes="Seeded demo prospect",
+                ))
+
+    if not OpenmartSavedSearch.query.filter_by(
+        workspace_id=workspace_id, search_query="Restaurants", location="Miami, FL", deleted_at=None
+    ).first():
+        db.session.add(OpenmartSavedSearch(
+            workspace_id=workspace_id,
+            user_id=user.id,
+            search_query="Restaurants",
+            location="Miami, FL",
+            filters_json='{"minimumRating": 4.5}',
+            result_count=3,
+        ))
+
+    sequence_name = "Miami restaurant introduction"
+    if not OpenmartSequence.query.filter_by(
+        workspace_id=workspace_id, name=sequence_name, deleted_at=None
+    ).first():
+        sequence = OpenmartSequence(
+            workspace_id=workspace_id,
+            user_id=user.id,
+            lead_list_id=lists["Miami restaurant outreach"].id,
+            name=sequence_name,
+            status="active",
+            sender_email=user.email,
+            sent_count=3,
+            reply_count=1,
+        )
+        sequence.steps = [
+            OpenmartSequenceStep(
+                step_order=1,
+                delay_days=0,
+                subject="Quick question for {{business_name}}",
+                body="Hi {{owner_name}}, I came across {{business_name}} and wanted to share an idea.",
+            ),
+            OpenmartSequenceStep(
+                step_order=2,
+                delay_days=3,
+                subject="Following up",
+                body="Would a short conversation be useful this week?",
+            ),
+        ]
+        db.session.add(sequence)
+
+    export_name = "california-growth-accounts.csv"
+    if not OpenmartExport.query.filter_by(
+        workspace_id=workspace_id, filename=export_name, deleted_at=None
+    ).first():
+        db.session.add(OpenmartExport(
+            workspace_id=workspace_id,
+            user_id=user.id,
+            lead_list_id=lists["California growth accounts"].id,
+            filename=export_name,
+            format="csv",
+            fields_json='["name", "category", "phone", "companyEmail", "ownerName", "ownerEmail"]',
+            row_count=5,
+        ))
+
+    if not OpenmartUsageEvent.query.filter_by(
+        workspace_id=workspace_id, event_type="demo_workspace_seeded", deleted_at=None
+    ).first():
+        db.session.add(OpenmartUsageEvent(
+            workspace_id=workspace_id,
+            user_id=user.id,
+            event_type="demo_workspace_seeded",
+            subject="Populated demo workspace",
+            credits_delta=0,
+        ))
+    db.session.commit()

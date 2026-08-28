@@ -16,7 +16,7 @@ from .models import (
     OpenmartUser, OpenmartWorkspace,
 )
 from .routes import openmart_api
-from .services import seed_demo_user
+from .services import seed_demo_user, seed_demo_workspace
 
 
 OPENMART_MODELS = (
@@ -72,7 +72,8 @@ def register_openmart(app: Flask) -> None:
 def initialize_openmart_schema() -> None:
     if current_app.config.get("OPENMART_AUTO_CREATE_TABLES", True):
         db.metadata.create_all(bind=db.engine, tables=[model.__table__ for model in OPENMART_MODELS])
-    seed_demo_user()
+    demo_user = seed_demo_user()
+    seed_demo_workspace(demo_user)
     cutoff = datetime.now(timezone.utc) - timedelta(days=1)
     OpenmartRateEvent.query.filter(OpenmartRateEvent.created_at < cutoff).delete(synchronize_session=False)
     session_cutoff = datetime.now(timezone.utc) - timedelta(days=30)

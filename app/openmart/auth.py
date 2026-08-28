@@ -10,7 +10,7 @@ from sqlalchemy.exc import IntegrityError
 from werkzeug.security import check_password_hash, generate_password_hash
 
 from app.models import db
-from .models import OpenmartSession, OpenmartUser, OpenmartWorkspace
+from .models import OpenmartApiKey, OpenmartSession, OpenmartUser, OpenmartWorkspace
 from .security import allow_request
 from .validation import ValidationError, email, json_object, only_fields, password, text
 
@@ -76,6 +76,43 @@ def require_session(handler):
         g.openmart_session = session
         g.openmart_user = session.user
         g.workspace_id = session.user.workspace_id
+        return handler(*args, **kwargs)
+    return wrapped
+
+
+def require_session_or_api_key(handler):
+    """Authenticate browser sessions or a non-revoked workspace API key."""
+    @wraps(handler)
+    def wrapped(*args, **kwargs):
+        session = current_session()
+        if session is not None:
+            g.openmart_session = session
+            g.openmart_user = session.user
+            g.workspace_id = session.user.workspace_id
+            return handler(*args, **kwargs)
+
+        token = request.headers.get("x-api-key", "").strip()
+        if not token or len(token) > 200:
+            return clear_cookie(jsonify({"error": "Authentication required"})), 401
+        api_key = OpenmartApiKey.query.filter_by(
+            key_hash=token_hash(token), revoked_at=None, deleted_at=None,
+        ).first()
+        user = None
+        if api_key is not None:
+            user = OpenmartUser.query.filter_by(
+                id=api_key.user_id,
+                workspace_id=api_key.workspace_id,
+                is_active=True,
+                deleted_at=None,
+            ).first()
+        if user is None:
+            return jsonify({"error": "Invalid or revoked API key"}), 401
+
+        api_key.last_used_at = utcnow()
+        g.openmart_session = None
+        g.openmart_api_key = api_key
+        g.openmart_user = user
+        g.workspace_id = user.workspace_id
         return handler(*args, **kwargs)
     return wrapped
 
